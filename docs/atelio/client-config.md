@@ -1,10 +1,10 @@
 # Client Configuration
 
-## Introduction   [Skip link to Introduction](https://docs.atelio.com/embedded/docs/client-config\#introduction)
+## Introduction
 
 The Client Configuration API allows you to retrieve configuration details for a client in the Atelio platform. This endpoint returns client information along with feature-specific configuration settings.
 
-## Get Client Configuration   [Skip link to Get Client Configuration](https://docs.atelio.com/embedded/docs/client-config\#get-client-configuration)
+## Get Client Configuration
 
 Retrieves the configuration for a client.
 
@@ -12,11 +12,11 @@ Retrieves the configuration for a client.
 GET /client/config
 ```
 
-### Response   [Skip link to Response](https://docs.atelio.com/embedded/docs/client-config\#response)
+### Response
 
 The response includes client identification information and feature-specific configuration settings.
 
-#### Response Structure   [Skip link to Response Structure](https://docs.atelio.com/embedded/docs/client-config\#response-structure)
+#### Response Structure
 
 JSON
 
@@ -42,7 +42,7 @@ JSON
 }
 ```
 
-#### Response Fields   [Skip link to Response Fields](https://docs.atelio.com/embedded/docs/client-config\#response-fields)
+#### Response Fields
 
 | Field | Type | Description |
 | --- | --- | --- |
@@ -52,7 +52,7 @@ JSON
 | `name` | string | The client's name. |
 | `program_id` | string | The program ID associated with the client. |
 
-#### Config Object   [Skip link to Config Object](https://docs.atelio.com/embedded/docs/client-config\#config-object)
+#### Config Object
 
 The `config` object contains feature-specific configuration settings organized into sections:
 
@@ -63,7 +63,7 @@ The `config` object contains feature-specific configuration settings organized i
 | `money_movement_required` | boolean | Whether money movement setup is required for onboarding or credit cards. |
 | `watchlist_program_id` | string | The program ID used for watchlist screening in Pay By Bank. |
 
-## Example Request   [Skip link to Example Request](https://docs.atelio.com/embedded/docs/client-config\#example-request)
+## Example Request
 
 Bash
 
@@ -74,7 +74,7 @@ curl -X GET \
   -H 'Identity: <YOUR_IDENTITY_TOKEN>'
 ```
 
-## Example Response   [Skip link to Example Response](https://docs.atelio.com/embedded/docs/client-config\#example-response)
+## Example Response
 
 JSON
 

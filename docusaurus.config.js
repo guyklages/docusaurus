@@ -75,30 +75,50 @@ const config = {
   ],
 
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
-      // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+    {
+      image: 'img/Guy-suit-head-shot.png',
       colorMode: {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'My Site',
+        title: 'Guy Klages',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/Guy-suit-head-shot.png',
         },
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'sidebarPortfolio',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Portfolio',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            type: 'docSidebar',
+            sidebarId: 'sidebarAtelio',
+            position: 'left',
+            label: 'Atelio (FIS)',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'sidebarNium',
+            position: 'left',
+            label: 'Nium',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'sidebarCouchbase',
+            position: 'left',
+            label: 'Couchbase',
+          },
+          {
+            to: '/blog',
+            label: 'Blog',
+            position: 'left'
+          },
+          {
+            href: 'https://github.com/guyklages',
+            label: 'Guy Klages GitHub',
             position: 'right',
           },
         ],
@@ -152,7 +172,7 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
-    }),
+    },
 };
 
 export default config;

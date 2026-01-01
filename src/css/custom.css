@@ -14,6 +14,8 @@
   --ifm-color-primary-lighter: #359962;
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
+  --ifm-link-color: #0000FF;
+  --ifm-link-hover-color: #0000AA;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
@@ -26,5 +28,43 @@
   --ifm-color-primary-light: #29d5b0;
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
+  --ifm-link-color: #4da6ff;
+  --ifm-link-hover-color: #80bfff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* For font url(../../static/fonts/RobotoCondensed-VariableFont_wght.ttf */
+@font-face {
+  font-family: 'RobotoCondensed';
+  src: url('/fonts/RobotoCondensed-VariableFont_wght.ttf') format('wght');
+  font-weight: 400; /* Adjust weight as needed */
+  font-style: normal;
+  font-display: swap; /* Recommended for performance */
+}
+
+body {
+  font-family: 'RobotoCondensed';
+}
+h1, h2, h3, h4{
+  font-family: 'RobotoCondensed';
+  font-weight: 700; /* Example for headings */
+}
+
+sidebar-spacer {
+  height: 3rem; /* Adjust the height as needed for your desired spacing */
+}
+
+table.fixedFourColumn {
+  table-layout: fixed;
+  vertical-align: top;
+  width: 100%;
+}
+
+.top-align-table td,
+.top-align-table th {
+  vertical-align: top;
+}
+
+table.fixedFourColumn th {
+  width: 25%;
 }

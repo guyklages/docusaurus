@@ -6,7 +6,17 @@ import TabItem from '@theme/TabItem';
 > 📘 **Note**
 > A business must have one or more Beneficial Owners (BO).
 
-## Create a beneficial owner
+
+## Manage beneficial owners
+
+Use the following to manage Beneficial Owners:
+
+- [Create a beneficial owner](#create-a-beneficial-owner)
+- [Retrieve a beneficial owner](#retrieve-a-beneficial-owner)
+- [Update a Beneficial Owner](#update-a-beneficial-owner)
+- [Delete a Beneficial Owner](#delete-a-beneficial-owner)
+
+### Create a beneficial owner
 
 To add a Beneficial Owner (BO) to a business, use the [CreateBeneficialOwner](https://docs.atelio.com/embedded/reference/post_beneficial_owners) endpoint and provide parameters as shown in the following tables.
 
@@ -18,7 +28,7 @@ To add a Beneficial Owner (BO) to a business, use the [CreateBeneficialOwner](ht
 | `last_name`   | Yes      | string | Beneficial owner's last name, between 2 and 20 characters. Must start with a letter and can only contain letters, spaces, and apostrophes. |
 | [addresses](https://docs.atelio.com/embedded/docs/beneficial-owners#addresses-array) | Yes | array | One or more of the beneficial owner's addresses. , see the Addresses object table below. |
 
-### `addresses` array 
+#### `addresses` array 
 
 The `addresses` array contains the following parameters.
 
@@ -35,7 +45,7 @@ The `addresses` array contains the following parameters.
 
 The following is an example of a request to create a Beneficial Owner of a business.
 
-### Example request
+#### Example request
 
 ```curl
 curl --request POST \
@@ -45,52 +55,52 @@ curl --request POST \
   --header 'Identity: <YOUR_IDENTITY>' \
   --data '
 {
-  "addresses": [\
-    {\
-      "address_type": "PHYSICAL",\
-      "street": "5 California Ave.",\
-      "street2": "Suite 770",\
-      "city": "San Francisco",\
-      "state": "CA",\
-      "zip_code": "12345-1234",\
-      "country": "US",\
-      "is_primary": true\
-    }\
+  "addresses": [
+    {
+      "address_type": "PHYSICAL",
+      "street": "5 California Ave.",
+      "street2": "Suite 770",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip_code": "12345-1234",
+      "country": "US",
+      "is_primary": true
+    }
   ],
   "dob": "1992-03-23",
   "first_name": "Boris",
   "middle_name": "Jim",
   "last_name": "Pasakovitch"
-}
+}'
 ```
 
-### Example response
+#### Example response
 
 A successful response contains all the information related to the new Beneficial Owner in a JSON file. It also includes a `beneficial_owner_id`, which is the unique Atelio identifier for the Beneficial Owner that must be provided in API calls, such as when initiating a [KYC](https://docs.atelio.com/embedded/docs/beneficial-owner-verification) request.
 
-The following is an example of a response to a successful request to add a Beneficial Owner.
+The following JSON is an example of a response to a successful request to add a Beneficial Owner.
 
 ```json
 {
   "first_name": "New",
   "last_name": "Owner",
   "dob": "1999-10-10",
-  "address": [\
-    {\
-      "address_type": "PHYSICAL",\
-      "street": "345 California St.",\
-      "street2": "Suite 600",\
-      "city": "San Francisco",\
-      "state": "CA",\
-      "zip_code": "94104-2657",\
-      "country": "US",\
-      "is_primary": true\
-    }\
+  "address": [
+    {
+      "address_type": "PHYSICAL",
+      "street": "345 California St.",
+      "street2": "Suite 600",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip_code": "94104-2657",
+      "country": "US",
+      "is_primary": true
+    }
   ]
 }
 ```
 
-### When missing a field
+#### When missing a field
 
 If you try to add a Beneficial Owner with a missing field, you receive a JSON response similar to the following.
 
@@ -102,14 +112,6 @@ If you try to add a Beneficial Owner with a missing field, you receive a JSON re
       'Type': 'Request Error'
 }
 ```
-
-## Manage beneficial owners
-
-Use the following to manage Beneficial Owners:
-
-- [Retrieve a beneficial owner](https://docs.atelio.com/embedded/docs/beneficial-owners#retrieve-a-beneficial-owner)
-- [Updating a Beneficial Owner](https://docs.atelio.com/embedded/docs/managing-beneficial-owners#updating-a-beneficial-owner)
-- [Deleting a Beneficial Owner](https://docs.atelio.com/embedded/docs/managing-beneficial-owners#deleting-a-beneficial-owner)
 
 ### Retrieve a beneficial owner
 
@@ -135,19 +137,19 @@ The following JSON is an example of a successful request to retrieve a beneficia
   "last_name": "Owner",
   "date_created": "2019-08-24T14:15:22Z",
   "dob": "1999-10-10",
-  "address": [\
-    {\
-      "date_created": "2019-08-24T14:15:22Z",\
-      "address_id": "12374791-5d05-4e3e-a5e3-e61e3817622134",\
-      "address_type": "PHYSICAL",\
-      "street": "345 California St.",\
-      "street2": "Suite 600",\
-      "city": "San Francisco",\
-      "state": "CA",\
-      "zip_code": "94104-2657",\
-      "country": "US",\
-      "is_primary": true,\
-    }\
+  "address": [
+    {
+      "date_created": "2019-08-24T14:15:22Z",
+      "address_id": "12374791-5d05-4e3e-a5e3-e61e3817622134",
+      "address_type": "PHYSICAL",
+      "street": "345 California St.",
+      "street2": "Suite 600",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip_code": "94104-2657",
+      "country": "US",
+      "is_primary": true,
+    }
   ]
 }
 ```
@@ -176,49 +178,49 @@ The following JSON is an example of a successful request to retrieve all benefic
     "page": 1,
     "pages": 1
   },
-  "data": [\
-    {\
-      "beneficial_owner_id": "4943fc81-e7e8-43b5-8be6-9c43fcec505a",\
-      "first_name": "David",\
-      "last_name": "Letterman",\
-      "date_created": "2019-08-24T14:15:22.000Z",\
-      "date_updated": "2019-08-24T14:15:22.000Z",\
-      "dob": "1980-04-04",\
-      "address": [\
-        {\
-          "address_id": "12348579-5d05-4e3e-a5e3-e61e3a5b1234",\
-          "address_type": "MAILING",\
-          "street": "345 California Ave.",\
-          "street2": "Suite 600",\
-          "city": "San Francisco",\
-          "state": "CA",\
-          "zip_code": "12345-1234",\
-          "country": "US",\
-          "is_primary": true,\
-        }\
-      ]\
-    },\
-    {\
-      "beneficial_owner_id": "29ec6db6-4e12-4521-8ba7-7afc5c4730dd",\
-      "first_name": "Conan",\
-      "last_name": "O'Brian",\
-      "date_created": "2019-08-24T14:15:22.000Z",\
-      "date_updated": "2019-08-24T14:15:22.000Z",\
-      "dob": "1980-04-04",\
-      "address": [\
-        {\
-          "address_id": "12348579-5d05-4e3e-a5e3-e61e3a5b1234",\
-          "address_type": "MAILING",\
-          "street": "345 California Ave.",\
-          "street2": "Suite 600",\
-          "city": "San Francisco",\
-          "state": "CA",\
-          "zip_code": "12345-1234",\
-          "country": "US",\
-          "is_primary": true,\
-        }\
-      ]\
-    }\
+  "data": [
+    {
+      "beneficial_owner_id": "4943fc81-e7e8-43b5-8be6-9c43fcec505a",
+      "first_name": "David",
+      "last_name": "Letterman",
+      "date_created": "2019-08-24T14:15:22.000Z",
+      "date_updated": "2019-08-24T14:15:22.000Z",
+      "dob": "1980-04-04",
+      "address": [
+        {
+          "address_id": "12348579-5d05-4e3e-a5e3-e61e3a5b1234",
+          "address_type": "MAILING",
+          "street": "345 California Ave.",
+          "street2": "Suite 600",
+          "city": "San Francisco",
+          "state": "CA",
+          "zip_code": "12345-1234",
+          "country": "US",
+          "is_primary": true,
+        }
+      ]
+    },
+    {
+      "beneficial_owner_id": "29ec6db6-4e12-4521-8ba7-7afc5c4730dd",
+      "first_name": "Conan",
+      "last_name": "O'Brian",
+      "date_created": "2019-08-24T14:15:22.000Z",
+      "date_updated": "2019-08-24T14:15:22.000Z",
+      "dob": "1980-04-04",
+      "address": [
+        {
+          "address_id": "12348579-5d05-4e3e-a5e3-e61e3a5b1234",
+          "address_type": "MAILING",
+          "street": "345 California Ave.",
+          "street2": "Suite 600",
+          "city": "San Francisco",
+          "state": "CA",
+          "zip_code": "12345-1234",
+          "country": "US",
+          "is_primary": true,
+        }
+      ]
+    }
   ]
 }
 ```
@@ -253,17 +255,17 @@ The following JSON is an example of a response to a successful request to update
   "first_name": "New",
   "last_name": "Owner",
   "dob": "1999-10-10",
-  "address": [\
-    {\
-      "address_type": "PHYSICAL",\
-      "street": "345 California St.",\
-      "street2": "Suite 600",\
-      "city": "San Francisco",\
-      "state": "CA",\
-      "zip_code": "94104-2657",\
-      "country": "US",\
-      "is_primary": true\
-    }\
+  "address": [
+    {
+      "address_type": "PHYSICAL",
+      "street": "345 California St.",
+      "street2": "Suite 600",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip_code": "94104-2657",
+      "country": "US",
+      "is_primary": true
+    }
   ]
 }
 ```
@@ -293,20 +295,20 @@ The following JSON is an example of a response to a successful request to delete
     "date_created":"2019-08-24T14:15:22Z",
     "date_deleted":"2019-10-24T14:15:22Z",
     "dob": "1999-10-10",
-    "address":[\
-        {\
-            "date_created":"2019-08-24T14:15:22Z",\
-            "date_deleted":"2019-10-24T14:15:22Z",\
-            "address_id":"12348579-5d05-4e3e-a5e3-e61e3a5b1234",\
-            "address_type":"MAILING",\
-            "street":"345 California Ave.",\
-            "street2":"Suite 600",\
-            "city":"San Francisco",\
-            "state":"CA",\
-            "zip_code":"12345-1234",\
-            "country":"US",\
-            "is_primary":true,\
-        }\
+    "address":[
+        {
+            "date_created":"2019-08-24T14:15:22Z",
+            "date_deleted":"2019-10-24T14:15:22Z",
+            "address_id":"12348579-5d05-4e3e-a5e3-e61e3a5b1234",
+            "address_type":"MAILING",
+            "street":"345 California Ave.",
+            "street2":"Suite 600",
+            "city":"San Francisco",
+            "state":"CA",
+            "zip_code":"12345-1234",
+            "country":"US",
+            "is_primary":true,
+        }
     ]
 }
 ```
@@ -390,33 +392,33 @@ The following JSON is an example of a response to a successful request to retrie
     "page": 1,
     "pages": 1
   },
-  "data": [\
-    {\
-      "date_created": "2019-08-24T14:15:22.000Z",\
-      "date_updated": "2020-06-24T14:15:22.000Z",\
-      "address_id": "12348579-5d05-4e3e-a5e3-e61e3a5b1234",\
-      "address_type": "MAILING",\
-      "street": "345 California Ave.",\
-      "street2": "Suite 600",\
-      "city": "San Francisco",\
-      "state": "CA",\
-      "zip_code": "12345-1234",\
-      "country": "US",\
-      "is_primary": true,\
-    },\
-    {\
-      "date_created": "2019-08-24T14:15:22.000Z",\
-      "date_updated": "2021-04-24T14:15:22.000Z",\
-      "address_id": "12348579-5d05-4e3e-a5e3-e61e3a5b1234",\
-      "address_type": "MAILING",\
-      "street": "123 Oregon Ave.",\
-      "street2": "Suite 100",\
-      "city": "San Portier",\
-      "state": "AL",\
-      "zip_code": "12345-1234",\
-      "country": "US",\
-      "is_primary": false,\
-    }\
+  "data": [
+    {
+      "date_created": "2019-08-24T14:15:22.000Z",
+      "date_updated": "2020-06-24T14:15:22.000Z",
+      "address_id": "12348579-5d05-4e3e-a5e3-e61e3a5b1234",
+      "address_type": "MAILING",
+      "street": "345 California Ave.",
+      "street2": "Suite 600",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip_code": "12345-1234",
+      "country": "US",
+      "is_primary": true,
+    },
+    {
+      "date_created": "2019-08-24T14:15:22.000Z",
+      "date_updated": "2021-04-24T14:15:22.000Z",
+      "address_id": "12348579-5d05-4e3e-a5e3-e61e3a5b1234",
+      "address_type": "MAILING",
+      "street": "123 Oregon Ave.",
+      "street2": "Suite 100",
+      "city": "San Portier",
+      "state": "AL",
+      "zip_code": "12345-1234",
+      "country": "US",
+      "is_primary": false,
+    }
   ]
 }
 ```
@@ -631,27 +633,27 @@ success failure error timeout documents_required under_review_foreign_bo
         ```
     </TabItem>
     <TabItem value="doc_required" label="documents_required">
-        ```text
+        ```json
         {
             "event": "kyc.verification.documents_required",
             "customer_id": "a5bcf5a8-c4e0-4025-8183-5346176ee3db",
             "occurred_at": "2021-02-02-00:50:58.484840+00:00",
-            "documents":[\
-            {\
-                "document_type": "government_id",\
-                "upload_link": "https://withpersona.com/verify?template-id=tmpl_111111111111111111111111&reference-id=a5bcf5a8-c4e0-4025-8183-5346176ee3db",\
-                "status": "required"\
-            },\
-            {\
-                "document_type": "utility_bill",\
-                "upload_link": "https://withpersona.com/verify?template-id=tmpl_222222222222222222222222&reference-id=a5bcf5a8-c4e0-4025-8183-5346176ee3db",\
-                "status": "required"\
-            },\
-            {\
-                "document_type": "social_security_card",\
-                "upload_link": "https://withpersona.com/verify?template-id=tmpl_333333333333333333333333&reference-id=a5bcf5a8-c4e0-4025-8183-5346176ee3db",\
-                "status": "required"\
-            },\
+            "documents":[
+            {
+                "document_type": "government_id",
+                "upload_link": "https://withpersona.com/verify?template-id=tmpl_111111111111111111111111&reference-id=a5bcf5a8-c4e0-4025-8183-5346176ee3db",
+                "status": "required"
+            },
+            {
+                "document_type": "utility_bill",
+                "upload_link": "https://withpersona.com/verify?template-id=tmpl_222222222222222222222222&reference-id=a5bcf5a8-c4e0-4025-8183-5346176ee3db",
+                "status": "required"
+            },
+            {
+                "document_type": "social_security_card",
+                "upload_link": "https://withpersona.com/verify?template-id=tmpl_333333333333333333333333&reference-id=a5bcf5a8-c4e0-4025-8183-5346176ee3db",
+                "status": "required"
+            },
             ]
         }
         ```
@@ -801,10 +803,9 @@ After the beneficial owner has submitted _all_ of the required documents request
 
 After the necessary checks on the submitted documents have been completed, a `kyc.verification.success` or `kyc.verification.failed` webhook event is sent.
 
-| Types | Description |
-| --- | --- |
-| Supported file types | .jpg, .png, .heic, .pdf |
-| Supported document types | Government ID, Proof of address, Social security card. |
+| File types | Document types |
+| ---------- | -------------- |
+| - `.heic` <br/> - `.jpg` <br/> - `.pdf` <br/> - `.png` | - Government ID <br/> - Proof of address <br/> - Social security card |
 
 #### Document upload links
 
@@ -826,22 +827,22 @@ The following JSON is an example of a `kyc.verification.documents_required` webh
     "event": "kyc.verification.document_required",
     "customer_id": "a5bcf5a8-c4e0-4025-8183-5346176ee3db",
     "occurred_at": "2021-02-02-00:50:58.484840+00:00",
-    "documents":[\
-      {\
-        "document_type": "government_id",\
-        "upload_link": "https://withpersona.com/verify?template-id=tmpl_111111111111111111111111&reference-id=a5bcf5a8-c4e0-4025-8183-5346176ee3db",\
-        "status": "required"\
-      },\
-      {\
-        "document_type": "proof_of_address",\
-        "upload_link": "https://withpersona.com/verify?template-id=tmpl_222222222222222222222222&reference-id=a5bcf5a8-c4e0-4025-8183-5346176ee3db",\
-        "status": "required"\
-      },\
-      {\
-        "document_type": "social_security_card",\
-        "upload_link": "https://withpersona.com/verify?template-id=tmpl_333333333333333333333333&reference-id=a5bcf5a8-c4e0-4025-8183-5346176ee3db",\
-        "status": "required"\
-      },\
+    "documents":[
+      {
+        "document_type": "government_id",
+        "upload_link": "https://withpersona.com/verify?template-id=tmpl_111111111111111111111111&reference-id=a5bcf5a8-c4e0-4025-8183-5346176ee3db",
+        "status": "required"
+      },
+      {
+        "document_type": "proof_of_address",
+        "upload_link": "https://withpersona.com/verify?template-id=tmpl_222222222222222222222222&reference-id=a5bcf5a8-c4e0-4025-8183-5346176ee3db",
+        "status": "required"
+      },
+      {
+        "document_type": "social_security_card",
+        "upload_link": "https://withpersona.com/verify?template-id=tmpl_333333333333333333333333&reference-id=a5bcf5a8-c4e0-4025-8183-5346176ee3db",
+        "status": "required"
+      },
     ]
 }
 ```

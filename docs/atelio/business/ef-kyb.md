@@ -122,23 +122,23 @@ The following table lists the possible responses to a KYB request:
             "event": "kyb.verification.rejected",
             "business_id": "002e0f0e-e39d-4351-876c-afcad30d9c37",
             "occurred_at": "2021-02-02-00:50:58.484840+00:00",
-            "details" :[\
-                {\
-                "code": "rejected_address",\
-                "reason" : "address verification failed"\
-                },\
-                {\
-                "code": "rejected_tin",\
-                "reason" : "TIN verification failed"\
-                },\
-                {\
-                "code": "rejected_name",\
-                "reason" : "name verification failed"\
-                },\
-                {\
-                "code": "rejected_watchlist",\
-                "reason" : "watchlist verification failed."\
-                }\
+            "details" :[
+                {
+                "code": "rejected_address",
+                "reason" : "address verification failed"
+                },
+                {
+                "code": "rejected_tin",
+                "reason" : "TIN verification failed"
+                },
+                {
+                "code": "rejected_name",
+                "reason" : "name verification failed"
+                },
+                {
+                "code": "rejected_watchlist",
+                "reason" : "watchlist verification failed."
+                }
             ]
             }
         ```
@@ -191,23 +191,23 @@ curl --request GET \
         "business_id": "002e0f0e-e39d-4351-876c-afcad30d9c37",
         "kyb_status": "rejected",
         "details" :
-        [\
-            {\
-            "code": "rejected_address",\
-            "reason" : "address verification failed"\
-            },\
-            {\
-            "code": "rejected_tin",\
-            "reason" : "TIN verification failed"\
-            },\
-            {\
-            "code": "rejected_name",\
-            "reason" : "name verification failed"\
-            },\
-            {\
-            "code": "rejected_watchlist",\
-            "reason" : "watchlist verification failed."\
-            }\
+        [
+            {
+            "code": "rejected_address",
+            "reason" : "address verification failed"
+            },
+            {
+            "code": "rejected_tin",
+            "reason" : "TIN verification failed"
+            },
+            {
+            "code": "rejected_name",
+            "reason" : "name verification failed"
+            },
+            {
+            "code": "rejected_watchlist",
+            "reason" : "watchlist verification failed."
+            }
         ]
         }
         ```
@@ -249,21 +249,21 @@ The JSON response includes pagination information and an array of KYB verificati
     "page": 1,
     "pages": 2
   },
-  "data": [\
-    {\
-      "vendor_kyb_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",\
-      "vendor": "persona",\
-      "business_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",\
-      "brand_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",\
-      "program_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",\
-      "verification_name": "Business Verification",\
-      "status": "approved",\
-      "reason": ["No issues found"],\
-      "requirement": null,\
-      "verification_metadata": {"example_key": "example_value"},\
-      "event_id": "event_12345",\
-      "verification_type": "kyb_v2"\
-    }\
+  "data": [
+    {
+      "vendor_kyb_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "vendor": "persona",
+      "business_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "brand_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "program_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "verification_name": "Business Verification",
+      "status": "approved",
+      "reason": ["No issues found"],
+      "requirement": null,
+      "verification_metadata": {"example_key": "example_value"},
+      "event_id": "event_12345",
+      "verification_type": "kyb_v2"
+    }
   ]
 }
 ```

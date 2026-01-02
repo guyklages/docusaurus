@@ -38,37 +38,37 @@ curl --request POST \
     "website": "<https://www.business.com>",
     "industry_type": "Financial",
     "number_of_employees": "0-50",
-    "addresses": [\
-      {\
-        "address_type": "MAILING",\
-        "street": "345 California Ave.",\
-        "street2": "Suit 600",\
-        "city": "San Francisco",\
-        "state": "CA",\
-        "zip_code": "12345-1234",\
-        "country": "US",\
-        "is_primary": true\
-      }\
+    "addresses": [
+      {
+        "address_type": "MAILING",
+        "street": "345 California Ave.",
+        "street2": "Suit 600",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip_code": "12345-1234",
+        "country": "US",
+        "is_primary": true
+      }
     ],
-    "beneficial_owners": [\
-      {\
-        "dob": "1980-04-04",\
-        "first_name": "John",\
-        "middle_name": "O'\''Shea",\
-        "last_name": "Doe",\
-        "addresses": [\
-          {\
-            "address_type": "MAILING",\
-            "street": "345 California Ave.",\
-            "street2": "Suit 600",\
-            "city": "San Francisco",\
-            "state": "CA",\
-            "zip_code": "12345-1234",\
-            "country": "US",\
-            "is_primary": true\
-          }\
-        ]\
-      }\
+    "beneficial_owners": [
+      {
+        "dob": "1980-04-04",
+        "first_name": "John",
+        "middle_name": "O'\''Shea",
+        "last_name": "Doe",
+        "addresses": [
+          {
+            "address_type": "MAILING",
+            "street": "345 California Ave.",
+            "street2": "Suit 600",
+            "city": "San Francisco",
+            "state": "CA",
+            "zip_code": "12345-1234",
+            "country": "US",
+            "is_primary": true
+          }
+        ]
+      }
     ]
 }'
 ```
@@ -91,63 +91,63 @@ JSON
   "industry_type": "Financial",
   "kyb_status": "approved",
   "number_of_employees": "0-50",
-  "addresses": [\
-    {\
-      "address_type": "MAILING",\
-      "street": "345 California Ave.",\
-      "street2": "Suit 600",\
-      "city": "San Francisco",\
-      "state": "CA",\
-      "zip_code": "12345-1234",\
-      "country": "US",\
-      "is_primary": true\
-    },\
-    {\
-      "address_type": "PHYSICAL",\
-      "street": "123 California Ave.",\
-      "street2": "Suit 100",\
-      "city": "San Francisco",\
-      "state": "CA",\
-      "zip_code": "12345-1234",\
-      "country": "US",\
-      "is_primary": false\
-    }\
+  "addresses": [
+    {
+      "address_type": "MAILING",
+      "street": "345 California Ave.",
+      "street2": "Suit 600",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip_code": "12345-1234",
+      "country": "US",
+      "is_primary": true
+    },
+    {
+      "address_type": "PHYSICAL",
+      "street": "123 California Ave.",
+      "street2": "Suit 100",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip_code": "12345-1234",
+      "country": "US",
+      "is_primary": false
+    }
   ],
-  "beneficial_owners": [\
-    {\
-      "first_name": "James",\
-      "last_name": "Bond",\
-      "dob": "1970-12-12",\
-      "addresses": [\
-        {\
-          "address_type": "MAILING",\
-          "street": "345 California Ave.",\
-          "street2": "Suit 600",\
-          "city": "San Francisco",\
-          "state": "CA",\
-          "zip_code": "12345-1234",\
-          "country": "US",\
-          "is_primary": true\
-        }\
-      ]\
-    },\
-    {\
-      "first_name": "Le",\
-      "last_name": "Chiffre",\
-      "dob": "1980-04-04",\
-      "addresses": [\
-        {\
-          "address_type": "MAILING",\
-          "street": "345 California Ave.",\
-          "street2": "Suit 600",\
-          "city": "San Francisco",\
-          "state": "CA",\
-          "zip_code": "12345-1234",\
-          "country": "US",\
-          "is_primary": true\
-        }\
-      ]\
-    }\
+  "beneficial_owners": [
+    {
+      "first_name": "James",
+      "last_name": "Bond",
+      "dob": "1970-12-12",
+      "addresses": [
+        {
+          "address_type": "MAILING",
+          "street": "345 California Ave.",
+          "street2": "Suit 600",
+          "city": "San Francisco",
+          "state": "CA",
+          "zip_code": "12345-1234",
+          "country": "US",
+          "is_primary": true
+        }
+      ]
+    },
+    {
+      "first_name": "Le",
+      "last_name": "Chiffre",
+      "dob": "1980-04-04",
+      "addresses": [
+        {
+          "address_type": "MAILING",
+          "street": "345 California Ave.",
+          "street2": "Suit 600",
+          "city": "San Francisco",
+          "state": "CA",
+          "zip_code": "12345-1234",
+          "country": "US",
+          "is_primary": true
+        }
+      ]
+    }
   ]
 }
 ```
@@ -227,63 +227,63 @@ JSON
   "dba_business_name": "World Domination Inc.",
   "business_type": "limited_liability_company",
   "kyb_status": "approved",
-  "addresses": [\
-    {\
-      "address_type": "MAILING",\
-      "street": "345 California Ave.",\
-      "street2": "Suite 600",\
-      "city": "San Francisco",\
-      "state": "CA",\
-      "zip_code": "12345-1234",\
-      "country": "US",\
-      "is_primary": true\
-    },\
-    {\
-      "address_type": "PHYSICAL",\
-      "street": "123 California Ave.",\
-      "street2": "Suite 100",\
-      "city": "San Francisco",\
-      "state": "CA",\
-      "zip_code": "12345-1234",\
-      "country": "US",\
-      "is_primary": false\
-    }\
+  "addresses": [
+    {
+      "address_type": "MAILING",
+      "street": "345 California Ave.",
+      "street2": "Suite 600",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip_code": "12345-1234",
+      "country": "US",
+      "is_primary": true
+    },
+    {
+      "address_type": "PHYSICAL",
+      "street": "123 California Ave.",
+      "street2": "Suite 100",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip_code": "12345-1234",
+      "country": "US",
+      "is_primary": false
+    }
   ],
-  "beneficial_owners": [\
-    {\
-      "first_name": "James",\
-      "last_name": "Atelio",\
-      "dob": "1970-12-12",\
-      "addresses": [\
-        {\
-          "address_type": "MAILING",\
-          "street": "345 California Ave.",\
-          "street2": "Suite 600",\
-          "city": "San Francisco",\
-          "state": "CA",\
-          "zip_code": "12345-1234",\
-          "country": "US",\
-          "is_primary": true\
-        }\
-      ]\
-    },\
-    {\
-      "first_name": "Le",\
-      "last_name": "Chiffre",\
-      "dob": "1980-04-04",\
-      "addresses": [\
-        {\
-          "address_type": "MAILING",\
-          "street": "345 California Ave.",\
-          "street2": "Suite 600",\
-          "city": "San Francisco",\
-          "state": "CA",\
-          "zip_code": "12345-1234",\
-          "country": "US",\
-          "is_primary": true\
-        }\
-      ]\
-    }\
+  "beneficial_owners": [
+    {
+      "first_name": "James",
+      "last_name": "Atelio",
+      "dob": "1970-12-12",
+      "addresses": [
+        {
+          "address_type": "MAILING",
+          "street": "345 California Ave.",
+          "street2": "Suite 600",
+          "city": "San Francisco",
+          "state": "CA",
+          "zip_code": "12345-1234",
+          "country": "US",
+          "is_primary": true
+        }
+      ]
+    },
+    {
+      "first_name": "Le",
+      "last_name": "Chiffre",
+      "dob": "1980-04-04",
+      "addresses": [
+        {
+          "address_type": "MAILING",
+          "street": "345 California Ave.",
+          "street2": "Suite 600",
+          "city": "San Francisco",
+          "state": "CA",
+          "zip_code": "12345-1234",
+          "country": "US",
+          "is_primary": true
+        }
+      ]
+    }
   ]
 }
 ```

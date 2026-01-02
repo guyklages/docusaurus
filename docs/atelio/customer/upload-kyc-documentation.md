@@ -49,33 +49,31 @@ Atelio provides a fully hosted solution for uploading KYC documentation so that 
 
 The specific documents needed to verify an identity are indicated in the `kyc.verification.documents_required` webhook event. Each required document contains a secure link indicated by `upload_link`. The documents must be uploaded as base64-encoded strings. Each document also contains a `status`, which can be either `submitted` or `required` and indicates if a document has been uploaded or not.
 
-An example of a `kyc.verification.documents_required` webhook event is shown in the example below.
+#### Example respnse
 
-**Example respnse**
+The following JSON is an example of a `kyc.verification.documents_required` webhook event.
 
-JSON
-
-```
+```json
 {
     "event": "kyc.verification.document_required",
     "customer_id": "a5bcf5a8-c4e0-4025-8183-5346176ee3db",
     "occurred_at": "2021-02-02-00:50:58.484840+00:00",
-    "documents":[\
-      {\
-        "document_type": "government_id",\
-        "upload_link": "https://withpersona.com/verify?template-id=tmpl_111111111111111111111111&inquiry-id=a5bcf5a8-c4e0-4025-8183-5346176ee3db",\
-        "status": "required"\
-      },\
-      {\
-        "document_type": "proof_of_address",\
-        "upload_link": "https://withpersona.com/verify?template-id=tmpl_222222222222222222222222&inquiry-id=a5bcf5a8-c4e0-4025-8183-5346176ee3db",\
-        "status": "required"\
-      },\
-      {\
-        "document_type": "social_security_card",\
-        "upload_link": "https://withpersona.com/verify?template-id=tmpl_333333333333333333333333&inquiry-id=a5bcf5a8-c4e0-4025-8183-5346176ee3db",\
-        "status": "required"\
-      },\
+    "documents":[
+      {
+        "document_type": "government_id",
+        "upload_link": "https://withpersona.com/verify?template-id=tmpl_111111111111111111111111&inquiry-id=a5bcf5a8-c4e0-4025-8183-5346176ee3db",
+        "status": "required"
+      },
+      {
+        "document_type": "proof_of_address",
+        "upload_link": "https://withpersona.com/verify?template-id=tmpl_222222222222222222222222&inquiry-id=a5bcf5a8-c4e0-4025-8183-5346176ee3db",
+        "status": "required"
+      },
+      {
+        "document_type": "social_security_card",
+        "upload_link": "https://withpersona.com/verify?template-id=tmpl_333333333333333333333333&inquiry-id=a5bcf5a8-c4e0-4025-8183-5346176ee3db",
+        "status": "required"
+      },
     ]
 }
 ```

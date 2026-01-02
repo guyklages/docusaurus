@@ -307,24 +307,22 @@ The following is an example of a request to retrieve a list of all subscriptions
 
 The following is a response to a successful all-subscriptions request.
 
-JSON
-
 ```json
 {
-  "webhook_subscriptions": [\
-    {\
-      "id": "487a7f29-7b80-467d-b20d-7b60c3a14cf0",\
-      "url": "https://hostname.com/webhook/route",\
-      "description": "Account history is ready.",\
-      "events": [\
-        "account.history.ready"\
-      ],\
-      "version": "0.1",\
-      "secret": "string",\
-      "status": "enabled",\
-      "created_time": "2022-06-09T18:23:37.585421Z",\
-      "updated_time": "2022-06-09T18:23:37.585421Z"\
-    }\
+  "webhook_subscriptions": [
+    {
+      "id": "487a7f29-7b80-467d-b20d-7b60c3a14cf0",
+      "url": "https://hostname.com/webhook/route",
+      "description": "Account history is ready.",
+      "events": [
+        "account.history.ready"
+      ],
+      "version": "0.1",
+      "secret": "string",
+      "status": "enabled",
+      "created_time": "2022-06-09T18:23:37.585421Z",
+      "updated_time": "2022-06-09T18:23:37.585421Z"
+    }
   ]
 }
 ```

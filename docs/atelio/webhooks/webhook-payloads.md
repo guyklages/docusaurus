@@ -2,15 +2,13 @@
 
 ## Webhook payload examples  
 
-Below are sample webhook payloads that will be sent to the configured webhook URL when an event is triggered:
+Below are JSON sample webhook payloads that will be sent to the configured webhook URL when an event is triggered:
 
 ## `account.autopay`  
 
 ### `.changed` 
 
 The `account.autopay.changed` payload:
-
-JSON
 
 ```json
 {
@@ -23,9 +21,7 @@ JSON
 
 ### `.failed` 
 
-The`account.autopay.failed` payload:
-
-JSON
+The `account.autopay.failed` payload:
 
 ```json
 {
@@ -42,8 +38,6 @@ JSON
 
 The`account.autopay.processed` payload:
 
-JSON
-
 ```json
 {
   "event": "account.autopay.processed",
@@ -58,8 +52,6 @@ JSON
 ### `.scheduled` 
 
 The`account.autopay.scheduled` payload:
-
-JSON
 
 ```json
 {
@@ -78,8 +70,6 @@ JSON
 
 The`account.statements.generated` payload:
 
-JSON
-
 ```json
 {
   "event": "account.statements.generated",
@@ -93,8 +83,6 @@ JSON
 ### `.late_payment` 
 
 The`account.statements.late_payment` payload:
-
-JSON
 
 ```json
 {
@@ -110,9 +98,7 @@ JSON
 
 ### `.ready` \- credit  
 
-The`account.statements.ready` payload for a credit account:
-
-JSON
+The `account.statements.ready` payload for a credit account:
 
 ```json
 {
@@ -134,14 +120,14 @@ JSON
         "statement_id": "<uuid>",
         "statement_month": "2024-12",
         "statement_start_date": "2024-12-01",
-        "transactions": [\
-            {\
-                "amount": "2845.0",\
-                "settled_date": "2024-12-04",\
-                "transaction_date": "2024-12-04",\
-                "transaction_description": "<transaction statement descriptor>",\
-                "transaction_type": "Purchase"\
-            }\
+        "transactions": [
+            {
+                "amount": "2845.0",
+                "settled_date": "2024-12-04",
+                "transaction_date": "2024-12-04",
+                "transaction_description": "<transaction statement descriptor>",
+                "transaction_type": "Purchase"
+            }
         ],
         "type": "credit"
     },
@@ -152,9 +138,7 @@ JSON
 
 ### `.ready` \- deposit 
 
-The`account.statements.ready` payload for a deposit account:
-
-JSON
+The `account.statements.ready` payload for a deposit account:
 
 ```json
 {
@@ -171,21 +155,21 @@ JSON
         "statement_id": "<uuid>",
         "statement_month": "2024-12",
         "statement_start_date": "2024-12-01",
-        "transactions": [\
-            {\
-                "amount": "-6811.0",\
-                "settled_date": "2024-12-21",\
-                "transaction_date": "2024-12-21",\
-                "transaction_description": "Transfer",\
-                "transaction_type": "ACH Withdrawal"\
-            },\
-            {\
-                "amount": "13.0",\
-                "settled_date": "2024-12-12",\
-                "transaction_date": "2024-12-12",\
-                "transaction_description": "Cash back rewards (Oct 2024)",\
-                "transaction_type": "Account to Account"\
-            }\
+        "transactions": [
+            {
+                "amount": "-6811.0",
+                "settled_date": "2024-12-21",
+                "transaction_date": "2024-12-21",
+                "transaction_description": "Transfer",
+                "transaction_type": "ACH Withdrawal"
+            },
+            {
+                "amount": "13.0",
+                "settled_date": "2024-12-12",
+                "transaction_date": "2024-12-12",
+                "transaction_description": "Cash back rewards (Oct 2024)",
+                "transaction_type": "Account to Account"
+            }
         ],
         "type": "deposit"
     },
@@ -196,9 +180,7 @@ JSON
 
 ## `card.created`
 
-The`card.created` payload:
-
-JSON
+The `card.created` payload:
 
 ```json
 {
@@ -218,9 +200,7 @@ JSON
 
 ### `.active` 
 
-The`card.status.active` payload:
-
-JSON
+The `card.status.active` payload:
 
 ```json
 {
@@ -236,9 +216,7 @@ JSON
 
 ### `.closed` 
 
-The`card.status.closed` payload:
-
-JSON
+The `card.status.closed` payload:
 
 ```json
 {
@@ -254,9 +232,7 @@ JSON
 
 ### `.fraud` 
 
-The`card.status.fraud` payload:
-
-JSON
+The `card.status.fraud` payload:
 
 ```json
 {
@@ -272,9 +248,7 @@ JSON
 
 ### `.inactive` 
 
-The`card.status.inactive` payload:
-
-JSON
+The `card.status.inactive` payload:
 
 ```json
 {
@@ -290,9 +264,7 @@ JSON
 
 ### `.reissue` 
 
-The`card.status.reissue` payload:
-
-JSON
+The `card.status.reissue` payload:
 
 ```json
 {
@@ -308,9 +280,7 @@ JSON
 
 ## `develop.api_key.created`
 
-The`develop.api_key.created` payload:
-
-JSON
+The `develop.api_key.created` payload:
 
 ```json
 {
@@ -327,8 +297,6 @@ JSON
 ### `.freeze.initiated` 
 
 The `fraud_operations.freeze.initiated` payload:
-
-JSON
 
 ```json
 {
@@ -347,8 +315,6 @@ JSON
 ### `.freeze.success` 
 
 The `fraud_operations.freeze.success` payload:
-
-JSON
 
 ```json
 {
@@ -370,8 +336,6 @@ JSON
 ### `.freeze.failed` 
 
 The `fraud_operations.freeze.failed` payload:
-
-JSON
 
 ```json
 {
@@ -396,8 +360,6 @@ JSON
 
 The `fraud_operations.close.success` payload:
 
-JSON
-
 ```json
 {
   "event": "fraud_operations.close.success",
@@ -419,9 +381,7 @@ JSON
 
 ### `.document_required` 
 
-The`kyc.verification.document_required` payload:
-
-JSON
+The `kyc.verification.document_required` payload:
 
 ```json
 {
@@ -429,21 +389,19 @@ JSON
   "occurred_at": "2023-03-20T15:41:10.620021+00:00",
   "inquiry_id": "inq_Y8Pe2kSAJ7away95sUUXBpAh",
   "customer_id": "e413a8e7-f072-4e6d-9589-cea35de849c5",
-  "documents": [\
-    {\
-      "document_type": "persona",\
-      "status": "required",\
-      "upload_link": "https://inquiry.withpersona.com/verify?environment=sandbox&inquiry-id=inq_Y8Pe2kSAJ7away95sUUXBpAh"\
-    }\
+  "documents": [
+    {
+      "document_type": "persona",
+      "status": "required",
+      "upload_link": "https://inquiry.withpersona.com/verify?environment=sandbox&inquiry-id=inq_Y8Pe2kSAJ7away95sUUXBpAh"
+    }
   ]
 }
 ```
 
 ### `.under_review` 
 
-The`kyc.verification.under_review` payload:
-
-JSON
+The `kyc.verification.under_review` payload:
 
 ```json
 {
@@ -455,9 +413,7 @@ JSON
 
 ### `.success` 
 
-The`kyc.verification.success` payload:
-
-JSON
+The `kyc.verification.success` payload:
 
 ```json
 {
@@ -469,9 +425,7 @@ JSON
 
 ### `.failure` 
 
-The`kyc.verification.failure` payload:
-
-JSON
+The `kyc.verification.failure` payload:
 
 ```json
 {
@@ -483,9 +437,7 @@ JSON
 
 ### `.timeout` 
 
-The`kyc.verification.timeout` payload:
-
-JSON
+The `kyc.verification.timeout` payload:
 
 ```json
 {
@@ -497,9 +449,7 @@ JSON
 
 ### `.approved` 
 
-The`kyb.verification.approved` payload:
-
-JSON
+The `kyb.verification.approved` payload:
 
 ```json
 {
@@ -514,8 +464,6 @@ JSON
 ### `.created` 
 
 The`credit.application.created` payload:
-
-JSON
 
 ```json
 {
@@ -559,9 +507,7 @@ JSON
 
 ### `.submitted` 
 
-The`credit.application.submitted` payload:
-
-JSON
+The `credit.application.submitted` payload:
 
 ```json
 {
@@ -605,9 +551,7 @@ JSON
 
 ### `.approved` 
 
-The`credit.application.approved` payload:
-
-JSON
+The `credit.application.approved` payload:
 
 ```json
 {
@@ -651,9 +595,7 @@ JSON
 
 ### `.resubmit_required` 
 
-The`credit.application.resubmit_required` payload:
-
-JSON
+The `credit.application.resubmit_required` payload:
 
 ```json
 {
@@ -697,9 +639,7 @@ JSON
 
 ### `.adverse_action` 
 
-The`credit.application.adverse_action` payload:
-
-JSON
+The `credit.application.adverse_action` payload:
 
 ```json
 {
@@ -753,9 +693,7 @@ JSON
 
 ## `customer.updated` 
 
-The`customer.updated` payload:
-
-JSON
+The `customer.updated` payload:
 
 ```json
 {
@@ -764,19 +702,19 @@ JSON
   "details": {
     "last_name": "Bond",
     "phone_country_code": "1",
-    "addresses": [\
-      {\
-        "zip_code": "12345-1111",\
-        "city": "San Francisco",\
-        "address_id": "b4f3c81b-96fc-49b3-8517-cf8e75af5012",\
-        "country": "US",\
-        "date_created": "2022-04-25T03:31:46.824113+00:00",\
-        "state": "CA",\
-        "street": "123 Market St",\
-        "address_type": "PHYSICAL",\
-        "street2": "",\
-        "is_primary": true\
-      }\
+    "addresses": [
+      {
+        "zip_code": "12345-1111",
+        "city": "San Francisco",
+        "address_id": "b4f3c81b-96fc-49b3-8517-cf8e75af5012",
+        "country": "US",
+        "date_created": "2022-04-25T03:31:46.824113+00:00",
+        "state": "CA",
+        "street": "123 Market St",
+        "address_type": "PHYSICAL",
+        "street2": "",
+        "is_primary": true
+      }
     ],
     "first_name": "James",
     "business_id": null,
@@ -796,9 +734,7 @@ JSON
 
 ## `portal.data_export`  
 
-The`portal.data_export` payload:
-
-JSON
+The `portal.data_export` payload:
 
 ```json
 {
@@ -823,7 +759,7 @@ JSON
 
 ## `transactions` 
 
-The`transactions` payload.
+The `transactions` payload.
 
 Below are payload examples for each type of transaction:
 
@@ -832,8 +768,6 @@ Below are payload examples for each type of transaction:
 - [Card-to-card transfer](https://docs.atelio.com/embedded/docs/card-to-card-transfer)
 
 ### Card payment 
-
-JSON
 
 ```json
 {
@@ -878,8 +812,6 @@ JSON
 
 ### ACH transfer 
 
-JSON
-
 ```json
 {
   "event": "transactions",
@@ -909,8 +841,6 @@ JSON
 ```
 
 ### Card-to-card transfer 
-
-JSON
 
 ```json
 {

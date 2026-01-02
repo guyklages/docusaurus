@@ -181,6 +181,32 @@ const sidebars = {
         },
         {
           type: 'category',
+          label: 'Accounts',
+          items: [
+            {
+              type: 'doc',
+              id: 'atelio/accounts/account-overview',
+              label: 'Accounts overview',
+            },
+            {
+              type: 'doc',
+              id: 'atelio/accounts/credit-accounts',
+              label: 'Credit accounts',
+            },
+            {
+              type: 'doc',
+              id: 'atelio/accounts/deposit-accounts',
+              label: 'Deposit accounts',
+            },
+            {
+              type: 'doc',
+              id: 'atelio/accounts/link-an-external-account',
+              label: 'External accounts with Plaid',
+            }
+          ]
+        }, // Accounts
+        {
+          type: 'category',
           label: 'Money movement',
           items: [
             {

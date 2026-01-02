@@ -124,22 +124,22 @@ The following are some event responses:
             "event": "kyc.verification.document_required",
             "customer_id": "a5bcf5a8-c4e0-4025-8183-5346176ee3db",
             "occurred_at": "2021-02-02-00:50:58.484840+00:00",
-            "documents":[\
-            {\
-                "document_type": "government_id",\
-                "upload_link": "https://withpersona.com/verify?template-id=tmpl_111111111111111111111111&reference-id=a5bcf5a8-c4e0-4025-8183-5346176ee3db",\
-                "status": "required"\
-            },\
-            {\
-                "document_type": "utility_bill",\
-                "upload_link": "https://withpersona.com/verify?template-id=tmpl_222222222222222222222222&reference-id=a5bcf5a8-c4e0-4025-8183-5346176ee3db",\
-                "status": "required"\
-            },\
-            {\
-                "document_type": "social_security_card",\
-                "upload_link": "https://withpersona.com/verify?template-id=tmpl_333333333333333333333333&reference-id=a5bcf5a8-c4e0-4025-8183-5346176ee3db",\
-                "status": "required"\
-            },\
+            "documents":[
+            {
+                "document_type": "government_id",
+                "upload_link": "https://withpersona.com/verify?template-id=tmpl_111111111111111111111111&reference-id=a5bcf5a8-c4e0-4025-8183-5346176ee3db",
+                "status": "required"
+            },
+            {
+                "document_type": "utility_bill",
+                "upload_link": "https://withpersona.com/verify?template-id=tmpl_222222222222222222222222&reference-id=a5bcf5a8-c4e0-4025-8183-5346176ee3db",
+                "status": "required"
+            },
+            {
+                "document_type": "social_security_card",
+                "upload_link": "https://withpersona.com/verify?template-id=tmpl_333333333333333333333333&reference-id=a5bcf5a8-c4e0-4025-8183-5346176ee3db",
+                "status": "required"
+            },
             ]
         }
         ```

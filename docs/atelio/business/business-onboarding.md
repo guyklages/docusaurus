@@ -78,11 +78,9 @@ After your business enters its information, you'll see that a Business resource 
 
 To create an instance of a business object, use the [CreateBusiness](https://docs.atelio.com/embedded/reference/post_businesses) endpoint. The following request creates a new business with the details, including the tax ID (EIN), business name, contact info, address, and beneficial owners.
 
-**Example request**
+#### Example request
 
-CreateBusiness
-
-```json
+```curl
 curl --request POST \
   --url https://sandbox.atelio.com/api/v0.1/businesses \
   --header 'Accept: application/json' \
@@ -100,37 +98,37 @@ curl --request POST \
     "website": "www.business.com",
     "industry_type": "Financial",
     "number_of_employees": "0-50",
-    "addresses": [\
-      {\
-        "address_type": "MAILING",\
-        "street": "345 California Ave.",\
-        "street2": "Suite 600",\
-        "city": "San Francisco",\
-        "state": "CA",\
-        "zip_code": "12345-1234",\
-        "country": "US",\
-        "is_primary": true\
-      }\
+    "addresses": [
+      {
+        "address_type": "MAILING",
+        "street": "345 California Ave.",
+        "street2": "Suite 600",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip_code": "12345-1234",
+        "country": "US",
+        "is_primary": true
+      }
     ],
-    "beneficial_owners": [\
-      {\
-        "dob": "1980-04-04",\
-        "first_name": "John",\
-        "middle_name": "O'\''Shea",\
-        "last_name": "Doe",\
-        "addresses": [\
-          {\
-            "address_type": "MAILING",\
-            "street": "345 California Ave.",\
-            "street2": "Suite 600",\
-            "city": "San Francisco",\
-            "state": "CA",\
-            "zip_code": "12345-1234",\
-            "country": "US",\
-            "is_primary": true\
-          }\
-        ]\
-      }\
+    "beneficial_owners": [
+      {
+        "dob": "1980-04-04",
+        "first_name": "John",
+        "middle_name": "O'\''Shea",
+        "last_name": "Doe",
+        "addresses": [
+          {
+            "address_type": "MAILING",
+            "street": "345 California Ave.",
+            "street2": "Suite 600",
+            "city": "San Francisco",
+            "state": "CA",
+            "zip_code": "12345-1234",
+            "country": "US",
+            "is_primary": true
+          }
+        ]
+      }
     ]
 }'
 ```
@@ -143,81 +141,81 @@ JSON
 
 ```json
 {
-  "addresses": [\
-    {\
-      "address_id": "12348579-5d05-4e3e-a5e3-e61e3a5b1234",\
-      "address_type": "MAILING",\
-      "city": "San Francisco",\
-      "country": "US",\
-      "date_created": "2019-08-24T14:15:22Z",\
-      "date_updated": "2019-08-24T14:15:22Z",\
-      "is_primary": true,\
-      "state": "CA",\
-      "street": "345 California Ave.",\
-      "street2": "Suite 600",\
-      "zip_code": "12345-1234"\
-    },\
-    {\
-      "address_id": "67898579-5d05-6789-a5e3-e61e3a5b6789",\
-      "address_type": "PHYSICAL",\
-      "city": "San Francisco",\
-      "country": "US",\
-      "date_created": "2019-08-24T14:15:22Z",\
-      "date_updated": "2019-08-24T14:15:22Z",\
-      "is_primary": false,\
-      "state": "CA",\
-      "street": "123 California Ave.",\
-      "street2": "Suite 100",\
-      "zip_code": "12345-1234"\
-    }\
+  "addresses": [
+    {
+      "address_id": "12348579-5d05-4e3e-a5e3-e61e3a5b1234",
+      "address_type": "MAILING",
+      "city": "San Francisco",
+      "country": "US",
+      "date_created": "2019-08-24T14:15:22Z",
+      "date_updated": "2019-08-24T14:15:22Z",
+      "is_primary": true,
+      "state": "CA",
+      "street": "345 California Ave.",
+      "street2": "Suite 600",
+      "zip_code": "12345-1234"
+    },
+    {
+      "address_id": "67898579-5d05-6789-a5e3-e61e3a5b6789",
+      "address_type": "PHYSICAL",
+      "city": "San Francisco",
+      "country": "US",
+      "date_created": "2019-08-24T14:15:22Z",
+      "date_updated": "2019-08-24T14:15:22Z",
+      "is_primary": false,
+      "state": "CA",
+      "street": "123 California Ave.",
+      "street2": "Suite 100",
+      "zip_code": "12345-1234"
+    }
   ],
-  "beneficial_owners": [\
-    {\
-      "addresses": [\
-        {\
-          "address_id": "12347777-5d05-4e3e-a5e3-e61e3a5b7777",\
-          "address_type": "MAILING",\
-          "city": "San Francisco",\
-          "country": "US",\
-          "date_created": "2019-08-24T14:15:22Z",\
-          "date_updated": "2019-08-24T14:15:22Z",\
-          "is_primary": true,\
-          "state": "CA",\
-          "street": "345 California Ave.",\
-          "street2": "Suite 600",\
-          "zip_code": "12345-1234"\
-        }\
-      ],\
-      "beneficial_owner_id": "45628579-5d05-4562-a5e3-e61e3a5b4562",\
-      "date_created": "2019-08-24T14:15:22Z",\
-      "date_updated": "2019-08-24T14:15:22Z",\
-      "dob": "1970-12-12",\
-      "first_name": "James",\
-      "last_name": "Bond"\
-    },\
-    {\
-      "addresses": [\
-        {\
-          "address_id": "88887777-5d05-4e3e-a5e3-e61e88887777",\
-          "address_type": "MAILING",\
-          "city": "San Francisco",\
-          "country": "US",\
-          "date_created": "2019-08-24T14:15:22Z",\
-          "date_updated": "2019-08-24T14:15:22Z",\
-          "is_primary": true,\
-          "state": "CA",\
-          "street": "345 California Ave.",\
-          "street2": "Suite 600",\
-          "zip_code": "12345-1234"\
-        }\
-      ],\
-      "beneficial_owner_id": "12345678-5d05-4562-a5e3-e61e12345678",\
-      "date_created": "2019-08-24T14:15:22Z",\
-      "date_updated": "2019-08-24T14:15:22Z",\
-      "dob": "1980-04-04",\
-      "first_name": "Le",\
-      "last_name": "Chiffre"\
-    }\
+  "beneficial_owners": [
+    {
+      "addresses": [
+        {
+          "address_id": "12347777-5d05-4e3e-a5e3-e61e3a5b7777",
+          "address_type": "MAILING",
+          "city": "San Francisco",
+          "country": "US",
+          "date_created": "2019-08-24T14:15:22Z",
+          "date_updated": "2019-08-24T14:15:22Z",
+          "is_primary": true,
+          "state": "CA",
+          "street": "345 California Ave.",
+          "street2": "Suite 600",
+          "zip_code": "12345-1234"
+        }
+      ],
+      "beneficial_owner_id": "45628579-5d05-4562-a5e3-e61e3a5b4562",
+      "date_created": "2019-08-24T14:15:22Z",
+      "date_updated": "2019-08-24T14:15:22Z",
+      "dob": "1970-12-12",
+      "first_name": "James",
+      "last_name": "Bond"
+    },
+    {
+      "addresses": [
+        {
+          "address_id": "88887777-5d05-4e3e-a5e3-e61e88887777",
+          "address_type": "MAILING",
+          "city": "San Francisco",
+          "country": "US",
+          "date_created": "2019-08-24T14:15:22Z",
+          "date_updated": "2019-08-24T14:15:22Z",
+          "is_primary": true,
+          "state": "CA",
+          "street": "345 California Ave.",
+          "street2": "Suite 600",
+          "zip_code": "12345-1234"
+        }
+      ],
+      "beneficial_owner_id": "12345678-5d05-4562-a5e3-e61e12345678",
+      "date_created": "2019-08-24T14:15:22Z",
+      "date_updated": "2019-08-24T14:15:22Z",
+      "dob": "1980-04-04",
+      "first_name": "Le",
+      "last_name": "Chiffre"
+    }
   ],
   "business_id": "96df8579-5d05-4e3e-a5e3-e61e3a5bdb38",
   "business_type": "limited_liability_company",
@@ -312,81 +310,81 @@ JSON
 
 ```json
 {
-  "addresses": [\
-    {\
-      "address_id": "12348579-5d05-4e3e-a5e3-e61e3a5b1234",\
-      "address_type": "MAILING",\
-      "city": "San Francisco",\
-      "country": "US",\
-      "date_created": "2019-08-24T14:15:22Z",\
-      "date_updated": "2019-08-24T14:15:22Z",\
-      "is_primary": true,\
-      "state": "CA",\
-      "street": "345 California Ave.",\
-      "street2": "Suite 600",\
-      "zip_code": "12345-1234"\
-    },\
-    {\
-      "address_id": "67898579-5d05-6789-a5e3-e61e3a5b6789",\
-      "address_type": "PHYSICAL",\
-      "city": "San Francisco",\
-      "country": "US",\
-      "date_created": "2019-08-24T14:15:22Z",\
-      "date_updated": "2019-08-24T14:15:22Z",\
-      "is_primary": false,\
-      "state": "CA",\
-      "street": "123 California Ave.",\
-      "street2": "Suite 100",\
-      "zip_code": "12345-1234"\
-    }\
+  "addresses": [
+    {
+      "address_id": "12348579-5d05-4e3e-a5e3-e61e3a5b1234",
+      "address_type": "MAILING",
+      "city": "San Francisco",
+      "country": "US",
+      "date_created": "2019-08-24T14:15:22Z",
+      "date_updated": "2019-08-24T14:15:22Z",
+      "is_primary": true,
+      "state": "CA",
+      "street": "345 California Ave.",
+      "street2": "Suite 600",
+      "zip_code": "12345-1234"
+    },
+    {
+      "address_id": "67898579-5d05-6789-a5e3-e61e3a5b6789",
+      "address_type": "PHYSICAL",
+      "city": "San Francisco",
+      "country": "US",
+      "date_created": "2019-08-24T14:15:22Z",
+      "date_updated": "2019-08-24T14:15:22Z",
+      "is_primary": false,
+      "state": "CA",
+      "street": "123 California Ave.",
+      "street2": "Suite 100",
+      "zip_code": "12345-1234"
+    }
   ],
-  "beneficial_owners": [\
-    {\
-      "addresses": [\
-        {\
-          "address_id": "12347777-5d05-4e3e-a5e3-e61e3a5b7777",\
-          "address_type": "MAILING",\
-          "city": "San Francisco",\
-          "country": "US",\
-          "date_created": "2019-08-24T14:15:22Z",\
-          "date_updated": "2019-08-24T14:15:22Z",\
-          "is_primary": true,\
-          "state": "CA",\
-          "street": "345 California Ave.",\
-          "street2": "Suite 600",\
-          "zip_code": "12345-1234"\
-        }\
-      ],\
-      "beneficial_owner_id": "45628579-5d05-4562-a5e3-e61e3a5b4562",\
-      "date_created": "2019-08-24T14:15:22Z",\
-      "date_updated": "2019-08-24T14:15:22Z",\
-      "dob": "1970-12-12",\
-      "first_name": "James",\
-      "last_name": "Atelio"\
-    },\
-    {\
-      "addresses": [\
-        {\
-          "address_id": "88887777-5d05-4e3e-a5e3-e61e88887777",\
-          "address_type": "MAILING",\
-          "city": "San Francisco",\
-          "country": "US",\
-          "date_created": "2019-08-24T14:15:22Z",\
-          "date_updated": "2019-08-24T14:15:22Z",\
-          "is_primary": true,\
-          "state": "CA",\
-          "street": "345 California Ave.",\
-          "street2": "Suite 600",\
-          "zip_code": "12345-1234"\
-        }\
-      ],\
-      "beneficial_owner_id": "12345678-5d05-4562-a5e3-e61e12345678",\
-      "date_created": "2019-08-24T14:15:22Z",\
-      "date_updated": "2019-08-24T14:15:22Z",\
-      "dob": "1980-04-04",\
-      "first_name": "Le",\
-      "last_name": "Chiffre"\
-    }\
+  "beneficial_owners": [
+    {
+      "addresses": [
+        {
+          "address_id": "12347777-5d05-4e3e-a5e3-e61e3a5b7777",
+          "address_type": "MAILING",
+          "city": "San Francisco",
+          "country": "US",
+          "date_created": "2019-08-24T14:15:22Z",
+          "date_updated": "2019-08-24T14:15:22Z",
+          "is_primary": true,
+          "state": "CA",
+          "street": "345 California Ave.",
+          "street2": "Suite 600",
+          "zip_code": "12345-1234"
+        }
+      ],
+      "beneficial_owner_id": "45628579-5d05-4562-a5e3-e61e3a5b4562",
+      "date_created": "2019-08-24T14:15:22Z",
+      "date_updated": "2019-08-24T14:15:22Z",
+      "dob": "1970-12-12",
+      "first_name": "James",
+      "last_name": "Atelio"
+    },
+    {
+      "addresses": [
+        {
+          "address_id": "88887777-5d05-4e3e-a5e3-e61e88887777",
+          "address_type": "MAILING",
+          "city": "San Francisco",
+          "country": "US",
+          "date_created": "2019-08-24T14:15:22Z",
+          "date_updated": "2019-08-24T14:15:22Z",
+          "is_primary": true,
+          "state": "CA",
+          "street": "345 California Ave.",
+          "street2": "Suite 600",
+          "zip_code": "12345-1234"
+        }
+      ],
+      "beneficial_owner_id": "12345678-5d05-4562-a5e3-e61e12345678",
+      "date_created": "2019-08-24T14:15:22Z",
+      "date_updated": "2019-08-24T14:15:22Z",
+      "dob": "1980-04-04",
+      "first_name": "Le",
+      "last_name": "Chiffre"
+    }
   ],
   "business_id": "96df8579-5d05-4e3e-a5e3-e61e3a5bdb38",
   "business_type": "limited_liability_company",
@@ -458,81 +456,81 @@ The following JSON is an example of a successful request to retrieve all busines
 
 ```json
 {
-  "addresses": [\
-    {\
-      "address_id": "12348579-5d05-4e3e-a5e3-e61e3a5b1234",\
-      "address_type": "MAILING",\
-      "city": "San Francisco",\
-      "country": "US",\
-      "date_created": "2019-08-24T14:15:22Z",\
-      "date_updated": "2019-08-24T14:15:22Z",\
-      "is_primary": true,\
-      "state": "CA",\
-      "street": "345 California Ave.",\
-      "street2": "Suite 600",\
-      "zip_code": "12345-1234"\
-    },\
-    {\
-      "address_id": "67898579-5d05-6789-a5e3-e61e3a5b6789",\
-      "address_type": "PHYSICAL",\
-      "city": "San Francisco",\
-      "country": "US",\
-      "date_created": "2019-08-24T14:15:22Z",\
-      "date_updated": "2019-08-24T14:15:22Z",\
-      "is_primary": false,\
-      "state": "CA",\
-      "street": "123 California Ave.",\
-      "street2": "Suite 100",\
-      "zip_code": "12345-1234"\
-    }\
+  "addresses": [
+    {
+      "address_id": "12348579-5d05-4e3e-a5e3-e61e3a5b1234",
+      "address_type": "MAILING",
+      "city": "San Francisco",
+      "country": "US",
+      "date_created": "2019-08-24T14:15:22Z",
+      "date_updated": "2019-08-24T14:15:22Z",
+      "is_primary": true,
+      "state": "CA",
+      "street": "345 California Ave.",
+      "street2": "Suite 600",
+      "zip_code": "12345-1234"
+    },
+    {
+      "address_id": "67898579-5d05-6789-a5e3-e61e3a5b6789",
+      "address_type": "PHYSICAL",
+      "city": "San Francisco",
+      "country": "US",
+      "date_created": "2019-08-24T14:15:22Z",
+      "date_updated": "2019-08-24T14:15:22Z",
+      "is_primary": false,
+      "state": "CA",
+      "street": "123 California Ave.",
+      "street2": "Suite 100",
+      "zip_code": "12345-1234"
+    }
   ],
-  "beneficial_owners": [\
-    {\
-      "addresses": [\
-        {\
-          "address_id": "12347777-5d05-4e3e-a5e3-e61e3a5b7777",\
-          "address_type": "MAILING",\
-          "city": "San Francisco",\
-          "country": "US",\
-          "date_created": "2019-08-24T14:15:22Z",\
-          "date_updated": "2019-08-24T14:15:22Z",\
-          "is_primary": true,\
-          "state": "CA",\
-          "street": "345 California Ave.",\
-          "street2": "Suite 600",\
-          "zip_code": "12345-1234"\
-        }\
-      ],\
-      "beneficial_owner_id": "45628579-5d05-4562-a5e3-e61e3a5b4562",\
-      "date_created": "2019-08-24T14:15:22Z",\
-      "date_updated": "2019-08-24T14:15:22Z",\
-      "dob": "1970-12-12",\
-      "first_name": "James",\
-      "last_name": "Atelio"\
-    },\
-    {\
-      "addresses": [\
-        {\
-          "address_id": "88887777-5d05-4e3e-a5e3-e61e3a5b88887777",\
-          "address_type": "MAILING",\
-          "city": "San Francisco",\
-          "country": "US",\
-          "date_created": "2019-08-24T14:15:22Z",\
-          "date_updated": "2019-08-24T14:15:22Z",\
-          "is_primary": true,\
-          "state": "CA",\
-          "street": "345 California Ave.",\
-          "street2": "Suite 600",\
-          "zip_code": "12345-1234"\
-        }\
-      ],\
-      "beneficial_owner_id": "12345678-5d05-4562-a5e3-e61e12345678",\
-      "date_created": "2019-08-24T14:15:22Z",\
-      "date_updated": "2019-08-24T14:15:22Z",\
-      "dob": "1980-04-04",\
-      "first_name": "Le",\
-      "last_name": "Chiffre"\
-    }\
+  "beneficial_owners": [
+    {
+      "addresses": [
+        {
+          "address_id": "12347777-5d05-4e3e-a5e3-e61e3a5b7777",
+          "address_type": "MAILING",
+          "city": "San Francisco",
+          "country": "US",
+          "date_created": "2019-08-24T14:15:22Z",
+          "date_updated": "2019-08-24T14:15:22Z",
+          "is_primary": true,
+          "state": "CA",
+          "street": "345 California Ave.",
+          "street2": "Suite 600",
+          "zip_code": "12345-1234"
+        }
+      ],
+      "beneficial_owner_id": "45628579-5d05-4562-a5e3-e61e3a5b4562",
+      "date_created": "2019-08-24T14:15:22Z",
+      "date_updated": "2019-08-24T14:15:22Z",
+      "dob": "1970-12-12",
+      "first_name": "James",
+      "last_name": "Atelio"
+    },
+    {
+      "addresses": [
+        {
+          "address_id": "88887777-5d05-4e3e-a5e3-e61e3a5b88887777",
+          "address_type": "MAILING",
+          "city": "San Francisco",
+          "country": "US",
+          "date_created": "2019-08-24T14:15:22Z",
+          "date_updated": "2019-08-24T14:15:22Z",
+          "is_primary": true,
+          "state": "CA",
+          "street": "345 California Ave.",
+          "street2": "Suite 600",
+          "zip_code": "12345-1234"
+        }
+      ],
+      "beneficial_owner_id": "12345678-5d05-4562-a5e3-e61e12345678",
+      "date_created": "2019-08-24T14:15:22Z",
+      "date_updated": "2019-08-24T14:15:22Z",
+      "dob": "1980-04-04",
+      "first_name": "Le",
+      "last_name": "Chiffre"
+    }
   ],
   "business_id": "96df8579-5d05-4e3e-a5e3-e61e3a5bdb38",
   "business_type": "limited_liability_company",
@@ -568,81 +566,81 @@ The following JSON is an example of a response to a successful request to retrie
 
 ```json
 {
-  "addresses": [\
-    {\
-      "address_id": "12348579-5d05-4e3e-a5e3-e61e3a5b1234",\
-      "address_type": "MAILING",\
-      "city": "San Francisco",\
-      "country": "US",\
-      "date_created": "2019-08-24T14:15:22Z",\
-      "date_updated": "2019-08-24T14:15:22Z",\
-      "is_primary": true,\
-      "state": "CA",\
-      "street": "345 California Ave.",\
-      "street2": "Suite 600",\
-      "zip_code": "12345-1234"\
-    },\
-    {\
-      "address_id": "67898579-5d05-6789-a5e3-e61e3a5b6789",\
-      "address_type": "PHYSICAL",\
-      "city": "San Francisco",\
-      "country": "US",\
-      "date_created": "2019-08-24T14:15:22Z",\
-      "date_updated": "2019-08-24T14:15:22Z",\
-      "is_primary": false,\
-      "state": "CA",\
-      "street": "123 California Ave.",\
-      "street2": "Suite 100",\
-      "zip_code": "12345-1234"\
-    }\
+  "addresses": [
+    {
+      "address_id": "12348579-5d05-4e3e-a5e3-e61e3a5b1234",
+      "address_type": "MAILING",
+      "city": "San Francisco",
+      "country": "US",
+      "date_created": "2019-08-24T14:15:22Z",
+      "date_updated": "2019-08-24T14:15:22Z",
+      "is_primary": true,
+      "state": "CA",
+      "street": "345 California Ave.",
+      "street2": "Suite 600",
+      "zip_code": "12345-1234"
+    },
+    {
+      "address_id": "67898579-5d05-6789-a5e3-e61e3a5b6789",
+      "address_type": "PHYSICAL",
+      "city": "San Francisco",
+      "country": "US",
+      "date_created": "2019-08-24T14:15:22Z",
+      "date_updated": "2019-08-24T14:15:22Z",
+      "is_primary": false,
+      "state": "CA",
+      "street": "123 California Ave.",
+      "street2": "Suite 100",
+      "zip_code": "12345-1234"
+    }
   ],
-  "beneficial_owners": [\
-    {\
-      "addresses": [\
-        {\
-          "address_id": "12347777-5d05-4e3e-a5e3-e61e3a5b7777",\
-          "address_type": "MAILING",\
-          "city": "San Francisco",\
-          "country": "US",\
-          "date_created": "2019-08-24T14:15:22Z",\
-          "date_updated": "2019-08-24T14:15:22Z",\
-          "is_primary": true,\
-          "state": "CA",\
-          "street": "345 California Ave.",\
-          "street2": "Suite 600",\
-          "zip_code": "12345-1234"\
-        }\
-      ],\
-      "beneficial_owner_id": "45628579-5d05-4562-a5e3-e61e3a5b4562",\
-      "date_created": "2019-08-24T14:15:22Z",\
-      "date_updated": "2019-08-24T14:15:22Z",\
-      "dob": "1970-12-12",\
-      "first_name": "James",\
-      "last_name": "Atelio"\
-    },\
-    {\
-      "addresses": [\
-        {\
-          "address_id": "88887777-5d05-4e3e-a5e3-e61e88887777",\
-          "address_type": "MAILING",\
-          "city": "San Francisco",\
-          "country": "US",\
-          "date_created": "2019-08-24T14:15:22Z",\
-          "date_updated": "2019-08-24T14:15:22Z",\
-          "is_primary": true,\
-          "state": "CA",\
-          "street": "345 California Ave.",\
-          "street2": "Suite 600",\
-          "zip_code": "12345-1234"\
-        }\
-      ],\
-      "beneficial_owner_id": "12345678-5d05-4562-a5e3-e61e12345678",\
-      "date_created": "2019-08-24T14:15:22Z",\
-      "date_updated": "2019-08-24T14:15:22Z",\
-      "dob": "1980-04-04",\
-      "first_name": "Le",\
-      "last_name": "Chiffre"\
-    }\
+  "beneficial_owners": [
+    {
+      "addresses": [
+        {
+          "address_id": "12347777-5d05-4e3e-a5e3-e61e3a5b7777",
+          "address_type": "MAILING",
+          "city": "San Francisco",
+          "country": "US",
+          "date_created": "2019-08-24T14:15:22Z",
+          "date_updated": "2019-08-24T14:15:22Z",
+          "is_primary": true,
+          "state": "CA",
+          "street": "345 California Ave.",
+          "street2": "Suite 600",
+          "zip_code": "12345-1234"
+        }
+      ],
+      "beneficial_owner_id": "45628579-5d05-4562-a5e3-e61e3a5b4562",
+      "date_created": "2019-08-24T14:15:22Z",
+      "date_updated": "2019-08-24T14:15:22Z",
+      "dob": "1970-12-12",
+      "first_name": "James",
+      "last_name": "Atelio"
+    },
+    {
+      "addresses": [
+        {
+          "address_id": "88887777-5d05-4e3e-a5e3-e61e88887777",
+          "address_type": "MAILING",
+          "city": "San Francisco",
+          "country": "US",
+          "date_created": "2019-08-24T14:15:22Z",
+          "date_updated": "2019-08-24T14:15:22Z",
+          "is_primary": true,
+          "state": "CA",
+          "street": "345 California Ave.",
+          "street2": "Suite 600",
+          "zip_code": "12345-1234"
+        }
+      ],
+      "beneficial_owner_id": "12345678-5d05-4562-a5e3-e61e12345678",
+      "date_created": "2019-08-24T14:15:22Z",
+      "date_updated": "2019-08-24T14:15:22Z",
+      "dob": "1980-04-04",
+      "first_name": "Le",
+      "last_name": "Chiffre"
+    }
   ],
   "business_id": "96df8579-5d05-4e3e-a5e3-e61e3a5bdb38",
   "business_type": "limited_liability_company",
@@ -743,33 +741,33 @@ The following JSON is an example of a response to a successful request to retrie
 
 ```json
 {
-  "data": [\
-    {\
-      "address_id": "12348579-5d05-4e3e-a5e3-e61e3a5b1234",\
-      "address_type": "MAILING",\
-      "city": "San Francisco",\
-      "country": "US",\
-      "date_created": "2019-08-24T14:15:22Z",\
-      "date_updated": "2019-08-24T14:15:22Z",\
-      "is_primary": true,\
-      "state": "CA",\
-      "street": "345 California Ave.",\
-      "street2": "Suite 600",\
-      "zip_code": "12345-1234"\
-    },\
-    {\
-      "address_id": "67898579-5d05-6789-a5e3-e61e3a5b6789",\
-      "address_type": "PHYSICAL",\
-      "city": "San Francisco",\
-      "country": "US",\
-      "date_created": "2019-08-24T14:15:22Z",\
-      "date_updated": "2019-08-24T14:15:22Z",\
-      "is_primary": false,\
-      "state": "CA",\
-      "street": "123 California Ave.",\
-      "street2": "Suite 100",\
-      "zip_code": "12345-1234"\
-    }\
+  "data": [
+    {
+      "address_id": "12348579-5d05-4e3e-a5e3-e61e3a5b1234",
+      "address_type": "MAILING",
+      "city": "San Francisco",
+      "country": "US",
+      "date_created": "2019-08-24T14:15:22Z",
+      "date_updated": "2019-08-24T14:15:22Z",
+      "is_primary": true,
+      "state": "CA",
+      "street": "345 California Ave.",
+      "street2": "Suite 600",
+      "zip_code": "12345-1234"
+    },
+    {
+      "address_id": "67898579-5d05-6789-a5e3-e61e3a5b6789",
+      "address_type": "PHYSICAL",
+      "city": "San Francisco",
+      "country": "US",
+      "date_created": "2019-08-24T14:15:22Z",
+      "date_updated": "2019-08-24T14:15:22Z",
+      "is_primary": false,
+      "state": "CA",
+      "street": "123 California Ave.",
+      "street2": "Suite 100",
+      "zip_code": "12345-1234"
+    }
   ],
   "page_info": {
     "page": 1,

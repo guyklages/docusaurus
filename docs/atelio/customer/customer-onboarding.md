@@ -72,17 +72,17 @@ curl --request POST \
      --header 'Identity: YOUR-IDENTITY' \
      --data '
 {
-     "addresses": [\
-          {\
-               "address_type": "MAILING",\
-               "street": "345 California Ave.",\
-               "street2": "Suite 600",\
-               "city": "San Francisco",\
-               "state": "CA",\
-               "zip_code": "12345-1234",\
-               "country": "US",\
-               "is_primary": true\
-          }\
+     "addresses": [
+          {
+               "address_type": "MAILING",
+               "street": "345 California Ave.",
+               "street2": "Suite 600",
+               "city": "San Francisco",
+               "state": "CA",
+               "zip_code": "12345-1234",
+               "country": "US",
+               "is_primary": true
+          }
      ],
      "email": "james@mi6.gov.uk",
      "dob": "1997-12-25",
@@ -95,13 +95,11 @@ curl --request POST \
 '
 ```
 
-**Example response**
+#### Example response
 
 The JSON response contains all the information related to the newly created customer. It includes the `customer_id`, which is a unique Atelio platform identifier for your customer. The `customer_id` is used in subsequent API calls to retrieve and update customers and to issue [cards](https://docs.atelio.com/embedded/docs/secured-charge-card-overview). The following is an example of a response to a successful request to create a customer.
 
-JSON
-
-```
+```json
 {
   "customer_id": "b3f7f6c9-503e-4457-b0ca-31f65131cfff",
   "brand_person_id": "ac6ee2d3-5a03-4043-a4aa-dda51836b9fd",
@@ -115,20 +113,20 @@ JSON
   "phone": "555-111-2222",
   "phone_country_code": "1",
   "email": "james@mi6.gov.uk",
-  "addresses": [\
-    {\
-      "address_id": "5ff2a5f8-2d96-4c89-9edc-ec762ac3844c",\
-      "address_type": "MAILING",\
-      "street": "345 California Ave.",\
-      "street2": "Suite 600",\
-      "city": "San Francisco",\
-      "state": "CA",\
-      "zip_code": "12345-1234",\
-      "country": "US",\
-      "is_primary": true,\
-      "date_created": "2021-10-11T17:54:26.784367+00:00",\
-      "deliverability": "deliverable"\
-    }\
+  "addresses": [
+    {
+      "address_id": "5ff2a5f8-2d96-4c89-9edc-ec762ac3844c",
+      "address_type": "MAILING",
+      "street": "345 California Ave.",
+      "street2": "Suite 600",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip_code": "12345-1234",
+      "country": "US",
+      "is_primary": true,
+      "date_created": "2021-10-11T17:54:26.784367+00:00",
+      "deliverability": "deliverable"
+    }
   ],
   "date_created": "2021-06-02T13:38:27.965404+00:00"
 }
@@ -220,17 +218,17 @@ curl --request PATCH \
      --header 'Identity: YOUR-IDENTITY' \
      --data '
 {
-     "addresses": [\
-          {\
-               "address_type": "PHYSICAL",\
-               "street": "345 California Ave.",\
-               "street2": "Suite 600",\
-               "city": "San Francisco",\
-               "state": "CA",\
-               "zip_code": "12345-1234",\
-               "country": "US",\
-               "is_primary": true\
-          }\
+     "addresses": [
+          {
+               "address_type": "PHYSICAL",
+               "street": "345 California Ave.",
+               "street2": "Suite 600",
+               "city": "San Francisco",
+               "state": "CA",
+               "zip_code": "12345-1234",
+               "country": "US",
+               "is_primary": true
+          }
      ],
      "dob": "1997-12-25",
      "first_name": "James",
@@ -292,95 +290,93 @@ curl --request GET \
 
 **Example response**
 
-The following is an example of a response to a successful request to retrieve all customers.
+The following JSON is an example of a response to a successful request to retrieve all customers.
 
-JSON
-
-```
-[\
-  {\
-    "customer_id": "8559dec0-2edb-4c3c-a3c5-32de10174c34",\
-    "brand_person_id": "7b18da9e-0217-4ecb-8454-8c0ab8bedc14",\
-    "bond_brand_id": "e2b37ab8-5e6e-4538-bbe0-35121b481845",\
-    "date_created": "2020-10-26T21:48:57.287919",\
-    "dob": "1997-12-25",\
-    "first_name": "James",\
-    "middle_name": "Herbert",\
-    "last_name": "Bond",\
-    "ssn": "XXX-XX-6789",\
-    "phone": "650-123-4567",\
-    "email": "james@mi6.gov.uk",\
-    "kyc_requests_available": 3,\
-    "addresses": [\
-      {\
-        "address_id": "9e8241d2-ac5e-41c6-8b38-b3fe44387266",\
-        "address_type": "PHYSICAL",\
-        "street": "345 California St.",\
-        "street2": "Suite 600",\
-        "city": "San Francisco",\
-        "state": "CA",\
-        "zip_code": "94104-2657",\
-        "country": "US",\
-        "is_primary": true,\
-        "deliverability": "deliverable",\
-        "date_created": "2020-10-26T21:48:57.287919"\
-      },\
-      {\
-        "address_id": "242c459e-6bd5-4158-89ee-550f0bdd133d",\
-        "address_type": "MAILING",\
-        "street": "111 Lake Tahoe Rd.",\
-        "street2": "",\
-        "city": "San Francisco",\
-        "state": "CA",\
-        "zip_code": "12345",\
-        "country": "US",\
-        "is_primary": false,\
-        "deliverability": "undeliverable",\
-        "date_created": "2020-10-26T21:48:57.287919"\
-      }\
-    ]\
-  },\
-  {\
-    "customer_id": "3cf29100-4396-4c90-b4b0-6edfeca0ee3f",\
-    "brand_person_id": "1ea85e01-c35f-4675-9f74-e39fa877bc53",\
-    "bond_brand_id": "e2b37ab8-5e6e-4538-bbe0-35121b481845",\
-    "date_created": "2020-10-27T22:48:57.287919",\
-    "dob": "1997-12-25",\
-    "first_name": "Christine",\
-    "middle_name": "J",\
-    "last_name": "Smith",\
-    "ssn": "XXX-XX-6789",\
-    "phone": "650-124-4567",\
-    "email": "james@mi6.gov.uk",\
-    "addresses": [\
-      {\
-        "address_id": "acf383d1-8510-47ed-ad28-0ca72f33bc33",\
-        "address_type": "PHYSICAL",\
-        "street": "345 California St.",\
-        "street2": "",\
-        "city": "San Francisco",\
-        "state": "CA",\
-        "zip_code": "94104-2657",\
-        "country": "US",\
-        "is_primary": true,\
-        "deliverability": "deliverable_missing_unit",\
-        "date_created": "2020-10-27T22:48:57.287919"\
-      },\
-      {\
-        "address_id": "47dc4547-b306-4f49-94c4-4ad89cbb9dac",\
-        "address_type": "MAILING",\
-        "street": "111 Lake Tahoe Rd.",\
-        "street2": "",\
-        "city": "San Francisco",\
-        "state": "CA",\
-        "zip_code": "12345",\
-        "country": "US",\
-        "is_primary": false,\
-        "deliverability": "undeliverable",\
-        "date_created": "2020-10-27T22:48:57.287919"\
-      }\
-    ]\
-  }\
+```json
+[
+  {
+    "customer_id": "8559dec0-2edb-4c3c-a3c5-32de10174c34",
+    "brand_person_id": "7b18da9e-0217-4ecb-8454-8c0ab8bedc14",
+    "bond_brand_id": "e2b37ab8-5e6e-4538-bbe0-35121b481845",
+    "date_created": "2020-10-26T21:48:57.287919",
+    "dob": "1997-12-25",
+    "first_name": "James",
+    "middle_name": "Herbert",
+    "last_name": "Bond",
+    "ssn": "XXX-XX-6789",
+    "phone": "650-123-4567",
+    "email": "james@mi6.gov.uk",
+    "kyc_requests_available": 3,
+    "addresses": [
+      {
+        "address_id": "9e8241d2-ac5e-41c6-8b38-b3fe44387266",
+        "address_type": "PHYSICAL",
+        "street": "345 California St.",
+        "street2": "Suite 600",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip_code": "94104-2657",
+        "country": "US",
+        "is_primary": true,
+        "deliverability": "deliverable",
+        "date_created": "2020-10-26T21:48:57.287919"
+      },
+      {
+        "address_id": "242c459e-6bd5-4158-89ee-550f0bdd133d",
+        "address_type": "MAILING",
+        "street": "111 Lake Tahoe Rd.",
+        "street2": "",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip_code": "12345",
+        "country": "US",
+        "is_primary": false,
+        "deliverability": "undeliverable",
+        "date_created": "2020-10-26T21:48:57.287919"
+      }
+    ]
+  },
+  {
+    "customer_id": "3cf29100-4396-4c90-b4b0-6edfeca0ee3f",
+    "brand_person_id": "1ea85e01-c35f-4675-9f74-e39fa877bc53",
+    "bond_brand_id": "e2b37ab8-5e6e-4538-bbe0-35121b481845",
+    "date_created": "2020-10-27T22:48:57.287919",
+    "dob": "1997-12-25",
+    "first_name": "Christine",
+    "middle_name": "J",
+    "last_name": "Smith",
+    "ssn": "XXX-XX-6789",
+    "phone": "650-124-4567",
+    "email": "james@mi6.gov.uk",
+    "addresses": [
+      {
+        "address_id": "acf383d1-8510-47ed-ad28-0ca72f33bc33",
+        "address_type": "PHYSICAL",
+        "street": "345 California St.",
+        "street2": "",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip_code": "94104-2657",
+        "country": "US",
+        "is_primary": true,
+        "deliverability": "deliverable_missing_unit",
+        "date_created": "2020-10-27T22:48:57.287919"
+      },
+      {
+        "address_id": "47dc4547-b306-4f49-94c4-4ad89cbb9dac",
+        "address_type": "MAILING",
+        "street": "111 Lake Tahoe Rd.",
+        "street2": "",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip_code": "12345",
+        "country": "US",
+        "is_primary": false,
+        "deliverability": "undeliverable",
+        "date_created": "2020-10-27T22:48:57.287919"
+      }
+    ]
+  }
 ]
 ```
 
@@ -419,33 +415,33 @@ JSON
   "phone": "650-123-4567",
   "email": "james@mi6.gov.uk",
   "kyc_requests_available": 3,
-  "addresses": [\
-    {\
-      "address_id": "9e8241d2-ac5e-41c6-8b38-b3fe44387266",\
-      "address_type": "PHYSICAL",\
-      "street": "345 California St.",\
-      "street2": "Suite 600",\
-      "city": "San Francisco",\
-      "state": "CA",\
-      "zip_code": "94104-2657",\
-      "country": "US",\
-      "is_primary": true,\
-      "deliverability": "deliverable",\
-      "date_created": "2020-10-26T21:48:57.287919"\
-    },\
-    {\
-      "address_id": "242c459e-6bd5-4158-89ee-550f0bdd133d",\
-      "address_type": "MAILING",\
-      "street": "111 Lake Tahoe Rd.",\
-      "street2": "",\
-      "city": "San Francisco",\
-      "state": "CA",\
-      "zip_code": "12345",\
-      "country": "US",\
-      "is_primary": false,\
-      "deliverability": "undeliverable",\
-      "date_created": "2020-10-26T21:48:57.287919"\
-    }\
+  "addresses": [
+    {
+      "address_id": "9e8241d2-ac5e-41c6-8b38-b3fe44387266",
+      "address_type": "PHYSICAL",
+      "street": "345 California St.",
+      "street2": "Suite 600",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip_code": "94104-2657",
+      "country": "US",
+      "is_primary": true,
+      "deliverability": "deliverable",
+      "date_created": "2020-10-26T21:48:57.287919"
+    },
+    {
+      "address_id": "242c459e-6bd5-4158-89ee-550f0bdd133d",
+      "address_type": "MAILING",
+      "street": "111 Lake Tahoe Rd.",
+      "street2": "",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip_code": "12345",
+      "country": "US",
+      "is_primary": false,
+      "deliverability": "undeliverable",
+      "date_created": "2020-10-26T21:48:57.287919"
+    }
   ]
 }
 ```
@@ -512,16 +508,14 @@ curl --request POST \
 
 **Example response**
 
-The following is an example of a response to a successful request to unfreeze customer accounts:
+The following JSON is an example of a response to a successful request to unfreeze customer accounts:
 
-JSON
-
-```
+```json
 {
-  "processed_customer_ids": [\
-    {\
-      "customer_id": "123e4567-e89b-12d3-a456-426614174000"\
-    }\
+  "processed_customer_ids": [
+    {
+      "customer_id": "123e4567-e89b-12d3-a456-426614174000"
+    }
   ],
   "failed_customer_ids": []
 }
@@ -552,16 +546,14 @@ curl --request POST \
 
 **Example response**
 
-The following is an example of a response to a successful request to close customer accounts:
+The following JSON is an example of a response to a successful request to close customer accounts:
 
-JSON
-
-```
+```json
 {
-  "processed_customer_ids": [\
-    {\
-      "customer_id": "123e4567-e89b-12d3-a456-426614174000"\
-    }\
+  "processed_customer_ids": [
+    {
+      "customer_id": "123e4567-e89b-12d3-a456-426614174000"
+    }
   ],
   "failed_customer_ids": []
 }

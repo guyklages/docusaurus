@@ -333,13 +333,59 @@ const sidebars = {
                 },
                 {
                   type: 'doc',
+                  id: 'atelio/money-movement/ach-transfers',
+                  label: 'ACH transfers',
+                },
+                {
+                  type: 'doc',
+                  id: 'atelio/money-movement/making-ach-transfers',
+                  label: 'Making ACH transfers',
+                },
+                {
+                  type: 'doc',
                   id: 'atelio/money-movement/ach-return-codes',
                   label: 'ACH return codes',
-                }
+                },
+                {
+                  type: 'doc',
+                  id: 'atelio/money-movement/account-fund-transfers',
+                  label: 'Creating a transfer',
+                },
+                {
+                  type: 'doc',
+                  id: 'atelio/money-movement/make-a-payment',
+                  label: 'Make a payment',
+                },
               ] 
             } // Account transfers
           ] 
-        } // Money movement
+        }, // Money movement
+        {
+          type: 'category',
+          label: 'Developers',
+          items: [
+            {
+              type: 'doc',
+              id: 'atelio/developers/error-handling',
+              label: 'Error handling'
+            },
+            {
+              type: 'doc',
+              id: 'atelio/developers/hmac-signature',
+              label: 'HMAC signature',
+            },
+            {
+              type: 'doc',
+              id: 'atelio/developers/api-headers',
+              label: 'API headers',
+            },
+            {
+              type: 'doc',
+              id: 'atelio/developers/web-sdk-documentation',
+              label: 'Web SDK documentation',
+            },
+          ]
+        }, // Developers
       ] 
     }, // Atelio developer guides
     {

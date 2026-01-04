@@ -39,17 +39,17 @@ const sidebars = {
             },
             {
               type: 'doc',
-              id: 'atelio/quickstart',
+              id: 'atelio/getting-started/quickstart',
               label: 'Quickstart',
             },
             {
               type: 'doc',
-              id: 'atelio/postman-collection',
+              id: 'atelio/getting-started/postman-collection',
               label: 'Postman',
             },
             {
               type: 'doc',
-              id: 'atelio/sandbox-vs-production',
+              id: 'atelio/getting-started/sandbox-vs-production',
               label: 'Sandbox vs Production',
             },
             {
@@ -202,20 +202,138 @@ const sidebars = {
               type: 'doc',
               id: 'atelio/accounts/link-an-external-account',
               label: 'External accounts with Plaid',
+            },
+            {
+              type: 'doc',
+              id: 'atelio/accounts/external-accounts-sdk',
+              label: 'External accounts SDK',
+            },
+            {
+              type: 'doc',
+              id: 'atelio/accounts/sdk-documentation',
+              label: 'SDK documentation',
+            },
+            {
+              type: 'doc',
+              id: 'atelio/accounts/account-statements',
+              label: 'Account statements',
             }
           ]
         }, // Accounts
         {
           type: 'category',
+          label: 'Cards',
+          items: [
+            {
+              type: 'doc',
+              id: 'atelio/cards/secured-charge-card-overview',
+              label: 'Secured charge card',
+            },
+            {
+              type: 'doc',
+              id: 'atelio/cards/consumer-secured-charge-card',
+              label: 'Consumer secured charge card',
+            },
+            {
+              type: 'doc',
+              id: 'atelio/cards/commercial-secured-charge-card',
+              label: 'Commercial secured charge card',
+            },
+            {
+              type: 'doc',
+              id: 'atelio/cards/multi-card',
+              label: 'Multi-card',
+            },
+            {
+              type: 'doc',
+              id: 'atelio/cards/manage-cards',
+              label: 'Manage cards',
+            },
+            {
+              type: 'doc',
+              id: 'atelio/cards/card-reissue-faq',
+              label: 'Card reissue FAQ',
+            },
+            {
+              type: 'doc',
+              id: 'atelio/cards/ateliocards-sdk',
+              label: 'Atelio cards SDK',
+            }
+          ]
+        }, // Cards
+        {
+          type: 'category',
+          label: 'Identity',
+          items: [
+            {
+              type: 'doc',
+              id: 'atelio/identity/identity-overview',
+              label: 'Identity overview',
+            },
+            {
+              type: 'doc',
+              id: 'atelio/identity/identity-integration-guide',
+              label: 'Identity integration guide',
+            },
+            {
+              type: 'doc',
+              id: 'atelio/identity/identity-user-guide',
+              label: 'Identity user guide',
+            },
+            {
+              type: 'doc',
+              id: 'atelio/identity/pricing-and-bundling',
+              label: 'Pricing and bundling',
+            }
+          ]
+        },
+        {
+          type: 'category',
           label: 'Money movement',
           items: [
+            {
+              type: 'doc',
+              id: 'atelio/money-movement/pay-by-bank-payments',
+              label: 'Pay by Bank payments',
+            },
+            {
+              type: 'doc',
+              id: 'atelio/money-movement/money-movement',
+              label: 'Money movement',
+            },
+            {
+              type: 'category',
+              label: 'Transactions',
+              items: [
+                {
+                  type: 'doc',
+                  id: 'atelio/money-movement/transactions-overview',
+                  label: 'Transactions overview',
+                },
+                {
+                  type: 'doc',
+                  id: 'atelio/money-movement/payment-types',
+                  label: 'Payment types',
+                },
+                {
+                  type: 'doc',
+                  id: 'atelio/money-movement/mcc-codes-and-descriptions',
+                  label: 'MCC codes and descriptions',
+                }
+              ]
+            },
             {
               type: 'category',
               label: 'Account transfers',
               items: [
                 {
                   type: 'doc',
-                  id: 'atelio/ach-return-codes',
+                  id: 'atelio/money-movement/account-transfers',
+                  label: 'Account transfers',
+                },
+                {
+                  type: 'doc',
+                  id: 'atelio/money-movement/ach-return-codes',
                   label: 'ACH return codes',
                 }
               ] 

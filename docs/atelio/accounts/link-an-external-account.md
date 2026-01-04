@@ -34,16 +34,16 @@ The following steps will largely use Python for code examples. Examples in other
 
 There will be references to a `client` variable which can be initialized like:
 
-Python
+<!-- <Tabs><TabItem value="python" label="Python"> -->
 
-```javascript
+```python title="Python"
 import plaid
 from plaid.api import plaid_api
 
 api_key = {
   'clientId': 'YOUR_CLIENT_ID',
   'secret': 'YOUR_SECRET',
-  'plaidVersion' = '2020-09-14'
+  'plaidVersion' : '2020-09-14'
 }
 
 configuration = plaid.Configuration(
@@ -53,6 +53,7 @@ configuration = plaid.Configuration(
 api_client = plaid.ApiClient(configuration)
 client = plaid_api.PlaidApi(api_client)
 ```
+<!-- </TabItem></Tabs> -->
 
 ### Create a link token
 
@@ -64,9 +65,9 @@ When creating a link token, you must specify one of the following owner types:
 - `pbb_user_id` \- For Pay by Bank users.
 - `customer_id` \- For individual customers.
 
-#### Example Python code
+#### Example code
 
-```python
+```python title="Python"
 from plaid.model.country_code import CountryCode
 from plaid.model.depository_account_subtype import DepositoryAccountSubtype
 from plaid.model.depository_account_subtypes import DepositoryAccountSubtypes
@@ -102,9 +103,9 @@ link_token = response['link_token']
 
 ### Launch the link Plaid flow
 
-Use the `link_token` to launch the frontend Plaid flow for connecting an account. After the Plaid flow is completed, Plaid returns a `public_token`. More details can be found on [Plaid’s website](https://plaid.com/docs/api/tokens/#itempublic_tokenexchange), including example callback functions. However, in the most basic sense, the JavaScript code may look like:
+Use the `link_token` to launch the frontend Plaid flow for connecting an account. After the Plaid flow is completed, Plaid returns a `public_token`. More details can be found on [Plaid’s website](https://plaid.com/docs/api/tokens/#itempublic_tokenexchange), including example callback functions. However, in the most basic sense, the code may look like:
 
-```javascript
+```javascript title="JavaScript"
 const handler = Plaid.create({
   token: data['link_token'],
   onSuccess: (public_token, metadata) => {
@@ -127,9 +128,9 @@ handler.open();
 
 Exchange the `public_token` for an `access_token`. For more information, see [Plaid's /processor/token/create](https://plaid.com/docs/api/processors/#processortokencreate).
 
-#### Example Python code
+#### Example code
 
-```python
+```python title="Python"
 from plaid.model.item_public_token_exchange_request import ItemPublicTokenExchangeRequest
 
 exchange_request = ItemPublicTokenExchangeRequest(public_token=public_token)
@@ -141,9 +142,9 @@ access_token = exchange_token_response['access_token']
 
 Use the `access_token` to send a final request to Plaid and receive the `processor_token`. For more information, see [Plaid's /processor/token/create](https://plaid.com/docs/api/processors/#processortokencreate).
 
-#### Example Python code
+#### Example code
 
-```python
+```python title="Python"
 from plaid.model.processor_token_create_request import ProcessorTokenCreateRequest
 
 create_request = ProcessorTokenCreateRequest(
@@ -172,7 +173,7 @@ Finally, you will use our API to add the linked account by calling the [CreateAc
 
 Create account using a token:
 
-```curl
+```curl title="cURL"
 curl --request POST \
   --url https://sandbox.atelio.com/api/v0.1/accounts/processor_tokens \
   --header 'Identity: <YOUR_IDENTITY>' \
@@ -181,9 +182,9 @@ curl --request POST \
   --data '{"processor_token": "processor-sandbox-922e5514-dba6-46e0-be38-4f691aa7888d", "customer_id": "e3dbc230-eba2-482a-95b9-791f5386e4b0"}'
 ```
 
-The following is an example of a successful `201` JSON response:
+The following is an example of a successful `201` response:
 
-```json
+```json title="JSON"
 {
    "account_id": "5b655bc5-04c9-4e69-bc4a-7c6c57b4febc",
    "date_created": "2023-08-07T19:45:22.596051+00:00",
@@ -327,9 +328,9 @@ An example of a request to retrieve linked accounts is shown below.
 
 #### Example response
 
-The following is an example of a JSON response to a successful request to retrieve information for all linked accounts associated with the `customer_id`. The response now includes a `bank_logo` field that contains the bank's logo in base64-encoded format when available.
+The following is an example of a response to a successful request to retrieve information for all linked accounts associated with the `customer_id`. The response now includes a `bank_logo` field that contains the bank's logo in base64-encoded format when available.
 
-```json
+```json title="JSON"
 [
     {
         "linked_account_id": "f02ad0f9-1945-4cbc-b1b7-0e96b0189842",
@@ -382,84 +383,99 @@ An example of a request to to remove an external account is shown below.
 
 cURL Ruby JavaScript Python C# Java
 
-```curl
-curl --request DELETE \
-     --url https://sandbox.atelio.com/api/v0.1/accounts/9dc86a8a-4c12-4107-84a8-e7cf6a76586f \
-     --header 'Authorization: <YOUR_AUTHORIZATION>' \
-     --header 'Identity: <YOUR_IDENTITY>'
-```
+<Tabs>
+    <TabItem value="curl" label="cURL">
 
-```ruby
-require 'uri'
-require 'net/http'
-require 'openssl'
+        ```curl
+        curl --request DELETE \
+            --url https://sandbox.atelio.com/api/v0.1/accounts/9dc86a8a-4c12-4107-84a8-e7cf6a76586f \
+            --header 'Authorization: <YOUR_AUTHORIZATION>' \
+            --header 'Identity: <YOUR_IDENTITY>'
+        ```
+    </TabItem>
+    <TabItem value="ruby" label="Ruby">
 
-url = URI("https://sandbox.atelio.com/api/v0/accounts/9dc86a8a-4c12-4107-84a8-e7cf6a76586f/external_accounts/8dd4e2de-33be-4bb3-9a19-25069033a5e2")
+        ```ruby
+        require 'uri'
+        require 'net/http'
+        require 'openssl'
 
-http = Net::HTTP.new(url.host, url.port)
-http.use_ssl = true
+        url = URI("https://sandbox.atelio.com/api/v0/accounts/9dc86a8a-4c12-4107-84a8-e7cf6a76586f/external_accounts/8dd4e2de-33be-4bb3-9a19-25069033a5e2")
 
-request = Net::HTTP::Delete.new(url)
-request["Identity"] = '<YOUR_IDENTITY>'
-request["Authorization"] = '<YOUR_AUTHORIZATION>'
+        http = Net::HTTP.new(url.host, url.port)
+        http.use_ssl = true
 
-response = http.request(request)
-puts response.read_body
-```
+        request = Net::HTTP::Delete.new(url)
+        request["Identity"] = '<YOUR_IDENTITY>'
+        request["Authorization"] = '<YOUR_AUTHORIZATION>'
 
-```javascript
-const options = {
-  method: 'DELETE',
-  headers: {Identity: '<YOUR_IDENTITY>', Authorization: '<YOUR_AUTHORIZATION>'}
-};
+        response = http.request(request)
+        puts response.read_body
+        ```
+    </TabItem>
+    <TabItem value="javascript" label="JavaScript">
 
-fetch('https://sandbox.atelio.com/api/v0/accounts/9dc86a8a-4c12-4107-84a8-e7cf6a76586f/external_accounts/8dd4e2de-33be-4bb3-9a19-25069033a5e2', options)
-  .then(response => response.json())
-  .then(response => console.log(response))
-  .catch(err => console.error(err));
-```
+        ```javascript
+        const options = {
+        method: 'DELETE',
+        headers: {Identity: '<YOUR_IDENTITY>', Authorization: '<YOUR_AUTHORIZATION>'}
+        };
 
-```python
-import requests
+        fetch('https://sandbox.atelio.com/api/v0/accounts/9dc86a8a-4c12-4107-84a8-e7cf6a76586f/external_accounts/8dd4e2de-33be-4bb3-9a19-25069033a5e2', options)
+        .then(response => response.json())
+        .then(response => console.log(response))
+        .catch(err => console.error(err));
+        ```
+    </TabItem>
+    <TabItem value="python" label="Python">
 
-url = "https://sandbox.atelio.com/api/v0/accounts/9dc86a8a-4c12-4107-84a8-e7cf6a76586f/external_accounts/8dd4e2de-33be-4bb3-9a19-25069033a5e2"
+        ```python
+        import requests
 
-headers = {
-    "Identity": "<YOUR_IDENTITY>",
-    "Authorization": "<YOUR_AUTHORIZATION>"
-}
+        url = "https://sandbox.atelio.com/api/v0/accounts/9dc86a8a-4c12-4107-84a8-e7cf6a76586f/external_accounts/8dd4e2de-33be-4bb3-9a19-25069033a5e2"
 
-response = requests.request("DELETE", url, headers=headers)
+        headers = {
+            "Identity": "<YOUR_IDENTITY>",
+            "Authorization": "<YOUR_AUTHORIZATION>"
+        }
 
-print(response.text)
-```
+        response = requests.request("DELETE", url, headers=headers)
 
-```csharp
-var client = new RestClient("https://sandbox.atelio.com/api/v0/accounts/9dc86a8a-4c12-4107-84a8-e7cf6a76586f/external_accounts/8dd4e2de-33be-4bb3-9a19-25069033a5e2");
-var request = new RestRequest(Method.DELETE);
-request.AddHeader("Identity", "<YOUR_IDENTITY>");
-request.AddHeader("Authorization", "<YOUR_AUTHORIZATION>");
-IRestResponse response = client.Execute(request);
-```
+        print(response.text)
+        ```
+    </TabItem>
+    <TabItem value="csharp" label="C#">
 
-```java
-OkHttpClient client = new OkHttpClient();
+        ```csharp
+        var client = new RestClient("https://sandbox.atelio.com/api/v0/accounts/9dc86a8a-4c12-4107-84a8-e7cf6a76586f/external_accounts/8dd4e2de-33be-4bb3-9a19-25069033a5e2");
+        var request = new RestRequest(Method.DELETE);
+        request.AddHeader("Identity", "<YOUR_IDENTITY>");
+        request.AddHeader("Authorization", "<YOUR_AUTHORIZATION>");
+        IRestResponse response = client.Execute(request);
+        ```
+    </TabItem>
+    <TabItem value="java" label="Java">
 
-Request request = new Request.Builder()
-  .url("https://sandbox.atelio.com/api/v0/accounts/9dc86a8a-4c12-4107-84a8-e7cf6a76586f/external_accounts/8dd4e2de-33be-4bb3-9a19-25069033a5e2")
-  .delete(null)
-  .addHeader("Identity", "<YOUR_IDENTITY>")
-  .addHeader("Authorization", "<YOUR_AUTHORIZATION>")
-  .build();
+        ```java
+        OkHttpClient client = new OkHttpClient();
 
-Response response = client.newCall(request).execute();
-```
+        Request request = new Request.Builder()
+        .url("https://sandbox.atelio.com/api/v0/accounts/9dc86a8a-4c12-4107-84a8-e7cf6a76586f/external_accounts/8dd4e2de-33be-4bb3-9a19-25069033a5e2")
+        .delete(null)
+        .addHeader("Identity", "<YOUR_IDENTITY>")
+        .addHeader("Authorization", "<YOUR_AUTHORIZATION>")
+        .build();
+
+        Response response = client.newCall(request).execute();
+        ```
+    </TabItem>
+</Tabs>
 
 #### Example response
 
 Once the `access_token` is revoked, Atelio deletes the external account, like the following JSON message:
 
-```json
+```json title="JSON"
 {
     "deleted_at": "2021-04-01T04:07:53.685055+00:00",
     "date_created": "2021-04-01T04:07:08.598071+00:00",

@@ -171,6 +171,8 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+        showLanguage: true,
+        additionalLanguages: ['csharp', 'java', 'javascript', 'json', 'python', 'ruby'],
       },
     },
 };

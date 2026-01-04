@@ -68,3 +68,7 @@ table.fixedFourColumn {
 table.fixedFourColumn th {
   width: 25%;
 }
+
+div[class*="codeBlockTitle"] {
+  font-size: 0.75rem;
+}

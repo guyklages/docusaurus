@@ -1,3 +1,0 @@
-# Overview
-
-Table of items

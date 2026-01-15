@@ -40,39 +40,55 @@ const config = {
     locales: ['en'],
   },
 
-  presets: [
-    [
-      'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
-        docs: {
-          sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+presets: [
+  [
+    'classic',
+    /** @type {import('@docusaurus/preset-classic').Options} */
+    ({
+      docs: {
+        sidebarPath: './sidebars.js',
+        // Please change this to your repo.
+        // Remove this to remove the "edit this page" links.
+        editUrl:
+          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+      },
+      blog: {
+        showReadingTime: true,
+        feedOptions: {
+          type: ['rss', 'atom'],
+          xslt: true,
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
-        theme: {
-          customCss: './src/css/custom.css',
-        },
-      }),
-    ],
+        // Please change this to your repo.
+        // Remove this to remove the "edit this page" links.
+        editUrl:
+          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        // Useful options to enforce blogging best practices
+        onInlineTags: 'warn',
+        onInlineAuthors: 'warn',
+        onUntruncatedBlogPosts: 'warn',
+      },
+      theme: {
+        customCss: './src/css/custom.css',
+      },
+    }),
   ],
+  [
+    'redocusaurus',
+    {
+      specs: [
+        {
+          spec: 'static/atelio-api.yaml',
+          route: '/atelio-api/',
+        },
+      ],
+      theme: {
+        primaryColor: '#1890ff',
+      },
+    },
+  ],
+],
+
+  themes: ['docusaurus-theme-redoc'],
 
   themeConfig:
     {
@@ -95,9 +111,9 @@ const config = {
           },
           {
             type: 'docSidebar',
-            sidebarId: 'sidebarAtelio',
+            sidebarId: 'sidebarAtelioGuides',
             position: 'left',
-            label: 'Atelio (FIS)',
+            label: 'Atelio guides',
           },
           {
             type: 'docSidebar',
@@ -172,9 +188,10 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
         showLanguage: true,
-        additionalLanguages: ['csharp', 'java', 'javascript', 'json', 'python', 'ruby'],
+        additionalLanguages: ['csharp', 'java', 'javascript', 'json', 'python', 'ruby', 'scala'],
       },
     },
 };
 
 export default config;
+

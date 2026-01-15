@@ -1,0 +1,787 @@
+openapi: 3.0.0
+info:
+  title: Atelio Embedded API
+  version: 0.1.0
+  description: |
+    Atelio's Embedded API provides comprehensive financial infrastructure capabilities including
+    customer management, card issuance, KYC/KYB verification, and more.
+  contact:
+    name: Atelio Support
+    url: https://www.atelio.com
+servers:
+  - url: https://sandbox.atelio.com/api/v0.1
+    description: Sandbox environment
+  - url: https://api.atelio.com/api/v0.1
+    description: Production environment
+
+security:
+  - ApiKeyAuth: []
+  - IdentityAuth: []
+
+paths:
+  /customers/:
+    post:
+      summary: Create a customer
+      description: Creates a new customer in the Atelio platform
+      operationId: createCustomer
+      tags:
+        - Customers
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateCustomerRequest'
+            examples:
+              primary-customer:
+                summary: Creating a Primary Customer
+                value:
+                  first_name: "John"
+                  last_name: "Doe"
+                  dob: "1990-05-15"
+                  email: "john.doe@example.com"
+                  phone: "4155551234"
+                  phone_country_code: "1"
+                  ssn: "123-45-6789"
+                  brand_person_id: "customer-12345"
+                  addresses:
+                    - address_type: "PHYSICAL"
+                      street: "123 Main Street"
+                      street2: "Apt 4B"
+                      city: "San Francisco"
+                      state: "CA"
+                      zip_code: "94105"
+                      country: "US"
+                      is_primary: true
+                  account_holder_type: "primary"
+              secondary-customer:
+                summary: Creating a Secondary Customer (Employee)
+                value:
+                  first_name: "Jane"
+                  last_name: "Smith"
+                  dob: "1995-08-20"
+                  email: "jane.smith@example.com"
+                  phone: "4155555678"
+                  phone_country_code: "1"
+                  addresses:
+                    - address_type: "PHYSICAL"
+                      street: "456 Market Street"
+                      city: "San Francisco"
+                      state: "CA"
+                      zip_code: "94102"
+                      country: "US"
+                      is_primary: true
+                  account_holder_type: "secondary"
+                  primary_id: "business-uuid-here"
+      responses:
+        '201':
+          description: Customer created successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CustomerResponse'
+              example:
+                customer_id: "ee268265-1f29-4603-a958-a9b0ab7ce573"
+                bond_brand_id: "abaa2147-4533-4ec7-a9f6-bd88a988ecd1"
+                brand_person_id: "customer-12345"
+                business_id: null
+                date_created: "2022-04-19T22:02:16.062792+00:00"
+                dob: "1990-05-15"
+                first_name: "John"
+                middle_name: null
+                last_name: "Doe"
+                ssn: "XXX-XX-6789"
+                phone: "4155551234"
+                phone_country_code: "1"
+                email: "john.doe@example.com"
+                addresses:
+                  - address_id: "d172892e-49ef-4af5-9925-cf626371efba"
+                    address_type: "PHYSICAL"
+                    street: "123 Main Street"
+                    street2: "Apt 4B"
+                    city: "San Francisco"
+                    state: "CA"
+                    zip_code: "94105"
+                    country: "US"
+                    is_primary: true
+                    date_created: "2022-04-19T22:02:16.065774+00:00"
+        '400':
+          description: Bad request - Invalid input data
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '401':
+          description: Unauthorized - Invalid or missing authentication
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+    get:
+      summary: Retrieve all customers
+      description: Retrieves a list of all customers
+      operationId: getCustomers
+      tags:
+        - Customers
+      responses:
+        '200':
+          description: List of customers retrieved successfully
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/CustomerResponse'
+
+  /customers/{customer_id}:
+    get:
+      summary: Retrieve a customer
+      description: Retrieves a specific customer by ID
+      operationId: getCustomer
+      tags:
+        - Customers
+      parameters:
+        - name: customer_id
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+          description: The unique identifier of the customer
+      responses:
+        '200':
+          description: Customer retrieved successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CustomerResponse'
+        '404':
+          description: Customer not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+    patch:
+      summary: Update a customer
+      description: Updates an existing customer's information
+      operationId: updateCustomer
+      tags:
+        - Customers
+      parameters:
+        - name: customer_id
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+          description: The unique identifier of the customer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UpdateCustomerRequest'
+      responses:
+        '200':
+          description: Customer updated successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CustomerResponse'
+        '404':
+          description: Customer not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+    delete:
+      summary: Delete a customer
+      description: Deletes a customer from the system
+      operationId: deleteCustomer
+      tags:
+        - Customers
+      parameters:
+        - name: customer_id
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+          description: The unique identifier of the customer
+      responses:
+        '204':
+          description: Customer deleted successfully
+        '404':
+          description: Customer not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+  /businesses/:
+    get:
+      summary: Retrieve all businesses
+      description: Retrieves a list of all businesses
+      operationId: getBusinesses
+      tags:
+        - Businesses
+      responses:
+        '200':
+          description: List of businesses retrieved successfully
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/BusinessResponse'
+
+    post:
+      summary: Create a business
+      description: Creates a new business in the Atelio platform
+      operationId: createBusiness
+      tags:
+        - Businesses
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateBusinessRequest'
+      responses:
+        '201':
+          description: Business created successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BusinessResponse'
+        '400':
+          description: Bad request - Invalid input data
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '401':
+          description: Unauthorized - Invalid or missing authentication
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+  /businesses/{business_id}:
+    get:
+      summary: Retrieve a business
+      description: Retrieves a specific business by ID
+      operationId: getBusiness
+      tags:
+        - Businesses
+      parameters:
+        - name: business_id
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+          description: The unique identifier of the business
+      responses:
+        '200':
+          description: Business retrieved successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BusinessResponse'
+        '404':
+          description: Business not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+    patch:
+      summary: Update a business
+      description: Updates an existing business's information
+      operationId: updateBusiness
+      tags:
+        - Businesses
+      parameters:
+        - name: business_id
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+          description: The unique identifier of the business
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UpdateBusinessRequest'
+      responses:
+        '200':
+          description: Business updated successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BusinessResponse'
+        '404':
+          description: Business not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+    delete:
+      summary: Delete a business
+      description: Deletes a business from the system
+      operationId: deleteBusiness
+      tags:
+        - Businesses
+      parameters:
+        - name: business_id
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+          description: The unique identifier of the business
+      responses:
+        '204':
+          description: Business deleted successfully
+        '404':
+          description: Business not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+components:
+  securitySchemes:
+    ApiKeyAuth:
+      type: apiKey
+      in: header
+      name: Authorization
+      description: API authorization token
+    IdentityAuth:
+      type: apiKey
+      in: header
+      name: Identity
+      description: Identity header for authentication
+
+  schemas:
+    CreateCustomerRequest:
+      type: object
+      required:
+        - first_name
+        - last_name
+        - dob
+        - addresses
+      properties:
+        first_name:
+          type: string
+          minLength: 1
+          maxLength: 255
+          description: The customer's first name
+          example: "John"
+        middle_name:
+          type: string
+          maxLength: 255
+          description: The customer's middle name
+          example: "Michael"
+        last_name:
+          type: string
+          minLength: 2
+          maxLength: 255
+          description: The customer's last name
+          example: "Doe"
+        dob:
+          type: string
+          format: date
+          description: The customer's date of birth in YYYY-MM-DD format
+          example: "1990-05-15"
+        ssn:
+          type: string
+          pattern: '^\d{3}-\d{2}-\d{4}$'
+          description: The customer's Social Security Number
+          example: "123-45-6789"
+        phone:
+          type: string
+          description: The customer's phone number (numbers only or dash-separated)
+          example: "4155551234"
+        phone_country_code:
+          type: string
+          minLength: 1
+          maxLength: 3
+          description: The country code of the customer's phone number
+          example: "1"
+        email:
+          type: string
+          format: email
+          description: The customer's email address
+          example: "john.doe@example.com"
+        brand_person_id:
+          type: string
+          description: Your internal identifier for this customer
+          example: "customer-12345"
+        addresses:
+          type: array
+          minItems: 1
+          description: An array of address objects. At least one address must be provided
+          items:
+            $ref: '#/components/schemas/Address'
+        account_holder_type:
+          type: string
+          enum: [primary, secondary]
+          description: Specifies whether the customer is a "primary" or "secondary" account holder (used in Multi-Card functionality)
+          example: "primary"
+        primary_id:
+          type: string
+          format: uuid
+          description: The unique identifier (business_id or customer_id) of the primary account holder. Required when account_holder_type is "secondary"
+          example: "abaa2147-4533-4ec7-a9f6-bd88a988ecd1"
+
+    UpdateCustomerRequest:
+      type: object
+      properties:
+        first_name:
+          type: string
+          minLength: 1
+          maxLength: 255
+          description: The customer's first name
+        middle_name:
+          type: string
+          maxLength: 255
+          description: The customer's middle name
+        last_name:
+          type: string
+          minLength: 2
+          maxLength: 255
+          description: The customer's last name
+        phone:
+          type: string
+          description: The customer's phone number
+        phone_country_code:
+          type: string
+          minLength: 1
+          maxLength: 3
+          description: The country code of the customer's phone number
+        email:
+          type: string
+          format: email
+          description: The customer's email address
+
+    CustomerResponse:
+      type: object
+      properties:
+        customer_id:
+          type: string
+          format: uuid
+          description: The unique identifier for the customer
+          example: "ee268265-1f29-4603-a958-a9b0ab7ce573"
+        bond_brand_id:
+          type: string
+          format: uuid
+          description: The brand identifier
+          example: "abaa2147-4533-4ec7-a9f6-bd88a988ecd1"
+        brand_person_id:
+          type: string
+          nullable: true
+          description: Your internal identifier for this customer
+          example: "customer-12345"
+        business_id:
+          type: string
+          format: uuid
+          nullable: true
+          description: Associated business ID (if applicable)
+        date_created:
+          type: string
+          format: date-time
+          description: Timestamp when the customer was created
+          example: "2022-04-19T22:02:16.062792+00:00"
+        dob:
+          type: string
+          format: date
+          nullable: true
+          description: The customer's date of birth in YYYY-MM-DD format
+          example: "1990-05-15"
+        first_name:
+          type: string
+          description: The customer's first name
+          example: "John"
+        middle_name:
+          type: string
+          nullable: true
+          description: The customer's middle name
+        last_name:
+          type: string
+          description: The customer's last name
+          example: "Doe"
+        ssn:
+          type: string
+          description: Redacted SSN in format XXX-XX-9999
+          example: "XXX-XX-6789"
+        phone:
+          type: string
+          description: The customer's phone number
+          example: "4155551234"
+        phone_country_code:
+          type: string
+          description: The country code of the customer's phone number
+          example: "1"
+        email:
+          type: string
+          format: email
+          description: The customer's email address
+          example: "john.doe@example.com"
+        addresses:
+          type: array
+          items:
+            $ref: '#/components/schemas/AddressResponse'
+
+    Address:
+      type: object
+      required:
+        - address_type
+        - street
+        - city
+        - state
+        - zip_code
+        - country
+        - is_primary
+      properties:
+        address_type:
+          type: string
+          enum: [MAILING, PHYSICAL]
+          description: The type of address
+          example: "PHYSICAL"
+        street:
+          type: string
+          minLength: 1
+          maxLength: 40
+          description: The street address (alphanumerics and `. , _ - #` only)
+          example: "123 Main Street"
+        street2:
+          type: string
+          maxLength: 40
+          description: Additional street address information
+          example: "Apt 4B"
+        city:
+          type: string
+          minLength: 2
+          maxLength: 40
+          description: The city
+          example: "San Francisco"
+        state:
+          type: string
+          description: The state or province (2 characters for US addresses, up to 20 for non-US)
+          example: "CA"
+        zip_code:
+          type: string
+          description: The postal code (5 or 9 digits for US, 2-20 characters for non-US)
+          example: "94105"
+        country:
+          type: string
+          minLength: 2
+          maxLength: 2
+          description: ISO 3166-1 alpha-2 country code
+          example: "US"
+        is_primary:
+          type: boolean
+          description: Indicates whether this is the primary address
+          example: true
+
+    AddressResponse:
+      allOf:
+        - $ref: '#/components/schemas/Address'
+        - type: object
+          properties:
+            address_id:
+              type: string
+              format: uuid
+              description: The unique identifier for the address
+              example: "d172892e-49ef-4af5-9925-cf626371efba"
+            date_created:
+              type: string
+              format: date-time
+              description: Timestamp when the address was created
+              example: "2022-04-19T22:02:16.065774+00:00"
+
+    ErrorResponse:
+      type: object
+      properties:
+        error:
+          type: string
+          description: Error message
+          example: "Invalid request parameters"
+        error_code:
+          type: string
+          description: Error code
+          example: "INVALID_REQUEST"
+        details:
+          type: object
+          description: Additional error details
+          additionalProperties: true
+
+    CreateBusinessRequest:
+      type: object
+      required:
+        - business_name
+        - business_type
+        - addresses
+      properties:
+        business_name:
+          type: string
+          description: The legal name of the business
+          example: "Acme Corporation"
+        business_name_dba:
+          type: string
+          description: Doing Business As (DBA) name
+          example: "Acme Co"
+        business_type:
+          type: string
+          enum: [corporation, llc, partnership, sole_proprietorship]
+          description: The type of business entity
+          example: "llc"
+        ein:
+          type: string
+          pattern: '^\d{2}-\d{7}$'
+          description: Employer Identification Number
+          example: "12-3456789"
+        phone:
+          type: string
+          description: Business phone number
+          example: "4155551234"
+        email:
+          type: string
+          format: email
+          description: Business email address
+          example: "contact@acme.com"
+        website:
+          type: string
+          format: uri
+          description: Business website URL
+          example: "https://www.acme.com"
+        incorporation_date:
+          type: string
+          format: date
+          description: Date the business was incorporated (YYYY-MM-DD)
+          example: "2020-01-15"
+        addresses:
+          type: array
+          minItems: 1
+          description: Business addresses
+          items:
+            $ref: '#/components/schemas/Address'
+        account_holder_type:
+          type: string
+          enum: [primary, secondary]
+          description: Specifies whether the business is a "primary" or "secondary" account holder (used in Multi-Card functionality)
+          example: "primary"
+        primary_id:
+          type: string
+          format: uuid
+          description: The unique identifier of the primary account holder. Required when account_holder_type is "secondary"
+
+    UpdateBusinessRequest:
+      type: object
+      properties:
+        business_name:
+          type: string
+          description: The legal name of the business
+        business_name_dba:
+          type: string
+          description: Doing Business As (DBA) name
+        phone:
+          type: string
+          description: Business phone number
+        email:
+          type: string
+          format: email
+          description: Business email address
+        website:
+          type: string
+          format: uri
+          description: Business website URL
+
+    BusinessResponse:
+      type: object
+      properties:
+        business_id:
+          type: string
+          format: uuid
+          description: The unique identifier for the business
+          example: "96df8579-5d05-4e3e-a5e3-e61e3a5bdb38"
+        bond_brand_id:
+          type: string
+          format: uuid
+          description: The brand identifier
+          example: "abaa2147-4533-4ec7-a9f6-bd88a988ecd1"
+        date_created:
+          type: string
+          format: date-time
+          description: Timestamp when the business was created
+          example: "2022-04-19T22:02:16.062792+00:00"
+        business_name:
+          type: string
+          description: The legal name of the business
+          example: "Acme Corporation"
+        business_name_dba:
+          type: string
+          nullable: true
+          description: Doing Business As (DBA) name
+          example: "Acme Co"
+        business_type:
+          type: string
+          description: The type of business entity
+          example: "llc"
+        ein:
+          type: string
+          description: Redacted Employer Identification Number
+          example: "XX-XXX6789"
+        phone:
+          type: string
+          description: Business phone number
+          example: "4155551234"
+        email:
+          type: string
+          format: email
+          description: Business email address
+          example: "contact@acme.com"
+        website:
+          type: string
+          format: uri
+          nullable: true
+          description: Business website URL
+          example: "https://www.acme.com"
+        incorporation_date:
+          type: string
+          format: date
+          nullable: true
+          description: Date the business was incorporated
+          example: "2020-01-15"
+        addresses:
+          type: array
+          items:
+            $ref: '#/components/schemas/AddressResponse'
+
+tags:
+  - name: Customers
+    description: Customer management operations
+  - name: Businesses
+    description: Business management operations
+  - name: Cards
+    description: Card issuance and management
+  - name: Credit
+    description: Credit application operations
+  - name: KYC
+    description: Know Your Customer verification
+  - name: KYB
+    description: Know Your Business verification

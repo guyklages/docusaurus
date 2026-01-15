@@ -1,29 +1,22 @@
 const sidebars = {
   sidebarPortfolio: [
     {
-      type: 'category',
-      label: 'Five favorites',
-      items: [
-        {
-          type: 'doc',
-          id: 'portfolio/portfolio-overview',
-          label: 'Overview',
-        }
-      ]
+        type: 'doc',
+        id: 'portfolio/index',
+        label: 'Overview',
     },
     {
-      type: 'category',
-      label: 'API reference',
-      items: [
-        {
         type: 'doc',
-        id: 'portfolio/client-config',
-        label: 'portfolio_api_client-config',
-        }      
-      ]      
-    } 
+        id: 'portfolio/five-favorite',
+        label: '5 favorite samples',
+    } ,
+    {
+        type: 'doc',
+        id: 'portfolio/before-and-after',
+        label: 'BEFORE and AFTER',
+    },
   ],
-  sidebarAtelio: [
+  sidebarAtelioGuides: [
     {
       type: 'category',
       label: 'Developer guides',
@@ -404,7 +397,8 @@ const sidebars = {
         }      
       ]      
     } 
-  ],
+  ],// sidebarAtelioGuides
+
     sidebarNium: [
     {
       type: 'category',

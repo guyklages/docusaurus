@@ -119,18 +119,24 @@ presets: [
             type: 'docSidebar',
             sidebarId: 'sidebarNium',
             position: 'left',
-            label: 'Nium',
+            label: 'Nium guides',
           },
           {
             type: 'docSidebar',
             sidebarId: 'sidebarCouchbase',
             position: 'left',
-            label: 'Couchbase',
+            label: 'Couchbase guides',
           },
           {
             to: '/blog',
             label: 'Blog',
             position: 'left'
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'sidebarSolar',
+            position: 'left',
+            label: 'Solar',
           },
           {
             href: 'https://github.com/guyklages',

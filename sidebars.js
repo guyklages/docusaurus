@@ -27,7 +27,7 @@ const sidebars = {
           items: [
             {
               type: 'doc',
-              id: 'atelio/client-config',
+              id: 'atelio/getting-started/client-config',
               label: 'Client Configuration',
             },
             {
@@ -397,7 +397,7 @@ const sidebars = {
         }      
       ]      
     } 
-  ],// sidebarAtelioGuides
+  ], // sidebarAtelioGuides
 
     sidebarNium: [
     {
@@ -427,7 +427,7 @@ const sidebars = {
         label: 'nium_api_client-config',
         }      
       ]      
-    } 
+    } // end sidebarNium
   ],
     sidebarCouchbase: [
     {
@@ -458,6 +458,19 @@ const sidebars = {
         }      
       ]      
     } 
+  ],
+      sidebarSolar: [
+    {
+      type: 'category',
+      label: 'Introduction',
+      items: [
+        {
+          type: 'doc',
+          id: 'solar/intro/mistakes',
+          label: 'solar_intro',
+        }
+      ]
+    },
   ]
 };
 export default sidebars;

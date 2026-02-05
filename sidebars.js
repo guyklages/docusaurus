@@ -466,8 +466,8 @@ const sidebars = {
       items: [
         {
           type: 'doc',
-          id: 'solar/intro/mistakes',
-          label: 'solar_intro',
+          id: 'solar/mistakes',
+          label: 'Our solar mistakes',
         }
       ]
     },

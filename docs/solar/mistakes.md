@@ -6,7 +6,7 @@ When we finally got our first single-family house, we were thrilled to be free f
 
 | Mistake | Wasted <br/> money | Wasted <br/> days | Solution |
 |---------|:------------------:|:-----------------:|----------|
-| We didn't read this website before getting solar panels ;-) | ~$33k | 1,100 | Really think about your solar goals |
+| We didn't read this website before getting solar panels ;-) | ~$33k | 1,100 | Really think about [your solar goals](what-we-learned#know-your-goals) |
 
 ## Submit your highest kWh electric bill
 

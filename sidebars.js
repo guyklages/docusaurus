@@ -468,7 +468,11 @@ const sidebars = {
           type: 'doc',
           id: 'solar/mistakes',
           label: 'Our solar mistakes',
-        }
+        },
+        {
+          type: 'doc',
+          id: 'solar/what-we-learned',
+        },
       ]
     },
   ]

@@ -1,4 +1,4 @@
-# Five favorite
+# Five favorite samples
 
 ## Before-and-After
 

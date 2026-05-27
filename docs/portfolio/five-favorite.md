@@ -9,6 +9,8 @@
 
 ### Couchbase 
 
+I thought a color-coded table would be easier to read than their original website text.
+
 ![3-tier system table](../../static/img/Couchbase_system-table.png)
 
 During my interview, I was given 20 minutes to improve the page on the left.

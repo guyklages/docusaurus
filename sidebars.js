@@ -1,3 +1,5 @@
+import { type } from "@generated/site-storage";
+
 const sidebars = {
   sidebarPortfolio: [
     {
@@ -15,6 +17,11 @@ const sidebars = {
         id: 'portfolio/before-and-after',
         label: 'BEFORE and AFTER',
     },
+    {
+        type: 'doc',
+        id: `portfoloio/hardest-problems-ive-solved`,
+        label: `Hardest problems I've solved`,
+    }
     {
         type: 'doc',
         id: 'portfolio/google-drive',

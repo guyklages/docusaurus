@@ -9,11 +9,16 @@ const sidebars = {
         type: 'doc',
         id: 'portfolio/five-favorite',
         label: '5 favorite samples',
-    } ,
+    },
     {
         type: 'doc',
         id: 'portfolio/before-and-after',
         label: 'BEFORE and AFTER',
+    },
+    {
+        type: 'doc',
+        id: 'portfolio/google-drive',
+        label: 'Google Drive files',
     },
   ],
   sidebarAtelioGuides: [

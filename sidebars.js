@@ -1,5 +1,3 @@
-// why was it added? import { type } from "@generated/site-storage";
-
 const sidebars = {
   sidebarPortfolio: [
     {

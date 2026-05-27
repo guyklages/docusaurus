@@ -55,7 +55,7 @@ The hosted verification allows you to see the outcomes that an individual would 
 
 | Step | Screenshot |
 | ---- | ---------- |
-| Open the workflow just created, then on the _Overview_ page, click **Launch Workflow**. | ![](../Images/Workflow_-_Funnel_-_Launch_Workflow.png) |
+| Open the workflow just created, then on the _Overview_ page, click **Launch Workflow**. | ![](../images/Workflow_-_Funnel_-_Launch_Workflow.png) |
 | The sandbox environment allows you to simulate different verification outcomes using predefined signals, allowing you to test and explore the full range of possible scenarios.<br/>Select your desired outcome:<br/>- Application denied<br/>- Application approved<br/>- Application manual reviewed<br/>Then click **Continue**. | ![](../images/Customer_Flow_Outcome_dropdown.png) |
 | Mock Bank is the name of the bank simulating the verification.<br/>To start, enter your email address and North American phone number.<br/>Then click **Continue**. | ![](../images/Customer_Flow_Outcome.png) |
 | Enter any six-digit number.<br/>Note: Two-factor authentication (OTP SMS) is turned off in the sandbox environment.<br/>Click **Confirm** and then **Confirm** again. | ![](../images/Two-factor_authentication.png) |

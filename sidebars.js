@@ -19,8 +19,8 @@ const sidebars = {
     },
     {
         type: 'doc',
-        id: `portfoloio/hardest-problems-ive-solved`,
-        label: `Hardest problems I've solved`,
+        id: 'portfoloio/hardest-problems-ive-solved',
+        label: 'Hardest problems I have solved',
     }
     {
         type: 'doc',

@@ -1,11 +1,5 @@
 # Portfolio
 
-## [5 favorite samples](five-favorite.md)
-
-## [Before-and-After UX/UI items](https://drive.google.com/drive/folders/0B3bAX3NwRTKsLTlJdGRZb1Q2MUk?resourcekey=0-9CqFdXCJREcCyjV474hf7g)
-
-## [Diagrams and illustrations](https://drive.google.com/drive/folders/1wRopqyTTa8GT_ScObC6JGZ5DEO5HeprD)
-
 ## Live websites I created and was responsible for
 
 | Company      | Industry       | Developer guides | API reference | I worked with |

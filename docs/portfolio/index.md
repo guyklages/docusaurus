@@ -2,8 +2,8 @@
 
 ## Live websites I created and was responsible for
 
-| Company      | Industry       | Developer guides | API reference | I worked with |
-|--------------|----------------|------------------|---------------|---------------|
+| Company      | Industry       | Developer guides | API reference | I collaborated with |
+|--------------|----------------|------------------|---------------|---------------------|
 | Atelio (FIS) | Fintech        | [Getting Started](https://docs.atelio.com/embedded/docs/client-config) | [Introduction](https://docs.atelio.com/embedded/reference/intro) | 1 editor, 5 SMEs |
 | Nium         | Fintech        | [Getting Started](https://docs.nium.com/docs/getting-started) | [Introduction](https://docs.nium.com/api#description/introduction) | 1 editor, 6 SMEs |
 | Couchbase    | NoSQL database | [SQL++&nbsp;Reference](https://docs.couchbase.com/server/current/n1ql/n1ql-language-reference/index.html) |  | 1 editor, 9 SMEs |

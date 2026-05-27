@@ -1,0 +1,15 @@
+{
+    "category": "Developer guides",
+    "items": [
+        {
+            "id": "atelio-config",
+            "title": "Atelio Config",
+            "file": "/portfolio/files/dev-guides/atelio-config.md",
+            "type": "Markdown",
+            "tages": ["Install guide", "Developer guide", "Diagram"],
+            "company": "FIS",
+            "date": "2020-01-01",
+            "description": "Initial configuration guide for Atelio embedded finance platform."
+        }
+    ]
+}

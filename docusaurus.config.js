@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'My Site',
   tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/Guy-suit-head-shot.png',  // favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -40,65 +40,107 @@ const config = {
     locales: ['en'],
   },
 
-  presets: [
-    [
-      'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
-        docs: {
-          sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+presets: [
+  [
+    'classic',
+    /** @type {import('@docusaurus/preset-classic').Options} */
+    ({
+      docs: {
+        sidebarPath: './sidebars.js',
+        // Please change this to your repo.
+        // Remove this to remove the "edit this page" links.
+        editUrl:
+          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+      },
+      blog: {
+        showReadingTime: true,
+        feedOptions: {
+          type: ['rss', 'atom'],
+          xslt: true,
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
-        theme: {
-          customCss: './src/css/custom.css',
-        },
-      }),
-    ],
+        // Please change this to your repo.
+        // Remove this to remove the "edit this page" links.
+        editUrl:
+          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        // Useful options to enforce blogging best practices
+        onInlineTags: 'warn',
+        onInlineAuthors: 'warn',
+        onUntruncatedBlogPosts: 'warn',
+      },
+      theme: {
+        customCss: './src/css/custom.css',
+      },
+    }),
   ],
+  [
+    'redocusaurus',
+    {
+      specs: [
+        {
+          spec: 'static/atelio-api.yaml',
+          route: '/atelio-api/',
+        },
+      ],
+      theme: {
+        primaryColor: '#1890ff',
+      },
+    },
+  ],
+],
+
+  themes: ['docusaurus-theme-redoc'],
 
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
-      // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+    {
+      image: 'img/Guy-suit-head-shot.png',
       colorMode: {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'My Site',
+        title: 'Guy Klages',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/Guy-suit-head-shot.png',
         },
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'sidebarPortfolio',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Portfolio',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            type: 'docSidebar',
+            sidebarId: 'sidebarAtelioGuides',
+            position: 'left',
+            label: 'Atelio guides',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'sidebarNium',
+            position: 'left',
+            label: 'Nium guides',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'sidebarCouchbase',
+            position: 'left',
+            label: 'Couchbase guides',
+          },
+          {
+            to: '/blog',
+            label: 'Blog',
+            position: 'left'
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'sidebarSolar',
+            position: 'left',
+            label: 'Solar',
+          },
+          {
+            href: 'https://github.com/guyklages',
+            label: 'Guy Klages GitHub',
             position: 'right',
           },
         ],
@@ -151,8 +193,11 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+        showLanguage: true,
+        additionalLanguages: ['csharp', 'java', 'javascript', 'json', 'python', 'ruby', 'scala'],
       },
-    }),
+    },
 };
 
 export default config;
+

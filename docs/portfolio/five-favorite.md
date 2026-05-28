@@ -11,17 +11,17 @@
 
 ### Couchbase 
 
-I thought a color-coded table would be easier to read than their original website text.
+I thought their original layout (left side) would look better as a color-coded table (right side) while keeping the same text.
 
 ![3-tier system table](../../static/img/Couchbase_system-table.png)
 
-During my interview, I was given 20 minutes to improve the page on the left.
+During my interview, I was given 20 minutes to improve their website's page (left side) to be more readable and easier to understand (right side).
 
 ![Submillisecond latencies](../../static/img/Couchbase_submillisecond-latencies.png)
 
 ### TEDx Adventures
 
-TEDxBeaconStreet wanted their new Adventures guidebook to have a refreshed look.
+TEDxBeaconStreet wanted their new Adventures guidebook (left side) to have a refreshed look and improved wording (right side).
 
 ![TEDx Adventures](../../static/img/TEDx_Adventures.png)
 

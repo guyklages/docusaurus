@@ -4,12 +4,12 @@
 
 ### Information architecture
 
-Nium -- Revamped and reduced dev pages by 36%
+#### Nium -- Revamped and reduced dev pages by 36%
 
 | Before (May 2024) | After (July 2025) |
 |-------------------|-------------------|
-| PROBLEM: <br/> Short pages were hastily written by engineers who used more pages than needed | MY SOLUTION: <br/> I revamped and streamlined the information architecture to improve the flow and group related topics. |
-| 50 pages          | 32 pages          |
+| PROBLEM: <br/> Short pages were hastily written by engineers who used more pages than needed <br/> <br/> Total of 50 pages| MY SOLUTION: <br/> I revamped and streamlined the information architecture to improve the flow and group related topics. <br/> <br/> Total of 32 pages |
+| ![Before](../../static/img/Nium_ca_50pgs.png) | ![After](../../static/img/Nium_ca_32pgs.png) |
 
 ### Onboarding documentation
 

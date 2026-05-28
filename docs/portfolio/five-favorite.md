@@ -26,3 +26,21 @@ TEDxBeaconStreet wanted their new Adventures guidebook to have a refreshed look.
 ![TEDx Adventures](../../static/img/TEDx_Adventures.png)
 
 ## Diagrams and illustrations
+
+### ADP
+
+Diagram of the COS-NSC tax inquiry process
+
+![ADP](../../static/img/ADP_COS-NSC-Tax-inquiry-process-diagram.png)
+
+### Talk Group
+
+Flowchart of the textbook creation process.
+
+![Talk Group](../../static/img/TalkGroup_textbook-flowchart.png)
+
+### NMT
+
+Diagram of NMT's shipping routes in Asia, Australia, and New Zealand.
+
+![NMT](../../static/img/NMT_Asia-Australia-NZ.png)

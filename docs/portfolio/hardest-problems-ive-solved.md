@@ -2,7 +2,7 @@
 
 ## Technical writing
 
-### Reduced pages by 36% from new IA
+### 36% page reduction from new IA
 
 #### <mark>Nium -- Revamped the information architecture and reduced dev pages by 36%</mark>
 
@@ -26,7 +26,7 @@
 
 | Before (May 2019) | After (Dec 2019) |
 |-------------------|------------------|
-| PROBLEM: <br/> Too&nbsp;many&nbsp;obsolete&nbsp;and&nbsp;disorganized&nbsp;document&nbsp;pages. <br/> - Going to have an audit on all documentation pages. <br/> - Most in Confluence, needing to be in Markdown. <br/> - Many pages were obsolete but not clear which ones. <br/> - Many pages were not in easily discoverable places. <br/> - Many related pages/topics could be combined. <br/> - Moving forward, how to prevent "stale" pages? | MY SOLUTION: <br/> Implement reminders to review pages that haven't been edited for a certain number of days. <br/> - I reviewed pages with SMEs, archived obsolete pages, merged similar pages, organized them by product, and migrated them to Markdown in Yahoo's Git repo. <br/> - I suggested a system of three tags on every page: <br/> &nbsp;&nbsp;&nbsp;&nbsp;-`Owner` <br/> &nbsp;&nbsp;&nbsp;&nbsp;-`LastModified` <br/> &nbsp;&nbsp;&nbsp;&nbsp;-`DaysTillStale` <br/> - A daily script looks for pages that haven't been edited in that page's time limit and sends an email to the owner of that page to review it (or the owner's manager). |
+| PROBLEM: <br/> Too&nbsp;many&nbsp;obsolete&nbsp;and&nbsp;disorganized&nbsp;document&nbsp;pages. <br/> - Going to have an audit on all documentation pages. <br/> - Most in Confluence, needing to be in Markdown. <br/> - Many pages were obsolete but not clear which ones. <br/> - Many pages were not in easily discoverable places. <br/> - Many related pages/topics could be combined. <br/> - Moving forward, how to prevent "stale" pages? | MY SOLUTION: <br/> Implement reminders to review unmodified pages of a specified number of days. <br/> - I reviewed pages with SMEs, archived obsolete pages, merged similar pages, organized them by product, and migrated them to Markdown in Yahoo's Git repo. <br/> - I suggested a system of three tags on every page: <br/> &nbsp;&nbsp;&nbsp;&nbsp;-`Owner` <br/> &nbsp;&nbsp;&nbsp;&nbsp;-`LastModified` <br/> &nbsp;&nbsp;&nbsp;&nbsp;-`DaysTillStale` <br/> - A daily script looks for pages that haven't been edited in that page's time limit and sends an email to the owner of that page to review it (or the owner's manager). |
 | | - Total number of pages reduced by 30%. <br/> - Automated a timely reminder to page owners. |
 
 ### 0 help from engineers
@@ -35,7 +35,7 @@
 
 | Before (Apr 2018) | After (Apr 2018) |
 |-------------------|------------------|
-| PROBLEM: <br/> Need to document features before testing is done. <br/> - Couchbase Server v6.0 was still being coded. <br/> - Less than half of v6.0 had completed QA testing. <br/> - Documentation was needed for an upcoming event. <br/> - There wasn't an installed instance I could use. | MY SOLUTION: <br/> Install the Alpha version to use it and document it. <br/> <br/> (it was like installing Linux in 1996 before Google) <br/> <br/> 1.  Find an unused server I could reformat. <br/> 2.  Download and install Ubuntu 18.0. <br/> 3.  Find, download and install dependency files. <br/> 4.  Find, download and compile CB v6.0 source code. <br/> 5.  Run Couchbase Server and create queries that use the new ANSI indexing and other new features. |
+| PROBLEM: <br/> Need to document features before testing is done. <br/> - Couchbase Server v6.0 was still being coded. <br/> - Less than half of v6.0 had completed QA testing. <br/> - Documentation was needed for an upcoming event. <br/> - There wasn't an installed instance I could use. | MY SOLUTION: <br/> Install the Alpha version to use it and document it. <br/> <br/> (it was like installing Linux in 1996 before Google) <br/> <br/> 1.  Find an unused server I could reformat. <br/> 2.  Download and install Ubuntu 18.0. <br/> 3.  Find, download and install dependency files. <br/> 4.  Find, download and compile CB v6.0 source code. <br/> 5.  Run Couchbase Server and create queries that use the new ANSI indexing and others. |
 | | I was able to document pre-QA features in time for an event without help from the software developers. |
 
 

@@ -10,9 +10,9 @@ I used Git, Markdown, Oxygen, Postman, ReadMe, and VS Code to create documentati
 | Nium         | Fintech        | **[Getting Started](https://docs.nium.com/docs/getting-started)** | **[Introduction](https://docs.nium.com/api#description/introduction)** | 1 editor, 6 SMEs | [Doubled onboarding of clients with 75% fewer issues](./hardest-problems-ive-solved.md#2x-onboarding-with-75-fewer-issues) |
 | Couchbase    | NoSQL database | **[SQL++&nbsp;Reference](https://docs.couchbase.com/server/current/n1ql/n1ql-language-reference/index.html)** |  | 1 editor, 9 SMEs | [Reduced their writing process by 80%](./hardest-problems-ive-solved.md#80-time-saved-on-writing-process) |
 
-## Miscellaneous guides
+## Miscellaneous PDF guides
 
 | Company    | Industry            | Guide | Collaborated with |
 |------------|---------------------|-------|-------------------|
 | NICE       | Enterprise software | <a href="/files/NICE_Performance-Management_architecture-and-system-overview-2014.pdf" target="_blank" rel="noopener noreferrer">Performance Management architecture and system overview</a> <br/> <a href="/files/NICE_Writers-style-guide-2014.pdf" target="_blank" rel="noopener noreferrer">Writers style guide</a> | 1 editor, 3 SMEs |
-
+| VMware     | Virtualization software | <a href="/files/VMware_App-Volumes-user-guide-2016.pdf" target="_blank" rel="noopener noreferrer">App Volumes user guide</a> <br/> <a href="/files/VMware-UEM_admin-guide-2016.pdf" target="_blank" rel="noopener noreferrer">UEM admin guide</a> | 1 editor, 3 SMEs |

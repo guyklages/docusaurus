@@ -18,7 +18,7 @@ const sidebars = {
     {
         type: 'doc',
         id: 'portfolio/hardest-problems-ive-solved',
-        label: 'Hardest problems I have solved',
+        label: 'Hardest problems I\u0027ve solved',
     },
     {
         type: 'doc',

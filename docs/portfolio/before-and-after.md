@@ -31,7 +31,7 @@ During my interview, I was given 30 minutes to improve their website's page (lef
 
 ## Apple
 
-In 2016, I improved Apple's developer guides for the robots assembling iPads and created more guides for troubleshooting, configuring, and maintaining.
+In 2016, the developer guides for the robots assembling iPads (left side) needed clarification and elaboration (right side) for their assembly line in China.
 
 ![User guide CAM header](../../static/img/Apple_user-guide-cam-header_B+A.png)
 

@@ -2,7 +2,7 @@
 
 ## Live company websites I created and owned
 
-I used Git, Markdown, Oxygen, Postman, ReadMe, and VS Code to create documentation for developers, DBAs, and technical PMs.
+I used Git, Markdown, Oxygen, Postman, ReadMe, and VS Code to create documentation for developers, DBAs, and technical PMs. Links open into a new browser tab.
 
 | Company      | Industry       | Developer guides | API reference | Collaborated with | Highlight |
 |--------------|----------------|------------------|---------------|---------------------|-----------|
@@ -12,7 +12,7 @@ I used Git, Markdown, Oxygen, Postman, ReadMe, and VS Code to create documentati
 
 ## Miscellaneous PDF guides
 
-I used Microsoft Word and Adobe FrameMaker to create PDFs for customers and developers.
+I used Microsoft Word and Adobe FrameMaker to create PDFs for customers and developers. Links open into a new browser tab.
 
 | Company    | Industry            | Guide | Collaborated with |
 |------------|---------------------|-------|-------------------|

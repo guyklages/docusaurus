@@ -15,7 +15,7 @@ Their original layout (left side) was hard to read, so I converted it to a color
 
 ![3-tier system table](../../static/img/Couchbase_system-table.png)
 
-During my interview, I was given 20 minutes to improve their website's page (left side) to be more readable and easier to understand (right side).
+During my interview, I was given 30 minutes to improve their website's page (left side) to be more readable and easier to understand (right side).
 
 ![Submillisecond latencies](../../static/img/Couchbase_submillisecond-latencies.png)
 

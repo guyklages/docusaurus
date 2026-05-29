@@ -38,6 +38,14 @@
 | PROBLEM: <br/> Need to document features before testing is done. <br/> - Couchbase Server v6.0 was still being coded. <br/> - Less than half of v6.0 had completed QA testing. <br/> - Documentation was needed for an upcoming event. <br/> - There wasn't an installed instance I could use. | MY SOLUTION: <br/> Install the Alpha version to use it and document it. <br/> <br/> (it was like installing Linux in 1996 before Google) <br/> <br/> 1.  Find an unused server I could reformat. <br/> 2.  Download and install Ubuntu 18.0. <br/> 3.  Find, download and install dependency files. <br/> 4.  Find, download and compile CB v6.0 source code. <br/> 5.  Run Couchbase Server and create queries that use the new ANSI indexing and others. |
 | | I was able to document pre-QA features in time for an event without help from the software developers. |
 
+### 80% time saved on writing process
+
+#### <mark> Couchbase -- Reduced the writing time from 4-6 weeks to 4-5 days </mark>
+
+| Before (Mar 2017) | After (Aug 2017) |
+|-------------------|------------------|
+| PROBLEM: <br/> Turnaround time to add features took way too long. <br/> 1.  Writers authored a feature in Oxygen.        (2 - 3 days) <br/> 2.  Webpage staged for engineer review.        (2 - 3 hours) <br/> 3.  Engineers eventually gave feedback.         (3 - 5 days) <br/> 4.  Webpage updated; and go to Step 2.         (1 - 2 days) <br> TOTAL: 6 - 13 days <br/> There were 2 - 4 iterations depending on how many reviewing engineers. <br/> Total 4 - 6 weeks | MY SOLUTION: <br/> Google Docs for synchronous writing/editing. <br/> 1. I authored a single feature in Google Docs and shared it with all engineers involved.       (2 - 3 days) <br/> 2. While engineers discussed how the feature will be finalized, I started on the next feature. <br/> 3. After the engineers finalized a feature's text, I imported it in Oxygen & staged it only _once_. (2 - 3 hours) <br/> Total Time: 4-6 weeks → 4-5 days per feature | 
+| | Average Saving:  5 weeks → 1 week = 80% time saved |
 
 
 ## Software development

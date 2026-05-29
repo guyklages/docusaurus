@@ -14,5 +14,5 @@ I used Git, Markdown, Oxygen, Postman, ReadMe, and VS Code to create documentati
 
 | Company    | Industry            | Guide | Collaborated with |
 |------------|---------------------|-------|-------------------|
-| NICE       | Enterprise software | ![Performance Management architecture and system overview](../../static/files/NICE_Performance-Management_architecture-and-system-overview-2014.pdf) | 1 editor, 3 SMEs |
+| NICE       | Enterprise software | <a href="../../static/files/NICE_Performance-Management_architecture-and-system-overview-2014.pdf" target="_blank" rel="noopener noreferrer">Performance Management architecture and system overview</a> | 1 editor, 3 SMEs |
 

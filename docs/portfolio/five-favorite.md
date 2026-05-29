@@ -7,11 +7,11 @@
 | Nium      | **[Onboarding](https://docs.nium.com/docs/onboarding)** | Fintech onboarding varies by region and customer type. |
 | Couchbase | **[Adaptive indexing](https://docs.couchbase.com/server/current/n1ql/n1ql-language-reference/adaptive-indexing.html)** | This database index type works on all or specified fields of a document. |
 
-## Before-and-After
+## BEFORE and AFTER
 
 ### Couchbase 
 
-I thought their original layout (left side) would look better as a color-coded table (right side) while keeping the same text.
+Their original layout (left side) was hard to read, so I converted it to a color-coded table (right side) while keeping the same text.
 
 ![3-tier system table](../../static/img/Couchbase_system-table.png)
 

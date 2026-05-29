@@ -2,7 +2,7 @@
 
 ## Nium
 
-### Revamped information architecture and reduced dev pages by 36%
+### Revamped the information architecture and reduced dev pages by 36%
 
 | Before (May 2024) | After (July 2025) |
 |-------------------|-------------------|
@@ -31,7 +31,16 @@ During my interview, I was given 30 minutes to improve their website's page (lef
 
 ## Apple
 
-In 2016, 
+In 2016, I improved Apple's developer guides for the robots assembling iPads and created more guides for troubleshooting, configuring, and maintaining.
+
+![User guide CAM header](../../static/img/Apple_user-guide-cam-header_B+A.png)
+
+![Quickstart CAM](../../static/img/Apple_quick-start-cam_B+A.png)
+
+![Troubleshooting robot hardware](../../static/img/Apple_troubleshooting-robot-hardware_B+A.png)
+
+![System Admin Chinese tool set](../../static/img/Apple_sys-admin-Chinese-tool-set_B+A.png)
+
 
 ## TEDx Adventures
 
@@ -40,3 +49,5 @@ In 2013, TEDxBeaconStreet wanted their Adventures guidebook (left side) to have 
 ![TEDx Adventures background](../../static/img/TEDx_adventures-handbook-background_B+A.png)
 
 ![TEDx Adventures rules](../../static/img/TEDx_adventures-handbook-rules_B+A.png)
+
+![TEDx Adventures lifecycle](../../static/img/TEDx_adventures-handbook-lifecycle_B+A.png)

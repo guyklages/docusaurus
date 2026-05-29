@@ -25,8 +25,6 @@ TEDxBeaconStreet wanted their Adventures guidebook (left side) to have a newer a
 
 ![TEDx Adventures background](../../static/img/TEDx_adventures-handbook-background_B+A.png)
 
-<br/>
-
 ![TEDx Adventures rules](../../static/img/TEDx_adventures-handbook-rules_B+A.png)
 
 ## Diagrams and illustrations

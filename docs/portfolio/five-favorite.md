@@ -4,8 +4,8 @@
 
 | Company   | Page link | Description |
 |-----------|-----------|-------------|
-| Nium      | **[Onboarding](https://docs.nium.com/docs/onboarding)** | Fintech onboarding varies on region and customer type |
-| Couchbase | **[Adaptive indexing](https://docs.couchbase.com/server/current/n1ql/n1ql-language-reference/adaptive-indexing.html)** | Database index type on all or specified fields of a document |
+| Nium      | **[Onboarding](https://docs.nium.com/docs/onboarding)** | Fintech onboarding varies by region and customer type. |
+| Couchbase | **[Adaptive indexing](https://docs.couchbase.com/server/current/n1ql/n1ql-language-reference/adaptive-indexing.html)** | This database index type works on all or specified fields of a document. |
 
 ## Before-and-After
 

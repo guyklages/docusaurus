@@ -2,8 +2,8 @@
 
 ## Developer guides
 
-| Company   | Website link | Description |
-|-----------|--------------|-------------|
+| Company   | Page link | Description |
+|-----------|-----------|-------------|
 | Nium      | **[Onboarding](https://docs.nium.com/docs/onboarding)** | Fintech onboarding varies on region and customer type |
 | Couchbase | **[Adaptive indexing](https://docs.couchbase.com/server/current/n1ql/n1ql-language-reference/adaptive-indexing.html)** | Database index type on all or specified fields of a document |
 
@@ -29,13 +29,13 @@ TEDxBeaconStreet wanted their Adventures guidebook (left side) to have a newer a
 
 ### ADP
 
-Diagram of the COS-NSC tax inquiry process
+Diagram of the Comprehensive Outsourcing Services tax inquiry process
 
 ![ADP](../../static/img/ADP_COS-NSC-Tax-inquiry-process-diagram.png)
 
 ### Talk Group
 
-Flowchart of the textbook creation process.
+Flowchart of their textbook creation process.
 
 ![Talk Group](../../static/img/TalkGroup_textbook-flowchart.png)
 

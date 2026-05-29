@@ -1,8 +1,8 @@
 # Portfolio
 
-I used Git, Markdown, Oxygen, Postman, ReadMe, and VS Code to create documentation for developers, DBAs, and technical PMs.
-
 ## Live company websites I created and owned
+
+I used Git, Markdown, Oxygen, Postman, ReadMe, and VS Code to create documentation for developers, DBAs, and technical PMs.
 
 | Company      | Industry       | Developer guides | API reference | Collaborated with | Highlight |
 |--------------|----------------|------------------|---------------|---------------------|-----------|
@@ -12,7 +12,9 @@ I used Git, Markdown, Oxygen, Postman, ReadMe, and VS Code to create documentati
 
 ## Miscellaneous PDF guides
 
+I used Microsoft Word and Adobe FrameMaker to create PDFs for customers and developers.
+
 | Company    | Industry            | Guide | Collaborated with |
 |------------|---------------------|-------|-------------------|
 | NICE       | Enterprise software | <a href="/files/NICE_Performance-Management_architecture-and-system-overview-2014.pdf" target="_blank" rel="noopener noreferrer">Performance Management architecture and system overview</a> <br/> <a href="/files/NICE_Writers-style-guide-2014.pdf" target="_blank" rel="noopener noreferrer">Writers style guide</a> | 1 editor, 3 SMEs |
-| VMware     | Virtualization software | <a href="/files/VMware_App-Volumes-user-guide-2016.pdf" target="_blank" rel="noopener noreferrer">App Volumes user guide</a> <br/> <a href="/files/VMware-UEM_admin-guide-2016.pdf" target="_blank" rel="noopener noreferrer">UEM admin guide</a> | 1 editor, 3 SMEs |
+| VMware     | Virtualization software | <a href="/files/VMware_App-Volumes-user-guide-2016.pdf" target="_blank" rel="noopener noreferrer">App Volumes User Guide</a> <br/> <a href="/files/VMware_UEM_admin-guide-2016.pdf" target="_blank" rel="noopener noreferrer">UEM Administration Guide</a> | 1 editor, 3 SMEs |

@@ -21,7 +21,7 @@ During my interview, I was given 20 minutes to improve their website's page (lef
 
 ### TEDx Adventures
 
-TEDxBeaconStreet wanted their new Adventures guidebook (left side) to have a refreshed look and improved wording (right side).
+TEDxBeaconStreet wanted their Adventures guidebook (left side) to have a newer and refreshed look while improving their wording (right side).
 
 ![TEDx Adventures](../../static/img/TEDx_Adventures.png)
 

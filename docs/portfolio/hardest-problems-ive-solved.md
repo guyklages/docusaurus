@@ -13,7 +13,7 @@
 
 ### 2x onboarding with 75% fewer issues
 
-#### <mark>Nium -- Doubled the number of people onboarded with 75% fewer issues</mark>
+#### <mark>Nium -- Doubled the number of people onboarded per month with 75% fewer issues</mark>
 
 | Before (Oct 2022) | After (Dec 2022) |
 |-------------------|------------------|
@@ -46,6 +46,16 @@
 |-------------------|------------------|
 | PROBLEM: <br/> Turnaround&nbsp;time&nbsp;to&nbsp;add&nbsp;features&nbsp;took&nbsp;way&nbsp;too&nbsp;long. <br/> 1.  Writers authored a feature in Oxygen. (2-3d) <br/> 2.  Webpage staged for engineer review. (2-3h) <br/> 3.  Engineers eventually gave feedback. (3-5d) <br/> 4.  Webpage updated. (1-2d) <br/> <br/> Time for iteration: 6-13d <br/> x 2-4 iterations (going to Step 2) <br/> =============== <br/> Total of 4 - 6 _weeks_ per feature | MY SOLUTION: <br/> Google Docs for synchronous writing/editing. <br/> 1. I authored a single feature in Google Docs and shared it with all engineers involved. (2-3d) <br/> 2. While engineers discussed how the feature will be finalized, I started on the next feature. <br/> 3. After the engineers finalized a feature's text, I imported it in Oxygen & staged it only _once_. (2-3h) <br/> =============== <br/> Total of 4 - 5 _days_ per feature | 
 | | Average Saving:  5 weeks → 1 week = 80% time saved |
+
+### 30% fewer helpdesk tickets
+
+#### <mark> Couchbase -- Reduced the number of Helpdesk tickets by 30% per week </mark>
+
+| Before (Mar 2017) | After (Aug 2017) |
+|-------------------|------------------|
+| PROBLEM: <br/> Customer Support had 200+ tickets to get through. <br/> The existing documentation: <br/> - didn't have examples <br/> - didn't explain in-depth enough | MY SOLUTION: <br/> | I added many examples with Couchbase's sample database and elaborated on many concepts in much more detail. |
+| | Helpdesk said the Support Tickets noticebly reduced by 30% each week. |
+
 
 
 ## Software development

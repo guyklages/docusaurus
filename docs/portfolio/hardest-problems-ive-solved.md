@@ -49,12 +49,12 @@
 
 ### 30% fewer helpdesk tickets
 
-#### <mark> Couchbase -- Reduced the number of Helpdesk tickets by 30% per week </mark>
+#### <mark> Couchbase -- Reduced the number of helpdesk tickets by 30% per week </mark>
 
 | Before (Mar 2017) | After (Aug 2017) |
 |-------------------|------------------|
-| PROBLEM: <br/> Customer Support had 200+ tickets to get through. <br/> The existing documentation: <br/> - didn't have examples <br/> - didn't explain in-depth enough | MY SOLUTION: <br/> | I added many examples with Couchbase's sample database and elaborated on many concepts in much more detail. |
-| | Helpdesk said the Support Tickets noticebly reduced by 30% each week. |
+| PROBLEM: <br/> Customer Support had 200+ tickets to get through. <br/> The existing documentation: <br/> - didn't have examples <br/> - didn't explain in-depth enough | MY SOLUTION: <br/> I added many examples with Couchbase's sample database and elaborated on many concepts in much more detail. |
+| | Helpdesk said the number of support tickets noticebly reduced by 30% each week. |
 
 
 

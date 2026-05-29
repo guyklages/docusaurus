@@ -40,11 +40,11 @@
 
 ### 80% time saved on writing process
 
-#### <mark> Couchbase -- Reduced the writing time from 4-6 weeks to 4-5 days </mark>
+#### <mark> Couchbase -- Reduced the writing time of a new feature from 4-6 weeks to 4-5 days </mark>
 
 | Before (Mar 2017) | After (Aug 2017) |
 |-------------------|------------------|
-| PROBLEM: <br/> Turnaround time to add features took way too long. <br/> 1.  Writers authored a feature in Oxygen.        (2 - 3 days) <br/> 2.  Webpage staged for engineer review.        (2 - 3 hours) <br/> 3.  Engineers eventually gave feedback.         (3 - 5 days) <br/> 4.  Webpage updated; and go to Step 2.         (1 - 2 days) <br/> TOTAL: 6 - 13 days <br/> There were 2 - 4 iterations depending on how many reviewing engineers. <br/> Total 4 - 6 weeks | MY SOLUTION: <br/> Google Docs for synchronous writing/editing. <br/> 1. I authored a single feature in Google Docs and shared it with all engineers involved.       (2 - 3 days) <br/> 2. While engineers discussed how the feature will be finalized, I started on the next feature. <br/> 3. After the engineers finalized a feature's text, I imported it in Oxygen & staged it only _once_. (2 - 3 hours) <br/> Total Time: 4-6 weeks → 4-5 days per feature | 
+| PROBLEM: <br/> Turnaround time to add features took way too long. <br/> 1.  Writers authored a feature in Oxygen. (2-3d) <br/> 2.  Webpage staged for engineer review. (2-3h) <br/> 3.  Engineers eventually gave feedback. (3-5d) <br/> 4.  Webpage updated; and go to Step 2. (1-2d) <br/> TOTAL: 6-13d * 2-4 iterations <br/> ============ <br/> Total of 4 - 6 weeks per feature | MY SOLUTION: <br/> Google Docs for synchronous writing/editing. <br/> 1. I authored a single feature in Google Docs and shared it with all engineers involved. (2-3d) <br/> 2. While engineers discussed how the feature will be finalized, I started on the next feature. <br/> 3. After the engineers finalized a feature's text, I imported it in Oxygen & staged it only _once_. (2-3h) <br/> ============ <br/> Total of 4 - 5 days per feature | 
 | | Average Saving:  5 weeks → 1 week = 80% time saved |
 
 

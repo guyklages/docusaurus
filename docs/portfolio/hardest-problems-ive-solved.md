@@ -4,7 +4,7 @@
 
 ### 36% page reduction from new IA
 
-#### <mark>Nium -- Revamped the information architecture and reduced dev pages by 36%</mark>
+#### <mark>Nium -- Revamped the information architecture, reduced dev pages by 36%, and made navigation easier</mark>
 
 | Before (May 2024) | After (July 2025) |
 |-------------------|-------------------|

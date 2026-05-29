@@ -23,7 +23,9 @@ During my interview, I was given 20 minutes to improve their website's page (lef
 
 TEDxBeaconStreet wanted their Adventures guidebook (left side) to have a newer and refreshed look while improving their wording (right side).
 
-![TEDx Adventures](../../static/img/TEDx_Adventures.png)
+![TEDx Adventures background](../../static/img/TEDx_adventures-handbook-background_B+A.png)
+
+![TEDx Adventures rules](../../static/img/TEDx_adventures-handbook-rules_B+A.png)
 
 ## Diagrams and illustrations
 

@@ -13,12 +13,22 @@
 
 ### 2x onboarding with 75% fewer issues
 
-#### <mark>Nium -- Doubled the number of people onboarded per month with 75% fewer issues</mark>
+#### <mark> Nium -- Doubled the number of people onboarded per month with 75% fewer issues </mark>
 
 | Before (Oct 2022) | After (Dec 2022) |
 |-------------------|------------------|
 | PROBLEM: <br/> New clients were unable to onboard themselves due to the unclear method to them–-and even to Nium. <br/> <br/> Each region (AU, EU, HK, SG, UK, US) contains five very complex spreadsheets describing various steps of onboarding for various client types and situations: | MY SOLUTION: <br/> I created **[sections of customers with sub-pages](https://docs.nium.com/docs/onboarding)** for common onboarding steps and for region-specific parameter and example pages. <br/> <br/> Immediately saw twice as many customers onboarded and only a quarter of the Helpdesk requests for onboarding |
 | ![Before](../../static/img/Nium_onboarding-before.png) | ![After](../../static/img/Nium_onboarding-after.png) |
+
+### Placed #1 in Cybersecurity Code Warrior Challenge
+
+#### <mark> Yahoo -- Among 2,733 Python developers, I was ranked as #1 </mark>
+
+| Before (May 2020) | After (May 2020) |
+|-------------------|------------------|
+| PROBLEM: <br/> 1. Find the 28 different vulnerability types in 28 separate Python programs. <br/> 2. Then choose the best fix among 4 choices. <br/> 3. Incorrect guesses = fewer points. <br/> <br/> I had never taken a cybersecurity course but had read many articles related to it. | MY SOLUTION: <br/> - Since there was no time limit on the vulnerability questions, I had plenty of time to read and understand the code. <br/> - I was able to imagine what might cause a problem and then how to block it. |
+| ![Before](../../static/img/Yahoo_Cybersecurity_question.png) | ![After](../../static/img/Yahoo_Cybersecurity_Assessment-Leaderboard.png) |
+| | I was #1 among 2,733 Python developers ... <br/> ... and two weeks later, I was #42 among 7, 624 |
 
 ### 30% fewer obsolete pages; automated reminders
 

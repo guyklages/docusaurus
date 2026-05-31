@@ -12,7 +12,7 @@ I used Git, Markdown, Oxygen, Postman, ReadMe, and VS Code to create documentati
 
 ## Various types of PDF guides
 
-I used Microsoft Word and Adobe FrameMaker to create PDFs for customers and developers. Links open into a new browser tab.
+To make the following guides, I used Microsoft Word or Adobe FrameMaker to create PDFs for customers and developers. Links open into a new browser tab.
 
 | Company    | Industry            | Guide | Collaborated with |
 |------------|---------------------|-------|-------------------|

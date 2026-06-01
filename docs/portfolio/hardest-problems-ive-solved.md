@@ -64,7 +64,7 @@
 | Before (Mar 2017) | After (Aug 2017) |
 |-------------------|------------------|
 | PROBLEM: <br/> Customer&nbsp;Support&nbsp;had&nbsp;200+&nbsp;tickets&nbsp;to&nbsp;get&nbsp;through. <br/> The existing documentation: <br/> - didn't have examples <br/> - didn't explain in-depth enough | MY SOLUTION: <br/> I added: <br/> - many examples with Couchbase's sample database <br/> - more-detailed explanations to many concepts |
-| | Helpdesk said the number of support tickets noticebly reduced by 30% each week. |
+| | Helpdesk said the number of support tickets noticebly reduced by about 30% each week. |
 
 
 ## UX/UI Consultant

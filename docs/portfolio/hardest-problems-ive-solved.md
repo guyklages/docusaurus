@@ -41,7 +41,7 @@
 
 ### 0 help from engineers
 
-#### <mark> Couchbase -- Needed a Linux install but no engineer was available to help </mark>
+#### <mark> Couchbase -- Needed to install a pre-QA version to document it while no engineer was available to help </mark>
 
 | Before (Apr 2018) | After (Apr 2018) |
 |-------------------|------------------|

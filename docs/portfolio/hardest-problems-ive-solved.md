@@ -55,7 +55,7 @@
 | Before (Mar 2017) | After (Aug 2017) |
 |-------------------|------------------|
 | PROBLEM: <br/> Turnaround&nbsp;time&nbsp;to&nbsp;add&nbsp;features&nbsp;took&nbsp;way&nbsp;too&nbsp;long. <br/> 1.  Writers authored a feature in Oxygen. (2-3d) <br/> 2.  Webpage staged for engineer review. (2-3h) <br/> 3.  Engineers eventually gave feedback. (3-5d) <br/> 4.  Webpage updated. (1-2d) <br/> <br/> Time for iteration: 6-13d <br/> x 2-4 iterations (going to Step 2) <br/> ======================== <br/> Total of 4 - 6 _weeks_ per feature | MY SOLUTION: <br/> Google Docs for synchronous writing/editing. <br/> 1. I authored a single feature in Google Docs and shared it with all engineers involved. (2-3d) <br/> 2. While engineers discussed how the feature will be finalized, I started on the next feature. <br/> 3. After the engineers finalized a feature's text, I imported it in Oxygen and staged it only _once_. (2-3h) <br/> ====================== <br/> Total of 4 - 5 _days_ per feature | 
-| | Average Saving:  5 weeks → 1 week = 80% time saved |
+| | Average savings:  5 weeks → 1 week = 80% time saved |
 
 ### 30% fewer helpdesk tickets
 

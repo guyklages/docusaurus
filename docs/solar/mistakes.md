@@ -18,7 +18,7 @@ When we finally got our first single-family house, we were thrilled to be free f
 
 | Mistake | Wasted <br/> money | Wasted <br/> days | Solution |
 |---------|:------------------:|:-----------------:|----------|
-| We agreed to Tesla's original design of "partial home backup" since they said we could use our existing (obsolete) 1964 70-amp main panel. <br/><br/> You always want a _"whole home backup"_ instead. | 20-30% of electric bills until fixed | 740 | Best to first upgrade your main panel to 200-amp, if it isn't already. <br/><br/> We eventually upgraded to a 200-amp panel and paid a [Licensed Tesla installer](https://www.tesla.com/support/certified-installers) to make our solar system a "whole home backup" |
+| We agreed to Tesla's original design of "partial home backup" since they said we could use our existing (obsolete) 70-amp main panel from 1964. <br/><br/> You always want a _"whole home backup"_ instead. | 20-30% of electric bills until fixed | 740 | Best to first upgrade your main panel to 200-amp, if it isn't already. <br/><br/> We eventually upgraded to a 200-amp panel and paid a [Licensed Tesla installer](https://www.tesla.com/support/certified-installers) to make our solar system a "whole home backup" |
 
 ## Convert gas appliances to electric
 

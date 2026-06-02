@@ -89,7 +89,7 @@
 
 | Before (Jan 2008) | After (Feb 2008) |
 |-------------------|------------------|
-| PROBLEM: <br/> HP wants to reduce the amount of paper and ink used to be more "green". <br/> <br/> HP's Word `DEFAULT.DOC` file settings were: <br/> - 1.5” left, right, top, and bottom margins <br/> - 12pt font <br/> - Printers print singled-sided by default | MY SOLUTION: <br/> Slightly smaller margins and fonts. <br/> <br/> Change the `DEFAULT.DOC` file settings to: <br/> - 0.5" left, right, top, and bottom margins <br/> - 10pt font <br/> - Print double-sided by default |
+| PROBLEM: <br/> HP wants to reduce the amount of paper and ink used to be more "green". <br/> <br/> HP's Word `DEFAULT.DOC` file settings were: <br/> - 1.5” left, right, top, and bottom margins <br/> - 12pt font <br/> - Printers print singled-sided by default | MY SOLUTION: <br/> Slightly smaller margins and fonts. <br/> <br/> Change&nbsp;the&nbsp;`DEFAULT.DOC`&nbsp;file&nbsp;settings&nbsp;to: <br/> - 0.5" left, right, top, and bottom margins <br/> - 10pt font <br/> - Print double-sided by default |
 | Example submitted: <br/> HP’s 14-page (printed) Orientation Table with URLs written out | Became 2 pages (1 piece of paper) since: <br/> - 34% more print area (49.5 to 75 in<sup>2</sup>) <br/> - 17% more words per page (12pt to 10pt) <br/> - Saved 20-30% of paper printed |
 | Cost to implement: 1 hour of administrator's time | Was 1 of 5 winners from 1,800+ submissions |
 

@@ -98,11 +98,11 @@
 
 ## Software Engineer
 
-### Saved more than 50% of time
+### Saved >50% of time, effort
 
-#### <mark> ADP Payroll -- Made a database to automate reports that saved more than 50% of the employees' time and effort </mark>
+#### <mark> ADP Payroll -- Made a database to automate reports; saved >50% of the employees' time and effort </mark>
 
 | Before (Mar 2009) | After (Aug 2009) |
 |-------------------|------------------|
-| PROBLEM: Payroll Specialists had very manual and labor-intensive reports to create. <br/> <br/> They had everything in various spreadsheets and documents, which took a long time to sift through when compiling data needed for weekly reports. | MY SOLUTION: <br/> Use a database to unify and create reports. <br/> <br/> 1. I created a Microsoft Access database to connect all of their spreadsheets and documents into one cohesive place. <br/> 2. I made reports that ran automatically on the schedule they needed them. |
-| | This new system freed up at least 50% of their time and allowed them to do other things. |
+| PROBLEM: <br/> Payroll Specialists had very manual and labor-intensive reports to create. <br/> <br/> They had everything in various spreadsheets and documents, which took a long time to sift through when compiling data needed for weekly reports. | MY SOLUTION: <br/> Use a database to unify and create reports. <br/> <br/> 1. I created a Microsoft Access database to connect all of their spreadsheets and documents into one cohesive place. <br/> 2. I made reports that ran automatically on the schedule they needed them. |
+| | This new system freed up at least 50% of their time which allowed them to do other things. |

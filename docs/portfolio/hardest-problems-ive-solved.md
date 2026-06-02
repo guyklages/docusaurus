@@ -98,7 +98,7 @@
 
 ## Software Engineer
 
-### Saved >50% of time, effort
+### DB saved >50% of time, effort
 
 #### <mark> ADP Payroll -- Made a database to automate reports; saved >50% of the employees' time and effort </mark>
 

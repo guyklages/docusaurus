@@ -30,7 +30,7 @@
 | ![Before](../../static/img/Yahoo_Cybersecurity_question.png) | ![After](../../static/img/Yahoo_Cybersecurity_Assessment-Leaderboard.png) |
 | | I was #1 among 2,733 developers ... <br/> ... two weeks later, I was #42 among 7,624 |
 
-### 30% fewer pages; automated reminders
+### 30% fewer pages; auto-reminders
 
 #### <mark> Yahoo -- Reduced obsolete pages by 30% and added automation to prevent obsolete pages </mark>
 
@@ -48,9 +48,9 @@
 | PROBLEM: <br/> Need&nbsp;to&nbsp;document&nbsp;features&nbsp;before&nbsp;testing&nbsp;is&nbsp;done. <br/> - Couchbase Server v6.0 was still being coded. <br/> - Less than half of v6.0 had completed QA testing. <br/> - Documentation was needed for an event. <br/> - There wasn't an installed instance I could use. | MY SOLUTION: <br/> Install the Alpha version to use it and document it. <br/> <br/> _(it was like installing Linux in 1996 before Google)_ <br/> <br/> 1.  Find an unused server I could reformat. <br/> 2.  Download and install Ubuntu 18.0. <br/> 3.  Find, download, and install dependency files. <br/> 4.  Find, download, and compile CB v6.0 source code. <br/> 5.  Run Couchbase Server and create queries that use the new ANSI indexing and other new features. |
 | | I was able to document pre-QA features in time for an event without help from the software developers. |
 
-### 80% time saved on writing process
+### 80% time saved on new process
 
-#### <mark> Couchbase -- Reduced the writing time of a new feature from 4-6 weeks to 4-5 days </mark>
+#### <mark> Couchbase -- Reduced the writing process of a new feature from 4-6 weeks to 4-5 days </mark>
 
 | Before (Mar 2017) | After (Aug 2017) |
 |-------------------|------------------|
@@ -72,7 +72,7 @@
 
 | Before (Feb 2012) | After (Apr 2012) |
 |-------------------|------------------|
-| PROBLEM: <br/> PMs complained that they needed to enter long, complex eDC expressions that were hard-to-read and very error prone. | MY SOLUTION: I suggested to the engineers to separate each element into dropdown boxes with human-readable values that automatically matched the level of parenthesis. |
+| PROBLEM: <br/> PMs complained that they needed to enter long, complex eDC expressions that were hard-to-read and very error prone. | MY SOLUTION: <br/> I suggested to the engineers to separate each element into dropdown boxes with human-readable values that automatically matched the level of parenthesis. |
 | For example: <br/> `NOT(((../form11/intAge<="35") OR (ynSmoke !="1")))` | ![After](../../static/img/VA_Age=35+NoSmoke.png) |
 
 

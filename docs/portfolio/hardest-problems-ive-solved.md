@@ -11,7 +11,7 @@
 | PROBLEM: <br/> Short pages were hastily written by engineers who used more pages than needed <br/> <br/> Total of 50 pages| MY SOLUTION: <br/> I revamped and streamlined the information architecture to improve the flow and group related topics. <br/> <br/> Total of 32 pages |
 | ![Before](../../static/img/Nium_ca_50pgs.png) | ![After](../../static/img/Nium_ca_32pgs.png) |
 
-### 2x onboarding with 75% fewer issues
+### 2x onboarding; 75% fewer issues
 
 #### <mark> Nium -- Doubled the number of people onboarded per month with 75% fewer issues </mark>
 
@@ -20,7 +20,7 @@
 | PROBLEM: <br/> New clients were unable to onboard themselves due to the unclear method to them–-and even to Nium. <br/> <br/> Each region (AU, EU, HK, SG, UK, US) contains five very complex spreadsheets describing various steps of onboarding for various client types and situations: | MY SOLUTION: <br/> I created **[sections of customers with sub-pages](https://docs.nium.com/docs/onboarding)** for common onboarding steps and for region-specific parameter and example pages. <br/> <br/> Immediately saw twice as many customers onboarded and only a quarter of the Helpdesk requests for onboarding |
 | ![Before](../../static/img/Nium_onboarding-before.png) | ![After](../../static/img/Nium_onboarding-after.png) |
 
-### Placed #1 in a cybersecurity challenge
+### #1 in a cybersecurity challenge
 
 #### <mark> Yahoo -- Among 2,733 Python developers, I was ranked as #1 in the Cybersecurity Code Warrior Challenge </mark>
 
@@ -30,9 +30,9 @@
 | ![Before](../../static/img/Yahoo_Cybersecurity_question.png) | ![After](../../static/img/Yahoo_Cybersecurity_Assessment-Leaderboard.png) |
 | | I was #1 among 2,733 developers ... <br/> ... two weeks later, I was #42 among 7,624 |
 
-### 30% fewer obsolete pages; automated reminders
+### 30% fewer pages; automated reminders
 
-#### <mark> Yahoo -- Reduced obsolete pages by 30% and added automation to reduce further </mark>
+#### <mark> Yahoo -- Reduced obsolete pages by 30% and added automation to prevent obsolete pages </mark>
 
 | Before (May 2019) | After (Dec 2019) |
 |-------------------|------------------|
@@ -66,14 +66,14 @@
 | PROBLEM: <br/> Customer&nbsp;Support&nbsp;had&nbsp;200+&nbsp;tickets&nbsp;to&nbsp;get&nbsp;through. <br/> The existing documentation: <br/> - didn't have examples <br/> - didn't explain in-depth enough | MY SOLUTION: <br/> I added: <br/> - many examples with Couchbase's sample database <br/> - more-detailed explanations to many concepts |
 | | Helpdesk said the number of support tickets noticebly reduced by about 30% each week. |
 
-### 30% less time with 50% fewer errors
+### 30% less time; 50% fewer errors
 
 #### <mark> Boston VA Medical Center -- Reduced time to create clinical trials by 30% with 50% fewer errors </mark>
 
 | Before (Feb 2012) | After (Apr 2012) |
 |-------------------|------------------|
 | PROBLEM: <br/> PMs complained that they needed to enter long, complex eDC expressions that were hard-to-read and very error prone. | MY SOLUTION: I suggested to the engineers to separate each element into dropdown boxes with human-readable values that automatically matched the level of parenthesis. |
-| For example: `NOT(((../form11/intAge<="35") OR (ynSmoke !="1")))` | ![After](../../static/img/VA_Age=35+NoSmoke.png) |
+| For example: <br/> `NOT(((../form11/intAge<="35") OR (ynSmoke !="1")))` | ![After](../../static/img/VA_Age=35+NoSmoke.png) |
 
 
 

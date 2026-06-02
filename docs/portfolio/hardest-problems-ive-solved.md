@@ -30,14 +30,14 @@
 | ![Before](../../static/img/Yahoo_Cybersecurity_question.png) | ![After](../../static/img/Yahoo_Cybersecurity_Assessment-Leaderboard.png) |
 | | I was #1 among 2,733 developers ... <br/> ... two weeks later, I was #42 among 7,624 |
 
-### 30% fewer pages; auto-reminders
+### 40% fewer pages; auto-reminders
 
-#### <mark> Yahoo -- Reduced obsolete pages by 30% and added automation to prevent obsolete pages </mark>
+#### <mark> Yahoo -- Reduced obsolete pages by 40% and added automation to prevent obsolete pages </mark>
 
 | Before (May 2019) | After (Dec 2019) |
 |-------------------|------------------|
 | PROBLEM: <br/> Too&nbsp;many&nbsp;obsolete&nbsp;and&nbsp;disorganized&nbsp;document&nbsp;pages. <br/> - Going to have an audit on all documentation pages. <br/> - Most in Confluence, needing to be in Markdown. <br/> - Many pages were obsolete but not clear which ones. <br/> - Many pages were not in easily discoverable places. <br/> - Many related pages/topics could be combined. <br/> - Moving forward, how to prevent "stale" pages? | MY SOLUTION: <br/> Implement reminders to review unmodified pages of a specified number of days. <br/> - I reviewed pages with SMEs, archived obsolete pages, merged similar pages, organized them by product, and migrated them to Markdown in Yahoo's Git repo. <br/> - I suggested a system of three tags on every page: <br/> &nbsp;&nbsp;&nbsp;&nbsp;-`Owner` <br/> &nbsp;&nbsp;&nbsp;&nbsp;-`LastModified` <br/> &nbsp;&nbsp;&nbsp;&nbsp;-`DaysTillStale` <br/> - A daily script looks for pages that haven't been edited in that page's time limit and sends an email to the owner of that page to review it (or the owner's manager). |
-| | - Total number of pages reduced by 30%. <br/> - Automated a timely reminder to page owners. |
+| | - Total number of pages reduced by 40%. <br/> - Automated a timely reminder to page owners. |
 
 ### 0 help from engineers
 
@@ -66,9 +66,9 @@
 | PROBLEM: <br/> Customer&nbsp;Support&nbsp;had&nbsp;200+&nbsp;tickets&nbsp;to&nbsp;get&nbsp;through. <br/> The existing documentation: <br/> - didn't have examples <br/> - didn't explain in-depth enough | MY SOLUTION: <br/> I added: <br/> - many examples with Couchbase's sample database <br/> - more-detailed explanations to many concepts |
 | | Helpdesk said the number of support tickets noticebly reduced by about 30% each week. |
 
-### 30% less time; 50% fewer errors
+### 50% less time; 50% fewer errors
 
-#### <mark> Boston VA Medical Center -- Reduced time to create clinical trials by 30% with 50% fewer errors </mark>
+#### <mark> Boston VA Medical Center -- Reduced time to create clinical trials by 50% with 50% fewer errors </mark>
 
 | Before (Feb 2012) | After (Apr 2012) |
 |-------------------|------------------|
@@ -79,9 +79,9 @@
 
 ## UX/UI Consultant
 
-### 30% increase in players and sales
+### 25% increase in players and sales
 
-#### <mark> Mica Games -- Suggested changes to his games that resulted in 30% more players and revenue </mark>
+#### <mark> Mica Games -- Suggested changes to his games that resulted in 25% more players and revenue </mark>
 
 | Before (Mar 1998) | After (Apr 2013) |
 |-------------------|------------------|

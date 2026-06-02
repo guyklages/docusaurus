@@ -75,13 +75,13 @@
 | PROBLEM: <br/> PMs complained that they needed to enter long, complex eDC expressions that were hard-to-read and very error prone. | MY SOLUTION: <br/> I suggested to the engineers to separate each element into dropdown boxes with human-readable values that automatically matched the level of parenthesis. |
 | For example: <br/> `NOT((intAge<="35") OR (ynSmoke !="1"))` | ![After](../../static/img/VA_Age=35+NoSmoke.png) |
 
-### 1/3rd the time to edit eDC form
+### 1/3rd the time to edit eDC forms
 
 #### <mark> Boston VA Medical Center -- Reduced the time needed to make any changes to a clinical trial to one-third. </mark>
 
 | Before (Aug 2011) | After (Dec 2011) |
 |-------------------|------------------|
-| PROBLEM: <br/> There was no clear approval path when changing any part of a clinical trial's process or database or questionnaire. <br/> <br/> To add or modify a feature or request to their complex eDC system: <br/> - It went through a maze of approvals <br/> - Various people in 7 departments <br/> There was no clear path or order of who to talk with next when each step is approved or rejected. | MY SOLUTION: Over two months, I talked with 20+ people and refined a 7-department swimlane diagram of 100+ steps that resulted in a complex-yet-clear flowchart that all department managers agreed on. <br/> <br/> The average time to make an edit to an eDC form went from 3 weeks to 1 week. |
+| PROBLEM: <br/> There was no clear approval path when changing any part of a clinical trial's process or database or questionnaire. <br/> <br/> To add or modify a feature or request to their complex eDC system: <br/> - It went through a maze of approvals <br/> - Various people in 7 departments <br/> <br/> There was no clear path or order of who to talk with next when each step is approved or rejected. | MY SOLUTION: Over two months, <br/> - I talked with 20+ people <br/> I refined a 7-department swimlane diagram <br/> I made a 100-step complex-yet-clear flowchart that all department managers agreed on. <br/> <br/> The average time to make an edit to an eDC form went from 3 weeks to 1 week. |
 
 
 ## UX/UI Consultant

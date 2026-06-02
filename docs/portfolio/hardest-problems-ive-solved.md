@@ -83,6 +83,16 @@
 |-------------------|------------------|
 | PROBLEM: <br/> There was no clear approval path when changing any part of a clinical trial's process or database or questionnaire. <br/> <br/> To add or modify a feature or request to their complex eDC system: <br/> - It went through a maze of approvals <br/> - Various people in 7 departments <br/> <br/> There was no clear path or order of who to talk with next when each step is approved or rejected. | MY SOLUTION: Over two months, <br/> - I talked with 20+ people <br/> - I refined a 7-department swimlane diagram <br/> - I made a 100-step complex-yet-clear flowchart that all department managers agreed on. <br/> <br/> The average time to make an edit to an eDC form went from 3 weeks to 1 week. |
 
+### #1 in Green Environment Campaign
+
+#### <mark> HP -- Awarded 1st place in HP's Green Environment Campaign for my ideas that save 20-30% of paper used worldwide </mark>
+
+| Before (Jan 2008) | After (Feb 2008) |
+|-------------------|------------------|
+| PROBLEM: <br/> HP wants to reduce the amount of paper and ink used to be more "green". <br/> <br/> HP's Word `DEFAULT.DOC` file settings were: <br/> - 1.5” left, right, top, and bottom margins <br/> - 12pt font <br/> - Printers print on 1 side only | MY SOLUTION: <br/> Slightly smaller margins and fonts. <br/> - 0.5" left, right, top, and bottom margins <br/> - 10pt font <br/> - Print double-sided by default, change when needed
+| Example submitted: <br/> HP’s 14-page (printed) Orientation Table with URLs written out | Became 2 pages (1 piece of paper) due to: <br/> - Increased page print area by 34% (49.5 to 75 in^2) <br/> - Increased words per page by 17% (12pt to 10pt) <br/> - Saved 20-30% of paper printed |
+| | Cost to implement: 1 hour of administrator's time <br/> Was 1 of 5 winners from 1,800+ submissions |
+
 
 ## UX/UI Consultant
 

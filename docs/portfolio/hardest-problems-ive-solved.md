@@ -73,7 +73,7 @@
 | Before (Feb 2012) | After (Apr 2012) |
 |-------------------|------------------|
 | PROBLEM: <br/> PMs complained that they needed to enter long, complex eDC expressions that were hard-to-read and very error prone. | MY SOLUTION: <br/> I suggested to the engineers to separate each element into dropdown boxes with human-readable values that automatically matched the level of parenthesis. |
-| For example: <br/> `NOT(((../form11/intAge<="35") OR (ynSmoke !="1")))` | ![After](../../static/img/VA_Age=35+NoSmoke.png) |
+| For example: <br/> `NOT((../form11/intAge<="35") OR (ynSmoke !="1"))` | ![After](../../static/img/VA_Age=35+NoSmoke.png) |
 
 
 

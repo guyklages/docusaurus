@@ -66,6 +66,16 @@
 | PROBLEM: <br/> Customer&nbsp;Support&nbsp;had&nbsp;200+&nbsp;tickets&nbsp;to&nbsp;get&nbsp;through. <br/> The existing documentation: <br/> - didn't have examples <br/> - didn't explain in-depth enough | MY SOLUTION: <br/> I added: <br/> - many examples with Couchbase's sample database <br/> - more-detailed explanations to many concepts |
 | | Helpdesk said the number of support tickets noticebly reduced by about 30% each week. |
 
+### 30% less time with 50% fewer errors
+
+#### <mark> Boston VA Medical Center -- Reduced time to create clinical trials by 30% with 50% fewer errors </mark>
+
+| Before (Feb 2012) | After (Apr 2012) |
+|-------------------|------------------|
+| PROBLEM: <br/> PMs complained that they needed to enter long, complex eDC expressions that were hard-to-read and very error prone. | MY SOLUTION: I suggested to the engineers to separate each element into dropdown boxes with human-readable values that automatically matched the level of parenthesis. |
+| For example: `NOT(((../form11/intAge<="35") OR (ynSmoke !="1")))` | ![After](../../static/img/VA_Age=35+NoSmoke.png) |
+
+
 
 ## UX/UI Consultant
 

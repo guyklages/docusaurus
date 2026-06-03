@@ -95,6 +95,16 @@ In 2013, TEDxBeaconStreet wanted their Adventures guidebook (left side) to have 
 | ![Before](../../static/img/TEDx_adventures-handbook-lifecycle_BEFORE.png) | ![After](../../static/img/TEDx_adventures-handbook-lifecycle_AFTER.png) |
 
 
+## Pristine
+
+### Text-to-table
+
+| Before (May 2008) | After (May 2008) |
+|-------------------|------------------|
+| Given text for translation. | I reduced cost by removing the repeated phrases and made the section easier-to-read by converting it into a table. |
+| ![Before](../../static/img/Pristine_2pg-to-1pg-table_BEFORE.png) | ![After](../../static/img/Pristine_2pg-to-1pg-table_AFTER.png) |
+
+
 ## HP
 
 ### Localization languages

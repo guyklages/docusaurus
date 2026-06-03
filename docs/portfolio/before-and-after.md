@@ -80,7 +80,7 @@ In 2013, TEDxBeaconStreet wanted their Adventures guidebook (left side) to have 
 | Before (Apr 2012) | After (May 2012) |
 |-------------------|------------------|
 | Some TEDxBeaconStreet pages were simply notes of ideas that they wanted conveyed. | I took those notes and wrote about them in the same style as the other Adventure guidebook pages. | 
-| ![Before](../../static/img/TEDx_adventures-handbook-lifecycle_BEFORE.png) | [After](../../static/img/TEDx_adventures-handbook-lifecycle_AFTER.png) |
+| ![Before](../../static/img/TEDx_adventures-handbook-lifecycle_BEFORE.png) | ![After](../../static/img/TEDx_adventures-handbook-lifecycle_AFTER.png) |
 
 
 ## HP

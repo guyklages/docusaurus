@@ -42,6 +42,13 @@
 | TEDxBeaconStreet wanted their Adventures guidebook to have a newer and refreshed look while improving their wording. | I 
 | ![Before](../../static/img/TEDx_adventures-handbook-rules_BEFORE.png) | ![After](../../static/img/TEDx_adventures-handbook-rules_AFTER.png) |
 
+#### Lifecycle
+
+| Before (Apr 2012) | After (May 2012) |
+|-------------------|------------------|
+| Some TEDxBeaconStreet pages were simply notes of ideas that they wanted conveyed. | I took those notes and wrote about them in the same style as the other Adventure guidebook pages. | 
+| ![Before](../../static/img/TEDx_adventures-handbook-lifecycle_BEFORE.png) | ![After](../../static/img/TEDx_adventures-handbook-lifecycle_AFTER.png) |
+
 ## Diagrams and illustrations
 
 ### ADP

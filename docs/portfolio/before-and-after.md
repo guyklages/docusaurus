@@ -63,11 +63,17 @@ In 2013, TEDxBeaconStreet wanted their Adventures guidebook (left side) to have 
 
 ### Background
 
-![TEDx Adventures background](../../static/img/TEDx_adventures-handbook-background_B+A.png)
+| Before (Apr 2012) | After (May 2012) |
+|-------------------|------------------|
+| TEDxBeaconStreet wanted their Adventures guidebook to have a newer and refreshed look while improving their wording. | I summarized the text by year to show the progression. |
+| ![Before](../../static/img/TEDx_adventures-handbook-background_BEFORE.png) | ![After](../../static/img/TEDx_adventures-handbook-background_AFTER.png) |
 
 ### Rules
 
-![TEDx Adventures rules](../../static/img/TEDx_adventures-handbook-rules_B+A.png)
+| Before (Apr 2012) | After (May 2012) |
+|-------------------|------------------|
+| TEDxBeaconStreet wanted their Adventures guidebook to have a newer and refreshed look while improving their wording. | I 
+| ![Before](../../static/img/TEDx_adventures-handbook-rules_BEFORE.png) | ![After](../../static/img/TEDx_adventures-handbook-rules_AFTER.png) |
 
 ### Lifecycle
 

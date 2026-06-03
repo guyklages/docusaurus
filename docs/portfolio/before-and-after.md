@@ -85,10 +85,9 @@ In 2013, TEDxBeaconStreet wanted their Adventures guidebook (left side) to have 
 
 ## HP
 
-In 2008, Hewlett-Packard's translation division used an Excel table to track which languages a project have been translated into and then reviewed for accuracy. I thought it was odd they used the standard ISO 2-letter language code on the X-axis while using their internal 3-letter languge code on the Y-axis. 
-
-After changing the 3-letter code to the 2-letter code, I noticed that a language wasn't reviewed yet--a mistake that the responsible project manager didn't notice either!
-
 ### Localization languages
 
-![HP](../../static/img/HP_internal-tool-for-tracking-translations_B+A.png)
+| Before (Jan 2007) | After (May 2007) |
+|-------------------|------------------|
+| Hewlett-Packard's translation division used an Excel table to track which languages a project have been translated into and then reviewed for accuracy. I thought it was odd they used the standard ISO 2-letter language code on the X-axis while using their internal 3-letter languge code on the Y-axis. | After changing the 3-letter code to the 2-letter code, I noticed that a language wasn't reviewed yet--a mistake that the responsible project manager didn't notice either! |
+| ![Before](../../static/img/HP_internal-tool-for-tracking-translations_BEFORE.png) | ![After](../../static/img/HP_internal-tool-for-tracking-translations_AFTER.png) |

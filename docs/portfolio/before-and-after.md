@@ -38,23 +38,35 @@
 
 ## Apple
 
-In 2016, the developer guides for the robots assembling iPads (left side) needed clarification and elaboration (right side) for their assembly line in China.
+Apple's developer guides for the robots assembling iPads (left side) needed clarification and elaboration (right side) for their assembly line in China.
 
 ### User guide CAM header
 
-![User guide CAM header](../../static/img/Apple_user-guide-cam-header_B+A.png)
+| Before (Apr 2016) | After (May 2016) |
+|-------------------|------------------|
+| Items were numbered, even though they weren't steps. | I moved the text into five columns to be near the five sections they were describing. |
+| ![Before](../../static/img/Apple_user-guide-cam-header_BEFORE.png) | ![After](../../static/img/Apple_user-guide-cam-header_AFTER.png) |
 
 ### Quickstart CAM
 
-![Quickstart CAM](../../static/img/Apple_quick-start-cam_B+A.png)
+| Before (Apr 2016) | After (May 2016) |
+|-------------------|------------------|
+| Items were numbered, even though they weren't steps. | I added screenshots to clarify the descriptions. |
+![Quickstart CAM](../../static/img/Apple_quick-start-cam_BEFORE.png) | ![After](../../static/img/Apple_quick-start-cam_AFTER.png) |
 
 ### Troubleshooting robot
 
-![Troubleshooting robot hardware](../../static/img/Apple_troubleshooting-robot-hardware_B+A.png)
+| Before (Apr 2016) | After (May 2016) |
+|-------------------|------------------|
+| English and Chinese were intermixed and hard-to-read. | I moved the two languages into separate columns for easy scanning. |
+| ![Troubleshooting robot hardware](../../static/img/Apple_troubleshooting-robot-hardware_BEFORE.png) | ![After](../../static/img/Apple_troubleshooting-robot-hardware_AFTER.png) |
 
 ### System admin tool set
 
-![System Admin Chinese tool set](../../static/img/Apple_sys-admin-Chinese-tool-set_B+A.png)
+| Before (Apr 2016) | After (May 2016) |
+|-------------------|------------------|
+| English and Chinese were intermixed and hard-to-read. | I moved the two languages into separate columns for easy scanning. |
+![System Admin Chinese tool set](../../static/img/Apple_sys-admin-Chinese-tool-set_BEFORE.png) | ![After](../../static/img/Apple_sys-admin-Chinese-tool-set_AFTER.png) |
 
 
 ## TEDx Adventures

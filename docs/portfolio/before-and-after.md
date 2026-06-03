@@ -72,10 +72,13 @@ In 2013, TEDxBeaconStreet wanted their Adventures guidebook (left side) to have 
 
 | Before (Apr 2012) | After (May 2012) |
 |-------------------|------------------|
-| TEDxBeaconStreet wanted their Adventures guidebook to have a newer and refreshed look while improving their wording. | I 
-| ![Before](../../static/img/TEDx_adventures-handbook-rules_BEFORE.png) | ![After](../../static/img/TEDx_adventures-handbook-rules_AFTER.png) | Instead of numbered rules, I wanted short, easy-to-remember two-word phrases with a brief description. Adding photos felt warmer than a gray box. |
+| TEDxBeaconStreet wanted their Adventures guidebook to have a newer and refreshed look while improving their wording. | Instead of numbered rules, I wanted short, easy-to-remember two-word phrases with a brief description. Adding photos felt warmer than a gray box. | 
+| ![Before](../../static/img/TEDx_adventures-handbook-rules_BEFORE.png) | ![After](../../static/img/TEDx_adventures-handbook-rules_AFTER.png) | 
 
 ### Lifecycle
+
+| Before (Apr 2012) | After (May 2012) |
+|-------------------|------------------|
 
 ![TEDx Adventures lifecycle](../../static/img/TEDx_adventures-handbook-lifecycle_B+A.png)
 

@@ -23,15 +23,18 @@
 
 ### Color-coded system table
 
-In 2017, I converted their original layout (left side) to a color-coded table (right side) while keeping the same text.
-
-![3-tier system table](../../static/img/Couchbase_system-table.png)
+| Before (Jan 2018) | After (Feb 2018) |
+|-------------------|------------------|
+| Their website contained a description of the system tables in a way that wasn't easy to read nor scan. | I converted their original layout to a color-coded table while keeping the same text. |
+| ![Before](../../static/img/Couchbase_system-table_BEFORE.png) | ![After](../../static/img/Couchbase_system-table_AFTER.png) |
 
 ### Interview challenge
 
-During my interview, I was given 30 minutes to improve their website's page (left side) to be more readable and easier to understand (right side).
+| Before (Apr 2017) | After (Apr 2017) |
+|-------------------|------------------|
+| During my interview, I was given 30 minutes to improve their website's page to be more readable and easier to understand. | I quickly made a graph to show |
+| ![Before](../../static/img/Couchbase_submillisecond-latencies_BEFORE.png) | ![After](../../static/img/Couchbase_submillisecond-latencies_AFTER.png) |
 
-![Submillisecond latencies](../../static/img/Couchbase_submillisecond-latencies.png)
 
 ## Apple
 

@@ -51,7 +51,7 @@ Apple's developer guides for the robots assembling iPads (left side) needed clar
 
 | Before (Apr 2016) | After (May 2016) |
 |-------------------|------------------|
-| Items were numbered, even though they weren't steps. | I added screenshots to clarify the descriptions. |
+| It listed unnecessary steps while not having enought detail. | I removed unnecessary steps, added screenshots to clarify the descriptions, and elaborated some steps. |
 ![Quickstart CAM](../../static/img/Apple_quick-start-cam_BEFORE.png) | ![After](../../static/img/Apple_quick-start-cam_AFTER.png) |
 
 ### Troubleshooting robot

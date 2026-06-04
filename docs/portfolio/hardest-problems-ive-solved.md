@@ -145,4 +145,4 @@
 
 | Before (May 2001) | After (Aug 2001) |
 |-------------------|------------------|
-| PROBLEM: <br/> Web application ran way too slow. <br/> <br/> Lead Engineer designed the SQL database table as: </br> | |
+| PROBLEM: <br/> Web application ran way too slow. <br/> <br/> Lead Engineer designed the SQL database table as: <br/> | MY SOLUTION: |

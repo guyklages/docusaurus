@@ -164,4 +164,4 @@
 | Before (May 1999) | After (May 1999) |
 |-------------------|------------------|
 | PROBLEM: <br/> Staff didn't have enough time to do everything needed. <br/> <br/> 1. Staff would print the labels needed for a single part of a particular batch.  (5 min) <br/> <br/> 2. Staff would wait 15 - 20 minutes until that part finished before printing labels for the next part because their SQL application would print only one part at a time. <br/> <br/> 3. Staff would go back to Step 1, repeating the long wait times throughout the day. | MY SOLUTION: <br/> Change how their SQL Server application operates to select and print labels of all steps of a batch at a single time. <br/> <br/> I re-designed their software to print the labels of all steps of a given batch at a single time, so the staff were available to do other things while all the needed labels printed on their own. |
-| | RESULTS: <br> The staff's waiting time (40 - 50% of the day) became productive time on other tasks |
+| | RESULTS: <br/> The staff's waiting time (40 - 50% of the day) became productive time on other tasks |

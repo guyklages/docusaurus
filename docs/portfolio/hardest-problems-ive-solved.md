@@ -177,7 +177,7 @@
 
 ### $1 million per month saved
 
-#### <mark/> Mall landlord -- Ran database queries to uncover a 1% discrepency in monthly rent totals </mark>
+#### <mark> Mall landlord -- Ran database queries to uncover a 1% discrepency in monthly rent totals </mark>
 
 | Before (Aug 1998) | After (Sep 1998) |
 |-------------------|------------------|

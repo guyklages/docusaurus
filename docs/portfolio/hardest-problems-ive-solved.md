@@ -166,13 +166,13 @@
 | PROBLEM: <br/> Staff didn't have enough time to do everything needed. <br/> <br/> 1. Staff would print the labels needed for a single part of a particular batch.  (5 min) <br/> <br/> 2. Staff would wait 15 - 20 minutes until that part finished before printing labels for the next part because their SQL application would print only one part at a time. <br/> <br/> 3. Staff would go back to Step 1, repeating the long wait times throughout the day. | MY SOLUTION: <br/> Change how their SQL Server application operates to select and print labels of all steps of a batch at a single time. <br/> <br/> I re-designed their software to print the labels of all steps of a given batch at a single time, so the staff were available to do other things while all the needed labels printed on their own. |
 | | RESULTS: <br/> The staff's waiting time (40 - 50% of the day) became productive time on other tasks |
 
-### No more wrong orders
+### No more wrong orders; 25% time saved
 
 #### <mark> Pueblo Grocery Store -- Created a database to streamline their product ordering </mark>
 
 | Before (Mar 1999) | After (Apr 1999) |
 |-------------------|------------------|
-| PROBLEM: <br/> There were so many wrong orders. <br/> <br/> Staff would walk up and down aisles to count the number of each item on the shelves as well as the number in the storage room to determine when and how much to re-order.  (1 - 2 hours every day) | MY SOLUTION: <br/> Use a database to streamline their ordering process. <br/> <br/> 1. I created a SQL database that received item information directly from their pricing guns and check-out registers. <br/> <br/> 2. I wrote queries and reports to show how often each item was being bought and when to order more of each item. |
+| PROBLEM: <br/> There were so many wrong orders. <br/> <br/> Staff would walk up and down aisles to count the number of each item on the shelves as well as the number in the storage room to determine when and how much to re-order.  (1 - 2 hours every day) | MY SOLUTION: <br/> Use&nbsp;a&nbsp;database&nbsp;to&nbsp;streamline&nbsp;their&nbsp;ordering&nbsp;process. <br/> <br/> 1. I created a SQL database that received item information directly from their pricing guns and check-out registers. <br/> <br/> 2. I wrote queries and reports to show how often each item was being bought and when to order more of each item. |
 | | RESULTS: <br/> - no more wrong orders <br/> - 25% saved of staff's daily time |
 
 ### $1 million per month saved

@@ -85,7 +85,7 @@
 
 ### #1 in a Green campaign
 
-#### <mark> HP -- Awarded 1st place in HP's Green Environment Campaign for my ideas that save 20-30% of paper used worldwide </mark>
+#### <mark> HP (Singapore) -- 1st place in Green Environment Campaign for my ideas that save 20-30% of paper used worldwide </mark>
 
 | Before (Jan 2008) | After (Feb 2008) |
 |-------------------|------------------|
@@ -139,3 +139,10 @@
 | PROBLEM: <br/> Daily&nbsp;call&nbsp;queue&nbsp;of&nbsp;120+&nbsp;customers&nbsp;never&nbsp;reduced. <br/> <br/> Each day, the director _randomly_ chose a _single_ time zone of North American customers to be called. <br/> <br/> Microsoft’s policy: <br/> 1. Call the customer's _home_. <br/> 2. If no answer, call their _office_. <br/> - But only on _another_ day. <br/> 3. If the 2nd call wasn’t answered, the case was _closed_ as “unanswered”. | MY SOLUTION: <br/> Call customers' preferred number at preferred time. <br/> <br/> 1. I was hired to manage a call center where staff would write down customers' issues for Microsoft Engineers to reply; instead, I saw many issues I knew the answer to and solved most of them while the customers were on the phone. <br/> <br/> 2. I redesigned their website and system to: <br/> - Use customers preferred phone number and time. <br/> Sort USA calls by customers’ preferred time based on their time zone. |
 | ![Map](../../static/img/USA-colored_timezones.png) | RESULTS: <br/> - Queue reduced from 120 to 10 calls in 2 weeks. <br/> - Duplicate and repeated calls reduced to 0. <br/> - Customer satisfaction skyrocketed due to me solving most of their questions on the phone.
 
+### 12x faster warranty website
+
+#### <mark> HP (Mt. View) -- Redesigned their database tables; website ran 12x faster </mark>
+
+| Before (May 2001) | After (Aug 2001) |
+|-------------------|------------------|
+| PROBLEM: <br/> Web application ran way too slow. <br/> <br/> Lead Engineer designed the SQL database table as: </br> | |

@@ -147,3 +147,14 @@
 |-------------------|------------------|
 | PROBLEM: <br/> Web application ran way too slow. <br/> <br/> Lead Engineer optimized the database table for _humans_: <br/> ![Before](../../static/img/HP_SqlServer_table_BEFORE.png) <br/> <br/> His code that queried the database: <br/> - For each field, used `SELECT *` <br/> &nbsp;&nbsp;&nbsp; - needs 2 network trips (1 for field list + 1 for field) <br/> - Had to search for which row contains the desired data <br/> <br/> (2)*(1+2+3+4+5+6) = 42 network trips | MY SOLUTION: <br/> I re-designed the database table and code. <br/> <br/> I optimized the database table for _computers_: <br/> ![After](../../static/img/HP_SqlServer_table_AFTER.png) <br/> <br/> <br/> <br/> <br/> <br/> My code that queried the database: <br/> - For each field, used `SELECT FieldName` <br/> &nbsp;&nbsp;&nbsp; - needs only 1 network trip to get the desired field <br/> - Had to search only 1 row for the desired data <br/> <br/> (1)*(1+1+1+1+1+1+1) = 6 network trips |
 | | RESULT: <br/> My code ran 7 times faster. |
+
+### Law contracts that reuse text
+
+#### <mark> Law firm -- Created DITA-like database to reuse paragraphs of text in multiple contracts </mark>
+
+| Before (May 2000) | After (July 2000) |
+|-------------------|-------------------|
+| PROBLEM: <br/> Law firm made dozens of contracts daily and needed an easier way to create contracts that would reuse their existing paragraphs of other contracts and be able to use them in any part of a new contract. <br/> <br/> And they needed a solution that used only their existing software: Microsoft Office. <br/> <br/> 1. Paralegals would search for paragraphs or groups of paragraphs that their firm had already written before to copy and paste them into a new contract. <br/> <br/> 2. This was very time-consuming and tedious. | MY SOLUTION: <br/> I created a Microsoft Access database of all their contract paragraphs. <br/> <br/> 1. I made tables for the paragraphs, their topic, their category, their key words, and other metadata. <br/> <br/> 2. I made forms with dropdown boxes to easily choose which paragraph (or group of paragraphs) to use as well as the ability to move them up or down. <br/> <br/> 3. I made queries to find specific paragraphs. <br/> </br> 4. I made reports that were contracts with all of their front matter followed by their desired paragraphs followed by the legal disclaimers at the end. |
+| | RESULT: <br/> I essentially invented DITA one year before IBM. The law firm loved their new contract-creating system. |
+
+

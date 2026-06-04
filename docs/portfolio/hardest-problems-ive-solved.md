@@ -175,4 +175,13 @@
 | PROBLEM: <br/> There were so many wrong orders. <br/> <br/> 1. Staff would walk up and down aisles to count the number of each item on the shelves as well as the number in the storage room to determine when and how much to re-order.  (1 - 2 hours every day) | MY SOLUTION: <br/> Use a database to streamline their ordering process. <br/> <br/> 1. I created a SQL database that received item information directly from their pricing guns and check-out registers. <br/> <br/> 2. I wrote queries and reports to show how often each item was being bought and when to order more of each item. |
 | | RESULTS: <br/> - no more wrong orders <br/> - 25% saved of staff's daily time |
 
+### $1 million per month saved
+
+#### <mark/> Mall landlord -- Ran database queries to uncover a 1% discrepency in monthly rent totals </mark>
+
+| Before (Aug 1998) | After (Sep 1998) |
+|-------------------|------------------|
+| SITUATION: <br/> The landlord of a mall billed his renting stores and shops every month. Over $100 million each month. <br/> <br/> Seeing 9-digit numbers made me think about things I've seen in various movies, so I wondered if these numbers were accurate since a tiny amount off would be easily missed and probably nobody would notice. | MY SOLUTION: <br/> I made SQL queries to confirm the monthly totals that were coming out of their Siteseer application. |
+| | RESULT: <br/> The numbers were, in fact, off by 1%, which equated to a little more than $1 million dollars each month. |
+
 

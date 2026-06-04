@@ -96,7 +96,7 @@
 
 ## Academic Director
 
-### 12,000 ESL students in China
+### 12,000 happy ESL students in China
 
 | Before (Feb 2002) | After (May 2006) |
 |-------------------|------------------|

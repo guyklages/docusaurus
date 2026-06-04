@@ -129,3 +129,13 @@
 |-------------------|------------------|
 | PROBLEM: <br/> Payroll Specialists had very manual and labor-intensive reports to create. <br/> <br/> They had everything in various spreadsheets and documents, which took a long time to sift through when compiling data needed for weekly reports. | MY SOLUTION: <br/> Use a database to unify and create reports. <br/> <br/> 1. I created a Microsoft Access database to connect all of their spreadsheets and documents into one cohesive place. <br/> 2. I made reports that ran automatically on the schedule they needed them. |
 | | This new system freed up at least 50% of their time which allowed them to do other things. |
+
+### 88% drop in helpdesk queue
+
+#### <mark> Microsoft (Shanghai) -- Redesigned their Helpdesk system that resulted in decimating their call queue </mark>
+
+| Before (Feb 2003) | After (Mar 2003) |
+|-------------------|------------------|
+| PROBLEM: <br/> Daily call queue of 120+ customers never reduced. <br/> <br/> Each day, the director _randomly_ chose a _single_ time zone of North American customers to be called. <br/> <br/> Microsoft’s policy: 1. Call the customer's _home_. <br/> 2. If no answer, call their _office_. But only on _another_ day. <br/> 3. If the customer didn’t answer the 2nd call, the case was _closed_ as “unanswered”. | MY SOLUTION: <br/> Call customers' preferred number at preferred time. <br/> 1. I was hired to manage a call center where staff would write down customers' issues for Microsoft Engineers to reply; instead, I saw many issues I knew the answer to and solved most of them while the customers were on the phone. <br/> <br/> 2. I redesigned their website and system to: <br/> - Use customers preferred phone number and time. <br/> Sort USA calls by customers’ preferred time based on their time zone. |
+| ![Map](../../static/img/USA-colored_timezones.png) | RESULTS: <br/> - Queue reduced from 120 to 10 calls in 2 weeks. <br/> - Duplicate and repeated calls reduced to 0. <br/> - Customer satisfaction skyrocketed due to me solving most of their questions on the phone.
+

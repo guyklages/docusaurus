@@ -59,5 +59,5 @@ When we finally got our first single-family house, we were thrilled to be free f
 
 | Mistake | Wasted <br/> money | Wasted <br/> days | Solution |
 |---------|:------------------:|:-----------------:|----------|
-| We hired unlicensed roofers to re-shingle our roof and ended up needing to re-roof their mistakes two years later. | $22,000 | 4 | Always use licensed contractors. |
+| We hired unlicensed roofers to re-shingle our roof and ended up needing to re-roof their mistakes two years later. | $20,000 | 4 | Always use licensed contractors. |
 | To re-roof, we had to remove and reinstall our solar panels. | $8,000 | 14 | [Licensed Tesla installer](https://www.tesla.com/support/certified-installers) was available to do the work four months before Tesla could. |

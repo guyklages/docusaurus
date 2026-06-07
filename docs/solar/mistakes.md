@@ -39,13 +39,13 @@ When we finally got our first single-family house, we were thrilled to be free f
 
 | Mistake | Wasted <br/> money | Wasted <br/> days | Solution |
 |---------|:------------------:|:-----------------:|----------|
-| Since we were charging at the office before COVID, we didn't account for EV charging at home. <br/> <br/> During and after COVID, we started charging an EV at home and learned that we installed too few panels. | $200/year | | Charge as much as you can at home during the month you use electricity the most to boost your electric bill for the maximum allowed panels you can install. <br/> (also to future-proof your usage over the next 30-50 years) |
+| Since we were charging at the office before COVID, we didn't account for EV charging at home. <br/> <br/> During and after COVID, we started charging an EV at home and learned that we installed too few panels. | $200/year | | Charge as much as you can at home during the month you use electricity the most to boost your electric bill for the maximum allowed panels you can install. <br/> <br/> (also to future-proof your usage over the next 30-50 years) |
 
 ## Install heat pump before re-roofing
 
 | Mistake | Wasted <br/> money | Wasted <br/> days | Solution |
 |---------|:------------------:|:-----------------:|----------|
-| We upgraded our roof _before_ upgrading our furnace. | $22,000 roof + $100/year on partially shaded panels | 3 | Install the heat pump first, then remove unused vents and move any active vents to the shaded side before re-roofing. Moving vents to the shaded side avoids panel installation on the shaded side. |
+| We upgraded our roof _before_ upgrading our furnace. | $20,000 roof + $100/year on partially shaded panels | 3 | Install the heat pump first, then remove unused vents and move any active vents to the shaded side before re-roofing. Moving vents to the shaded side avoids panel installation on the shaded side. |
 | We upgraded to a heat pump two years after solar installation, so now we have too few panels for our winter kWh usage. | $390/year <br/> (for two years) | 1,100 | Install your heat pump one winter before getting solar panels to know your true kWh usage. |
 
 ## Upgrade your main panel to 200 amps

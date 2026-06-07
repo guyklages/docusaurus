@@ -33,7 +33,7 @@ When we finally got our first single-family house, we were thrilled to be free f
 
 | Mistake | Wasted <br/> money | Wasted <br/> days | Solution |
 |---------|:------------------:|:-----------------:|----------|
-| Our Solar Emergency Shut-off box is on the front of our garage instead of the normal side yard _because nothing can be within 36 inches of a gas meter._ | | 740 | After converting all gas appliances to electric, the gas company removed the gas meter and repaved our side yard for free. |
+| Our Solar Emergency Shut-off box is on the front of our garage instead of the normal side yard _because nothing can be within 36 inches of a gas meter._ | | 740 | After converting all gas appliances to electric, PG&E removed the gas meter and repaved our side yard for free. <br/> <br/> **Note:** If the technician only removes the physical meter and caps the above-ground pipe, they will usually not perform any repaving; so be sure to request to _"cap the gas line near the main"_ so the company must dig up your gas line to physically cut and cap it. |
 
 ## Charge EV to know true kWh usage
 

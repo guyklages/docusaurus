@@ -39,7 +39,7 @@ When we finally got our first single-family house, we were thrilled to be free f
 
 | Mistake | Wasted <br/> money | Wasted <br/> days | Solution |
 |---------|:------------------:|:-----------------:|----------|
-| We didn't account for EV charging at home since we were charging at the office; then we started charging an EV at home and learned we got too few panels. | $200/year | | Charge as much as you can at home during the month you use electricity the most to boost your electric bill for the maximum allowed panels you can install. (to future-proof your usage 30 years in the future) |
+| Since we were charging at the office before COVID, we didn't account for EV charging at home. <br/> <br/> During and after COVID, we started charging an EV at home and learned that we installed too few panels. | $200/year | | Charge as much as you can at home during the month you use electricity the most to boost your electric bill for the maximum allowed panels you can install. <br/> (also to future-proof your usage over the next 30-50 years) |
 
 ## Install heat pump before re-roofing
 

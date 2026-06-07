@@ -2,44 +2,53 @@
 
 When we finally got our first single-family house, we were thrilled to be free from HOAs who are against solar, so we wanted to order our panels "yesterday"—but we wish we had known the following before buying:
 
+* [Research more](#research-more)
+* [Submit your highest kWh electric bill to solar installers](#submit-your-highest-kwh-electric-bill-to-solar-installers)
+* [Get Whole home backup](#get-whole-home-backup)
+* [Convert gas appliances to electric first](#convert-gas-appliances-to-electric-first)
+* [Charge EV to know true kWh usage](#charge-ev-to-know-true-kwh-usage)
+* [Install heat pump before re-roofing](#install-heat-pump-before-re-roofing)
+* [Upgrade your main panel to 200 amps](#upgrade-your-main-panel-to-200-amps)
+* [Hire licensed contractors](#hire-licensed-contractors)
+
 ## Research more
 
 | Mistake | Wasted <br/> money | Wasted <br/> days | Solution |
 |---------|:------------------:|:-----------------:|----------|
 | We didn't read this website before getting solar panels ;-) | ~$33k | 1,100 | Really think about [your solar goals](what-we-learned#know-your-goals) |
 
-## Submit your highest kWh electric bill
+## Submit your highest kWh electric bill to solar installers
 
 | Mistake | Wasted <br/> money | Wasted <br/> days | Solution |
 |---------|:------------------:|:-----------------:|----------|
 | We didn't have one year of electric bills before solar installation, so we didn't know our true kWh usage during winter. <br/> <br/> We ended up installing too few panels for our winter usage. | $200 / year | | Use your electric bill with the **highest kWh** usage when applying for the solar permit, and then multiply that kWh number by 12 for "annual usage". |
 
-## Get "Whole home backup"
+## Get Whole home backup
 
 | Mistake | Wasted <br/> money | Wasted <br/> days | Solution |
 |---------|:------------------:|:-----------------:|----------|
 | We agreed to Tesla's original design of "partial home backup" since they said we could use our existing (obsolete) 70-amp main panel from 1964. <br/><br/> You always want a _"whole home backup"_ instead. | 20-30% of electric bills until fixed | 740 | Best to first upgrade your main panel to 200-amp, if it isn't already. <br/><br/> We eventually upgraded to a 200-amp panel and paid a [Licensed Tesla installer](https://www.tesla.com/support/certified-installers) to make our solar system a "whole home backup" |
 
-## Convert gas appliances to electric
+## Convert gas appliances to electric first
 
 | Mistake | Wasted <br/> money | Wasted <br/> days | Solution |
 |---------|:------------------:|:-----------------:|----------|
 | Our Solar Emergency Shut-off box is on the front of our garage instead of the normal side yard _because nothing can be within 36 inches of a gas meter._ | | 740 | After converting all gas appliances to electric, the gas company removed the gas meter and repaved our side yard for free. |
 
-## Charge EV to know kWh usage
+## Charge EV to know true kWh usage
 
 | Mistake | Wasted <br/> money | Wasted <br/> days | Solution |
 |---------|:------------------:|:-----------------:|----------|
 | We didn't account for EV charging at home since we were charging at the office; then we started charging an EV at home and learned we got too few panels. | $200/year | | Charge as much as you can at home during the month you use electricity the most to boost your electric bill for the maximum allowed panels you can install. (to future-proof your usage 30 years in the future) |
 
-## Install heat pump first
+## Install heat pump before re-roofing
 
 | Mistake | Wasted <br/> money | Wasted <br/> days | Solution |
 |---------|:------------------:|:-----------------:|----------|
 | We upgraded our roof _before_ upgrading our furnace. | $22,000 roof + $100/year on partially shaded panels | 3 | Install the heat pump first, then remove unused vents and move any active vents to the shaded side before re-roofing. Moving vents to the shaded side avoids panel installation on the shaded side. |
 | We upgraded to a heat pump two years after solar installation, so now we have too few panels for our winter kWh usage. | $390/year <br/> (for two years) | 1,100 | Install your heat pump one winter before getting solar panels to know your true kWh usage. |
 
-## Upgrade your main panel
+## Upgrade your main panel to 200 amps
 
 | Mistake | Wasted <br/> money | Wasted <br/> days | Solution |
 |---------|:------------------:|:-----------------:|----------|

@@ -4,12 +4,20 @@
 
 ### 36% page reduction from new IA
 
-#### <mark>Nium -- Revamped the information architecture, reduced dev pages by 36%, and made navigation easier</mark>
+#### <mark>FIS Global (Atelio) -- Revamped the information architecture, reduced dev pages by 36%, and made navigation easier</mark>
 
 | Before (May 2024) | After (July 2025) |
 |-------------------|-------------------|
-| PROBLEM: <br/> Short pages were hastily written by engineers who used more pages than needed <br/> <br/> Total of 50 pages| MY SOLUTION: <br/> I revamped and streamlined the information architecture to improve the flow and group related topics. <br/> <br/> Total of 32 pages |
+| PROBLEM: <br/> Short pages were hastily written by engineers who used more pages than needed <br/> <br/> Total of 50 pages| MY SOLUTION: <br/> I revamped and streamlined the information architecture to improve the flow and group related topics. <br/> <br/> [Total of 32 pages](https://guyklages.com/docs/atelio/getting-started/client-config) |
 | ![Before](../../static/img/Nium_ca_50pgs.png) | ![After](../../static/img/Nium_ca_32pgs.png) |
+
+### Revamped 60% of pages
+
+#### <mark> Nium -- Revamped 60% of the pages created by engineers hastily </mark>
+
+| Before (May 2024) | After (July 2025) |
+|-------------------|-------------------|
+| PROBLEM: <br/> Pages were hastily written by engineers just to have "something" documented about their products, such as: [Payins](https://mpdocs.nium.com/payout-payin/pay-in---key-concepts) <br/> [Payouts](https://mpdocs.nium.com/payout-payin/Payout) | SOLUTION: <br/> I revamped and organized the page with many more details and related concepts, for example: <br/> <br/> [Payins](https://docs.nium.com/docs/payins) <br/> [Payouts](https://docs.nium.com/docs/payouts) | ![Before](../../static/img/Nium_Payouts_BEFORE.png) | ![After](../../static/img/Nium_Payouts_AFTER.png) |
 
 ### 2x onboarding; 75% fewer issues
 

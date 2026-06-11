@@ -17,7 +17,8 @@
 
 | Before (May 2024) | After (July 2025) |
 |-------------------|-------------------|
-| PROBLEM: <br/> Pages were hastily written by engineers just to have "something" documented about their products, such as: [Payins](https://mpdocs.nium.com/payout-payin/pay-in---key-concepts) <br/> [Payouts](https://mpdocs.nium.com/payout-payin/Payout) | SOLUTION: <br/> I revamped and organized the page with many more details and related concepts, for example: <br/> <br/> [Payins](https://docs.nium.com/docs/payins) <br/> [Payouts](https://docs.nium.com/docs/payouts) | ![Before](../../static/img/Nium_Payouts_BEFORE.png) | ![After](../../static/img/Nium_Payouts_AFTER.png) |
+| PROBLEM: <br/> Pages were hastily written by engineers just to have "something" documented about their products, such as: <br/> <br/> [Payins](https://mpdocs.nium.com/payout-payin/pay-in---key-concepts) <br/> [Payouts](https://mpdocs.nium.com/payout-payin/Payout) | SOLUTION: <br/> I revamped and organized the page with many more details and related concepts, such as: <br/> <br/> [Payins](https://docs.nium.com/docs/payins) <br/> [Payouts](https://docs.nium.com/docs/payouts) |
+| ![Before](../../static/img/Nium_Payouts_BEFORE.png) | ![After](../../static/img/Nium_Payouts_AFTER.png) |
 
 ### 2x onboarding; 75% fewer issues
 

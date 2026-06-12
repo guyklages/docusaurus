@@ -81,7 +81,7 @@
 
 | Before (Apr 2017) | After (May 2017) |
 |-------------------|------------------|
-| PROBLEM: <br/> Two VPs had opposing priorities for me: <br/> - Engineering VP wanted new v4 features. <br/> - Product VP wanted existing v3 docs improved. <br/> - They kept changing my priorities _daily_. <br/> | MY SOLUTION: <br/> Google Analytics. <br/> <br/> It was clear: <br/> - About 80% of the documention pages were v3 <br/> - Which pages were viewed the most <br/> - which pages were viewed the longest. <br/> So, I knew exactly how to prioritize which pages to improve. |
+| PROBLEM: <br/> Two&nbsp;VPs&nbsp;had&nbsp;opposing&nbsp;priorities&nbsp;for&nbsp;me: <br/> - Engineering VP wanted new v4 features. <br/> - Product VP wanted existing v3 docs improved. <br/> - They kept changing my priorities _daily_. <br/> | MY SOLUTION: <br/> Google Analytics. <br/> <br/> It was clear: <br/> - About 80% of the documention pages were v3 <br/> - Which pages were viewed the most <br/> - which pages were viewed the longest. <br/> So, I knew exactly how to prioritize which pages to improve. |
 | | ![After](../../static/img/Couchbase_Google-Analytics-of-doc-pages.png) | 
 
 ### 50% less time; 50% fewer errors

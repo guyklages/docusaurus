@@ -70,10 +70,19 @@
 
 #### <mark> Couchbase -- Reduced the number of helpdesk tickets by 30% per week </mark>
 
-| Before (Mar 2017) | After (Aug 2017) |
+| Before (May 2017) | After (Aug 2017) |
 |-------------------|------------------|
 | PROBLEM: <br/> Customer&nbsp;Support&nbsp;had&nbsp;200+&nbsp;tickets&nbsp;to&nbsp;get&nbsp;through. <br/> The existing documentation: <br/> - didn't have examples <br/> - didn't explain in-depth enough | MY SOLUTION: <br/> I added: <br/> - many examples with Couchbase's sample database <br/> - more-detailed explanations to many concepts |
 | | Helpdesk said the number of support tickets noticebly reduced by about 30% each week. |
+
+### Ambiguity solved by Goolge Analytics
+
+#### <mark> Couchbase -- How to balance the writing of new features with updating old pages? Google Analytics! </mark>
+
+| Before (Apr 2017) | After (May 2017) |
+|-------------------|------------------|
+| PROBLEM: <br/> - Engineering VP wanted me to focus on writing new v4 features first. <br/> - Product VP want me to focus on improving the existing v3 documention first. <br/> - They kept changing my priorities _daily_. <br/> | MY SOLUTION: <br/> Google Analytics showed exactly which versions of which documentation pages were being viewed and for how long. <br/> <br/> It was clear: <br/> - About 80% of the documention pages were v3 <br/> - Which pages were viewed the most <br/> - which pages were viewed the longest. <br/> So, I knew exactly how to prioritize which pages to improve. |
+| | ![After](../../static/img/Couchbase_Google-Analytics-of-doc-pages.png) | 
 
 ### 50% less time; 50% fewer errors
 

@@ -75,13 +75,13 @@
 | PROBLEM: <br/> Customer&nbsp;Support&nbsp;had&nbsp;200+&nbsp;tickets&nbsp;to&nbsp;get&nbsp;through. <br/> The existing documentation: <br/> - didn't have examples <br/> - didn't explain in-depth enough | MY SOLUTION: <br/> I added: <br/> - many examples with Couchbase's sample database <br/> - more-detailed explanations to many concepts |
 | | Helpdesk said the number of support tickets noticebly reduced by about 30% each week. |
 
-### Ambiguity solved by Goolge Analytics
+### 2 VPs with opposing priorities
 
-#### <mark> Couchbase -- How to balance the writing of new features with updating old pages? Google Analytics! </mark>
+#### <mark> Couchbase -- How to prioritize the writing of new features vs updating old pages? Google Analytics! </mark>
 
 | Before (Apr 2017) | After (May 2017) |
 |-------------------|------------------|
-| PROBLEM: <br/> Two&nbsp;VPs&nbsp;had&nbsp;opposing&nbsp;priorities&nbsp;for&nbsp;me: <br/> - Engineering VP for new v4 features. <br/> - Product VP for improved v3 docs. <br/> - They kept changing my priorities _daily_. <br/> | MY SOLUTION: <br/> Google Analytics. <br/> <br/> It was clear: <br/> - About 80% of the documention pages viewed were v3. <br/> - Which pages were viewed the most often. <br/> - Which pages were viewed the most minutes. <br/> So, I knew exactly how to prioritize which pages to improve. |
+| PROBLEM: <br/> Two&nbsp;VPs&nbsp;had&nbsp;opposing&nbsp;priorities&nbsp;for&nbsp;me: <br/> - Engineering VP for new v4 features. <br/> - Product VP for improved v3 docs. <br/> - Every _day_ they overrode the other. <br/> | MY SOLUTION: <br/> Google Analytics. <br/> <br/> It was clear: <br/> - About 85% of the documention pages viewed were v3. <br/> - Which pages were viewed the most often. <br/> - Which pages were looked at the longest time. <br/> So, I knew exactly how to prioritize which page to improve next. |
 | | ![After](../../static/img/Couchbase_Google-Analytics-of-doc-pages.png) | 
 
 ### 50% less time; 50% fewer errors

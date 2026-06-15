@@ -35,6 +35,12 @@
 | Their website contained a description of the system tables in a way that wasn't easy to read nor scan. | I converted their original layout to a color-coded table while keeping the same text. |
 | ![Before](../../static/img/Couchbase_system-table_BEFORE.png) | ![After](../../static/img/Couchbase_system-table_AFTER.png) |
 
+### A tale of two code blocks
+
+| Before (May 2017) | After (May 2017) |
+|-------------------|------------------|
+| PROBLEM: <br/> The original text on their website was too long and unclear. | MY SOLUTION: <br/> I moved the codeblocks to be side-by-side and highlighted the lines that changed. |
+| ![Before](../../static/img/Couchbase_2-codeblocks_BEFORE.png) | ![After](../../static/img/Couchbase_2-codeblocks_AFTER.png) |
 
 ### Interview challenge
 

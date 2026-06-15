@@ -21,12 +21,20 @@
 
 ## Couchbase 
 
+### Reserved words table
+
+| Before (Apr 2018) | After (May 2018) |
+|-------------------|------------------|
+| Their list of words fit on a single page. | Many features were added and needed a new way to display them. |
+| ![Before](../../static/img/Couchbase_Reserved-words_BEFORE.png) | ![After](../../static/img/Couchbase_Reserved-words_AFTER.png) |
+
 ### Color-coded system table
 
 | Before (Jan 2018) | After (Feb 2018) |
 |-------------------|------------------|
 | Their website contained a description of the system tables in a way that wasn't easy to read nor scan. | I converted their original layout to a color-coded table while keeping the same text. |
 | ![Before](../../static/img/Couchbase_system-table_BEFORE.png) | ![After](../../static/img/Couchbase_system-table_AFTER.png) |
+
 
 ### Interview challenge
 

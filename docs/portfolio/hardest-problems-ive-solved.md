@@ -112,7 +112,7 @@
 | Cost to implement: 1 hour of administrator's time | Was 1 of 5 winners from 1,800+ submissions |
 
 
-## Academic Director
+## Academic Director, ESL Teacher
 
 ### 12,000 happy ESL students in China
 

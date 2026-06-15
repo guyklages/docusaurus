@@ -46,7 +46,7 @@
 
 | Before (May 2017) | After (May 2017) |
 |-------------------|------------------|
-| PROBLEM: <br/> The original text on their website was too long and unclear. | MY SOLUTION: <br/> I moved the codeblocks to be side-by-side and highlighted the lines that changed. |
+| PROBLEM: <br/> The original text on their website required a lot of scrolling up and down, and the changes weren't evident. | MY SOLUTION: <br/> I moved the codeblocks to be side-by-side and highlighted the lines that changed. |
 | ![Before](../../static/img/Couchbase_2-codeblocks_BEFORE.png) | ![After](../../static/img/Couchbase_2-codeblocks_AFTER.png) |
 
 ### Interview challenge

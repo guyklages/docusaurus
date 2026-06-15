@@ -50,11 +50,11 @@
 
 ### #1 department in documention
 
-#### <mark> Google -- The AdWords API department needed to improve the "freshness" (up-to-dateness and accuracy) of their internal documentation pages </mark>
+#### <mark> Google -- The AdWords API department needed to improve the "freshness" of their internal documentation pages </mark>
 
 | Before (May 2018) | After (Nov 2018) |
 |-------------------|------------------|
-| PROBLEM: <br/> 100s of Confluence documentation pages hadn't been updated in years, so many pages had outdated information, pointed to obsolete pages, or pointed to the wrong pages. | MY SOLUTION: <br/> I gathered the latest information, updated pages, combined similar pages, and removed obsolete pages. <br/> <br/> 100% of the AdWords API documentation pages were correct and were modified more recently than any other department within Google. |
+| PROBLEM: <br/> 300+ Confluence documentation pages hadn't been updated in years, so many pages: <br/> had outdated information <br/> pointed to obsolete pages <br/> or pointed to the wrong page | MY SOLUTION: <br/> I gathered the latest information, updated pages, combined similar pages, and archived obsolete pages. <br/> <br/> 100% of the AdWords API documentation pages were correct and were modified more recently than any other department within Google. |
 | | [After](../../static/img/Google_AdWordsAPI_Top-in-DocHealth.png) |
 
 ### 0 help from engineers

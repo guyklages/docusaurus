@@ -6,7 +6,7 @@ I used Git, Markdown, Oxygen, Postman, ReadMe, and VS Code to create documentati
 
 | Company      | Industry       | Developer guides | API reference | Collaborated with | Highlight |
 |--------------|----------------|------------------|---------------|:-----------------:|-----------|
-| Atelio (FIS) | Fintech        | _Site removed._ **[See copy of it](https://docusaurus-delta-self.vercel.app/atelio/getting-started/client-config)** | _Site removed. It's very similar to Nium's API reference_ | 1 editor, <br/> 5 SMEs | [Revamped and reduced the developer pages by 36%](./hardest-problems-ive-solved.md#36-page-reduction-from-new-ia) |
+| Atelio (FIS) | Fintech        | _Site removed._ **[See copy of it](https://guyklages.com/atelio/getting-started/client-config)** | _Site removed. It's very similar to Nium's API reference_ | 1 editor, <br/> 5 SMEs | [Revamped and reduced the developer pages by 36%](./hardest-problems-ive-solved.md#36-page-reduction-from-new-ia) |
 | Nium         | Fintech        | **[Getting Started](https://docs.nium.com/docs/getting-started)** | **[Introduction](https://docs.nium.com/api#description/introduction)** | 1 editor, <br/> 6 SMEs | [Doubled onboarding of clients with 75% fewer issues](./hardest-problems-ive-solved.md#2x-onboarding-75-fewer-issues) |
 | Couchbase    | NoSQL database | **[SQL++&nbsp;Reference](https://docs.couchbase.com/server/current/n1ql/n1ql-language-reference/index.html)** |  | 1 editor, <br/> 9 SMEs | [Reduced their writing process by 80%](./hardest-problems-ive-solved.md#80-time-saved-on-writing-process) |
 

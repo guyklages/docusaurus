@@ -35,6 +35,13 @@
 | Their website contained a description of the system tables in a way that wasn't easy to read nor scan. | I converted their original layout to a color-coded table while keeping the same text. |
 | ![Before](../../static/img/Couchbase_system-table_BEFORE.png) | ![After](../../static/img/Couchbase_system-table_AFTER.png) |
 
+### MNQ settings
+
+| Before (Aug 2017) | After (Aug 2017) |
+|-------------------|------------------|
+| PROBLEM: <br/> The original text on their website was crowded and hard-to-read. | MY SOLUTION: <br/> I moved the text into a table. |
+| ![Before](../../static/img/Couchbase_MNQ-settings_BEFORE.png) | ![After](../../static/img/Couchbase_MNQ-settings_AFTER.png) |
+
 ### A tale of two code blocks
 
 | Before (May 2017) | After (May 2017) |

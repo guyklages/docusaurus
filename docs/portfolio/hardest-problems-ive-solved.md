@@ -48,6 +48,15 @@
 | PROBLEM: <br/> Too&nbsp;many&nbsp;obsolete&nbsp;and&nbsp;disorganized&nbsp;document&nbsp;pages. <br/> - Going to have an audit on all documentation pages. <br/> - Most in Confluence, needing to be in Markdown. <br/> - Many pages were obsolete but not clear which ones. <br/> - Many pages were not in easily discoverable places. <br/> - Many related pages/topics could be combined. <br/> - Moving forward, how to prevent "stale" pages? | MY SOLUTION: <br/> Implement reminders to review unmodified pages of a specified number of days. <br/> - I reviewed pages with SMEs <br/> - Archived obsolete pages <br/> - Merged similar pages <br/> - Organized pages by product <br/> - Migrated them to Markdown in Yahoo's GitHub <br/> - I suggested a system of tags on every page: <br/> &nbsp;&nbsp;&nbsp;&nbsp;-`Owner`, `LastModified`, `DaysTillStale` <br/> - A daily script looks for pages that haven't been edited in that page's time limit and sends an email to the owner (or owner's manager) of that page to review it. |
 | | - Total number of pages reduced by 40%. <br/> - Automated a timely reminder to page owners. |
 
+### #1 department in documention
+
+#### <mark> Google -- The AdWords API department needed to improve the "freshness" (up-to-dateness and accuracy) of their internal documentation pages </mark>
+
+| Before (May 2018) | After (Nov 2018) |
+|-------------------|------------------|
+| PROBLEM: <br/> 100s of Confluence documentation pages hadn't been updated in years, so many pages had outdated information, pointed to obsolete pages, or pointed to the wrong pages. | MY SOLUTION: <br/> I gathered the latest information, updated pages, combined similar pages, and removed obsolete pages. <br/> <br/> 100% of the AdWords API documentation pages were correct and were modified more recently than any other department within Google. |
+| | [After](../../static/img/Google_AdWordsAPI_Top-in-DocHealth.png) |
+
 ### 0 help from engineers
 
 #### <mark> Couchbase -- Needed to install a pre-QA version to document it while no engineer was available to help </mark>

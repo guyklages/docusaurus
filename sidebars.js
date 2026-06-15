@@ -3,7 +3,7 @@ const sidebars = {
     {
         type: 'doc',
         id: 'portfolio/index',
-        label: 'Overview',
+        label: 'Guides and API reference',
     },
     {
         type: 'doc',
@@ -24,6 +24,10 @@ const sidebars = {
         type: 'doc',
         id: 'portfolio/diagrams',
         label: 'Diagrams and illustrations',
+    },
+    {
+        type: 'doc',
+        id: 'portfolio/training',
     },
   ],
   sidebarAtelioGuides: [

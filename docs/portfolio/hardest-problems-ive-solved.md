@@ -54,8 +54,8 @@
 
 | Before (May 2018) | After (Nov 2018) |
 |-------------------|------------------|
-| PROBLEM: <br/> 300+ Confluence documentation pages hadn't been updated in years, so many pages: <br/> had outdated information <br/> pointed to obsolete pages <br/> or pointed to the wrong page | MY SOLUTION: <br/> I gathered the latest information, updated pages, combined similar pages, and archived obsolete pages. <br/> <br/> 100% of the AdWords API documentation pages were correct and were modified more recently than any other department within Google. |
-| | [After](../../static/img/Google_AdWordsAPI_Top-in-DocHealth.png) |
+| PROBLEM: <br/> 300+ Confluence documentation pages hadn't been updated in years, so many pages: <br/> - had outdated information <br/> - pointed to obsolete pages <br/> - or pointed to the wrong page | MY SOLUTION: <br/> I gathered the latest information, updated pages, combined similar pages, and archived obsolete pages. <br/> <br/> 100% of the AdWords API documentation pages were correct and were modified more recently than any other department within Google. |
+| | ![After](../../static/img/Google_AdWordsAPI_Top-in-DocHealth.png) |
 
 ### 0 help from engineers
 

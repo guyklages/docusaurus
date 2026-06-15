@@ -31,7 +31,7 @@ But after installing solar panels and learning more, our desires and goals _chan
 
 And then some truths became apparent:
 
-- Winter sun is so low and cloudy and generates [about one-third of summer sun](#install-as-much-as-you-can)...
+- Winter sun is so low and cloudy and generates [about one-third of summer sun](#install-as-much-as-you-can-afford)...
 - We need a 2nd battery to run the clothes dryer (or multiple appliances) without drawing from the grid...
     - **Note:** This is no longer a problem with a single Powerwall3 battery
 - We need four more solar panels ($600) to generate more power to avoid drawing from the grid during winter...
@@ -49,7 +49,7 @@ Other things to consider:
 - Batteries seem expensive but are totaaly worth it--and are necessary for evenings, cloudy days, and outtages.
 - 10-year financing is probably the most affordable method (we paid $260/mo) since there's no penalty on extra payments.
 
-## Install as much as you can
+## Install as much as you can afford
 
 Solar generation fluctuates throughout the year, so summer months generate about 2.5x as much energy as winter months.
 

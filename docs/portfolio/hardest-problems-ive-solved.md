@@ -57,7 +57,7 @@
 | PROBLEM: <br/> Need&nbsp;to&nbsp;document&nbsp;features&nbsp;before&nbsp;testing&nbsp;is&nbsp;done. <br/> - Couchbase Server v6.0 was still being coded. <br/> - Less than half of v6.0 had completed QA testing. <br/> - Documentation was needed for an event. <br/> - There wasn't an installed instance I could use. | MY SOLUTION: <br/> Install the Alpha version to use it and document it. <br/> <br/> _(it was like installing Linux in 1996 before Google)_ <br/> <br/> 1.  Find an unused server I could reformat. <br/> 2.  Download and install Ubuntu 18.0. <br/> 3.  Find, download, and install dependency files. <br/> 4.  Find, download, and compile CB v6.0 source code. <br/> 5.  Run Couchbase Server and create queries that use the new ANSI indexing and other new features. |
 | | I was able to document pre-QA features in time for an event without help from the software developers. |
 
-### 80% time saved on new process
+### 80% time saved on writing process
 
 #### <mark> Couchbase -- Reduced the writing process of a new feature from 4-6 weeks to 4-5 days </mark>
 
@@ -75,7 +75,7 @@
 | PROBLEM: <br/> Customer&nbsp;Support&nbsp;had&nbsp;200+&nbsp;tickets&nbsp;to&nbsp;get&nbsp;through. <br/> The existing documentation: <br/> - didn't have examples <br/> - didn't explain in-depth enough | MY SOLUTION: <br/> I added: <br/> - many examples with Couchbase's sample database <br/> - more-detailed explanations to many concepts |
 | | Helpdesk said the number of support tickets noticebly reduced by about 30% each week. |
 
-### 2 VPs with opposing priorities
+### 2 VPs with opposite priorities
 
 #### <mark> Couchbase -- How to prioritize the writing of new features vs updating old pages? Google Analytics! </mark>
 

@@ -53,7 +53,7 @@
 
 ### ADP
 
-Diagram of the Comprehensive Outsourcing Services tax inquiry process
+Diagram of the Comprehensive Outsourcing Services (COS) tax inquiry process
 
 ![ADP](../../static/img/ADP_COS-NSC-Tax-inquiry-process-diagram.png)
 

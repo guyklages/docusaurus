@@ -20,6 +20,11 @@ const sidebars = {
         id: 'portfolio/hardest-problems-ive-solved',
         label: 'Hardest problems I\u0027ve solved',
     },
+    {
+        type: 'doc',
+        id: 'portfolio/diagrams',
+        label: 'Diagrams and illustrations',
+    },
   ],
   sidebarAtelioGuides: [
     {

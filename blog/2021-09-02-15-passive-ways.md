@@ -87,7 +87,9 @@ Replace the long default URL with a personalized one such as `linkedin.com/in/my
 
 ## Add "Honors & Awards"
 
-Add the "Honors & Awards" section to your profile. Summarize (re-list) the accomplishments you've achieved in your school/career in single-line bullet points (with the company name in parenthesis).
+- Add the "Honors & Awards" section to your profile.
+- Summarize (re-list) the accomplishments you've achieved in your school/career in single-line bullet points.
+- (add the company name in parenthesis)
 
 ## Add all education info
 
@@ -97,7 +99,9 @@ Add the "Honors & Awards" section to your profile. Summarize (re-list) the accom
 
 ## Add all "Languages"
 
-Add the "Languges" section to your profile and list all those you speak or have studied along with your level of fluency in each--including your native language--so you appear more international and social.
+- Add the "Languges" section to your profile and list all those you speak or have studied.
+- Add your level of fluency in each--including your native language
+- This makes you appear more international and social.
 
 ## Add all "Certifications"
 
@@ -125,7 +129,7 @@ Many people forget this section at the top, but it's a great place to:
 - Add your professional email address. If you don't have one, open a new email address that is close to your full name.
 
 
-<mark> IMPORTANT NOTE: <br/> Open a free Google Voice account at [voice.google.com](https://voice.google.com) to have a U.S. phone number that will convert your voicemail into email or text message to notify you when you're traveling abroad or are in a place without reception so you never miss a voicemail. <br/> Eventually, many recruiters or hiring managers will be calling you when you don't want their calls, so you'll want a way to "turn it off". The easiest way is to put a Google Voice number on your resume that forwards to your cell when you're job-hunting or goes straight to voicemail when you're not job-hunting. </mark>
+<mark> IMPORTANT NOTE: <br/> Open a free Google Voice account at [voice.google.com](https://voice.google.com) to have a U.S. phone number that will convert your voicemail into email or text message to notify you when you're traveling abroad or are in a place without reception so you never miss a voicemail. <br/> <br/> Eventually, many recruiters or hiring managers will be calling you when you don't want their calls, so you'll want a way to "turn it off". The easiest way is to put a Google Voice number on your resume that forwards to your cell when you're job-hunting or goes straight to voicemail when you're not job-hunting. </mark>
 
 
 ## Add more "Groups"
@@ -157,7 +161,7 @@ By default, the Skills are listed in descending order (most to least endorsed), 
 
 To your publications, personal website(s), blogs, patents, etc.
 
-..._after_ you've done all those steps...
+<br/> ... _after_ you've done all those steps ... <br/>
 
 ## Add everyone you know
 

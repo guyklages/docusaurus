@@ -6,13 +6,13 @@
 
 | Description | Example |
 |-------------|---------|
-| **Edutainme (2015-2017) Bay Area <br/> <br/> Audience** <br/> Technical writers <br/> <br/> **Deliverables** <br/> Curriculum and hands-on classes <br/> <br/> **Tools** <br/> Swagger and PowerPoint | <iframe src="https://docs.google.com/document/d/e/2PACX-1vSAFyqq2XqEuMWBQQDIl7dz2IlCzPeXTt-mDgf4ZekmjRsb_qXKvNpYons8GWn085jl6WMw4Yfvrw-X/pub?embedded=true" width="500" height="400"></iframe>|
+| **Edutainme (2015-2017) Bay Area <br/> <br/> Audience** <br/> Technical writers <br/> <br/> **Deliverables** <br/> Curriculum and hands-on classes using an address book example <br/> <br/> **Tools** <br/> Swagger and PowerPoint | <iframe src="https://docs.google.com/document/d/e/2PACX-1vSAFyqq2XqEuMWBQQDIl7dz2IlCzPeXTt-mDgf4ZekmjRsb_qXKvNpYons8GWn085jl6WMw4Yfvrw-X/pub?embedded=true" width="500" height="400"></iframe>|
 
 ### Anti-counterfeiting labeling
 
 | Description | Example |
 |-------------|---------|
-| **OpSec Security (2013) Boston <br/> <br/> Audience** OpSec Employees <br/> <br/> **Deliverables** <br/> Training videos that demonstrate and explain how their anti-counterfeiting labels are made <br/> <br/> **Tools** <br/> Adobe Captivate and Camtasia | |
+| **OpSec Security (2013) Boston <br/> <br/> Audience** OpSec Employees <br/> <br/> **Deliverables** <br/> Training videos with voiceover explanations that demonstrate how their anti-counterfeiting labels are made <br/> <br/> **Method** <br/> Documented and storyboarded the use of their in-house anti-counterfeiting system <br/> <br/> **Tools** <br/> Adobe Captivate and Camtasia | |
 
 ### Excel 
 

@@ -16,7 +16,7 @@ To make the following guides, I used Microsoft Word or Adobe FrameMaker to creat
 
 | Company    | Industry            | Guide | Collaborated with |
 |------------|---------------------|-------|-------------------|
-| Couchbase  | NoSQL database      | <a href="/files/Couchbase_Differences-between-server-versions.pdf" target="_blank" rel=noopener noreferrer">Differences between server versions</a> | 1 editor, 3 SMEs |
+| Couchbase  | NoSQL database      | <a href="/files/Couchbase_Differences-between-server-versions.pdf" target="_blank" rel="noopener noreferrer">Differences between server versions</a> | 1 editor, 3 SMEs |
 | NICE       | Enterprise software | <a href="/files/NICE_Performance-Management_architecture-and-system-overview-2014.pdf" target="_blank" rel="noopener noreferrer">Performance Management architecture and system overview</a> <br/> <a href="/files/NICE_Writers-style-guide-2014.pdf" target="_blank" rel="noopener noreferrer">Writers style guide</a> | 1 editor, 3 SMEs |
 | VMware     | Virtualization software | <a href="/files/VMware_App-Volumes-user-guide-2016.pdf" target="_blank" rel="noopener noreferrer">App Volumes User Guide</a> <br/> <a href="/files/VMware_UEM_admin-guide-2016.pdf" target="_blank" rel="noopener noreferrer">UEM Administration Guide</a> | 1 editor, 3 SMEs |
 | Hitachi    | Enterprise software | <a href="/files/Hitachi_Cloud-Enterprise_Deployment-guide-2015.pdf" target="_blank" rel="noopener noreferrer">Cloud Enterprise Deployment Guide</a> | 1 editor, 4 SMEs |

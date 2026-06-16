@@ -1,7 +1,7 @@
 ---
 slug: 15-passive-ways
-title: 15 passive ways
-authors: [slorber, yangshun]
+title: 15 passive ways to make employers find you on LinkedIn
+authors: [guyklages]
 tags: [linkedin, job-hunting, portfolio]
 ---
 
@@ -167,11 +167,7 @@ Buy a domain with your name in it (prices have come way down!) and use PrestaSho
 
 
 
-<mark>IMPORTANT NOTE:</mark>
-
-<mark>Open a free Google Voice account at [voice.google.com] to have a U.S. phone number that will convert your voicemail into email or text message to notify you when you're traveling abroad or are in a place without reception so you never miss a voicemail.</mark>
-
-<mark>Eventually, many recruiters or hiring managers will be calling you when you don't want their calls, so you'll want a way to "turn it off". The easiest way is to put a Google Voice number on your resume that forwards to your cell when you're job-hunting or goes straight to voicemail when you're not job-hunting. </mark>
+<mark> IMPORTANT NOTE: <br/> Open a free Google Voice account at [voice.google.com] to have a U.S. phone number that will convert your voicemail into email or text message to notify you when you're traveling abroad or are in a place without reception so you never miss a voicemail. <br/> Eventually, many recruiters or hiring managers will be calling you when you don't want their calls, so you'll want a way to "turn it off". The easiest way is to put a Google Voice number on your resume that forwards to your cell when you're job-hunting or goes straight to voicemail when you're not job-hunting. </mark>
 
 
 

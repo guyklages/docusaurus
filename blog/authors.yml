@@ -1,3 +1,13 @@
+guyklages:
+  name: Guy Klages
+  title: Ex-Meta Technical Writer, Co-founder FindFit
+  url: https://linkedin.com/in/klages
+  image_url: https://github.com/7157817.png
+  page: true
+  socials:
+    linkedin: klages
+    github: guyklages
+
 yangshun:
   name: Yangshun Tay
   title: Ex-Meta Staff Engineer, Co-founder GreatFrontEnd

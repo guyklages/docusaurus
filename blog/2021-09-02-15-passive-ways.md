@@ -51,7 +51,7 @@ To prevent anyone from receiving emails when you make any edits to your LinkedIn
 5. Deselect the checkbox.
 
 
-## Add all forms of your name
+## Add all of your names
 
 If you speak another language, adding the 漢字, हिंदी, etc. versions of your name will make you appear more international and found by your other name. 
 
@@ -101,9 +101,9 @@ Add the "Languges" section to your profile and list all those you speak or have 
 
 ## Add all "Certifications"
 
-That is, if you have earned any certificates or completed any trainings, add the "Certifications" section along with all of your certifications.
+If you have earned any certificates or completed any trainings, add the "Certifications" section along with all of your certifications.
 
-## Add many samples of your work
+## Add all your work samples
 
 Pictures are worth a thousand words, and employers/recruiters want to _see_ what you have actually made and are capable of!
 
@@ -125,7 +125,7 @@ Many people forget this section at the top, but it's a great place to:
 - Add your professional email address. If you don't have one, open a new email address that is close to your full name.
 
 
-<mark> IMPORTANT NOTE: <br/> Open a free Google Voice account at [voice.google.com] to have a U.S. phone number that will convert your voicemail into email or text message to notify you when you're traveling abroad or are in a place without reception so you never miss a voicemail. <br/> Eventually, many recruiters or hiring managers will be calling you when you don't want their calls, so you'll want a way to "turn it off". The easiest way is to put a Google Voice number on your resume that forwards to your cell when you're job-hunting or goes straight to voicemail when you're not job-hunting. </mark>
+<mark> IMPORTANT NOTE: <br/> Open a free Google Voice account at [voice.google.com](https://voice.google.com) to have a U.S. phone number that will convert your voicemail into email or text message to notify you when you're traveling abroad or are in a place without reception so you never miss a voicemail. <br/> Eventually, many recruiters or hiring managers will be calling you when you don't want their calls, so you'll want a way to "turn it off". The easiest way is to put a Google Voice number on your resume that forwards to your cell when you're job-hunting or goes straight to voicemail when you're not job-hunting. </mark>
 
 
 ## Add more "Groups"
@@ -142,9 +142,9 @@ Sports/hobbies/forums that you like to play/watch/discuss should each be listed 
 
 One man I met at a Seattle Translation event noticed I played badminton in college and lived in Taipei, so he asked if I knew a person he played badminton with in Taipei who went to my college--and that person was a classmate of mine!
 
-## List your strongest Skills for endorsements
+## List your strongest Skills
 
-So people in your network can simply click the "+" button to endorse your skills. This is more meaningful (and believable) than self-claimed skills on a resume.
+In the "Skills" section, add every skill you have so your connections can simply click the "+" button to endorse your skills. This is more meaningful (and believable) than self-claimed skills on a resume.
 
 By default, the Skills are listed in descending order (most to least endorsed), but you can change that order to emphasize certain skills: 
 
@@ -178,9 +178,9 @@ Even if certain friends aren't on LinkedIn now, check again after a few months s
 
 Adding people you know is great, but it's their friends they trust that makes LinkedIn such a powerful tool. Whether you're looking for a dentist, a programmer, a teacher, an accountant, a new client or a job--when you search LinkedIn for people, your friends' friends will appear at the top of the search results; so the more connections you have, the more trustworthy search results you'll have.
 
-## Send LinkedIn Invite Requests
+## Send Invite Requests
 
-When sending an Invite Request, never use the default generic message. Be sure to include a personal message with:
+When sending a LinkedIn Invite Request, never use the default generic message. Be sure to include a personal message with:
 
 - How you know them.
 - Anything you have in common.

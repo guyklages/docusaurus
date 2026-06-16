@@ -40,9 +40,9 @@ This is a long article that details how to make the above third step a reality, 
 
 
 
-## 0) Turn off Activity Broadcasts
+## Turn off Activity Broadcasts
 
-To prevent anyone from receiving emails when you make any edits to your profile:
+To prevent anyone from receiving emails when you make any edits to your LinkedIn profile:
 
 1. Hover over your photo/name in the upper right.
 2. Click **Privacy & Settings**.
@@ -51,18 +51,11 @@ To prevent anyone from receiving emails when you make any edits to your profile:
 5. Deselect the checkbox.
 
 
-
-
-
-## 1) Add all forms of your name
+## Add all forms of your name
 
 If you speak another language, adding the 漢字, हिंदी, etc. versions of your name will make you appear more international and found by your other name. 
 
-
-
-
-
-## 2) Add your close-up, smiling, color photo
+## Add your close-up, smiling, color photo
 
 To show you're warm, open, honest, and businesslike (in a nice shirt), add a high-resolution, passport-like photo. 
 
@@ -70,11 +63,7 @@ If you're shy, find someone to make a realistic sketch of you.
 
 People/Colleges/Companies want to choose a human, not a hyperlink.
 
-
-
-
-
-## 3) Personalize your URL
+## Personalize your URL
 
 Replace the long default URL with a personalized one such as `linkedin.com/in/myname` (the shorter, the better) so it can be used on your resume, business cards, website, any posters or marketing materials--and most importantly, verbally. 
 
@@ -83,65 +72,38 @@ Replace the long default URL with a personalized one such as `linkedin.com/in/my
 3. To the right of the URL, click the gear icon.
 4. In the upper right (Your Public Profile URL), click the blue pen icon. 
 
-
-
-## 4) Add all experience info
+## Add all experience info
 
 - All companies, volunteering, part-time jobs, etc. 
 - Their cities, your job duties, your accomplishments, and value you added.
 - Single-line bullet list since bullets are easier to read than paragraphs.
 - For overseas jobs, use the company's name in English and its native language.
 
+## Never add an experience of "LOOKING"
 
+- "Looking" is not a company.
+- Companies want to hire someone working, not idle or unemployed.
+- Appear employed: volunteer, teach, mentor, study, advise, or help others in any way—these are also a great way to network and meet a future employer or coworker!
 
+## Add "Honors & Awards"
 
+Add the "Honors & Awards" section to your profile. Summarize (re-list) the accomplishments you've achieved in your school/career in single-line bullet points (with the company name in parenthesis).
 
-## 4b) Never add an experience of "LOOKING"
-
-1. "Looking" is not a company.
-2. Companies want to hire someone working, not idle or unemployed.
-3. Appear employed: volunteer, teach, mentor, study, advise, or help others in any way—these are also a great way to network and meet a future employer or coworker!
-
-
-
-
-
-## 5) Add the "Honors & Awards" section
-
-Summarize (re-list) the accomplishments you've achieved in your school/career in single-line bullet points (with the company name in parenthesis).
-
-
-
-
-
-## 6) Add all education info
+## Add all education info
 
 - All schools back to high school with their degree--and don't forget their city. 
 - For overseas schools, include the institution's name in English and its native language.
 - Years are not needed.
 
+## Add all "Languages"
 
+Add the "Languges" section to your profile and list all those you speak or have studied along with your level of fluency in each--including your native language--so you appear more international and social.
 
+## Add all "Certifications"
 
+That is, if you have earned any certificates or completed any trainings, add the "Certifications" section along with all of your certifications.
 
-
-## 7) Add the "Languages" section
-
-List all those you speak or studied and your level of fluency in each--including your native language--so you appear more international and social.
-
-
-
-
-
-## 8) Add the "Certifications" section
-
-That is, if you have earned any certificates or completed any trainings, add the "Certifications" section.
-
-
-
-
-
-## 9) Add many samples of your work
+## Add many samples of your work
 
 Pictures are worth a thousand words, and employers/recruiters want to _see_ what you have actually made and are capable of!
 
@@ -153,12 +115,9 @@ Buy a domain with your name in it (prices have come way down!) and use PrestaSho
 - If possible, add Before-and-After screenshots of things you've improved.
 - Demos, presentations, statistics, graphs, etc. of your work and skills
 
- 
+ ## Add a Summary
 
-
-
-## 10) Add a summary
-
+Many people forget this section at the top, but it's a great place to:
 - Add a brief paragraph of your skills, career, goals, etc. to show your personality.
 - Add your email address and phone number so non-contacts can reach you.
 - Add your resume in PDF format.
@@ -166,14 +125,10 @@ Buy a domain with your name in it (prices have come way down!) and use PrestaSho
 - Add your professional email address. If you don't have one, open a new email address that is close to your full name.
 
 
-
 <mark> IMPORTANT NOTE: <br/> Open a free Google Voice account at [voice.google.com] to have a U.S. phone number that will convert your voicemail into email or text message to notify you when you're traveling abroad or are in a place without reception so you never miss a voicemail. <br/> Eventually, many recruiters or hiring managers will be calling you when you don't want their calls, so you'll want a way to "turn it off". The easiest way is to put a Google Voice number on your resume that forwards to your cell when you're job-hunting or goes straight to voicemail when you're not job-hunting. </mark>
 
 
-
-
-
-## 11) Add more "Groups" that interest you
+## Add more "Groups"
 
 Add Groups to:
 - meet more people of a certain crowd/industry/company/etc.
@@ -181,21 +136,13 @@ Add Groups to:
 
 Keep adding more Groups until you reach LinkedIn's maximum of 50.
 
-
-
-
-
-## 12) Add more "Interests"
+## Add more "Interests"
 
 Sports/hobbies/forums that you like to play/watch/discuss should each be listed and separated by a comma. These are things you might have in common with contacts, and they make great conversation starters. 
 
 One man I met at a Seattle Translation event noticed I played badminton in college and lived in Taipei, so he asked if I knew a person he played badminton with in Taipei who went to my college--and that person was a classmate of mine!
 
-
-
-
-
-## 13) List your strongest Skills for endorsements
+## List your strongest Skills for endorsements
 
 So people in your network can simply click the "+" button to endorse your skills. This is more meaningful (and believable) than self-claimed skills on a resume.
 
@@ -206,28 +153,13 @@ By default, the Skills are listed in descending order (most to least endorsed), 
 3. Click a Skill and drag it to the position you want it displayed.
 
 
-
-
-
-## 14) Add links
+## Add links
 
 To your publications, personal website(s), blogs, patents, etc.
 
-
-
-
-
-
-
 ..._after_ you've done all those steps...
 
-
-
-
-
-
-
-## 15) Add everyone you know
+## Add everyone you know
 
 Add everyone you've talked with from every:
 - school
@@ -238,24 +170,15 @@ Add everyone you've talked with from every:
 
 The more connections you have, the more you will appear social and a team player.
 
-
-
 When building a network, you want as many people as you know/trust; and when adding them, they'll appreciate you listing what you've been doing and what you're interested in now.  
-
-
 
 High school might seem long ago, but we've all had some great friendships back then that we lost touch with and can now easily find. Even the "jerks" in high school are not the same people now--especially if they're parents now--and they're eager to reconnect.  
 
-
-
 Even if certain friends aren't on LinkedIn now, check again after a few months since more and more people are joining all the time. 
-
-
 
 Adding people you know is great, but it's their friends they trust that makes LinkedIn such a powerful tool. Whether you're looking for a dentist, a programmer, a teacher, an accountant, a new client or a job--when you search LinkedIn for people, your friends' friends will appear at the top of the search results; so the more connections you have, the more trustworthy search results you'll have.
 
-
-## 15b) Sending LinkedIn Invite Requests
+## Send LinkedIn Invite Requests
 
 When sending an Invite Request, never use the default generic message. Be sure to include a personal message with:
 
@@ -264,9 +187,6 @@ When sending an Invite Request, never use the default generic message. Be sure t
 - An offer to help them in whatever you're strong in.
 
 
-
-
-
-In summary, see my profile at [www.linkedin.com/in/klages] as an example (feel free to connect with me), and message me if you have any questions.
+In summary, see my profile at [www.linkedin.com/in/klages](https://www.linkedin.com/in/klages) as an example (feel free to connect with me), and message me if you have any questions.
 
 After setting up your profile with these passive ways, then check out the 13 active ways to make recruiters and clients find you.

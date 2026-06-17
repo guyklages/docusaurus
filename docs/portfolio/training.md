@@ -14,7 +14,7 @@
 |-------------|---------|
 | **OpSec Security (2013) Boston <br/> <br/> Audience** <br/> OpSec Employees <br/> <br/> **Deliverables** <br/> Internal training videos with voiceover explanations that demonstrate the complex process of how their anti-counterfeiting labels are made <br/> <br/> **Method** <br/> Documented and storyboarded the use of their in-house anti-counterfeiting system <br/> <br/> **Tools** <br/> Adobe Captivate and Camtasia | ![Label](../../static/img/OpSec_Holographic-anti-counterfeiting-label.png) |
 
-### VA Medical Center
+### eDC for clinical trials
 
 | Description | Example |
 |-------------|---------|

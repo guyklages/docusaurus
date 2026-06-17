@@ -14,6 +14,12 @@
 |-------------|---------|
 | **OpSec Security (2013) Boston <br/> <br/> Audience** <br/> OpSec Employees <br/> <br/> **Deliverables** <br/> Internal training videos with voiceover explanations that demonstrate the complex process of how their anti-counterfeiting labels are made <br/> <br/> **Method** <br/> Documented and storyboarded the use of their in-house anti-counterfeiting system <br/> <br/> **Tools** <br/> Adobe Captivate and Camtasia | ![Label](../../static/img/OpSec_Holographic-anti-counterfeiting-label.png) |
 
+### VA Medical Center
+
+| Description | Example |
+|-------------|---------|
+| **VA Medical Center (2011-2013) Boston <br/> <br/> Audience** <br/> Clinical trial PMs <br/> <br/> **Deliverables** <br/> Technical documents and class materials for their in-house clinical trial software <br/> <br/> **Method** <br/> Provided Instructor Led Training (ILT) and Virtual Classroom Training (VCT) on their eDC software. <br/> <br/> **Tools** <br/> MS Word, Excel, Visio, Powerpoint, Access, SQL Server, Captivate | |
+
 ### Excel 
 
 | Description | Example |

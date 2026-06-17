@@ -5,6 +5,8 @@ authors: [guyklages]
 tags: [Seattle, doughnut, dessert, local celebrity]
 ---
 
+![Donut](../static/img/Blog_The-healthy-doughnut_Countryside-Donut.png)
+
 # The healthy doughnut
 
 Those of us who succumb to the occasional urge for these nutritional hand-grenades, there is a glimmer of hope. Nestled in a small strip mall on 220th and 66th Ave. in Edmonds is the best doughnut shop around—possibly on the west coast—and their scant use of oil and sugar make these delicious treats almost healthy.

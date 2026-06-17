@@ -1,5 +1,14 @@
 # Training and instructional design
 
+## Overview
+
+| Company           | Topic               | City     | Year           |
+|-------------------|---------------------|----------|----------------|
+| Edutainme         | software            | Bay Area | 2014 - present |
+| OpSec Security    | labeling            | Boston   | 2013 - 2013    |
+| VA Medical Center | eDC clinical trials | Boston   | 2011 - 2013    |
+
+
 ## Software
 
 ### Swagger 

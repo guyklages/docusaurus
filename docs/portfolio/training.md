@@ -12,6 +12,29 @@
 | Learning Technologies | [Excel](#excel)                                           | Shanghai | 2003 - 2008    |
 
 
+## Tools used
+
+### By company
+
+| Company        | Tools |
+|----------------|-------|
+| Adobe          | Acrobat, Distiller, Captivate 3, FrameMaker, RoboHelp |
+| Articulate 360 | Presenter, Engage, Quizmaker |
+| Corel          | Draw, PaintShop Pro |
+| ELB Learning   | Lectora authoring   |
+| Hyperion       | HyperCam, HyperSnap |
+| Microsoft      | Word, Excel, PowerPoint, SharePoint, Visio, Access, Teams |
+| TechSmith      | Camtasia, Snag-it   |
+
+### By function
+
+| Function             | Tools |
+|----------------------|-------|
+| Platforms (LMS, CMS) | Blackboard, Moodle, Author-It, Academy (WordPress plugin) |
+| Survey               | SurveyMonkey |
+| Video                | Zoomerang    |
+
+
 ## Swagger 
 
 | Description | Example |

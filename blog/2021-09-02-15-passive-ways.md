@@ -130,10 +130,6 @@ Many people forget this section at the top, but it's a great place to:
 - Add as your favorite work samples. Each job should also list work samples you did at that job, but copy your favorites to the Summary section to show them off.
 - Add your professional email address. If you don't have one, open a new email address that is close to your full name.
 
-
-<mark> IMPORTANT NOTE: <br/> Open a free Google Voice account at [voice.google.com](https://voice.google.com): <br/> - to have a U.S. phone number that will convert voicemail into text message <br/> - to notify you when you're traveling abroad or are in a place without reception <br/> - to block spam callers <br/> <br/> Eventually, many recruiters or hiring managers will be calling you when you don't want to be disturned, and Google Voice makes it easy to "turn off" all calls by sending them straight to voicemail. Having a Google Voice number on your resume that forwards to your cell only when you're job-hunting is very convenient. </mark>
-
-
 ## Add more "Groups"
 
 Add Groups to:
@@ -192,6 +188,17 @@ When sending a LinkedIn Invite Request, never use the default generic message. B
 - Anything you have in common.
 - An offer to help them in whatever you're strong in.
 
+## Get Google Voice
+
+Open a free Google Voice account at [voice.google.com](https://voice.google.com):
+
+- to have a phone number that converts voicemail into text messages
+- to notify you when you're traveling abroad or are in a place without reception
+- to block spam callers
+
+Eventually, many recruiters or hiring managers will be calling you when you don't want to be disturned, and Google Voice makes it easy to "turn off" all calls by sending them straight to voicemail. Having a Google Voice number on your resume that forwards to your cell only when you're job hunting will reduce your stress greatly.
+
+----
 
 In summary, see my profile at [www.linkedin.com/in/klages](https://www.linkedin.com/in/klages) as an example (feel free to connect with me), and message me if you have any questions.
 

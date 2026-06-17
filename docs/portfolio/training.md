@@ -12,7 +12,7 @@
 
 | Description | Example |
 |-------------|---------|
-| **OpSec Security (2013) Boston <br/> <br/> Audience** OpSec Employees <br/> <br/> **Deliverables** <br/> Training videos with voiceover explanations that demonstrate how their anti-counterfeiting labels are made <br/> <br/> **Method** <br/> Documented and storyboarded the use of their in-house anti-counterfeiting system <br/> <br/> **Tools** <br/> Adobe Captivate and Camtasia | |
+| **OpSec Security (2013) Boston <br/> <br/> Audience** <br/> OpSec Employees <br/> <br/> **Deliverables** <br/> Training videos with voiceover explanations that demonstrate how their anti-counterfeiting labels are made <br/> <br/> **Method** <br/> Documented and storyboarded the use of their in-house anti-counterfeiting system <br/> <br/> **Tools** <br/> Adobe Captivate and Camtasia | ![Label](../../static/img/OpSec_Holographic-anti-counterfeiting-label.png) |
 
 ### Excel 
 

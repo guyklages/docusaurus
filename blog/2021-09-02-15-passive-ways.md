@@ -131,7 +131,7 @@ Many people forget this section at the top, but it's a great place to:
 - Add your professional email address. If you don't have one, open a new email address that is close to your full name.
 
 
-<mark> IMPORTANT NOTE: <br/> Open a free Google Voice account at [voice.google.com](https://voice.google.com) to have a U.S. phone number that will convert your voicemail into email or text message to notify you when you're traveling abroad or are in a place without reception so you never miss a voicemail. <br/> <br/> Eventually, many recruiters or hiring managers will be calling you when you don't want their calls, so you'll want a way to "turn it off". The easiest way is to put a Google Voice number on your resume that forwards to your cell when you're job-hunting or goes straight to voicemail when you're not job-hunting. </mark>
+<mark> IMPORTANT NOTE: <br/> Open a free Google Voice account at [voice.google.com](https://voice.google.com): <br/> - to have a U.S. phone number that will convert voicemail into text message <br/> - to notify you when you're traveling abroad or are in a place without reception <br/> - to block spam callers <br/> <br/> Eventually, many recruiters or hiring managers will be calling you when you don't want to be disturned, and Google Voice makes it easy to "turn off" all calls by sending them straight to voicemail. Having a Google Voice number on your resume that forwards to your cell only when you're job-hunting is very convenient. </mark>
 
 
 ## Add more "Groups"

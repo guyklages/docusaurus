@@ -240,4 +240,11 @@
 | SITUATION: <br/> - 1,000's of products sourced from Taiwan. <br/> - 10 PMs tracked their products their own way. <br/> - PMs swapped products every month to avoid fraud. <br/> - Products needed to be tested for quality. <br/> - Sales people sold products in Europe. <br/> <br/> PROBLEM: <br/> PMs and Sales people spent many days each month learning new products that were organized differently. | MY SOLUTION: <br/> Combine all products into a unified database to normalize how all products are organized. <br/> <br/> - Made product-switching take only a few minutes. <br/> - Made it easier to track who managed which products when. <br/> - Made it easier to sell since all data was available in real-time. <br/> - Made it faster to track which products needed testing, which were being tested, which passed, and which failed. |
 | | RESULTS: <br/> When an Oracle engineer visited and saw what I created (specifically the table headers change to match the specs based on the product selected), he was stunned and said, "I didn't know MS Access could do that!" |
 
+### Removed virus before mainstream
 
+#### <mark> Interbase Solutions (Santa Clara) -- Removed a virus before the concept of viruses were well-known </mark>
+
+| Before (May 1988) | After (May 1988) |
+|-------------------|------------------|
+| PROBLEM: <br/> Windows 2.0 installation would stop after 3 minutes. | MY SOLUTION: <br/> I removed an unknown virus the four consultants with Masters degrees couldn't diagnose. <br/> <br/> I ran the installation; it stopped after 3 min. <br/> <br/> Days earlier at school, I had talked with fellow computer nerds about a new thing called a "virus" and had borrowed their Norton Utilities software. <br/> <br/> There was, in fact, a virus on the customer's install disk, which I removed and finished the installation in 40 min. |
+| ![Floppy disks](../../static/img/Interbase_Reebok-shoebox.png) | RESULTS: <br/> - Client's wife said, "I was doubtful when I saw your shoebox of floppy disks, but you fixed something four other $100/hr men with Masters degrees couldn't do after a few hours--good job!" <br/> - I had already stated $12/hr. |

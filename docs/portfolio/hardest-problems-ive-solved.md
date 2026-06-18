@@ -240,7 +240,7 @@
 | SITUATION: <br/> - 1,000's of products sourced from Taiwan. <br/> - 10 PMs tracked their products their own way. <br/> -&nbsp;PMs&nbsp;swapped&nbsp;products&nbsp;every&nbsp;month&nbsp;to&nbsp;avoid&nbsp;fraud. <br/> - Products needed to be tested for quality. <br/> - Sales people sold products in Europe. <br/> <br/> PROBLEM: <br/> PMs and Sales people spent many days each month learning new products that were organized differently. | MY SOLUTION: <br/> Combine all products into a unified database to normalize how all products are organized. <br/> <br/> - Product-switching took only a few minutes. <br/> - Easier to track who managed which products when. <br/> - Easier to sell since all data was available in real-time. <br/> - Faster to track which ones needed testing, which were being tested, which passed, and which failed. |
 | | RESULTS: <br/> When a visiting Oracle engineer saw what I created (especially the table headers change specs to match the selected product), he was stunned and said, "I didn't know Access could do that!" |
 
-### Removed virus before being mainstream
+### Removed a virus before being mainstream
 
 #### <mark> Interbase Solutions (Santa Clara) -- Removed a virus before the concept of viruses were well-known </mark>
 

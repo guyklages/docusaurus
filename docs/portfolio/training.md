@@ -16,23 +16,23 @@
 
 ### By company
 
-| Company        | Tools |
-|----------------|-------|
-| Adobe          | Acrobat, Distiller, Captivate 3, FrameMaker, RoboHelp |
-| Articulate 360 | Presenter, Engage, Quizmaker |
-| Corel          | Draw, PaintShop Pro |
-| ELB Learning   | Lectora authoring   |
-| Hyperion       | HyperCam, HyperSnap |
-| Microsoft      | Word, Excel, PowerPoint, SharePoint, Visio, Access, Teams |
-| TechSmith      | Camtasia, Snag-it   |
+| Company        | Tools | Years |
+|----------------|-------|-------|
+| Adobe          | Acrobat, Distiller, Captivate 3, FrameMaker, RoboHelp | 8+ |
+| Articulate 360 | Presenter, Engage, Quizmaker | 3+ |
+| Corel          | Draw, PaintShop Pro | 4+ |
+| ELB Learning   | Lectora authoring   | 4+ |
+| Hyperion       | HyperCam, HyperSnap | 8+ |
+| Microsoft      | Word, Excel, PowerPoint, SharePoint, Visio, Access, Teams | 9+ |
+| TechSmith      | Camtasia, Snag-it   | 7+ |
 
 ### By function
 
-| Function             | Tools |
-|----------------------|-------|
-| Platforms (LMS, CMS) | Blackboard, Moodle, Author-It, Academy (WordPress plugin) |
-| Survey               | SurveyMonkey |
-| Video                | Zoomerang    |
+| Function             | Tools | Years |
+|----------------------|-------|-------|
+| Platforms (LMS, CMS) | Blackboard, Moodle, Author-It, Academy (WordPress plugin) | 8+ |
+| Survey               | SurveyMonkey | 3+ |
+| Video                | Zoomerang    | 3+ |
 
 
 ## Swagger 

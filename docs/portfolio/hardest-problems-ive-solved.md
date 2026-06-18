@@ -77,7 +77,7 @@
 
 ### 30% fewer helpdesk tickets
 
-#### <mark> Couchbase -- Reduced the number of helpdesk tickets by 30% per week </mark>
+#### <mark> Couchbase (Santa Clara) -- Reduced the number of helpdesk tickets by 30% per week </mark>
 
 | Before (May 2017) | After (Aug 2017) |
 |-------------------|------------------|
@@ -86,7 +86,7 @@
 
 ### 2 VPs with opposite priorities
 
-#### <mark> Couchbase -- How to prioritize the writing of new features vs updating old pages? Google Analytics! </mark>
+#### <mark> Couchbase (Santa Clara) -- How to prioritize the writing of new features vs updating old pages? Google Analytics! </mark>
 
 | Before (Apr 2017) | After (May 2017) |
 |-------------------|------------------|
@@ -95,7 +95,7 @@
 
 ### 50% less time; 50% fewer errors
 
-#### <mark> Boston VA Medical Center -- Reduced time to create clinical trials by 50% with 50% fewer errors </mark>
+#### <mark> VA Medical Center (Boston) -- Reduced time to create clinical trials by 50% with 50% fewer errors </mark>
 
 | Before (Feb 2012) | After (Apr 2012) |
 |-------------------|------------------|
@@ -104,7 +104,7 @@
 
 ### 1/3rd the time to edit eDC forms
 
-#### <mark> Boston VA Medical Center -- Reduced the time needed to make any changes to a clinical trial to one-third. </mark>
+#### <mark> VA Medical Center (Boston) -- Reduced the time needed to make any changes to a clinical trial to one-third. </mark>
 
 | Before (Aug 2011) | After (Dec 2011) |
 |-------------------|------------------|
@@ -125,6 +125,8 @@
 
 ### 12,000 happy ESL students in China
 
+#### <mark> Talk Group (Shanghai) -- Created and led activities that thrilled 12,000+ ESL learners in China </mark>
+
 | Before (Feb 2002) | After (May 2006) |
 |-------------------|------------------|
 | PROBLEM: <br/> - Create a new style of English-learning club. <br/> - ESL in China is a very saturated market. <br/> - Tailor classes to the local people. <br/> - Find venues and topics interesting to locals. <br/> - Find class times in the local's busy schedules. | MY SOLUTION: <br/> Designed a database for the various content I was creating: <br/> - The [3 textbooks](https://www.google.com/search?q=%E2%80%9D%E6%B4%8B%E8%85%94%E6%B4%8B%E8%B0%83%E2%80%9C%E4%B9%A6&tbm=isch&ved=2ahUKEwjMlNa0q_nvAhWLjZ4KHQ9fBzUQ2-cCegQIABAA&oq=%E2%80%9D%E6%B4%8B%E8%85%94%E6%B4%8B%E8%B0%83%E2%80%9C%E4%B9%A6&gs_lcp=CgNpbWcQA1C9YVjJbmC2c2gAcAB4AIABXIgB1QKSAQE0mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=25F0YIy7Boub-gSPvp2oAw&bih=791&biw=1438&hl=en) I authored <br/> - The 1,000+ Phrase-of-the-Day text messages I wrote <br/> - The 5 artists, 3 translators, 20 teachers, and 5 developers I managed <br/> - Daily Mini-Adventures (2-hr class) <br/> - Weekend Adventures (5-hr activity) <br/> - Daily Phrase-of-the-day SMS texts <br/> - Taught classes to improve class materials. |
@@ -138,7 +140,7 @@
 
 ### 25% increase in players and sales
 
-#### <mark> Mica Games -- Suggested changes to his games that resulted in 25% more players and revenue </mark>
+#### <mark> Mica Games (Seattle) -- Suggested changes to his games that resulted in 25% more players and revenue </mark>
 
 | Before (Mar 1998) | After (Apr 2013) |
 |-------------------|------------------|
@@ -150,7 +152,7 @@
 
 ### DB saved >50% of time, effort
 
-#### <mark> ADP Payroll -- Made a database to automate reports; saved >50% of the employees' time and effort </mark>
+#### <mark> ADP Payroll (Seattle) -- Made a database to automate reports; saved >50% of the employees' time and effort </mark>
 
 | Before (Mar 2009) | After (Aug 2009) |
 |-------------------|------------------|
@@ -207,7 +209,20 @@
 #### <mark> Law firm -- Created DITA-like database to reuse paragraphs of text in multiple contracts </mark>
 
 | Before (Mar 1998) | After (Apr 1998) |
-|-------------------|-------------------|
+|-------------------|------------------|
 | PROBLEM: <br/> Law firm made dozens of contracts daily and needed an easier way to create new contracts by reusing existing paragraphs in other contracts. They were spending way too much time copying-and-pasting. And they wanted to be able to reuse paragraphs in any order in their new contracts. <br/> <br/> And they needed a solution that used only their existing software: Microsoft Office. <br/> <br/> A. Using MS Word, paralegals would search for paragraphs of text that their firm had written in other contracts to copy and paste them into a new contract. <br/> <br/> B. This was very time-consuming and tedious. <br/> <br/> C. They didn't have a central place for all paragraphs that were commonly reused in their client contracts. | MY SOLUTION: <br/> Per their budget, I created a Microsoft Access database to store all of their contract paragraphs and made a form mechanism to add paragraphs to a new contract that allowed them to rearrange the paragraphs. <br/> <br/> I created a database with four tables: <br/> - _Paragraph_Type_ for the category and use cases <br/> -&nbsp;_Paragraph_Text_&nbsp;for&nbsp;the&nbsp;text,&nbsp;keywords,&nbsp;and&nbsp;Paragraph_Type <br/> - _Contract_Type_ for the different contract categories <br/> - _Contract_Template_ of the commonly used contracts pre-filled with common paragraphs <br/> <br/> I made a mechanism that shows a blank form where the lawyer would choose from dropdown lists the paragraph types and paragraphs of text, searchable by keywords, and movable (up or down) within the new contract. <br/> <br/> I made queries to find specific paragraphs. <br/> <br/> I made reports that were contracts with all of their front matter followed by their desired paragraphs followed by the legal disclaimers at the end. |
 | | RESULT: <br/> I created something similar to DITA three years before IBM. The law firm loved their new contract-creation system. |
+
+### Removed 1,000s of dupe records in production
+
+#### <mark> Komodo Toys (Hong Kong) -- Removed 1,000s of duplicate records while database was in production </mark>
+
+| Before (Mar 1997) | After (Apr 1997) |
+|-------------------|------------------|
+| PROBLEM: <br/> There were 1,000's of duplicate addresses in a 100,000+ row SQL database due to being entered slightly differently. <br/> <br/> 3,000 - 5000 records are added every day, 24/7. <br/> <br/> 3 - 5 people always using 1 MS Access database. <br/> <br/> Hong Kong customers enter addresses differently: <br/> - Sometimes adding their complex’s name. <br/> - Sometimes writing their complex's name above the street address, while others write below. <br/> - Sometimes adding postal code, or not. <br/> - Sometimes abbreviating different words <br/>&nbsp;&nbsp;&nbsp;- District / Dst / Dstct / D. <br/>&nbsp;&nbsp;&nbsp;- Complex / Cmplx / Cmpx <br/>&nbsp;&nbsp;&nbsp;- Phase / Building / Bldg / Suite / Ste <br/> Sometime using different number formats <br/>&nbsp;&nbsp;&nbsp;- Roman (I, II, III, etc.) <br/>&nbsp;&nbsp;&nbsp;- English (1, 2, 3, etc.) <br/>&nbsp;&nbsp;&nbsp;- Chinese (一，二，三, etc.) | MY SOLUTION: <br/> Make every field a dropdown list in order to make a unique key by concatenating the distinctive fields. <br/> <br/> Make every field a dropdown list: <br/> - All Districts (Tsimshatsui, Mongkok, etc.) <br/> - All Complexes (The Red Dragon, etc.) <br/> - All Sections (Phase, Building, Bldg., etc.) <br/> - All Rooms (Suite, Ste., #, Number, No., etc.) <br/> - All Room Numbers (6, 06, VI, 六) <br/> <br/> Add a field that is a concatenation of key fields. <br/> - District, Street, Room Numbers, etc. <br/> <br/> Query the new concatenated field for duplicates. <br/> - Delete the duplicates. <br/> <br/> Add a Unique Key restraint on the new key field. <br/> - To prevent the entering of duplicate records. |
+| | RESULTS: <br/> Desired duplicate-free list with < 5 minutes of downtime. |
+
+
+
+
 

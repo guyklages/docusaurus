@@ -226,7 +226,7 @@
 
 #### <mark> Lung Electronics (Hong Kong) -- Unified the Marketing, Testing, and Sales departments with a database </mark>
 
-| Before (Mar 1997) | After (Apr 1997) |
+| Before (Mar 1996) | After (Apr 1997) |
 |-------------------|------------------|
 | SITUATION: <br/> - 1,000's of products sourced from Taiwan. <br/> - 10 PMs tracked their products their own way. <br/> - PMs swapped products every month to avoid fraud. <br/> - Products needed to be tested for quality. <br/> - Sales people sold products in Europe. <br/> <br/> PROBLEM: <br/> PMs and Sales people spent many days each month learning new products that were organized differently. | MY SOLUTION: <br/> Combine all products into a unified database to normalize how all products are organized. <br/> <br/> - Made product-switching take only a few minutes. <br/> - Made it easier to track who managed which products when. <br/> - Made it easier to sell since all data was available in real-time. <br/> - Made it faster to track which products needed testing, which were being tested, which passed, and which failed. |
 | | RESULTS: <br/> When an Oracle engineer visited and saw what I created, he was stunned and said, "I didn't know MS Access could do all that!" |

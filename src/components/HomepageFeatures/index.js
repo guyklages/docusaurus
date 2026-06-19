@@ -15,7 +15,7 @@ const FeatureList = [
   },
   {
     title: 'Technical Writer',
-    img: require('@site/static/img/undraw_docusaurus_react.png').default,
+    img: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
         Developer guides

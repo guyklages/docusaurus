@@ -10,7 +10,7 @@ const FeatureList = [
       <>
         Bay Area, CA <br/> <br/>
         guy.klages@gmail.com <br/> <br/>
-        [linkedin.com/in/klages](https://www.linkedin.com/in/klages)
+        <a href="https://www.linkedin.com/in/klages">linkedin.com/in/klages</a>
       </>
     ),
   },

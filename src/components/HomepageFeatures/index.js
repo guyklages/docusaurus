@@ -16,7 +16,7 @@ const FeatureList = [
   },
   {
     title: 'Technical Writer',
-    img: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    img: require('@site/static/img/undraw_docusaurus_react.svg'),
     description: (
       <>
         Developer guides <br/> <br/>
@@ -27,7 +27,7 @@ const FeatureList = [
   },
   {
     title: 'Developer Advocate',
-    img: require('@site/static/img/TalkGroup_Mini-Adventure-class.png').default,
+    img: require('@site/static/img/TalkGroup_Mini-Adventure-class.png'),
     description: (
       <>
         Bridging companies with external developers <br/> <br/>

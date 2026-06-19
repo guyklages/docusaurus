@@ -8,14 +8,14 @@ const FeatureList = [
     img: require('@site/static/img/Guy-suit-head-shot.png').default,
     description: (
       <>
-        Bay Area, CA
+        Bay Area, CA <br/>
         guy.klages@gmail.com
       </>
     ),
   },
   {
     title: 'Technical Writer',
-    img: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
         Developer guides
@@ -28,7 +28,7 @@ const FeatureList = [
     img: require('@site/static/img/TalkGroup_Mini-Adventure-class.png').default,
     description: (
       <>
-        Bridging software companies with external developers
+        Bridging companies with external developers <br/>
         Representing the community's feedback to internal product and engineering teams
       </>
     ),

@@ -27,7 +27,7 @@ const FeatureList = [
   },
   {
     title: 'Developer Advocate',
-    img: require('@site/static/img/TalkGroup_Mini-Adventure-class.png'),
+    img: require('@site/static/img/TalkGroup_Mini-Adventure-class.png').default,
     description: (
       <>
         Bridging companies with external developers <br/> <br/>

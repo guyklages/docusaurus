@@ -8,18 +8,20 @@ const FeatureList = [
     img: require('@site/static/img/Guy-suit-head-shot.png').default,
     description: (
       <>
-        Bay Area, CA <br/>
-        guy.klages@gmail.com
+        Bay Area, CA <br/> <br/>
+        guy.klages@gmail.com <br/> <br/>
+        [linkedin.com/in/klages](https://www.linkedin.com/in/klages)
       </>
     ),
   },
   {
     title: 'Technical Writer',
-    svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    img: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Developer guides
-        API reference
+        Developer guides <br/> <br/>
+        API reference <br/> <br/>
+        Information architecture organization
       </>
     ),
   },
@@ -28,7 +30,7 @@ const FeatureList = [
     img: require('@site/static/img/TalkGroup_Mini-Adventure-class.png').default,
     description: (
       <>
-        Bridging companies with external developers <br/>
+        Bridging companies with external developers <br/> <br/>
         Representing the community's feedback to internal product and engineering teams
       </>
     ),

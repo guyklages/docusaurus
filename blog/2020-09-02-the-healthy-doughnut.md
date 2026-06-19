@@ -2,7 +2,7 @@
 slug: the-healthy-doughnut
 title: The healthy doughnut
 authors: [guyklages]
-tags: [Seattle, doughnut, dessert, local celebrity]
+tags: [seattle, doughnut, dessert, celebrity]
 ---
 
 ![Donut](../static/img/Blog_The-healthy-doughnut_Countryside-Donut.png)

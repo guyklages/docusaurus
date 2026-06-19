@@ -1,3 +1,23 @@
+celebrity:
+  label: Celebrity
+  permalink: /celebrity
+  description: Celebrity tag description
+
+dessert:
+  label: Dessert
+  permalink: /dessert
+  description: Dessert tag description
+
+docusaurus:
+  label: Docusaurus
+  permalink: /docusaurus
+  description: Docusaurus tag description
+
+doughnut:
+  label: Doughnut
+  permalink: /doughnut
+  description: Doughnut tag description
+
 facebook:
   label: Facebook
   permalink: /facebook
@@ -8,12 +28,27 @@ hello:
   permalink: /hello
   description: Hello tag description
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
-
 hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+job-hunting:
+  label: job-hunting
+  permalink: /job-hunting
+  description: job-hunting tag description
+
+linkedin:
+  label: LinkedIn
+  permalink: /linkedin
+  description: LinkedIn tag description
+
+portfolio:
+  label: portfolio
+  permalink: /portfolio
+  description: portfolio tag description
+
+seattle:
+  label: Seattle
+  permalink: /seattle
+  description: Seattle tag description

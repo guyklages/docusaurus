@@ -29,6 +29,10 @@ const sidebars = {
         type: 'doc',
         id: 'portfolio/training',
     },
+    {
+      type: 'doc',
+      id: 'portfolio/recommendations',
+    },
   ],
   sidebarAtelioGuides: [
     {

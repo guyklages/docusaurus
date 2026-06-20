@@ -8,7 +8,7 @@ export default function ScrollingBanner() {
         
         {/* --- SET 1 --- */}
         <div className={styles.bannerText}>
-          "Your 650-character LinkedIn recommendation text goes here. It will automatically wrap into 5 or 6 lines beautifully based on the 480px width set in the CSS file."
+          "Guy was our lead and only tech writer and was an important part of my team. His work was clear, organized and thoughtful, across all product areas. As a former software engineer, he wrote in a way our engineers and customers' engineers understood easily, and his passion for perfectionism was appreciated by many. I hope to work with Guy (and his sense of humor) again in the future. <br/> Jon Eisenstein, Manager of Guy at FIS Global"
         </div>
         <div className={styles.bannerText}>
           "Your second long LinkedIn recommendation text goes here..."

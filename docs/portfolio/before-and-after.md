@@ -15,7 +15,7 @@
 
 | Before (May 2023) | After (July 2023) |
 |-------------------|-------------------|
-| PROBLEM: <br/> Pages were hastily written by engineers just to have "something" documented, for example: <br/> - 1pg [Payins](https://mpdocs.nium.com/payout-payin/pay-in---key-concepts) <br/> - 14pg [Payouts](https://mpdocs.nium.com/payout-payin/Payout) | MY SOLUTION: <br/> I revamped and authored pages with many more details and related concepts, for example: <br/> - 12pg [Payins](https://docs.nium.com/docs/payins) <br/> - 16pg [Payouts](https://docs.nium.com/docs/payouts) |
+| PROBLEM: <br/> Pages were hastily written by engineers just to have "something" documented, for example: <br/> - &nbsp;1pg [Payins](https://mpdocs.nium.com/payout-payin/pay-in---key-concepts) <br/> - 14pg [Payouts](https://mpdocs.nium.com/payout-payin/Payout) | MY SOLUTION: <br/> I revamped and authored pages with many more details and related concepts, for example: <br/> - 12pg [Payins](https://docs.nium.com/docs/payins) <br/> - 16pg [Payouts](https://docs.nium.com/docs/payouts) |
 | ![Before](../../static/img/Nium_Payouts_BEFORE.png) | ![After](../../static/img/Nium_Payouts_AFTER.png) |
 
 ### Onboarding

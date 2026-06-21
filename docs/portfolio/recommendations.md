@@ -1,5 +1,6 @@
 # Recommendations on LinkedIn
 
+
 ## Technical Writer
 
 ### FIS Global
@@ -23,6 +24,12 @@
 | --- | --- |
 | *Guy is very passionate about the EV industry and helping people through training, documentation and writing. He looks for ways to improve content delivery to a variety of audiences, always exploring, evaluating and evolving. He was a tireless advocate for end users of our software and services. It was a privilege to have Guy on my team, and I recommend him highly as a technical communicator and writer. Not only is Guy technically competent, he has a strong work ethic and makes the workplace enjoyable. He was a great asset to ChargePoint, and to our Technical Training and Documentation team.* | [Layne Northsea, MBA, PMP](https://www.linkedin.com/in/laynenorthsea/) <br/><br/> Manager |
 
+### Yahoo
+
+| Recommendation | Person |
+| --- | --- |
+| *Guy did a great job for us. He took a 6 week contract assignment and turned it in to a 1.5 year job. Hardworking, easy to get along with and very profressional. I would highly recommend Guy.* | [Mark McKim](https://www.linkedin.com/in/markmckim/) <br/><br/> Recruiter |
+
 ### Wells Fargo
 
 | Recommendation | Person |
@@ -40,6 +47,13 @@
 | Recommendation | Person |
 | --- | --- |
 | *Guy is a very dedicated and focused worker. He integrates well with various teams and works well with little supervision. Guy's sense of humor and strong technical background make him a great addition to any team. We hated to see him go but knew Boston's winters were too cold for him. I'd highly recommend Guy for any technical writing or software training role.* | [Stone Shi](https://www.linkedin.com/in/stone-shi-swe/) <br/><br/> Manager |
+
+### ADP Payroll
+
+| Recommendation | Person |
+| --- | --- |
+| *It was a pleasure working with Guy and supporting his PC since he took care of most of his PC issues on his own and was very low-maintenance. When he needed I.T. help on his multi-continent projects, he was always able to clearly explain exactly what technology needs were required by each department. I would fully recommend him for any technical training or writing position he feels qualified for.* | [Michael Weaver](https://www.linkedin.com/in/michael-weaver-wa/) <br/><br/> Coworker |
+
 
 ## Training / Teaching
 
@@ -68,20 +82,17 @@
 | Recommendation | Person |
 | --- | --- |
 | *Guy has talent as a professional technical writer. At the time we both worked for Actual Living English, teaching proper English was not the priority but rather having fun was, and he managed to teach proper English in an fun environment adhering to very professional standards which was not true of other teachers I managed. Guy sets a high bar for himself in terms of detail-oriented work. He is consistent yet fairly creative and a very dependable worker. He does not have the tendency to lose himself to office politics so prevalent in mid-sized firms. One would be lucky to hire Guy with his global experience.* | [Neil Narbonne](https://www.linkedin.com/in/neil-narbonne-05444a1/) <br/><br/> Manager |
+| *Guy is a very creative teacher, and I recommend him to anyone who wants a good learning experience. His teaching style is interactive and funny, and he always picks interesting topics for everyone. Most importantly, he creates an easy-learning environment that motivated me to participate and make progress.* | [Roman Chang](https://www.linkedin.com/in/roman-chang-5239649/) <br/><br/> Student |
+| *Guy is a friendly teacher with good communication skills and able to explain things clearly with vivid examples. His classes are very interesting and attractive with some well-chosen materials, which helped us become more familiar with the English-speaking world. His standard oral English and clear pronunciation gave us a nice parctice environment. Guy is very kind to notice every students' need and was able to help us on any topic we asked about.* | [Xiaowei Huang](https://www.linkedin.com/in/xiaowei-huang-3b939710/) <br/><br/> Student |
 
 ### Edutainme
 
 | Recommendation | Person |
 | --- | --- |
-| *Guy is excellent in several areas. For training, he got me up to speed on the existing project so that my efforts were seamless in pushing the development side forward. Also, he is a great manager with clear communication between what the CEO had envisioned. Guy knows how to choose the best players that will work well together under his enthusiastic team leadership.* | [Bolinas Frank](https://www.linkedin.com/in/bofrank/) <br/><br/> Coworker |
+| *Guy is excellent in several areas. For training, he got me up to speed on the existing project so that my efforts were seamless in pushing the development side forward. Also, he is a great manager with clear communication between what the CEO had envisioned. Guy knows how to choose the best players that will work well together under his enthusiastic team leadership.* | [Bolinas Frank](https://www.linkedin.com/in/bofrank/) <br/><br/> Student |
+
 
 ## Software Engineer
-
-### Marketing Technologies Group
-
-| Recommendation | Person |
-| --- | --- |
-| *Guy was responsible for upgrading and maintaining computer hardware, configuring and optimizing the operating systems, selecting and supervising contract programmers, and identifying software that could be used to enhance MTG's product line. We found Guy to be a very conscientious and enthusiastic worker who strove to produce quality results. We hated to see Guy leave but we knew that he was looking forward to working in Asia.* | [Mike Aguilar](https://www.linkedin.com/in/mikeaguilarmtg/) <br/><br/> Manager |
 
 ### Lung Electronics
 
@@ -89,30 +100,17 @@
 | --- | --- |
 | *I hired Guy in 1996 for a project to streamline the workflow between the Marketing, Sales, and Testing departments of my import/export company. Guy has a very strong work ethic and analytical mind for solving problems. He is a friendly, creative and trustworthy person that is reliable and focused on completing any project that is assigned to him. I would hire him again if my current company had a similar project.* | [J. L. van der Velde](https://www.linkedin.com/in/jlvdv/) <br/><br/> Manager |
 
+### Marketing Technologies Group
+
+| Recommendation | Person |
+| --- | --- |
+| *Guy was responsible for upgrading and maintaining computer hardware, configuring and optimizing the operating systems, selecting and supervising contract programmers, and identifying software that could be used to enhance MTG's product line. We found Guy to be a very conscientious and enthusiastic worker who strove to produce quality results. We hated to see Guy leave but we knew that he was looking forward to working in Asia.* | [Mike Aguilar](https://www.linkedin.com/in/mikeaguilarmtg/) <br/><br/> Manager |
 
 
+## Manager
 
-
-
+### Pyramid Software
 
 | Recommendation | Person |
 | --- | --- |
 | *Guy has a great sense of humor and always made me laugh, even when we were under deadline pressures. I enjoyed working for him and his relaxed but firm management style. Guy was always great at explaining project goals and then letting me create my own ideas and suggestions. When I was unclear, Guy was very approachable and patient at explaining things. I hope all managers can be as funny and fun to work with as Guy* | [Nhat Phan](https://www.linkedin.com/in/nhatphan/) <br/><br/> Coworker |
-
-### Yahoo
-
-| Recommendation | Person |
-| --- | --- |
-| *Guy did a great job for us. He took a 6 week contract assignment and turned it in to a 1.5 year job. Hardworking, easy to get along with and very profressional. I would highly recommend Guy.* | [Mark McKim](https://www.linkedin.com/in/markmckim/) <br/><br/> Recruiter |
-
-### ADP Payroll
-
-| Recommendation | Person |
-| --- | --- |
-| *It was a pleasure working with Guy and supporting his PC since he took care of most of his PC issues on his own and was very low-maintenance. When he needed I.T. help on his multi-continent projects, he was always able to clearly explain exactly what technology needs were required by each department. I would fully recommend him for any technical training or writing position he feels qualified for.* | [Michael Weaver](https://www.linkedin.com/in/michael-weaver-wa/) <br/><br/> Coworker |
-
-
-| Recommendation | Person |
-| --- | --- |
-| *Guy is a very creative teacher, and I recommend him to anyone who wants a good learning experience. His teaching style is interactive and funny, and he always picks interesting topics for everyone. Most importantly, he creates an easy-learning environment that motivated me to participate and make progress.* | [Roman Chang](https://www.linkedin.com/in/roman-chang-5239649/) <br/><br/> Student |
-| *Guy is a friendly teacher with good communication skills and able to explain things clearly with vivid examples. His classes are very interesting and attractive with some well-chosen materials, which helped us become more familiar with the English-speaking world. His standard oral English and clear pronunciation gave us a nice parctice environment. Guy is very kind to notice every students' need and was able to help us on any topic we asked about.* | [Xiaowei Huang](https://www.linkedin.com/in/xiaowei-huang-3b939710/) <br/><br/> Student |

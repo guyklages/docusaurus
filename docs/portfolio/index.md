@@ -1,14 +1,23 @@
 # Portfolio
 
-## Live company websites I created and owned
+## Live company websites I created
 
-I used Git, Markdown, Oxygen, Postman, ReadMe, and VS Code to create documentation for developers, DBAs, and technical PMs. Links open into a new browser tab.
+I created and fully owned the following websites. I used Git, Markdown, Oxygen, Postman, ReadMe, and VS Code to create documentation for developers, DBAs, and technical PMs. Links open into a new browser tab.
 
 | Company      | Industry       | Developer guides | API reference | Collaborated with | Highlight |
 |--------------|----------------|------------------|---------------|:-----------------:|-----------|
 | Atelio&nbsp;of&nbsp;FIS <br/> _(Defunct)_ | Fintech        | _Site removed._ <br/> **[See my copy of it](https://guyklages.com/atelio/getting-started/client-config)** | _Site removed._ <br/> **[Similar&nbsp;to&nbsp;Nium's](https://docs.nium.com/api#description/introduction)** | 1 editor, <br/> 5 SMEs | [Revamped and reduced the developer pages by 36%](./hardest-problems-ive-solved.md#36-page-reduction-from-new-ia) |
 | Nium         | Fintech        | **[Getting Started](https://docs.nium.com/docs/getting-started)** | **[Introduction](https://docs.nium.com/api#description/introduction)** | 1 editor, <br/> 6 SMEs | [Doubled onboarding of clients with 75% fewer issues](./hardest-problems-ive-solved.md#2x-onboarding-75-fewer-issues) |
 | Couchbase    | NoSQL database | **[SQL++&nbsp;Reference](https://docs.couchbase.com/server/current/n1ql/n1ql-language-reference/index.html)** |  | 1 editor, <br/> 9 SMEs | [Reduced their writing process by 80%](./hardest-problems-ive-solved.md#80-time-saved-on-writing-process) |
+
+
+## My most technical projects
+
+| Company   | Project | Outcome |
+|-----------|---------|---------|
+| Microsoft | Goverance of and guardrails for Copilot Agents | Many internal templates for guiding the creation and use of Copilot AI Agents |
+| Netflix   | Internal AI/ML/LLM tools | Internal documentation for the usage, installing, and configuring of their tool that populates the Netflix Home screen of titles |
+| Yahoo     | Internal AI/ML/LLM tools | Internal documentation |
 
 ## Various types of PDF guides
 

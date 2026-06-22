@@ -54,12 +54,12 @@
 | --- | --- |
 | _Guy worked to improve our existing user guides, update our training materials and deliver in-person training which he recorded and edited for use by those that could not attend the scheduled training sessions. He is congenial, detail-oriented and could always be counted on to provide a unique perspective on ways to improve the eDC product set. I enjoyed working with him and hope to work with him again in the future._ | [Ted Krohner](https://www.linkedin.com/in/theodore-krohner) <br/><br/> Manager |
 
-### ADP Payroll
+### ADP Payroll - docs
 
 | Recommendation | Person |
 | --- | --- |
 | *It was a pleasure working with Guy and supporting his PC since he took care of most of his PC issues on his own and was very low-maintenance. When he needed I.T. help on his multi-continent projects, he was always able to clearly explain exactly what technology needs were required by each department. I would fully recommend him for any technical training or writing position he feels qualified for.* | [Michael Weaver](https://www.linkedin.com/in/michael-weaver-wa/) <br/><br/> Coworker |
-| _It was so great working with Guy.  Not only was he very detailed and always improving the database he was creating to fit our ever-changing needs, he was also always available and very quick to respond to any issue we were experiencing.  Guy was always patient with those of us with less computer savy in explaining the new features he was constantly adding, and we wouldn’t have gotten the job done without his help. Though I was transferred from ADP Bothell to ADP Augusta last November he was still constantly available.  Our group will miss him and hopes to work with him again in the future!_ | [Allyn Anderson](https://www.linkedin.com/in/allyn-anderson-adp) <br/><br/> Coworker |
+
 
 
 ## Training / Teaching
@@ -78,7 +78,7 @@
 | --- | --- |
 | *I enjoyed working with Guy immensely. His sense of humor and calm demeanor make him very approachable and easy to talk with. Guy is very patient and able to explain various topics clearly. Since he is detail-oriented, dependable and has a strong work-ethic, I would recommend him for any position that involves training.* | [Peter Swart](https://www.linkedin.com/in/peter-s-4295553/) <br/><br/> Coworker |
 
-### Talk Group
+### Talk Group - Instructor
 
 | Recommendation | Person |
 | --- | --- |
@@ -100,6 +100,17 @@
 
 
 ## Software Engineer
+
+### ADP Payroll - database
+
+| Recommendation | Person |
+| --- | --- |
+| _It was so great working with Guy.  Not only was he very detailed and always improving the database he was creating to fit our ever-changing needs, he was also always available and very quick to respond to any issue we were experiencing.  Guy was always patient with those of us with less computer savy in explaining the new features he was constantly adding, and we wouldn’t have gotten the job done without his help. Though I was transferred from ADP Bothell to ADP Augusta last November he was still constantly available.  Our group will miss him and hopes to work with him again in the future!_ | [Allyn Anderson](https://www.linkedin.com/in/allyn-anderson-adp) <br/><br/> Coworker |
+
+### Talk Group - database 
+
+| Recommendation | Person |
+| --- | --- || _Having managed Guy for 3 years, I would describe him as a very detail oriented and process intensive person. With a strong IT background, (our initial database system was based on his schematic), he excels where he is placed in situations where he can create standardized systems. Additionally, he is one of the most organized people I have ever met... just ask him about his "pet" database project. | [Jim Leu](https://www.linkedin.com/in/jimleu/) <br/><br/> Manager |
 
 ### Lung Electronics
 

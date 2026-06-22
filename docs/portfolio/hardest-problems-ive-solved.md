@@ -170,12 +170,12 @@
 
 ### 42x faster warranty website
 
-#### <mark> HP (Mt. View) -- Redesigned their database tables; website ran 7x faster </mark>
+#### <mark> HP (Mt. View) -- Redesigned their database tables; website ran 42x faster </mark>
 
 | Before (May 2001) | After (Aug 2001) |
 |-------------------|------------------|
-| PROBLEM: <br/> Web application ran way too slow. <br/> <br/> Lead Engineer optimized the database table for _humans_: <br/> ![Before](../../static/img/HP_SqlServer_table_BEFORE.png) <br/> <br/> His code that queried the database: <br/> - For each field, used `SELECT *` <br/> &nbsp;&nbsp;&nbsp; - needs 2 network trips (1 for field list + 1 for field) <br/> - Had to search for which row contains the desired data <br/> <br/> (2)*(1+2+3+4+5+6) = 42 network trips | MY SOLUTION: <br/> I re-designed the database table and code. <br/> <br/> I optimized the database table for _computers_: <br/> ![After](../../static/img/HP_SqlServer_table_AFTER.png) <br/> <br/> <br/> <br/> <br/> <br/> My code that queried the database: <br/> - For each field, used `SELECT FieldName` <br/> &nbsp;&nbsp;&nbsp; - needs only 1 network trip to get the desired field <br/> - Had to search only 1 row for the desired data <br/> <br/> (1)*(1) = 1 network trip |
-| | RESULT: <br/> My code ran 7 times faster. |
+| PROBLEM: <br/> Web application ran way too slow. <br/> <br/> Lead Engineer optimized the database table for _humans_: <br/> ![Before](../../static/img/HP_SqlServer_table_BEFORE.png) <br/> <br/> His code that queried the database: <br/> - For each field, used `SELECT *` <br/> &nbsp;&nbsp;&nbsp; - needs 2 network trips (1 for field list + 1 for field) <br/> - Had to search for which row contains the desired data <br/> <br/> (2)*(1+2+3+4+5+6) = 42 network trips | MY SOLUTION: <br/> I re-designed the database table and code. <br/> <br/> I optimized the database table for _computers_: <br/> ![After](../../static/img/HP_SqlServer_table_AFTER.png) <br/> <br/> <br/> <br/> <br/> <br/> My code that queried the database: <br/> - Used `SELECT Field1, Field2, ..., Field6` <br/> &nbsp;&nbsp;&nbsp; - needs only 1 network trip to get all desired fields <br/> - Had to search only 1 row for the desired data <br/> <br/> (1)*(1) = 1 network trip |
+| | RESULT: <br/> My code ran about 42 times faster. |
 
 ### 40% increase in staff productivity
 

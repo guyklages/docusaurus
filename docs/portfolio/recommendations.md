@@ -48,11 +48,18 @@
 | --- | --- |
 | *Guy is a very dedicated and focused worker. He integrates well with various teams and works well with little supervision. Guy's sense of humor and strong technical background make him a great addition to any team. We hated to see him go but knew Boston's winters were too cold for him. I'd highly recommend Guy for any technical writing or software training role.* | [Stone Shi](https://www.linkedin.com/in/stone-shi-swe/) <br/><br/> Manager |
 
+### VA Medical Center
+
+| Recommendation | Person |
+| --- | --- |
+| _Guy worked to improve our existing user guides, update our training materials and deliver in-person training which he recorded and edited for use by those that could not attend the scheduled training sessions. He is congenial, detail-oriented and could always be counted on to provide a unique perspective on ways to improve the eDC product set. I enjoyed working with him and hope to work with him again in the future._ | [Ted Krohner](https://www.linkedin.com/in/theodore-krohner) <br/><br/> Manager |
+
 ### ADP Payroll
 
 | Recommendation | Person |
 | --- | --- |
 | *It was a pleasure working with Guy and supporting his PC since he took care of most of his PC issues on his own and was very low-maintenance. When he needed I.T. help on his multi-continent projects, he was always able to clearly explain exactly what technology needs were required by each department. I would fully recommend him for any technical training or writing position he feels qualified for.* | [Michael Weaver](https://www.linkedin.com/in/michael-weaver-wa/) <br/><br/> Coworker |
+| _It was so great working with Guy.  Not only was he very detailed and always improving the database he was creating to fit our ever-changing needs, he was also always available and very quick to respond to any issue we were experiencing.  Guy was always patient with those of us with less computer savy in explaining the new features he was constantly adding, and we wouldn’t have gotten the job done without his help. Though I was transferred from ADP Bothell to ADP Augusta last November he was still constantly available.  Our group will miss him and hopes to work with him again in the future!_ | [Allyn Anderson](https://www.linkedin.com/in/allyn-anderson-adp) <br/><br/> Coworker |
 
 
 ## Training / Teaching

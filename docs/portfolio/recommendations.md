@@ -76,7 +76,7 @@
 
 | Recommendation | Person |
 | --- | --- |
-| *I enjoyed working with Guy immensely. His sense of humor and calm demeanor make him very approachable and easy to talk with. Guy is very patient and able to explain various topics clearly. Since he is detail-oriented, dependable and has a strong work-ethic, I would recommend him for any position that involves training.* | [Peter S](https://www.linkedin.com/in/peter-s-4295553/) <br/><br/> Coworker |
+| *I enjoyed working with Guy immensely. His sense of humor and calm demeanor make him very approachable and easy to talk with. Guy is very patient and able to explain various topics clearly. Since he is detail-oriented, dependable and has a strong work-ethic, I would recommend him for any position that involves training.* | [Peter Swart](https://www.linkedin.com/in/peter-s-4295553/) <br/><br/> Coworker |
 
 ### Talk Group
 

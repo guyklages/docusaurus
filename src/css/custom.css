@@ -68,5 +68,5 @@ div[class*="codeBlockTitle"] {
 
 /* Increase font size of 1st-level TOC headings only */
 .table-of-contents > li > .table-of-contents__link {
-  font-size: 0.95rem; /* default is ~0.8rem — adjust to taste */
+  font-size: 1rem; /* default is ~0.8rem — adjust to taste */
 }

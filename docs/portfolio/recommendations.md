@@ -72,7 +72,7 @@
 | *Guy was a great teacher, he knew how to inspire us and lead the team not only to practice beautiful English but also to express ourselves the right way. He is energetic, humorous, intelligent and very caring. He was one of the best teachers I've ever had.* | [Yen Nguyen T.H.](https://www.linkedin.com/in/yennguyenth/) <br/><br/> Student |
 | *Guy is really one of the most wonderful teachers I have ever known. Patient, devoted, humorous and clear are how I would describe him. He helps me realize my strengths, encourages me and challenges me to learn through those strengths. He always makes his lessons clear and easily understandable; and he always takes time to explain everything that I need help on. Moreover, he is responsive to my needs, and I have recommended many others to him.* | [Mai Tran](https://www.linkedin.com/in/maitran2709/) <br/><br/> Student |
 
-### HP
+### Hewlett-Packard
 
 | Recommendation | Person |
 | --- | --- |

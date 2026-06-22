@@ -65,3 +65,8 @@ table.fixedFourColumn th {
 div[class*="codeBlockTitle"] {
   font-size: 0.75rem;
 }
+
+/* Increase font size of 1st-level TOC headings only */
+.table-of-contents > li > .table-of-contents__link {
+  font-size: 0.9rem; /* default is ~0.8rem — adjust to taste */
+}

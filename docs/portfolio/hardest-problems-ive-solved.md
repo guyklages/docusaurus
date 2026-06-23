@@ -174,7 +174,7 @@
 
 | Before (May 2001) | After (Aug 2001) |
 |-------------------|------------------|
-| PROBLEM: <br/> Web application ran way too slow. <br/> <br/> Lead Engineer optimized the database table for _humans_: <br/> ![Before](../../static/img/HP_SqlServer_table_BEFORE.png) <br/> <br/> His code that queried the database: <br/> ![Before](../../static/img/HP_WarrantySQL_BEFORE.png) <br/> `SELECT *` needs 2 network trips (1 for field list + 1 for field) <br/> `WHERE` clause requires scanning the whole table | MY SOLUTION: <br/> I re-designed the database table and code. <br/> <br/> I optimized the database table for _computers_: <br/> ![After](../../static/img/HP_SqlServer_table_AFTER.png) <br/> <br/> <br/> <br/> <br/> <br/> I re-wrote his code as: <br/> ![After](../../static/img/HP_WarrantySQL_AFTER.png) <br/><br/> |
+| PROBLEM: <br/> Web application ran way too slow. <br/> <br/> Lead Engineer optimized the database table for _humans_: <br/> ![Before](../../static/img/HP_SqlServer_table_BEFORE.png) <br/> <br/> His code that queried the database: <br/> ![Before](../../static/img/HP_WarrantySQL_BEFORE.png) <br/> `SELECT *` needs 2 network trips (1 for field list + 1 for field) <br/> `WHERE` clause requires scanning the whole table | MY SOLUTION: <br/> I re-designed the database table and code. <br/> <br/> I optimized the database table for _computers_: <br/> ![After](../../static/img/HP_SqlServer_table_AFTER.png) <br/> <br/> <br/> <br/> <br/> <br/> I re-wrote his code as: <br/> ![After](../../static/img/HP_WarrantySQL_AFTER.png) <br/><br/><br/> |
 | | RESULT: <br/> My code ran about 12 times faster. |
 
 ### 40% increase in staff productivity

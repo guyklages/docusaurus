@@ -1,8 +1,8 @@
 # Portfolio
 
-## Live websites I created
+## Live company websites
 
-I created and fully owned the following websites. I used Git, Markdown, Oxygen, Postman, ReadMe, and VS Code to create documentation for developers, DBAs, and technical PMs. Links open into a new browser tab.
+I created and fully owned the following company websites. I used Git, Markdown, Oxygen, Postman, ReadMe, and VS Code to create documentation for developers, DBAs, and technical PMs. Links open into a new browser tab.
 
 | Company      | Industry       | Developer guides | API reference | Collaborated with | Highlight |
 |--------------|----------------|------------------|---------------|:-----------------:|-----------|

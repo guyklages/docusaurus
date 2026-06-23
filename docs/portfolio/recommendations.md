@@ -110,7 +110,8 @@
 ### Talk Group - database 
 
 | Recommendation | Person |
-| --- | --- || _Having managed Guy for 3 years, I would describe him as a very detail oriented and process intensive person. With a strong IT background, (our initial database system was based on his schematic), he excels where he is placed in situations where he can create standardized systems. Additionally, he is one of the most organized people I have ever met... just ask him about his "pet" database project. | [Jim Leu](https://www.linkedin.com/in/jimleu/) <br/><br/> Manager |
+| --- | --- |
+| _Having managed Guy for 3 years, I would describe him as a very detail oriented and process intensive person. With a strong IT background, (our initial database system was based on his schematic), he excels where he is placed in situations where he can create standardized systems. Additionally, he is one of the most organized people I have ever met... just ask him about his "pet" database project._ | [Jim Leu](https://www.linkedin.com/in/jimleu/) <br/><br/> Manager |
 
 ### Lung Electronics
 

@@ -134,7 +134,7 @@ In 2013, TEDxBeaconStreet wanted their Adventures guidebook (left side) to have 
 | ![Before](../../static/img/Pristine_2pg-to-1pg-table_BEFORE.png) | ![After](../../static/img/Pristine_2pg-to-1pg-table_AFTER.png) |
 
 
-## HP
+## Hewlett-Packard
 
 ### Localization languages
 

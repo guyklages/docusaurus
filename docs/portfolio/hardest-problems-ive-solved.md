@@ -168,14 +168,14 @@
 | PROBLEM: <br/> Daily&nbsp;call&nbsp;queue&nbsp;of&nbsp;120+&nbsp;customers&nbsp;never&nbsp;reduced. <br/> <br/> Each day, the director _randomly_ chose a _single_ time zone of North American customers to be called. <br/> <br/> Microsoft’s policy: <br/> 1. Call the customer's _home_. <br/> 2. If no answer, call their _office_. <br/> - But only on _another_ day. <br/> 3. If the 2nd call wasn’t answered, the case was _closed_ as “unanswered”. | MY SOLUTION: <br/> Call customers' preferred number at preferred time. <br/> <br/> 1. I was hired to manage a call center where staff would write down customers' issues for Microsoft Engineers to reply; instead, I saw many issues I knew the answer to and solved most of them while the customers were on the phone. <br/> <br/> 2. I redesigned their website and system to: <br/> - Use customers preferred phone number and time. <br/> Sort USA calls by customers’ preferred time based on their time zone. |
 | ![Map](../../static/img/USA-colored_timezones.png) | RESULTS: <br/> - Queue reduced from 120 to 10 calls in 2 weeks. <br/> - Duplicate and repeated calls reduced to 0. <br/> - Customer satisfaction skyrocketed due to me solving most of their questions on the phone.
 
-### 42x faster warranty website
+### 12x faster warranty website
 
-#### <mark> HP (Mt. View) -- Redesigned their database tables; website ran 42x faster </mark>
+#### <mark> HP (Mt. View) -- Redesigned their database tables; website ran about 12x faster </mark>
 
 | Before (May 2001) | After (Aug 2001) |
 |-------------------|------------------|
-| PROBLEM: <br/> Web application ran way too slow. <br/> <br/> Lead Engineer optimized the database table for _humans_: <br/> ![Before](../../static/img/HP_SqlServer_table_BEFORE.png) <br/> <br/> His code that queried the database: <br/> - For each field, used `SELECT *` <br/> &nbsp;&nbsp;&nbsp; - needs 2 network trips (1 for field list + 1 for field) <br/> - Had to search for which row contains the desired data <br/> <br/> (2)*(1+2+3+4+5+6) = 42 network trips | MY SOLUTION: <br/> I re-designed the database table and code. <br/> <br/> I optimized the database table for _computers_: <br/> ![After](../../static/img/HP_SqlServer_table_AFTER.png) <br/> <br/> <br/> <br/> <br/> <br/> My code that queried the database: <br/> - Used `SELECT Field1, Field2, ..., Field6` <br/> &nbsp;&nbsp;&nbsp; - needs only 1 network trip to get all desired fields <br/> - Had to search only 1 row for the desired data <br/> <br/> (1)*(1) = 1 network trip |
-| | RESULT: <br/> My code ran about 42 times faster. |
+| PROBLEM: <br/> Web application ran way too slow. <br/> <br/> Lead Engineer optimized the database table for _humans_: <br/> ![Before](../../static/img/HP_SqlServer_table_BEFORE.png) <br/> <br/> His code that queried the database: <br/> ![Before](../../static/img/HP_WarrantySQL_BEFORE.png) <br/> `SELECT *` needs 2 network trips (1 for field list + 1 for field) <br/> `WHERE` clause requires scanning the whole table | MY SOLUTION: <br/> I re-designed the database table and code. <br/> <br/> I optimized the database table for _computers_: <br/> ![After](../../static/img/HP_SqlServer_table_AFTER.png) <br/> <br/> <br/> <br/> <br/> <br/> I re-wrote his code as: <br/> ![After](../../static/img/HP_WarrantySQL_AFTER.png) |
+| | RESULT: <br/> My code ran about 12 times faster. |
 
 ### 40% increase in staff productivity
 

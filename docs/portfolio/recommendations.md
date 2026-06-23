@@ -42,6 +42,12 @@
 | --- | --- |
 | *Guy did an amazing job of writing and editing an enormous amount of content in a short time. Without him, we never would've been able to publish so many items. The next time we have a backlog of work, I hope to work with him again.* | [Pim van de Vis](https://www.linkedin.com/in/pimvandevis/) <br/><br/> Manager |
 
+### Hitachi
+
+| Recommendation | Person |
+| --- | --- |
+| _Basically his performance was very excellent and always kept his promise for deadline with positive attitude managing his own schedule by him self. This is most important skill and attitude for business in my project management point of view. <br/> <br/> His top strength is his positive, cooperative and courageous attitude for any kind of urgent work. As you may understand, project always has some kind of conflict, especially regarding deadline. I have asked him for target document and deadline change many time, but he accomplished our goal managing his own human resource and time, communicating with project management team and technical developers. I guess my request was very tough for him, but he accomplished all communicating with others. In addition to above, his way of talk is very charming and attarct audience based on his variety of background, I think this is also his strength and you may aware once you talk with him. <br/> <br/> I would definitely work with him again.  He was No.1 technical writer as far as I know. He lost his position in our company because of financial issue of Hitachi, but I believe this was big mistake by his manager._ | [Tetsuya Uda](https://www.linkedin.com/in/udatetsuya/) |
+
 ### ROAM Data
 
 | Recommendation | Person |

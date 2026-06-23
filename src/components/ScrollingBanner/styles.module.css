@@ -40,6 +40,13 @@
   line-height: 1.5;
 }
 
+/* Light mode override */
+[data-theme='light'] .bannerContainer {
+  background-color: #ffffff;
+  color: #000000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
 /* Pause on hover so users can easily read the multi-line block */
 .bannerContainer:hover .bannerTrack {
   animation-play-state: paused;

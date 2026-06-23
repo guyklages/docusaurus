@@ -4,34 +4,41 @@ const sidebars = {
         type: 'doc',
         id: 'portfolio/index',
         label: 'Guides and API reference',
+        className: 'portfolio-sidebar-item',
     },
     {
         type: 'doc',
         id: 'portfolio/five-favorite',
         label: '5 favorite samples',
+        className: 'portfolio-sidebar-item',
     },
     {
         type: 'doc',
         id: 'portfolio/before-and-after',
         label: 'BEFORE and AFTER',
+        className: 'portfolio-sidebar-item',
     },
     {
         type: 'doc',
         id: 'portfolio/hardest-problems-ive-solved',
         label: 'Hardest problems I\u0027ve solved',
+        className: 'portfolio-sidebar-item',
     },
     {
         type: 'doc',
         id: 'portfolio/diagrams',
         label: 'Diagrams and illustrations',
+        className: 'portfolio-sidebar-item',
     },
     {
         type: 'doc',
         id: 'portfolio/training',
+        className: 'portfolio-sidebar-item',
     },
     {
       type: 'doc',
       id: 'portfolio/recommendations',
+      className: 'portfolio-sidebar-item',
     },
   ],
   sidebarAtelioGuides: [

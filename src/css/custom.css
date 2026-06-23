@@ -66,6 +66,12 @@ div[class*="codeBlockTitle"] {
   font-size: 0.75rem;
 }
 
+/* Wider line spacing for the Portfolio sidebar only */
+.portfolio-sidebar-item .menu__link {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
 /* Increase font size of 1st-level TOC headings only */
 .table-of-contents > li > .table-of-contents__link {
   font-size: 1.2rem; /* default is ~0.8rem — adjust to taste */

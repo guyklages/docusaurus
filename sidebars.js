@@ -26,6 +26,12 @@ const sidebars = {
     },
     {
         type: 'doc',
+        id: 'portfolio/tools-and-stack',
+        label: 'Tools & Stack',
+        className: 'portfolio-sidebar-item',
+    },
+    {
+        type: 'doc',
         id: 'portfolio/diagrams',
         label: 'Diagrams and illustrations',
         className: 'portfolio-sidebar-item',

@@ -19,9 +19,9 @@ const FeatureList = [
     img: require('@site/static/img/Guy_working-two-monitors.png').default,
     description: (
       <>
-        Developer guides <br/> <br/>
+        Developer and SDK guides <br/>
         API reference <br/> <br/>
-        Information architecture organization
+        Designing, building, and scaling developer documentation systems
       </>
     ),
   },

@@ -16,7 +16,7 @@ const FeatureList = [
   },
   {
     title: 'Technical Writer',
-    img: require('@site/static/img/guy-workstation.png').default,
+    img: require('@site/static/img/Guy_working-two-monitors.png').default,
     description: (
       <>
         Developer guides <br/> <br/>

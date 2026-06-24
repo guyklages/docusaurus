@@ -1,6 +1,6 @@
-# REST authentication errors and indempotency requests
+# Stripe API authentication
 
-## Java API reference 
+## Introduction
 
 The Stripe API is organized around [REST](https://en.wikipedia.org/wiki/REST). Our API has predictable, resource-oriented URLs, and uses HTTP response codes to indicate API errors. We use built-in HTTP features, like HTTP authentication and HTTP verbs, which are understood by off-the-shelf HTTP clients. We support [cross-origin resource sharing](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing), allowing you to interact securely with our API from a client-side web application (though you should never expose your secret API key in any public website’s client-side code). 
 
@@ -26,6 +26,8 @@ Stripe.apiKey = "test_BQokikJOvBiI2HlWgH4olfQ2";
 
 Stripe uses conventional HTTP response codes to indicate the success or failure of an API request. However, not all errors map cleanly onto HTTP response codes. When a request is valid but does not complete successfully (e.g., a card is declined), we return a 402 error code. 
 
+### HTTP status code
+
 The following table shows an HTTP status code summary:
 
 | Status Code | Meaning |
@@ -39,6 +41,8 @@ The following table shows an HTTP status code summary:
 | `429` - Too Many Requests | Too many requests hit the API too quickly. |
 | `500`, `502`, `503`, `504` - Server Errors | Something went wrong on Stripe’s end. (These are rare.) |
 
+### Error types
+
 The following table shows the error types that you might come across:
 
 | Error Type | Meaning |
@@ -49,6 +53,8 @@ The following table shows the error types that you might come across:
 | `card_error`            | Card errors are the most common type of error you should expect to handle. They result when the user enters a card that cannot be charged for some reason. |
 | `invalid_request_error` | Invalid request errors arise when your request has invalid parameters. |
 | `rate_limit_error`      | Too many requests hit the API too quickly. 
+
+### Card errors
 
 The following table shows the kind of card error that might occur: 
 
@@ -391,7 +397,7 @@ You can also retrieve a list of the balance history, which contains a list of tr
 
 The available and pending amounts for each currency are broken down further by payment source types. 
 
-## The balance object 
+## `balance` object 
 
 The following table details all the attributes of the balance object. 
 
@@ -433,9 +439,9 @@ com.stripe.model.Balance JSON: {
 } 
 ```
 
-## The `balance_transaction` object 
+## `balance_transaction`
 
-The following table details all the attributes of the balance object: 
+The following table details all the attributes of the `balance_transaction` object: 
 
 | Attribute      | Type      | Definition |
 |----------------|-----------|------------|
@@ -452,7 +458,7 @@ The following table details all the attributes of the balance object:
 | `source`       | string    |The Stripe object this transaction is related to. |
 | [`sourced_transfer](#sourced_transfer) | list | The transfers (if any) for which source is a `source_transaction` |
 | `status`       | string    | If the transaction’s net funds are available in the Stripe balance yet. Valid values are `available` or `pending`. | 
-| `type`         | string | Transaction type valid values: `adjustment` <br/> `application_fee` <br/> `application_fee_refuncharge` <br/> `payment` <br/> `payment_refund` <br/> `refuntransfer` <br/> `transfer_cancel` <br/> `transfer_failure` <br/> `transfer_refund` |
+| `type`         | string | Transaction type valid values: <br/> `adjustment` <br/> `application_fee` <br/> `application_fee_refuncharge` <br/> `payment` <br/> `payment_refund` <br/> `refuntransfer` <br/> `transfer_cancel` <br/> `transfer_failure` <br/> `transfer_refund` |
 
 ### `fee_details`
 
@@ -475,7 +481,7 @@ The following are the `sourced_transfer` child attributes:
 | `object`       | string  | The value is `list`. |
 | `data`         | array   | Contains: transfer and object |
 | `has_more`     | boolean | The default is `false` |
-| `total_count ` | positive integer or zero | The total number of items available. This value is not included by default, but you can request it by specifying `?include[]=total_count` |
+| `total_count ` | positive integer or zero | The total number of items available. This value is not included by default, but you can request it by specifying <br/> `?include[]=total_count` |
 | `url`          | string  | The URL where this list can be accessed. 
 
 The following is an example response: 
@@ -624,7 +630,7 @@ The following table details all the _optional_ attributes involved in this featu
 | [`created`](#created) | A filter on the list based on the object `created` field. The value can be a string with an integer Unix timestamp, or it can be a dictionary with other options. (see the Note below) |
 | `currency`       | The currency used. |
 | `ending_before`  | A cursor for use in pagination. `ending_before` is an object ID that defines your place in the list. <br/> For example, if you make a list request and receive 100 objects, starting with `obj_bar`, your subsequent call can include `ending_before=obj_bar` in order to fetch the previous page of the list. |
-| `limit`          | | The default is 10. A limit on the number of objects to be returned. Limit can range between 1 and 100 items. |
+| `limit`          | The default is 10. A limit on the number of objects to be returned. Limit can range between 1 and 100 items. |
 | `source`         | Only returns the original transaction. |
 | `starting_after` | A cursor for use in pagination. `starting_after` is an object ID that defines your place in the list. <br/> For example, if you make a list request and receive 100 objects, starting with `obj_foo`, your subsequent call can include `starting_after=obj_foo` to fetch the next page of the list. |
 | `transfer`       | For automatic Stripe transfers only, only returns transactions out on the specified transfer ID. |

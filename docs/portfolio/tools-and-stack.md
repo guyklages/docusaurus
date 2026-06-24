@@ -4,7 +4,7 @@
 
 - Git, GitHub, GitLab (pipelines and feature flags)
 - Postman, VS Code
-- Docusaurus, ReadMe, Markdown, ReStructuredText
+- Docusaurus, ReadMe, Markdown
 - OpenAPI/Swagger, REST APIs
 
 ## Languages
@@ -23,7 +23,7 @@
 
 | Type | Tool |
 |------|------|
-| Authoring | Docs-as-code, Sphnix, LaTeX, MacTex, AsciiDoc, GovCloud, Mintlify, MkDocs, Redocly, Texts |
+| Authoring | Docs-as-code, Sphnix, LaTeX, MacTex, AsciiDoc, GovCloud, Mintlify, MkDocs, Redocly, RST, Texts |
 | API       | SOAP, cURL |
 | CI/CD     | CircleCI, Jekyll, Jenkins, Screwdriver, Kubernetes |
 | Languges  | OOP, C++, Java, MVC, NPM, VB |

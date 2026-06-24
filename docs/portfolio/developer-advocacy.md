@@ -11,8 +11,9 @@
 
 | Post | Audience | Remarks |
 |------|----------|---------|
-| [Blog1]() | |
-| [Blog2]() | |
+| [Stripe API authentication](../../blog/2019-09-22-rest-auth-errors-indempotent-requests.md) | Fintech developers | Authentication, errors, idempotent requests, pagination, etc. |
+| [Stripe API charges]() | Fintech developers | Charges object, creating, retrieving, updating, etc. |
+| [Stripe API customers]() | Fintech developers | Customers object, creating, retrieving, updating, etc. |
 
 ## Community contributions
 

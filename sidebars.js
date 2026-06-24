@@ -32,6 +32,12 @@ const sidebars = {
     },
     {
         type: 'doc',
+        id: 'portfolio/developer-advocacy',
+        label: 'Developer advocacy',
+        className: 'portfolio-sidebar-item',
+    },
+    {
+        type: 'doc',
         id: 'portfolio/diagrams',
         label: 'Diagrams and illustrations',
         className: 'portfolio-sidebar-item',

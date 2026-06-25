@@ -11,9 +11,9 @@
 
 | Post | Audience | Remarks |
 |------|----------|---------|
-| [Stripe API authentication](/blog/2019-09-22-stripe-api-auth.md) | Fintech developers | Authentication, errors, idempotent requests, pagination, etc. |
-| [Stripe API charges](/blog/2019-09-22-stripe-api-auth.md) | Fintech developers | Charges object, creating, retrieving, updating, etc. |
-| [Stripe API customers](/blog/2019-09-22-stripe-api-auth.md) | Fintech developers | Customers object, creating, retrieving, updating, etc. |
+| [Stripe API authentication](/blog/2019/09/22/stripe-api-auth) | Fintech developers | Authentication, errors, idempotent requests, pagination, etc. |
+| [Stripe API charges](/blog/2019/09/22/stripe-api-auth) | Fintech developers | Charges object, creating, retrieving, updating, etc. |
+| [Stripe API customers](/blog/2019/09/22/stripe-api-auth) | Fintech developers | Customers object, creating, retrieving, updating, etc. |
 
 ## Community contributions
 

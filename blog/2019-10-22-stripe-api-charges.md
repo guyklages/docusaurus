@@ -1,5 +1,4 @@
 ---
-slug: stripe-api-charges
 title: Stripe's charges API
 authors: [guyklages]
 tags: [fintech]

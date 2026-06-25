@@ -1,4 +1,10 @@
-# Stripe authentication API
+---
+slug: stripe-api-authentication
+title: Stripe's authentication API
+authors: [guyklages]
+tags: [fintech]
+---
+
 
 ## Introduction
 

@@ -5,7 +5,6 @@ authors: [guyklages]
 tags: [fintech]
 ---
 
-# Stripe charges API
 
 ## Introduction 
 

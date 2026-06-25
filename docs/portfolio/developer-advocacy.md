@@ -21,6 +21,8 @@
 - GitHub issues
 - StackOverflow answers
 
+I replied to [3 posts on Couchbase's forum](https://www.couchbase.com/forums/u/guy.klages/activity) and replied to dozens of forum posts via email for the customers' privacy. In the future, I'll post the helpful parts in the forum so everyone can benefit.
+
 ## Feedback loops
 
 On the [Couchbase SQL++ for Query Reference](https://docs.couchbase.com/cloud/n1ql/n1ql-language-reference/index.html) and Atelio documentation pages, I added a feedback mechanism:

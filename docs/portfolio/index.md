@@ -13,11 +13,11 @@ I created and fully owned the following company websites. I used Git, Markdown, 
 
 ## My most technical projects
 
-| Company   | Project | Outcome |
-|-----------|---------|---------|
-| Microsoft | Goverance of and guardrails for Copilot Agents | Many internal templates for guiding the creation and use of Copilot AI Agents |
-| Netflix   | Internal AI/ML/LLM tools | Internal documentation for the usage, installing, and configuring of their tool that populates the Netflix Home screen of titles |
-| Yahoo     | Internal AI/ML/LLM tools | Internal documentation |
+| Company   | Project | Developer problem I solved |
+|-----------|---------|----------------------------|
+| Microsoft | Goverance of and guardrails for Copilot Agents | Created a framework with template Markdown and YAML files to make it easier for developers to build Copilot Agents | 
+| Netflix   | Internal AI/ML/LLM tools that populate the Netflix Home screen of titles | Created internal documentation for the complex installation and configuration of their tool so other departments can use it as well |
+| Yahoo     | Filling in gaps and improving internal docs on AI/ML/LLM tools | Created better internal documentation for engineers to use the Apache ecosystem tools for their Big Data and IoT projects |
 
 ## Various types of PDF guides
 

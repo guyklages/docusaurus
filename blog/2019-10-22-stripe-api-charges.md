@@ -1,3 +1,10 @@
+---
+slug: stripe-api-charges
+title: Stripe's charges API
+authors: [guyklages]
+tags: [fintech]
+---
+
 # Stripe charges API
 
 ## Introduction 
@@ -527,119 +534,111 @@ The following are the _optional_ arguments in this feature.
 
 | Argument | Definition |
 |----------|------------|
-A filter on the list based on the 
-object created field. The value 
+| [`created`](#created) | A filter on the list based on the object `created` field. The value can be a string with an integer Unix timestamp, or it can be a dictionary with the other options. |
+| `customer` | Only return charges for the customer specified by this customer ID. 
+| `ending_before` | A cursor for use in pagination. `ending_before` is an object ID that defines your place in the list. For example, if you make a list request and receive 100 objects, starting with `obj_bar`, your subsequent call can include `ending_before=obj_bar` in order to fetch the previous page of the list. |
+| `limit` | Default is 10 | 
+| [`source`](#source) | A filter on the list based on the source of the charge. The value can be a dictionary with the other options. Default is `{object:”all”}` |
+| `starting_after` | A cursor for use in pagination. `starting_after` is an object ID that defines your place in the list. For example, if you make a list request and receive 100 objects, ending with `obj_foo`, your subsequent call can include `starting_after=obj_foo` to fetch the next page of the list. |
 
-created(*) 
-Optional dictionary 
-can be a string with an integer Unix timestamp, or it can be a dictionary with the other options. 
-Only return charges for the 
+### `created`
 
-customer Optional ending_before Optional 
-customer specified by this customer ID. 
-A cursor for use in pagination. ending_before is an object ID that defines your place in the list. For instance, if you make a list request and receive 100 objects, starting with obj_bar , your subsequent call can include 
-ending_before=obj_bar in order to fetch the previous page
+The following are the `created` object's _optional_ timestamp child arguments.
 
-of the list. 
-limit 
-Optional. 
+| Argument | Definition |
+|----------|------------|
+| `gt`     | (greater than) Return values where the `created` field is after this timestamp. |
+| `gte`    | (greater than or equal) Return values where the `created` field is after or equal to this timestamp. |
+| `lt`     | (less than) Return values where the `created` field is before this timestamp. |
+| `lte`    | (less than or equal) Return values where the `created` field is before or equal to this timestamp. |
 
-source(**) 
-Default is 10 
-Optional 
-dictionary. 
-Default is 
-{object:”all”}. 
-A filter on the list based on the source of the charge. The value can be a dictionary with the other options. 
-A cursor for use in pagination. starting_after is an object ID that defines your place in the list. For instance, if you make a list request and receive 100 
+### `source`
 
-starting_after Optional 
-objects, ending with obj_foo , your subsequent call can include 
-starting_after=obj_foo in order to fetch the next page of the list. 
+The following is the `source` object's _optional_ child argument. 
 
-Note: (*) Following are its optional child arguments. 
-Argument Type Definition 
-gt timestampReturn values where the created field is after this timestamp.
-gte timestampReturn values where the created field is after or equal to this timestamp. 
-It timestampReturn values where the created field is before this timestamp. 
-Ite timestampReturn values where the created field is before or equal to this timestamp. 
-(**) Following is its optional child argument. 
-Argument Definition 
-Return charges that match this source type string. 
+| Argument | Definition |
+|----------|------------|
+| `object` | Return charges that match this source type string. Valid values are `all`, `alipay_account`, `bitcoin_receiver`, or `card`. |
 
-object 
-Returns 
-Available options are all , alipay_account , bitcoin_receiver , or card . 
 
-A dictionary with a data property that contains an array of up to limit charges, starting after charge starting_after . Each entry in the array is a separate charge object. If no more charges are available, the resulting array will be empty. If you provide a non-existent customer ID, this call raises an error. 
-You can optionally request that the response include the total count of all charges that match your filters. To do so, specify 
-include[]=total_count in your request.
-Following is an example response: 
-#<com.stripe.model.ChargeCollection id=#> JSON: { "data": [ 
-com.stripe.model.Charge JSON: { 
-"id": "ch_182TXr2eZvKYlo2CL7W1pRX8", 
-"object": "charge", 
-"amount": 4900, 
-"amount_refunded": 0, 
-"application_fee": null, 
-"balance_transaction": "txn_17bBwe2eZvKYlo2Cuwcyi9or" , 
-"captured": true, 
-"created": 1461190299, 
-"currency": "usd", 
-"customer": "cus_8J5jPkKzifsycT", 
-"description": "Premiere", 
-"destination": null, 
-"dispute": null, 
-"failure_code": null, 
-"failure_message": null, 
-"fraud_details": { 
-}, 
-"invoice": null, 
-"livemode": false, 
-"metadata": { 
-},
-"order": null, 
-"paid": true, 
-"receipt_email": null, 
-"receipt_number": null, 
-"refunded": false, 
-"refunds": { 
-"object": "list", 
-"data": [ 
-], 
-"has_more": false, 
-"total_count": 0, 
-"url": "/v1/charges/ch_182TXr2eZvKYlo2CL7W1pRX8/ref unds" 
-}, 
-"shipping": null, 
-"source": { 
-"id": "card_182TXm2eZvKYlo2Cgun0fmfC", 
-"object": "card", 
-"address_city": null, 
-"address_country": null, 
-"address_line1": null, 
-"address_line1_check": null, 
-"address_line2": null, 
-"address_state": null, 
-"address_zip": null, 
-"address_zip_check": null, 
-"brand": "Visa",
-"country": "US", 
-"customer": "cus_8J5jPkKzifsycT", "cvc_check": "pass", 
-"dynamic_last4": null, 
-"exp_month": 12, 
-"exp_year": 2034, 
-"funding": "credit", 
-"last4": "4242", 
-"metadata": { 
-}, 
-"name": "sergio@willing.com", 
-"tokenization_method": null 
-}, 
-"source_transfer": null, 
-"statement_descriptor": null, 
-"status": "succeeded" 
-}, 
-#<com.stripe.model.Charge[...] ...>, #<com.stripe.model.Charge[...] ...> ], 
-"has_more": false 
+## Returns
+
+A dictionary with a `data` property that contains an array of up to `limit` charges, starting after charge `starting_after`. Each entry in the array is a separate charge object. If no more charges are available, the resulting array will be empty. If you provide a non-existent customer ID, this call raises an error.
+
+You can optionally request that the response include the total count of all charges that match your filters. To do so, specify `include[]=total_count` in your request.
+
+The following is an example response: 
+
+```json
+#<com.stripe.model.ChargeCollection id=#> JSON: { 
+  "data": [ 
+    com.stripe.model.Charge JSON: { 
+      "id": "ch_182TXr2eZvKYlo2CL7W1pRX8", 
+      "object": "charge", 
+      "amount": 4900, 
+      "amount_refunded": 0, 
+      "application_fee": null, 
+      "balance_transaction": "txn_17bBwe2eZvKYlo2Cuwcyi9or" , 
+      "captured": true, 
+      "created": 1461190299, 
+      "currency": "usd", 
+      "customer": "cus_8J5jPkKzifsycT", 
+      "description": "Premiere", 
+      "destination": null, 
+      "dispute": null, 
+      "failure_code": null, 
+      "failure_message": null, 
+      "fraud_details": { 
+      }, 
+      "invoice": null, 
+      "livemode": false, 
+      "metadata": { 
+      },
+      "order": null, 
+      "paid": true, 
+      "receipt_email": null, 
+      "receipt_number": null, 
+      "refunded": false, 
+      "refunds": { 
+        "object": "list", 
+        "data": [ 
+        ], 
+        "has_more": false, 
+        "total_count": 0, 
+        "url": "/v1/charges/ch_182TXr2eZvKYlo2CL7W1pRX8/ref unds" 
+      }, 
+      "shipping": null, 
+      "source": { 
+        "id": "card_182TXm2eZvKYlo2Cgun0fmfC", 
+        "object": "card", 
+        "address_city": null, 
+        "address_country": null, 
+        "address_line1": null, 
+        "address_line1_check": null, 
+        "address_line2": null, 
+        "address_state": null, 
+        "address_zip": null, 
+        "address_zip_check": null, 
+        "brand": "Visa",
+        "country": "US", 
+        "customer": "cus_8J5jPkKzifsycT", "cvc_check": "pass", 
+        "dynamic_last4": null, 
+        "exp_month": 12, 
+        "exp_year": 2034, 
+        "funding": "credit", 
+        "last4": "4242", 
+        "metadata": { 
+        }, 
+        "name": "sergio@willing.com", 
+        "tokenization_method": null 
+      }, 
+      "source_transfer": null, 
+      "statement_descriptor": null, 
+      "status": "succeeded" 
+    }, 
+    #<com.stripe.model.Charge[...] ...>, 
+    #<com.stripe.model.Charge[...] ...> 
+  ], 
+  "has_more": false 
 }
+```

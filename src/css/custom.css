@@ -73,6 +73,9 @@ div[class*="codeBlockTitle"] {
 }
 
 /* Increase font size of 1st-level TOC headings only (not on blog posts) */
-:not(.blog-post-page) .table-of-contents > li > .table-of-contents__link {
+.table-of-contents > li > .table-of-contents__link {
   font-size: 1.2rem;
+}
+.blog-post-page .table-of-contents > li > .table-of-contents__link {
+  font-size: inherit;
 }

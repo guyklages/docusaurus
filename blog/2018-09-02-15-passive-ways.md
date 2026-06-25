@@ -1,13 +1,13 @@
 ---
 slug: 15-passive-ways
-title: 15 passive ways for employers to find you
+title: 15 passive ways for employers (or clients) to find you on LinkedIn
 authors: [guyklages]
 tags: [linkedin, job-hunting, portfolio]
 ---
 
 ![15](../static/img/Blog_15-passive-ways_man-selecting-candidate.png)
 
-# 15 passive ways for employers (or clients) find you on LinkedIn
+
 
 Job hunting is a full-time job; and these are the things on LinkedIn that you can do to jumpstart your search while you're still working.
 

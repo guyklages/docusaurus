@@ -54,6 +54,7 @@ presets: [
         //  'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
       },
       blog: {
+        blogSidebarCount: 'ALL',
         showReadingTime: true,
         feedOptions: {
           type: ['rss', 'atom'],

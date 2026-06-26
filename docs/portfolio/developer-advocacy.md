@@ -9,11 +9,19 @@
 
 ## Blog posts
 
+### API
+
 | Post | Audience | Remarks |
 |------|----------|---------|
 | [Stripe API authentication](/blog/2019/09/22/stripe-api-authentication) | Fintech developers | Authentication, errors, idempotent requests, pagination, etc. |
 | [Stripe API charges](/blog/2019/10/22/stripe-api-charges) | Fintech developers | Charges object, creating, retrieving, updating, etc. |
-| [Stripe API customers](/blog/2019/09/22/stripe-api-authentication) | Fintech developers | Customers object, creating, retrieving, updating, etc. |
+| [Stripe API customers](/blog/2019/11/22/stripe-api-customers) | Fintech developers | Customers object, creating, retrieving, updating, etc. |
+
+### SDK
+
+| Post | Audience | Remarks |
+|------|----------|---------|
+| [Android SDK for online payments](/blog/2020/04/04/android-sdk-online-payments) | Fintech developers | Using Android Pay, collecting credit card info, etc. |
 
 ## Community contributions
 

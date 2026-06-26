@@ -32,7 +32,7 @@ For Eclipse, follow these steps:
 3. [Import](https://help.eclipse.org/latest/index.jsp?topic=%2Forg.eclipse.platform.doc.user%2Ftasks%2Ftasks-importproject.htm) the stripe folder into Eclipse.
 4. In your project settings, add the 'stripe' project under the "Libraries" section of the "Android" category.
 
-## Collecting Credit Card Information
+## Collecting credit card information
 
 At some point in the flow of your app, you will want to obtain payment details from the user. There are 2 ways to do this:
     • Use Android Pay to access your customer's stored card information
@@ -46,11 +46,11 @@ Through Android Pay, you can access payment information stored in your customer'
 
 Note: When this documentation was released, Android Pay was still in Beta Version.
 
-### Setting Up Your App
+## Setting up your app
 
 First, you will need to obtain credentials and a client ID for your app, as explained in the Android Pay API Tutorial. You will also need to set up the latest version of [Google Play services](https://developers.google.com/android/guides/setup?device=phone-tablet).
 
-### Collecting Payment Information Through Android Pay
+## Collecting payment information via Android Pay
 
 To use Android Pay in your app, first enable the Android Pay API by adding the following code to the `<application>` tag of your `AndroidManifest.xml`:
 
@@ -163,7 +163,7 @@ public class PaymentActivity extends FragmentActivity implements GoogleApiClient
 }
 ```
 
-**Note**: The price set within the Android app is written as a decimal and is for the Android app only. The token received back will be sent to your server, and the charge request will be made of the Stripe API from there. The actual amount to be charged is requested at that point, and is set as an integer.
+**Note**: <br/> The price set within the Android app is written as a decimal and is for the Android app only. The token received back will be sent to your server, and the charge request will be made of the Stripe API from there. The actual amount to be charged is requested at that point, and is set as an integer.
 
 The last step of the Android Pay setup process for the app is to connect to the Google Wallet API. This connection handles the case when a user presses the Android Pay purchase button and the payment is processed. To do so, add the following code:
 
@@ -231,7 +231,7 @@ public class PaymentActivity extends FragmentActivity {
 }
 ```
 
-**Note**: The above example has only one item, but if your customer is purchasing multiple items, you can add multiple items by calling addLineItem additional times.
+**Note**: <br/> The above example has only one item, but if your customer is purchasing multiple items, you can add multiple items by calling addLineItem additional times.
 
 ### Creating Tokens from Android Pay
 
@@ -267,7 +267,7 @@ public class PaymentActivity extends FragmentActivity {
 }
 ```
 
-### Testing and Deploying with Android Pay
+## Testing and deploying with Android Pay
 
 To test your Android Pay flow, use your live Stripe API key, not your test key, in conjunction with the Android Pay test environment, specified by `WalletConstants.ENVIRONMENT_TEST`.
 
@@ -277,13 +277,13 @@ If you want to test your application on a physical device, make sure the device 
 
 When you are ready, you can get production access to Android Pay by submitting your APK to Google for review.
 
-### Building your own form
+## Building your own form
 
 If you plan to build your own form, make sure you will at least be able to collect your customer's card numbers and expiration dates. We recommend you to also collect the CVC to prevent fraud. The user's name and billing address are optional and would benefit you in terms of fraud protection.
 
 Once you have collected a customer's information, you will need to exchange the information for a Stripe token.
 
-### Creating and validating cards from a customer form
+## Creating and validating cards from a customer form
 
 The first step is to import the Stripe classes before using them:
 
@@ -320,7 +320,7 @@ if ( !card.validateCard() ) {
 }
 ```
 
-### Creating tokens from a customer form
+## Creating tokens from a customer form
 
 The next step is to pass off that sensitive payment information securely to Stripe, where you will exchange it for a token.
 
@@ -349,7 +349,7 @@ stripe.createToken(
 
 We have placed your test publishable API key as the first argument to `Stripe`. You will need to swap it out with your live publishable key in production. You can see all your keys after logging into your Stripe dashboard.
 
-### Using Tokens
+## Using Tokens
 
 Using the payment token requires an API call from your server using your secret API key. For security purposes, you should never embed your secret API key in your app.
 

@@ -50,7 +50,7 @@ Note: When this documentation was released, Android Pay was still in Beta Versio
 
 First, you will need to obtain credentials and a client ID for your app, as explained in the Android Pay API Tutorial. You will also need to set up the latest version of [Google Play services](https://developers.google.com/android/guides/setup?device=phone-tablet).
 
-## Collecting payment information via Android Pay
+## Collecting payment info via Android Pay
 
 To use Android Pay in your app, first enable the Android Pay API by adding the following code to the `<application>` tag of your `AndroidManifest.xml`:
 
@@ -233,7 +233,7 @@ public class PaymentActivity extends FragmentActivity {
 
 **Note**: <br/> The above example has only one item, but if your customer is purchasing multiple items, you can add multiple items by calling addLineItem additional times.
 
-### Creating Tokens from Android Pay
+## Creating tokens from Android Pay
 
 Once your customer allows access to their wallet for payment, the application will be given back a Stripe token. You will then send this token to your server for use through the API.
 

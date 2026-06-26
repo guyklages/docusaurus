@@ -92,9 +92,7 @@ The following are the arguments of this feature.
 
 | Argument   | Condition | Definition |
 |------------|-----------|------------|
-| `amount`   | Required  | A positive integer in the smallest currency unit (e.g 100 cents to charge $1.00, or 
-1 to charge ¥1, a 0-decimal currency) representing how much to charge the card. The minimum amount is $0.50 (or 
-equivalent in charge currency). |
+| `amount`   | Required  | A positive integer in the smallest currency unit (e.g 100 cents to charge $1.00, or 1 to charge ¥1, a 0-decimal currency) representing how much to charge the card. The minimum amount is $0.50 (or equivalent in charge currency). |
 | `currency` | Required  | Three-letter ISO code for currency. |
 | `application_fee` | Connect only | A fee in cents that will be applied to the charge and transferred to the application owner’s Stripe account. To use an application fee, the request must be made on behalf of another account, using the Stripe-Account header, an OAuth key, or the `destination` parameter. 
 | `capture`  | Optional | An arbitrary string which you can attach to a charge object. It is displayed when in the web interface alongside the charge. Note that if you use Stripe to send automatic email receipts to your customers, your receipt emails will include the `description` of the charge(s) that they are describing. Default is `true` | 
@@ -103,12 +101,12 @@ equivalent in charge currency). |
 | `receipt_email` | Optional | The email address to send this charge’s receipt to. The receipt will not be sent until the charge is paid. If this charge is for a customer, the email address specified here will override the customer’s email address. Receipts will not be sent for test mode charges. If `receipt_email` is specified for a charge in live mode, a receipt will be sent regardless of your email settings. Default is `None` |
 | `shipping`      | Optional | Shipping information for the charge. Helps prevent fraud on charges for physical goods. Default is `{}` | 
 | `customer`      | Either `customer` or `source` is required | The ID of an existing customer that will be charged in this request. |
-| [`source`](#source) | Either `customer` or `source` is required | A payment source to be charged, such as a credit card. If you also pass a customer ID, the source must be the ID of a source belonging to the customer. Otherwise, if you do not pass a customer ID, the source you provide must either be a token, like the ones returned by Stripe.js, or a dictionary containing a user’s credit card details, with the options described below. Although not all information is required, the extra info helps prevent fraud. |
+| [`source`](#create-source) | Either `customer` or `source` is required | A payment source to be charged, such as a credit card. If you also pass a customer ID, the source must be the ID of a source belonging to the customer. Otherwise, if you do not pass a customer ID, the source you provide must either be a token, like the ones returned by Stripe.js, or a dictionary containing a user’s credit card details, with the options described below. Although not all information is required, the extra info helps prevent fraud. |
 | `statement_descriptor` | Optional | An arbitrary string to be displayed on your customer’s credit card statement. This may be up to 22 characters. As an example, if your website is `RunClub` and the item you’re charging for is a race ticket, you may want to specify a `statement_descriptor` of `RunClub 5K race ticket`. The statement description may not include `<>"'` characters, and will appear on your customer’s statement in capital letters. Non-ASCII characters are automatically stripped. While most banks display this information consistently, some may display it incorrectly or not at all. Default is `None` |
 
-### `source`
+### `create-source`
 
-The following are the `source` object child attributes. 
+The following are the `create-source` object child attributes. 
 
 | Attribute   | Condition | Definition |
 |-------------|-----------|------------| 
@@ -117,10 +115,10 @@ The following are the `source` object child attributes.
 | `number`    | Required  | The card number, as a string without any separators |
 | `object`    | Required  | The type of payment source. Should be `card` |
 | `cvc`       | Required  | Card security code. Required unless your account is registered in Australia, Canada, or the United States. Highly recommended to always include this value. |
-| `address_city`   | Optional | |
-| `address_country | Optional | |
-| `address_line1`  | Optional | |
-| `address_line2`  | Optional | |
+| `address_city`    | Optional | The create source address' city |
+| `address_country` | Optional | The create source address' country |
+| `address_line1`   | Optional | The create source address' street |
+| `address_line2`   | Optional | The create source address' suite / apartment / company name |
 
 The following is an example request: 
 
@@ -340,9 +338,7 @@ The following are the _optional_ arguments of this feature.
 | Attribute      | Definition |
 |----------------|------------|
 | `description`  | An arbitrary string which you can attach to a charge object. It is displayed when in the web interface alongside the charge. Note that if you use Stripe to send automatic email receipts to your customers, your receipt emails will include the `description` of the charge(s) that they are describing. This will be unset if you POST an empty value.This can be unset by updating the value to `None` and then saving. Default is `None`. |
- `fraud_details` | A set of key/value pairs you can attach to a charge giving information about its riskiness. If you believe a charge is fraudulent, include a `user_report` key with a value of `fraudulent` . If you believe a charge is safe, include a `user_report` key with a value of `safe`. Note that you must refund a charge before setting the 
-`user_report` to `fraudulent`. Stripe will use the information you send to improve our fraud detection algorithms.
- Default is `{}` |
+ `fraud_details` | A set of key/value pairs you can attach to a charge giving information about its riskiness. If you believe a charge is fraudulent, include a `user_report` key with a value of `fraudulent` . If you believe a charge is safe, include a `user_report` key with a value of `safe`. Note that you must refund a charge before setting the `user_report` to `fraudulent`. Stripe will use the information you send to improve our fraud detection algorithms. Default is `{}` |
 | `metadata`     | A set of key/value pairs that you can attach to a charge object. It can be useful for storing additional information about the charge in a structured format. You can unset individual keys if you POST an empty value for that key. You can clear all keys if you POST an empty value for metadata.You can unset an individual key by setting its value to `None` and then saving. To clear all keys, set metadata to `None`, then save. Default is `{}` |
 | `receipt_email` | This is the email address that the receipt for this charge will be sent to. If this field is updated, then a new email receipt will be sent to the updated address. Default is `None` |
 | `shipping`      | Shipping information for the charge. Helps prevent fraud on charges for physical goods.  Default is `{}` |
@@ -438,12 +434,10 @@ The following are the arguments in this feature.
 | Argument          | Condition | Definition |
 |-------------------|-----------|------------| 
 | `charge`          | Required  |            |
-| `amount`          | Optional  | The amount to capture, which must be less than or equal to the original 
-amount. Any additional amount will be automatically refunded. |
+| `amount`          | Optional  | The amount to capture, which must be less than or equal to the original amount. Any additional amount will be automatically refunded. |
 | `application_fee` | Optional  | An application fee to add on to this charge. Can only be used with Stripe Connect. |
 | `receipt_email`   | Optional  | The email address to send this charge’s receipt to. This will override the previously-specified email address for this charge, if one was set. Receipts will not be sent in test mode. |
-| `statement_descriptor Optional. | An arbitrary string to be displayed on your customer’s credit card  
-statement. This may be up to 22 characters. As an example, if your website is `RunClub` and the item you’re charging for is a race ticket, you may want to specify a `statement_descriptor` of `RunClub 5K race ticket`. The statement description may not include `<>"'` characters, and will appear on your customer’s statement in capital letters. Non-ASCII characters are automatically stripped. Updating this value will overwrite the previous statement descriptor of this charge. While most banks display this information consistently, some may display it incorrectly or not at all. |
+| `statement_descriptor` | Optional | An arbitrary string to be displayed on your customer’s credit card statement. This may be up to 22 characters. As an example, if your website is `RunClub` and the item you’re charging for is a race ticket, you may want to specify a `statement_descriptor` of `RunClub 5K race ticket`. The statement description may not include `<>"'` characters, and will appear on your customer’s statement in capital letters. Non-ASCII characters are automatically stripped. Updating this value will overwrite the previous statement descriptor of this charge. While most banks display this information consistently, some may display it incorrectly or not at all. |
 
 The following is an example request: 
 
@@ -532,16 +526,16 @@ The following are the _optional_ arguments in this feature.
 
 | Argument | Definition |
 |----------|------------|
-| [`created`](#created) | A filter on the list based on the object `created` field. The value can be a string with an integer Unix timestamp, or it can be a dictionary with the other options. |
+| [`created`](#list-created) | A filter on the list based on the object `created` field. The value can be a string with an integer Unix timestamp, or it can be a dictionary with the other options. |
 | `customer` | Only return charges for the customer specified by this customer ID. 
 | `ending_before` | A cursor for use in pagination. `ending_before` is an object ID that defines your place in the list. For example, if you make a list request and receive 100 objects, starting with `obj_bar`, your subsequent call can include `ending_before=obj_bar` in order to fetch the previous page of the list. |
 | `limit` | Default is 10 | 
-| [`source`](#source) | A filter on the list based on the source of the charge. The value can be a dictionary with the other options. Default is `{object:”all”}` |
+| [`source`](#list-source) | A filter on the list based on the source of the charge. The value can be a dictionary with the other options. Default is `{object:”all”}` |
 | `starting_after` | A cursor for use in pagination. `starting_after` is an object ID that defines your place in the list. For example, if you make a list request and receive 100 objects, ending with `obj_foo`, your subsequent call can include `starting_after=obj_foo` to fetch the next page of the list. |
 
-### `created`
+### `list-created`
 
-The following are the `created` object's _optional_ timestamp child arguments.
+The following are the `list-created` object's _optional_ timestamp child arguments.
 
 | Argument | Definition |
 |----------|------------|
@@ -550,9 +544,9 @@ The following are the `created` object's _optional_ timestamp child arguments.
 | `lt`     | (less than) Return values where the `created` field is before this timestamp. |
 | `lte`    | (less than or equal) Return values where the `created` field is before or equal to this timestamp. |
 
-### `source`
+### `list-source`
 
-The following is the `source` object's _optional_ child argument. 
+The following is the `list-source` object's _optional_ child argument. 
 
 | Argument | Definition |
 |----------|------------|

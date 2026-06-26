@@ -21,7 +21,7 @@ The following table lists the attributes in the `charge` object.
 
 | Attribute         | Type   | Definition |
 |-------------------|--------|------------|
-| `id`              | string | The unique ID. |
+| `id`              | string | The unique ID |
 | `object`          | string | The value is `charge` |
 | `amount`          | positive integer or zero | Amount charged in cents | 
 | `amount_refunded` | positive integer or zero | Amount in cents refunded (can be less than the amount attributes on the charge if a partial refund was issued) |

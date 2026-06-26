@@ -1,5 +1,5 @@
 ---
-title: Stripe's charges API
+title: Stripe's customers API
 authors: [guyklages]
 tags: [fintech]
 ---
@@ -44,7 +44,7 @@ The following is the `customer-shipping` object's child attribute.
 
 | Attribute             | Type  | Description               |
 |-----------------------|-------|---------------------------|
-| [`address`](#address) | hash  | Customer shipping address |
+| [`address`](#customer-shipping-address) | hash  | Customer shipping address |
 
 #### `customer-shipping-address`
 
@@ -83,7 +83,7 @@ The following are the `customer-subscriptions` object's child attributes.
 | `total_count` | positive integer or zero | The total number of items available. This value is not included by default, but you can request it by specifying `?include[]=total_count`. |
 | `url`         | string    | The URL where this list can be accessed. |
 
-Following is an example response: 
+The following is an example response: 
 
 ```json
 com.stripe.model.Customer JSON: {
@@ -194,32 +194,31 @@ The following are the _optional_ arguments in this feature.
 | quantity | The quantity you’d like to apply to the subscription you’re creating (if you pass in a `plan`). For example, if your plan is 10 cents/user/month, and your customer has 5 users, you could pass 5 as the quantity to have the customer charged 50 cents (5 x 10 cents) monthly. Defaults to `1` if not set. Only applies when the `plan` parameter is also provided. |
 | [`shipping`](#shipping) | The shipping address | 
 | [`source`](#source) | The source can either be a token, like the ones returned by our Stripe.js, or a dictionary containing a user’s credit card details. |
-| `tax_percent` | A positive decimal (with at most two decimal places) between 1 and 100. This represents the percentage of the subscription invoice subtotal that will be calculated and added as tax to the final amount each billing period. For example, a plan which charges $10/month with a 
-`tax_percent` of 20.0 will charge $12 per invoice. Can only be used if a plan is provided. 
+| `tax_percent` | A positive decimal (with at most two decimal places) between 1 and 100. This represents the percentage of the subscription invoice subtotal that will be calculated and added as tax to the final amount each billing period. For example, a plan which charges $10/month with a `tax_percent` of 20.0 will charge $12 per invoice. Can only be used if a plan is provided. |
 | `trial_end` | Unix timestamp representing the end of the trial period the customer will get before being charged. If set, `trial_end` will override the default trial period of the plan the customer is being subscribed to. The special value now can be provided to end the customer’s trial immediately. Only applies when the plan parameter is also provided. |
 
 ### `create-shipping`
 
 The following are the `shipping` object's child arguments. 
 
-| Argument  | Condition |
-|-----------|-----------|
-| [`address`](#shipping-address) | Required  |
-| `name`    | Required  |
-| `phone`   | Optional  |
+| Argument  | Condition | Description |
+|-----------|-----------|-------------|
+| [`address`](#shipping-address) | Required  | The full shipping address |
+| `name`    | Required  | The name of the shipping contact |
+| `phone`   | Optional  | The phone number of the shipping contact |
 
 #### `create-shipping-address`
 
 The following are the `create-shipping-address` object's child arguments.
 
-| Argument      | Condition |
-|---------------|-----------|
-| `line1`       | Required  |
-| `line2`       | Optional  |
-| `city`        | Optional  |
-| `country`     | Optional  |
-| `postal_code` | Optional  |
-| `state`       | Optional  |
+| Argument      | Condition | Description |
+|---------------|-----------|-------------|
+| `line1`       | Required  | The shipping address' street |
+| `line2`       | Optional  | The shipping address' building / company name / etc. |
+| `city`        | Optional  | The shipping address' city |
+| `country`     | Optional  | The shipping address' country |
+| `postal_code` | Optional  | The shipping address' zip / postal code |
+| `state`       | Optional  | The shipping address' state / territory / province |
 
 ### `create-source`
 
@@ -237,11 +236,9 @@ The following are the `create-source` object's child arguments.
 | `address_line2`   | Optional | The source's building / company name |
 | `address_state`   | Optional | The source's state |
 | `address_zip`     | Optional | The source's zip / postal code |
-| `currency`        | Managed Accounts Only | Required when adding a card to an account (not applicable to a customers or recipients). The card (which must be a debit card) can be used as a transfer 
-destination for funds in this currency. Currently, the only supported currency for debit card transfers is `usd`. | 
+| `currency`        | Managed Accounts Only | Required when adding a card to an account (not applicable to a customers or recipients). The card (which must be a debit card) can be used as a transfer destination for funds in this currency. Currently, the only supported currency for debit card transfers is `usd`. | 
 | `cvc`   | Required | Card security code. Required unless your account is registered in Australia, Canada, or the United States. Highly recommended to always include this value. |
-| `default_for_currency` | Managed Accounts Only | Only applicable on accounts (not customers or 
-recipients). If you set this to `true` (or if this is the first external account being added in this currency) this card will become the default external account for its currency. |
+| `default_for_currency` | Managed Accounts Only | Only applicable on accounts (not customers or recipients). If you set this to `true` (or if this is the first external account being added in this currency) this card will become the default external account for its currency. |
 | `metadata` | Optional | A set of key/value pairs that you can attach to a card object. It can be useful for storing additional information about the card in a structured format. |
 | `name` | Optional | Cardholder’s full name |
 
@@ -412,24 +409,24 @@ The following are the _optional_ arguments in this feature.
 
 The following are the `update-shipping` child arguments. 
 
-| Argument  | Condition |
-|-----------|-----------| 
-| [`address`](#update-shipping-address) | Required  |
-| `name`    | Required  |
-| `phone`   | Optional  |
+| Argument  | Condition | Description |
+|-----------|-----------|-------------|
+| [`address`](#update-shipping-address) | Required  | The full shipping address |
+| `name`    | Required  | The shipping contact name |
+| `phone`   | Optional  | The shipping contact phone number |
 
 #### `update-shipping-address`
 
 The following are the `update-shipping-address` object's child arguments.
 
-| Argument  | Condition |
-|-----------|-----------| 
-| `line1` Required 
-`city` Optional 
-`country` Optional 
-`line2` Optional 
-`postal_code` Optional 
-`state` Optional 
+| Argument      | Condition | Description |
+|---------------|-----------|-------------|
+| `line1`       | Required  | The update shipping address' street |
+| `city`        | Optional  | The update shipping address' city |
+| `country`     | Optional  | The update shipping address' country |
+| `line2`       | Optional  | The update shipping address' building / company name / block |
+| `postal_code` | Optional  | The update shipping address' zip / postal code |
+| `state`       | Optional  | The update shipping address' state |
 
 ### `update-source`
 
@@ -441,12 +438,12 @@ The following are the `update-source` object's child arguments.
 | `exp_month`       | Required  | Two-digit number representing the card’s expiration month |
 | `exp_year`        | Required  | Two- or four-digit number representing the card’s expiration year |
 | `number`          | Required  | The card number, as a string without any separators |
-| `address_city`    | Optional  | |
-| `address_country` | Optional  | |
-| `address_line1`   | Optional  | |
-| `address_line2`   | Optional  | |
-| `address_state`   | Optional  | |
-| `address_zip`     | Optional  | |
+| `address_city`    | Optional  | The update source address' city |
+| `address_country` | Optional  | The update source address' country |
+| `address_line1`   | Optional  | The update source address' street |
+| `address_line2`   | Optional  | The update source address' building / suite / company name |
+| `address_state`   | Optional  | The update source address' state |
+| `address_zip`     | Optional  | The update source address' zip / postal code |
 | `currency`        | Managed Accounts Only | Required when adding a card to an account (not applicable to a customers or recipients). The card (which must be a debit card) can be used as a transfer destination for funds in this currency. Currently, the only supported currency for debit card transfers is `usd`. |
 | `cvc`             | Required | Card security code. Required unless your account is registered in Australia, Canada, or the United States. Highly recommended to always include this value. |
 | `default_for_currency` | Managed Accounts Only | Only applicable on accounts (not customers or recipients). If you set this to `true` (or if this is the first external account being added in this currency) this card will become the default external account for its currency. |

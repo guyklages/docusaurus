@@ -1,5 +1,5 @@
 ---
-title: ROAM Android SDK for online payments
+title: Android SDK for online payments
 authors: [guyklages]
 tags: [fintech]
 ---

@@ -57,8 +57,8 @@
 
 On the [Couchbase SQL++ for Query Reference](https://docs.couchbase.com/cloud/n1ql/n1ql-language-reference/index.html) and Atelio documentation pages, I added a feedback mechanism that:
 
-- asks "Is this page helpful? Yes/No" 
-- has a "Leave Additional Feedback?" link to send entered text to the technical writer for triage and ticket making
+- asks **Is this page helpful? Yes/No**
+- has a **Leave Additional Feedback?** link to send entered text to the technical writer for triage and ticket making
 
 
 ## Code samples I wrote

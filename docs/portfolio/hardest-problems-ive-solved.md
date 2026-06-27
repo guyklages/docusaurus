@@ -77,7 +77,7 @@
 
 ### 30% fewer helpdesk tickets
 
-#### <mark> Couchbase (Santa Clara) -- Reduced the number of helpdesk tickets by 30% per week </mark>
+#### <mark> Couchbase (Santa Clara) -- Reduced the number of helpdesk tickets by 30% </mark>
 
 | Before (May 2017) | After (Aug 2017) |
 |-------------------|------------------|

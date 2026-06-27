@@ -25,6 +25,7 @@
 | [Android SDK for online payments](/blog/2020/04/04/android-sdk-online-payments) | Fintech developers | Java | Using Android Pay, collecting credit card info and payments, setting up an app, creating & using tokens, testing & deploying |
 | [iOS SDK Apple Pay payments](/blog/2020/05/05/ios-sdk-apple-pay-payments) | Fintech developers | Swift <br/> Objective-C | Using Apple Pay, collecting credit card info, creating tokens, sending tokens to your server |
 
+
 ## Developer problems I've solved
 
 | Developer problem I solved | Company |
@@ -34,6 +35,9 @@
 | Created **[a clear onboarding process with sections of customer types](https://docs.nium.com/docs/onboarding)** for common onboarding steps and for region-specific parameter and example pages, which doubled the number of people onboarded per month with 75% fewer issues | Nium |
 | Filled in their documentiona gaps and greatly enhanced their internal documentation with more explanations and examples for engineers to use the Apache ecosystem tools for their Big Data and IoT projects. My docs were called, "more thorough than Apache's documentation site." | Yahoo |
 | Improved the completeness and accuracy of the AdWords API department's documentation to be [the highest rated department in all of Google](https://guyklages.com/portfolio/hardest-problems-ive-solved#1-department-in-documention) | Google |
+| [Reduced the number of helpdesk tickets by 30%](https://guyklages.com/portfolio/hardest-problems-ive-solved#30-fewer-helpdesk-tickets) by vastly improving their documentation with more explanations and example queries | Couchbase |
+| [Reduced the helpdesk tickst by 88%](https://guyklages.com/portfolio/hardest-problems-ive-solved#88-drop-in-helpdesk-queue) by redesigning their Helpdesk system and answering many calls myself instead of creating a ticket | Microsoft |
+
 
 ## Community contributions
 

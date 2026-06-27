@@ -31,8 +31,9 @@
 |----------------------------|---------|
 | Created a framework of governance and guardrails with templates in Markdown and YAML files to make it easier for developers to build Copilot Agents | Microsoft |
 | Created internal documentation for the complex installation and configuration of their tool that populates the Netflix Home screen of titles so other departments can use it as well | Netflix |
-| Created **[a clear onboarding process with sections of customer types](https://docs.nium.com/docs/onboarding)** for common onboarding steps and for region-specific parameter and example pages | Nium |
+| Created **[a clear onboarding process with sections of customer types](https://docs.nium.com/docs/onboarding)** for common onboarding steps and for region-specific parameter and example pages, which doubled the number of people onboarded per month with 75% fewer issues | Nium |
 | Filled in their documentiona gaps and greatly enhanced their internal documentation with more explanations and examples for engineers to use the Apache ecosystem tools for their Big Data and IoT projects. My docs were called, "more thorough than Apache's documentation site." | Yahoo |
+| Improved the completeness and accuracy of the AdWords API department's documentation to be [the highest rated department in all of Google](https://guyklages.com/portfolio/hardest-problems-ive-solved#1-department-in-documention) | Google |
 
 ## Community contributions
 

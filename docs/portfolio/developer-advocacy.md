@@ -21,7 +21,8 @@
 
 | Post | Audience | Remarks |
 |------|----------|---------|
-| [Android SDK for online payments](/blog/2020/04/04/android-sdk-online-payments) | Fintech developers | Using Android Pay, collecting credit card info, etc. |
+| [Android SDK for online payments](/blog/2020/04/04/android-sdk-online-payments) | Fintech developers | Using Android Pay, collecting credit card info, setting up your app, collecting payment, creating tokens, testing and deploying, building your own form, using tokens |
+| [iOS SDK Apple Pay payments](/blog/2020/05/05/ios-sdk-apple-pay-payments) | Fintech developers | Using Apple Pay, collecting credit card info, creating tokens, sending tokens to your server |
 
 ## Community contributions
 

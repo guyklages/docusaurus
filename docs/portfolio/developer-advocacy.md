@@ -51,6 +51,7 @@
 - Discord comments posted
 - GitHub issues reported
 - StackOverflow answers posted
+- Actual snippets and GitHub repos
 -->
 
 ## Feedback loops
@@ -87,5 +88,3 @@ On the [Couchbase SQL++ for Query Reference](https://docs.couchbase.com/cloud/n1
 |--------------------|---------|
 | [Atelio APIs](https://guyklages.com/atelio/getting-started/postman-collection) | Atelio of FIS |
 | [Nium APIs](https://docs.nium.com/docs/getting-started/postman-collection) | Nium |
-
-### Actual snippets and GitHub repos

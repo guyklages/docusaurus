@@ -4,8 +4,8 @@
 
 | Venue | Topic | Audience | Crowd size | Remarks |
 |-------|-------|----------|------------|---------|
-| San Jose Convention Center | Couchbase Connect - Hands-on query walkthrough | Developers and technical PMs | 300+ | Projected a PowerPoint presentation while speaking and leading the crowd to build queries on their laptops while I did on my laptop |
-| MeetUp groups | N1QL vs SQL | Developers and DBAs | 20+ | Discussed various index and query types and use cases |
+| San Jose Convention Center | Couchbase Connect - Hands-on query walkthrough | Developers <br/> techy PMs | 300+ | Projected a PowerPoint presentation while speaking and leading the crowd to build queries on their laptops while I did on my laptop |
+| MeetUp groups | N1QL vs SQL | Developers <br/> DBAs | 20+ | Discussed various index and query types and use cases |
 
 ## Blog posts
 

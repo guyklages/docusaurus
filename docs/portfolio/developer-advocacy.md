@@ -5,7 +5,8 @@
 | Venue | Topic | Audience | Crowd size | Remarks |
 |-------|-------|----------|------------|---------|
 | San Jose Convention Center | Couchbase Connect - Hands-on query walkthrough | Developers <br/> techy PMs | 300+ | Projected a PowerPoint presentation while speaking and leading the crowd to build queries on their laptops while I did on my laptop |
-| MeetUp groups | N1QL vs SQL | Developers <br/> DBAs | 20+ | Discussed various index and query types and use cases |
+| Monthly MeetUp groups | NoSQL vs SQL databases | Developers <br/> DBAs | 20+ | Discussed various index and query types and use cases of Big Data |
+| Monthly MeetUp groups | Fintech solutions | Developers <br/> PMs | 10+ | Discussed financial applications and how Nium can help |
 
 ## Blog posts
 

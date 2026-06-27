@@ -13,11 +13,11 @@ I created and fully owned the following company websites. I used Git, Markdown, 
 
 ## My most technical projects
 
-| Company   | Project | Developer problem I solved |
-|-----------|---------|----------------------------|
-| Microsoft | Goverance of and guardrails for Copilot Agents | Created a framework with template Markdown and YAML files to make it easier for developers to build Copilot Agents | 
-| Netflix   | Internal AI/ML/LLM tools that populate the Netflix Home screen of titles | Created internal documentation for the complex installation and configuration of their tool so other departments can use it as well |
-| Yahoo     | Filling in gaps and improving internal docs on AI/ML/LLM tools | Created better internal documentation for engineers to use the Apache ecosystem tools for their Big Data and IoT projects |
+| Developer problem I solved | Company |
+|----------------------------|---------|
+| Created a framework of governance and guardrails with templates in Markdown and YAML files to make it easier for developers to build Copilot Agents | Microsoft |
+| Created internal documentation for the complex installation and configuration of their tool that populates the Netflix Home screen of titles so other departments can use it as well | Netflix |
+| Filled in their documentiona gaps and greatly enhanced their internal documentation for engineers to use the Apache ecosystem tools for their Big Data and IoT projects. My docs were called, "more thorough than Apache's documentation site." | Yahoo |
 
 ## Various types of PDF guides
 
@@ -30,7 +30,7 @@ To make the following guides, I used Microsoft Word or Adobe FrameMaker to creat
 | VMware     | Virtualization software | <a href="/files/VMware_App-Volumes-user-guide-2016.pdf" target="_blank" rel="noopener noreferrer">App Volumes User Guide</a> <br/> <a href="/files/VMware_UEM_admin-guide-2016.pdf" target="_blank" rel="noopener noreferrer">UEM Administration Guide</a> | 1 editor, 3 SMEs |
 | Hitachi    | Enterprise software | <a href="/files/Hitachi_Cloud-Enterprise_Deployment-guide-2015.pdf" target="_blank" rel="noopener noreferrer">Cloud Enterprise Deployment Guide</a> | 1 editor, 4 SMEs |
 | TEDx       | Events and Media | <a href="/files/TEDx_BeaconStreet-Adventure-Toolkit-Guide-2013.pdf" target="_blank" rel="noopener noreferrer">TEDx BeaconStreet Adventure Toolkit Guide</a> | 1 graphic artist |
-| ROAM Data  | Fintech payments | <a href="/files/ROAM_Deployment-Guide-v.1.0.0.pdf" target="_blank" rel="noopener noreferrer">ROAM Deployment Guide 1.0.0</a> <br/> <a href="/files/ROAM_Android-SDK_Online-Payments.pdf" target="_blank" rel="noopener noreferrer">ROAM Android SDK for Online Payments</a> <br/> <a href="/files/ROAM_iOS-SDK-for-Apple-Pay-payment.pdf" target="_blank" rel="noopener noreferrer">ROAM iOS SDK for Apple Pay</a> <br/> <a href="/files/ROAM_Language-Tool-v.1.0.0-Install-guide-2013.pdf" target="_blank" rel="noopener noreferrer">ROAM Language Tool Install Guide</a> <br/> <a href="/files/ROAM_ROAMsupport-v5.0.5-User-Guide-2013.pdf" target="_blank" rel="noopener noreferrer">ROAMsupport User Guide</a> <br/> <a href="/files/ROAM_TSP-Monitor-Tool-v.1.0.2-Quickstart-2013.pdf" target="_blank" rel="noopener noreferrer">ROAM TSP Monitor Tool Quickstart</a>   | 1 editor, 5 SMEs |
+| ROAM Data  | Fintech payments | <a href="/files/ROAM_Deployment-Guide-v.1.0.0.pdf" target="_blank" rel="noopener noreferrer">ROAM Deployment Guide 1.0.0</a> <br/> <a href="/files/ROAM_Language-Tool-v.1.0.0-Install-guide-2013.pdf" target="_blank" rel="noopener noreferrer">ROAM Language Tool Install Guide</a> <br/> <a href="/files/ROAM_ROAMsupport-v5.0.5-User-Guide-2013.pdf" target="_blank" rel="noopener noreferrer">ROAMsupport User Guide</a> <br/> <a href="/files/ROAM_TSP-Monitor-Tool-v.1.0.2-Quickstart-2013.pdf" target="_blank" rel="noopener noreferrer">ROAM TSP Monitor Tool Quickstart</a>   | 1 editor, 5 SMEs |
 | Edutainme  | Software training | <a href="/files/Edutainme_How-to-set-up-MediaWiki-1.26-with-Lighttpd-1.4-on-Ubuntu-14.pdf" target="_blank" rel="noopener noreferrer">Texts Markdown editor - an example with MediaWiki</a> | 1, editor, 2 SMEs |
 | HP         | Office hardware | <a href="/files/HP_3100-Fax-Series_User-Guide-2008.pdf" target="_blank" rel="noopener noreferrer">HP 3100 Fax Series User Guide</a> | 1 editor, 2 SMEs |
 | SIOS       | High-Availability | <a href="/files/SIOS_LifeKeeper_install-and-config-guide-2018.pdf" target="_blank" rel="noopener noreferrer">LifeKeeper Install and Configuration Guide</a> | 1 editor, 3 SMEs |

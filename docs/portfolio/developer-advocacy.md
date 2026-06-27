@@ -24,6 +24,14 @@
 | [Android SDK for online payments](/blog/2020/04/04/android-sdk-online-payments) | Fintech developers | Java | Using Android Pay, collecting credit card info, setting up your app, collecting payment, creating tokens, testing and deploying, building your own form, using tokens |
 | [iOS SDK Apple Pay payments](/blog/2020/05/05/ios-sdk-apple-pay-payments) | Fintech developers | Swift <br/> Objective-C | Using Apple Pay, collecting credit card info, creating tokens, sending tokens to your server |
 
+## Developer problems I've solved
+
+| Developer problem I solved | Company |
+|----------------------------|---------|
+| Created a framework of governance and guardrails with templates in Markdown and YAML files to make it easier for developers to build Copilot Agents | Microsoft |
+| Created internal documentation for the complex installation and configuration of their tool that populates the Netflix Home screen of titles so other departments can use it as well | Netflix |
+| Filled in their documentiona gaps and greatly enhanced their internal documentation for engineers to use the Apache ecosystem tools for their Big Data and IoT projects. My docs were called, "more thorough than Apache's documentation site." | Yahoo |
+
 ## Community contributions
 
 - Discord comments

@@ -42,11 +42,15 @@
 
 ## Community contributions
 
-- Discord comments
-- GitHub issues
-- StackOverflow answers
+- Replied to [3 posts on Couchbase's forum](https://www.couchbase.com/forums/u/guy.klages/activity) 
+- Replied to dozens of forum posts via email for the customers' privacy
+- In the future, I'll post the helpful parts in the forum so everyone can benefit.
 
-I replied to [3 posts on Couchbase's forum](https://www.couchbase.com/forums/u/guy.klages/activity) and replied to dozens of forum posts via email for the customers' privacy. In the future, I'll post the helpful parts in the forum so everyone can benefit.
+<!--
+- Discord comments posted
+- GitHub issues reported
+- StackOverflow answers posted
+-->
 
 ## Feedback loops
 

@@ -2,28 +2,28 @@
 
 ## BondCards
 
-[BondCards SDK](https://docs.atelio.com/embedded/docs/web-sdk-documentation#bondcards-1) allows developers to make all calls to the APIs that securely store PCI data with a single function.
+[BondCards SDK](#bondcards-1) allows developers to make all calls to the APIs that securely store PCI data with a single function.
 
 The SDK repo is `https://github.com/bond-tech/bond-sdk-web`.
 
 ### Typedefs
 
-- [`FieldType`](https://docs.atelio.com/embedded/docs/web-sdk-documentation#fieldtype--codestringcode)—String
-- [`FieldParams`](https://docs.atelio.com/embedded/docs/web-sdk-documentation#fieldparams--codeobjectcode)—Object
-- [`successCallback`](https://docs.atelio.com/embedded/docs/web-sdk-documentation#successcallback--codefunctioncode)—Function
-- [`errorCallback`](https://docs.atelio.com/embedded/docs/web-sdk-documentation#errorcallback--codefunctioncode)—Function
+- [`FieldType`](#fieldtype--codestringcode)—String
+- [`FieldParams`](#fieldparams--codeobjectcode)—Object
+- [`successCallback`](#successcallback--codefunctioncode)—Function
+- [`errorCallback`](#errorcallback--codefunctioncode)—Function
 
 ### BondCards
 
 **Kind**: global class
 
-- [new BondCards](https://docs.atelio.com/embedded/docs/web-sdk-documentation#new-bondcards)
-- [bondCards.show](https://docs.atelio.com/embedded/docs/web-sdk-documentation#bondcardsshow)
-- [bondCards.showMultiple](https://docs.atelio.com/embedded/docs/web-sdk-documentation#bondcardsshowmultiple)
-- [bondCards.copy](https://docs.atelio.com/embedded/docs/web-sdk-documentation#bondcardscopy)
-- [bondCards.field](https://docs.atelio.com/embedded/docs/web-sdk-documentation#bondcardsfield)
-- [bonCards.submit](https://docs.atelio.com/embedded/docs/web-sdk-documentation#bondcardssubmit)
-- [bondCards.reset](https://docs.atelio.com/embedded/docs/web-sdk-documentation#bondcardsreset)
+- [new BondCards](#new-bondcards)
+- [bondCards.show](#bondcardsshow)
+- [bondCards.showMultiple](#bondcardsshowmultiple)
+- [bondCards.copy](#bondcardscopy)
+- [bondCards.field](#bondcardsfield)
+- [bonCards.submit](#bondcardssubmit)
+- [bondCards.reset](#bondcardsreset)
 
 ### new BondCards
 
@@ -37,11 +37,11 @@ Create a BondCards instance.
 
 ### bondCards.show
 
-`bondCards.show(cardId, identity, authorization, field, [htmlWrapper], htmlSelector, [css]) ⇒ <code>Promise</code>`
+`bondCards.show(cardId, identity, authorization, field, [htmlWrapper], htmlSelector, [css])` ⇒ Promise
 
 Display appropriate card data.
 
-**Kind**: instance method of [`BondCards`](https://docs.atelio.com/embedded/docs/web-sdk-documentation#BondCards)
+**Kind**: instance method of [`BondCards`](#BondCards)
 
 **Returns**: `Promise`—Returns a Promise that, when fulfilled, will either return an iFrame with the appropriate data or an error.
 
@@ -57,11 +57,11 @@ Display appropriate card data.
 
 ### bondCards.showMultiple
 
-`bondCards.showMultiple(cardId, identity, authorization, fields) ⇒ <code>Promise</code>`
+`bondCards.showMultiple(cardId, identity, authorization, fields)` ⇒ Promise
 
 Display appropriate card data.
 
-**Kind**: instance method of [`BondCards`](https://docs.atelio.com/embedded/docs/web-sdk-documentation#BondCards)
+**Kind**: instance method of [`BondCards`](#BondCards)
 
 **Returns**: `Promise`—Returns a Promise that, when fulfilled, will either return list of iFrames with the appropriate data or an error.
 
@@ -74,11 +74,11 @@ Display appropriate card data.
 
 ### bondCards.copy
 
-`bondCards.copy(iframe, htmlSelector, [css], [text], [callback]) ⇒ <code>Promise</code>`
+`bondCards.copy(iframe, htmlSelector, [css], [text], [callback])` ⇒ Promise`
 
 Copy card data (one of number, expiry, cvv).
 
-**Kind**: instance method of [`BondCards`](https://docs.atelio.com/embedded/docs/web-sdk-documentation#BondCards)
+**Kind**: instance method of [`BondCards`](#BondCards)
 
 **Returns**: `Promise`—Returns a Promise that, when fulfilled, will either return an iFrame with the appropriate data or an error.
 
@@ -92,11 +92,11 @@ Copy card data (one of number, expiry, cvv).
 
 ### bondCards.field
 
-`bondCards.field(selector, type, [css], [placeholder], [successColor], [errorColor], [color], [lineHeight], [fontSize], [fontFamily], [disabled], [readOnly], [autoFocus]) ⇒ <code>Promise</code>`
+`bondCards.field(selector, type, [css], [placeholder], [successColor], [errorColor], [color], [lineHeight], [fontSize], [fontFamily], [disabled], [readOnly], [autoFocus])` ⇒ Promise
 
 Initialize a field in a form to submit for card manipulation.
 
-**Kind**: instance method of [`BondCards`](https://docs.atelio.com/embedded/docs/web-sdk-documentation#BondCards)
+**Kind**: instance method of [`BondCards`](#BondCards)
 
 **Returns**: `Promise`—Returns a Promise that, when fulfilled, will either initialize the field or return an error.
 
@@ -119,13 +119,13 @@ Initialize a field in a form to submit for card manipulation.
 
 ### bondCards.submit
 
-`bondCards.submit(cardId, identity, authorization, newPin, confirmPin, callback, callback) ⇒ <code>Promise</code>`
+`bondCards.submit(cardId, identity, authorization, newPin, confirmPin, callback, callback)` ⇒ Promise
 
 Show appropriate card data.
 
-**Kind**: instance method of [`BondCards`](https://docs.atelio.com/embedded/docs/web-sdk-documentation#BondCards)
+**Kind**: instance method of [`BondCards`](#BondCards)
 
-**Returns**: `Promise`—Returns a Promise that, when fulfilled, will either return an iFrame with the appropriate data or an error.
+**Returns**: `Promise` —- Returns a Promise that, when fulfilled, will either return an iFrame with the appropriate data or an error.
 
 | Param | Type | Default | Description |
 | --- | --- | --- | --- |
@@ -134,8 +134,8 @@ Show appropriate card data.
 | `authorization` | string |  | Temporary Authorization token |
 | `newPin` | string |  | New pin number |
 | `confirmPin` | string |  | Repeated new pin number |
-| `successCallback` | [successCallback](https://docs.atelio.com/embedded/docs/web-sdk-documentation#successcallback--codefunctioncode) |  | Function that will be executed when the HTTPRequest finishes successfully |
-| `errorCallback` | [errorCallback](https://docs.atelio.com/embedded/docs/web-sdk-documentation#errorcallback--codefunctioncode) |  | Function Error handling callback. Triggered if one of the fields has an invalid value on submission. By default, pushes the error messages to the console |
+| `successCallback` | [successCallback](#successcallback--codefunctioncode) |  | Function that will be executed when the HTTPRequest finishes successfully |
+| `errorCallback` | [errorCallback](#errorcallback--codefunctioncode) |  | Function Error handling callback. Triggered if one of the fields has an invalid value on submission. By default, pushes the error messages to the console |
 
 ### bondCards.reset()
 
@@ -172,7 +172,7 @@ Reset the form or a field.
 
 **Kind**: global typedef
 
-|  |  |  |
+| Param | Type | Description |
 | --- | --- | --- |
 | `errors` | object | Object with error messages |
 
@@ -183,10 +183,10 @@ For a complete specification and interactive examples, see [Linking external acc
 
 **Kind**: global class
 
-- [new BondExternalAccounts](https://docs.atelio.com/embedded/docs/web-sdk-documentation#new-bondexternalaccounts)
-- [bondExternalAccounts.linkAccount](https://docs.atelio.com/embedded/docs/web-sdk-documentation#bondexternalaccountslinkaccount)
-- [bondExternalAccounts.microDeposit](https://docs.atelio.com/embedded/docs/web-sdk-documentation#bondexternalaccountsmicrodeposit)
-- [bondExternalAccounts.deleteAccount](https://docs.atelio.com/embedded/docs/web-sdk-documentation#bondexternalaccountsdeleteexternalaccount)
+- [new BondExternalAccounts](#new-bondexternalaccounts)
+- [bondExternalAccounts.linkAccount](#bondexternalaccountslinkaccount)
+- [bondExternalAccounts.microDeposit](#bondexternalaccountsmicrodeposit)
+- [bondExternalAccounts.deleteAccount](#bondexternalaccountsdeleteexternalaccount)
 
 ### new BondExternalAccounts
 
@@ -235,7 +235,7 @@ Micro deposit.
 
 **Kind**: instance method of `BondExternalAccounts`
 
-|  |  |  |  |
+| Param | Type | Default | Description |
 | --- | --- | --- | --- |
 | `linkedAccountId` | string |  | Linked account to delete |
 | `identity` | string |  | Temporary identity token allowing the call |

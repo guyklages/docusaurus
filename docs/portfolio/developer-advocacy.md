@@ -36,7 +36,7 @@
 | Filled in their documentiona gaps and greatly enhanced their internal documentation with more explanations and examples for engineers to use the Apache ecosystem tools for their Big Data and IoT projects. My docs were called, "more thorough than Apache's documentation site." | Yahoo |
 | Improved the completeness and accuracy of the AdWords API department's documentation to be [the highest rated department in all of Google](https://guyklages.com/portfolio/hardest-problems-ive-solved#1-department-in-documention) | Google |
 | [Reduced helpdesk tickets by 30%](https://guyklages.com/portfolio/hardest-problems-ive-solved#30-fewer-helpdesk-tickets) by vastly improving their documentation with more explanations and example queries | Couchbase |
-| [Reduced helpdesk tickets by 88%](https://guyklages.com/portfolio/hardest-problems-ive-solved#88-drop-in-helpdesk-queue) by redesigning their Helpdesk system and answering many calls myself instead of creating a ticket | Microsoft |
+| [Reduced helpdesk tickets by 88%](https://guyklages.com/portfolio/hardest-problems-ive-solved#88-drop-in-helpdesk-queue) by redesigning their Helpdesk system and by answering many calls myself instead of creating a ticket | Microsoft |
 
 
 ## Community contributions

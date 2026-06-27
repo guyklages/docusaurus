@@ -26,7 +26,7 @@
 | [iOS SDK for Apple Pay payments](/blog/2020/05/05/ios-sdk-apple-pay-payments) | Fintech developers | Swift <br/> Objective-C | Using Apple Pay, collecting credit card info, creating tokens, sending tokens to your server |
 
 
-## Developer problems I've solved
+## Dev problems I've solved
 
 | Developer problem I solved | Company |
 |----------------------------|---------|
@@ -72,7 +72,7 @@ On the [Couchbase SQL++ for Query Reference](https://docs.couchbase.com/cloud/n1
 | Sandbox demo | Company |
 |--------------|---------|
 | [Sandbox vs Production](https://guyklages.com/atelio/getting-started/sandbox-vs-production) | Atelio of FIS |
-| [Testing services](https://docs.nium.com/docs/getting-started/testing-nium)] | Nium    |
+| [Testing services](https://docs.nium.com/docs/getting-started/testing-nium) | Nium    |
 
 
 ### Postman collections

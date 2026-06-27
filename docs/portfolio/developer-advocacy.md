@@ -43,7 +43,7 @@
 ## Community contributions
 
 - Replied to [3 posts on Couchbase's forum](https://www.couchbase.com/forums/u/guy.klages/activity) 
-- Replied to dozens of forum posts via email for the customers' privacy
+- Replied to dozens of forum posts via email due to privacy issues
 - In the future, I'll post the non-private parts in the forum so everyone can benefit.
 
 <!--

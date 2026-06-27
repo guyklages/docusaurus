@@ -23,7 +23,7 @@
 | Post | Audience | Code samples | Remarks |
 |------|----------|--------------|---------|
 | [Android SDK for online payments](/blog/2020/04/04/android-sdk-online-payments) | Fintech developers | Java | Using Android Pay, collecting credit card info and payments, setting up an app, creating & using tokens, testing & deploying |
-| [iOS SDK Apple Pay payments](/blog/2020/05/05/ios-sdk-apple-pay-payments) | Fintech developers | Swift <br/> Objective-C | Using Apple Pay, collecting credit card info, creating tokens, sending tokens to your server |
+| [iOS SDK for Apple Pay payments](/blog/2020/05/05/ios-sdk-apple-pay-payments) | Fintech developers | Swift <br/> Objective-C | Using Apple Pay, collecting credit card info, creating tokens, sending tokens to your server |
 
 
 ## Developer problems I've solved
@@ -60,7 +60,26 @@ On the [Couchbase SQL++ for Query Reference](https://docs.couchbase.com/cloud/n1
 
 - All the SQL indexes and queries on all pages under [SQL++ for Query Reference](https://docs.couchbase.com/cloud/n1ql/n1ql-language-reference/index.html)
 
-- Actual snippets or GitHub repos
-- SDK quickstarts
-- Postman collections
-- Links to API sandbox demos
+### SDK quickstarts
+
+| Post | Audience | Code samples | Remarks |
+|------|----------|--------------|---------|
+| [Android SDK for online payments](/blog/2020/04/04/android-sdk-online-payments) | Fintech developers | Java | Using Android Pay, collecting credit card info and payments, setting up an app, creating & using tokens, testing & deploying |
+| [iOS SDK for Apple Pay payments](/blog/2020/05/05/ios-sdk-apple-pay-payments) | Fintech developers | Swift <br/> Objective-C | Using Apple Pay, collecting credit card info, creating tokens, sending tokens to your server |
+
+### API sandbox demos
+
+| Sandbox demo | Company |
+|--------------|---------|
+| [Sandbox vs Production](https://guyklages.com/atelio/getting-started/sandbox-vs-production) | Atelio of FIS |
+| [Testing services](https://docs.nium.com/docs/getting-started/testing-nium)] | Nium    |
+
+
+### Postman collections
+
+| Postman collection | Company |
+|--------------------|---------|
+| [Atelio APIs](https://guyklages.com/atelio/getting-started/postman-collection) | Atelio of FIS |
+| [Nium APIs](https://docs.nium.com/docs/getting-started/postman-collection) | Nium |
+
+### Actual snippets and GitHub repos

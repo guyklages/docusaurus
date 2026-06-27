@@ -49,10 +49,10 @@ I replied to [3 posts on Couchbase's forum](https://www.couchbase.com/forums/u/g
 
 ## Feedback loops
 
-On the [Couchbase SQL++ for Query Reference](https://docs.couchbase.com/cloud/n1ql/n1ql-language-reference/index.html) and Atelio documentation pages, I added a feedback mechanism:
+On the [Couchbase SQL++ for Query Reference](https://docs.couchbase.com/cloud/n1ql/n1ql-language-reference/index.html) and Atelio documentation pages, I added a feedback mechanism that:
 
-- that asks "Is this page helpful? Yes/No" 
-- that has a "Leave Additional Feedback?" link which sends entered text to the technical writer who can triage and make Jira tickets
+- asks "Is this page helpful? Yes/No" 
+- has a "Leave Additional Feedback?" link to send entered text to the technical writer for triage and ticket making
 
 
 ## Code samples I wrote

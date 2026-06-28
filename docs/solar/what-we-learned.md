@@ -67,5 +67,5 @@ For about 2-3% more money above covering your annual kWh usage, you can buy more
 
 For example, in our case:
 
-![4 more panels for 2% more](images/4-more-panels-for-2%25-more.png)
+![4 more panels for 2% more](images/4-more-panels-for-2-percent-more.png)
 

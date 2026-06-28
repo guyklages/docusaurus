@@ -1,4 +1,4 @@
-## Introduction
+# Introduction
 
 The flow of sunlight can be thought of as raindrops and are measured in the following way:
 

@@ -49,7 +49,7 @@ Other things to consider:
 - Batteries seem expensive but are totaaly worth it--and are necessary for evenings, cloudy days, and outtages.
 - 10-year financing is probably the most affordable method (we paid $260/mo) since there's no penalty on extra payments.
 
-## Install as much as you can afford
+## Install as much as you can
 
 Solar generation fluctuates throughout the year, so summer months generate about 2.5x as much energy as winter months.
 

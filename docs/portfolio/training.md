@@ -4,7 +4,7 @@
 
 | Company           | Topic                 | In-person trainer | <div style={{ width: '100px' }}>Curriculum designer</div> | City | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Year&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 |-------------------|-----------------------|:-----------------:|:-------------------:|------|:--------------:|
-| Edutainme         | [Swagger](#swagger), DITA, MS Office, ESL, resume-writing     | Yes | Yes | Bay Area | 2014 - now |
+| Edutainme         | [Swagger](#swagger), DITA, MS Office, ESL, resumes            | Yes | Yes | Bay Area | 2014 - now |
 | OpSec Security    | [anti-counterfeiting labeling](#anti-counterfeiting-labeling) | Yes | Yes | Boston   | 2013 - 2013 |
 | VA Medical Center | [eDC clinical trials](#edc-for-clinical-trials)               | Yes | Yes | Boston   | 2011 - 2013 |
 | ADP Payroll       | [payroll reporting](#payroll-reporting)                       | Yes | Yes | Seattle  | 2008 - 2011 |

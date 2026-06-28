@@ -61,7 +61,7 @@ So, if you size your solar array based on what solar installers use (kWh usage o
 - a deficit of energy during winter months --> that is drawn from the grid.
 - not enough to power your home during a winter outtage --> you will be affected just like houses without solar panels.
 
-**The solution is to buy more than your annual kWh usage** and as many solar panels and batteries as you can afford. If you have a 2024 or newer EV, then that vehicle can be your 2nd (and 3rd and 4th) battery with bidirectional charging.
+**The solution is to buy more than your annual kWh usage**. That is, buy one battery and as many solar panels as you can afford. If you have a 2024 or newer EV, then that vehicle can be your 2nd (and 3rd and 4th) battery due to its bidirectional charging.
 
 For about 2-3% more money above covering your annual kWh usage, you can buy more panels that will heavily reduce your risk of being powerless during a winter outage.
 

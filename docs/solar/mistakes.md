@@ -10,13 +10,7 @@ When we finally got our first single-family house, we were thrilled to be free f
 |---------|:------------------:|:-----------------:|----------|
 | We didn't read this website before getting solar panels ;-) | ~$33k | 1,100 | Really think about [your solar goals](what-we-learned#know-your-goals) |
 
-### Submit your highest kWh electric bill to solar installers
-
-| Mistake | Wasted <br/> money | Wasted <br/> days | Solution |
-|---------|:------------------:|:-----------------:|----------|
-| We didn't have one year of electric bills before solar installation, so we didn't know our true kWh usage during winter. <br/> <br/> We ended up installing too few panels for our winter usage. | $200 / year | | Use your electric bill with the **highest kWh** usage when applying for the solar permit, and then multiply that kWh number by 12 for "annual usage". |
-
-### Convert gas appliances to electric first
+### Convert gas appliances to electric
 
 | Mistake | Wasted <br/> money | Wasted <br/> days | Solution |
 |---------|:------------------:|:-----------------:|----------|
@@ -57,3 +51,8 @@ When we finally got our first single-family house, we were thrilled to be free f
 |---------|:------------------:|:-----------------:|----------|
 | We agreed to Tesla's original design of "partial home backup" since they said we could use our existing (obsolete) 70-amp main panel from 1964. <br/><br/> You always want a _"whole home backup"_ instead. | 20-30% of electric bills until fixed | 740 | Best to first upgrade your main panel to 200-amp, if it isn't already. <br/><br/> We eventually upgraded to a 200-amp panel and paid a [Licensed Tesla installer](https://www.tesla.com/support/certified-installers) to make our solar system a "whole home backup" |
 
+### Submit your highest electric bill
+
+| Mistake | Wasted <br/> money | Wasted <br/> days | Solution |
+|---------|:------------------:|:-----------------:|----------|
+| We didn't have one year of electric bills before solar installation, so we didn't know our true kWh usage during winter. <br/> <br/> We ended up installing too few panels for our winter usage. | $200 / year | | Give your solar installer your electric bill with the **highest kWh** usage when applying for the solar permit, and then multiply that kWh number by 12 for "annual usage". |

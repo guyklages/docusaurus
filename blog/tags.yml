@@ -57,3 +57,8 @@ seattle:
   label: Seattle
   permalink: /seattle
   description: Seattle tag description
+
+vm:
+  label: VM
+  permalink: /vm
+  description: vm tag description

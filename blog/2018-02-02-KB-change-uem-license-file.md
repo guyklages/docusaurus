@@ -1,5 +1,5 @@
 ---
-title: Change or update the UEM license file
+title: KB - Replace a UEM license file
 authors: [guyklages]
 tags: [vm]
 ---

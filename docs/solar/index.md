@@ -41,10 +41,10 @@ So, we learned to use heavy appliances at different times--until we added a seco
 
 | Electric item          | Size            | Remarks                 | kW usage  | Annual kWh  |
 |------------------------|-----------------|-------------------------|:---------:|:-----------:|
-| Space heater           | 
-| Heat pump water heater |
-| Jacuzzi                |
-| Steam room             |
+| Space heater           | | | | |
+| Heat pump water heater | | | | |
+| Jacuzzi                | | | | |
+| Steam room             | | | | |
 
 
 

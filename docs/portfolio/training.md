@@ -18,7 +18,7 @@
 
 | Company        | Tools | Years |
 |----------------|-------|-------|
-| Adobe          | Acrobat, Distiller, Captivate 3, FrameMaker, RoboHelp | 8+ |
+| Adobe          | Acrobat, Distiller, Captivate, FrameMaker, RoboHelp | 8+ |
 | Articulate 360 | Presenter, Engage, Quizmaker | 3+ |
 | Corel          | Draw, PaintShop Pro | 4+ |
 | ELB Learning   | Lectora authoring   | 4+ |
@@ -28,11 +28,12 @@
 
 ### By function
 
-| Function             | Tools | Years |
-|----------------------|-------|-------|
-| Platforms (LMS, CMS) | Blackboard, Moodle, Author-It, Academy (WordPress plugin) | 8+ |
-| Survey               | SurveyMonkey | 3+ |
-| Video                | Zoomerang    | 3+ |
+| Function                      | Tool                            | Years |
+|-------------------------------|---------------------------------|-------|
+| Platforms (LMS, CMS)          | Blackboard, Moodle, Author-It, Academy (WordPress plugin) | 8+ |
+| Survey                        | SurveyMonkey                    | 3+ |
+| Webinars and virtual training | Zoom                            | 3+ |
+| Video recording and editing   | Camtasia, Captivate, Zoomerang  | 3+ |
 
 
 ## Swagger 

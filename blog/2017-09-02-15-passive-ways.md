@@ -202,4 +202,4 @@ Eventually, many recruiters or hiring managers will be calling you when you don'
 
 In summary, see my profile at [www.linkedin.com/in/klages](https://www.linkedin.com/in/klages) as an example (feel free to connect with me), and message me if you have any questions.
 
-After setting up your profile with these passive ways, then check out the [13 active ways to make recruiters and clients find you on LinkedIn](./2018-10-02-13-active-ways.md).
+After setting up your profile with these passive ways, then check out the [13 active ways to make recruiters and clients find you on LinkedIn](./2017-10-02-13-active-ways.md).

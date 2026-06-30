@@ -24,9 +24,9 @@ The Agent and Manager are configured to periodically push the log files to a fil
 
 To make the Agent and Manager aware of the fileshare, configure the Log Fileshare in the following way.
 
-To create a Log Fileshare go to `http://localhost/log_fileshares/new` and input the following fields:
+To create a Log Fileshare, go to `http://localhost/log_fileshares/new` and input the following Log Fileshare fields:
 
-| Log Fileshare item | Description |
+| Field              | Description |
 |--------------------|-------------|
 | Host name          | This is host and folder name for your Log Fileshare. <br/> For example, `\\10.33.99.231\uem\logs` <br/> Make sure your path ends with a `logs` folder. |
 | Username           | Username of the Log Fileshare |
@@ -72,14 +72,18 @@ In Windows, no setup is required. The `.bat` script is shipped with the Agent an
 
 **Note**: The `.bat` script needs administration privileges to run.
 
-The bat script can be run from `C:\Program Files (x86)\CloudVolumes\DctLogCollector\support.bat`
+The `.bat` script can be run from:
+
+```
+C:\Program Files (x86)\CloudVolumes\DctLogCollector\support.bat
+```
  
 The following are the parameters for `support.bat`:
 
 | Parameter      | Description |
 |----------------|-------------|
 | `-destination` | Destination of the log files on the machine |
-| `-fhhost`      | Location of the folder on hostname of the fileshare. <br/> For example, `\\xx.xx.xx.xx\logs` (Make sure the folder named `logs` exists) |
+| `-fhhost`      | Location of the folder on hostname of the fileshare. <br/> For example, `\\xx.xx.xx.xx\logs` <br/> (Make sure the folder named `logs` exists) |
 | `-fhuname`     | Username of the fileshare owner |
 | `-fhdomain`    | Domain under which the fileshare is located |
 | `-fhpwd`       | Password of the username for the fileshare owner |

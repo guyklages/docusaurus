@@ -1,5 +1,5 @@
 ---
-title: KB - Managing printers with ThinPrint conflicts
+title: KB - Printers with ThinPrint conflicts
 authors: [guyklages]
 tags: [vm]
 ---
@@ -26,10 +26,6 @@ You have three options:
 
 | Option | Description |
 |:------:|-------------|
-| 1      | Disable the default ThinPrint printer redirection completely in View Clients, detailed at
-https://kb.vmware.com/kb/2012770 |
-| 2      | Disable only the default ThinPrint printer on a VMware View Client, detailed at
-https://kb.vmware.com/kb/2003626 |
-| 3      | Use the View ADM template to disable printer redirection.
-Use the view client adm template (`vdm_client.adm`) by adding the template to an existing or new GPO. 
-Under **user configuration > administrative templates > VMware View Client Configuration/RDP settings**, select ((Disable redirect printers**.
+| 1      | Disable the default ThinPrint printer redirection completely in View Clients, detailed at https://kb.vmware.com/kb/2012770 |
+| 2      | Disable only the default ThinPrint printer on a VMware View Client, detailed at https://kb.vmware.com/kb/2003626 |
+| 3      | Use the View ADM template to disable printer redirection. <br/> Use the view client adm template (`vdm_client.adm`) by adding the template to an existing or new GPO. <br/> Under **user configuration > administrative templates > VMware View Client Configuration/RDP settings**, select **Disable redirect printers**. |

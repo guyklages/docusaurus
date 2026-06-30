@@ -22,6 +22,6 @@ Add the following registry key to be able to profile applications that are block
 
 Create a `reg_sz` value with a random name, for instance `1` and make the value the executable name, as in:
 
-"1"="acrord32.exe"
-"2"="winword.exe"
+"1"="acrord32.exe" <br/>
+"2"="winword.exe" <br/>
 "3"="outlook.exe"

@@ -1,5 +1,5 @@
 ---
-title: KB - AppStack exclusions not excluded from Writables
+title: KB - AppStack not excluded from Writables
 authors: [guyklages]
 tags: [vm]
 ---

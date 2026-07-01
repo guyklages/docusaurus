@@ -26,7 +26,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Developer Advocate',
+    title: <a href="portfolio/developer-advocacy">Developer Advocate</a>,
     img: require('@site/static/img/TalkGroup_Mini-Adventure-class.png').default,
     description: (
       <>

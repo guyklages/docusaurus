@@ -8,7 +8,7 @@ tags: [vm]
 
 VMware User Environment Manager comes with built-in templates for some common applications such as Office and Adobe Reader, which are optimized and typically work for most customers.
 
-In some scenarios, customers want to create those templates themselves by using the UEM Application Profiler. The problem is that the Application Profiler has a built-in blacklist to make sure customers use the provided templates.
+In some scenarios, customers want to create those templates themselves by using the UEM Application Profiler. The problem is that the Application Profiler has a built-in blocklist to make sure customers use the provided templates.
 
 If you want to work around this limitation, there is an option available to allowlist those applications and still use the Application Profiler to create your own UEM Configuration files.
 

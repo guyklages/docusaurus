@@ -12,26 +12,32 @@
 
 ### API
 
-| Post | Audience | Remarks |
-|------|----------|---------|
+| Title | Audience | Remarks |
+|-------|----------|---------|
 | [Stripe API authentication](/blog/2019/09/22/stripe-api-authentication) | Fintech developers | Authentication, errors, idempotent requests, pagination, etc. |
 | [Stripe API charges](/blog/2019/10/22/stripe-api-charges) | Fintech developers | Charges object, creating, retrieving, updating, etc. |
 | [Stripe API customers](/blog/2019/11/22/stripe-api-customers) | Fintech developers | Customers object, creating, retrieving, updating, etc. |
 
 ### SDK
 
-| Post | Audience | Code samples | Remarks |
-|------|----------|--------------|---------|
+| Title | Audience | Code samples | Remarks |
+|-------|----------|--------------|---------|
 | [Android SDK for online payments](/blog/2020/04/04/android-sdk-online-payments) | Fintech developers | Java | Using Android Pay, collecting credit card info and payments, setting up an app, creating & using tokens, testing & deploying |
 | [iOS SDK for Apple Pay payments](/blog/2020/05/05/ios-sdk-apple-pay-payments) | Fintech developers | Swift <br/> Objective-C | Using Apple Pay, collecting credit card info, creating tokens, sending tokens to your server |
 | [Atelio web SDK documentation](https://guyklages.com/atelio/developers/web-sdk-documentation) | Fintech developers |  | Requirements, importing, displaying, setting card PIN |
 
 ### KB
 
-| Post | Audience |
-|------|----------|
+| Title | Audience |
+|-------|----------|
 | [AppStack exclusions are not excluded from Writables Volumes](/blog/2018/02/18/KB-appstack-exclusions-not-excluded-from-writables) | VMware developers | 
 | [After AppStack rescan, AppStacks is disabled or unprovisioned](/blog/2018/02/16/KB-appstacks-disabled-after-rescan) | VMware developers |
+| [Writables are not created upon login in a multi-vCenter environment](/blog/2018/02/14/KB-writables-not-created) | VMware developers |
+| [How to install and use Log Collection with AppVolumes](/blog/2018/02/12/KB-log-collection-usage) | VMware developers |
+| [Printers with ThinPrint default conflicts](/blog/2018/02/10/KB-managing-printers-with-thinprint-conflicts) | VMware developers |
+| [How to allowlist blocked application](/blog/2018/02/08/KB-allowlist-blocked-apps) | VMware developers |
+| [`Run Once` configurations that run multiple times](/blog/2018/02/04/KB-run-once) | VMware developers |
+| [How to replace an expired UEM licence file](/blog/2018/02/02/KB-change-uem-license-file) | VMware developers |
 
 ## Dev problems I've solved
 

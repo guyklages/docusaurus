@@ -6,7 +6,7 @@ tags: [vm]
 
 ## Symptoms
 
-How can you replace an expired UEM license file?
+You have an expired UEM license file that needs to be replaced.
 
 ## Resolution
 

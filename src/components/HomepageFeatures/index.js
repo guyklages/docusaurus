@@ -15,7 +15,7 @@ const FeatureList = [
     ),
   },
   {
-    title: <a href="guyklages.com/portfolio">Technical Writer</a>,
+    title: <a href="portfolio">Technical Writer</a>,
     img: require('@site/static/img/Guy_working-two-monitors.png').default,
     description: (
       <>

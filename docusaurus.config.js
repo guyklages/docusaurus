@@ -149,7 +149,7 @@ presets: [
       },
       footer: {
         style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()} Edutainme, Inc. Built with Docusaurus. Versioned with Git. Powered by coffee`,
+        copyright: `Copyright © ${new Date().getFullYear()} Edutainme, Inc. Built with Docusaurus. Versioned with Git. Powered by coffee.`,
       },
       prism: {
         theme: prismThemes.github,

@@ -4,8 +4,8 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Hi, I\'m Guy Klages!',
-    // img: require('@site/static/img/Guy-suit-head-shot.png').default,
+    title: 'Guy Klages',
+    img: require('@site/static/img/Guy-suit-head-shot.png').default,
     description: (
       <>
         Bay Area, CA <br/> <br/>

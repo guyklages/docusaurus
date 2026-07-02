@@ -10,10 +10,17 @@ const logoContext = require.context(
   /^\.\/logo-.+\.(png|jpe?g|svg)$/,
 );
 
-const logos = logoContext.keys().reduce((acc, path) => {
+const logoPathByKey = logoContext.keys().reduce((acc, path) => {
   const key = path.replace('./logo-', '').replace(/\.(png|jpe?g|svg)$/, '');
-  // Only show logos that have a matching testimonial entry.
-  if (testimonials[key]) {
+  acc[key] = path;
+  return acc;
+}, {});
+
+// Order follows the key order of testimonials.js, so reordering that file
+// reorders the logos here. Only keys with a matching logo file are shown.
+const logos = Object.keys(testimonials).reduce((acc, key) => {
+  const path = logoPathByKey[key];
+  if (path) {
     acc.push({key, src: logoContext(path).default});
   }
   return acc;

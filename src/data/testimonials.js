@@ -29,13 +29,13 @@ export default {
     role: 'Manager',
     link: 'https://www.linkedin.com/in/krantitalluri/',
   },
-  Northeastern: {
-    company: 'Northeastern University',
+  ChargePoint: {
+    company: 'ChargePoint',
     quote:
-      'Based on my work with Guy for the Pronunciation Workshops at Northeastern University, I highly recommend him as a language teacher. He joined the workshops after the start of the semester but he jumped right in with confidence, built a good rapport with the students, and got them speaking right away. His knowledge of both technology and language instruction results in some very creative and interactive lessons that integrate audio and visual components.',
-    person: 'Christi Barb',
+      'Guy is very passionate about the EV industry and helping people through training, documentation and writing. He looks for ways to improve content delivery to a variety of audiences, always exploring, evaluating and evolving. He was a tireless advocate for end users of our software and services. It was a privilege to have Guy on my team, and I recommend him highly as a technical communicator and writer.',
+    person: 'Layne Northsea, MBA, PMP',
     role: 'Manager',
-    link: 'https://www.linkedin.com/in/christibarb/',
+    link: 'https://www.linkedin.com/in/laynenorthsea/',
   },
   VMware: {
     company: 'VMware',
@@ -45,13 +45,13 @@ export default {
     role: 'Manager',
     link: 'https://www.linkedin.com/in/pimvandevis/',
   },
-  ChargePoint: {
-    company: 'ChargePoint',
+  Northeastern: {
+    company: 'Northeastern University',
     quote:
-      'Guy is very passionate about the EV industry and helping people through training, documentation and writing. He looks for ways to improve content delivery to a variety of audiences, always exploring, evaluating and evolving. He was a tireless advocate for end users of our software and services. It was a privilege to have Guy on my team, and I recommend him highly as a technical communicator and writer.',
-    person: 'Layne Northsea, MBA, PMP',
+      'Based on my work with Guy for the Pronunciation Workshops at Northeastern University, I highly recommend him as a language teacher. He joined the workshops after the start of the semester but he jumped right in with confidence, built a good rapport with the students, and got them speaking right away. His knowledge of both technology and language instruction results in some very creative and interactive lessons that integrate audio and visual components.',
+    person: 'Christi Barb',
     role: 'Manager',
-    link: 'https://www.linkedin.com/in/laynenorthsea/',
+    link: 'https://www.linkedin.com/in/christibarb/',
   },
   VA: {
     company: 'VA Medical Center',

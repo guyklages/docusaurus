@@ -99,10 +99,10 @@ presets: [
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'Guy Klages',
+        title: 'Hi, I\'m Guy Klages!',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/Guy-suit-head-shot.png',
+        //  src: 'img/Guy-suit-head-shot.png',
         },
         items: [
           {

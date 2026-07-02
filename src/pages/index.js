@@ -20,7 +20,7 @@ function HomepageHeader() {
         </Heading>
         <Heading as="h2" className="hero__subtitle">
           I'm passionate about creating documentation and resources that help developers and end users fully unlock a product's
-          potential. I'm also excited to support fellow technical writers&emdash;sharing interview questions, writing tips, and insights
+          potential. I'm also excited to support fellow technical writers&mdash;sharing interview questions, writing tips, and insights
           to help you showcase your skills and land your next role with confidence.
         </Heading>
       </div>

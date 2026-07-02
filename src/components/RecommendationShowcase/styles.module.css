@@ -18,6 +18,11 @@
   text-align: left;
 }
 
+.fadeContent {
+  transition-property: opacity;
+  transition-timing-function: ease;
+}
+
 .quote {
   font-size: 1.1rem;
   line-height: 1.6;

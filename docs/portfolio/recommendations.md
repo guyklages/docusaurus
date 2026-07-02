@@ -3,12 +3,18 @@
 
 ## Technical Writer
 
+### Microsoft
+
+| Recommendation | Person |
+|----------------|--------|
+| _"Guy joined our team at Microsoft for a short engagement to help build out our content system. He brought deep technical writing expertise and a strong command of source control practices. Throughout the project, Guy showed remarkable patience and flexibility while navigating complex requirements, delivering results despite a tight timeline."_ | [Louie Mayor](https://www.linkedin.com/in/louie-mayor/) <br/> <br/> Manager |
+
 ### FIS Global
 
 | Recommendation | Person |
 |----------------|--------|
-| _Guy was our lead and only tech writer and was an important part of my team. His work was clear, organized and thoughtful, across all product areas. As a former software engineer, he wrote in a way our engineers and customers' engineers understood easily, and his passion for perfectionism was appreciated by many. I hope to work with Guy (and his sense of humor) again in the future._ | [Jon Eisenstein](https://www.linkedin.com/in/joneisenstein/) <br/> <br/> Manager |
-| _Guy is an outstanding technical writer who consistently turns complex information into clear, accessible content. His ability to collaborate across teams and understand technical nuances makes him a trusted communicator and a key asset to any project. Working with him has been seamless and insightful. I would highly recommend him to any team looking for top-tier documentation and communication skills._ | [Jeyshree Krishnaswarmy Sundararajan](https://www.linkedin.com/in/jeyshree-k-s/) <br/> <br/> Coworker | 
+| _"Guy was our lead and only tech writer and was an important part of my team. His work was clear, organized and thoughtful, across all product areas. As a former software engineer, he wrote in a way our engineers and customers' engineers understood easily, and his passion for perfectionism was appreciated by many. I hope to work with Guy (and his sense of humor) again in the future."_ | [Jon Eisenstein](https://www.linkedin.com/in/joneisenstein/) <br/> <br/> Manager |
+| _"Guy is an outstanding technical writer who consistently turns complex information into clear, accessible content. His ability to collaborate across teams and understand technical nuances makes him a trusted communicator and a key asset to any project. Working with him has been seamless and insightful. I would highly recommend him to any team looking for top-tier documentation and communication skills."_ | [Jeyshree Krishnaswarmy Sundararajan](https://www.linkedin.com/in/jeyshree-k-s/) <br/> <br/> Coworker | 
 
 ### Nium
 

@@ -19,8 +19,8 @@ function HomepageHeader() {
           Empowering users, one page at a time.
         </Heading>
         <Heading as="h2" className="hero__subtitle">
-          We're passionate about creating documentation and resources that help developers and end users fully unlock a product's
-          potential. We're also excited to support fellow technical writers&emdash;sharing interview questions, writing tips, and insights
+          I'm passionate about creating documentation and resources that help developers and end users fully unlock a product's
+          potential. I'm also excited to support fellow technical writers&emdash;sharing interview questions, writing tips, and insights
           to help you showcase your skills and land your next role with confidence.
         </Heading>
       </div>

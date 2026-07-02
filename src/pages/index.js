@@ -8,7 +8,7 @@ import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
 import React from 'react';
-import ScrollingBanner from '@site/src/components/ScrollingBanner';   // Import your banner
+import RecommendationShowcase from '@site/src/components/RecommendationShowcase';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -38,7 +38,7 @@ export default function Home() {
       <main>
         <HomepageFeatures />
       </main>
-      <ScrollingBanner />
+      <RecommendationShowcase />
     </Layout>
   );
 }

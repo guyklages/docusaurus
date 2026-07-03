@@ -41,16 +41,16 @@
 
 ## Dev problems I've solved
 
-| Developer problem I solved | Company |
-|----------------------------|---------|
-| Created a framework of governance and guardrails with templates in Markdown and YAML files to make it easier for developers to build Copilot Agents | Microsoft |
-| Improved the Metaverse documentation with examples for faster building | Meta |
-| Created internal documentation for the complex installation and configuration of their tool that populates the Netflix Home screen of titles so other departments can use it as well | Netflix |
-| Created **[a clear onboarding process with sections of customer types](https://docs.nium.com/docs/onboarding)** for common onboarding steps and for region-specific parameter and example pages, which doubled the number of people onboarded per month with 75% fewer issues | Nium |
-| Filled in their documentiona gaps and greatly enhanced their internal documentation with more explanations and examples for engineers to use the Apache ecosystem tools for their Big Data and IoT projects. My docs were called, "more thorough than Apache's documentation site." | Yahoo |
-| Improved the completeness and accuracy of the AdWords API department's documentation to be **[the highest rated department in all of Google](https://guyklages.com/portfolio/hardest-problems-ive-solved#1-department-in-documention)** | Google |
-| **[Reduced helpdesk tickets by 30%](https://guyklages.com/portfolio/hardest-problems-ive-solved#30-fewer-helpdesk-tickets)** by vastly improving their documentation by elaborating the explanations and adding example queries | Couchbase |
-| **[Reduced helpdesk tickets by 88%](https://guyklages.com/portfolio/hardest-problems-ive-solved#88-drop-in-helpdesk-queue)** by redesigning their Helpdesk system and by answering many calls myself instead of creating a ticket | Microsoft |
+| Developer problem | How I solved it | Company |
+|-------------------|-----------------|---------|
+| Developers had a hodge-podge of `skill.md` and `instruction.md` and various `.yaml` files and needed structure for their internal agent-driven workflows, server architecture, and usability. | I Created a framework of governance and guardrails with templates in Markdown and YAML files to make it easier for developers to build Copilot Agents | Microsoft |
+| Metaverse developers had trouble making 3-D objects behave the way they wanted. | I improved the Metaverse documentation with explanations and examples for faster building. | Meta |
+| Developers created an AI/ML/LLM system to populate the Netflix home screen of titles and needed to share this technology with other Netflix departments but weren't able to install or configure it outside their group. | I tested and created internal documentation for the complex installation and configuration of their tool that populates the Netflix Home screen of titles so other departments can use it as well | Netflix |
+| Developers of Nium's customers weren't able to onboard Nium's products due to the complexity of different steps for different company types in different countries. | I made a step-by-step unified onboarding process that immediately [doubled the number of customers onboarded while reducing helpdesk tickets by 75%](./hardest-problems-ive-solved.md#2x-onboarding-75-fewer-issues). | Nium |
+| Developers were building internal AI/ML/LLM tools but had difficulty since Apache's documentation didn't cover all of their use cases or needs. | I filled in their documentiona gaps and greatly enhanced their internal documentation with more explanations and examples for engineers to use the Apache ecosystem tools for their Big Data and IoT projects. My docs were called, "more thorough than Apache's documentation site." | Yahoo |
+| AdWordsAPI developers had trouble finding what they needed since the Confluence pages hadn't been updated in many months or years and some were simply obsolete. | I improved the completeness and accuracy of the AdWords API department's documentation to be **[the highest rated department in all of Google](https://guyklages.com/portfolio/hardest-problems-ive-solved#1-department-in-documention)** | Google |
+| Customer developers had trouble writing queries since the documentation was sparse and had no example queries of usage. | I vastly improved their documentation by elaborating on the explanations and usage as well as adding many example queries, which **[Reduced helpdesk tickets by 30%](https://guyklages.com/portfolio/hardest-problems-ive-solved#30-fewer-helpdesk-tickets)** | Couchbase |
+| Developers couldn't keep up with the ever-growing queue of helpdesk tickets since their process didn't call customers at the best time to reach them. | I redesigned their Helpdesk system to call them during the timespan the specified and at the number (home or work) specified; and I answered many calls myself instead of creating a ticket. These **[Reduced helpdesk tickets by 88%](https://guyklages.com/portfolio/hardest-problems-ive-solved#88-drop-in-helpdesk-queue)** | Microsoft |
 
 
 ## Community contributions

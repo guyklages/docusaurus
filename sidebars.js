@@ -52,6 +52,11 @@ const sidebars = {
       id: 'portfolio/recommendations',
       className: 'portfolio-sidebar-item',
     },
+    {
+      type: 'doc',
+      id: 'portfolio/archived-work',
+      className: 'portfolio-sidebar-item',
+    },
   ],
   sidebarAtelioGuides: [
     {

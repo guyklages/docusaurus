@@ -1,4 +1,4 @@
-# Hardest technical writer problems
+# Hardest technical writing problems
 
 ## 36% page reduction from IA
 

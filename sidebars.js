@@ -19,10 +19,14 @@ const sidebars = {
         className: 'portfolio-sidebar-item',
     },
     {
-        type: 'doc',
-        id: 'portfolio/hardest-problems-ive-solved',
+        type: 'category',
         label: 'Hardest problems I\u0027ve solved',
-        className: 'portfolio-sidebar-item',
+        items: [
+          type: 'doc',
+          id: 'portfolio/hardest-technicaler-writer',
+          label: 'Technical Writer',
+          className: 'portfolio-sidebar-item'
+        ],
     },
     {
         type: 'doc',

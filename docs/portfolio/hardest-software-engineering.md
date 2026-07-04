@@ -66,7 +66,7 @@
 
 ## Company reorg Visualization
 
-#### Applied Materials (Santa Clara) -- <mark> Displayed dynamically how different company reorganization scenarios would affect the whole </mark>
+#### AMAT (Santa Clara) -- <mark> Displayed dynamically how different company reorganization scenarios would affect the whole </mark>
 
 | Before (Aug 1997) | After (Sep 1997) |
 |-------------------|------------------|
@@ -82,7 +82,7 @@
 | PROBLEM: <br/> There were 10,000's of duplicate addresses in a 100,000+ row SQL database due to being entered slightly differently. <br/> <br/> 3,000 - 5000 records are added every day, 24/7. <br/> <br/> 3 - 5 people always using 1 MS Access database. <br/> <br/> Hong Kong customers enter addresses differently: <br/> - Sometimes adding their complex’s name, or not <br/> - Writing the complex's name above or below the street name <br/> - Sometimes adding postal code, or not <br/> - Sometimes abbreviating different words <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- District / Dst / Dstct / D. <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Complex / Cmplx / Cmpx <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Phase / Building / Bldg / Suite / Ste <br/> - Sometime using different number formats <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Roman (I, II, III, etc.) <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- English (1, 2, 3, etc.) <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Chinese (一，二，三, etc.) | MY SOLUTION: <br/> Make every address field a dropdown list in order to make a unique key by concatenating the distinctive fields. <br/> <br/> Make every address field a dropdown list: <br/> - _District_&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Tsimshatsui, Mongkok, etc.) <br/> - _Complex_&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (The Red Dragon, etc.) <br/> - _Section_&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Phase, Building, Bldg., etc.) <br/> - _Room_&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Suite, Ste., #, Number, No., etc.) <br/> - _Number_&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (6, 06, VI, 六) <br/> <br/> Add a field that is a concatenation of key fields. <br/> - District, Street, Room Numbers, etc. <br/> <br/> Query the new concatenated field for duplicates. <br/> - Delete the duplicates. <br/> <br/> Add a Unique Key restraint on the new key field. <br/> - To prevent the entering of duplicate records. |
 | | RESULTS: <br/> Desired duplicate-free list with < 5 minutes of downtime. |
 
-## 3 dept unified with a database
+## 3 dept unified with a DB
 
 #### Lung Electronics (Hong Kong) -- <mark> Unified the Marketing, Testing, and Sales departments with a database </mark>
 
@@ -91,11 +91,11 @@
 | SITUATION: <br/> - 1,000's of products sourced from Taiwan. <br/> - 10 PMs tracked their products their own way. <br/> -&nbsp;PMs&nbsp;swapped&nbsp;products&nbsp;every&nbsp;month&nbsp;to&nbsp;avoid&nbsp;fraud. <br/> - Products needed to be tested for quality. <br/> - Sales people sold products in Europe. <br/> <br/> PROBLEM: <br/> PMs and Sales people spent many days each month learning new products that were organized differently. | MY SOLUTION: <br/> Combine all products into a unified database to normalize how all products are organized. <br/> <br/> - Product-switching took only a few minutes. <br/> - Easier to track who managed which products when. <br/> - Easier to sell since all data was available in real-time. <br/> - Faster to track which ones needed testing, which were being tested, which passed, and which failed. |
 | | RESULTS: <br/> When a visiting Oracle engineer saw what I created (especially the table headers change specs to match the selected product), he was stunned and said, "I didn't know Access could do that!" |
 
-## Removed virus before common
+## 1st to identify virus
 
 #### Interbase Solutions (Santa Clara) -- <mark> Removed a virus before the concept of a computer virus was common knowledge </mark>
 
 | Before (May 1988) | After (May 1988) |
 |-------------------|------------------|
-| PROBLEM: <br/> Windows 2.0 installation would stop after 3 minutes. | MY SOLUTION: <br/> I removed an unknown virus the four consultants with Masters degrees couldn't diagnose. <br/> <br/> I ran the installation; it stopped after 3 min. <br/> <br/> Days earlier at school, I had talked with fellow computer nerds about a new thing called a "virus" and had borrowed their Norton Utilities software. <br/> <br/> There was, in fact, a virus on the customer's install disk, which I removed and finished the installation in 40 min. |
-| ![Floppy disks](../../static/img/Interbase_Reebok-shoebox.png) | RESULTS: <br/> - Client's wife said, "I was doubtful when I saw your shoebox of floppy disks, but you fixed something four other $100/hr men with Masters degrees couldn't do after a few hours--good job!" <br/> - I had already stated $12/hr. |
+| PROBLEM: <br/> Windows 2.0 installation would stop after 3 minutes. | MY SOLUTION: <br/> I identified and removed a computer virus that four consultants with Masters degrees couldn't diagnose. <br/> <br/> I ran the installation; it stopped after 3 min. <br/> <br/> Days earlier at school, I had talked with fellow computer nerds about a new thing called a "virus" and had borrowed their Norton Utilities software. <br/> <br/> There was, in fact, a virus on the customer's install disk, which I removed and finished the installation in 40 min. |
+| ![Floppy disks](../../static/img/Interbase_Reebok-shoebox.png) | RESULTS: <br/> - Client's wife said, "I was doubtful when I saw your shoebox of floppy disks, but you fixed something four other $100/hr men with Masters degrees couldn't do--even after a few hours. Good job!" <br/> - Even though I had already stated $12/hr, solving it felt great! |

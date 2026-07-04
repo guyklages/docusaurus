@@ -25,9 +25,27 @@ const sidebars = {
         items: [
           {
             type: 'doc',
-            id: 'portfolio/hardest-technical-writer',
-            label: 'Technical Writer',
+            id: 'portfolio/hardest-technical-writing',
+            label: 'Technical writing',
             className: 'portfolio-sidebar-item'
+          },
+          {
+            type: 'doc',
+            id: 'portfolio/hardest-training',
+            label: 'Training',
+            className: 'portfolio-sidebar-item',
+          },
+          {
+            type: 'doc',
+            id: 'portfolio/hardest-ux-ui-consulting',
+            label: 'UX/UI consulting',
+            className: 'portfolio-sidebar-item',
+          },
+          {
+            type: 'doc',
+            id: 'portfolio/hardest-software-engineering',
+            label: 'Software engineering',
+            className: 'portfolio-sidebar-item',
           }
         ],
     },

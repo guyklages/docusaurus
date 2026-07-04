@@ -1,6 +1,6 @@
-# Hardest technical writer problems I've solved
+# Hardest technical writer problems
 
-## 36% page reduction from new IA
+## 36% page reduction from IA
 
 #### <mark>FIS Global (Atelio) -- Revamped the information architecture, reduced dev pages by 36%, and made navigation easier</mark>
 
@@ -18,7 +18,7 @@
 | PROBLEM: <br/> Pages&nbsp;were&nbsp;hastily&nbsp;written&nbsp;by&nbsp;engineers&nbsp;just&nbsp;to have "something" documented about their products, such as: <br/> <br/> [Payins](https://mpdocs.nium.com/payout-payin/pay-in---key-concepts) <br/> [Payouts](https://mpdocs.nium.com/payout-payin/Payout) <br/> [Verify](https://mpdocs.nium.com/payout-payin/account-verification--confirmation-of-payee-) | SOLUTION: <br/> I&nbsp;revamped&nbsp;and&nbsp;organized&nbsp;the&nbsp;pages&nbsp;with&nbsp;many&nbsp;more&nbsp;details and related concepts as well as adding many new pages, such as: <br/> <br/> [Payins](https://docs.nium.com/docs/payins)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Foreign exchange](https://docs.nium.com/docs/foreign-exchange)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Use cases](https://docs.nium.com/docs/use-cases) <br/> [Payouts](https://docs.nium.com/docs/payouts)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Transactions](https://docs.nium.com/docs/transactions)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Fees and limits](https://docs.nium.com/docs/fees-and-limits) <br/> [Cards](https://docs.nium.com/docs/cards)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Reports](https://docs.nium.com/docs/reports)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Nium portal](https://docs.nium.com/docs/nium-portal) <br/> [Verify](https://docs.nium.com/docs/verify)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Open banking](https://docs.nium.com/docs/open-banking)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Developers](https://docs.nium.com/docs/developers)  |
 | ![Before](../../static/img/Nium_Payouts_BEFORE.png) | ![After](../../static/img/Nium_Payouts_AFTER.png) |
 
-## 2x onboarding; 75% fewer issues
+## 2x customers onboarded
 
 #### <mark> Nium -- Doubled the number of people onboarded per month with 75% fewer issues </mark>
 
@@ -27,7 +27,7 @@
 | PROBLEM: <br/> New clients were unable to onboard themselves due to the unclear method to them–-and even to Nium. <br/> <br/> Each region (AU, EU, HK, SG, UK, US) contains five very complex spreadsheets describing various steps of onboarding for various client types and situations: | MY SOLUTION: <br/> I created **[a clear onboarding process with sections of customer types](https://docs.nium.com/docs/onboarding)** for common onboarding steps and for region-specific parameter and example pages. <br/> <br/> Immediately saw twice as many customers onboarded and only a quarter of the Helpdesk requests for onboarding |
 | ![Before](../../static/img/Nium_onboarding-before.png) | ![After](../../static/img/Nium_onboarding-after.png) |
 
-## #1 in a cybersecurity challenge
+## #1 cybersecurity coder
 
 #### <mark> Yahoo -- Among 2,733 Python developers, I was ranked as #1 in the Cybersecurity Code Warrior Challenge </mark>
 
@@ -37,7 +37,7 @@
 | ![Before](../../static/img/Yahoo_Cybersecurity_question.png) | ![After](../../static/img/Yahoo_Cybersecurity_Assessment-Leaderboard.png) |
 | | I was #1 among 2,733 developers ... <br/> ... two weeks later, I was #42 among 7,624 |
 
-## 40% fewer pages; auto-reminders
+## 40% fewer pages
 
 #### <mark> Yahoo -- Reduced obsolete pages by 40% and added automation to prevent obsolete pages </mark>
 
@@ -46,7 +46,7 @@
 | PROBLEM: <br/> Too&nbsp;many&nbsp;obsolete&nbsp;and&nbsp;disorganized&nbsp;document&nbsp;pages. <br/> - Going to have an audit on all documentation pages. <br/> - Most in Confluence, needing to be in Markdown. <br/> - Many pages were obsolete but not clear which ones. <br/> - Many pages were not in easily discoverable places. <br/> - Many related pages/topics could be combined. <br/> - Moving forward, how to prevent "stale" pages? | MY SOLUTION: <br/> Implement reminders to review unmodified pages of a specified number of days. <br/> - I reviewed pages with SMEs <br/> - Archived obsolete pages <br/> - Merged similar pages <br/> - Organized pages by product <br/> - Migrated them to Markdown in Yahoo's GitHub <br/> - I suggested a system of tags on every page: <br/> &nbsp;&nbsp;&nbsp;&nbsp;-`Owner`, `LastModified`, `DaysTillStale` <br/> - A daily script looks for pages that haven't been edited in that page's time limit and sends an email to the owner (or owner's manager) of that page to review it. |
 | | - Total number of pages reduced by 40%. <br/> - Automated a timely reminder to page owners. |
 
-## #1 department in documention
+## #1 dept in documention
 
 #### <mark> Google -- The AdWords API department needed to improve the "freshness" of their internal documentation pages </mark>
 
@@ -64,7 +64,7 @@
 | PROBLEM: <br/> Need&nbsp;to&nbsp;document&nbsp;features&nbsp;before&nbsp;testing&nbsp;is&nbsp;done. <br/> - Couchbase Server v6.0 was still being coded. <br/> - Less than half of v6.0 had completed QA testing. <br/> - Documentation was needed for an event. <br/> - There wasn't an installed instance I could use. | MY SOLUTION: <br/> Install the Alpha version to use it and document it. <br/> <br/> _(it was like installing Linux in 1996 before Google)_ <br/> <br/> 1.  Find an unused server I could reformat. <br/> 2.  Download and install Ubuntu 18.0. <br/> 3.  Find, download, and install dependency files. <br/> 4.  Find, download, and compile CB v6.0 source code. <br/> 5.  Run Couchbase Server and create queries that use the new ANSI indexing and other new features. |
 | | I was able to document pre-QA features in time for an event without help from the software developers. |
 
-## 80% time saved on writing process
+## 80% time saved on writing
 
 #### <mark> Couchbase -- Reduced the writing process of a new feature from 4-6 weeks to 4-5 days </mark>
 
@@ -91,7 +91,7 @@
 | PROBLEM: <br/> Two&nbsp;VPs&nbsp;had&nbsp;opposing&nbsp;priorities&nbsp;for&nbsp;me: <br/> - Engineering VP for new v4 features. <br/> - Product VP for improved v3 docs. <br/> - Every _day_ they overrode the other. <br/> | MY SOLUTION: <br/> Google Analytics. <br/> <br/> It was clear: <br/> - About 85% of the documention pages viewed were v3. <br/> - Which pages were viewed the most often. <br/> - Which pages were looked at the longest time. <br/> So, I knew exactly how to prioritize which page to improve next. |
 | | ![After](../../static/img/Couchbase_Google-Analytics-of-doc-pages.png) | 
 
-## 50% less time; 50% fewer errors
+## 50% less time and fewer errors
 
 #### <mark> VA Medical Center (Boston) -- Reduced time to create clinical trials by 50% with 50% fewer errors </mark>
 
@@ -100,9 +100,9 @@
 | PROBLEM: <br/> PMs complained that they needed to enter long, complex eDC expressions that were hard-to-read and very error prone. | MY SOLUTION: <br/> I suggested to the engineers to separate each element into dropdown boxes with human-readable values that automatically matched the level of parenthesis. |
 | For example: <br/> `NOT((intAge<="35") OR (ynSmoke !="1"))` | ![After](../../static/img/VA_Age=35+NoSmoke.png) |
 
-## 1/3rd the time to edit eDC forms
+## 1/3rd the time to edit eDC
 
-#### <mark> VA Medical Center (Boston) -- Reduced the time needed to make any changes to a clinical trial to one-third. </mark>
+#### <mark> VA Medical Center (Boston) -- Reduced the time needed to make any changes to an eDC clinical trial form to one-third. </mark>
 
 | Before (Aug 2011) | After (Dec 2011) |
 |-------------------|------------------|

@@ -24,7 +24,7 @@ const sidebars = {
         items: [
           {
             type: 'doc',
-            id: 'portfolio/hardest-technicaler-writer',
+            id: 'portfolio/hardest-technical-writer',
             label: 'Technical Writer',
             className: 'portfolio-sidebar-item'
           }

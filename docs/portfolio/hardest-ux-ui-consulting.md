@@ -1,4 +1,4 @@
-# Hardest UX/UI problems I've solved
+# Most impactful UX/UI items I solved
 
 
 ## 25% more players and sales

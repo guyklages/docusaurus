@@ -20,7 +20,7 @@ const sidebars = {
     },
     {
         type: 'category',
-        label: 'Hardest problems I\'ve solved',
+        label: 'Most impactful items I solved',
         collapsed: false,
         items: [
           {

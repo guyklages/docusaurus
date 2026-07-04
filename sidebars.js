@@ -27,7 +27,7 @@ const sidebars = {
             id: 'portfolio/hardest-technicaler-writer',
             label: 'Technical Writer',
             className: 'portfolio-sidebar-item'
-          },
+          }
         ],
     },
     {

@@ -1,9 +1,9 @@
 # Hardest UX/UI problems I've solved
 
 
-## 25% increase in players and sales
+## 25% more players and sales
 
-#### <mark> Mica Games (Seattle) -- Suggested changes to his games that resulted in 25% more players and revenue </mark>
+#### Mica Games (Seattle) -- <mark> Suggested changes to his games that resulted in 25% more players and revenue </mark>
 
 | Before (Mar 1998) | After (Apr 2013) |
 |-------------------|------------------|

@@ -92,9 +92,23 @@ presets: [
 
   themes: ['docusaurus-theme-redoc'],
 
+  plugins: ['docusaurus-plugin-image-zoom'],
+
   themeConfig:
     {
       image: 'img/Guy-suit-head-shot.png',
+      zoom: {
+        selector: '.markdown :not(em) > img', // Targets images inside markdown
+        background: {
+          light: 'rgb(255, 255, 255)',
+          dark: 'rgb(50, 50, 50)',
+        },
+        config: {
+          // medium-zoom configuration options
+          margin: 24,
+          scrollOffset: 0,
+        },
+      },
       colorMode: {
         respectPrefersColorScheme: true,
       },

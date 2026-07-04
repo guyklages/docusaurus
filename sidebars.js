@@ -22,10 +22,12 @@ const sidebars = {
         type: 'category',
         label: 'Hardest problems I\u0027ve solved',
         items: [
-          type: 'doc',
-          id: 'portfolio/hardest-technicaler-writer',
-          label: 'Technical Writer',
-          className: 'portfolio-sidebar-item'
+          {
+            type: 'doc',
+            id: 'portfolio/hardest-technicaler-writer',
+            label: 'Technical Writer',
+            className: 'portfolio-sidebar-item'
+          },
         ],
     },
     {

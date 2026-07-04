@@ -3,7 +3,7 @@
 
 ## DB saved 50% time, effort
 
-#### <mark> ADP Payroll (Seattle) -- Made a database to automate reports; saved >50% of the employees' time and effort </mark>
+#### ADP Payroll (Seattle) -- <mark> Made a database to automate reports; saved >50% of the employees' time and effort </mark>
 
 | Before (Mar 2009) | After (Aug 2009) |
 |-------------------|------------------|
@@ -12,7 +12,7 @@
 
 ## 88% drop in helpdesk queue
 
-#### <mark> Microsoft (Shanghai) -- Redesigned their Helpdesk system that resulted in decimating their call queue </mark>
+#### Microsoft (Shanghai) -- <mark> Redesigned their Helpdesk system that resulted in decimating their call queue </mark>
 
 | Before (Feb 2003) | After (Mar 2003) |
 |-------------------|------------------|
@@ -21,7 +21,7 @@
 
 ## 12x faster warranty website
 
-#### <mark> HP (Mt. View) -- Redesigned their database tables; website ran about 12x faster </mark>
+#### HP (Mt. View) -- <mark> Redesigned their database tables; website ran about 12x faster </mark>
 
 | Before (May 2001) | After (Aug 2001) |
 |-------------------|------------------|
@@ -30,16 +30,16 @@
 
 ## 40% increase in productivity
 
-#### <mark> Bridgestone -- Redesigned their label printing system; freed up staff's time by 40-50% </mark>
+#### Bridgestone -- <mark> Redesigned their label printing system; freed up staff's time by 40-50% </mark>
 
 | Before (May 1999) | After (May 1999) |
 |-------------------|------------------|
 | PROBLEM: <br/> Staff didn't have enough time to do everything needed. <br/> <br/> 1. Staff would print the labels needed for a single part of a particular batch.  (5 min) <br/> <br/> 2. Staff would wait 15 - 20 minutes until that part finished before printing labels for the next part because their SQL application would print only one part at a time. <br/> <br/> 3. Staff would go back to Step 1, repeating the long wait times throughout the day. | MY SOLUTION: <br/> Change how their SQL Server application operates to select and print labels of all steps of a batch at a single time. <br/> <br/> I re-designed their software to print the labels of all steps of a given batch at a single time, so the staff were available to do other things while all the needed labels printed on their own. |
 | | RESULTS: <br/> The staff's waiting time (40 - 50% of the day) became productive time on other tasks |
 
-## 0 wrong orders; 25% time saved
+## 0 wrong orders + time saved
 
-#### <mark> Pueblo Grocery Store -- Created a database and product ordering system that resulted in no more wrong orders and 25% time saved </mark>
+#### Pueblo Grocery -- <mark> Created a database product ordering system that resulted in no more wrong orders and 25% time saved </mark>
 
 | Before (Mar 1999) | After (Apr 1999) |
 |-------------------|------------------|
@@ -48,7 +48,7 @@
 
 ## $1 million per month saved
 
-#### <mark> Mall landlord -- Ran database queries to uncover a 1% discrepency in monthly rent totals </mark>
+#### Mall landlord -- <mark> Ran database queries to uncover a 1% discrepency in monthly rent totals </mark>
 
 | Before (Aug 1998) | After (Sep 1998) |
 |-------------------|------------------|
@@ -57,7 +57,7 @@
 
 ## Law contracts that reuse text
 
-#### <mark> Law firm -- Created DITA-like database to reuse paragraphs of text in multiple contracts </mark>
+#### Law firm -- <mark> Created DITA-like database to reuse paragraphs of text in multiple contracts </mark>
 
 | Before (Mar 1998) | After (Apr 1998) |
 |-------------------|------------------|
@@ -66,7 +66,7 @@
 
 ## Company reorg Visualization
 
-#### <mark> Applied Materials (Santa Clara) -- Displayed dynamically how different company reorganization scenarios would affect the whole </mark>
+#### Applied Materials (Santa Clara) -- <mark> Displayed dynamically how different company reorganization scenarios would affect the whole </mark>
 
 | Before (Aug 1997) | After (Sep 1997) |
 |-------------------|------------------|
@@ -75,7 +75,7 @@
 
 ## 1,000s of duplicates in prod
 
-#### <mark> Komodo Toys (Hong Kong) -- Removed 1,000s of duplicate records while database was in production </mark>
+#### Komodo Toys (Hong Kong) -- <mark> Removed 1,000s of duplicate records while database was in production </mark>
 
 | Before (Mar 1997) | After (Apr 1997) |
 |-------------------|------------------|
@@ -84,7 +84,7 @@
 
 ## 3 dept unified with a database
 
-#### <mark> Lung Electronics (Hong Kong) -- Unified the Marketing, Testing, and Sales departments with a database </mark>
+#### Lung Electronics (Hong Kong) -- <mark> Unified the Marketing, Testing, and Sales departments with a database </mark>
 
 | Before (Mar 1996) | After (Apr 1997) |
 |-------------------|------------------|
@@ -93,7 +93,7 @@
 
 ## Removed virus before common
 
-#### <mark> Interbase Solutions (Santa Clara) -- Removed a virus before the concept of a computer virus was common knowledge </mark>
+#### Interbase Solutions (Santa Clara) -- <mark> Removed a virus before the concept of a computer virus was common knowledge </mark>
 
 | Before (May 1988) | After (May 1988) |
 |-------------------|------------------|

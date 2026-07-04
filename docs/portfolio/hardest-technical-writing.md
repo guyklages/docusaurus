@@ -2,7 +2,7 @@
 
 ## 36% page reduction from IA
 
-#### <mark>FIS Global (Atelio) -- Revamped the information architecture, reduced dev pages by 36%, and made navigation easier</mark>
+#### FIS Global (Atelio) -- <mark> Revamped the information architecture, reduced dev pages by 36%, and made navigation easier</mark>
 
 | Before (May 2024) | After (July 2025) |
 |-------------------|-------------------|
@@ -11,7 +11,7 @@
 
 ## Revamped 60% of pages
 
-#### <mark> Nium -- Revamped 60% of the pages created by engineers hastily </mark>
+#### Nium -- <mark> Revamped 60% of the pages created by engineers hastily </mark>
 
 | Before (May 2024) | After (July 2025) |
 |-------------------|-------------------|
@@ -20,7 +20,7 @@
 
 ## 2x customers onboarded
 
-#### <mark> Nium -- Doubled the number of people onboarded per month with 75% fewer issues </mark>
+#### Nium -- <mark> Doubled the number of people onboarded per month with 75% fewer issues </mark>
 
 | Before (Oct 2022) | After (Dec 2022) |
 |-------------------|------------------|
@@ -29,7 +29,7 @@
 
 ## #1 cybersecurity coder
 
-#### <mark> Yahoo -- Among 2,733 Python developers, I was ranked as #1 in the Cybersecurity Code Warrior Challenge </mark>
+#### Yahoo -- <mark> Among 2,733 Python developers, I was ranked as #1 in the Cybersecurity Code Warrior Challenge </mark>
 
 | Before (May 2020) | After (May 2020) |
 |-------------------|------------------|
@@ -39,7 +39,7 @@
 
 ## 40% fewer pages
 
-#### <mark> Yahoo -- Reduced obsolete pages by 40% and added automation to prevent obsolete pages </mark>
+#### Yahoo -- <mark> Reduced obsolete pages by 40% and added automation to prevent obsolete pages </mark>
 
 | Before (May 2019) | After (Dec 2019) |
 |-------------------|------------------|
@@ -48,7 +48,7 @@
 
 ## #1 dept in documention
 
-#### <mark> Google -- The AdWords API department needed to improve the "freshness" of their internal documentation pages </mark>
+#### Google -- <mark> The AdWords API department needed to improve the "freshness" of their internal documentation pages </mark>
 
 | Before (May 2018) | After (Nov 2018) |
 |-------------------|------------------|
@@ -57,7 +57,7 @@
 
 ## 0 help from engineers
 
-#### <mark> Couchbase -- Needed to install a pre-QA version to document it while no engineer was available to help </mark>
+#### Couchbase -- <mark> Needed to install a pre-QA version to document it while no engineer was available to help </mark>
 
 | Before (Apr 2018) | After (Apr 2018) |
 |-------------------|------------------|
@@ -66,7 +66,7 @@
 
 ## 80% time saved on writing
 
-#### <mark> Couchbase -- Reduced the writing process of a new feature from 4-6 weeks to 4-5 days </mark>
+#### Couchbase -- <mark> Reduced the writing process of a new feature from 4-6 weeks to 4-5 days </mark>
 
 | Before (Mar 2017) | After (Aug 2017) |
 |-------------------|------------------|
@@ -75,7 +75,7 @@
 
 ## 30% fewer helpdesk tickets
 
-#### <mark> Couchbase (Santa Clara) -- Reduced the number of helpdesk tickets by 30% </mark>
+#### Couchbase (Santa Clara) -- <mark> Reduced the number of helpdesk tickets by 30% </mark>
 
 | Before (May 2017) | After (Aug 2017) |
 |-------------------|------------------|
@@ -84,7 +84,7 @@
 
 ## 2 VPs with opposite priorities
 
-#### <mark> Couchbase (Santa Clara) -- How to prioritize the writing of new features vs updating old pages? Google Analytics! </mark>
+#### Couchbase (Santa Clara) -- <mark> How to prioritize the writing of new features vs updating old pages? Google Analytics! </mark>
 
 | Before (Apr 2017) | After (May 2017) |
 |-------------------|------------------|
@@ -93,7 +93,7 @@
 
 ## 50% less time + fewer errors
 
-#### <mark> VA Medical Center (Boston) -- Reduced time to create clinical trials by 50% with 50% fewer errors </mark>
+#### VA Medical Center (Boston) -- <mark> Reduced time to create clinical trials by 50% with 50% fewer errors </mark>
 
 | Before (Feb 2012) | After (Apr 2012) |
 |-------------------|------------------|
@@ -102,7 +102,7 @@
 
 ## 1/3rd the time to edit eDC
 
-#### <mark> VA Medical Center (Boston) -- Reduced the time needed to make any changes to an eDC clinical trial form to one-third. </mark>
+#### VA Medical Center (Boston) -- <mark> Reduced the time needed to make any changes to an eDC clinical trial form to one-third. </mark>
 
 | Before (Aug 2011) | After (Dec 2011) |
 |-------------------|------------------|
@@ -110,7 +110,7 @@
 
 ## #1 in a Green campaign
 
-#### <mark> HP (Singapore) -- 1st place in Green Environment Campaign for my ideas that save 20-30% of paper used worldwide </mark>
+#### HP (Singapore) -- <mark> 1st place in Green Environment Campaign for my ideas that save 20-30% of paper used worldwide </mark>
 
 | Before (Jan 2008) | After (Feb 2008) |
 |-------------------|------------------|

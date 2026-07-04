@@ -20,7 +20,7 @@ const sidebars = {
     },
     {
         type: 'category',
-        label: 'Most impactful items I\'ve solved',
+        label: 'Most impactful items I solved',
         collapsed: false,
         items: [
           {

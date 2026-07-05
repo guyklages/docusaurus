@@ -1,4 +1,4 @@
-# Archived work samples
+# Archive of all work samples
 
 ## Various types of PDF guides
 

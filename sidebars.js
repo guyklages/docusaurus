@@ -70,16 +70,19 @@ const sidebars = {
     {
         type: 'doc',
         id: 'portfolio/training',
+        label: 'Training and instructional design',
         className: 'portfolio-sidebar-item',
     },
     {
       type: 'doc',
       id: 'portfolio/recommendations',
+      label: 'Recommendations on LinkedIn',
       className: 'portfolio-sidebar-item',
     },
     {
       type: 'doc',
       id: 'portfolio/archived-work',
+      label: 'Archive of all work samples',
       className: 'portfolio-sidebar-item',
     },
   ],

@@ -13,12 +13,6 @@ const sidebars = {
         className: 'portfolio-sidebar-item',
     },
     {
-        type: 'doc',
-        id: 'portfolio/before-and-after',
-        label: 'BEFORE and AFTER',
-        className: 'portfolio-sidebar-item',
-    },
-    {
         type: 'category',
         label: 'Most impactful items I solved',
         collapsed: false,
@@ -48,6 +42,12 @@ const sidebars = {
             className: 'portfolio-sidebar-item',
           }
         ],
+    },
+    {
+        type: 'doc',
+        id: 'portfolio/before-and-after',
+        label: 'BEFORE and AFTER',
+        className: 'portfolio-sidebar-item',
     },
     {
         type: 'doc',

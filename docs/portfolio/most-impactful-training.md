@@ -1,9 +1,9 @@
 # Most impactful training items I've solved
 
 
-## 12,000 happy ESL students in China
+## 12,000 happy ESL students
 
-#### <mark> Talk Group (Shanghai) -- Created and led activities that thrilled 12,000+ ESL learners in China </mark>
+#### Talk Group (Shanghai) -- <mark> Created and led activities that thrilled 12,000+ ESL learners all over China </mark>
 
 | Before (Feb 2002) | After (May 2006) |
 |-------------------|------------------|

@@ -1,4 +1,4 @@
-# Most impactful training items I've solved
+# Most impactful training items
 
 
 ## 12,000 happy ESL students

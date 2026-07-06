@@ -1,4 +1,4 @@
-# Most impactful UX/UI items I solved
+# Most impactful UX/UI items
 
 
 ## 36% fewer pages via IA

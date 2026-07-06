@@ -1,4 +1,4 @@
-# Hardest technical writing problems
+# Most impactful technical writing items
 
 ## 36% page reduction from IA
 

@@ -2,7 +2,7 @@
 
 ## 36% page reduction from IA
 
-#### FIS Global (Atelio) -- <mark> Revamped the information architecture, reduced dev pages by 36%, and made navigation easier</mark>
+#### Atelio of FIS Global (Seattle) -- <mark> Revamped the information architecture, reduced dev pages by 36%, and made navigation easier</mark>
 
 | Before (May 2024) | After (July 2025) |
 |-------------------|-------------------|
@@ -11,7 +11,7 @@
 
 ## Revamped 60% of pages
 
-#### Nium -- <mark> Revamped 60% of the pages created by engineers hastily </mark>
+#### Nium (San Francisco) -- <mark> Revamped 60% of the pages created by engineers hastily </mark>
 
 | Before (May 2024) | After (July 2025) |
 |-------------------|-------------------|
@@ -20,7 +20,7 @@
 
 ## 2x customers onboarded
 
-#### Nium -- <mark> Doubled the number of people onboarded per month with 75% fewer issues </mark>
+#### Nium (San Francisco) -- <mark> Doubled the number of people onboarded per month with 75% fewer issues </mark>
 
 | Before (Oct 2022) | After (Dec 2022) |
 |-------------------|------------------|
@@ -29,7 +29,7 @@
 
 ## #1 cybersecurity coder
 
-#### Yahoo -- <mark> Among 2,733 Python developers, I was ranked as #1 in the Cybersecurity Code Warrior Challenge </mark>
+#### Yahoo (Sunnyvale) -- <mark> Among 2,733 Python developers, I was ranked as #1 in the Cybersecurity Code Warrior Challenge </mark>
 
 | Before (May 2020) | After (May 2020) |
 |-------------------|------------------|
@@ -39,7 +39,7 @@
 
 ## 40% fewer pages
 
-#### Yahoo -- <mark> Reduced obsolete pages by 40% and added automation to prevent obsolete pages </mark>
+#### Yahoo (Sunnyvale) -- <mark> Reduced obsolete pages by 40% and added automation to prevent obsolete pages </mark>
 
 | Before (May 2019) | After (Dec 2019) |
 |-------------------|------------------|
@@ -48,7 +48,7 @@
 
 ## #1 dept in documention
 
-#### Google -- <mark> The AdWords API department needed to improve the "freshness" of their internal documentation pages </mark>
+#### Google (Mt. View) -- <mark> The AdWords API dept needed to improve the "freshness" of their internal documentation pages </mark>
 
 | Before (May 2018) | After (Nov 2018) |
 |-------------------|------------------|
@@ -57,7 +57,7 @@
 
 ## 0 help from engineers
 
-#### Couchbase -- <mark> Needed to install a pre-QA version to document it while no engineer was available to help </mark>
+#### Couchbase (Santa Clara) -- <mark> Needed to install a pre-QA version to document it while no engineer was available to help </mark>
 
 | Before (Apr 2018) | After (Apr 2018) |
 |-------------------|------------------|
@@ -66,7 +66,7 @@
 
 ## 80% time saved on writing
 
-#### Couchbase -- <mark> Reduced the writing process of a new feature from 4-6 weeks to 4-5 days </mark>
+#### Couchbase (Santa Clara) -- <mark> Reduced the writing process of a new feature from 4-6 weeks to 4-5 days </mark>
 
 | Before (Mar 2017) | After (Aug 2017) |
 |-------------------|------------------|

@@ -1,9 +1,18 @@
 # Most impactful UX/UI items I solved
 
 
+## 36% fewer pages via IA
+
+#### FIS Global (San Francisco) -- <mark> 36% fewer pages from a better information architecture </mark>
+
+| Before (May 2024) | After (July 2025) |
+|-------------------|-------------------|
+| PROBLEM: <br/> Short pages were hastily written by engineers who used more pages than needed <br/> <br/> Total of 50 pages| MY SOLUTION: <br/> I revamped and streamlined the information architecture to improve the flow, group related topics, and make finding information more natural. <br/> <br/> Total of 32 pages -- a reduction of 36% |
+| ![Before](../../static/img/Nium_ca_50pgs.png) | ![After](../../static/img/Nium_ca_32pgs.png) |
+
 ## 25% more players and sales
 
-#### Mica Games (Seattle) -- <mark> Suggested changes to his games that resulted in 25% more players and revenue </mark>
+#### Mica Games (Seattle) -- <mark> 25% more players and revenue from my suggested changes to his games </mark>
 
 | Before (Mar 1998) | After (Apr 2013) |
 |-------------------|------------------|

@@ -1,13 +1,9 @@
-# BEFORE and AFTER UX items I improved
+# BEFORE and AFTER 
 
-## FIS Global
+This page lists UX/UI items I improved whose impact wasn't measured but did make items more readable and less error-prone.
 
-### Information architecture
+For a list of items that had a measurable impact, see the `most impactful UX/UI items I solved` page.
 
-| Before (May 2024) | After (July 2025) |
-|-------------------|-------------------|
-| PROBLEM: <br/> Short pages were hastily written by engineers who used more pages than needed <br/> <br/> Total of 50 pages| MY SOLUTION: <br/> I revamped and streamlined the information architecture to improve the flow and group related topics. <br/> <br/> Total of 32 pages -- a reduction of 36% |
-| ![Before](../../static/img/Nium_ca_50pgs.png) | ![After](../../static/img/Nium_ca_32pgs.png) |
 
 ## Nium
 

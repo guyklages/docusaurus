@@ -41,7 +41,7 @@
 | ![Before](../../static/img/Mica_old-WZ+Crickler.png) | ![After](../../static/img/Mica_new-WZ+Crickler.png) |
 
 
-## Saved 80% of translation cost
+## Saved 80% of translation costs
 
 #### Pristine (Taipei) -- <mark> Saved 80% on translation costs by converting paragraphs to a table </mark>
 

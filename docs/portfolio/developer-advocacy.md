@@ -55,9 +55,20 @@
 
 ## Community contributions
 
-- Replied to [3 posts on Couchbase's forum](https://www.couchbase.com/forums/u/guy.klages/activity) 
+### Couchbase.com/forums
+
+Moderator
+- Helped facilitate community discussions by enforcing forum guidelines
+- Removed spam, ads, and self-promotion posts
+- Ensured posts remain respectful and on-topic
+- Moved, edited, or merged threads so questions are properly categorized and easier to find
+
+Developer advocate
+- Assisted developers
+- Escalated technical questions to the right engineering teams
+- Replied to posts with technical answers 
 - Replied to dozens of forum posts via email due to privacy issues
-- In the future, I'll post the non-private parts in the forum so everyone can benefit.
+- (In the future, I'll post the non-private parts in the forum so everyone can benefit)
 
 <!--
 - Discord comments posted

@@ -41,9 +41,9 @@
 | ![Before](../../static/img/Mica_old-WZ+Crickler.png) | ![After](../../static/img/Mica_new-WZ+Crickler.png) |
 
 
-## Saved 80% of translation costs
+## Saved 85% of translation
 
-#### Pristine (Taipei) -- <mark> Saved 80% on translation costs by converting paragraphs to a table </mark>
+#### Pristine (Taipei) -- <mark> Saved 85% on translation costs by converting paragraphs to a table </mark>
 
 | Before (May 2008) | After (May 2008) |
 |-------------------|------------------|

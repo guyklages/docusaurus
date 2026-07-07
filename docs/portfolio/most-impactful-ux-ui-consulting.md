@@ -43,7 +43,7 @@
 
 ## Saved 85% of translation
 
-#### Pristine (Taipei) -- <mark> Saved 85% on translation costs by converting paragraphs to a table </mark>
+#### Pristine (Taipei) -- <mark> Improved readability while saving 85% on translation costs by converting paragraphs to a table </mark>
 
 | Before (May 2008) | After (May 2008) |
 |-------------------|------------------|

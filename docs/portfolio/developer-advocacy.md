@@ -70,6 +70,12 @@ Developer advocate
 - Replied to dozens of forum posts via email due to privacy issues
 - (In the future, I'll post the non-private parts in the forum so everyone can benefit)
 
+Driver of growth
+- Gathered customer and potential customer feedback which influenced the product
+- Identified friction points of customers and potential customers and addressed them
+- Generated dozens of "leads" and "pipeline influence"
+- Noticed stalled or immature forum categories and designed plans to grow them
+
 <!--
 - Discord comments posted
 - GitHub issues reported

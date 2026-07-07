@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Hi, I am Guy Klages!',
+  title: 'Hi, I\'m Guy Klages!',
   tagline: '',
   favicon: 'img/Guy-suit-head-shot.png',  // favicon.ico',
 
@@ -113,7 +113,7 @@ presets: [
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'Hi, I am Guy Klages!',
+        title: 'Hi, I\'m Guy Klages!',
         // logo: {
         //   alt: 'My Site Logo',
         //  src: 'img/Guy-suit-head-shot.png',

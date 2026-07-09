@@ -116,6 +116,49 @@ On the [Couchbase SQL++ for Query Reference](https://docs.couchbase.com/cloud/n1
 | [Atelio APIs](https://guyklages.com/atelio/getting-started/postman-collection) | Atelio of FIS |
 | [Nium APIs](https://docs.nium.com/docs/getting-started/postman-collection) | Nium |
 
+### Nium API reference
+
+Nium has added more APIs to their website, but the following are the ones I created.
+
+| **Customer** |
+|--------------|
+| Customer onboarding |
+| 1 |
+| 2 |
+| 3 |
+| 4 |
+| 5 |
+| 6 |
+| 7 |
+| 8 |
+| |
+| Customer Accounts - Ind. |
+| 1 |
+| 2 |
+| 3 |
+| 4 |
+| 5 |
+| 6 |
+| 7 |
+| Customer Accounts - Corp. |
+| 1 |
+| 2 |
+| 3 |
+| 4 |
+| 5 |
+| 6 |
+| 7 |
+| 8 |
+| 9 |
+| |
+| Customer Management |
+| 1 |
+| 2 |
+| 3 |
+| 4 |
+| 5 |
+| 6 |
+
 ### SQL indexes and queries
 
 - While at Couchbase, there was a potential customer who wanted to buy if he could see examples of a new ANSI Index that was shipping in the latest version. 

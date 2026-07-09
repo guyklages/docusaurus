@@ -120,44 +120,44 @@ On the [Couchbase SQL++ for Query Reference](https://docs.couchbase.com/cloud/n1
 
 Nium has added more APIs to their website, but the following are the ones I created.
 
-| **Customer** |
-|--------------|
-| Customer onboarding |
-| 1 |
-| 2 |
-| 3 |
-| 4 |
-| 5 |
-| 6 |
-| 7 |
-| 8 |
-| |
-| Customer Accounts - Ind. |
-| 1 |
-| 2 |
-| 3 |
-| 4 |
-| 5 |
-| 6 |
-| 7 |
-| Customer Accounts - Corp. |
-| 1 |
-| 2 |
-| 3 |
-| 4 |
-| 5 |
-| 6 |
-| 7 |
-| 8 |
-| 9 |
-| |
-| Customer Management |
-| 1 |
-| 2 |
-| 3 |
-| 4 |
-| 5 |
-| 6 |
+| **CUSTOMER**              | ACCOUNTS |
+|---------------------------|----------|
+| Customer onboarding       | 1 |
+| 1                         | 2 |
+| 2                         | 3 |
+| 3                         | 4 |
+| 4                         | 5 |
+| 5                         | 6 |
+| 6                         | |
+| 7                         | PAYINS   |
+| 8                         | 1  |
+|                           | 2  |
+| Customer Accounts - Ind.  | 3  |
+| 1                         | 4  |
+| 2                         | 5  |
+| 3                         | 6  |
+| 4                         | 7  |
+| 5                         | 8  |
+| 6                         | 9  |
+| 7                         | 10 |
+| Customer Accounts - Corp. | 11 |
+| 1                         | 12 |
+| 2                         |    |
+| 3                         | **PAYOUTS** |
+| 4                         | 1  |
+| 5                         | 2  |
+| 6                         | 3  |
+| 7                         | 4  |
+| 8                         | 5  |
+| 9                         | 6  | 
+|                           | 7  |
+| Customer Management       | 8  |
+| 1                         |    |
+| 2                         |    |
+| 3                         |    |
+| 4                         |    |
+| 5                         |    |
+| 6                         |    |
 
 ### SQL indexes and queries
 

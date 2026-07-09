@@ -120,44 +120,44 @@ On the [Couchbase SQL++ for Query Reference](https://docs.couchbase.com/cloud/n1
 
 Nium has added more APIs to their website, but the following are the ones I created.
 
-| **CUSTOMER**              | ACCOUNTS |
-|---------------------------|----------|
-| Customer onboarding       | 1 |
-| 1                         | 2 |
-| 2                         | 3 |
-| 3                         | 4 |
-| 4                         | 5 |
-| 5                         | 6 |
-| 6                         | |
-| 7                         | PAYINS   |
-| 8                         | 1  |
-|                           | 2  |
-| Customer Accounts - Ind.  | 3  |
-| 1                         | 4  |
-| 2                         | 5  |
-| 3                         | 6  |
-| 4                         | 7  |
-| 5                         | 8  |
-| 6                         | 9  |
-| 7                         | 10 |
-| Customer Accounts - Corp. | 11 |
-| 1                         | 12 |
-| 2                         |    |
-| 3                         | **PAYOUTS** |
-| 4                         | 1  |
-| 5                         | 2  |
-| 6                         | 3  |
-| 7                         | 4  |
-| 8                         | 5  |
-| 9                         | 6  | 
-|                           | 7  |
-| Customer Management       | 8  |
-| 1                         |    |
-| 2                         |    |
-| 3                         |    |
-| 4                         |    |
-| 5                         |    |
-| 6                         |    |
+| **CUSTOMER**              | **ACCOUNTS** | **CARDS**   | **WALLET** |
+|---------------------------|--------------|-------------|------------|
+| Customer onboarding       | 1            | 1           | 1  |
+| 1                         | 2            | 2           | 2  |
+| 2                         | 3            | 3           | 3  |
+| 3                         | 4            | 4           | 4  |
+| 4                         | 5            | 5           | 5  |
+| 5                         | 6            | 6           | 6  |
+| 6                         |              | 7           | 7  |
+| 7                         | **PAYINS**   | 8           | 8  |
+| 8                         | 1            | 9           | 9  |
+|                           | 2            | 10          | 10 |
+| Customer Accounts - Ind.  | 3            | 11          | 11 |
+| 1                         | 4            | 12          |    |
+| 2                         | 5            | 13          | **REPORTS** |
+| 3                         | 6            | 14          | 1  |
+| 4                         | 7            | 15          | 2  |
+| 5                         | 8            | 16          |    |
+| 6                         | 9            | 17          | **TESTING** |
+| 7                         | 10           | 18          | 1  |
+| Customer Accounts - Corp. | 11           | 19          | 2  |
+| 1                         | 12           |             | 3  |
+| 2                         |              | **CLIENTS** | 4  |
+| 3                         | **PAYOUTS**  | 1           | 5  |
+| 4                         | 1            | 2           | |
+| 5                         | 2            | 3           | |
+| 6                         | 3            | 4           | |
+| 7                         | 4            | 5           | |
+| 8                         | 5            | 6           | |
+| 9                         | 6            |             | | 
+|                           | 7            |             | |
+| Customer Management       | 8            |             | |
+| 1                         |              |             | |
+| 2                         |              |             | |
+| 3                         |              |             | |
+| 4                         |              |             | |
+| 5                         |              |             | |
+| 6                         |              |             | | 
 
 ### SQL indexes and queries
 

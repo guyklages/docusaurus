@@ -129,7 +129,10 @@ After me, Nium has added more APIs and languages to their website. The following
 
 | **CUSTOMER**              | **ACCOUNTS**                          | **CARDS**                             | **WALLET**               |
 |---------------------------|---------------------------------------|---------------------------------------|--------------------------|
-| _Customer onboarding_ <br/> [List customers][COL] <br/> [Create customers][COC] <br/> [Get customer][COG] <br/> [Update customer][COU] <br/> [Submit KYC for entity][COS] <br/> [Fetch public corp details][COP] <br/> [Fetch exhaustive corp details][COE] <br/> <br/> _Customer account - individual_ <br/> [Unified add customer][CIA] <br/> [Customer update][CIU] <br/> [Fetch individual customer RFI details][CIF] <br/> [Respond to RFI][CIR] <br/> [Upload document][CID] <br/> [Add customer using MyInfo][CIM] <br/> [Add customer using eDoc verification][CIE] | acct | card | wall |
+| _Customer onboarding_ <br/> [List customers][COL] <br/> [Create customers][COC] <br/> [Get customer][COG] <br/> [Update customer][COU] <br/> [Submit KYC for entity][COS] <br/> [Fetch public corp details][COP] <br/> [Fetch exhaustive corp details][COE] <br/><br/> _Customer account - individual_ <br/> [Unified add customer][CIA] <br/> [Customer update][CIU] <br/> [Fetch individual customer RFI details][CIF] <br/> [Respond to RFI][CIR] <br/> [Upload document][CID] <br/> [Add customer using MyInfo][CIM] <br/> [Add customer using eDoc verification][CIE] <br/><br/> _Customer account - corporate_ <br/> [Exhaustive corp details using Business ID][CCE] <br/> [Onboard corporate customer][CCO] | acct | card | wall |
+
+[CCE]: https://docs.nium.com/api#tag/customer-account-corporate/GET/api/v2/client/{clientHashId}/corporate/lookup
+[CCO]: https://docs.nium.com/api#tag/customer-account-corporate/POST/api/v1/client/{clientHashId}/corporate
 
 [CIA]: https://docs.nium.com/api#tag/customer-account-individual/POST/api/v4/client/{clientHashId}/customer
 [CID]: https://docs.nium.com/api#tag/customer-account-individual/POST/api/v1/client/{clientHashId}/customer/{customerHashId}/uploadDocuments

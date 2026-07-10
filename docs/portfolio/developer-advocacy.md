@@ -129,7 +129,15 @@ After me, Nium has added more APIs and languages to their website. The following
 
 | **CUSTOMER**              | **ACCOUNTS**                          | **CARDS**                             | **WALLET**               |
 |---------------------------|---------------------------------------|---------------------------------------|--------------------------|
-| _Customer onboarding_ <br/> [List customers][COL] <br/> [Create customers][COC] <br/> [Get customer][COG] <br/> [Update customer][COU] <br/> [Submit KYC for entity][COS] <br/> [Fetch public corp details][COP] <br/> [Fetch exhaustive corp details][COE] | | | |
+| _Customer onboarding_ <br/> [List customers][COL] <br/> [Create customers][COC] <br/> [Get customer][COG] <br/> [Update customer][COU] <br/> [Submit KYC for entity][COS] <br/> [Fetch public corp details][COP] <br/> [Fetch exhaustive corp details][COE] <br/> <br/> _Customer account - individual_ <br/> [Unified add customer][CIA] <br/> [Customer update][CIU] <br/> [Fetch individual customer RFI details][CIF] <br/> [Respond to RFI][CIR] <br/> [Upload document][CID] <br/> [Add customer using MyInfo][CIM] <br/> [Add customer using eDoc verification][CIE] | acct | card | wall |
+
+[CIA]: https://docs.nium.com/api#tag/customer-account-individual/POST/api/v4/client/{clientHashId}/customer
+[CID]: https://docs.nium.com/api#tag/customer-account-individual/POST/api/v1/client/{clientHashId}/customer/{customerHashId}/uploadDocuments
+[CIE]: https://docs.nium.com/api#tag/customer-account-individual/POST/api/v3/client/{clientHashId}/customer
+[CIF]: https://docs.nium.com/api#tag/customer-account-individual/GET/api/v1/client/{clientHashId}/customer/{customerHashId}/rfi
+[CIM]: https://docs.nium.com/api#tag/customer-account-individual/POST/api/v1/client/{clientHashId}/customer-min-data
+[CIR]: https://docs.nium.com/api#tag/customer-account-individual/POST/api/v1/client/{clientHashId}/customer/{customerHashId}/rfi
+[CIU]: https://docs.nium.com/api#tag/customer-account-individual/POST/api/v1/client/{clientHashId}/customer/{customerHashId}/updateCustomer
 
 [COC]: https://docs.nium.com/api#tag/customer-onboarding-v5/POST/api/v5/client/{clientHashId}/customers
 [COE]: https://docs.nium.com/api#tag/customer-onboarding-v5/GET/api/v5/client/{clientHashId}/corporate/exhaustiveDetailsSearch

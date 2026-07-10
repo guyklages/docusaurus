@@ -120,44 +120,44 @@ On the [Couchbase SQL++ for Query Reference](https://docs.couchbase.com/cloud/n1
 
 Nium has added more APIs to their website, but the following are the ones I created.
 
-| **CUSTOMER**              | **ACCOUNTS**     | **CARDS**            | **WALLET** |
-|---------------------------|------------------|----------------------|------------|
-| Customer onboarding       | 1                | Simulators           | Customer Wallet Balance  |
-| 1                         | 2                | 1                    | 1  |
-| 2                         | 3                | 2                    | 2  |
-| 3                         | 4                |                      | 3  |
-| 4                         | 5                | Lifecycle            | 4  |
-| 5                         | 6                | 1                    |    |
-| 6                         |                  | 2                    | `Wallet-to-Wallet Xfer`  |
-| 7                         | **PAYINS**       | 3                    |    |
-| 8                         | Customer Funding | 4                    | Customer Wallet Transactions |
-|                           | 1                | 5                    | 10 |
-| Customer Accounts - Ind.  | 2                | 6                    | 11 |
-| 1                         | 3                | 7                    |    |
-| 2                         | 4                | 8                    | **REPORTS** |
-| 3                         | 5                | 9                    | 1  |
-| 4                         | 6                | 10                   | 2  |
-| 5                         | 7                | 11                   |    |
-| 6                         |                  |                      | **TESTING** |
-| 7                         | Cust. Vir. Acct. | Security             | 1  |
-| Customer Accounts - Corp. | 1                | 1                    | 2  |
-| 1                         | 2                | 2                    | 3  |
-| 2                         | 3                | 3                    | 4  |
-| 3                         | 4                | 4                    | 5  |
-| 4                         | 5                | 5                    | |
-| 5                         |                  | 6                    | |
-| 6                         | **PAYOUTS**      |                      | |
-| 7                         | 1                | **CLIENTS**          | |
-| 8                         | 2                | Client Prefund       | |
-| 9                         | 3                | 1                    | | 
-|                           | 4                | 2                    | |
-| Customer Management       | 5                | 3                    | |
-| 1                         | 6                | 
-| 2                         | 7                | Client Settings      | |
-| 3                         | 8                | 1                    | |
-| 4                         |                  | 2                    | |
-| 5                         |                  | 3                    | |
-| 6                         |                  | `Client transaction` | | 
+| **CUSTOMER**              | **ACCOUNTS**                         | **CARDS**            | **WALLET** |
+|---------------------------|--------------------------------------|----------------------|------------|
+| Customer onboarding       | 1                                    | Simulators           | Customer Wallet Balance  |
+| 1                         | 2                                    | 1                    | 1  |
+| 2                         | 3                                    | 2                    | 2  |
+| 3                         | 4                                    |                      | 3  |
+| 4                         | 5                                    | Lifecycle            | 4  |
+| 5                         | 6                                    | 1                    |    |
+| 6                         |                                      | 2                    | `Wallet-to-Wallet Xfer`  |
+| 7                         | **<div align="center">PAYINS</div>** | 3                    |    |
+| 8                         | Customer Funding                     | 4                    | Customer Wallet Transactions |
+|                           | 1                                    | 5                    | 10 |
+| Customer Accounts - Ind.  | 2                                    | 6                    | 11 |
+| 1                         | 3                                    | 7                    |    |
+| 2                         | 4                                    | 8                    | **<div align="center">REPORTS</div>** |
+| 3                         | 5                                    | 9                    | 1  |
+| 4                         | 6                                    | 10                   | 2  |
+| 5                         | 7                                    | 11                   |    |
+| 6                         |                                      |                      | **<div align="center">TESTING</div>** |
+| 7                         | Customer Virtual Account             | Security             | 1  |
+| Customer Accounts - Corp. | 1                                    | 1                    | 2  |
+| 1                         | 2                                    | 2                    | 3  |
+| 2                         | 3                                    | 3                    | 4  |
+| 3                         | 4                                    | 4                    | 5  |
+| 4                         | 5                                    | 5                    | |
+| 5                         |                                      | 6                    | |
+| 6                         | **<div align="center">PAYOUTS</div>** |                      | |
+| 7                         | 1                                    | **<div align="center">CLIENTS</div>** | |
+| 8                         | 2                                    | Client Prefund       | |
+| 9                         | 3                                    | 1                    | | 
+|                           | 4                                    | 2                    | |
+| Customer Management       | 5                                    | 3                    | |
+| 1                         | 6                                    | 
+| 2                         | 7                                    | Client Settings      | |
+| 3                         | 8                                    | 1                    | |
+| 4                         |                                      | 2                    | |
+| 5                         |                                      | 3                    | |
+| 6                         |                                      | `Client transaction` | | 
 
 ### SQL indexes and queries
 

@@ -129,10 +129,18 @@ After me, Nium has added more APIs and languages to their website. The following
 
 | **CUSTOMER**              | **ACCOUNTS**                          | **CARDS**                             | **WALLET**               |
 |---------------------------|---------------------------------------|---------------------------------------|--------------------------|
-| _Customer onboarding_ <br/> [List customers][COL] <br/> [Create customers][COC] <br/> [Get customer][COG] <br/> [Update customer][COU] <br/> [Submit KYC for entity][COS] <br/> [Fetch public corp details][COP] <br/> [Fetch exhaustive corp details][COE] <br/><br/> _Customer account - individual_ <br/> [Unified add customer][CIA] <br/> [Customer update][CIU] <br/> [Fetch individual customer RFI details][CIF] <br/> [Respond to RFI][CIR] <br/> [Upload document][CID] <br/> [Add customer using MyInfo][CIM] <br/> [Add customer using eDoc verification][CIE] <br/><br/> _Customer account - corporate_ <br/> [Exhaustive corp details using Business ID][CCE] <br/> [Onboard corporate customer][CCO] | acct | card | wall |
+| _Customer onboarding_ <br/> [List customers][COL] <br/> [Create customers][COC] <br/> [Get customer][COG] <br/> [Update customer][COU] <br/> [Submit KYC for entity][COS] <br/> [Fetch public corp details][COP] <br/> [Fetch exhaustive corp details][COE] <br/><br/> _Customer account - individual_ <br/> [Unified add customer][CIA] <br/> [Customer update][CIU] <br/> [Fetch individual customer RFI details][CIF] <br/> [Respond to RFI][CIR] <br/> [Upload document][CID] <br/> [Add customer using MyInfo][CIM] <br/> [Add customer using eDoc verification][CIE] <br/><br/> _Customer account - corporate_ <br/> [Exhaustive corp details using Business ID][CCE] <br/> [Onboard corporate customer][CCO] <br/> [Fetch corp customer RFI details][CCF] <br/> [Respond to RFI for corp customer][CCR] <br/> [Upload document for corp customer][CCD] <br/> [Regenerate KYC URL][CCK] <br/> [Fetch corp constants][CCC] <br/> [Update corp customer][CCU] <br/> [Fetch public corp customer details][CCP] <br/><br/> _Customer management_ <br/> [Customer list][CML] <br/> [Customer details][CMD] <br/> [Block/Unblock customer][CMB] <br/> [Account statement][CMS] <br/> [Account statement for a specified wallet][CMW] <br/> [Manage customer tags][CMT] | acct | card | wall |
 
+[CCC]: https://docs.nium.com/api#tag/customer-account-corporate/GET/api/v2/client/{clientHashId}/onboarding/constants
+[CCD]: https://docs.nium.com/api#tag/customer-account-corporate/POST/api/v1/client/{clientHashId}/customer/{customerHashId}/corporate/documents
 [CCE]: https://docs.nium.com/api#tag/customer-account-corporate/GET/api/v2/client/{clientHashId}/corporate/lookup
+[CCF]: https://docs.nium.com/api#tag/customer-account-corporate/GET/api/v1/client/{clientHashId}/corporate/rfi
+[CCK]: https://docs.nium.com/api#tag/customer-account-corporate/POST/api/v1/client/{clientHashId}/customer/{customerHashId}/regenerateKYCURL
 [CCO]: https://docs.nium.com/api#tag/customer-account-corporate/POST/api/v1/client/{clientHashId}/corporate
+[CCP]: https://docs.nium.com/api#tag/customer-account-corporate/GET/api/v1/client/{clientHashId}/corporate/lookup
+[CCR]: https://docs.nium.com/api#tag/customer-account-corporate/POST/api/v1/client/{clientHashId}/corporate/rfi
+[CCU]: https://docs.nium.com/api#tag/customer-account-corporate/POST/api/v1/client/{clientHashId}/customer/{customerHashId}/corporate
+
 
 [CIA]: https://docs.nium.com/api#tag/customer-account-individual/POST/api/v4/client/{clientHashId}/customer
 [CID]: https://docs.nium.com/api#tag/customer-account-individual/POST/api/v1/client/{clientHashId}/customer/{customerHashId}/uploadDocuments
@@ -141,6 +149,13 @@ After me, Nium has added more APIs and languages to their website. The following
 [CIM]: https://docs.nium.com/api#tag/customer-account-individual/POST/api/v1/client/{clientHashId}/customer-min-data
 [CIR]: https://docs.nium.com/api#tag/customer-account-individual/POST/api/v1/client/{clientHashId}/customer/{customerHashId}/rfi
 [CIU]: https://docs.nium.com/api#tag/customer-account-individual/POST/api/v1/client/{clientHashId}/customer/{customerHashId}/updateCustomer
+
+[CMB]: https://docs.nium.com/api#tag/customer-management/PUT/api/v1/client/{clientHashId}/customer/{customerHashId}/block
+[CMD]: https://docs.nium.com/api#tag/customer-management/GET/api/v2/client/{clientHashId}/customer/{customerHashId}
+[CML]: https://docs.nium.com/api#tag/customer-management/GET/api/v3/client/{clientHashId}/customers
+[CMS]: https://docs.nium.com/api#tag/customer-management/GET/api/v1/client/{clientHashId}/customer/{customerHashId}/accounts/statement
+[CMT]: https://docs.nium.com/api#tag/customer-management/POST/api/v1/client/{clientHashId}/customer/{customerHashId}/tags
+[CMW]: https://docs.nium.com/api#tag/customer-management/GET/api/v1/client/{clientHashId}/customer/{customerHashId}/wallet/{walletHashId}/statement
 
 [COC]: https://docs.nium.com/api#tag/customer-onboarding-v5/POST/api/v5/client/{clientHashId}/customers
 [COE]: https://docs.nium.com/api#tag/customer-onboarding-v5/GET/api/v5/client/{clientHashId}/corporate/exhaustiveDetailsSearch

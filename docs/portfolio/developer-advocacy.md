@@ -118,15 +118,25 @@ On the [Couchbase SQL++ for Query Reference](https://docs.couchbase.com/cloud/n1
 
 ### Nium API reference
 
-After me, Nium has added more APIs and languages to their website. The following are the APIs I created with C, cURL, HTTP, Java, JavaScript, and Python code samples.
+After me, Nium has added more APIs and languages to their website. The following are the APIs I created with code samples in:
+
+- C
+- cURL
+- HTTP
+- Java
+- JavaScript
+- Python
 
 | **CUSTOMER**              | **ACCOUNTS**                          | **CARDS**                             | **WALLET**               |
 |---------------------------|---------------------------------------|---------------------------------------|--------------------------|
-| _Customer onboarding_ <br/> [List Customers][COL] <br/> [Create Customers][COC] <br/> [Get Customer][COG] <br/> [Update Customer][COU] | | | |
+| _Customer onboarding_ <br/> [List customers][COL] <br/> [Create customers][COC] <br/> [Get customer][COG] <br/> [Update customer][COU] <br/> [Submit KYC for entity][COS] <br/> [Fetch public corp details][COP] <br/> [Fetch exhaustive corp details][COE] | | | |
 
 [COC]: https://docs.nium.com/api#tag/customer-onboarding-v5/POST/api/v5/client/{clientHashId}/customers
+[COE]: https://docs.nium.com/api#tag/customer-onboarding-v5/GET/api/v5/client/{clientHashId}/corporate/exhaustiveDetailsSearch
 [COG]: https://docs.nium.com/api#tag/customer-onboarding-v5/GET/api/v5/client/{clientHashId}/customer/{customerHashId}
 [COL]: https://docs.nium.com/api#tag/customer-onboarding-v5/GET/api/v5/client/{clientHashId}/customers
+[COP]: https://docs.nium.com/api#tag/customer-onboarding-v5/GET/api/v5/client/{clientHashId}/corporate/publicDetails
+[COS]: https://docs.nium.com/api#tag/customer-onboarding-v5/POST/api/v5/client/{clientHashId}/customer/{customerHashId}/submitKyc
 [COU]: https://docs.nium.com/api#tag/customer-onboarding-v5/PUT/api/v5/client/{clientHashId}/customer/{customerHashId}
 
 <!--

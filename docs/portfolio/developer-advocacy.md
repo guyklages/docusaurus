@@ -118,10 +118,18 @@ On the [Couchbase SQL++ for Query Reference](https://docs.couchbase.com/cloud/n1
 
 ### Nium API reference
 
-Nium has added more APIs to their website, but the following are the ones I created.
+After me, Nium has added more APIs and languages to their website. The following are the APIs I created with C, cURL, HTTP, Java, JavaScript, and Python code samples.
 
 | **CUSTOMER**              | **ACCOUNTS**                          | **CARDS**                             | **WALLET**               |
 |---------------------------|---------------------------------------|---------------------------------------|--------------------------|
+| _Customer onboarding_ <br/> [List Customers][COL] <br/> [Create Customers][COC] <br/> [Get Customer][COG] <br/> [Update Customer][COU] | | | |
+
+[COC]: https://docs.nium.com/api#tag/customer-onboarding-v5/POST/api/v5/client/{clientHashId}/customers
+[COG]: https://docs.nium.com/api#tag/customer-onboarding-v5/GET/api/v5/client/{clientHashId}/customer/{customerHashId}
+[COL]: https://docs.nium.com/api#tag/customer-onboarding-v5/GET/api/v5/client/{clientHashId}/customers
+[COU]: https://docs.nium.com/api#tag/customer-onboarding-v5/PUT/api/v5/client/{clientHashId}/customer/{customerHashId}
+
+<!--
 | Customer onboarding       | 1                                     | Simulators                            | Customer Wallet Balance  |
 | 1                         | 2                                     | 1                                     | 1  |
 | 2                         | 3                                     | 2                                     | 2  |
@@ -158,6 +166,7 @@ Nium has added more APIs to their website, but the following are the ones I crea
 | 4                         |                                       | 2                                     | |
 | 5                         |                                       | 3                                     | |
 | 6                         |                                       | `Client transaction`                  | | 
+-->
 
 [CUC]: https://docs.nium.com/api#tag/user-management/POST/api/v1/client/{clientHashId}/users
 [CUG]: https://docs.nium.com/api#tag/user-management/GET/api/v1/client/{clientHashId}/user/{userHashId}

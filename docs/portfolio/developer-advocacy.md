@@ -127,9 +127,16 @@ After me, Nium has added more APIs and languages to their website. The following
 - JavaScript
 - Python
 
-| **CUSTOMER**              | **ACCOUNTS**                          | **CARDS**                             | **WALLET**               |
+| **CUSTOMER**              | **LINKED BANK ACCOUNTS**              | **CARDS**                             | **WALLET**               |
 |---------------------------|---------------------------------------|---------------------------------------|--------------------------|
-| _Customer onboarding_ <br/> [List customers][COL] <br/> [Create customers][COC] <br/> [Get customer][COG] <br/> [Update customer][COU] <br/> [Submit KYC for entity][COS] <br/> [Fetch public corp details][COP] <br/> [Fetch exhaustive corp details][COE] <br/><br/> _Customer account - individual_ <br/> [Unified add customer][CIA] <br/> [Customer update][CIU] <br/> [Fetch individual customer RFI details][CIF] <br/> [Respond to RFI][CIR] <br/> [Upload document][CID] <br/> [Add customer using MyInfo][CIM] <br/> [Add customer using eDoc verification][CIE] <br/><br/> _Customer account - corporate_ <br/> [Exhaustive corp details using Business ID][CCE] <br/> [Onboard corporate customer][CCO] <br/> [Fetch corp customer RFI details][CCF] <br/> [Respond to RFI for corp customer][CCR] <br/> [Upload document for corp customer][CCD] <br/> [Regenerate KYC URL][CCK] <br/> [Fetch corp constants][CCC] <br/> [Update corp customer][CCU] <br/> [Fetch public corp customer details][CCP] <br/><br/> _Customer management_ <br/> [Customer list][CML] <br/> [Customer details][CMD] <br/> [Block/Unblock customer][CMB] <br/> [Account statement][CMS] <br/> [Account statement for a specified wallet][CMW] <br/> [Manage customer tags][CMT] | acct | card | wall |
+| _Customer onboarding_ <br/> [List customers][COL] <br/> [Create customers][COC] <br/> [Get customer][COG] <br/> [Update customer][COU] <br/> [Submit KYC for entity][COS] <br/> [Fetch public corp details][COP] <br/> [Fetch exhaustive corp details][COE] <br/><br/> _Customer account - individual_ <br/> [Unified add customer][CIA] <br/> [Customer update][CIU] <br/> [Fetch individual customer RFI details][CIF] <br/> [Respond to RFI][CIR] <br/> [Upload document][CID] <br/> [Add customer using MyInfo][CIM] <br/> [Add customer using eDoc verification][CIE] <br/><br/> _Customer account - corporate_ <br/> [Exhaustive corp details using Business ID][CCE] <br/> [Onboard corporate customer][CCO] <br/> [Fetch corp customer RFI details][CCF] <br/> [Respond to RFI for corp customer][CCR] <br/> [Upload document for corp customer][CCD] <br/> [Regenerate KYC URL][CCK] <br/> [Fetch corp constants][CCC] <br/> [Update corp customer][CCU] <br/> [Fetch public corp customer details][CCP] <br/><br/> _Customer management_ <br/> [Customer list][CML] <br/> [Customer details][CMD] <br/> [Block/Unblock customer][CMB] <br/> [Account statement][CMS] <br/> [Account statement for a specified wallet][CMW] <br/> [Manage customer tags][CMT] | [Fetch all accounts][AFA] <br/> [Fetch an account][AF1] <br/> [Create an account][ACA] <br/> [Confirm account authentication][AAU] <br/> [Delete account][ADA] <br/> [Update account][AUA] <br/><br/> **<div align="center">PAYINS</div>** <br/><br/> _Customer funding_ <br> [Confirm funding instrument][PFC] <br/> [Get funding instr. details][PFF] <br/> [Get funding instr. list][PFL] <br/> [Delete funding instr.][PFD] <br/> [Add funding instr.][PFA] <br/> [Fund wallet][PFW] <br/> [Approve or reject funds][PFR] <br/><br/> _Customer virtual accounts_ <br/> [Assign payment ID][PVA] <br/> [Manage virtual acct tags][PVT] <br/> [Virtual account details][PVD] <br/> [Account ownership certificate][PVO] <br/> [Verification of payee consent][PVV] <br/><br/> **<div align="center">PAYOUTS</div>** <br/><br/>  | card | wall |
+
+[AAU]: https://docs.nium.com/api#tag/accounts/POST/api/v1/client/{clientHashId}/customer/{customerHashId}/bankAccounts/{bankAccountId}/confirm
+[ACA]: https://docs.nium.com/api#tag/accounts/POST/api/v1/client/{clientHashId}/customer/{customerHashId}/bankAccounts
+[ADA]: https://docs.nium.com/api#tag/accounts/DELETE/api/v1/client/{clientHashId}/customer/{customerHashId}/bankAccounts/{bankAccountId}
+[AF1]: https://docs.nium.com/api#tag/accounts/GET/api/v1/client/{clientHashId}/customer/{customerHashId}/bankAccounts/{bankAccountId}
+[AFA]: https://docs.nium.com/api#tag/accounts/GET/api/v1/client/{clientHashId}/customer/{customerHashId}/bankAccounts
+[AUA]: https://docs.nium.com/api#tag/accounts/PUT/api/v1/client/{clientHashId}/customer/{customerHashId}/bankAccounts/{bankAccountId}
 
 [CCC]: https://docs.nium.com/api#tag/customer-account-corporate/GET/api/v2/client/{clientHashId}/onboarding/constants
 [CCD]: https://docs.nium.com/api#tag/customer-account-corporate/POST/api/v1/client/{clientHashId}/customer/{customerHashId}/corporate/documents
@@ -140,7 +147,6 @@ After me, Nium has added more APIs and languages to their website. The following
 [CCP]: https://docs.nium.com/api#tag/customer-account-corporate/GET/api/v1/client/{clientHashId}/corporate/lookup
 [CCR]: https://docs.nium.com/api#tag/customer-account-corporate/POST/api/v1/client/{clientHashId}/corporate/rfi
 [CCU]: https://docs.nium.com/api#tag/customer-account-corporate/POST/api/v1/client/{clientHashId}/customer/{customerHashId}/corporate
-
 
 [CIA]: https://docs.nium.com/api#tag/customer-account-individual/POST/api/v4/client/{clientHashId}/customer
 [CID]: https://docs.nium.com/api#tag/customer-account-individual/POST/api/v1/client/{clientHashId}/customer/{customerHashId}/uploadDocuments
@@ -164,6 +170,20 @@ After me, Nium has added more APIs and languages to their website. The following
 [COP]: https://docs.nium.com/api#tag/customer-onboarding-v5/GET/api/v5/client/{clientHashId}/corporate/publicDetails
 [COS]: https://docs.nium.com/api#tag/customer-onboarding-v5/POST/api/v5/client/{clientHashId}/customer/{customerHashId}/submitKyc
 [COU]: https://docs.nium.com/api#tag/customer-onboarding-v5/PUT/api/v5/client/{clientHashId}/customer/{customerHashId}
+
+[PFA]: https://docs.nium.com/api#tag/customer-funding/POST/api/v2/client/{clientHashId}/customer/{customerHashId}/wallet/{walletHashId}/fundingInstruments
+[PFC]: https://docs.nium.com/api#tag/customer-funding/POST/api/v1/client/{clientHashId}/customer/{customerHashId}/fundingInstruments/{fundingInstrumentId}/confirmFundingInstrument
+[PFD]: https://docs.nium.com/api#tag/customer-funding/DELETE/api/v1/client/{clientHashId}/customer/{customerHashId}/fundingInstruments/{fundingInstrumentId}
+[PFF]: https://docs.nium.com/api#tag/customer-funding/GET/api/v1/client/{clientHashId}/customer/{customerHashId}/fundingInstruments/{fundingInstrumentId}/fundingInstrumentDetails
+[PFL]: https://docs.nium.com/api#tag/customer-funding/GET/api/v1/client/{clientHashId}/customer/{customerHashId}/fundingInstruments
+[PFR]: https://docs.nium.com/api#tag/customer-funding/PATCH/api/v2/client/{clientHashId}/customer/{customerHashId}/wallet/{walletHashId}/fund/{systemReferenceNumber}
+[PFW]: https://docs.nium.com/api#tag/customer-funding/POST/api/v2/client/{clientHashId}/customer/{customerHashId}/wallet/{walletHashId}/fund
+
+[PVA]: https://docs.nium.com/api#tag/customer-virtual-accounts/POST/api/v2/client/{clientHashId}/customer/{customerHashId}/wallet/{walletHashId}/paymentId
+[PVD]: https://docs.nium.com/api#tag/customer-virtual-accounts/GET/api/v2/client/{clientHashId}/customer/{customerHashId}/wallet/{walletHashId}/paymentIds
+[PVO]: https://docs.nium.com/api#tag/customer-virtual-accounts/GET/api/v1/client/{clientHashId}/customer/{customerHashId}/accountOwnershipCertificate
+[PVT]: https://docs.nium.com/api#tag/customer-virtual-accounts/POST/api/v1/client/{clientHashId}/customer/{customerHashId}/wallet/{walletHashId}/paymentId/tags
+
 
 <!--
 | Customer onboarding       | 1                                     | Simulators                            | Customer Wallet Balance  |

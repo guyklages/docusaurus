@@ -249,49 +249,6 @@ Nium has added more API endpoints and supported languages after I left. The foll
 [WTU]: https://docs.nium.com/api#tag/customer-wallet-transactions/POST/api/v1/client/{clientHashId}/customer/{customerHashId}/wallet/{walletHashId}/transactions/{transactionId}/receipt
 [WTW]: https://docs.nium.com/api#tag/wallet-to-wallet-transfers/POST/api/v1/client/{clientHashId}/customer/{customerHashId}/wallet/{walletHashId}/transfers
 
-<!--
-| Customer onboarding       | 1                                     | Simulators                            | Customer Wallet Balance  |
-| 1                         | 2                                     | 1                                     | 1  |
-| 2                         | 3                                     | 2                                     | 2  |
-| 3                         | 4                                     |                                       | 3  |
-| 4                         | 5                                     | Lifecycle                             | 4  |
-| 5                         | 6                                     | 1                                     |    |
-| 6                         |                                       | 2                                     | `Wallet-to-Wallet Xfer`  |
-| 7                         | **<div align="center">PAYINS</div>**  | 3                                     |    |
-| 8                         | Customer Funding                      | 4                                     | Customer Wallet Transactions |
-|                           | 1                                     | 5                                     | 10 |
-| Customer Accounts - Ind.  | 2                                     | 6                                     | 11 |
-| 1                         | 3                                     | 7                                     |    |
-| 2                         | 4                                     | 8                                     | **<div align="center">REPORTS</div>** |
-| 3                         | 5                                     | 9                                     | 1  |
-| 4                         | 6                                     | 10                                    | 2  |
-| 5                         | 7                                     | 11                                    |    |
-| 6                         |                                       |                                       | **<div align="center">TESTING</div>** |
-| 7                         | Customer Virtual Account              | Security                              | 1  |
-| Customer Accounts - Corp. | 1                                     | 1                                     | 2  |
-| 1                         | 2                                     | 2                                     | 3  |
-| 2                         | 3                                     | 3                                     | 4  |
-| 3                         | 4                                     | 4                                     | 5  |
-| 4                         | 5                                     | 5                                     | |
-| 5                         |                                       | 6                                     | **<div align="center">CUSTOMER</div>** |
-| 6                         | **<div align="center">PAYOUTS</div>** |                                       | User Management                        |
-| 7                         | 1                                     | **<div align="center">CLIENTS</div>** | [List Users][CUL]      |
-| 8                         | 2                                     | Client Prefund                        | [Create User][CUC]     |
-| 9                         | 3                                     | 1                                     | [Get User][CUG]        | 
-|                           | 4                                     | 2                                     | [Submit User KYC][CUS] |
-| Customer Management       | 5                                     | 3                                     | |
-| 1                         | 6                                     |                                       | |
-| 2                         | 7                                     | Client Settings                       | |
-| 3                         | 8                                     | 1                                     | |
-| 4                         |                                       | 2                                     | |
-| 5                         |                                       | 3                                     | |
-| 6                         |                                       | `Client transaction`                  | | 
--->
-
-[CUC]: https://docs.nium.com/api#tag/user-management/POST/api/v1/client/{clientHashId}/users
-[CUG]: https://docs.nium.com/api#tag/user-management/GET/api/v1/client/{clientHashId}/user/{userHashId}
-[CUL]: https://docs.nium.com/api#tag/user-management/GET/api/v1/client/{clientHashId}/users
-[CUS]: https://docs.nium.com/api#tag/user-management/POST/api/v1/client/{clientHashId}/userKyc
 
 ### SQL indexes and queries
 

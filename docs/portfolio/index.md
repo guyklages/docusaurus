@@ -6,7 +6,7 @@ I created and fully owned the following company websites. I used Git, Markdown, 
 
 | Company      | Industry       | Developer guides | API reference | Collaborated with | Highlight |
 |--------------|----------------|------------------|---------------|:-----------------:|-----------|
-| Atelio&nbsp;of&nbsp;FIS | Fintech        | **[Client configuration](https://guyklages.com/atelio/getting-started/client-config)** | _Site removed._ <br/> **[Similar&nbsp;to&nbsp;Nium's](https://docs.nium.com/api#description/introduction)** | 1 editor, <br/> 5 SMEs | [Revamped and reduced the developer pages by 36%](./most-impactful-technical-writing.md#36-page-reduction-from-new-ia) |
+| Atelio&nbsp;of&nbsp;FIS | Fintech        | **[Quickstart](https://guyklages.com/atelio/getting-started/quickstart)** | _Site removed._ <br/> **[Similar&nbsp;to&nbsp;Nium's](https://docs.nium.com/api#description/introduction)** | 1 editor, <br/> 5 SMEs | [Revamped and reduced the developer pages by 36%](./most-impactful-technical-writing.md#36-page-reduction-from-new-ia) |
 | Nium         | Fintech        | **[Getting Started](https://docs.nium.com/docs/getting-started)** | **[Introduction](https://docs.nium.com/api#description/introduction)** | 1 editor, <br/> 6 SMEs | [Doubled onboarding of clients with 75% fewer issues](./most-impactful-technical-writing.md#2x-onboarding-75-fewer-issues) |
 | Couchbase    | NoSQL database | **[SQL++&nbsp;Reference](https://docs.couchbase.com/server/current/n1ql/n1ql-language-reference/index.html)** |  | 1 editor, <br/> 9 SMEs | [Reduced their writing process by 80%](./most-impactful-technical-writing.md#80-time-saved-on-writing-process) |
 

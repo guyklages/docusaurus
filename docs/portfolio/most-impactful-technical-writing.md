@@ -11,7 +11,7 @@
 
 ## 36% page reduction from IA
 
-#### Atelio of FIS Global (Seattle) -- <mark> Revamped the information architecture, reduced dev pages by 36%, and made navigation easier</mark>
+#### Atelio of FIS Global (Seattle) -- <mark> Revamped information architecture, reduced dev pages by 36%, made navigation easier</mark>
 
 | Before (May 2024) | After (July 2025) |
 |-------------------|-------------------|

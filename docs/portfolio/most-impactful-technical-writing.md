@@ -2,7 +2,7 @@
 
 ## Saved 99% of time with AI
 
-#### Atelio of FIS Global (Seattle) -- <mark> Saved 99% of time by having AI write the 1st draft of a new developer guide based on Slack messages </mark>
+#### Atelio of FIS Global (Seattle) -- <mark> Saved 99% of time by having AI write the 1st draft of a developer guide from Slack messages </mark>
 
 | Before (Sep 2025) | After (Sep 2025)  |
 |-------------------|-------------------|

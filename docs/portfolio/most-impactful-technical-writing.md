@@ -1,8 +1,8 @@
 # Most impactful technical writing items
 
-## Saved 99% of time with AI
+## I used AI to save 99% of time
 
-#### Atelio of FIS Global (Seattle) -- <mark> AI saved 99% of time by writing the 1st draft of a developer guide from Slack messages </mark>
+#### Atelio of FIS Global (Seattle) -- <mark> I used AI to read Slack messages and create a 1st draft of a developer guide in 1% of the time it would've taken me </mark>
 
 | Before (Sep 2025) | After (Sep 2025)  |
 |-------------------|-------------------|

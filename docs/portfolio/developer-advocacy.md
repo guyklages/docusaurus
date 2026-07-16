@@ -6,7 +6,7 @@
 
 | Venue | Topic | Audience | Crowd size | Remarks |
 |-------|-------|----------|------------|---------|
-| Monthly MeetUp groups | [Nium Events Hub](https://www.nium.com/events) <br/> Fintech Meetup <br/> Money20/20 <br/> Money Street Fest| Developers <br/> PMs <br/> payment&nbsp;leaders <br/> treasury teams | 10+ | Panel discussions regarding trust, compliance, payments stack and other financial topics as well as how Nium can help |
+| Monthly [Nium events](https://www.nium.com/events) | Fintech Meetup <br/> Money20/20 <br/> Money&nbsp;Street&nbsp;Fest| Developers <br/> PMs <br/> payment&nbsp;leaders <br/> treasury teams | 20+ | Panel discussions regarding trust, compliance, payments stack and other financial topics as well as how Nium can help |
 
 ### Couchbase
 

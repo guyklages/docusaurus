@@ -62,11 +62,12 @@
 
 ## Community contributions
 
+### [Nium.com Dev Portal](https://app.nium.com/)
+
+&nbsp;&nbsp;&nbsp;&nbsp;and
+
 ### [Couchbase.com/forums](https://www.couchbase.com/forums)
 
-and 
-
-### [Nium.com Dev Portal](https://app.nium.com/)
 
 Moderator
 - Helped facilitate community discussions by enforcing forum guidelines

@@ -79,3 +79,12 @@ div[class*="codeBlockTitle"] {
 .blog-post-page .table-of-contents > li > .table-of-contents__link {
   font-size: inherit;
 }
+
+/* Shrink the blog pages' left/right margins to match the docs/portfolio pages.
+   Docs pages stay narrow-looking because the persistent doc sidebar eats into
+   the available width before Infima's ".container" centers itself; blog pages
+   have no such sidebar, so the same container cap left huge side margins on
+   wide screens. Raising the cap lets the container fill the viewport instead. */
+html.blog-wrapper .container {
+  max-width: 100%;
+}

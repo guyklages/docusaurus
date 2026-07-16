@@ -2,7 +2,7 @@
 
 ## I used AI to save 99% of time
 
-#### Atelio of FIS Global (Seattle) -- <mark> I used AI to read Slack messages and create a 1st draft of a developer guide in 1% of the time it would've taken me </mark>
+#### Atelio of FIS Global (Seattle) -- <mark> I used AI to read Slack messages and create a 1st draft of a developer guide in 1% of the time </mark>
 
 | Before (Sep 2025) | After (Sep 2025)  |
 |-------------------|-------------------|

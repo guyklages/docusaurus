@@ -4,12 +4,12 @@
 
 The flow of sunlight is measured in Watts and can be thought of as raindrops, measured in the following way:
 
-| Unit                  | Example of usage        | | Analogy                                               | Analagy example of usage |
-|-----------------------|-------------------------|-|-------------------------------------------------------|--------------------------|
-| 1 Watt (W)            | 1 LED night light       | | one raindrop per second                               | a light drizzle of rain         |
-| 1 Kilowatt (kW)       | a microwave             | | 1,000 raindrops per second                            | a downpour of torrential rain            |
-| 1 Kilowatt-Hour (kWh) | a laptop for 10-15 hrs  | | the total amount of raindrops collected in one hour   | the amount of water in a jacuzzi hot tub |
-| 5 Kilowatt-Hour (kWh) | electric oven for 2 hrs | | the total amount of raindrops collected in five hours | the amount of water in a swimming pool |
+| Unit                  | Example of usage         | | Analogy                                               | Analagy example of usage |
+|-----------------------|--------------------------|-|-------------------------------------------------------|--------------------------|
+| 1 Watt (W)            | 1 LED night light        | | one raindrop per second                               | a light drizzle of rain         |
+| 1 Kilowatt (kW)       | a microwave              | | 1,000 raindrops per second                            | a downpour of torrential rain            |
+| 1 Kilowatt-Hour (kWh) | electric oven for 24 min | | the total amount of raindrops collected in one hour   | the amount of water in a jacuzzi hot tub |
+| 5 Kilowatt-Hour (kWh) | electric oven for 2 hrs  | | the total amount of raindrops collected in five hours | the amount of water in a swimming pool |
 
 ### Common electric usage
 

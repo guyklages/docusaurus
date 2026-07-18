@@ -532,7 +532,7 @@ const sidebars = {
       sidebarSolar: [
     {
       type: 'category',
-      label: 'Introduction',
+      label: 'Overview',
       items: [
         {
           type: 'doc',
@@ -548,6 +548,17 @@ const sidebars = {
           type: 'doc',
           id: 'solar/what-we-learned',
           label: 'What we learned',
+        },
+      ]
+    },
+    {
+      type: 'category',
+      label: 'Appliances',
+      items: [
+        {
+          type: 'doc',
+          id: 'solar/electric-appliances',
+          label: 'Electric appliances',
         },
       ]
     },

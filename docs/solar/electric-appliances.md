@@ -1,24 +1,29 @@
 # Electric appliances
 
-Compared to fossil-fuel alternative, electric appliances have many benefits:
+## Benefits
 
-- Financial benefits
-    - Higher Energy Efficiency
-    - Lower Operating Costs
-    - Government offers tax credits and rebates
-    - Local utility companies offer rebates
+Compared to fossil-fuel alternative, electric appliances have many benefits
 
-- Health and safety advantages
-    - No indoor emissions like carbon monoxide and nitrogen dioxide
-    - Improved air quality, lowering the risk of asthma and respiratory issues
-    - Reduced Fire Hazards, removing the risk of explosive gas leaks in the home
-    - Induction cooktops heat only the cookware, keeping the kitchen _cooler_ and _safer_ to touch
+### Financial benefits
 
-- Performance and convenience
-    - Induction stoves offer instant, _precise_ tempurature control matching gas performance
-    - Electric appliances feature advanced _scheduling_, remote _monitoring_, and automation
-    - Electric mini-split systems allow customized temperatures for _individual rooms_
-    - : Electric systems have fewer moving parts, leading to _longer_ lifespans
+- Higher Energy Efficiency
+- Lower Operating Costs
+- Government offers tax credits and rebates
+- Local utility companies offer rebates
+
+### Health and safety advantages
+
+- No indoor emissions like carbon monoxide and nitrogen dioxide
+- Improved air quality, lowering the risk of asthma and respiratory issues
+- Reduced Fire Hazards, removing the risk of explosive gas leaks in the home
+- Induction cooktops heat only the cookware, keeping the kitchen _cooler_ and _safer_ to touch
+
+### Performance and convenience
+
+- Induction stoves offer instant, _precise_ tempurature control matching gas performance
+- Electric appliances feature advanced _scheduling_, remote _monitoring_, and automation
+- Electric mini-split systems allow customized temperatures for _individual rooms_
+- Electric systems have fewer moving parts, leading to _longer_ lifespans
 
 ## Heat Pump heater + A/C
 

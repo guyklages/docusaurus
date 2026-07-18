@@ -1,5 +1,7 @@
 # Introduction
 
+To see questions and answers from other solar panel owners or to post your own questions, join [r/solar](https://www.reddit.com/r/solar/) on Reddit.
+
 ## Electricity
 
 The flow of sunlight is measured in Watts and can be thought of as raindrops, measured in the following way:
@@ -47,7 +49,8 @@ So, we learned to use heavy appliances at different times--until we added a seco
 | Steam room             | | | | |
 
 
+## 30-year comparison
 
+See the [Google Sheet](https://docs.google.com/spreadsheets/d/1CV9LrFKWhNUk9slJRivGu1AMsKdMoRpyalgDIWjQD4I/edit?gid=1108262833#gid=1108262833) that details the enormous savings that comes from converting to electric:
 
-
-To see questions/answers of other solar panel owners or to post your own questions, join r/solar on Reddit.
+![30-year comparison](./images/30-year-comparison.png)

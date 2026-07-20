@@ -8,7 +8,7 @@ Before installing panels:
 - Upgrade roof with certified roofer
 - Upgrade all appliances to electric
 - Remove gas meter (PG$E removes for free)
-- Use January electric bill kWh and multiply it by 12 to size system
+- Use our electric bill with the highest kWh, and then multiply it by 12 to size our system
 - Oversize my solar panel system as much as I can for the future 5+ decades
 
 Planning the installtion:

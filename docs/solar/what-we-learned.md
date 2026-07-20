@@ -120,5 +120,5 @@ Below is a graph of our utility bills before, during, and after solar panel inst
 
 | 2021 | 2022 | 2023 | 2024 | 2025 |
 |------|------|------|------|------|
-| Sep: installed solar <br/><br/> Dec: solar approved | Jan: insulated walls <br/><br/> July-Aug: PW offline 4 weeks | July: installed 2nd PW <br/><br/> Nov: installed heat pump |  Aug: moved 6 panels from NW to SE | Dec: adjusted thermostat from 68º to 66º |
+| Sep: solar installed <br/><br/> Dec: solar approved | Jan: walls insulated <br/><br/> July-Aug: PW offline 4 weeks | July: installed 2nd PW <br/><br/> Nov: installed heat pump |  Aug: moved 6 panels from NW to SE | Dec: adjusted thermostat from 68º to 66º |
 

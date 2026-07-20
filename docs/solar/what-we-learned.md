@@ -108,7 +108,9 @@ That's 1 - 2 more months of high electric bills before your solar setup begins t
 - Start with your solar Customer Service to test if your system and inverter are configured properly.
 
 
-## No battery lowers bills, not $0
+## Without a battery, still have bills
+
+If you don't have a battery, you'll still draw from the grid in the evenings and on rainy days.
 
 Utility companies pay so little for your excess kWh, so increase your ROI by adding a battery.
 

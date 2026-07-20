@@ -114,7 +114,7 @@ If you don't have a battery, you'll still draw from the grid in the evenings and
 
 Utility companies pay so little for your excess kWh, so increase your ROI by adding a battery.
 
-Below is a graph of our utility bills before, during, and after solar panel installation.
+Below is a graph of our utility bills before, during, and after solar panel installation--and heat pump installation.
 
 ![utility-bills](./images/electric-bills-2021-2026.png)
 

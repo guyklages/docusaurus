@@ -116,7 +116,7 @@ Utility companies pay so little for your excess kWh, so increase your ROI by add
 
 Below is a graph of our utility bills before, during, and after solar panel installation.
 
-![utility-bills](./images/electric-bills-2022-2026.png)
+![utility-bills](./images/electric-bills-2021-2026.png)
 
 | 2021 | 2022 | 2023 | 2024 | 2025 |
 |------|------|------|------|------|

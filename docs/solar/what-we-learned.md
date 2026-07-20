@@ -110,7 +110,7 @@ That's 1 - 2 more months of high electric bills before your solar setup begins t
 
 ## Without a battery, have bills
 
-If you don't have a battery, you'll still draw from the grid in the evenings and on rainy days. Your electric bills will be reduced, not eliminated.
+If you don't have a battery, you'll still draw from the grid in the evenings and on cloudy days. Your electric bills will be reduced, not eliminated.
 
 Utility companies pay so little for your excess kWh, so increase your ROI by adding a battery.
 

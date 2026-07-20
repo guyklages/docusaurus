@@ -16,6 +16,7 @@ Planning the installtion:
 - Add a 2nd inverter to avoid clipping and to have a backup inverter
 - Install batteries outside in the shade instead of inside the garage (if your climate allows it)
 
+
 ## Know your goals
 
 Before installing solar panels, we didn't know much about solar and just had two goals:
@@ -49,19 +50,19 @@ Other things to consider:
 - Batteries seem expensive but are totaaly worth it--and are necessary for evenings, cloudy days, and outtages.
 - 10-year financing is probably the most affordable method (we paid $260/mo) since there's no penalty on extra payments.
 
+
 ## Install as much as you can
 
 Solar generation fluctuates throughout the year, so summer months generate about 2.5x as much energy as winter months.
 
 ![Seasonal kWh highs and lows](images/Seasonal-kWh-highs-and-lows.png)
 
-
 This fluctuation creates:
 
 - a surplus of energy during summer months --> that is either stored in batteries or sold to the grid.
 - a deficit of energy during winter months --> that is drawn from the grid.
 
-<mark> So, if you size your solar array based on _annual_ kWh usage on your electric bills, then you won't have enough to power your home during a winter outtage --> you will be affected just like houses without solar panels. </mark>
+<mark> So, if you size your solar array based on _annual_ kWh usage on your electric bills, then you won't have enough to power your home during a winter outtage --> you will be affected just like houses without solar panels. </mark> <br/>
 
 **The solution is to size your solar array on the single month that uses the most kWh and then multiply that number by 12 to calculate your "annual" usage**.
 
@@ -76,10 +77,10 @@ For example, in our case:
 
 ![4 more panels for 2% more](images/4-more-panels-for-2-percent-more.png)
 
-If you have an EV made in 2024 or newer, your EV has bidirectional charging built-in. That means your home solar system needs only 1 battery and can use your EV's massive battery to be your home's 2nd (and 3rd and 4th) solar battery.
+If you have an EV made in 2024 or newer, your EV has bidirectional charging built-in. That means your home solar system needs only 1 battery because can use your EV's massive battery to be your home's 2nd (and 3rd and 4th) solar battery.
 
 
-## Keep usage low until Power On
+## Keep usage low till Power On
 
 Energy from your new solar panels is not acknowledged or credited until after Final Inspection and Approval by your local utility company.
 
@@ -97,9 +98,9 @@ That's 1 - 2 more months of high electric bills before your solar setup begins t
     - Our original (non-Tesla) contractors installed 14 panels on 1 String (max is 11 or 12), so our voltage was too much and dropped often. The only way to know of this mistake was the very technical diagram on page 17 (of 23) which only electrical engineers might notice that Tesla's design specifications do not match the actual installation.
 
 
-## If bill differs, call solar company
+## If bill differs, call installer
 
-- If your app's kWh imported/exported numbers don't match your utility bill, call your solar company.
+- If your app's kWh imported/exported numbers don't match your utility bill, call your installer or their solar company.
 - Utility companies are almost always correct, so don't wait another month to call your solar provider.
     - You can't get back past data that wasn't measured--or was measured incorrectly.
     - Our non-Tesla installer submitted incorrect BOM paperwork and didn't install a meter on our main breaker panel, so our car charging and water heater usage weren't measured in our app for 2 months.
@@ -107,7 +108,7 @@ That's 1 - 2 more months of high electric bills before your solar setup begins t
 - Start with your solar Customer Service to test if your system and inverter are configured properly.
 
 
-## No battery = lower bills, not $0
+## No battery lowers bills, not $0
 
 Utility companies pay so little for your excess kWh, so increase your ROI by adding a battery.
 

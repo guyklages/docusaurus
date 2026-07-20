@@ -108,11 +108,17 @@ That's 1 - 2 more months of high electric bills before your solar setup begins t
 - Start with your solar Customer Service to test if your system and inverter are configured properly.
 
 
-## Without a battery, still have bills
+## Without a battery, have bills
 
-If you don't have a battery, you'll still draw from the grid in the evenings and on rainy days.
+If you don't have a battery, you'll still draw from the grid in the evenings and on rainy days. Your electric bills will be reduced, not eliminated.
 
 Utility companies pay so little for your excess kWh, so increase your ROI by adding a battery.
 
 Below is a graph of our utility bills before, during, and after solar panel installation.
+
+![utility-bills](./images/electric-bills-2022-2026.png)
+
+|  |  |  |  |  |  |
+|--|--|--|--|--|--|
+| 2021 <br/> Sep: installed solar <br/> Dec: solar approved | 2022 <br/> Jan: insulated walls <br/> July-Aug: PW offline 4 weeks | 2023 <br/> July: installed 2nd PW <br/> Nov: installed heat pump | 2024 <br/> Aug: moved 6 panels from NW to SE | 2025 <br/> Dec: adjusted thermostat from 68º to 66º |
 

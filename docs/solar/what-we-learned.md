@@ -26,16 +26,16 @@ Before installing solar panels, we didn't know much about solar and just had two
 But after installing solar panels and learning more, our desires and goals _changed_:
 
 - It's thrilling to see the huge surplus of energy generated in spring and summer!
-- Instead of reducing our electric bills in half, they're reduced by 90%--we're so close to being off-grid!
+- Instead of reducing our electric bills in half, ours were reduced by 90%--that's so close to being off-grid!
 - Let's convert all gas appliances to electric to use all of this free excess energy!
 
 And then some truths became apparent:
 
 - Winter sun is so low and cloudy and generates [about one-third of summer sun](#install-as-much-as-you-can-afford)...
 - We need a 2nd battery to run the clothes dryer (or multiple appliances) without drawing from the grid...
-    - **Note:** This is no longer a problem with a single Powerwall3 battery
-- We need four more solar panels ($600) to generate more power to avoid drawing from the grid during winter...
-- No installer will do $600 worth of work since they focus on installing $18,000 - $28,000 solar panel systems...
+    - **Note:** This is no longer a problem with a single [Powerwall3 battery](https://energylibrary.tesla.com/docs/Public/EnergyStorage/Powerwall/3/Datasheet/en-us/Powerwall-3-Datasheet.pdf).
+- We need four more solar panels (costs only $600) to generate more power to avoid drawing from the grid during winter...
+- No installer will do $600 worth of work since they focus on installing $18,000+ solar panel systems...
 
 So, now we're stuck with what we have. We still love our solar panels, but it would've been nice to have a slightly bigger system from the start.
 
@@ -55,17 +55,61 @@ Solar generation fluctuates throughout the year, so summer months generate about
 
 ![Seasonal kWh highs and lows](images/Seasonal-kWh-highs-and-lows.png)
 
-So, if you size your solar array based on what solar installers use (kWh usage on your bills of the last 12 months), then you'll have:
+
+This fluctuation creates:
 
 - a surplus of energy during summer months --> that is either stored in batteries or sold to the grid.
 - a deficit of energy during winter months --> that is drawn from the grid.
-- not enough to power your home during a winter outtage --> you will be affected just like houses without solar panels.
 
-**The solution is to buy more than your annual kWh usage**. That is, buy one battery and as many solar panels as you can afford. If you have a 2024 or newer EV, then that vehicle can be your 2nd (and 3rd and 4th) battery due to its bidirectional charging.
+<mark> So, if you size your solar array based on _annual_ kWh usage on your electric bills, then you won't have enough to power your home during a winter outtage --> you will be affected just like houses without solar panels. </mark>
 
-For about 2-3% more money above covering your annual kWh usage, you can buy more panels that will heavily reduce your risk of being powerless during a winter outage.
+**The solution is to size your solar array on the single month that uses the most kWh and then multiply that number by 12 to calculate your "annual" usage**.
+
+That will result in even more of a surplus during summer, which is good because:
+
+- It'll cost only 2-3% more for the 4-6 added panels.
+- You'll be fully energy independent all year.
+- There's too small of a profit for any installer to add only 6 panels to a system, so they won't do it.
+- Panels degrade 0.5% per year and last 50+ years, so you're future-proofing yourself.
 
 For example, in our case:
 
 ![4 more panels for 2% more](images/4-more-panels-for-2-percent-more.png)
+
+If you have an EV made in 2024 or newer, your EV has bidirectional charging built-in. That means your home solar system needs only 1 battery and can use your EV's massive battery to be your home's 2nd (and 3rd and 4th) solar battery.
+
+
+## Keep usage low until Power On
+
+Energy from your new solar panels is not acknowledged or credited until after Final Inspection and Approval by your local utility company.
+
+That's 1 - 2 more months of high electric bills before your solar setup begins to lower your electric bills. So, keep your usage low until your utility company tells you that your solar setup has "Power On" status.
+
+
+## Before installer leaves
+
+- Plug in your EV charging cable. On your phone app, you should see your "Home kW" increase.
+    - Increase/decrease the Amps to your car and see if the kW flow is reflected in your app.
+- Max out your electric load to verify 5.7 kW comes from your Powerwall before drawing from the Grid.
+    - Run your clothes dryer or other heavy appliance to raise your Home usage 5.7 kW above solar production.
+- Verify all electrical outlets (breakers) are included in the measuring/metering and backup.
+- Verify that your contractors installed your panels and system per your planned diagram.
+    - Our original (non-Tesla) contractors installed 14 panels on 1 String (max is 11 or 12), so our voltage was too much and dropped often. The only way to know of this mistake was the very technical diagram on page 17 (of 23) which only electrical engineers might notice that Tesla's design specifications do not match the actual installation.
+
+
+## If bill differs, call solar company
+
+- If your app's kWh imported/exported numbers don't match your utility bill, call your solar company.
+- Utility companies are almost always correct, so don't wait another month to call your solar provider.
+    - You can't get back past data that wasn't measured--or was measured incorrectly.
+    - Our non-Tesla installer submitted incorrect BOM paperwork and didn't install a meter on our main breaker panel, so our car charging and water heater usage weren't measured in our app for 2 months.
+    - This took us 3 hours of transferred calls to solve; and Tesla said it'll take at least a week to fix.
+- Start with your solar Customer Service to test if your system and inverter are configured properly.
+
+
+## No battery = lower bills, not $0
+
+Utility companies pay so little for your excess kWh, so increase your ROI by adding a battery.
+
+Below is a graph of our utility bills before, during, and after solar panel installation.
 

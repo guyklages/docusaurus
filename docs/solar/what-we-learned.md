@@ -108,7 +108,7 @@ That's 1 - 2 more months of high electric bills before your solar setup begins t
 - Start with your solar Customer Service to test if your system and inverter are configured properly.
 
 
-## Without a battery, have bills
+## More batteries = lower bills
 
 If you don't have a battery, you'll still draw from the grid in the evenings and on cloudy days. Your electric bills will be reduced, not eliminated.
 

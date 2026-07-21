@@ -80,45 +80,13 @@ For example, in our case:
 If you have an EV made in 2024 or newer, your EV has bidirectional charging built-in. That means your home solar system needs only 1 battery because can use your EV's massive battery to be your home's 2nd (and 3rd and 4th) solar battery.
 
 
-## Keep usage low till Power On
-
-Energy from your new solar panels is not acknowledged or credited until after Final Inspection and Approval by your local utility company.
-
-That's 1 - 2 more months of high electric bills before your solar setup begins to lower your electric bills. So, keep your usage low until your utility company tells you that your solar setup has "Power On" status.
 
 
-## Before installer leaves
-
-- Plug in your EV charging cable. On your phone app, you should see your "Home kW" increase.
-    - Increase/decrease the Amps to your car and see if the kW flow is reflected in your app.
-- Max out your electric load to verify 5.7 kW comes from your Powerwall before drawing from the Grid.
-    - Run your clothes dryer or other heavy appliance to raise your Home usage 5.7 kW above solar production.
-- Verify all electrical outlets (breakers) are included in the measuring/metering and backup.
-- Verify that your contractors installed your panels and system per your planned diagram.
-    - Our original (non-Tesla) contractors installed 14 panels on 1 String (max is 11 or 12), so our voltage was too much and dropped often. The only way to know of this mistake was the very technical diagram on page 17 (of 23) which only electrical engineers might notice that Tesla's design specifications do not match the actual installation.
 
 
-## If bill differs, call installer
-
-- If your app's kWh imported/exported numbers don't match your utility bill, call your installer or their solar company.
-- Utility companies are almost always correct, so don't wait another month to call your solar provider.
-    - You can't get back past data that wasn't measured--or was measured incorrectly.
-    - Our non-Tesla installer submitted incorrect BOM paperwork and didn't install a meter on our main breaker panel, so our car charging and water heater usage weren't measured in our app for 2 months.
-    - This took us 3 hours of transferred calls to solve; and Tesla said it'll take at least a week to fix.
-- Start with your solar Customer Service to test if your system and inverter are configured properly.
 
 
-## More batteries = lower bills
 
-If you don't have a battery, you'll still draw from the grid in the evenings and on cloudy days. Your electric bills will be reduced, not eliminated.
 
-Utility companies pay so little for your excess kWh, so increase your ROI by adding a battery.
 
-Below is a graph of our utility bills before, during, and after solar panel installation--and heat pump installation.
-
-![utility-bills](./images/electric-bills-2021-2026.png)
-
-| 2021 | 2022 | 2023 | 2024 | 2025 |
-|------|------|------|------|------|
-| Sep: solar installed <br/><br/> Dec: solar approved | Jan: insulated walls <br/><br/> July-Aug: 4 weeks Powerwall offline | July: installed 2nd Powerwall <br/><br/> Nov: installed heat pump |  Aug: 2 weeks to reroof <br/><br/> moved 6 panels from NW to SE side | Dec: adjusted thermostat from 68º to 66º <br/><br/> |
 

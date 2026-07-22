@@ -2,7 +2,7 @@
 
 ## Overview
 
-| Company               | Topic | In-person trainer | <div style={{ width: '100px' }}>Curriculum designer</div> | City | <div style={{ width: '100px' }}>Year</div> |
+| Company               | Topic | In-person trainer | <div style={{ width: '100px' }}>Curriculum designer</div> | <div style={{ width: '100px' }}>City</div> | <div style={{ width: '100px' }}>Year</div> |
 |-----------------------|---------------------------------------------------------------|:---:|:---:|-------------|:-----------:|
 | Edutainme             | [Swagger](#swagger), DITA, MS Office, ESL, resumes            | Yes | Yes | Bay Area    | 2014 - now  |
 | OpSec Security        | [anti-counterfeiting labeling](#anti-counterfeiting-labeling) | Yes | Yes | Boston      | 2013 - 2013 |

@@ -2,15 +2,16 @@
 
 ## Overview
 
-| Company           | Topic       | In-person trainer | <div style={{ width: '100px' }}>Curriculum designer</div> | City | <div style={{ width: '100px' }}>Year</div> |
-|-------------------|---------------------------------------------------------------|:---:|:---:|-------------|:-----------:|
-| Edutainme         | [Swagger](#swagger), DITA, MS Office, ESL, resumes            | Yes | Yes | Bay Area    | 2014 - now  |
-| OpSec Security    | [anti-counterfeiting labeling](#anti-counterfeiting-labeling) | Yes | Yes | Boston      | 2013 - 2013 |
-| VA Medical Center | [eDC clinical trials](#edc-for-clinical-trials)               | Yes | Yes | Boston      | 2011 - 2013 |
-| ADP Payroll       | [payroll reporting](#payroll-reporting)                       | Yes | Yes | Seattle     | 2008 - 2011 |
-| Talk Group        | [ESL, MS Office](#esl-ms-office), resumes                     | Yes | Yes | Shanghai    | 2002 - 2008 |
-| FMU               | English, Writing                                              | Yes | No  | Miami       | 1997 - 2000 |
-| Mission College   | C++ fundamentals, Introduction to programming                 | Yes | No  | Santa Clara | 1997 - 1998 |
+| Company             | Topic       | In-person trainer | <div style={{ width: '100px' }}>Curriculum designer</div> | City | <div style={{ width: '100px' }}>Year</div> |
+|---------------------|---------------------------------------------------------------|:---:|:---:|-------------|:-----------:|
+| Edutainme           | [Swagger](#swagger), DITA, MS Office, ESL, resumes            | Yes | Yes | Bay Area    | 2014 - now  |
+| OpSec Security      | [anti-counterfeiting labeling](#anti-counterfeiting-labeling) | Yes | Yes | Boston      | 2013 - 2013 |
+| VA Medical Center   | [eDC clinical trials](#edc-for-clinical-trials)               | Yes | Yes | Boston      | 2011 - 2013 |
+| ADP Payroll         | [payroll reporting](#payroll-reporting)                       | Yes | Yes | Seattle     | 2008 - 2011 |
+| Talk Group          | [ESL, MS Office](#esl-ms-office), resumes                     | Yes | Yes | Shanghai    | 2002 - 2008 |
+| Expandable Software | ERP (Enterprise Resource Planning) modules                    | Yes | No  | San Jose    | 2000 - 2002 |
+| FMU                 | English, Writing                                              | Yes | No  | Miami       | 1997 - 2000 |
+| Mission College     | C++ fundamentals, Introduction to programming                 | Yes | No  | Santa Clara | 1997 - 1998 |
 | Learning Technologies | [Excel](#excel), ESL, MS Office, resumes                  | Yes | Yes | Taipei      | 1994 - 1997 |
 
 ### Recommendations

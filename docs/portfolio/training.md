@@ -13,7 +13,7 @@
 
 ### Recommendations
 
-[9 Recommendations on my LinkedIn profile by my managers and audience about my teaching style](https://guyklages.com/portfolio/recommendations#training--teaching)
+**[9 Recommendations on my LinkedIn profile by my managers and learners about my teaching style](https://guyklages.com/portfolio/recommendations#training--teaching)**
 
 ## Tools used
 

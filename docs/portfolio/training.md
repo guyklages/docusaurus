@@ -11,6 +11,9 @@
 | Talk Group        | [ESL, MS Office](#esl-ms-office), resumes                     | Yes | Yes | Shanghai | 2002 - 2008 |
 | Learning Technologies | [Excel](#excel), ESL, MS Office, resumes                  | Yes | Yes | Shanghai | 2003 - 2008 |
 
+### Recommendations
+
+[9 Recommendations on my LinkedIn profile by my managers and audience about my teaching style](https://guyklages.com/portfolio/recommendations#training--teaching)
 
 ## Tools used
 

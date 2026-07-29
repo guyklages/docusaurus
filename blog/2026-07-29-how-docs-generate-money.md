@@ -21,7 +21,7 @@ Support deflection is measurable, and it's large:
 This isn't guesswork. It shows up directly in ticket volume, and every deflected ticket is an agent-hour a company didn't have to pay for.
 
 
-## The feedback loop very few want to fund
+## Feedback loops very few want to fund
 
 A simple _"was this page helpful?"_ widget costs a company next to nothing to build, and it's one of the cheapest forms of product research available: a self-selected, motivated sample of users telling you, unprompted, exactly where their mental model diverges from your product. Most companies pay research firms for a weaker version of that same signal.
 

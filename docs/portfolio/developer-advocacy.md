@@ -43,8 +43,8 @@
 | [How to install and use Log Collection with AppVolumes](/blog/2018/02/12/KB-log-collection-usage) | VMware developers |
 | [Printers with ThinPrint default conflicts](/blog/2018/02/10/KB-managing-printers-with-thinprint-conflicts) | VMware developers |
 | [How to allowlist blocked application](/blog/2018/02/08/KB-allowlist-blocked-apps) | VMware developers |
-| [`Run Once` configurations that run multiple times](/blog/2018/02/04/KB-run-once) | VMware developers |
-| [How to replace an expired UEM licence file](/blog/2018/02/02/KB-change-uem-license-file) | VMware developers |
+| [`Run Once` configurations that run multiple times](/blog/2018/02/02/KB-VMware) | VMware developers |
+| [How to replace an expired UEM licence file](/blog/2018/02/02/KB-VMware) | VMware developers |
 
 ## Dev problems I've solved
 

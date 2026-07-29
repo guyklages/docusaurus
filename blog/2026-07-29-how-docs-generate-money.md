@@ -1,5 +1,5 @@
 ---
-title: How Documentation Generates Money
+title: How documentation generates money
 authors: [guyklages]
 tags: [fintech]
 ---

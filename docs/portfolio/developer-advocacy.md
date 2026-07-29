@@ -19,19 +19,23 @@
 
 ### API
 
-| Title | Audience | Remarks |
-|-------|----------|---------|
-| [Stripe API authentication](/blog/2019/09/22/stripe-api-authentication) | Fintech developers | Authentication, errors, idempotent requests, pagination, etc. |
-| [Stripe API charges](/blog/2019/10/22/stripe-api-charges) | Fintech developers | Charges object, creating, retrieving, updating, etc. |
-| [Stripe API customers](/blog/2019/11/22/stripe-api-customers) | Fintech developers | Customers object, creating, retrieving, updating, etc. |
+#### For fintech developers
+
+| Title | Contents |
+|-------|----------|
+| [Stripe API authentication](/blog/2019/09/22/stripe-api-authentication) | Authentication, errors, idempotent requests, pagination, etc. |
+| [Stripe API charges](/blog/2019/10/22/stripe-api-charges) | Charges object, creating, retrieving, updating, etc. |
+| [Stripe API customers](/blog/2019/11/22/stripe-api-customers) | Customers object, creating, retrieving, updating, etc. |
 
 ### SDK
 
-| Title | Audience | Code samples | Remarks |
-|-------|----------|--------------|---------|
-| [Android SDK for online payments](/blog/2020/04/04/android-sdk-online-payments) | Fintech developers | Java | Using Android Pay, collecting credit card info and payments, setting up an app, creating & using tokens, testing & deploying |
-| [iOS SDK for Apple Pay payments](/blog/2020/05/05/ios-sdk-apple-pay-payments) | Fintech developers | Swift <br/> Objective-C | Using Apple Pay, collecting credit card info, creating tokens, sending tokens to your server |
-| [Atelio web SDK documentation](https://guyklages.com/atelio/developers/web-sdk-documentation) | Fintech developers |  | Requirements, importing, displaying, setting card PIN |
+#### For fintech developers
+
+| Title | Code samples | Contents |
+|-------|--------------|----------|
+| [Android SDK for online payments](/blog/2020/04/04/android-sdk-online-payments) | Java | Using Android Pay, collecting credit card info and payments, setting up an app, creating & using tokens, testing & deploying |
+| [iOS SDK for Apple Pay payments](/blog/2020/05/05/ios-sdk-apple-pay-payments) | Swift <br/> Objective-C | Using Apple Pay, collecting credit card info, creating tokens, sending tokens to your server |
+| [Atelio web SDK documentation](https://guyklages.com/atelio/developers/web-sdk-documentation) |  | Requirements, importing, displaying, setting card PIN |
 
 ### KB
 

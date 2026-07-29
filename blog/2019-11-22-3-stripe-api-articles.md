@@ -1,21 +1,21 @@
 ---
-title: Stripe's customers API
+title: 3 articles on Stripe APIs
 authors: [guyklages]
 tags: [fintech]
 ---
 
 
-## Introduction 
+## Introduction
 
-The Stripe customers API is organized around [REST](https://en.wikipedia.org/wiki/REST). It has predictable, resource-oriented URLs, and uses HTTP response codes to indicate API errors. It uses built-in HTTP features, like HTTP authentication and HTTP verbs, which are understood by off-the-shelf HTTP clients. It supports [cross-origin resource sharing](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing), allowing you to interact securely with our API from a client-side web application (though you should never expose your secret API key in any public website’s client-side code). 
+The Stripe APIs are organized around [REST](https://en.wikipedia.org/wiki/REST). They have predictable, resource-oriented URLs, and use HTTP response codes to indicate API errors. They use built-in HTTP features, like HTTP authentication and HTTP verbs, which are understood by off-the-shelf HTTP clients. They support [cross-origin resource sharing](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing), allowing you to interact securely with our API from a client-side web application (though you should never expose your secret API key in any public website’s client-side code).
 
-To make the API as explorable as possible, accounts have test mode and live mode API keys. There is no “switch” for changing between modes, just use the appropriate key to perform a live or test transaction. Requests made with test mode credentials never hit the banking networks and incur no cost. 
+To make the API as explorable as possible, accounts have test mode and live mode API keys. There is no “switch” for changing between modes, just use the appropriate key to perform a live or test transaction. Requests made with test mode credentials never hit the banking networks and incur no cost.
 
-## Customers 
+## Customers API
 
-Customer objects allow you to perform recurring charges and track multiple charges that are associated with the same customer. The API allows you to create, delete, and update your customers. You can retrieve individual customers as well as list of all your customers. 
+Customer objects allow you to perform recurring charges and track multiple charges that are associated with the same customer. The API allows you to create, delete, and update your customers. You can retrieve individual customers as well as list of all your customers.
 
-## The `customer` object 
+### The `customer` object 
 
 The following are the attributes in this feature.
 
@@ -38,7 +38,7 @@ The following are the attributes in this feature.
 | [`sources`](#customer-sources)   | list | The customer’s payment sources, if any |
 | [`subscriptions`](#customer-subscriptions) | list | The customer’s payment subscriptions, if any |
 
-### `customer-shipping`
+#### `customer-shipping`
 
 The following is the `customer-shipping` object's child attribute. 
 
@@ -59,7 +59,7 @@ The following are the `customer-shipping-address` object's attributes.
 | `postal_code` | string    | The shipping address' zip / postal code | 
 | `state`       | string    | The shipping address' state / province / county |
 
-### `customer-sources`
+#### `customer-sources`
 
 The following are the `customer-sources` object's child attributes. 
 
@@ -71,7 +71,7 @@ The following are the `customer-sources` object's child attributes.
 | `total_count` | positive integer or zero | The total number of items available. This value is not included by default, but you can request it by specifying `?include[]=total_count`. |
 | `url`         | string    | The URL where this list can be accessed. |
 
-### `customer-subscriptions`
+#### `customer-subscriptions`
 
 The following are the `customer-subscriptions` object's child attributes. 
 
@@ -176,7 +176,7 @@ com.stripe.model.Customer JSON: {
   }
 ```
 
-## Create a customer
+### Create a customer
 
 Creates a new customer object. To do so, add `Customer.create();` to your program.
 
@@ -197,7 +197,7 @@ The following are the _optional_ arguments in this feature.
 | `tax_percent` | A positive decimal (with at most two decimal places) between 1 and 100. This represents the percentage of the subscription invoice subtotal that will be calculated and added as tax to the final amount each billing period. For example, a plan which charges $10/month with a `tax_percent` of 20.0 will charge $12 per invoice. Can only be used if a plan is provided. |
 | `trial_end` | Unix timestamp representing the end of the trial period the customer will get before being charged. If set, `trial_end` will override the default trial period of the plan the customer is being subscribed to. The special value now can be provided to end the customer’s trial immediately. Only applies when the plan parameter is also provided. |
 
-### `create-shipping`
+#### `create-shipping`
 
 The following are the `shipping` object's child arguments. 
 
@@ -220,7 +220,7 @@ The following are the `create-shipping-address` object's child arguments.
 | `postal_code` | Optional  | The shipping address' zip / postal code |
 | `state`       | Optional  | The shipping address' state / territory / province |
 
-### `create-source`
+#### `create-source`
 
 The following are the `create-source` object's child arguments. 
 
@@ -242,7 +242,7 @@ The following are the `create-source` object's child arguments.
 | `metadata` | Optional | A set of key/value pairs that you can attach to a card object. It can be useful for storing additional information about the card in a structured format. |
 | `name` | Optional | Cardholder’s full name |
 
-The following is an example request: 
+The following is an example request:
 
 ```json
 Stripe.apiKey = "test_BQokikJOvBiI2HlWgH4olfQ2"; 
@@ -254,11 +254,11 @@ customerParams.put("source", "tok_182ied2eZvKYlo2CDbFVWcMM"); // obtained with S
 Customer.create(customerParams); 
 ```
 
-## Returns 
+#### Returns customer
 
 Returns a customer object if the call succeeded. The returned object will have information about subscriptions, discount, and payment sources, if that information has been provided. If an invoice payment is due and a source is not provided, the call will raise an error. If a non-existent plan or a non-existent or expired coupon is provided, the call will raise an error.
 
-If a source has been attached to the customer, the returned customer object will have a `default_source` attribute, which is an ID that can be expanded into the full source details when retrieving the customer. 
+If a source has been attached to the customer, the returned customer object will have a `default_source` attribute, which is an ID that can be expanded into the full source details when retrieving the customer.
 
 The following is an example response:
 
@@ -296,7 +296,7 @@ com.stripe.model.Customer JSON: {
   }
 ```
 
-## Retrieve a customer 
+### Retrieve a customer
 
 Retrieves the details of an existing customer. You need only supply the unique customer identifier that was returned upon customer creation.
 
@@ -308,7 +308,7 @@ Stripe.apiKey = "test_BQokikJOvBiI2HlWgH4olfQ2";
 Customer.retrieve("cus_8JNO6XkCpsjc7s"); 
 ```
 
-## Returns 
+#### Returns customer
 
 Returns a customer object if a valid identifier was provided. When requesting the ID of a customer that has been deleted, a subset of the customer’s information will be returned, including a `deleted` property, which will be true. 
 
@@ -373,7 +373,7 @@ com.stripe.model.Customer JSON: {
   }
 ```
 
-## Update a customer
+### Update a customer
 
 Updates the specified customer by setting the values of the parameters passed. Any parameters not provided will be left unchanged. For example, if you pass the source parameter, that becomes the customer’s active source (e.g., a card) to be used for all charges in the future.
 
@@ -405,7 +405,7 @@ The following are the _optional_ arguments in this feature.
 | [`shipping`](#update-shipping) | 
 | [`source`](#update-source) | The source can either be a token, like the ones returned by our Stripe.js, or a dictionary containing a user’s credit card details (with the options shown below). Passing source will create a new source object, make it the new customer default source, and delete the old customer default if one exists. If you want to add additional sources instead of replacing the existing default, use the card creation API. Whenever you attach a card to a customer, Stripe will automatically validate the card. |
 
-### `update-shipping`
+#### `update-shipping`
 
 The following are the `update-shipping` child arguments. 
 
@@ -428,7 +428,7 @@ The following are the `update-shipping-address` object's child arguments.
 | `postal_code` | Optional  | The update shipping address' zip / postal code |
 | `state`       | Optional  | The update shipping address' state |
 
-### `update-source`
+#### `update-source`
 
 The following are the `update-source` object's child arguments. 
 
@@ -450,7 +450,7 @@ The following are the `update-source` object's child arguments.
 | `metadata`        | Optional | A set of key/value pairs that you can attach to a card object. It can be useful for storing additional information about the card in a structured format. |
 | `name`            | Optional | Cardholder’s full name |
 
-The following is an example request: 
+The following is an example request:
 
 ```json
 Stripe.apiKey = "test_BQokikJOvBiI2HlWgH4olfQ2"; 
@@ -461,7 +461,7 @@ updateParams.put("description", "Customer for test@example.com");
 cu.update(updateParams);
 ```
 
-## Returns 
+#### Returns update
 
 Returns the customer object if the update succeeded. Throws an error if update parameters are invalid (e.g. specifying an invalid coupon or an invalid source). 
 
@@ -632,7 +632,7 @@ com.stripe.model.Customer JSON: {
 } 
 ```
 
-## Delete a customer
+### Delete a customer
 
 Permanently deletes a customer. It cannot be undone. Also immediately cancels any active subscriptions on the customer.
 
@@ -651,13 +651,13 @@ Stripe.apiKey = "test_BQokikJOvBiI2HlWgH4olfQ2";
 Customer cu = Customer.retrieve("cus_8JNmQG7nBfcoHK"); cu.delete(); 
 ```
 
-## Returns 
+#### Returns deletion
 
-Returns an object with a deleted parameter on success. If the customer ID does not exist, this call raises an error. 
+Returns an object with a deleted parameter on success. If the customer ID does not exist, this call raises an error.
 
-Unlike other objects, deleted customers can still be retrieved through the API, in order to be able to track the history of customers while still removing their credit card details and preventing any further operations to be performed (such as adding a new subscription). 
+Unlike other objects, deleted customers can still be retrieved through the API, in order to be able to track the history of customers while still removing their credit card details and preventing any further operations to be performed (such as adding a new subscription).
 
-The following is an example response: 
+The following is an example response:
 
 ```json
 com.stripe.model.Object JSON: { 
@@ -666,13 +666,13 @@ com.stripe.model.Object JSON: {
 }
 ```
 
-## List all customers 
+### List all customers
 
-Returns a list of your customers. The customers are returned sorted by creation date, with the most recent customers appearing first. 
+Returns a list of your customers. The customers are returned sorted by creation date, with the most recent customers appearing first.
 
-To do so, add `Customer.all(Map<String, Object> options);` to your program. 
+To do so, add `Customer.all(Map<String, Object> options);` to your program.
 
-The following are the _optional_ arguments in this feature. 
+The following are the _optional_ arguments in this feature.
 
 | Argument         | Description |
 |------------------|-------------|
@@ -682,7 +682,7 @@ The following are the _optional_ arguments in this feature.
 | `limit` | A limit on the number of objects to be returned. Limit can range between 1 and 100 items. Default is 10. |
 | `starting_after` | A cursor for use in pagination. `starting_after` is an object ID that defines your place in the list. For example, if you make a list request and receive 100 objects, ending with `obj_foo`, your subsequent call can include `starting_after=obj_foo` to fetch the next page of the list. |
 
-### `list-created`
+#### `list-created`
 
 The following are the `list-created` object's _optional_ timestamp child arguments. 
 
@@ -704,14 +704,14 @@ customerParams.put("limit", 3);
 Customer.all(customerParams); 
 ```
 
-## Returns 
+#### Returns array of customers
 
-A dictionary with a `data` property that contains an array of up to `limit` customers, starting after customer `starting_after`. Each entry in the array is a separate customer object. If no more customers are available, the resulting array will be empty. This request should never raise an error. 
+A dictionary with a `data` property that contains an array of up to `limit` customers, starting after customer `starting_after`. Each entry in the array is a separate customer object. If no more customers are available, the resulting array will be empty. This request should never raise an error.
 
 You can optionally request that the response include the total count of
-all customers that match your filters. To do so, specify `include[]=total_count` in your request. 
+all customers that match your filters. To do so, specify `include[]=total_count` in your request.
 
-The following is an example response: 
+The following is an example response:
 
 ```json
 #<com.stripe.model.CustomerCollection id=#> JSON: { 

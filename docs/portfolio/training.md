@@ -36,7 +36,7 @@
 
 | Function                      | Tool                            | Years |
 |-------------------------------|---------------------------------|-------|
-| Platforms (LMS, CMS)          | Blackboard, Moodle, Author-It, Academy (WordPress plugin) | 8+ |
+| Platforms (LMS, CMS)          | Academy (WordPress plugin), Articulate, Author-It, Blackboard, Dozuki, Moodle | 8+ |
 | Survey                        | SurveyMonkey                    | 3+ |
 | Webinars and virtual training | Zoom                            | 3+ |
 | Video recording and editing   | Camtasia, Captivate, Zoomerang  | 3+ |

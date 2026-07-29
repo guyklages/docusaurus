@@ -42,7 +42,7 @@
 | [Writables are not created upon login in a multi-vCenter environment](/blog/2018/02/02/KB-VMware#writables-not-created) | VMware developers |
 | [How to install and use Log Collection with AppVolumes](/blog/2018/02/02/KB-VMware#log-collection-usage) | VMware developers |
 | [Printers with ThinPrint default conflicts](/blog/2018/02/02/KB-VMware#printers-with-thinprint-conflicts) | VMware developers |
-| [How to allowlist blocked application](/blog/2018/002/02/KB-VMware#how-to-allowlist-blocked-applications) | VMware developers |
+| [How to allowlist blocked application](/blog/2018/02/02/KB-VMware#how-to-allowlist-blocked-applications) | VMware developers |
 | [`Run Once` configurations that run multiple times](/blog/2018/02/02/KB-VMware#run-once-unwanted-behavior) | VMware developers |
 | [How to replace an expired UEM licence file](/blog/2018/02/02/KB-VMware#replace-a-uem-license-file) | VMware developers |
 

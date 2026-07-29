@@ -18,6 +18,7 @@ Saying the police know where to go for the best doughnuts is an understatement; 
 
 The Donut Man bakes 4-7am every day and serves people until he is sold out. He takes a short lunch break and has always eaten 3-5 doughnuts daily. When asked how he keeps such a trim shape, he happily points out the secrets to his doughnut success:
 
-“They are dry on the bottom since they are much less oily”
-“I use very little sugar coating so they are not too sweet”
+- _“They are dry on the bottom since they are much less oily”_
+- _“I use very little sugar coating so they are not too sweet”_
+
 There may be no such thing as a healthy doughnut, but these exquisite creations are the closest you’ll find—so enjoy another one!

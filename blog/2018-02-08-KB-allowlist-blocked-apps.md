@@ -4,7 +4,9 @@ authors: [guyklages]
 tags: [vm]
 ---
 
-## Introduction
+## How to allowlist blocked applications
+
+### Introduction
 
 VMware User Environment Manager comes with built-in templates for some common applications such as Office and Adobe Reader, which are optimized and typically work for most customers.
 

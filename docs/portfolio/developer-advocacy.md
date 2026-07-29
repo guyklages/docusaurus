@@ -39,16 +39,18 @@
 
 ### KB
 
-| Title | Audience |
-|-------|----------|
-| [AppStack exclusions are not excluded from Writables Volumes](/blog/2018/02/02/KB-VMware#appstacks-not-excluded-from-writables) | VMware developers | 
-| [After AppStack rescan, AppStacks is disabled or unprovisioned](/blog/2018/02/02/KB-VMware#appstacks-disabled-after-rescan) | VMware developers |
-| [Writables are not created upon login in a multi-vCenter environment](/blog/2018/02/02/KB-VMware#writables-not-created) | VMware developers |
-| [How to install and use Log Collection with AppVolumes](/blog/2018/02/02/KB-VMware#log-collection-usage) | VMware developers |
-| [Printers with ThinPrint default conflicts](/blog/2018/02/02/KB-VMware#printers-with-thinprint-conflicts) | VMware developers |
-| [How to allowlist blocked application](/blog/2018/02/02/KB-VMware#how-to-allowlist-blocked-applications) | VMware developers |
-| [`Run Once` configurations that run multiple times](/blog/2018/02/02/KB-VMware#run-once-unwanted-behavior) | VMware developers |
-| [How to replace an expired UEM licence file](/blog/2018/02/02/KB-VMware#replace-a-uem-license-file) | VMware developers |
+#### For WMware developers
+
+| Title |
+|-------|
+| [AppStack exclusions are not excluded from Writables Volumes](/blog/2018/02/02/KB-VMware#appstacks-not-excluded-from-writables) |
+| [After AppStack rescan, AppStacks is disabled or unprovisioned](/blog/2018/02/02/KB-VMware#appstacks-disabled-after-rescan) |
+| [Writables are not created upon login in a multi-vCenter environment](/blog/2018/02/02/KB-VMware#writables-not-created) |
+| [How to install and use Log Collection with AppVolumes](/blog/2018/02/02/KB-VMware#log-collection-usage) |
+| [Printers with ThinPrint default conflicts](/blog/2018/02/02/KB-VMware#printers-with-thinprint-conflicts) |
+| [How to allowlist blocked application](/blog/2018/02/02/KB-VMware#how-to-allowlist-blocked-applications) |
+| [`Run Once` configurations that run multiple times](/blog/2018/02/02/KB-VMware#run-once-unwanted-behavior) |
+| [How to replace an expired UEM licence file](/blog/2018/02/02/KB-VMware#replace-a-uem-license-file) |
 
 ## Dev problems I've solved
 

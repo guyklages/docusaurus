@@ -1,5 +1,5 @@
 ---
-title: 3 articles on Stripe APIs
+title: 3 Stripe APIs
 authors: [guyklages]
 tags: [fintech]
 ---

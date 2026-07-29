@@ -23,9 +23,9 @@
 
 | Title | Contents |
 |-------|----------|
-| [Stripe API authentication](/blog/2019/09/22/stripe-api-authentication) | Authentication, errors, idempotent requests, pagination, etc. |
-| [Stripe API charges](/blog/2019/10/22/stripe-api-charges) | Charges object, creating, retrieving, updating, etc. |
-| [Stripe API customers](/blog/2019/11/22/stripe-api-customers) | Customers object, creating, retrieving, updating, etc. |
+| [Stripe API authentication](/blog/2019/11/22/3-stripe-api-articles) | Authentication, errors, idempotent requests, pagination, etc. |
+| [Stripe API charges](/blog/2019/11/22/3-stripe-api-articles) | Charges object, creating, retrieving, updating, etc. |
+| [Stripe API customers](/blog/2019/11/22/3-stripe-api-articles) | Customers object, creating, retrieving, updating, etc. |
 
 ### SDK
 

@@ -37,12 +37,12 @@
 
 | Title | Audience |
 |-------|----------|
-| [AppStack exclusions are not excluded from Writables Volumes](/blog/2018/02/18/KB-appstack-exclusions-not-excluded-from-writables) | VMware developers | 
-| [After AppStack rescan, AppStacks is disabled or unprovisioned](/blog/2018/02/16/KB-appstacks-disabled-after-rescan) | VMware developers |
-| [Writables are not created upon login in a multi-vCenter environment](/blog/2018/02/14/KB-writables-not-created) | VMware developers |
-| [How to install and use Log Collection with AppVolumes](/blog/2018/02/12/KB-log-collection-usage) | VMware developers |
-| [Printers with ThinPrint default conflicts](/blog/2018/02/10/KB-managing-printers-with-thinprint-conflicts) | VMware developers |
-| [How to allowlist blocked application](/blog/2018/02/08/KB-allowlist-blocked-apps) | VMware developers |
+| [AppStack exclusions are not excluded from Writables Volumes](/blog/2018/02/02/KB-VMware) | VMware developers | 
+| [After AppStack rescan, AppStacks is disabled or unprovisioned](/blog/2018/02/02/KB-VMware) | VMware developers |
+| [Writables are not created upon login in a multi-vCenter environment](/blog/2018/02/02/KB-VMware) | VMware developers |
+| [How to install and use Log Collection with AppVolumes](/blog/2018/02/02/KB-VMware) | VMware developers |
+| [Printers with ThinPrint default conflicts](/blog/2018/02/02/KB-VMware) | VMware developers |
+| [How to allowlist blocked application](/blog/2018/002/02/KB-VMware | VMware developers |
 | [`Run Once` configurations that run multiple times](/blog/2018/02/02/KB-VMware) | VMware developers |
 | [How to replace an expired UEM licence file](/blog/2018/02/02/KB-VMware) | VMware developers |
 

@@ -5,7 +5,7 @@ authors: [guyklages]
 tags: [seattle, doughnut, dessert, celebrity]
 ---
 
-![Donut](../static/img/Blog_The-healthy-doughnut_Countryside-Donut.png)
+<img src="../static/img/Blog_The-healthy-doughnut_Countryside-Donut.png" alt="Donut" width="699" height="450" />
 
 
 Those of us who succumb to the occasional urge for these nutritional hand-grenades, there is a glimmer of hope. Nestled in a small strip mall on [220th and 66th Ave. in Edmonds](https://www.google.com/maps/place/Countryside+Donut+LLC/@47.7998379,-122.3236109,17z/data=!3m1!4b1!4m6!3m5!1s0x54901aa58b606653:0xaa64a0cbd98873e4!8m2!3d47.7998343!4d-122.3210306!16s%2Fg%2F1tf9sjfm?entry=ttu&g_ep=EgoyMDI2MDYxMy4wIKXMDSoASAFQAw%3D%3D) is the best doughnut shop around—possibly on the west coast—and their scant use of oil and sugar make these delicious treats almost healthy.

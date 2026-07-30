@@ -37,7 +37,7 @@
 |-------------------|------------------|
 | PROBLEM: <br/> New clients were unable to onboard themselves due to the unclear method to them–-and even to Nium. <br/> <br/> Each region (AU, EU, HK, SG, UK, US) contains five very complex spreadsheets describing various steps of onboarding for various client types and situations: | MY SOLUTION: <br/> I created **[a clear onboarding process with sections of customer types](https://docs.nium.com/docs/onboarding)** for common onboarding steps and for region-specific parameter and example pages. <br/> <br/> Immediately saw twice as many customers onboarded and only a quarter of the Helpdesk requests for onboarding |
 | ![Before](../../static/img/Nium_onboarding-before.png) | ![After](../../static/img/Nium_onboarding-after.png) |
-| For every 10 customers who tried to onboard: <br/> - 2 (20%) were successful <br/> - 8 (80%) filed helpdesk tickets. <br/><br/> After I created the onboarding process: - 8 (80%) were successful <br/> - 2 (20%) filed helpdesk tickets | Successful onboarding rose 60% <br/> while helpdesk tickets reduced by 60%. |
+| For every 10 customers who tried to onboard: <br/> - 2 (20%) were successful <br/> - 8 (80%) filed helpdesk tickets. <br/><br/> After I created the onboarding process: <br/> - 8 (80%) were successful <br/> - 2 (20%) filed helpdesk tickets | Successful onboarding rose 60% <br/> while helpdesk tickets reduced by 60%. |
 
 ## #1 cybersecurity coder
 

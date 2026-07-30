@@ -85,7 +85,8 @@ div[class*="codeBlockTitle"] {
 .navbar__link {
   color: #6b7280;
 }
-.navbar__link--active {
+.navbar__link--active,
+.navbar__link--active:hover {
   color: #cc0000;
   font-weight: 700;
 }
@@ -96,7 +97,8 @@ div[class*="codeBlockTitle"] {
 .menu__link {
   color: #6b7280;
 }
-.menu__link--active {
+.menu__link--active,
+.menu__link--active:hover {
   color: #cc0000;
   font-weight: 700;
 }
@@ -104,7 +106,8 @@ div[class*="codeBlockTitle"] {
 .table-of-contents__link {
   color: #6b7280;
 }
-.table-of-contents__link--active {
+.table-of-contents__link--active,
+.table-of-contents__link--active:hover {
   color: #cc0000;
   font-weight: 700;
 }

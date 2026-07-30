@@ -80,22 +80,23 @@ div[class*="codeBlockTitle"] {
   font-size: inherit;
 }
 
-/* Navigation: gray default, bright red + bold active */
+/* Navigation: gray unselected, bold red selected, no hover effects */
 
-.navbar__link {
+.navbar__link,
+.navbar__link:hover {
   color: #6b7280;
+  font-weight: 400;
 }
 .navbar__link--active,
 .navbar__link--active:hover {
   color: #cc0000;
   font-weight: 700;
 }
-.navbar__link:hover {
-  color: #6b7280;
-}
 
-.menu__link {
+.menu__link,
+.menu__link:hover {
   color: #6b7280;
+  font-weight: 400;
 }
 .menu__link--active,
 .menu__link--active:hover {
@@ -103,16 +104,15 @@ div[class*="codeBlockTitle"] {
   font-weight: 700;
 }
 
-.table-of-contents__link {
+.table-of-contents__link,
+.table-of-contents__link:hover {
   color: #6b7280;
+  font-weight: 400;
 }
 .table-of-contents__link--active,
 .table-of-contents__link--active:hover {
   color: #cc0000;
   font-weight: 700;
-}
-.table-of-contents__link:hover {
-  color: #6b7280;
 }
 
 /* Shrink the blog pages' left/right margins to match the docs/portfolio pages.

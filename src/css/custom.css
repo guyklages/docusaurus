@@ -80,6 +80,36 @@ div[class*="codeBlockTitle"] {
   font-size: inherit;
 }
 
+/* Navigation: gray default, bright red + bold active */
+
+.navbar__link {
+  color: #6b7280;
+}
+.navbar__link--active,
+.navbar__link:hover {
+  color: #cc0000;
+  font-weight: 700;
+}
+
+.menu__link {
+  color: #6b7280;
+}
+.menu__link--active {
+  color: #cc0000;
+  font-weight: 700;
+}
+
+.table-of-contents__link {
+  color: #6b7280;
+}
+.table-of-contents__link--active {
+  color: #cc0000;
+  font-weight: 700;
+}
+.table-of-contents__link:hover {
+  color: #cc0000;
+}
+
 /* Shrink the blog pages' left/right margins to match the docs/portfolio pages.
    Docs pages stay narrow-looking because the persistent doc sidebar eats into
    the available width before Infima's ".container" centers itself; blog pages

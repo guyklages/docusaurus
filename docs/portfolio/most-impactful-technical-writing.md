@@ -29,14 +29,15 @@
 | ![Before](../../static/img/Nium_Payouts_BEFORE.png) | ![After](../../static/img/Nium_Payouts_AFTER.png) |
 | Originally was&nbsp;&nbsp;1+14+2&nbsp;&nbsp;= 17 pages <br/> I revamped to 11+23+4 = 38 pages | More than doubled the clarity of existing pages while adding 101 pages of new products |
 
-## 2x customers onboarded
+## 60% more onboarded + fewer issues
 
-#### Nium (San Francisco) -- <mark> Doubled the number of people onboarded per month with 75% fewer issues </mark>
+#### Nium (San Francisco) -- <mark> 60% more customers onboarded while 60% fewer helpdesk issues </mark>
 
 | Before (Oct 2022) | After (Dec 2022) |
 |-------------------|------------------|
 | PROBLEM: <br/> New clients were unable to onboard themselves due to the unclear method to them–-and even to Nium. <br/> <br/> Each region (AU, EU, HK, SG, UK, US) contains five very complex spreadsheets describing various steps of onboarding for various client types and situations: | MY SOLUTION: <br/> I created **[a clear onboarding process with sections of customer types](https://docs.nium.com/docs/onboarding)** for common onboarding steps and for region-specific parameter and example pages. <br/> <br/> Immediately saw twice as many customers onboarded and only a quarter of the Helpdesk requests for onboarding |
 | ![Before](../../static/img/Nium_onboarding-before.png) | ![After](../../static/img/Nium_onboarding-after.png) |
+| For every 10 customers who tried to onboard, only 2 (20%) were successful while 8 (80%) filed helpdesk tickets. <br/> After I created the onboarding process, for every 10 customers, 8 (80%) were successful while 2 (20%) filed helpdesk tickets. | Successful onboarding rose 60% while helpdesk tickets reduced by 60%. |
 
 ## #1 cybersecurity coder
 

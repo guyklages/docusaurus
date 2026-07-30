@@ -19,9 +19,9 @@
 | ![Before](../../static/img/Nium_ca_50pgs.png) | ![After](../../static/img/Nium_ca_32pgs.png) |
 | (my 32 pgs) / (inherited 50 pgs) = 64% of the original pgs | 36% fewer pages than originally |
 
-## Revamped 60% of pages
+## 2x clarity + 101 new pages
 
-#### Nium (San Francisco) -- <mark> Revamped 60% of the pages created by engineers hastily </mark>
+#### Nium (San Francisco) -- <mark> Revamped pages to double the clarity while adding 101 new pages </mark>
 
 | Before (May 2024) | After (July 2025) |
 |-------------------|-------------------|

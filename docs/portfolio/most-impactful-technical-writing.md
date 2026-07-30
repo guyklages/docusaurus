@@ -29,7 +29,7 @@
 | ![Before](../../static/img/Nium_Payouts_BEFORE.png) | ![After](../../static/img/Nium_Payouts_AFTER.png) |
 | Originally was&nbsp;&nbsp;1+14+2&nbsp;&nbsp;= 17 pages <br/> I revamped to 11+23+4 = 38 pages | More than doubled the clarity of existing pages while adding 101 pages of new products |
 
-## 60% more onboarded + fewer issues
+## 60% more + 60% less
 
 #### Nium (San Francisco) -- <mark> 60% more customers onboarded while 60% fewer helpdesk issues </mark>
 

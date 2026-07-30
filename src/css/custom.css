@@ -122,8 +122,8 @@ nav[aria-label="Blog recent posts navigation"] a:hover {
   color: #6b7280;
   font-weight: 400;
 }
-nav[aria-label="Blog recent posts navigation"] a[aria-current="page"],
-nav[aria-label="Blog recent posts navigation"] a[aria-current="page"]:hover {
+nav[aria-label="Blog recent posts navigation"] a[class*="sidebarItemLinkActive"],
+nav[aria-label="Blog recent posts navigation"] a[class*="sidebarItemLinkActive"]:hover {
   color: #cc0000 !important;
   font-weight: 700;
 }

@@ -7,9 +7,9 @@
 | Before (Sep 2025) | After (Sep 2025)  |
 |-------------------|-------------------|
 | PROBLEM: <br/> Over two weeks of multiple daily group Slack messages, ten fintech PMs and SMEs were discussing and gradually deciding the specs, functionalities, details, and limitations of a new mobile app financial tool. <br/><br/> After they gradually solved or finalized different aspects of the new product, they then asked me to write a developer guide based on their dozens of decisions. | MY SOLUTION: <br/> The Promptless AI tool reviewed all those conversations and listed only the decided functionality that was agreed upon during those weeks--within 10 minutes. 
-| That task would've taken me 3 days <br/><br/> _(3 days of 8 hours = 1,440 minutes)_ <br/><br/> (Promptless' 10 min) / (my 1440 min) = 1% | Promptless AI created the first draft in 1% of the time it would've taken me. <br/><br/> Then, I just needed to re-order the paragraphs in a logical way, clean up the formatting (tables, diagrams, etc), and match our company voice. |
+| That task would've taken me 3 days <br/><br/> _(3 days of 8 hours = 1,440 minutes)_ <br/><br/> (Promptless' 10 min) / (my 1440 min) = 1% | Promptless AI created the first draft in 1% of the time it would've taken me. <br/><br/> Then, I just needed to re-order the paragraphs in a logical way, clean up the formatting (convert some text to tables and diagrams), and match our company voice. |
 
-## 36% page reduction from IA
+## 36% fewer pages from IA
 
 #### Atelio of FIS Global (Seattle) -- <mark> Revamped information architecture, reduced dev pages by 36%, made navigation easier</mark>
 
@@ -17,7 +17,7 @@
 |-------------------|-------------------|
 | PROBLEM: <br/> Short pages were hastily written by engineers who used more pages than needed <br/> <br/> Total of 50 pages| MY SOLUTION: <br/> I revamped and streamlined the information architecture to improve the flow and group related topics. <br/> <br/> [Total of 32 pages](https://guyklages.com/docs/atelio/getting-started/client-config) |
 | ![Before](../../static/img/Nium_ca_50pgs.png) | ![After](../../static/img/Nium_ca_32pgs.png) |
-| (my 32 pgs) / (inherited 50 pgs) = 64% of the original pgs | 36% fewer pages than originally |
+| (my 32 pg) / (inherited 50 pg) = 64% of the original | 36% fewer pages than there were originally |
 
 ## 2x clarity + 101 new pages
 

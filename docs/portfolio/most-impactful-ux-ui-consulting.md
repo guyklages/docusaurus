@@ -1,24 +1,26 @@
 # Most impactful UX/UI items
 
 
-## 36% fewer pages via IA
+## 36% fewer pages from IA
 
-#### FIS Global (San Francisco) -- <mark> 36% fewer pages from a better information architecture </mark>
+#### Atelio of FIS Global (Seattle) -- <mark> Revamped information architecture, reduced dev pages by 36%, made navigation easier</mark>
 
 | Before (May 2024) | After (July 2025) |
 |-------------------|-------------------|
-| PROBLEM: <br/> Short pages were hastily written by engineers who used more pages than needed <br/> <br/> Total of 50 pages| MY SOLUTION: <br/> I revamped and streamlined the information architecture to improve the flow, group related topics, and make finding information more natural. <br/> <br/> Total of 32 pages -- a reduction of 36% |
+| PROBLEM: <br/> Short pages were hastily written by engineers who used more pages than needed <br/> <br/> Total of 50 pages| MY SOLUTION: <br/> I revamped and streamlined the information architecture to improve the flow and group related topics. <br/> <br/> [Total of 32 pages](https://guyklages.com/docs/atelio/getting-started/client-config) |
 | ![Before](../../static/img/Nium_ca_50pgs.png) | ![After](../../static/img/Nium_ca_32pgs.png) |
+| (my 32 pg) / (inherited 50 pg) = 64% of the original | 36% fewer pages than there were originally |
 
 
-## 2x more onboarded
+## 70% more + 70% less
 
-#### Nium (San Francisco) -- <mark> Doubled the onboarding rate due to a new UX/UI steps for onboarding new customers </mark>
+#### Nium (San Francisco) -- <mark> 70% more customers onboarded while 70% fewer helpdesk issues </mark>
 
 | Before (Oct 2022) | After (Dec 2022) |
 |-------------------|------------------|
-| PROBLEM: <br/> New clients were unable to onboard themselves due to the unclear method to them–-and even to Nium. <br/> <br/> Each region (AU, EU, HK, SG, UK, US) contains five very complex spreadsheets describing various steps of onboarding for various client types and situations: | MY SOLUTION: <br/> I created **[regions of customers with sub-pages](https://docs.nium.com/docs/onboarding)** for common onboarding steps and for region-specific parameter and example pages. <br/> <br/> Immediately saw twice as many customers onboarded with 75% fewer Helpdesk requests. |
+| PROBLEM: <br/> New clients were unable to onboard themselves due to the unclear method to them–-and even to Nium. <br/> <br/> Each region (AU, EU, HK, SG, UK, US) contains five very complex spreadsheets describing various steps of onboarding for various client types and situations: | MY SOLUTION: <br/> I created **[a clear onboarding process with sections of customer types](https://docs.nium.com/docs/onboarding)** for common onboarding steps and for region-specific parameter and example pages. <br/> <br/> Immediately saw twice as many customers onboarded and only a quarter of the Helpdesk requests for onboarding |
 | ![Before](../../static/img/Nium_onboarding-before.png) | ![After](../../static/img/Nium_onboarding-after.png) |
+| For every 10 customers who tried to onboard: <br/> - 2 (20%) were successful <br/> - 8 (80%) filed helpdesk tickets. <br/><br/> After I created the onboarding process: <br/> - 9 (90%) were successful <br/> - 1 (10%) filed helpdesk tickets | Successful onboarding rose 70% <br/> while helpdesk tickets reduced by 70%. |
 
 
 ## New UX with 2x details
@@ -39,6 +41,7 @@
 |-------------------|------------------|
 | PROBLEM: <br/> Brilliant word games were largely unknown because of clumsy UX/UI: <br/> - [WordZap](https://wordzap.com/Zap8/wordzap.html) <br/> - [Cricklers](https://crickler.com/html5/) | MY SOLUTION: <br/> [31 ideas](https://docs.google.com/spreadsheets/d/1yl2lhoAfoSuBdQbbNGwThpeygqJj4Ppng0-V7-VOIRw/edit#gid=741302803) to improve the UX/UI, gameplay, settings, and other aspects. |
 | ![Before](../../static/img/Mica_old-WZ+Crickler.png) | ![After](../../static/img/Mica_new-WZ+Crickler.png) |
+| | The owner of the game said the number of players had increased by 25% due to word-of-mouth. |
 
 
 ## Saved 85% of translation

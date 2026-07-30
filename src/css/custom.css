@@ -124,7 +124,7 @@ nav[aria-label="Blog recent posts navigation"] a:hover {
 }
 nav[aria-label="Blog recent posts navigation"] a[aria-current="page"],
 nav[aria-label="Blog recent posts navigation"] a[aria-current="page"]:hover {
-  color: #cc0000;
+  color: #cc0000 !important;
   font-weight: 700;
 }
 

@@ -98,8 +98,9 @@ div[class*="codeBlockTitle"] {
   color: #6b7280;
   font-weight: 400;
 }
-.menu__link--active,
-.menu__link--active:hover {
+/* Only color the leaf doc item red, not parent category headers */
+.menu__link--active:not(.menu__link--sublist),
+.menu__link--active:not(.menu__link--sublist):hover {
   color: #cc0000;
   font-weight: 700;
 }
@@ -111,6 +112,18 @@ div[class*="codeBlockTitle"] {
 }
 .table-of-contents__link--active,
 .table-of-contents__link--active:hover {
+  color: #cc0000;
+  font-weight: 700;
+}
+
+/* Blog sidebar uses CSS module classes; target by nav aria-label instead */
+nav[aria-label="Blog recent posts navigation"] a,
+nav[aria-label="Blog recent posts navigation"] a:hover {
+  color: #6b7280;
+  font-weight: 400;
+}
+nav[aria-label="Blog recent posts navigation"] a[aria-current="page"],
+nav[aria-label="Blog recent posts navigation"] a[aria-current="page"]:hover {
   color: #cc0000;
   font-weight: 700;
 }

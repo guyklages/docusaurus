@@ -85,10 +85,12 @@ div[class*="codeBlockTitle"] {
 .navbar__link {
   color: #6b7280;
 }
-.navbar__link--active,
-.navbar__link:hover {
+.navbar__link--active {
   color: #cc0000;
   font-weight: 700;
+}
+.navbar__link:hover {
+  color: #6b7280;
 }
 
 .menu__link {
@@ -107,7 +109,7 @@ div[class*="codeBlockTitle"] {
   font-weight: 700;
 }
 .table-of-contents__link:hover {
-  color: #cc0000;
+  color: #6b7280;
 }
 
 /* Shrink the blog pages' left/right margins to match the docs/portfolio pages.

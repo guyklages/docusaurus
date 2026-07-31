@@ -116,7 +116,10 @@ div[class*="codeBlockTitle"] {
   font-weight: 700;
 }
 
-/* Blog sidebar uses CSS module classes; target by nav aria-label instead */
+/* Blog sidebar: scope --ifm-color-primary so the CSS module's active class resolves to red */
+nav[aria-label="Blog recent posts navigation"] {
+  --ifm-color-primary: #cc0000;
+}
 nav[aria-label="Blog recent posts navigation"] a,
 nav[aria-label="Blog recent posts navigation"] a:hover {
   color: #6b7280;
@@ -124,7 +127,6 @@ nav[aria-label="Blog recent posts navigation"] a:hover {
 }
 nav[aria-label="Blog recent posts navigation"] a[class*="sidebarItemLinkActive"],
 nav[aria-label="Blog recent posts navigation"] a[class*="sidebarItemLinkActive"]:hover {
-  color: #cc0000 !important;
   font-weight: 700;
 }
 

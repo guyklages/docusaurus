@@ -29,6 +29,7 @@
 | ![Before](../../static/img/Nium_Payouts_BEFORE.png) | ![After](../../static/img/Nium_Payouts_AFTER.png) |
 | Originally was&nbsp;&nbsp;1+14+2&nbsp;&nbsp;= 17 pages <br/> I revamped to 11+23+4 = 38 pages | More than doubled the clarity of existing pages while adding 101 pages of new products |
 
+
 ## 70% more + 70% less
 
 #### Nium (San Francisco) -- <mark> 70% more customers onboarded while 70% fewer helpdesk issues </mark>
@@ -38,6 +39,7 @@
 | PROBLEM: <br/> New clients were unable to onboard themselves due to the unclear method to them–-and even to Nium. <br/> <br/> Each region (AU, EU, HK, SG, UK, US) contains five very complex spreadsheets describing various steps of onboarding for various client types and situations: | MY SOLUTION: <br/> I created **[a clear onboarding process with sections of customer types](https://docs.nium.com/docs/onboarding)** for common onboarding steps and for region-specific parameter and example pages. <br/> <br/> Immediately saw twice as many customers onboarded and only a quarter of the Helpdesk requests for onboarding |
 | ![Before](../../static/img/Nium_onboarding-before.png) | ![After](../../static/img/Nium_onboarding-after.png) |
 | For every 10 customers who tried to onboard: <br/> - 2 (20%) were successful <br/> - 8 (80%) filed helpdesk tickets. <br/><br/> After I created the onboarding process: <br/> - 9 (90%) were successful <br/> - 1 (10%) filed helpdesk tickets | Successful onboarding rose 70% <br/> while helpdesk tickets reduced by 70%. |
+
 
 ## #1 cybersecurity coder
 
@@ -49,6 +51,7 @@
 | ![Before](../../static/img/Yahoo_Cybersecurity_question.png) | ![After](../../static/img/Yahoo_Cybersecurity_Assessment-Leaderboard.png) |
 | | I was #1 among 2,733 developers ... <br/> ... two weeks later, I was #42 among 7,624 |
 
+
 ## 40% fewer pages
 
 #### Yahoo (Sunnyvale) -- <mark> Reduced obsolete pages by 40% and added automation to prevent obsolete pages </mark>
@@ -58,6 +61,7 @@
 | PROBLEM: <br/> Too&nbsp;many&nbsp;obsolete&nbsp;and&nbsp;disorganized&nbsp;document&nbsp;pages. <br/> - Going to have an audit on all documentation pages. <br/> - Most in Confluence, needing to be in Markdown. <br/> - Many pages were obsolete but not clear which ones. <br/> - Many pages were not in easily discoverable places. <br/> - Many related pages/topics could be combined. <br/> - Moving forward, how to prevent "stale" pages? | MY SOLUTION: <br/> Implement reminders to review unmodified pages of a specified number of days. <br/> - I reviewed pages with SMEs <br/> - Archived obsolete pages <br/> - Merged similar pages <br/> - Organized pages by product <br/> - Migrated them to Markdown in Yahoo's GitHub <br/> - I suggested a system of tags on every page: <br/> &nbsp;&nbsp;&nbsp;&nbsp;-`Owner`, `LastModified`, `DaysTillStale` <br/> - A daily script looks for pages that haven't been edited in that page's time limit and sends an email to the owner (or owner's manager) of that page to review it. |
 | Originally had 1,439 pages <br/> I revamped to 849 pages | - Total number of pages reduced by 40%. <br/> - Automated a timely reminder for page owners to review. |
 
+
 ## #1 dept in documention
 
 #### Google (Mt. View) -- <mark> The AdWords API dept needed to improve the "freshness" of their internal documentation pages </mark>
@@ -66,6 +70,17 @@
 |-------------------|------------------|
 | PROBLEM: <br/> 300+ Confluence documentation pages hadn't been updated in years, so many pages: <br/> - had outdated information <br/> - pointed to obsolete pages <br/> - or pointed to the wrong page | MY SOLUTION: <br/> I gathered the latest information, updated pages, combined similar pages, and archived obsolete pages. <br/> <br/> 100% of the AdWords API documentation pages were correct and were modified more recently than any other department within Google. |
 | | ![After](../../static/img/Google_AdWordsAPI_Top-in-DocHealth.png) |
+
+
+## Defragmented 5yo doc set
+
+#### Google (Mt. View) -- <mark> The AdWords API dept added doc pages for 5 years without checking for "freshness" and needed to be revamped </mark>
+
+| Before (May 2018) | After (Nov 2018) |
+|-------------------|------------------|
+| PROBLEM: <br/> Over 5 years, there were multiple writers <br/> Each time, a new Confluence page was added instead of updating existing pages <br/> 10-20 links were added on every page as a way to "reuse" content <br/> Nobody knew how many pages there were (300-400) <br/> The rest of the company used Markdown and g3docs | MY SOLUTION: <br/> Four phases that must be done in that order because you can't safely restructure or repoint anything until you know the full scope of what exists and what points to it. <br/><br/> 1. **Audit** I started by mapping the intire corpus into a spreadsheet: every page, which pages it linked to, and which pages linked to it; so I had a real inventory. Confluence's last-modified metadata told me who owned or last edited each page, so I knew how to contact the right SME for questions. I then read every page for accuracy, clarity, and completeness, made minor corrections as I went, and clicked through every single link to confirm it worked and record its destination in the spreadsheet. <br/><br/> 2. **Triage** This step was partly done during the Audit step and partly after. Each document needed to be assigned one of four categories: <br/> A) Keep as-is <br/> B) Update <br/> C) Merge with other content <br/> D) Retire (obsolete) <br/> This process also exposed documentation gaps where users didn't have enough information to complete important tasks. <br/><br/> 3. **Restructure** Only now I started rebuilding the pages in Markdown with better structure (headers, bullets, tables, diagrams instead of dense paragraphs) and mark it "Done" in the tracker spreadsheet. I deliberately didn't try to reorganize the IA mid-audit because combining and reordering pages only became possible after I could see the whole, now-leaner corpus with the obsolete pages already removed. <br/><br/> 4. **Link preservation** Before any page went live in its new form, I set up redirects from every old URL to its new location and maintained a URL mapping table tracking the changes. That table did two jobs: 1) it preserved existing deep links so nothing broke, and 2) it prevented slug collisions, making sure a newly restructured page's URL didn't accidentally reuse a slug that an old, still-redirecting page needed. <br/> I've relied on the same redirect-and-mapping discipline on smaller projects too, like a URL naming convention overhaul at Nium. The scale was different, but the failure mode it prevents is the same. |
+| | RESULT: <br/> ![#1 Google dept in terms of documentation](#1-dept-in-documention) |
+
 
 ## 0 help from engineers
 

@@ -43,13 +43,13 @@
 
 ## #1 cybersecurity coder
 
-#### Yahoo (Sunnyvale) -- <mark> Among 2,733 Python developers, I was ranked as #1 in the Cybersecurity Code Warrior Challenge </mark>
+#### Yahoo (Sunnyvale) -- <mark> For two weeks, I was ranked as #1 in the python cybersecurity [Secure Code Warrior Challenge](www.securecodewarrior.com) </mark>
 
 | Before (May 2020) | After (May 2020) |
 |-------------------|------------------|
-| PROBLEM: <br/> 1. Find the 28 vulnerability types in 28 separate Python programs. <br/> 2. Then choose the best fix to block the vulnerability among 4 choices. <br/> 3. Incorrect guesses = fewer points. <br/> <br/> I had never taken a cybersecurity course but had read many articles related to it. | MY SOLUTION: <br/> - Since there was no time limit on the vulnerability questions, I had plenty of time to read and understand the code. <br/> - I was able to imagine what might cause a problem and then how to block it. |
+| PROBLEM: <br/> 1. Find the 28 vulnerability types in 28 separate Python programs. <br/> 2. Then choose the best fix to block the vulnerability among 4 choices. <br/> 3. Incorrect guesses = fewer points. <br/> <br/> I had never taken a cybersecurity course but read many articles on it. | MY SOLUTION: <br/> - Since there was no time limit on the vulnerability questions, I had plenty of time to read and understand the code. <br/> - I was able to imagine what might cause a problem and then how to block it. |
 | ![Before](../../static/img/Yahoo_Cybersecurity_question.png) | ![After](../../static/img/Yahoo_Cybersecurity_Assessment-Leaderboard.png) |
-| | I was #1 among 2,733 developers ... <br/> ... two weeks later, I was #42 among 7,624 |
+| The challenge covered OWASP Top 10 categories including injection flaws (such as SQL Injection), broken access control, and cryptographic failures, mapped across dozens of specific CWE-level vulnerability types (such as CWE-532), logging failures, and insecure design flaws. | I was #1 among 2,733 developers ... <br/> ... two weeks later, I was #42 among 7,624 |
 
 
 ## 40% fewer pages

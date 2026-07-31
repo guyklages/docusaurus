@@ -43,7 +43,7 @@
 
 ## #1 cybersecurity coder
 
-#### Yahoo (Sunnyvale) -- <mark> For two weeks, I was ranked as #1 in the python cybersecurity [Secure Code Warrior Challenge](www.securecodewarrior.com) </mark>
+#### Yahoo (Sunnyvale) -- <mark> For two weeks, I was ranked as #1 in the python cybersecurity [Secure Code Warrior Challenge](https://www.securecodewarrior.com) </mark>
 
 | Before (May 2020) | After (May 2020) |
 |-------------------|------------------|

@@ -49,7 +49,7 @@
 |-------------------|------------------|
 | PROBLEM: <br/> 1. Find the 28 vulnerability types in 28 separate Python programs. <br/> 2. Then choose the best fix to block the vulnerability among 4 choices. <br/> 3. Incorrect guesses = fewer points. <br/> <br/> I had never taken a cybersecurity course but read many articles on it. | MY SOLUTION: <br/> - Since there was no time limit on the vulnerability questions, I had plenty of time to read and understand the code. <br/> - I was able to imagine what might cause a problem and then how to block it. |
 | ![Before](../../static/img/Yahoo_Cybersecurity_question.png) | ![After](../../static/img/Yahoo_Cybersecurity_Assessment-Leaderboard.png) |
-| The [Secure Code Warrior Challenge](https://www.securecodewarrior.com) covered OWASP Top 10 categories including injection flaws (such as SQL Injection), broken access control, and cryptographic failures, mapped across dozens of specific CWE-level vulnerability types (such as CWE-532), logging failures, and insecure design flaws. | I was #1 among 2,733 developers ... <br/> ... two weeks later, I was #42 among 7,624 |
+| The [Secure Code Warrior Challenge](https://www.securecodewarrior.com) covered OWASP Top 10 categories including injection flaws (such as SQL Injection), broken access control, and cryptographic failures, mapped across dozens of specific CWE-level vulnerability types (such as CWE-532), logging failures, and insecure design flaws. | I was #1 among 2,733 developers <br/> ... two weeks later ... <br/> I was #42 among 7,624 |
 
 
 ## 40% fewer pages

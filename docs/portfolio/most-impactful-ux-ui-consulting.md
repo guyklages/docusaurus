@@ -1,4 +1,4 @@
-# Most impactful UX/UI items
+# Most impactful UX/UI
 
 
 ## 36% fewer pages from IA

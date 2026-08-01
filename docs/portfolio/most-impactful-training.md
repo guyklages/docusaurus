@@ -1,4 +1,4 @@
-# Most impactful training items
+# Most impactful training
 
 
 ## 12,000 happy ESL students

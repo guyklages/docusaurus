@@ -1,4 +1,4 @@
-# Most impactful software engineering items
+# Most impactful software engineering
 
 
 ## DB saved 50% time, effort

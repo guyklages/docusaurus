@@ -493,7 +493,7 @@ const sidebars = {
       items: [
         {
           type: 'doc',
-          id: 'nium/prefund-account',
+          id: 'nium/prefund-account.html',
           label: 'Prefund account',
         },
       ]      

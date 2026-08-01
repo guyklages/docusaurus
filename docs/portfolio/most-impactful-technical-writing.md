@@ -3,10 +3,15 @@
 
 ## Overview
 
-| Accomplishment                                                                          | Year | Company                |
-|-----------------------------------------------------------------------------------------|------|------------------------|
-| [I used AI to save 99% of the time it would've taken me](#i-used-ai-to-save-99-of-time) <br/>
-  [36% fewer pages from changing the Information Architecture](#36-fewer-pages-from-ia)   | 2025 | Atelio (of FIS Global) |
+| Accomplishment  | Year | Company |
+|-----------------|------|---------|
+| [I used AI to save 99% of the time it would've taken me](#i-used-ai-to-save-99-of-time) <br/> [36% fewer pages from changing the Information Architecture](#36-fewer-pages-from-ia)  | 2025 | Atelio (of FIS Global) |
+| [2x the clarity from elaboration + 101 new pages added](#2x-clarity--101-new-pages) <br/> [70% more customers onboarded + 70% fewer helpdesk tickets filed](#70-more--70-fewer)  | 2023 | Nium  |
+| [#1 cybersecurity coder in Secure Code Warrior Challenge in Python](#1-cybersecurity-coder) <br/> [40% fewer pages from IA changes and removal of obsolete pages](#40-fewer-pages)  | 2020 | Yahoo |
+| [#1 dept (company-wide) in documentation "freshness"](#1-dept-in-documention) <br/> [Defragmented 5 year-old documentation set](#defragmented-5yo-doc-set)  | 2018 | Google |
+| [0 help from engineers to install a non-compiled beta version of software](#0-help-from-engineers) <br/> [80% time saved on the writing process of a new feature](#80-time-saved-on-writing) <br/> [30% fewer healdesk tickets due to improved documentation](#30-fewer-helpdesk-tickets) <br/> [2 VPs of opposite priorities were resolved with data](#2-vps-of-opposite-priorities) | 2018 | Couchbase |
+| [50% less time to create clinical trials due to fewer errors](#50-less-time--fewer-errors) <br/> [1/3rd the time to edit and eDC clinical trial questionnaire](#13rd-the-time-to-edit-edc) | 2012 | VA Medical Center |
+| [#1 in a Green Environment Campaign for my ideas that save 20-30% of paper used in the office](#1-in-a-green-campaign) | 2008 | HP |
 
 
 ## I used AI to save 99% of time
@@ -32,14 +37,14 @@
 
 #### Nium (San Francisco) -- <mark> Revamped pages to double the clarity while adding 101 new pages </mark>
 
-| Before (May 2024) | After (July 2025) |
+| Before (May 2023) | After (July 2023) |
 |-------------------|-------------------|
 | PROBLEM: <br/> Pages&nbsp;were&nbsp;hastily&nbsp;and&nbsp;sparsely&nbsp;written&nbsp;by&nbsp;engineers just to have "something" documented about their products: <br/> <br/> [Payins (1)](https://mpdocs.nium.com/payout-payin/pay-in---key-concepts) <br/> [Payouts (14)](https://mpdocs.nium.com/payout-payin/Payout) <br/> [Verify (2)](https://mpdocs.nium.com/payout-payin/account-verification--confirmation-of-payee-) | SOLUTION: <br/> I&nbsp;revamped&nbsp;and&nbsp;organized&nbsp;the&nbsp;pages&nbsp;with&nbsp;many&nbsp;more&nbsp;details and related concepts as well as adding 101 new pages: <br/> <br/> [Payins (11)](https://docs.nium.com/docs/payins)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Foreign exchange (5)](https://docs.nium.com/docs/foreign-exchange)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Use cases (5)](https://docs.nium.com/docs/use-cases) <br/> [Payouts (23)](https://docs.nium.com/docs/payouts)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Transactions (7)](https://docs.nium.com/docs/transactions)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Fees and limits (3)](https://docs.nium.com/docs/fees-and-limits) <br/> [Cards (24)](https://docs.nium.com/docs/cards)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Reports (17)](https://docs.nium.com/docs/reports)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Nium portal (4)](https://docs.nium.com/docs/nium-portal) <br/> [Verify (4)](https://docs.nium.com/docs/verify)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Open banking (5)](https://docs.nium.com/docs/open-banking)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Developers (31)](https://docs.nium.com/docs/developers)  |
 | ![Before](../../static/img/Nium_Payouts_BEFORE.png) | ![After](../../static/img/Nium_Payouts_AFTER.png) |
 | Originally was&nbsp;&nbsp;1+14+2&nbsp;&nbsp;= 17 pages <br/> I revamped to 11+23+4 = 38 pages | More than doubled the clarity of existing pages while adding 101 pages of new products |
 
 
-## 70% more + 70% less
+## 70% more + 70% fewer
 
 #### Nium (San Francisco) -- <mark> 70% more customers onboarded while 70% fewer helpdesk issues </mark>
 

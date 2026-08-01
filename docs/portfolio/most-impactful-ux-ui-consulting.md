@@ -3,11 +3,11 @@
 
 ## 36% fewer pages from IA
 
-#### Atelio of FIS Global (Seattle) -- <mark> Revamped information architecture, reduced dev pages by 36%, made navigation easier</mark>
+#### Atelio of FIS Global (Seattle) -- <mark> Revamped information architecture (IA), reduced dev pages by 36%, made navigation easier</mark>
 
 | Before (May 2024) | After (July 2025) |
 |-------------------|-------------------|
-| PROBLEM: <br/> Short pages were hastily written by engineers who used more pages than needed <br/> <br/> Total of 50 pages| MY SOLUTION: <br/> I revamped and streamlined the information architecture to improve the flow and group related topics. <br/> <br/> [Total of 32 pages](https://guyklages.com/docs/atelio/getting-started/client-config) |
+| PROBLEM: <br/> - Pages were hastily written by engineers <br/> - Pages were one-fourth to one-half of a screen each <br/> - This made 100+ pages three levels deep in the left-nav <br/> - Google Analytics showed customers clicking through many pages before landing on the one they needed <br/> <br/> Total of 50 pages| MY SOLUTION: <br/> I combined pages that had been artifically split <br/> I revamped and streamlined the IA to improve the flow <br/> - The number of clicks dropped noticably <br/> <br/> [Total of 32 pages](https://guyklages.com/docs/atelio/getting-started/client-config) |
 | ![Before](../../static/img/Nium_ca_50pgs.png) | ![After](../../static/img/Nium_ca_32pgs.png) |
 | (my 32 pg) / (inherited 50 pg) = 64% of the original | 36% fewer pages than there were originally |
 

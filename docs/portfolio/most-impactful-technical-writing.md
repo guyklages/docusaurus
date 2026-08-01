@@ -1,5 +1,14 @@
 # Most impactful technical writing items
 
+
+## Overview
+
+| Accomplishment                                                                          | Year | Company                |
+|-----------------------------------------------------------------------------------------|------|------------------------|
+| [I used AI to save 99% of the time it would've taken me](#i-used-ai-to-save-99-of-time) <br/>
+  [36% fewer pages from changing the Information Architecture](#36-fewer-pages-from-ia)   | 2025 | Atelio (of FIS Global) |
+
+
 ## I used AI to save 99% of time
 
 #### Atelio of FIS Global (Seattle) -- <mark> I used AI to read Slack messages and create a 1st draft of a developer guide in 1% of the time </mark>

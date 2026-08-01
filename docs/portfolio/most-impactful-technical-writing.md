@@ -11,7 +11,7 @@
 | [#1 dept (company-wide) in documentation "freshness"](#1-dept-in-documention) <br/> [Defragmented 5 year-old documentation set](#defragmented-5yo-doc-set)  | 2018 | Google |
 | [0 help from engineers to install a non-compiled beta version of software](#0-help-from-engineers) <br/> [80% time saved on the writing process of a new feature](#80-time-saved-on-writing) <br/> [30% fewer healdesk tickets due to improved documentation](#30-fewer-helpdesk-tickets) <br/> [2 VPs of opposite priorities were resolved with data](#2-vps-of-opposite-priorities) | 2018 | Couchbase |
 | [50% less time to create clinical trials due to fewer errors](#50-less-time--fewer-errors) <br/> [1/3rd the time to edit and eDC clinical trial questionnaire](#13rd-the-time-to-edit-edc) | 2012 | VA Medical Center |
-| [#1 in a Green Environment Campaign for my ideas that save 20-30% of paper used in the office](#1-in-a-green-campaign) | 2008 | HP |
+| [#1 in a Green Environment Campaign for my ideas that save 20-30% of paper](#1-in-a-green-campaign) | 2008 | HP |
 
 
 ## I used AI to save 99% of time

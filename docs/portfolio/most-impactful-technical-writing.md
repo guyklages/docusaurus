@@ -5,7 +5,7 @@
 
 | Accomplishment  | Year | Company |
 |-----------------|------|---------|
-| [Used AI to save 99% of the time it would've taken me](#i-used-ai-to-save-99-of-time) <br/> [36% fewer pages from changing the Information Architecture](#36-fewer-pages-from-ia)  | 2025 | Atelio (of FIS Global) |
+| [Used AI to save 99% of the time it would've taken me](#used-ai-to-save-99-of-time) <br/> [36% fewer pages from changing the Information Architecture](#36-fewer-pages-from-ia)  | 2025 | Atelio (of FIS Global) |
 | [2x the clarity from elaboration + 101 new pages added](#2x-clarity--101-new-pages) <br/> [70% more customers onboarded + 70% fewer helpdesk tickets filed](#70-more--70-fewer)  | 2023 | Nium  |
 | [#1 cybersecurity coder in Secure Code Warrior Challenge in Python](#1-cybersecurity-coder) <br/> [40% fewer pages from IA changes and removal of obsolete pages](#40-fewer-pages)  | 2020 | Yahoo |
 | [#1 dept (company-wide) in documentation "freshness"](#1-dept-in-documention) <br/> [Defragmented 5 year-old documentation set](#defragmented-5yo-doc-set)  | 2018 | Google |
@@ -14,7 +14,7 @@
 | [#1 in a Green Environment Campaign for my ideas that save 20-30% of paper](#1-in-a-green-campaign) | 2008 | HP |
 
 
-## I used AI to save 99% of time
+## Used AI to save 99% of time
 
 #### Atelio of FIS Global (Seattle) -- <mark> I used AI to read Slack messages and create a 1st draft of a developer guide in 1% of the time </mark>
 

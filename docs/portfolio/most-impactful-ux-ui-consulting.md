@@ -3,7 +3,7 @@
 
 ## 69% fewer pages via new IA
 
-#### Atelio of FIS Global (Seattle) -- <mark> Revamped information architecture (IA), reduced dev pages and navigation by 36% </mark>
+#### Atelio of FIS Global (Seattle) -- <mark> Revamped information architecture (IA), reduced dev pages and navigation by 69% </mark>
 
 | Before (May 2024) | After (July 2025) |
 |-------------------|-------------------|

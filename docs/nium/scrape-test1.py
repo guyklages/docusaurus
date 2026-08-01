@@ -14,5 +14,9 @@ result = app.scrape(
 print(result.markdown[:500])  # print the first 500 chars to eyeball it
 
 # Save the markdown so you can drop it straight into your own site
-with open("nium-prefund-account.md", "w") as f:
-    f.write(result.markdown)
+with open("prefund-account.md", "w") as f:
+    f.write(result.md)
+
+# Save the HTML for the visual structure
+with open("prefund-account.html", "w") as f:
+    f.write(result.html)

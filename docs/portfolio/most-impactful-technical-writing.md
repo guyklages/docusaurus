@@ -5,7 +5,7 @@
 
 | Accomplishment  | Year | Company |
 |-----------------|------|---------|
-| [Used AI to save 99% of the time it would've taken me](#used-ai-to-save-99-of-time) <br/> [36% fewer pages from changing the Information Architecture](#36-fewer-pages-from-ia)  | 2025 | Atelio (of FIS Global) |
+| [Used AI to save 99% of the time it would've taken me](#used-ai-to-save-99-of-time) <br/> [69% fewer pages from changing the Information Architecture](#69-fewer-pages-via-new-ia)  | 2025 | Atelio (of FIS Global) |
 | [2x the clarity from elaboration + 101 new pages added](#2x-clarity--101-new-pages) <br/> [70% more customers onboarded + 70% fewer helpdesk tickets filed](#70-more--70-fewer)  | 2023 | Nium  |
 | [#1 cybersecurity coder in Secure Code Warrior Challenge in Python](#1-cybersecurity-coder) <br/> [40% fewer pages from IA changes and removal of obsolete pages](#40-fewer-pages)  | 2020 | Yahoo |
 | [#1 dept (company-wide) in documentation "freshness"](#1-dept-in-documention) <br/> [Defragmented 5 year-old documentation set](#defragmented-5yo-doc-set)  | 2018 | Google |
@@ -23,15 +23,15 @@
 | PROBLEM: <br/> Over two weeks of multiple daily group Slack messages, ten fintech PMs and SMEs were discussing and gradually deciding the specs, functionalities, details, and limitations of a new mobile app financial tool. <br/><br/> After they gradually solved or finalized different aspects of the new product, they then asked me to write a developer guide based on their dozens of decisions. | MY SOLUTION: <br/> The Promptless AI tool reviewed all those conversations and listed only the decided functionality that was agreed upon during those weeks--within 10 minutes. 
 | That task would've taken me 3 days <br/><br/> _(3 days of 8 hours = 1,440 minutes)_ <br/><br/> (Promptless' 10 min) / (my 1440 min) = 1% | Promptless AI created the first draft in 1% of the time it would've taken me. <br/><br/> Then, I just needed to re-order the paragraphs in a logical way, clean up the formatting (convert some text to tables and diagrams), and match our company voice. |
 
-## 36% fewer pages from IA
+## 69% fewer pages via new IA
 
-#### Atelio of FIS Global (Seattle) -- <mark> Revamped information architecture, reduced dev pages by 36%, made navigation easier</mark>
+#### Atelio of FIS Global (Seattle) -- <mark> Revamped information architecture (IA), reduced dev pages and navigation by 69% </mark>
 
 | Before (May 2024) | After (July 2025) |
 |-------------------|-------------------|
-| PROBLEM: <br/> Short pages were hastily written by engineers who used more pages than needed <br/> <br/> Total of 50 pages| MY SOLUTION: <br/> I revamped and streamlined the information architecture to improve the flow and group related topics. <br/> <br/> [Total of 32 pages](https://guyklages.com/docs/atelio/getting-started/client-config) |
+| PROBLEM: <br/> - Pages were hastily written by engineers <br/> - Pages were one-fourth to one-half of a screen each <br/> - 104 pages (three levels deep) in the left-nav <br/> - Google Analytics showed customers clicking through many pages before the one they needed <br/> <br/> Total of 104 pages| MY SOLUTION: <br/> - I combined pages that had been artifically split <br/> - I revamped and streamlined the IA to improve the flow <br/> - The number of customer clicks dropped dramatically <br/> <br/> [Total of 32 pages](https://guyklages.com/docs/atelio/getting-started/client-config) |
 | ![Before](../../static/img/Nium_ca_50pgs.png) | ![After](../../static/img/Nium_ca_32pgs.png) |
-| (my 32 pg) / (inherited 50 pg) = 64% of the original | 36% fewer pages than there were originally |
+| (my 32 pg) / (inherited 104 pg) = 31% of the original | 69% fewer pages than there were originally |
 
 ## 2x clarity + 101 new pages
 

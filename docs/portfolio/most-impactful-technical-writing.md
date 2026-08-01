@@ -5,7 +5,7 @@
 
 | Accomplishment  | Year | Company |
 |-----------------|------|---------|
-| [I used AI to save 99% of the time it would've taken me](#i-used-ai-to-save-99-of-time) <br/> [36% fewer pages from changing the Information Architecture](#36-fewer-pages-from-ia)  | 2025 | Atelio (of FIS Global) |
+| [Used AI to save 99% of the time it would've taken me](#i-used-ai-to-save-99-of-time) <br/> [36% fewer pages from changing the Information Architecture](#36-fewer-pages-from-ia)  | 2025 | Atelio (of FIS Global) |
 | [2x the clarity from elaboration + 101 new pages added](#2x-clarity--101-new-pages) <br/> [70% more customers onboarded + 70% fewer helpdesk tickets filed](#70-more--70-fewer)  | 2023 | Nium  |
 | [#1 cybersecurity coder in Secure Code Warrior Challenge in Python](#1-cybersecurity-coder) <br/> [40% fewer pages from IA changes and removal of obsolete pages](#40-fewer-pages)  | 2020 | Yahoo |
 | [#1 dept (company-wide) in documentation "freshness"](#1-dept-in-documention) <br/> [Defragmented 5 year-old documentation set](#defragmented-5yo-doc-set)  | 2018 | Google |

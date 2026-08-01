@@ -46,11 +46,11 @@
 
 ## 70% more + 70% fewer
 
-#### Nium (San Francisco) -- <mark> 70% more customers onboarded while 70% fewer helpdesk issues </mark>
+#### Nium (San Francisco) -- <mark> 70% more customers onboarded while 70% fewer helpdesk onboarding tickets </mark>
 
 | Before (Oct 2022) | After (Dec 2022) |
 |-------------------|------------------|
-| PROBLEM: <br/> New clients were unable to onboard themselves due to the unclear method to them–-and even to Nium. <br/> <br/> Each region (AU, EU, HK, SG, UK, US) contains five very complex spreadsheets describing various steps of onboarding for various client types and situations: | MY SOLUTION: <br/> I created **[a clear onboarding process with sections of customer types](https://docs.nium.com/docs/onboarding)** for common onboarding steps and for region-specific parameter and example pages. <br/> <br/> Immediately saw twice as many customers onboarded and only a quarter of the Helpdesk requests for onboarding |
+| PROBLEM: <br/> New clients were unable to onboard themselves due to the unclear method to them–-and even to Nium. <br/> <br/> By law, there are different rules for each client type: Association, Govt body, LLC, Partnership, Private company, Public company, Sole trader, Trust <br/><br/> By law, there are different rules for each region: AU, EU, HK, SG, UK, US <br/><br/>  Nium had five complex spreadsheets that contained most (not all) of the onboarding steps and needed documents. | MY SOLUTION: <br/> I spent two weeks reading and digesting Nium's many spreadsheets to fully understand the commonalities and differences between the permutations. <br/><br/> Then I created **[a clear onboarding process with sections of customer types](https://docs.nium.com/docs/onboarding)** for common onboarding steps and for region-specific parameter and example pages. <br/> <br/> Immediately many customers were able to onboard and there were hardly any Helpdesk requests for onboarding. And Nium still uses the onboarding steps I created. |
 | ![Before](../../static/img/Nium_onboarding-before.png) | ![After](../../static/img/Nium_onboarding-after.png) |
 | For every 10 customers who tried to onboard: <br/> - 2 (20%) were successful <br/> - 8 (80%) filed helpdesk tickets. <br/><br/> After I created the onboarding process: <br/> - 9 (90%) were successful <br/> - 1 (10%) filed helpdesk tickets | Successful onboarding rose 70% <br/> while helpdesk tickets reduced by 70%. |
 

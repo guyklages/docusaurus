@@ -8,11 +8,10 @@
 | OpSec Security        | [anti-counterfeiting labeling](#anti-counterfeiting-labeling) | Yes | Yes | Boston      | 2013 - 2013 |
 | VA Medical Center     | [eDC clinical trials](#edc-for-clinical-trials)               | Yes | Yes | Boston      | 2011 - 2013 |
 | ADP Payroll           | [payroll reporting](#payroll-reporting)                       | Yes | Yes | Seattle     | 2008 - 2011 |
-| Talk Group            | [ESL, MS Office](#esl-ms-office), resumes                     | Yes | Yes | Shanghai    | 2002 - 2008 |
+| Talk Group            | [ESL, Excel](#esl-excel), resumes                             | Yes | Yes | Shanghai    | 2002 - 2008 |
 | Expandable Software   | ERP modules and reporting                                     | Yes | No  | San Jose    | 2000 - 2002 |
 | FMU                   | English, Writing                                              | Yes | No  | Miami       | 1997 - 2000 |
 | Mission College       | C++ fundamentals, <br/> Introduction to programming           | Yes | No  | Santa Clara | 1997 - 1998 |
-| Learning Technologies | [Excel](#excel), ESL, MS Office, resumes                      | Yes | Yes | Taipei      | 1994 - 1997 |
 
 ### Recommendations
 
@@ -70,17 +69,8 @@
 | **ADP Payroll (2008-2011) Seattle <br/> <br/> Audience** <br/> Payroll Specialists <br/> <br/> **Deliverables** <br/> Training materials and curriculum for reporting of Garnishments, Payroll, AP/AR, GL, and Reimbursements <br/> <br/> **Method** <br/> Provided Instructor Led Training (ILT) and Virtual Classroom Training (VCT) <br/> <br/> **Tools** <br/> MS Word, Excel, Visio, Access, SQL Server, Captivate | ![ADP](../../static/img/ADP_COS-NSC-Tax-inquiry-process-diagram.png) |
 
 
-## ESL, MS Office
+## ESL, Excel
 
 | Description | Example |
 |-------------|---------|
-| **Talk Group (2002-2008) Shanghai <br/> <br/> Audience** <br/> Recent college graduates <br/> <br/> **Deliverables** <br/> A 5GB database and website of all activities, schedules, teachers and 200+ on-line asynchronous and synchronous learning materials for each activity <br/> <br/> **Method** <br/> Provided Instructor Led Training (ILT) and Virtual Classroom Training (VCT) while training 60+ teachers in our experiential style of training (led many of the activities myself) <br/> <br/> **Tools** <br/> MS Word, Excel, Visio, Access, SQL Server | ![Talk Group](../../static/img/TdT_AFTER_facilitator-teaching-at-cafe.jpg) |
-
-
-## Excel 
-
-| Description | Example |
-|-------------|---------|
-| **Learning Technologies (1994-1997) Taipei <br/> <br/> Audience** <br/> Recent college graduates <br/> <br/> **Deliverables** <br/> Curriculum for three levels of Excel learners <br/> <br/> **Tools** <br/> Microsoft Excel and PowerPoint | <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSqxy6YfWJ9ZZLGpLFgxmM638_yory6NPVpGCdMlyAS2kVKSRfYpPR9DAK3FwJcI69FEAUGj79Dl10c/pubhtml?widget=true&amp;headers=false" width="600" height="400"></iframe> |
-
-
+| **Talk Group (2002-2008) Shanghai <br/> <br/> Audience** <br/> Recent college graduates <br/> <br/> **Deliverables** <br/> A 5GB database and website of all activities, schedules, teachers and 200+ on-line asynchronous and synchronous learning materials for each activity <br/> <br/> **Method** <br/> Provided Instructor Led Training (ILT) and Virtual Classroom Training (VCT) while training 60+ teachers in our experiential style of training (led many of the activities myself) <br/> <br/> **Tools** <br/> MS Word, Excel, Visio, Access, SQL Server | <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSqxy6YfWJ9ZZLGpLFgxmM638_yory6NPVpGCdMlyAS2kVKSRfYpPR9DAK3FwJcI69FEAUGj79Dl10c/pubhtml?widget=true&amp;headers=false" width="600" height="400"></iframe> |

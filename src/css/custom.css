@@ -80,6 +80,15 @@ div[class*="codeBlockTitle"] {
   font-size: inherit;
 }
 
+/* Company doc sections (Atelio, Nium, Couchbase) keep the smaller H2-size TOC font
+   for both levels. Docusaurus tags <html> with "docs-doc-id-<docId>", and doc IDs
+   are prefixed by their folder, so match on that prefix. */
+html[class*="docs-doc-id-atelio/"] .table-of-contents > li > .table-of-contents__link,
+html[class*="docs-doc-id-nium/"] .table-of-contents > li > .table-of-contents__link,
+html[class*="docs-doc-id-couchbase/"] .table-of-contents > li > .table-of-contents__link {
+  font-size: inherit;
+}
+
 /* Navigation: gray unselected, bold red selected, no hover effects */
 
 .navbar__link,

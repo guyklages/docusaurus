@@ -7,7 +7,7 @@ tags: [linkedin, job-hunting, portfolio]
 
 <img src="/img/Blog_15-passive-ways_man-selecting-candidate.png" alt="15" width="698" height="447" />
 
-
+## Introduction
 
 Job hunting is a full-time job; and these are the things on LinkedIn that you can do to jumpstart your job-search or client-search while you're still working.
 

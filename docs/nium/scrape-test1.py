@@ -15,8 +15,8 @@ print(result.markdown[:500])  # print the first 500 chars to eyeball it
 
 # Save the markdown so you can drop it straight into your own site
 with open("prefund-account.md", "w") as f:
-    f.write(result.md)
+    f.write(result.markdown)
 
-# Save the HTML for the visual structure
-with open("prefund-account.html", "w") as f:
-    f.write(result.html)
+# Save the HTML for the visual structure; not useful without the CSS and JS 
+# with open("prefund-account.html", "w") as f:
+#     f.write(result.html)

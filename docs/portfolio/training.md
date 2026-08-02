@@ -10,8 +10,6 @@
 | ADP Payroll           | [payroll reporting](#payroll-reporting)                       | Yes | Yes | Seattle     | 2008 - 2011 |
 | Talk Group            | [ESL, Excel](#esl-excel), resumes                             | Yes | Yes | Shanghai    | 2002 - 2008 |
 | Expandable Software   | ERP modules and reporting                                     | Yes | No  | San Jose    | 2000 - 2002 |
-| FMU                   | English, Writing                                              | Yes | No  | Miami       | 1997 - 2000 |
-| Mission College       | C++ fundamentals, <br/> Introduction to programming           | Yes | No  | Santa Clara | 1997 - 1998 |
 
 ### Recommendations
 

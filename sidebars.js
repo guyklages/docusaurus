@@ -492,9 +492,9 @@ const sidebars = {
       label: 'API reference',
       items: [
         {
-          type: 'doc',
-          id: 'nium/prefund-account.html',
-          label: 'Prefund account',
+        type: 'doc',
+        id: 'nium/client-config',
+        label: 'nium_api_client-config',
         },
       ]      
     } // end sidebarNium

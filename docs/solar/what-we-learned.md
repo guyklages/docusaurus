@@ -17,7 +17,7 @@ Planning the installtion:
 - Install batteries outside in the shade instead of inside the garage (if your climate allows it)
 
 
-## Know your goals
+## Know your solar goals
 
 Before installing solar panels, we didn't know much about solar and just had two goals:
 

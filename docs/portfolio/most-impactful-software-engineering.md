@@ -51,7 +51,7 @@
 
 ## 0 wrong orders + time saved
 
-#### Pueblo Grocery (Miami, FL) -- <mark> Created a product ordering system that resulted in no more wrong orders and 25% time saved </mark>
+#### Pueblo Grocery (Miami, FL) -- <mark> Created a product ordering system that resulted in 0 wrong orders and 25% time saved </mark>
 
 | Before (Mar 1999) | After (Apr 1999) |
 |-------------------|------------------|

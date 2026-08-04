@@ -1,6 +1,18 @@
 # Most impactful software engineering
 
 
+## Overview
+
+| Accomplishment  | Year | Company |
+|-----------------|------|---------|
+| [Made a database to automate reports that saved > 50% of the employees' time](#db-saved-50-time-effort) | 2009 | ADP Payroll  _Seattle, WA_ |
+| [Redesigned their Helpdesk system that reduced their call queue by 88%](#88-drop-in-helpdesk-queue) | 2003 | Microsoft  _Shanghai, China_ |
+| [Redesigned their database tables; website ran about 12x faster](#12x-faster-warranty-website) | 2001 | HP _Mt. View, CA_ |
+| [Automated their label printing system; freed up 40% of staff's time](#40-increase-in-productivity) | 1999 | Bridgestone _Bloomington, IL_ |
+| [Created a database product ordering system that resulted in 0 wrong orders & 25% time saved](#0-wrong-orders--time-saved) | 1999 | Pueblo Grocery _Miami, FL_ |
+| [Ran SQL queries to uncover a $1 million discrepency in monthly rent totals](#1-million-per-month-saved) | 1998 | Mall landlord _Miami, FL_ |
+
+
 ## DB saved 50% time, effort
 
 #### ADP Payroll (Seattle) -- <mark> Made a database to automate reports; saved >50% of the employees' time and effort </mark>
@@ -12,7 +24,7 @@
 
 ## 88% drop in helpdesk queue
 
-#### Microsoft (Shanghai) -- <mark> Redesigned their Helpdesk system that resulted in decimating their call queue </mark>
+#### Microsoft (Shanghai) -- <mark> Redesigned their Helpdesk system that reduced their call queue by 88% </mark>
 
 | Before (Feb 2003) | After (Mar 2003) |
 |-------------------|------------------|
@@ -30,12 +42,12 @@
 
 ## 40% increase in productivity
 
-#### Bridgestone -- <mark> Redesigned their label printing system; freed up staff's time by 40-50% </mark>
+#### Bridgestone -- <mark> Automated their label printing system; freed up 40% of staff's time </mark>
 
 | Before (May 1999) | After (May 1999) |
 |-------------------|------------------|
 | PROBLEM: <br/> Staff didn't have enough time to do everything needed. <br/> <br/> 1. Staff would print the labels needed for a single part of a particular batch.  (5 min) <br/> <br/> 2. Staff would wait 15 - 20 minutes until that part finished before printing labels for the next part because their SQL application would print only one part at a time. <br/> <br/> 3. Staff would go back to Step 1, repeating the long wait times throughout the day. | MY SOLUTION: <br/> Change how their SQL Server application operates to select and print labels of all steps of a batch at a single time. <br/> <br/> I re-designed their software to print the labels of all steps of a given batch at a single time, so the staff were available to do other things while all the needed labels printed on their own. |
-| | RESULTS: <br/> The staff's waiting time (40 - 50% of the day) became productive time on other tasks |
+| | RESULTS: <br/> The staff's waiting time (40% of the day) became productive time on other tasks |
 
 ## 0 wrong orders + time saved
 
@@ -48,7 +60,7 @@
 
 ## $1 million per month saved
 
-#### Mall landlord -- <mark> Ran database queries to uncover a 1% discrepency in monthly rent totals </mark>
+#### Mall landlord -- <mark> Ran SQL queries to uncover a $1 million discrepency in monthly rent totals </mark>
 
 | Before (Aug 1998) | After (Sep 1998) |
 |-------------------|------------------|

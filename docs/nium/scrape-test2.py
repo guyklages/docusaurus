@@ -1,5 +1,5 @@
 from firecrawl import Firecrawl
-import re
+from bs4 import BeautifulSoup
 
 app = Firecrawl(api_key="fc-ef0e824eba1b43879692883527e79a82")
 
@@ -8,26 +8,21 @@ url = "https://docs.nium.com/api#tag/client-prefund-account/POST/api/v1/client/{
 result = app.scrape(
     url,
     formats=["markdown", "html"],
-    actions=[{"type": "wait", "milliseconds": 4000}]
+    actions=[{"type": "wait", "milliseconds": 7000}]
 )
 
-html = result.html
+print("Markdown length:", len(result.markdown))
+print("HTML length:", len(result.html))
 
-# Strip HTML tags so span-splitting can't hide real text from a simple search
-visible_text = re.sub(r"<[^<]+?>", " ", html)
-visible_text = re.sub(r"\s+", " ", visible_text)  # collapse repeated whitespace
+soup = BeautifulSoup(result.html, "html.parser")
 
-# Single-word counts (less likely to be broken up by tag boundaries)
-for word in ["curl", "POST", "Authorization", "gateway.nium.com"]:
-    print(f"{word!r} count: {visible_text.count(word)}")
+target = soup.find(string=lambda s: s and "curl" in s and "gateway.nium.com" in s)
 
-# Try the phrase search again, now on cleaned text
-print("'curl -X POST' found (cleaned):", "curl -X POST" in visible_text)
-
-# If 'curl' shows up, print some surrounding context so we can see what's actually there
-idx = visible_text.find("curl")
-if idx != -1:
-    print("\nContext around first 'curl' match:\n")
-    print(visible_text[max(0, idx - 100): idx + 300])
+if target:
+    container = target.find_parent(["pre", "code", "div"])
+    print("Container tag:", container.name)
+    print("Container classes:", container.get("class"))
+    print("\n--- Extracted text (get_text with separator) ---\n")
+    print(container.get_text(separator="\n", strip=True)[:600])
 else:
-    print("\n'curl' does not appear anywhere in the visible text.")
+    print("Could not locate the curl text via BeautifulSoup search.")

@@ -8,8 +8,8 @@
 | [Made a database to automate reports that saved > 50% of the employees' time](#db-saved-50-time-effort) | 2009 | ADP Payroll <br/> <sup> _Seattle, WA_ </sup> |
 | [Redesigned their Helpdesk system that reduced their call queue by 88%](#88-drop-in-helpdesk-queue) | 2003 | Microsoft <br/> <sup> _Shanghai, China_ </sup> |
 | [Redesigned their database tables; website ran about 12x faster](#12x-faster-warranty-website) | 2001 | Hewlett-Packard <br/> <sup> _Mt. View, CA_ </sup> |
-| [Automated their label printing system; freed up 40% of staff's time](#40-increase-in-productivity) | 1999 | Bridgestone Tires <br/> <sup> _Bloomington, IL_ </sup> |
-| [Created a database product ordering system that resulted in 0 wrong orders & 25% time saved](#0-wrong-orders--time-saved) | 1999 | Pueblo Grocery <br/> <sup> _Miami, FL_ </sup> |
+| [Automated their label printing system; freed up 40% of staff's time](#40-increase-in-productivity) | 1999 | Bridgestone <br/> <sup> _Bloomington, IL_ </sup> |
+| [Created a product ordering system that resulted in 0 wrong orders & 25% time saved](#0-wrong-orders--time-saved) | 1999 | Pueblo Grocery <br/> <sup> _Miami, FL_ </sup> |
 | [Ran SQL queries to uncover a $1 million discrepency in monthly rent totals](#1-million-per-month-saved) | 1998 | Mall landlord <br/> <sup> _Miami, FL_ </sup> |
 
 

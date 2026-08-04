@@ -164,3 +164,19 @@ To make the following guides, I used Microsoft Word or Adobe FrameMaker to creat
 | HP         | Office hardware | <a href="/files/HP_3100-Fax-Series_User-Guide-2008.pdf" target="_blank" rel="noopener noreferrer">HP 3100 Fax Series User Guide</a> | 1 editor, 2 SMEs |
 | SIOS       | High-Availability | <a href="/files/SIOS_LifeKeeper_install-and-config-guide-2018.pdf" target="_blank" rel="noopener noreferrer">LifeKeeper Install and Configuration Guide</a> | 1 editor, 3 SMEs |
 | Talk Group | ESL | <a href="/files/TalkGroup_Club-News-vol1.pdf" target="_blank" rel="noopener noreferrer">Talk Group 洋腔洋调 Club News vol 1</a> <br/> <a href="/files/TalkGroup_textbooks.pdf" target="_blank" rel="noopener noreferrer">Talk Group 洋腔洋调 textbooks</a> | 2 translaters, 1 artist |
+
+
+## In-app help
+
+### Tools used
+
+- Help+Manual
+- HelpNDoc
+- Help Edit
+
+### Use cases
+
+| Use case | Year | Company |
+|----------|------|---------|
+| Tool Tip Text on web application when a user seems stuck    | 2023 | Nium <br/> <sup> _San Francisco, CA_ </sup> |
+| In-app help files and Tool Tip Text on Windows game WordZap | 2014 | MICA Games <br/> <sup> _Bellevue, WA_ </sup> |

@@ -5,13 +5,13 @@
 
 | Accomplishment  | Year | Company |
 |-----------------|------|---------|
-| - [Used AI to save 99% of the time it would've taken me](#used-ai-to-save-99-of-time) <br/> - [69% fewer pages from changing the Information Architecture](#69-fewer-pages-via-new-ia)  | 2025 | Atelio of FIS Global <br/> _Seattle, WA_ |
-| - [2x the clarity from elaboration + 101 new pages added](#2x-clarity--101-new-pages) <br/> - [70% more customers onboarded + 70% fewer helpdesk tickets filed](#70-more--70-fewer)  | 2023 | Nium _San Francisco, CA_ |
-| - [#1 cybersecurity coder in Secure Code Warrior Challenge in Python](#1-cybersecurity-coder) <br/> - [40% fewer pages from IA changes and removal of obsolete pages](#40-fewer-pages)  | 2020 | Yahoo _Sunnyvale, CA_ |
-| - [#1 dept (company-wide) in documentation "freshness"](#1-dept-in-documention) <br/> - [Defragmented 5 year-old documentation set](#defragmented-5yo-doc-set)  | 2018 | Google _Mt. View, CA_ |
-| - [0 help from engineers to install a non-compiled beta version of software](#0-help-from-engineers) <br/> - [80% time saved on the writing process of a new feature](#80-time-saved-on-writing) <br/> - [30% fewer healdesk tickets due to improved documentation](#30-fewer-helpdesk-tickets) <br/> - [2 VPs of opposite priorities were resolved with data](#2-vps-of-opposite-priorities) | 2017 | Couchbase <br/> _Santa Clara, CA_ |
-| - [50% less time to create clinical trials due to fewer errors](#50-less-time--fewer-errors) <br/> - [1/3rd the time to edit and eDC clinical trial questionnaire](#13rd-the-time-to-edit-edc) | 2012 | VA Medical Center  <br/> _Boston, MA_ |
-| - [#1 in a Green Environment Campaign for my ideas that save 20-30% of paper](#1-in-a-green-campaign) | 2008 | HP _Singapore_ |
+| - [Used AI to save 99% of the time it would've taken me](#used-ai-to-save-99-of-time) <br/> - [69% fewer pages from changing the Information Architecture](#69-fewer-pages-via-new-ia)  | 2025 | Atelio of FIS Global <br/> <sup> _Seattle, WA_ </sup> |
+| - [2x the clarity from elaboration + 101 new pages added](#2x-clarity--101-new-pages) <br/> - [70% more customers onboarded + 70% fewer helpdesk tickets filed](#70-more--70-fewer)  | 2023 | Nium <br/> <sup> _San Francisco, CA_ </sup> |
+| - [#1 cybersecurity coder in Secure Code Warrior Challenge in Python](#1-cybersecurity-coder) <br/> - [40% fewer pages from IA changes and removal of obsolete pages](#40-fewer-pages)  | 2020 | Yahoo <br/> <sup> _Sunnyvale, CA_ </sup> |
+| - [#1 dept (company-wide) in documentation "freshness"](#1-dept-in-documention) <br/> - [Defragmented 5 year-old documentation set](#defragmented-5yo-doc-set)  | 2018 | Google <br/> <sup> _Mt. View, CA_ </sup> |
+| - [0 help from engineers to install a non-compiled beta version of software](#0-help-from-engineers) <br/> - [80% time saved on the writing process of a new feature](#80-time-saved-on-writing) <br/> - [30% fewer healdesk tickets due to improved documentation](#30-fewer-helpdesk-tickets) <br/> - [2 VPs of opposite priorities were resolved with data](#2-vps-of-opposite-priorities) | 2017 | Couchbase <br/> <sup> _Santa Clara, CA_ </sup> |
+| - [50% less time to create clinical trials due to fewer errors](#50-less-time--fewer-errors) <br/> - [1/3rd the time to edit and eDC clinical trial questionnaire](#13rd-the-time-to-edit-edc) | 2012 | VA Medical Center  <br/> <sup> _Boston, MA_ </sup> |
+| - [#1 in a Green Environment Campaign for my ideas that save 20-30% of paper](#1-in-a-green-campaign) | 2008 | Hewlett-Packard <br/> <sup> _Singapore_ </sup> |
 
 
 ## Used AI to save 99% of time

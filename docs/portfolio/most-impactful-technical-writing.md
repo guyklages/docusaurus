@@ -16,7 +16,7 @@
 
 ## Used AI to save 99% of time
 
-#### Atelio of FIS Global (Seattle) -- <mark> I used AI to read Slack messages and create a 1st draft of a developer guide in 1% of the time </mark>
+#### Atelio of FIS Global (Seattle, WA) -- <mark> I used AI to read Slack messages and create a 1st draft of a developer guide in 1% of the time </mark>
 
 | Before (Sep 2025) | After (Sep 2025)  |
 |-------------------|-------------------|
@@ -25,7 +25,7 @@
 
 ## 69% fewer pages via new IA
 
-#### Atelio of FIS Global (Seattle) -- <mark> Revamped information architecture (IA), reduced dev pages and navigation by 69% </mark>
+#### Atelio of FIS Global (Seattle, WA) -- <mark> Revamped information architecture (IA), reduced dev pages and navigation by 69% </mark>
 
 | Before (May 2024) | After (July 2025) |
 |-------------------|-------------------|
@@ -35,7 +35,7 @@
 
 ## 2x clarity + 101 new pages
 
-#### Nium (San Francisco) -- <mark> Revamped pages to double the clarity while adding 101 new pages </mark>
+#### Nium (San Francisco, CA) -- <mark> Revamped pages to double the clarity while adding 101 new pages </mark>
 
 | Before (May 2023) | After (July 2023) |
 |-------------------|-------------------|
@@ -46,7 +46,7 @@
 
 ## 70% more + 70% fewer
 
-#### Nium (San Francisco) -- <mark> 70% more customers onboarded while 70% fewer helpdesk onboarding tickets </mark>
+#### Nium (San Francisco, CA) -- <mark> 70% more customers onboarded while 70% fewer helpdesk onboarding tickets </mark>
 
 | Before (Oct 2022) | After (Dec 2022) |
 |-------------------|------------------|
@@ -57,7 +57,7 @@
 
 ## #1 cybersecurity coder
 
-#### Yahoo (Sunnyvale) -- <mark> For two weeks, I was ranked as #1 in the python cybersecurity Secure Code Warrior Challenge </mark>
+#### Yahoo (Sunnyvale, CA) -- <mark> For two weeks, I was ranked as #1 in the python cybersecurity Secure Code Warrior Challenge </mark>
 
 | Before (May 2020) | After (May 2020) |
 |-------------------|------------------|
@@ -68,7 +68,7 @@
 
 ## 40% fewer pages
 
-#### Yahoo (Sunnyvale) -- <mark> Reduced obsolete pages by 40% and added automation to prevent obsolete pages </mark>
+#### Yahoo (Sunnyvale, CA) -- <mark> Reduced obsolete pages by 40% and added automation to prevent obsolete pages </mark>
 
 | Before (May 2019) | After (Dec 2019) |
 |-------------------|------------------|
@@ -78,7 +78,7 @@
 
 ## #1 dept in documention
 
-#### Google (Mt. View) -- <mark> The AdWords API dept needed to improve the "freshness" of their internal documentation pages </mark>
+#### Google (Mt. View, CA) -- <mark> The AdWords API dept needed to improve the "freshness" of their internal documentation pages </mark>
 
 | Before (May 2018) | After (Nov 2018) |
 |-------------------|------------------|
@@ -88,7 +88,7 @@
 
 ## Defragmented 5yo doc set
 
-#### Google (Mt. View) -- <mark> A dept added doc pages for 5 years without checking for "freshness" and needed to be revamped </mark>
+#### Google (Mt. View, CA) -- <mark> A dept added doc pages for 5 years without checking for "freshness" and needed to be revamped </mark>
 
 | Before (May 2018) | After (Nov 2018) |
 |-------------------|------------------|
@@ -98,7 +98,7 @@
 
 ## 0 help from engineers
 
-#### Couchbase (Santa Clara) -- <mark> Needed to install a pre-QA version to document it while no engineer was available to help </mark>
+#### Couchbase (Santa Clara, CA) -- <mark> Needed to install a pre-QA version to document it while no engineer was available to help </mark>
 
 | Before (Apr 2018) | After (Apr 2018) |
 |-------------------|------------------|
@@ -107,7 +107,7 @@
 
 ## 80% time saved on writing
 
-#### Couchbase (Santa Clara) -- <mark> Reduced the writing process of a new feature from 4-6 weeks to 4-5 days </mark>
+#### Couchbase (Santa Clara, CA) -- <mark> Reduced the writing process of a new feature from 4-6 weeks to 4-5 days </mark>
 
 | Before (Mar 2017) | After (Aug 2017) |
 |-------------------|------------------|
@@ -116,7 +116,7 @@
 
 ## 30% fewer helpdesk tickets
 
-#### Couchbase (Santa Clara) -- <mark> Reduced the number of helpdesk tickets by 30% </mark>
+#### Couchbase (Santa Clara, CA) -- <mark> Reduced the number of helpdesk tickets by 30% </mark>
 
 | Before (May 2017) | After (Aug 2017) |
 |-------------------|------------------|
@@ -125,7 +125,7 @@
 
 ## 2 VPs of opposite priorities
 
-#### Couchbase (Santa Clara) -- <mark> How to prioritize the writing of new features vs updating old pages? Google Analytics! </mark>
+#### Couchbase (Santa Clara, CA) -- <mark> How to prioritize the writing of new features vs updating old pages? Google Analytics! </mark>
 
 | Before (Apr 2017) | After (May 2017) |
 |-------------------|------------------|
@@ -135,7 +135,7 @@
 
 ## 50% less time + fewer errors
 
-#### VA Medical Center (Boston) -- <mark> Reduced time to create clinical trials by 50% due to fewer errors </mark>
+#### VA Medical Center (Boston, MA) -- <mark> Reduced time to create clinical trials by 50% due to fewer errors </mark>
 
 | Before (Feb 2012) | After (Apr 2012) |
 |-------------------|------------------|
@@ -145,7 +145,7 @@
 
 ## 1/3rd the time to edit eDC
 
-#### VA Medical Center (Boston) -- <mark> Reduced the time needed to make any changes to an eDC clinical trial form to one-third. </mark>
+#### VA Medical Center (Boston, MA) -- <mark> Reduced the time needed to make any changes to an eDC clinical trial form to one-third. </mark>
 
 | Before (Aug 2011) | After (Dec 2011) |
 |-------------------|------------------|

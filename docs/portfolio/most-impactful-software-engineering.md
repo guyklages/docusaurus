@@ -15,7 +15,7 @@
 
 ## DB saved 50% time, effort
 
-#### ADP Payroll (Seattle) -- <mark> Made a database to automate reports; saved >50% of the employees' time and effort </mark>
+#### ADP Payroll (Seattle, WA) -- <mark> Made a database to automate reports; saved >50% of the employees' time and effort </mark>
 
 | Before (Mar 2009) | After (Aug 2009) |
 |-------------------|------------------|
@@ -24,7 +24,7 @@
 
 ## 88% drop in helpdesk queue
 
-#### Microsoft (Shanghai) -- <mark> Redesigned their Helpdesk system that reduced their call queue by 88% </mark>
+#### Microsoft (Shanghai, CHINA) -- <mark> Redesigned their Helpdesk system that reduced their call queue by 88% </mark>
 
 | Before (Feb 2003) | After (Mar 2003) |
 |-------------------|------------------|
@@ -33,7 +33,7 @@
 
 ## 12x faster warranty website
 
-#### HP (Mt. View) -- <mark> Redesigned their database tables; website ran about 12x faster </mark>
+#### HP (Mt. View, CA) -- <mark> Redesigned their database tables; website ran about 12x faster </mark>
 
 | Before (May 2001) | After (Aug 2001) |
 |-------------------|------------------|
@@ -42,7 +42,7 @@
 
 ## 40% increase in productivity
 
-#### Bridgestone -- <mark> Automated their label printing system; freed up 40% of staff's time </mark>
+#### Bridgestone (Bloomington, IL) -- <mark> Automated their label printing system; freed up 40% of staff's time </mark>
 
 | Before (May 1999) | After (May 1999) |
 |-------------------|------------------|
@@ -51,7 +51,7 @@
 
 ## 0 wrong orders + time saved
 
-#### Pueblo Grocery -- <mark> Created a database product ordering system that resulted in no more wrong orders and 25% time saved </mark>
+#### Pueblo Grocery (Miami, FL) -- <mark> Created a product ordering system that resulted in no more wrong orders and 25% time saved </mark>
 
 | Before (Mar 1999) | After (Apr 1999) |
 |-------------------|------------------|
@@ -60,7 +60,7 @@
 
 ## $1 million per month saved
 
-#### Mall landlord -- <mark> Ran SQL queries to uncover a $1 million discrepency in monthly rent totals </mark>
+#### Mall landlord (Miami, FL) -- <mark> Ran SQL queries to uncover a $1 million discrepency in monthly rent totals </mark>
 
 | Before (Aug 1998) | After (Sep 1998) |
 |-------------------|------------------|
@@ -69,7 +69,7 @@
 
 ## Law contracts that reuse text
 
-#### Law firm -- <mark> Created DITA-like database to reuse paragraphs of text in multiple contracts </mark>
+#### Law firm (Santa Clara, CA) -- <mark> Created DITA-like database to reuse paragraphs of text in multiple contracts </mark>
 
 | Before (Mar 1998) | After (Apr 1998) |
 |-------------------|------------------|
@@ -78,7 +78,7 @@
 
 ## Company reorg Visualization
 
-#### AMAT (Santa Clara) -- <mark> Displayed dynamically how different company reorganization scenarios would affect the whole </mark>
+#### AMAT (Santa Clara, CA) -- <mark> Displayed dynamically how different company reorganization scenarios would affect the whole </mark>
 
 | Before (Aug 1997) | After (Sep 1997) |
 |-------------------|------------------|
@@ -105,7 +105,7 @@
 
 ## 1st to identify virus
 
-#### Interbase Solutions (Santa Clara) -- <mark> Removed a virus before the concept of a computer virus was common knowledge </mark>
+#### Interbase Solutions (Santa Clara, CA) -- <mark> Removed a virus before the concept of a computer virus was common knowledge </mark>
 
 | Before (May 1988) | After (May 1988) |
 |-------------------|------------------|

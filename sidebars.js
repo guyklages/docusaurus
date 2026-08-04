@@ -40,6 +40,12 @@ const sidebars = {
             id: 'portfolio/most-impactful-software-engineering',
             label: 'Software engineering',
             className: 'portfolio-sidebar-item',
+          },
+          {
+            type: 'doc',
+            id: 'portfolio/most-impactful-automating',
+            label: 'Automating',
+            className: 'portfolio-sidebar-item',
           }
         ],
     },

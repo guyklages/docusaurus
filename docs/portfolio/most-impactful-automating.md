@@ -11,7 +11,7 @@
 
 ## 40% fewer pages
 
-#### Yahoo (Sunnyvale, CA) -- <mark> Reduced obsolete pages by 40% and added automation to prevent obsolete pages </mark>
+#### Yahoo (Sunnyvale, CA) –– <mark> Reduced obsolete pages by 40% and added automation to prevent obsolete pages </mark>
 
 | Before (May 2019) | After (Dec 2019) |
 |-------------------|------------------|
@@ -21,7 +21,7 @@
 
 ## DB saved 50% time, effort
 
-#### ADP Payroll (Seattle, WA) -- <mark> Made a database to automate reports; saved >50% of the employees' time and effort </mark>
+#### ADP Payroll (Seattle, WA) –– <mark> Made a database to automate reports; saved >50% of the employees' time and effort </mark>
 
 | Before (Mar 2009) | After (Aug 2009) |
 |-------------------|------------------|
@@ -31,7 +31,7 @@
 
 ## 40% increase in productivity
 
-#### Bridgestone (Bloomington, IL) -- <mark> Automated their label printing system; freed up 40% of staff's time </mark>
+#### Bridgestone (Bloomington, IL) –– <mark> Automated their label printing system; freed up 40% of staff's time </mark>
 
 | Before (May 1999) | After (May 1999) |
 |-------------------|------------------|

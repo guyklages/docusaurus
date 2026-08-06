@@ -3,7 +3,7 @@
 
 ## 69% fewer pages via new IA
 
-#### Atelio of FIS Global (Seattle) -- <mark> Revamped information architecture (IA), reduced dev pages and navigation by 69% </mark>
+#### Atelio of FIS Global (Seattle) –– <mark> Revamped information architecture (IA), reduced dev pages and navigation by 69% </mark>
 
 | Before (May 2024) | After (July 2025) |
 |-------------------|-------------------|
@@ -14,7 +14,7 @@
 
 ## 70% more + 70% less
 
-#### Nium (San Francisco) -- <mark> 70% more customers onboarded while 70% fewer helpdesk issues </mark>
+#### Nium (San Francisco) –– <mark> 70% more customers onboarded while 70% fewer helpdesk issues </mark>
 
 | Before (Oct 2022) | After (Dec 2022) |
 |-------------------|------------------|
@@ -25,7 +25,7 @@
 
 ## New UX with 2x details
 
-#### Nium (San Francisco) -- <mark> Completely different UX and information architecture with twice as many pages of information </mark>
+#### Nium (San Francisco) –– <mark> Completely different UX and information architecture with twice as many pages of information </mark>
 
 | Before (May 2023) | After (July 2023) |
 |-------------------|-------------------|
@@ -35,7 +35,7 @@
 
 ## 25% more players and sales
 
-#### Mica Games (Seattle) -- <mark> 25% more players and revenue from my suggested changes to his games </mark>
+#### Mica Games (Seattle) –– <mark> 25% more players and revenue from my suggested changes to his games </mark>
 
 | Before (Mar 1998) | After (Apr 2013) |
 |-------------------|------------------|
@@ -46,7 +46,7 @@
 
 ## Saved 85% of translation
 
-#### Pristine (Taipei) -- <mark> Improved readability while saving 85% on translation costs by converting paragraphs to a table </mark>
+#### Pristine (Taipei) –– <mark> Improved readability while saving 85% on translation costs by converting paragraphs to a table </mark>
 
 | Before (May 2008) | After (May 2008) |
 |-------------------|------------------|
@@ -56,7 +56,7 @@
 
 ## 20% drop in i18n mistakes
 
-#### Hewlett-Packard (Singapore) -- <mark> 20% drop in internationalization and translation mistakes by PMs </mark>
+#### Hewlett-Packard (Singapore) –– <mark> 20% drop in internationalization and translation mistakes by PMs </mark>
 
 | Before (Jan 2007) | After (May 2007) |
 |-------------------|------------------|

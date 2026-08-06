@@ -15,7 +15,7 @@
 
 ## DB saved 50% time, effort
 
-#### ADP Payroll (Seattle, WA) -- <mark> Made a database to automate reports; saved >50% of the employees' time and effort </mark>
+#### ADP Payroll (Seattle, WA) –– <mark> Made a database to automate reports; saved >50% of the employees' time and effort </mark>
 
 <!-- Mar 2009 - Aug 2009 -->
 
@@ -26,7 +26,7 @@
 
 ## 92% drop in helpdesk queue
 
-#### Microsoft (Shanghai, CHINA) -- <mark> Redesigned their Helpdesk system that reduced their call queue by 88% </mark>
+#### Microsoft (Shanghai, CHINA) –– <mark> Redesigned their Helpdesk system that reduced their call queue by 88% </mark>
 
 <!-- Feb 2003 - Mar 2003 -->
 
@@ -37,7 +37,7 @@
 
 ## 12x faster warranty website
 
-#### HP (Mt. View, CA) -- <mark> Redesigned their database tables; website ran about 12x faster </mark>
+#### HP (Mt. View, CA) –– <mark> Redesigned their database tables; website ran about 12x faster </mark>
 
 <!-- May 2001 - Aug 2001 -->
 
@@ -48,7 +48,7 @@
 
 ## 75% increase in productivity
 
-#### Bridgestone (Bloomington, IL) -- <mark> Automated their label printing system; freed up 40% of staff's time </mark>
+#### Bridgestone (Bloomington, IL) –– <mark> Automated their label printing system; freed up 40% of staff's time </mark>
 
 <!-- May 1999 - May 1999 -->
 
@@ -59,7 +59,7 @@
 
 ## 0 wrong orders + time saved
 
-#### Pueblo Grocery (Miami, FL) -- <mark> Created a product ordering system that resulted in 0 wrong orders and 25% time saved </mark>
+#### Pueblo Grocery (Miami, FL) –– <mark> Created a product ordering system that resulted in 0 wrong orders and 25% time saved </mark>
 
 <!-- Mar 1999 - Apr 1999 -->
 
@@ -70,7 +70,7 @@
 
 ## $1 million per month saved
 
-#### Mall landlord (Miami, FL) -- <mark> Ran SQL queries to uncover a $1 million discrepency in monthly rent totals </mark>
+#### Mall landlord (Miami, FL) –– <mark> Ran SQL queries to uncover a $1 million discrepency in monthly rent totals </mark>
 
 <!-- Aug 1998 - Sep 1998 -->
 
@@ -81,7 +81,7 @@
 
 ## Law contracts that reuse text
 
-#### Law firm (Santa Clara, CA) -- <mark> Created DITA-like database to reuse paragraphs of text in multiple contracts </mark>
+#### Law firm (Santa Clara, CA) –– <mark> Created DITA-like database to reuse paragraphs of text in multiple contracts </mark>
 
 <!-- Mar 1998 - Apr 1998 -->
 
@@ -92,7 +92,7 @@
 
 ## Company reorg Visualization
 
-#### AMAT (Santa Clara, CA) -- <mark> Displayed dynamically how different company reorganization scenarios would affect the whole </mark>
+#### AMAT (Santa Clara, CA) –– <mark> Displayed dynamically how different company reorganization scenarios would affect the whole </mark>
 
 <!-- Aug 1997 - Sep 1997 -->
 
@@ -103,7 +103,7 @@
 
 ## 1,000s of duplicates in prod
 
-#### Komodo Toys (Hong Kong) -- <mark> Removed 1,000s of duplicate records while database was in production </mark>
+#### Komodo Toys (Hong Kong) –– <mark> Removed 1,000s of duplicate records while database was in production </mark>
 
 <!-- Mar 1997 - Apr 1997 -->
 
@@ -114,7 +114,7 @@
 
 ## 3 dept unified with a DB
 
-#### Lung Electronics (Hong Kong) -- <mark> Unified the Marketing, Testing, and Sales departments with a database </mark>
+#### Lung Electronics (Hong Kong) –– <mark> Unified the Marketing, Testing, and Sales departments with a database </mark>
 
 <!-- Mar 1996 - Apr 1997 -->
 
@@ -127,7 +127,7 @@
 
 ## 1st to identify virus
 
-#### Interbase Solutions (Santa Clara, CA) -- <mark> Removed a virus before the concept of a computer virus was common knowledge </mark>
+#### Interbase Solutions (Santa Clara, CA) –– <mark> Removed a virus before the concept of a computer virus was common knowledge </mark>
 
 <-- May 1998 - May 1998 --
 

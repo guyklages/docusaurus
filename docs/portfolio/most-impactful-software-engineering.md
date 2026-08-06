@@ -22,7 +22,7 @@
 | Before | After |
 |--------|-------|
 | PROBLEM: <br/> Payroll Specialists had very manual and labor-intensive reports to create. <br/> <br/> They had everything in various spreadsheets and documents, which took a long time to sift through when compiling data needed for weekly reports. | MY SOLUTION: <br/> Use a database to unify and create reports. <br/> <br/> 1. I created a Microsoft Access database to connect all of their spreadsheets and documents into one cohesive place. <br/> 2. I made reports that ran automatically on the schedule they needed them. |
-| What used to take 8 hours, now took 4 hours. | This new system freed up 50% of their time to do other things. |
+| What used to take 8 hours, now took 4 hours. | RESULTS: <br/> This new system freed up 50% of their time to do other things. |
 
 ## 92% drop in helpdesk queue
 
@@ -44,7 +44,7 @@
 | Before | After |
 |--------|-------|
 | PROBLEM: <br/> Web application ran very slow. <br/> <br/> Lead Engineer optimized the database table for _humans_: <br/> ![Before](../../static/img/HP_SqlServer_table_BEFORE.png) <br/> <br/> His code that queried the database: <br/> ![Before](../../static/img/HP_WarrantySQL_BEFORE.png) | MY SOLUTION: <br/> I re-designed the database table and code. <br/> <br/> I optimized the database table for _computers_: <br/> ![After](../../static/img/HP_SqlServer_table_AFTER.png) <br/> <br/> <br/> <br/> <br/> <br/> I re-wrote his code as: <br/> ![After](../../static/img/HP_WarrantySQL_AFTER.png) <br/><br/><br/> |
-| `SELECT *` needs 2 network trips (1 for field list + 1 for field) <br/> `WHERE` clause requires scanning the whole table | RESULT: <br/> My code ran about 12 times faster. |
+| `SELECT *` needs 2 network trips (1 for field list + 1 for field) <br/> `WHERE` clause requires scanning the whole table | RESULTS: <br/> My code ran about 12 times faster. |
 
 ## 75% increase in productivity
 
@@ -77,7 +77,7 @@
 | Before | After |
 |--------|-------|
 | SITUATION: <br/> The landlord of a mall billed his renting stores and shops every month. Over $100 million each month. <br/> <br/> Seeing 9-digit numbers made me think about things I've seen in various movies, so I wondered if these numbers were accurate since a tiny amount off would be easily missed and probably nobody would notice. | MY SOLUTION: <br/> I made SQL queries to confirm the monthly totals that were coming out of their Siteseer application. |
-| | RESULT: <br/> The numbers were, in fact, off by 1%, which equated to a little more than $1 million dollars each month. |
+| | RESULTS: <br/> The numbers were, in fact, off by 1%, which equated to a little more than $1 million dollars each month. |
 
 ## Law contracts that reuse text
 
@@ -88,7 +88,7 @@
 | Before | After |
 |--------|-------|
 | PROBLEM: <br/> Law firm made dozens of contracts daily and needed an easier way to create new contracts by reusing existing paragraphs in other contracts. They were spending way too much time copying-and-pasting. And they wanted to be able to reuse paragraphs in any order in their new contracts. <br/> <br/> And they needed a solution that used only their existing software: Microsoft Office. <br/> <br/> A. Using MS Word, paralegals would search for paragraphs of text that their firm had written in other contracts to copy and paste them into a new contract. <br/> <br/> B. This was very time-consuming and tedious. <br/> <br/> C. They didn't have a central place for all paragraphs that were commonly reused in their client contracts. | MY SOLUTION: <br/> Per their budget, I created a Microsoft Access database to store all of their contract paragraphs and made a form mechanism to add paragraphs to a new contract that allowed them to rearrange the paragraphs. <br/> <br/> I created a database with four tables: <br/> - _Paragraph_Type_ for the category and use cases <br/> -&nbsp;_Paragraph_Text_&nbsp;for&nbsp;the&nbsp;text,&nbsp;keywords,&nbsp;and&nbsp;Paragraph_Type <br/> - _Contract_Type_ for the different contract categories <br/> - _Contract_Template_ of the commonly used contracts pre-filled with common paragraphs <br/> <br/> I made a mechanism that shows a blank form where the lawyer would choose from dropdown lists the paragraph types and paragraphs of text, searchable by keywords, and movable (up or down) within the new contract. <br/> <br/> I made queries to find specific paragraphs. <br/> <br/> I made reports that were contracts with all of their front matter followed by their desired paragraphs followed by the legal disclaimers at the end. |
-| | RESULT: <br/> I created something similar to DITA three years before IBM. The law firm loved their new contract-creation system. |
+| | RESULTS: <br/> I created something similar to DITA three years before IBM. The law firm loved their new contract-creation system. |
 
 ## Company reorg Visualization
 
@@ -99,7 +99,7 @@
 | Before | After |
 |--------|-------|
 | PROBLEM: <br/> The company wanted to predict how different reorg scenarios would affect productivity: <br/> - How would each help or harm AMAT? <br/> - What type of imbalances would be created? <br/> - What type of skill gaps would be formed? <br/> - How would each affect HR and dept budgets? <br/> <br/> Based on Performance Reviews (Powerpoint decks): <br/> - Strengths and Weaknesses in each person & dept <br/> - Skill sets and which ones were needed <br/> - Personality types and teams worked with <br/> <br/> Based&nbsp;on&nbsp;Compensation&nbsp;Packages&nbsp;(PeopleSoft&nbsp;DB): <br/> - Salary and Bonus types <br/> - Department-specific Perks | MY SOLUTION: <br/> A dynamically rendered webpage table created from an Access database with VB code and PeopleSoft. <br/> <br/> 1. The user would list which departments would report to new managers/departments in a proposed reorg. <br/> <br/> 2. My application generated a table spanning 3 screens horizontally and 4 screens vertically to summarize how each Category of each Department would be affected in the proposed reorg (color-coded for items gained/lost). |
-| | RESULT: <br/> An amazing modeling tool ahead of its time. |
+| | RESULTS: <br/> An amazing modeling tool ahead of its time. |
 
 ## 1,000s of duplicates in prod
 

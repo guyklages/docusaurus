@@ -89,7 +89,7 @@ html[class*="docs-doc-id-couchbase/"] .table-of-contents > li > .table-of-conten
   font-size: inherit;
 }
 
-/* Navigation: gray unselected, bold red selected, no hover effects */
+/* Navigation: gray unselected, bold yellow selected, no hover effects */
 
 .navbar__link,
 .navbar__link:hover {
@@ -98,7 +98,7 @@ html[class*="docs-doc-id-couchbase/"] .table-of-contents > li > .table-of-conten
 }
 .navbar__link--active,
 .navbar__link--active:hover {
-  color: #cc0000;
+  color: #ca8a04;
   font-weight: 700;
 }
 
@@ -107,10 +107,10 @@ html[class*="docs-doc-id-couchbase/"] .table-of-contents > li > .table-of-conten
   color: #6b7280;
   font-weight: 400;
 }
-/* Only color the leaf doc item red, not parent category headers */
+/* Only color the leaf doc item yellow, not parent category headers */
 .menu__link--active:not(.menu__link--sublist),
 .menu__link--active:not(.menu__link--sublist):hover {
-  color: #cc0000;
+  color: #ca8a04;
   font-weight: 700;
 }
 
@@ -121,13 +121,13 @@ html[class*="docs-doc-id-couchbase/"] .table-of-contents > li > .table-of-conten
 }
 .table-of-contents__link--active,
 .table-of-contents__link--active:hover {
-  color: #cc0000;
+  color: #ca8a04;
   font-weight: 700;
 }
 
-/* Blog sidebar: scope --ifm-color-primary so the CSS module's active class resolves to red */
+/* Blog sidebar: scope --ifm-color-primary so the CSS module's active class resolves to yellow */
 nav[aria-label="Blog recent posts navigation"] {
-  --ifm-color-primary: #cc0000;
+  --ifm-color-primary: #ca8a04;
 }
 nav[aria-label="Blog recent posts navigation"] a,
 nav[aria-label="Blog recent posts navigation"] a:hover {

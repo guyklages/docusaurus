@@ -9,7 +9,7 @@
 |-------------------|-------------------|
 | PROBLEM: <br/> - Pages were hastily written by engineers <br/> - Pages were one-fourth to one-half of a screen each <br/> - 104 pages (three levels deep) in the left-nav <br/> - Google Analytics showed customers clicking through many pages before the one they needed <br/> <br/> Total of 104 pages| MY SOLUTION: <br/> - I combined pages that had been artifically split <br/> - I revamped and streamlined the IA to improve the flow <br/> - The number of customer clicks dropped dramatically <br/> <br/> [Total of 32 pages](https://guyklages.com/docs/atelio/getting-started/client-config) |
 | ![Before](../../static/img/Nium_ca_50pgs.png) | ![After](../../static/img/Nium_ca_32pgs.png) |
-| (my 32 pg) / (inherited 104 pg) = 31% of the original | 69% fewer pages than there were originally |
+| (my 32 pg) / (inherited 104 pg) = 31% of the original | RESULTS: <br/> 69% fewer pages and customer clicks to find data. |
 
 
 ## 70% more + 70% less
@@ -41,7 +41,7 @@
 |-------------------|------------------|
 | PROBLEM: <br/> Brilliant word games were largely unknown because of clumsy UX/UI: <br/> - [WordZap](https://wordzap.com/Zap8/wordzap.html) <br/> - [Cricklers](https://crickler.com/html5/) | MY SOLUTION: <br/> [31 ideas](https://docs.google.com/spreadsheets/d/1yl2lhoAfoSuBdQbbNGwThpeygqJj4Ppng0-V7-VOIRw/edit#gid=741302803) to improve the UX/UI, gameplay, settings, and other aspects. |
 | ![Before](../../static/img/Mica_old-WZ+Crickler.png) | ![After](../../static/img/Mica_new-WZ+Crickler.png) |
-| | The owner of the game said the number of players had increased by 25% due to word-of-mouth. |
+| | RESULTS: <br/> The owner of the game said the number of players had increased by 25% due to word-of-mouth. |
 
 
 ## Saved 85% of translation
@@ -52,11 +52,12 @@
 |-------------------|------------------|
 | I was given text for translation. | I reduced the translation cost by removing the repeated phrases while making it easier-to-read by converting the paragraphs into a table. |
 | ![Before](../../static/img/Pristine_2pg-to-1pg-table_BEFORE.png) | ![After](../../static/img/Pristine_2pg-to-1pg-table_AFTER.png) |
+| | RESULTS: <br/> By reducing the number of words, translation costs reduced by 85%. |
 
 
 ## 20% drop in i18n mistakes
 
-#### Hewlett-Packard (Singapore) –– <mark> 20% drop in internationalization and translation mistakes by PMs </mark>
+#### Hewlett-Packard (Singapore) –– <mark> 20% drop in internationalization (i18n) and translation mistakes by PMs </mark>
 
 | Before (Jan 2007) | After (May 2007) |
 |-------------------|------------------|

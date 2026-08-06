@@ -3,7 +3,7 @@
 
 ## 12,000 happy ESL students
 
-#### Talk Group (Shanghai) -- <mark> Created and led activities that thrilled 12,000+ ESL learners all over China </mark>
+#### Talk Group (Shanghai) –– <mark> Created and led activities that thrilled 12,000+ ESL learners all over China </mark>
 
 | Before (Feb 2002) | After (May 2006) |
 |-------------------|------------------|

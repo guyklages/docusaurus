@@ -9,7 +9,7 @@
 | [Made a database to automate reports; saved >50% of the employees' time and effort](#db-saved-50-time-effort) | 2009 | ADP Payroll <br/> <sup> _Seattle, WA_ </sup> |
 | [Automated their label printing system; freed up 40% of staff's time](#40-increase-in-productivity) | 1999 | Bridgestone <br/> <sup> _Bloomington, IL_ </sup> |
 
-## Automation to prevent obsolete pages
+## Prevent obsolete pages
 
 #### Yahoo (Sunnyvale, CA) –– <mark> Reduced obsolete pages by 40% and added automation to prevent obsolete pages </mark>
 
@@ -26,7 +26,7 @@
 | Before (Mar 2009) | After (Aug 2009) |
 |-------------------|------------------|
 | PROBLEM: <br/> Payroll Specialists had very manual and labor-intensive reports to create. <br/> <br/> They had everything in various spreadsheets and documents, which took a long time to sift through when compiling data needed for weekly reports. | MY SOLUTION: <br/> Use a database to unify and create reports. <br/> <br/> 1. I created a Microsoft Access database to connect all of their spreadsheets and documents into one cohesive place. <br/> 2. I made reports that ran automatically on the schedule they needed them. |
-| | RESULTS: <br/> This new system freed up at least 50% of their time which allowed them to do other things. |
+| What used to take 8 hours, now took 4 hours. | RESULTS: <br/> This new system freed up at least 50% of their time which allowed them to do other things. |
 
 
 ## 75% increase in productivity

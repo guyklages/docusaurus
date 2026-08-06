@@ -9,7 +9,7 @@
 | [Made a database to automate reports; saved >50% of the employees' time and effort](#db-saved-50-time-effort) | 2009 | ADP Payroll <br/> <sup> _Seattle, WA_ </sup> |
 | [Automated their label printing system; freed up 40% of staff's time](#40-increase-in-productivity) | 1999 | Bridgestone <br/> <sup> _Bloomington, IL_ </sup> |
 
-## 40% fewer pages
+## Automation to prevent obsolete pages
 
 #### Yahoo (Sunnyvale, CA) –– <mark> Reduced obsolete pages by 40% and added automation to prevent obsolete pages </mark>
 

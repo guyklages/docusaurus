@@ -25,13 +25,13 @@ const sidebars = {
           },
           {
               type: 'doc',
-              id: 'kb-vmware',
+              id: 'portfolio/kb-vmware',
               label: 'KB for VMware',
               className: 'portfolio-sidebar-item',
           },
           {
               type: 'doc',
-              id: 'stripe-api',
+              id: 'portfolio/stripe-api',
               label: 'Stripe API',
               className: 'portfolio-sidebar-item',
           },

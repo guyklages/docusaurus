@@ -23,40 +23,40 @@
 |----------|:-------------------:|
 | LinkedIn | 21,000+             |
 
-### API
+## API
 
-#### For fintech developers
+### For fintech developers
 
 | Title | Contents |
 |-------|----------|
-| [Stripe API authentication](/blog/2019/11/22/3-stripe-api#authentication-api) | Authentication, errors, idempotent requests, pagination, etc. |
-| [Stripe API charge](/blog/2019/11/22/3-stripe-api#charge) | Charges object, creating, retrieving, updating, etc. |
-| [Stripe API customers](/blog/2019/11/22/3-stripe-api) | Customers object, creating, retrieving, updating, etc. |
+| [Stripe API authentication](stripe-api#authentication-api) | Authentication, errors, idempotent requests, pagination, etc. |
+| [Stripe API charge](stripe-api#charge) | Charges object, creating, retrieving, updating, etc. |
+| [Stripe API customers](stripe-api) | Customers object, creating, retrieving, updating, etc. |
 
-### SDK
+## SDK
 
-#### For fintech developers
+### For fintech developers
 
 | Title | Code samples | Contents |
 |-------|--------------|----------|
-| [Android SDK for online payments](/blog/2020/04/04/android-sdk-online-payments) | Java | Using Android Pay, collecting credit card info and payments, setting up an app, creating & using tokens, testing & deploying |
-| [iOS SDK for Apple Pay payments](/blog/2020/05/05/ios-sdk-apple-pay-payments) | Swift <br/> Objective-C | Using Apple Pay, collecting credit card info, creating tokens, sending tokens to your server |
+| [Android SDK for online payments](sdk-android-online-payments) | Java | Using Android Pay, collecting credit card info and payments, setting up an app, creating & using tokens, testing & deploying |
+| [iOS SDK for Apple Pay payments](dsk-ios-apple-pay-payments) | Swift <br/> Objective-C | Using Apple Pay, collecting credit card info, creating tokens, sending tokens to your server |
 | [Atelio web SDK documentation](https://guyklages.com/atelio/developers/web-sdk-documentation) |  | Requirements, importing, displaying, setting card PIN |
 
-### KB
+## KB
 
-#### For WMware developers
+### For WMware developers
 
 | Title |
 |-------|
-| [AppStack exclusions are not excluded from Writables Volumes](/blog/2018/02/02/KB-VMware#appstacks-not-excluded-from-writables) |
-| [After AppStack rescan, AppStacks is disabled or unprovisioned](/blog/2018/02/02/KB-VMware#appstacks-disabled-after-rescan) |
-| [Writables are not created upon login in a multi-vCenter environment](/blog/2018/02/02/KB-VMware#writables-not-created) |
-| [How to install and use Log Collection with AppVolumes](/blog/2018/02/02/KB-VMware#log-collection-usage) |
-| [Printers with ThinPrint default conflicts](/blog/2018/02/02/KB-VMware#printers-with-thinprint-conflicts) |
-| [How to allowlist blocked application](/blog/2018/02/02/KB-VMware#how-to-allowlist-blocked-applications) |
-| [`Run Once` configurations that run multiple times](/blog/2018/02/02/KB-VMware#run-once-unwanted-behavior) |
-| [How to replace an expired UEM licence file](/blog/2018/02/02/KB-VMware#replace-a-uem-license-file) |
+| [AppStack exclusions are not excluded from Writables Volumes](kb-vmware#appstacks-not-excluded-from-writables) |
+| [After AppStack rescan, AppStacks is disabled or unprovisioned](kb-vmware#appstacks-disabled-after-rescan) |
+| [Writables are not created upon login in a multi-vCenter environment](kb-vmware#writables-not-created) |
+| [How to install and use Log Collection with AppVolumes](kb-vmware#log-collection-usage) |
+| [Printers with ThinPrint default conflicts](kb-vmware#printers-with-thinprint-conflicts) |
+| [How to allowlist blocked application](kb-vmware#how-to-allowlist-blocked-applications) |
+| [`Run Once` configurations that run multiple times](kb-vmware#run-once-unwanted-behavior) |
+| [How to replace an expired UEM licence file](kb-vmware#replace-a-uem-license-file) |
 
 ## Dev problems I've solved
 

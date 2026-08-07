@@ -31,7 +31,7 @@
 
 ## 75% increase in productivity
 
-#### Bridgestone (Bloomington, IL) –– <mark> Automated their label printing system; freed up 40% of staff's time </mark>
+#### Bridgestone (Bloomington, IL) –– <mark> Automated their label printing system; freed up 75% of staff's time </mark>
 
 <!-- May 1999 - May 1999 -->
 

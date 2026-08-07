@@ -186,9 +186,9 @@ To make the following guides, I used Microsoft Word or Adobe FrameMaker to creat
 
 ### Leave HP for China
 
-I left a stable software engineering role at HP in Mountain View to start an English club in China with former coworkers.
+I left a stable software engineering role at HP in Mountain View to start an English school in China with former coworkers.
 
-The five of us had worked together for two years at the very successful Actual Living English (ALE) English club in Taiwan a few years prior; and with famous Asian TV celebrity friend David Wu, we were going to apply ALE's experiential learning formula to the 60x bigger ESL market in China.
+The five of us had worked together for two years at the very successful Actual Living English (ALE) English school in Taiwan a few years prior; and with famous Asian TV celebrity friend David Wu, we were going to apply ALE's experiential learning formula to the 60x bigger ESL market in China.
 
 We knew all the aspects that made ALE successful (content, marketing, sales, membership issues, teachers, venues), and we knew how to adjust those aspects for the differences between Taiwanese and Chinese culture; and we had a detailed business plan showing all costs and projected revenue that gave us the seed funding to last three years.
 
@@ -196,4 +196,4 @@ I worked three roles (database admin, content creater, English Teacher) from 9am
 
 For the first year, sales were slow because we needed to teach/explain our new style of learning to the local Chinese, but the second year saw huge growth and market penetration, and the third year ducktailed with huge profits.
 
-In China's very crowded ESL market, there were 100's of English schools, but our English club caught the attention of Disney English, who decided to buy us as a way to enter China's ESL market.
+In China's very crowded ESL market, there were 100's of English learning centers, but our English school caught the attention of Disney English, who decided to buy us as a way to enter China's ESL market.

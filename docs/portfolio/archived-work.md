@@ -186,7 +186,11 @@ To make the following guides, I used Microsoft Word or Adobe FrameMaker to creat
 
 ### Leave HP for China
 
-I left a stable software engineering role at HP in Mountain View to start an English school in China with former coworkers.
+I left a stable software engineering role at HP in Mountain View to start an English school in China with four former coworkers because:
+
+- I had 5 years' experience teaching English to foreign exchange students in college.
+- I had 3 years' experience writing curriculum and improving other teachers' curriculum.
+- I had 6 years' experience designing and improving the database and CRM for creating and reusing content with the teachers
 
 The five of us had worked together for two years at the very successful Actual Living English (ALE) English school in Taiwan a few years prior; and with famous Asian TV celebrity friend David Wu, we were going to apply ALE's experiential learning formula to the 60x bigger ESL market in China.
 

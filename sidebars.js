@@ -1,10 +1,41 @@
 const sidebars = {
   sidebarPortfolio: [
-    {
-        type: 'doc',
-        id: 'portfolio/index',
-        label: 'Guides and API reference',
-        className: 'portfolio-sidebar-item',
+    { 
+        type: 'category',
+        label: 'Developer docs',
+        collapsed: false,
+        items: [
+          {
+              type: 'doc',
+              id: 'portfolio/index',
+              label: 'Guides and API reference',
+              className: 'portfolio-sidebar-item',
+          },
+          {
+              type: 'doc',
+              id: 'portfolio/sdk-android-online-payments',
+              label: 'Android SDK for online payments',
+              className: 'portfolio-sidebar-item',
+          },
+          {
+              type: 'doc',
+              id: 'portfolio/sdk-ios-apple-pay-payments',
+              label: 'iOS SDK for Apple Pay payments',
+              className: 'portfolio-sidebar-item',
+          },
+          {
+              type: 'doc',
+              id: 'kb-vmware',
+              label: 'KB for VMware',
+              className: 'portfolio-sidebar-item',
+          },
+          {
+              type: 'doc',
+              id: 'stripe-api',
+              label: 'Stripe API',
+              className: 'portfolio-sidebar-item',
+          },
+        ]
     },
     {
         type: 'doc',

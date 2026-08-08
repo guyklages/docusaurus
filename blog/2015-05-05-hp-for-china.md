@@ -49,7 +49,7 @@ Examples of our English classes:
 
 ## The progress
 
-ALE's experiential learning model was a genuinely new approach that worked in Taiwan where we found immediate traction with open-minded families eager for an alternative to rote memorization. But in China, traditional learning methods were very ingrained, so it took many months of showing the Chinese concrete examples of how our learning method works before they were open to trying after being given a free week to attend our classes. Then membership exploded.
+ALE's experiential learning model was a genuinely new approach that worked in Taiwan where we found immediate traction with open-minded families eager for an alternative to rote memorization. But in China, traditional learning methods were very ingrained, so it took many months of showing the Chinese concrete examples of how our learning method works before they were open to trying. After offering them a free week to attend our classes, membership exploded.
 
 | Year | Students | Cities |
 |:----:|:--------:|:------:|
@@ -57,9 +57,9 @@ ALE's experiential learning model was a genuinely new approach that worked in Ta
 | 2    | 500      | 2      |
 | 3    | 12,000+  | 6      |
 
-That shift worked. By the second year, enrollment was up 400%, and students weren't just attending class––many were now planning to study at colleges in the US, UK, and Australia.
+By the end of the second year, enrollment was up 400%, and students weren't just attending class––many were now planning to study at colleges in the US, UK, and Australia.
 
-By the third year, we were teaching over 12,000 students across six major cities.
+By the end of the third year, we were teaching over 12,000 students across six major cities.
 
 ## The result
 

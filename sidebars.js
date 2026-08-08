@@ -13,14 +13,14 @@ const sidebars = {
           },
           {
               type: 'doc',
-              id: 'portfolio/sdk-android-online-payments',
-              label: 'Android SDK for online payments',
+              id: 'portfolio/sdk-android-payments',
+              label: 'SDK for Android payments',
               className: 'portfolio-sidebar-item',
           },
           {
               type: 'doc',
               id: 'portfolio/sdk-ios-apple-pay-payments',
-              label: 'iOS SDK for Apple Pay payments',
+              label: 'SDK for iOS Apple Pay payments',
               className: 'portfolio-sidebar-item',
           },
           {

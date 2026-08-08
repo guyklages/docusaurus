@@ -37,10 +37,10 @@
 
 ### For fintech developers
 
-| Title | Code samples | Contents |
+| Title | <div style={{ width: '120px' }}>Code samples</div> | Contents |
 |-------|--------------|----------|
 | [SDK for Android payments](sdk-android-payments) | Java | Using Android Pay, collecting credit card info and payments, setting up an app, creating & using tokens, testing & deploying |
-| [SDK for iOS Apple Pay payments](sdk-ios-apple-pay-payments) | Swift <br/> Objective-C | Using Apple Pay, collecting credit card info, creating tokens, sending tokens to your server |
+| [SDK for iOS Apple Pay payments](sdk-ios-apple-pay-payments) | - Swift <br/> - Objective-C | Using Apple Pay, collecting credit card info, creating tokens, sending tokens to your server |
 | [Atelio web SDK documentation](https://guyklages.com/atelio/developers/web-sdk-documentation) |  | Requirements, importing, displaying, setting card PIN |
 
 ## KB

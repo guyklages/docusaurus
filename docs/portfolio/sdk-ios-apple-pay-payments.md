@@ -88,7 +88,8 @@ didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 
 **Note**: <br/> We have placed your test publishable API key as the `StripePublishableKey` constant in the above snippet. You will need to swap it out with your live publishable key in production. You can see all your API keys in your dashboard.
 
-## Collecting credit card information
+
+## Collecting credit card info
 
 There are three ways to obtain payment details from the user:
 
@@ -390,7 +391,7 @@ To do so, add the below code to your program.
 It is up to you to handle error messages and show activity indicators while creating the token.
 
 
-## Sending the token to your server
+## Sending tokens to your server
 
 The block you gave to `createToken` in the previous steps is called whenever Stripe returns with a token (or error). To charge the card, you need to send the token off to your server.
 

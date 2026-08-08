@@ -4,7 +4,7 @@
 
 ### Nium
 
-| Venue | <div style="width:200px">Topic</div> | <div style="width:200px">Audience</div> | Crowd size | Remarks |
+| Venue | <div style={{width:200px}}>Topic</div> | <div style={{width:200px}}>Audience</div> | Crowd size | Remarks |
 |-------|-------|----------|:----------:|---------|
 | Monthly [Nium events](https://www.nium.com/events) | - Fintech Meetup <br/> - Money20/20 <br/> - Money&nbsp;Street&nbsp;Fest | - Developers <br/> - PMs <br/> - payment leaders <br/> - treasury teams | 20+ | Panel discussions regarding trust, compliance, payments stack and other financial topics as well as how Nium can help |
 

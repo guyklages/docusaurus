@@ -32,7 +32,7 @@ Also, we partnered with a well-known TV personality in Asia for credibility and 
 
 ## The work
 
-For three thrilling years, I worked three roles from 9am to 11pm, six days per week:
+For three thrilling years, I worked three roles from 9am to 10pm, six days per week:
 
 - Database creator and administrator of all activities, teachers, and content
 - Content creator of class activities, weekend adventures, daily SMS, and textbooks

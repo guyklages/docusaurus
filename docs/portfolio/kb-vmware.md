@@ -15,7 +15,7 @@ tags: [vm]
 - [AppStacks disabled after rescan](#rescan-disabled-appstacks)
 - [AppStacks not excluded from Writables](#appstack-included-in-writables)
 
-## &nbsp;
+##  &nbsp; 
 
 ## Replace a UEM license file
 
@@ -41,7 +41,7 @@ The process of changing the license file is straightforward and you have two opt
 
 With the release of UEM 9.0 a change has been made to the license file check; on computers where the Horizon Agent is installed, a UEM license file is not needed. In this case the MSI installer will not ask you for a license file.
 
-## &nbsp;
+##  &nbsp; 
 
 ## `Run Once` unwanted behavior
 
@@ -66,7 +66,7 @@ How to enable:
 - Add the XML-attribuut: `runOnceSpecial="1"`
 - The result looks something like this: `... runOnce="1 "runOnceSpecial="1" ...`
 
-
+##  &nbsp; 
 
 ## Allowlist blocked applications
 
@@ -92,7 +92,7 @@ Create a `reg_sz` value with a random name, for instance `1` and make the value 
 "2"="winword.exe" <br/>
 "3"="outlook.exe"
 
-
+##  &nbsp; 
 
 ## ThinPrint conflicts
 
@@ -122,7 +122,7 @@ You have three options:
 | B      | Disable only the default ThinPrint printer on a VMware View Client, detailed at https://kb.vmware.com/kb/2003626 |
 | C      | Use the View ADM template to disable printer redirection. <br/> Use the view client adm template (`vdm_client.adm`) by adding the template to an existing or new GPO. <br/> Under **user configuration > administrative templates > VMware View Client Configuration/RDP settings**, select **Disable redirect printers**. |
 
-
+##  &nbsp; 
 
 ## Log collection usage
 
@@ -213,7 +213,7 @@ Example of running the script:
 support.bat -destination C:\Logs -fhhost \\10.33.99.231\uem\logs -fhdomain <domain> -fhuname <username> -fhpwd <password>
 ```
 
-
+##  &nbsp; 
 
 ## Writables not created
 
@@ -266,7 +266,7 @@ You need to follow these steps to import the group writable entry from the other
 
 **Note**:  Each writable must have as many records as the number of vCenters
 
-
+##  &nbsp; 
 
 ## Rescan disabled AppStacks
 
@@ -289,7 +289,7 @@ To resolve this issue, change the configuration of the second AppVolumes deploym
 
 To prevent this issue from recurring, move the AppStacks on the production datastore to a different path on the datastore, import them, and recreate the assignments.
 
-
+##  &nbsp; 
 
 ## AppStack still in Writables
 

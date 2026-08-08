@@ -66,7 +66,7 @@ How to enable:
 - Add the XML-attribuut: `runOnceSpecial="1"`
 - The result looks something like this: `... runOnce="1 "runOnceSpecial="1" ...`
 
-## -
+
 
 ## Allowlist blocked applications
 
@@ -92,7 +92,7 @@ Create a `reg_sz` value with a random name, for instance `1` and make the value 
 "2"="winword.exe" <br/>
 "3"="outlook.exe"
 
-## -
+
 
 ## ThinPrint conflicts
 
@@ -122,7 +122,7 @@ You have three options:
 | B      | Disable only the default ThinPrint printer on a VMware View Client, detailed at https://kb.vmware.com/kb/2003626 |
 | C      | Use the View ADM template to disable printer redirection. <br/> Use the view client adm template (`vdm_client.adm`) by adding the template to an existing or new GPO. <br/> Under **user configuration > administrative templates > VMware View Client Configuration/RDP settings**, select **Disable redirect printers**. |
 
-## -
+
 
 ## Log collection usage
 
@@ -213,7 +213,7 @@ Example of running the script:
 support.bat -destination C:\Logs -fhhost \\10.33.99.231\uem\logs -fhdomain <domain> -fhuname <username> -fhpwd <password>
 ```
 
-## -
+
 
 ## Writables not created
 
@@ -266,7 +266,7 @@ You need to follow these steps to import the group writable entry from the other
 
 **Note**:  Each writable must have as many records as the number of vCenters
 
-## -
+
 
 ## Rescan disabled AppStacks
 
@@ -289,7 +289,7 @@ To resolve this issue, change the configuration of the second AppVolumes deploym
 
 To prevent this issue from recurring, move the AppStacks on the production datastore to a different path on the datastore, import them, and recreate the assignments.
 
-## -
+
 
 ## AppStack included in Writables
 

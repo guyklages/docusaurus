@@ -9,7 +9,7 @@ tags: [seattle, celebrity]
 
 ## Introduction
 
-I left a stable software engineering role at HP in Mountain View to reunite with four former colleagues from Actual Living English (ALE), a highly successful experiential-learning school we'd worked together in Taiwan a few years earlier, to bet that the same model could work at 60 times the scale, in mainland China's English as a Second Language (ESL) market.
+I left a stable software engineering role at HP in Mountain View to reunite with four former colleagues from Actual Living English (ALE), a highly successful experiential-learning school we'd worked together in Taiwan a few years earlier, to bet that the same model could work at 60 times the scale, in mainland China's [ESL](## "English as a Second Language") market.
 
 I was confident because I had:
 

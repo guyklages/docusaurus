@@ -42,9 +42,9 @@ Examples of our 300+ English classes (called "Mini-Adventures"):
 
 | Topic           | Venue | Contents of 2-hour class |
 |-----------------|-------|--------------------------|
-| Pottery making  | A mall shop that teaches pottery making | - Vocabulary and phrases related to pottery making <br/> - 1-on-1 conversations about pottery <br/> - Hands-on clay molding to make objects |
-| SCUBA diving    | A public swimming pool | - Vocabulary and phrases related to SCUBA diving <br/> - 1-on-1 conversations about SCUBA diving <br/> - Suiting up in a wetsuit and exploring the pool |
-| Mexican culture | A Mexican restaurant | - Vocabulary and phrases related to Mexican food and culture <br/> - 1-on-1 conversations about Mexican food and culture <br/> - Eating and drinking Mexican cuisine |
+| Pottery making  | A mall shop that teaches pottery making | - Vocabulary and phrases related to pottery making <br/> - 1-on-1 conversations about pottery, flatware, and art <br/> - Hands-on clay molding to make objects |
+| SCUBA diving    | A public swimming pool | - Vocabulary and phrases related to SCUBA diving <br/> - 1-on-1 conversations about deep-sea diving and ocean life <br/> - Suiting up in a wetsuit and exploring the pool |
+| Mexican culture | A Mexican restaurant | - Vocabulary and phrases related to Mexican food and culture <br/> - 1-on-1 conversations about Mexican history and culture <br/> - Eating and drinking Mexican cuisine |
 | Bungee jumping  | A mountain bridge over a river | - Vocabulary and phrases related to bungee jumping <br/> - 1-on-1 conversations about extreme sports <br/> - Suiting up and jumping off a bridge |
 
 ## The progress

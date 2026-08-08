@@ -19,7 +19,7 @@ I was confident because I had:
 
 ## The calculated risk
 
-What made it calculated rather than reckless was that we weren't testing an idea, we were scaling a proven one. We already knew exactly what drove ALE's success in Taiwan:
+What made it calculated rather than reckless was that we weren't testing a new idea, we were scaling a proven one. We already knew exactly what drove ALE's success in Taiwan:
 
 - engaging content and activities
 - effective marketing plans

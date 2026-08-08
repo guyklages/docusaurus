@@ -121,7 +121,7 @@ On the [Couchbase SQL++ for Query Reference](https://docs.couchbase.com/cloud/n1
 
 | Post | Audience | Code samples | Remarks |
 |------|----------|--------------|---------|
-| [Android SDK for online payments](sdk-android-online-payments) | Fintech developers | Java | Using Android Pay, collecting credit card info and payments, setting up an app, creating & using tokens, testing & deploying |
+| [Android SDK for online payments](sdk-android-payments) | Fintech developers | Java | Using Android Pay, collecting credit card info and payments, setting up an app, creating & using tokens, testing & deploying |
 | [iOS SDK for Apple Pay payments](sdk-ios-apple-pay-payments) | Fintech developers | Swift <br/> Objective-C | Using Apple Pay, collecting credit card info, creating tokens, sending tokens to your server |
 | [Atelio SDK for cards](https://guyklages.com/atelio/cards/ateliocards-sdk) | Fintech developers | cURL <br/> Ruby <br/> Python <br/> JavaScript <br/> C# <br/> Java | Requirements, importing, displaying, setting card PIN |
 

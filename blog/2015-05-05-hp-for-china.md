@@ -28,7 +28,7 @@ What made it calculated rather than reckless was that we weren't testing a new i
 - teacher quality and personality
 - venue selection and negotiation
 
-Also, we partnered with a well-known TV personality in Asia for credibility and reach, and built a business plan detailed enough in its cost and revenue projections to secure seed funding covering three years of operation.
+Also, we partnered with a well-known TV personality in Asia for credibility and reach, and we built a business plan detailed enough in its cost and revenue projections to secure seed funding covering three years of operation.
 
 ## The work
 

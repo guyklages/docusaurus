@@ -4,13 +4,13 @@
 
 ### Nium
 
-| Venue | <div style={{ width: '200px' }}>Topic</div> | <div style={{ width: '200px' }}>Audience</div> | Crowd size | Remarks |
+| Venue | <div style={{ width: '150px' }}>Topic</div> | <div style={{ width: '150px' }}>Audience</div> | Crowd size | Remarks |
 |-------|-------|----------|:----------:|---------|
 | Monthly [Nium events](https://www.nium.com/events) | - Fintech Meetup <br/> - Money20/20 <br/> - Money&nbsp;Street&nbsp;Fest | - Developers <br/> - PMs <br/> - payment leaders <br/> - treasury teams | 20+ | Panel discussions regarding trust, compliance, payments stack and other financial topics as well as how Nium can help |
 
 ### Couchbase
 
-| Venue | Topic | Audience | Crowd size | Remarks |
+| Venue | Topic | <div style={{ width: '150px' }}>Audience</div> | Crowd size | Remarks |
 |-------|-------|----------|:----------:|---------|
 | San Jose Convention Center | [Couchbase Connect](https://www.couchbase.com/resources/webcasts-and-events/) Hands-on query walkthrough | - Developers <br/> - techy PMs | 300+ | Projected a PowerPoint presentation while speaking and leading the crowd to build queries on their laptops while I did on my laptop |
 | Monthly [MeetUp](https://www.meetup.com/find/?keywords=Couchbase&source=EVENTS) groups | Couchbase NoSQL vs SQL | - Developers <br/> - DBAs | 20+ | Discussed various index and query types and use cases of Big Data |

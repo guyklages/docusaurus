@@ -291,7 +291,7 @@ To prevent this issue from recurring, move the AppStacks on the production datas
 
 
 
-## AppStack included in Writables
+## AppStack still in Writables
 
 #### Symptoms
 

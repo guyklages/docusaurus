@@ -38,7 +38,7 @@ For three thrilling years, I worked three roles from 9am to 10pm, six days per w
 - Content creator of class activities, weekend adventures, daily SMS, and textbooks
 - English teacher of all class types and student levels, as well as training other teachers
 
-Examples of our English classes:
+Examples of our 300+ English classes (called "Mini-Adventures"):
 
 | Topic           | Venue | Contents of 2-hour class |
 |-----------------|-------|--------------------------|

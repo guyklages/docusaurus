@@ -15,7 +15,7 @@ tags: [vm]
 - [AppStacks disabled after rescan](#rescan-disabled-appstacks)
 - [AppStacks not excluded from Writables](#appstack-included-in-writables)
 
-## -
+## &nbsp;
 
 ## Replace a UEM license file
 
@@ -41,7 +41,7 @@ The process of changing the license file is straightforward and you have two opt
 
 With the release of UEM 9.0 a change has been made to the license file check; on computers where the Horizon Agent is installed, a UEM license file is not needed. In this case the MSI installer will not ask you for a license file.
 
-## -
+## &nbsp;
 
 ## `Run Once` unwanted behavior
 

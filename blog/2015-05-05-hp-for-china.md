@@ -59,7 +59,7 @@ ALE's experiential learning model was a genuinely new approach that worked in Ta
 
 By the end of the second year, enrollment was up 400%, and students weren't just attending class––many were now planning to study at colleges in the US, UK, and Australia.
 
-By the end of the third year, we were teaching over 12,000 students across six major cities.
+By the end of the third year, we were teaching over 12,000 students across six major cities and many minor cities throughout China.
 
 ## The result
 

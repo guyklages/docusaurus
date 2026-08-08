@@ -35,8 +35,9 @@ For Eclipse, follow these steps:
 ## Collecting credit card info
 
 At some point in the flow of your app, you will want to obtain payment details from the user. There are 2 ways to do this:
-    • Use Android Pay to access your customer's stored card information
-    • Build your own credit card form
+
+- Use Android Pay to access your customer's stored card information.
+- Build your own credit card form.
 
 We recommend you to write your app to offer support for both.
 
@@ -283,7 +284,7 @@ If you plan to build your own form, make sure you will at least be able to colle
 
 Once you have collected a customer's information, you will need to exchange the information for a Stripe token.
 
-### Creating and validating cards from customer form
+### Creating cards from customer forms
 
 The first step is to import the Stripe classes before using them:
 
@@ -307,9 +308,10 @@ card.validateCVC();
 ```
 
 In the above example, the `Card` instance contains helpers to validate that:
-    • the card number passes the Luhn check
-    • the expiration date is in the future
-    • the CVC looks valid
+
+- the card number passes the Luhn check
+- the expiration date is in the future
+- the CVC looks valid
 
 You will probably want to validate these three things at once, so we have included a `validateCard` function that does so:
 

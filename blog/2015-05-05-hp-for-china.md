@@ -63,6 +63,6 @@ By the end of the third year, we were teaching over 12,000 students across six m
 
 ## The result
 
-The biggest result I'm proud of is that many students saw dramatic gains in both English ability and confidence and that dozens of them went on to study abroad, with some earning scholarships based on their English proficiency.
+The biggest result I'm proud of is that many students saw [dramatic gains in both English ability and confidence](../docs/portfolio/recommendations#talk-group---instructor) and that dozens of them went on to study abroad, with some earning scholarships based on their English proficiency.
 
 Our success caught the attention of Disney English, who were looking to enter China's ESL market. My business partners and I chose to accept the acquisition, allowing the business to expand beyond what we could have achieved independently.

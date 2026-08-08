@@ -39,8 +39,8 @@
 
 | Title | Code samples | Contents |
 |-------|--------------|----------|
-| [Android SDK for online payments](sdk-android-online-payments) | Java | Using Android Pay, collecting credit card info and payments, setting up an app, creating & using tokens, testing & deploying |
-| [iOS SDK for Apple Pay payments](sdk-ios-apple-pay-payments) | Swift <br/> Objective-C | Using Apple Pay, collecting credit card info, creating tokens, sending tokens to your server |
+| [SDK for Android payments](sdk-android-payments) | Java | Using Android Pay, collecting credit card info and payments, setting up an app, creating & using tokens, testing & deploying |
+| [SDK for iOS Apple Pay payments](sdk-ios-apple-pay-payments) | Swift <br/> Objective-C | Using Apple Pay, collecting credit card info, creating tokens, sending tokens to your server |
 | [Atelio web SDK documentation](https://guyklages.com/atelio/developers/web-sdk-documentation) |  | Requirements, importing, displaying, setting card PIN |
 
 ## KB
@@ -49,12 +49,12 @@
 
 | Title |
 |-------|
-| [AppStack exclusions are not excluded from Writables Volumes](kb-vmware#appstacks-not-excluded-from-writables) |
-| [After AppStack rescan, AppStacks is disabled or unprovisioned](kb-vmware#appstacks-disabled-after-rescan) |
+| [AppStack exclusions are not excluded from Writables Volumes](kb-vmware#appstacks-included-in-writables) |
+| [After AppStack rescan, AppStacks is disabled or unprovisioned](kb-vmware#rescan-disabled-appstacks) |
 | [Writables are not created upon login in a multi-vCenter environment](kb-vmware#writables-not-created) |
 | [How to install and use Log Collection with AppVolumes](kb-vmware#log-collection-usage) |
-| [Printers with ThinPrint default conflicts](kb-vmware#printers-with-thinprint-conflicts) |
-| [How to allowlist blocked application](kb-vmware#how-to-allowlist-blocked-applications) |
+| [Printers with ThinPrint default conflicts](kb-vmware#thinprint-conflicts) |
+| [How to allowlist blocked application](kb-vmware#allowlist-blocked-applications) |
 | [`Run Once` configurations that run multiple times](kb-vmware#run-once-unwanted-behavior) |
 | [How to replace an expired UEM licence file](kb-vmware#replace-a-uem-license-file) |
 

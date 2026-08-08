@@ -1,5 +1,5 @@
 ---
-title: Android SDK for online payments
+title: SDK for Android payments
 authors: [guyklages]
 tags: [fintech]
 ---

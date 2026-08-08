@@ -34,9 +34,9 @@ Also, we partnered with a well-known TV personality in Asia for credibility and 
 
 For three thrilling years, I worked three roles from 9am to 10pm, six days per week:
 
-- Database creator and administrator of all activities, teachers, and content
-- Content creator of class activities, weekend adventures, daily SMS, and textbooks
-- English teacher of all class types and student levels, as well as training other teachers
+- **Database creator** and administrator of all activities, teachers, and content
+- **Content creator** of class activities, weekend adventures, daily SMS, and textbooks
+- **English teacher** of all class types and student levels, as well as training other teachers
 
 Examples of our 300+ English classes (called "Mini-Adventures"):
 

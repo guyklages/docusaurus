@@ -13,22 +13,22 @@ I was confident because:
 
 - I had 5 years' experience teaching English to foreign exchange students in college.
 - I had 3 years' experience writing and improving curriculum for other teachers.
-- I had 6 years' experience designing and improving the database and CRM systems, starting with my computer science degree and continuing through my software engineering roles in Silicon Valley.
+- I had 6 years' experience designing and improving database and CRM systems, starting with my computer science degree and continuing through my software engineering roles in Silicon Valley.
 
 ## The calculated risk
 
 What made it calculated rather than reckless was that we weren't testing an idea, we were scaling a proven one. We already knew exactly what drove ALE's success in Taiwan:
 
-— engaging content
-- effective marketing
-- profitable sales
-- membership retention
-- teacher quality
-- venue selection
+- engaging content and activities
+- effective marketing plans
+- a proven sales strategy
+- membership acquisition and retention
+- teacher quality and personality
+- venue selection and negotiation
 
-We just needed to tweak aspects for the cultural differences between Taiwan and China. 
+We just needed to tweak aspects for the cultural differences between Taiwan and China.
 
-We partnered with a well-known TV personality in Asia for credibility and reach, and built a business plan detailed enough in its cost and revenue projections to secure seed funding covering three years of operating.
+We partnered with a well-known TV personality in Asia for credibility and reach, and built a business plan detailed enough in its cost and revenue projections to secure seed funding covering three years of operation.
 
 ## The work
 

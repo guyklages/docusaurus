@@ -40,7 +40,7 @@
 | Title | Code samples | Contents |
 |-------|--------------|----------|
 | [Android SDK for online payments](sdk-android-online-payments) | Java | Using Android Pay, collecting credit card info and payments, setting up an app, creating & using tokens, testing & deploying |
-| [iOS SDK for Apple Pay payments](dsk-ios-apple-pay-payments) | Swift <br/> Objective-C | Using Apple Pay, collecting credit card info, creating tokens, sending tokens to your server |
+| [iOS SDK for Apple Pay payments](sdk-ios-apple-pay-payments) | Swift <br/> Objective-C | Using Apple Pay, collecting credit card info, creating tokens, sending tokens to your server |
 | [Atelio web SDK documentation](https://guyklages.com/atelio/developers/web-sdk-documentation) |  | Requirements, importing, displaying, setting card PIN |
 
 ## KB

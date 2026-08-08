@@ -10,9 +10,9 @@
 
 ### Couchbase
 
-| Venue | Topic | <div style={{ width: '150px' }}>Audience</div> | Crowd size | Remarks |
+| Venue | Topic | <div style={{ width: '130px' }}>Audience</div> | Crowd size | Remarks |
 |-------|-------|----------|:----------:|---------|
-| San Jose Convention Center | [Couchbase Connect](https://www.couchbase.com/resources/webcasts-and-events/) Hands-on query walkthrough | - Developers <br/> - techy PMs | 300+ | Projected a PowerPoint presentation while speaking and leading the crowd to build queries on their laptops while I did on my laptop |
+| San Jose Convention Center | [Couchbase Connect](https://www.couchbase.com/resources/webcasts-and-events/) Hands-on query walkthrough | - Developers <br/> - techy PMs | 300+ | Projected a PowerPoint presentation while speaking and leading the crowd to build queries on their laptops while I did on mine |
 | Monthly [MeetUp](https://www.meetup.com/find/?keywords=Couchbase&source=EVENTS) groups | Couchbase NoSQL vs SQL | - Developers <br/> - DBAs | 20+ | Discussed various index and query types and use cases of Big Data |
 
 ## Blog posts

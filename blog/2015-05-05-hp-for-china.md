@@ -28,8 +28,6 @@ What made it calculated rather than reckless was that we weren't testing an idea
 - teacher quality and personality
 - venue selection and negotiation
 
-We just needed to tweak aspects for the cultural differences between Taiwan and China.
-
 We partnered with a well-known TV personality in Asia for credibility and reach, and built a business plan detailed enough in its cost and revenue projections to secure seed funding covering three years of operation.
 
 ## The work
@@ -59,7 +57,7 @@ ALE's experiential learning model was a genuinely new approach that worked in Ta
 | 2    | 500      | 2      |
 | 3    | 12,000+  | 6      |
 
-That shift worked. By the second year, enrollment was up more than 400%, and students weren't just attending class––many were now planning to study at colleges in the US, UK, and Australia.
+That shift worked. By the second year, enrollment was up 400%, and students weren't just attending class––many were now planning to study at colleges in the US, UK, and Australia.
 
 By the third year, we were teaching over 12,000 students across six major cities.
 

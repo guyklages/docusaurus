@@ -284,7 +284,7 @@ If you plan to build your own form, make sure you will at least be able to colle
 
 Once you have collected a customer's information, you will need to exchange the information for a Stripe token.
 
-### Creating cards from customer forms
+### Creating cards from a customer form
 
 The first step is to import the Stripe classes before using them:
 

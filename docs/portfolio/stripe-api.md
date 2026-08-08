@@ -11,7 +11,7 @@ The Stripe APIs are organized around [REST](https://en.wikipedia.org/wiki/REST).
 
 To make the API as explorable as possible, accounts have test mode and live mode API keys. There is no “switch” for changing between modes, just use the appropriate key to perform a live or test transaction. Requests made with test mode credentials never hit the banking networks and incur no cost.
 
-## -
+##  &nbsp; 
 
 ## Customers API
 
@@ -781,7 +781,7 @@ The following is an example response:
 }
 ```
 
-## -
+##  &nbsp; 
 
 ## Charge API
 
@@ -1407,7 +1407,7 @@ The following is an example response:
 }
 ```
 
-## -
+##  &nbsp; 
 
 ## Authentication API
 

@@ -8,12 +8,12 @@ tags: [vm]
 
 - [Replace a UEM license file](#replace-a-uem-license-file)
 - [`Run Once` unwanted behavior](#run-once-unwanted-behavior)
-- [How to allowlist blocked applications](#how-to-allowlist-blocked-applications)
-- [Printers with ThinPrint conflicts](#printers-with-thinprint-conflicts)
+- [How to allowlist blocked applications](#allowlist-blocked-applications)
+- [Printers with ThinPrint conflicts](#thinprint-conflicts)
 - [Log collection usage](#log-collection-usage)
 - [Writables not created](#writables-not-created)
-- [AppStacks disabled after rescan](#appstacks-disabled-after-rescan)
-- [AppStacks not excluded from Writables](#appstack-not-excluded-from-writables)
+- [AppStacks disabled after rescan](#rescan-disabled-appstacks)
+- [AppStacks not excluded from Writables](#appstack-included-in-writables)
 
 ## -
 
@@ -68,7 +68,7 @@ How to enable:
 
 ## -
 
-## How to allowlist blocked applications
+## Allowlist blocked applications
 
 #### Introduction
 
@@ -94,7 +94,7 @@ Create a `reg_sz` value with a random name, for instance `1` and make the value 
 
 ## -
 
-## Printers with ThinPrint conflicts
+## ThinPrint conflicts
 
 #### Symptoms
 
@@ -268,7 +268,7 @@ You need to follow these steps to import the group writable entry from the other
 
 ## -
 
-## AppStacks disabled after rescan
+## Rescan disabled AppStacks
 
 #### Symptoms
 
@@ -291,7 +291,7 @@ To prevent this issue from recurring, move the AppStacks on the production datas
 
 ## -
 
-## AppStack not excluded from Writables
+## AppStack included in Writables
 
 #### Symptoms
 

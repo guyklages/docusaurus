@@ -5,9 +5,11 @@ authors: [guyklages]
 tags: [seattle, celebrity]
 ---
 
+![Guy (Wulai) bungee jumping](../static/img/Guy-Wulai-bungee-jump.jpg)
+
 ## Introduction
 
-I left a stable software engineering role at HP in Mountain View to reunite with four former colleagues from Actual Living English (ALE), a highly successful experiential-learning school we'd worked together in Taiwan a few years earlier, to bet that the same model could work at 60 times the scale, in mainland China's ESL market.
+I left a stable software engineering role at HP in Mountain View to reunite with four former colleagues from Actual Living English (ALE), a highly successful experiential-learning school we'd worked together in Taiwan a few years earlier, to bet that the same model could work at 60 times the scale, in mainland China's English as a Second Language (ESL) market.
 
 I was confident because:
 
@@ -38,14 +40,25 @@ For three thrilling years, I worked three roles from 9am to 11pm, six days per w
 - Content creator of class activities, weekend adventures, daily SMS, and textbooks
 - English teacher of all class types and student levels, as well as training other teachers
 
+Examples of our English classes:
+
+| Topic           | Venue | Contents of 2-hour class |
+|-----------------|-------|--------------------------|
+| Pottery making  | A mall shop that teaches pottery making | - Vocabulary and phrases related to pottery making <br/> - 1-on-1 conversations about pottery <br/> - Hands-on molding of clay to make something |
+| SCUBA diving    | A public swimming pool | - Vocabulary and phrases related to SCUBA diving <br/> - 1-on-1 conversations about SCUBA diving <br/> - Suiting up in a wetsuit and exploring the pool |
+| Mexican culture | A Mexican restaurant | - Vocabulary and phrases related to Mexican food and culture <br/> - 1-on-1 conversations about Mexican food and culture <br/> - Eating and drinking Mexican food |
+| Bungee jumping  | A mountain with a river | - Vocabulary and phrases related to bungee jumping <br/> - 1-on-1 conversations about extreme sports <br/> - Suiting up and jumping off a bridge |
+
 ## The progress
 
-The first year was slow, since we had to introduce Chinese learners to a teaching style they'd never encountered.
+ALE's experiential learning model was a genuinely new approach that worked in Taiwan where we found immediate traction with open-minded families eager for an alternative to rote memorization. But in China, traditional learning methods were very ingrained, so it took many months of showing the Chinese concrete examples of how our learning method works before they were open to trying after being given a free week to attend our classes.
 
-The second year brought real growth and market penetration as we learned from our mistakes.
+That shift worked. By the second year, enrollment was up more than 300%, and students weren't just attending class––many were now planning to study at colleges in the US, UK, and Australia.
 
-By the third year, we were profitable in a field crowded with hundreds of competing English learning centers.
+By the third year, we were teaching over 12,000 students across four major cities.
 
 ## The result
 
-We were profitable enough that Disney English acquired us as their entry point into the Chinese ESL market.
+After three years, we had taught over 12,000 students total, many of whom saw dramatic gains in both English ability and confidence. Several went on to study abroad, with some earning scholarships based on their English proficiency.
+
+Our success caught the attention of Disney English, who were looking to enter China's ESL market. My business partners and I chose to accept the acquisition, allowing the business to expand beyond what we could have achieved independently.

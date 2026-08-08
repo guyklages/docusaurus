@@ -1,10 +1,10 @@
 ---
-title: 8 VMware KB articles
+title: VMware Knowledge Base articles
 authors: [guyklages]
 tags: [vm]
 ---
 
-## VMware Knowledge Base articles
+## VMware KB articles
 
 - [Replace a UEM license file](#replace-a-uem-license-file)
 - [`Run Once` unwanted behavior](#run-once-unwanted-behavior)

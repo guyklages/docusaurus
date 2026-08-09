@@ -11,11 +11,12 @@ tags: [seattle, celebrity]
 
 I left a stable software engineering role at HP in Mountain View to start an English school in China. I was reuniting with four former colleagues from Actual Living English (ALE), a highly successful experiential-learning school we'd worked together in Taiwan a few years earlier, to bet that the same model could work at 60 times the scale, in mainland China's <abbr title="English as a Second Language">ESL</abbr> market.
 
-I was confident because I had:
+I was confident I would do well because I had:
 
-- 5 years' experience teaching English to foreign exchange students in college.
-- 3 years' experience writing and improving curriculum for other teachers.
-- 6 years' experience designing and improving database and CRM systems, starting with my computer science degree and continuing through my software engineering roles in Silicon Valley.
+- 5 years' experience teaching English to foreign exchange students in college
+- 3 years' experience writing and improving curriculum for other teachers
+- 3 years' experience studying Chinese and using it while living in Taiwan
+- 6 years' experience designing and improving database and CRM systems, starting with my computer science degree and continuing through my software engineering roles in Silicon Valley
 
 ## The calculated risk
 

@@ -9,7 +9,7 @@ tags: [seattle, celebrity]
 
 ## Introduction
 
-I left a stable software engineering role at HP in Mountain View to reunite with four former colleagues from Actual Living English (ALE), a highly successful experiential-learning school we'd worked together in Taiwan a few years earlier, to bet that the same model could work at 60 times the scale, in mainland China's <abbr title="English as a Second Language">ESL</abbr> market.
+I left a stable software engineering role at HP in Mountain View to start an English school in China. I was reuniting with four former colleagues from Actual Living English (ALE), a highly successful experiential-learning school we'd worked together in Taiwan a few years earlier, to bet that the same model could work at 60 times the scale, in mainland China's <abbr title="English as a Second Language">ESL</abbr> market.
 
 I was confident because I had:
 
@@ -51,7 +51,7 @@ Examples of our 300+ English classes (called "Mini-Adventures"):
 
 ALE's experiential learning model was a genuinely new approach that worked in Taiwan where we found immediate traction with open-minded families eager for an alternative to rote memorization. But in China, traditional learning methods were very ingrained, so it took many months of showing the Chinese concrete examples of how our learning method works before they were open to trying. After offering them a free week to attend our classes, membership exploded.
 
-| Year | Students | Cities |
+| Year | Students | Cities (schools) |
 |:----:|:--------:|:------:|
 | 1    | 100      | 1      |
 | 2    | 500      | 2      |
@@ -59,7 +59,7 @@ ALE's experiential learning model was a genuinely new approach that worked in Ta
 
 By the end of the second year, enrollment was up 400%, and students weren't just attending class––many were now planning to study at colleges in the US, UK, and Australia.
 
-By the end of the third year, we were teaching over 12,000 students across six major cities and many minor cities throughout China.
+By the end of the third year, we were teaching over 12,000 students in six major cities throughout China.
 
 ## The result
 

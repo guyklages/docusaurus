@@ -113,7 +113,7 @@ presets: [
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: <abbr title="&#10;&#10; 你好，我是柯進強 &#10;&#10; 今日は、ガイ-クラゲスです">Hi, I\'m Guy Klages!</abbr>,
+        title: 'Hi, I\'m Guy Klages （柯進強、ガイ-クラゲス）',
         // logo: {
         //   alt: 'My Site Logo',
         //  src: 'img/Guy-suit-head-shot.png',

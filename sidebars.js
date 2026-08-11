@@ -50,7 +50,7 @@ const sidebars = {
         items: [
           {
             type: 'doc',
-            id: 'portfolio/most-impactful-technical-writing',
+            id: 'portfolio/most-impactful-tech-writing',
             label: 'Technical writing',
             className: 'portfolio-sidebar-item'
           },

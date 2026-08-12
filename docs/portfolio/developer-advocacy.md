@@ -112,7 +112,7 @@ Driver of growth
 On the [Couchbase SQL++ for Query Reference](https://docs.couchbase.com/cloud/n1ql/n1ql-language-reference/index.html) and Atelio documentation pages, I added a feedback mechanism that:
 
 - asks **_Is this page helpful? Yes/No_**
-- has a **_Leave Additional Feedback?_** link to send entered text to the technical writer for triage and ticket making
+- has a **_Leave Additional Feedback?_** box to send entered text to the technical writer for triage and ticket making
 
 
 ## Code samples I wrote

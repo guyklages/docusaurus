@@ -45,7 +45,7 @@
 
 ## KB
 
-### For WMware developers
+### For VMware developers
 
 | Title |
 |-------|

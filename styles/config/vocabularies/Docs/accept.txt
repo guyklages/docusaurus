@@ -33,6 +33,8 @@ Middesk
 Mintlify
 Moneysend
 navbar
+[Nn]etworker
+[Nn]etworkers
 Nium
 OAuth
 Ollama

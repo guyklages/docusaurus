@@ -9,14 +9,14 @@ tags: [linkedin, job-hunting, portfolio]
 
 ## Introduction
 
-Job hunting is a full-time job; and these are the things on LinkedIn that you can do to jumpstart your job-search or client-search while you're still working.
+Job hunting is a full-time job. Here are 15 things you can do on LinkedIn to kickstart your job search or client search while you're still working.
 
 You already know the basic advantages of a LinkedIn profile:
 
 - All your friends and contacts in one place—updated by them.
 - A free website to showcase your skills, experiences, certificates, articles, etc.
 
-...but did you know that LinkedIn supports media? Build your portfolio of work samples:
+But did you know that LinkedIn supports media? Build your portfolio of work samples:
 
 - Documents
 - Photos / screenshots
@@ -24,7 +24,7 @@ You already know the basic advantages of a LinkedIn profile:
 - Excel sheets
 - Videos
 
-_Before hiring or doing business with anyone, people and companies google a person's name. And the best way to "control" what those people/companies see is by having a LinkedIn profile summarize all the things you want people to read—in the order you want—since LinkedIn profiles are always in the top three Google Search results..._
+_Before hiring or doing business with anyone, people and companies google a person's name. And the best way to "control" what those people/companies see is by having a LinkedIn profile summarize all the things you want people to read—in the order you want—since LinkedIn profiles are always in the top three Google Search results._
 
 Since my current and six previous companies in the U.S. and Asia found me on LinkedIn (while I was working on my own projects), I'd like to share with you what I learned from other job-hunters, articles, resume workshops, and interview workshops that worked for me and dozens of my friends and clients.
 
@@ -32,13 +32,13 @@ Since my current and six previous companies in the U.S. and Asia found me on Lin
 
 It's a 3-step process:
 
-1. Add _all_ your resume info, skills, accomplishments and samples.
+1. Add _all_ your resume info, skills, accomplishments, and samples.
 2. Add _all_ the people you've ever worked with or studied with.
 3. Eventually, one of your contact's friends (or that friend's friend) will see you while searching for someone with your skills.
 
 
 
-This is a long article that details how to make the above third step a reality, so I strongly suggest you read each of the following items at least once.
+This is a long article that details how to make that third step a reality, so I strongly suggest you read each of the following items at least once.
 
 
 
@@ -47,13 +47,13 @@ This is a long article that details how to make the above third step a reality, 
 To prevent anyone from receiving emails when you make any edits to your LinkedIn profile:
 
 1. Hover over your photo/name in the upper right.
-2. Click **Privacy & Settings**.
+2. Select **Privacy & Settings**.
 3. Re-enter your password.
-4. In the _Profile_ section, click **Turn on/off your Activity Broadcasts**.
+4. In the _Profile_ section, select **Turn on/off your Activity Broadcasts**.
 5. Deselect the checkbox.
 
 
-## Add all of your names
+## Add all versions of your name
 
 If you speak another language, adding the 漢字, हिंदी, etc. versions of your name will make you appear more international and found by your other name. 
 
@@ -69,10 +69,10 @@ People/Colleges/Companies want to choose a human, not a hyperlink.
 
 Replace the long default URL with a personalized one such as `linkedin.com/in/myname` (the shorter, the better) so it can be used on your resume, business cards, website, any posters or marketing materials--and most importantly, verbally. 
 
-1. Click **Edit Profile** from the top menu bar.
+1. Select **Edit Profile** from the top menu bar.
 2. Your URL is under your profile photo.
-3. To the right of the URL, click the gear icon.
-4. In the upper right (Your Public Profile URL), click the blue pen icon. 
+3. To the right of the URL, select the gear icon.
+4. In the upper right (Your Public Profile URL), select the blue pen icon. 
 
 ## Add all experience info
 
@@ -146,13 +146,13 @@ One man I met at a Seattle Translation event noticed I played badminton in colle
 
 ## List your strongest Skills
 
-In the "Skills" section, add every skill you have so your connections can simply click the "+" button to endorse your skills. This is more meaningful (and believable) than self-claimed skills on a resume.
+In the "Skills" section, add every skill you have so your connections can simply select the "+" button to endorse your skills. This is more meaningful (and believable) than self-claimed skills on a resume.
 
 By default, the Skills are listed in descending order (most to least endorsed), but you can change that order to emphasize certain skills: 
 
-1. Hover over _Profile_ and click **Edit Profile**.
-2. Hover over the 2nd group of **also knows about** Skills and click anywhere on it.
-3. Click a Skill and drag it to the position you want it displayed.
+1. Hover over _Profile_ and select **Edit Profile**.
+2. Hover over the 2nd group of **also knows about** Skills and select anywhere on it.
+3. Select a Skill and drag it to the position you want it displayed.
 
 
 ## Add links

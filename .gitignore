@@ -20,6 +20,8 @@ yarn-debug.log*
 yarn-error.log*
 
 # Vale style packages are fetched via `vale sync`; only the hand-authored
-# vocabulary under styles/config is kept in version control.
+# vocabulary and rule overrides under styles/config and styles/Custom are
+# kept in version control.
 /styles/*
 !/styles/config
+!/styles/Custom

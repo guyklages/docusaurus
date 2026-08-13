@@ -67,7 +67,7 @@ People/Colleges/Companies want to choose a human, not a hyperlink.
 
 ## Personalize your URL
 
-Replace the long default URL with a personalized one such as `linkedin.com/in/myname` (the shorter, the better) so it can be used on your resume, business cards, website, any posters or marketing materials--and most importantly, verbally. 
+Replace the long default URL with a personalized one such as `linkedin.com/in/myname` (the shorter, the better) so it can be used on your resume, business cards, website, any posters or marketing materials——and most importantly, verbally. 
 
 1. Select **Edit Profile** from the top menu bar.
 2. Your URL is under your profile photo.
@@ -84,8 +84,8 @@ Replace the long default URL with a personalized one such as `linkedin.com/in/my
 ## Never add an experience of "LOOKING"
 
 - "Looking" is not a company.
-- Companies want to hire someone working, not idle or unemployed.
-- Appear employed: volunteer, teach, mentor, study, advise, or help others in any way—these are also a great way to network and meet a future employer or coworker!
+- Companies want to hire someone working, not someone who is idle or unemployed.
+- Appear employed: volunteer, teach, mentor, study, advise, or help others in any way——these are also a great way to network and meet a future employer or coworker!
 
 ## Add "Honors & Awards"
 
@@ -107,13 +107,13 @@ Replace the long default URL with a personalized one such as `linkedin.com/in/my
 
 ## Add all "Certifications"
 
-If you have earned any certificates or completed any trainings, add the "Certifications" section along with all of your certifications.
+If you have earned any certificates or completed any trainings, add the "Certifications" section along with all your certifications.
 
 ## Add all your work samples
 
 Pictures are worth a thousand words, and employers/recruiters want to _see_ what you have actually made and are capable of!
 
-Buy a domain with your name in it (prices have come way down!) and use PrestaShop or other website-making tool (there are so many!) and then add any type of file that shows your skills for managers to look at any time, especially: 
+Buy a domain with your name in it (prices have come way down!) and use PrestaShop or other website-making tool (there are so many!) and then add any type of file that shows your skills for managers to look at any time, especially:
 
 - Your resume in PDF format.
 - Reference Letters from previous managers and teachers.
@@ -123,7 +123,7 @@ Buy a domain with your name in it (prices have come way down!) and use PrestaSho
 
  ## Add a Summary
 
-Many people forget this section at the top, but it's a great place to:
+Many people forget the "Summary" section at the top, but it's a great place to:
 - Add a brief paragraph of your skills, career, goals, etc. to show your personality.
 - Add your email address and phone number so non-contacts can reach you.
 - Add your resume in PDF format.
@@ -140,7 +140,7 @@ Keep adding more Groups until you reach LinkedIn's maximum of 50.
 
 ## Add more "Interests"
 
-Sports/hobbies/forums that you like to play/watch/discuss should each be listed and separated by a comma. These are things you might have in common with contacts, and they make great conversation starters. 
+You should list all the sports/hobbies/forums that you like to play/watch/discuss separated by a comma. These are things you might have in common with contacts, and they make great conversation starters.
 
 One man I met at a Seattle Translation event noticed I played badminton in college and lived in Taipei, so he asked if I knew a person he played badminton with in Taipei who went to my college--and that person was a classmate of mine!
 
@@ -148,7 +148,7 @@ One man I met at a Seattle Translation event noticed I played badminton in colle
 
 In the "Skills" section, add every skill you have so your connections can simply select the "+" button to endorse your skills. This is more meaningful (and believable) than self-claimed skills on a resume.
 
-By default, the Skills are listed in descending order (most to least endorsed), but you can change that order to emphasize certain skills: 
+By default, LinkedIn lists your Skills in descending order (most to least endorsed), but you can change that order to emphasize certain skills:
 
 1. Hover over _Profile_ and select **Edit Profile**.
 2. Hover over the 2nd group of **also knows about** Skills and select anywhere on it.
@@ -157,7 +157,7 @@ By default, the Skills are listed in descending order (most to least endorsed), 
 
 ## Add links
 
-To your publications, personal website(s), blogs, patents, etc.
+To your publications, personal websites, blogs, patents, etc.
 
 <br/> ... _after_ you've done all those steps ... <br/>
 
@@ -174,11 +174,11 @@ The more connections you have, the more you will appear social and a team player
 
 When building a network, you want as many people as you know/trust; and when adding them, they'll appreciate you listing what you've been doing and what you're interested in now.  
 
-High school might seem long ago, but we've all had some great friendships back then that we lost touch with and can now easily find. Even the "jerks" in high school are not the same people now--especially if they're parents now--and they're eager to reconnect.  
+High school might seem long ago, but we've all had some great friendships back then that we lost touch with and can now readily find. Even the "jerks" in high school are not the same people now--especially if they're parents now--and they're eager to reconnect.  
 
 Even if certain friends aren't on LinkedIn now, check again after a few months since more and more people are joining all the time. 
 
-Adding people you know is great, but it's their friends they trust that makes LinkedIn such a powerful tool. Whether you're looking for a dentist, a programmer, a teacher, an accountant, a new client or a job--when you search LinkedIn for people, your friends' friends will appear at the top of the search results; so the more connections you have, the more trustworthy search results you'll have.
+Adding people you know is great, but it's their friends they trust that makes LinkedIn such a powerful tool. When you search LinkedIn for people, your friends' friends will appear at the top of the search results; so the more connections you have, the more trustworthy search results you'll have. This is great whether you're looking for a dentist, a programmer, a teacher, an accountant, a new client, or a job.
 
 ## Send Invite Requests
 
@@ -196,7 +196,7 @@ Open a free Google Voice account at [voice.google.com](https://voice.google.com)
 - to notify you when you're traveling abroad or are in a place without reception
 - to block spam callers
 
-Eventually, many recruiters or hiring managers will be calling you when you don't want to be disturned, and Google Voice makes it easy to "turn off" all calls by sending them straight to voicemail. Having a Google Voice number on your resume that forwards to your cell only when you're job hunting will reduce your stress greatly.
+Eventually, many recruiters or hiring managers will be calling you when you don't want to be disturbed, and Google Voice makes it easy to "turn off" all calls by sending them straight to voicemail. Having a Google Voice number on your resume that forwards to your cell only when you're job hunting will reduce your stress significantly.
 
 ----
 

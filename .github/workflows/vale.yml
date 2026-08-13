@@ -1,0 +1,31 @@
+name: Vale prose lint
+
+on:
+  pull_request:
+    paths:
+      - "blog/**"
+      - "docs/**"
+      - ".vale.ini"
+      - "styles/config/**"
+
+jobs:
+  vale:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+      checks: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Vale
+        uses: errata-ai/vale-action@v2
+        with:
+          files: '["blog", "docs"]'
+          # Only annotate lines actually added/changed in the PR, so the
+          # 10+ years of existing blog posts don't block unrelated PRs.
+          filter_mode: added
+          fail_on_error: true
+          reporter: github-pr-check
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

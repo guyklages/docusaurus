@@ -24,6 +24,17 @@ yarn build
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
+## Prose linting
+
+[Vale](https://vale.sh/) checks spelling, style, and grammar in `blog/` and `docs/`, combining the `write-good` and Microsoft style rules (see [`.vale.ini`](.vale.ini)).
+
+```bash
+brew install vale   # once, if not already installed
+npm run lint:prose
+```
+
+Pull requests touching `blog/` or `docs/` run the same check via [`.github/workflows/vale.yml`](.github/workflows/vale.yml), but only on added/changed lines — the existing archive isn't required to pass.
+
 ## Deployment
 
 Using SSH:

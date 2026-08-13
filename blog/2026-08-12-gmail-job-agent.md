@@ -337,7 +337,7 @@ launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.guyklages.gmail-job-
 
 Logs: `agent.log` in the project directory.
 
-### `launchctl unload`
+#### `launchctl unload`
 
 I tried to restart a service that _was never installed_:
 

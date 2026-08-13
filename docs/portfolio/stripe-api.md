@@ -4,6 +4,7 @@ authors: [guyklages]
 tags: [fintech]
 ---
 
+(This was written for a job interview)
 
 ## Introduction
 

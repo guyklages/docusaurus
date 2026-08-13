@@ -4,6 +4,8 @@ authors: [guyklages]
 tags: [fintech]
 ---
 
+(This was written for a job interview)
+
 ## Introduction
 
 This document provides knowledge in building the iOS app that accepts payment in iOS devices, with built-in support for Apple Pay.

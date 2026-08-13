@@ -20,7 +20,9 @@ I was confident I would do well because I had:
 
 ## The calculated risk
 
-What made it calculated rather than reckless was that we weren't testing a new idea, we were scaling a proven one. We already knew exactly what drove ALE's success in Taiwan:
+What made it calculated rather than reckless was that we weren't testing a new idea, we were scaling a proven one. 
+
+We already knew exactly what drove ALE's success in Taiwan:
 
 - engaging content and activities
 - effective marketing plans
@@ -29,15 +31,17 @@ What made it calculated rather than reckless was that we weren't testing a new i
 - teacher quality and personality
 - venue selection and negotiation
 
-Also, we partnered with a well-known TV personality in Asia for credibility and reach, and we built a business plan detailed enough in its cost and revenue projections to secure seed funding covering three years of operation.
+We partnered with a well-known TV personality in Asia for credibility and reach.
+
+And we built a business plan detailed enough in its cost and revenue projections to secure seed funding for three years of operation.
 
 ## The work
 
-For three thrilling years, I worked three roles from 9am to 10pm, six days per week:
+For three thrilling years, I worked three roles from 9 AM to 10 PM, six days per week:
 
 - **Database creator** and administrator of all activities, teachers, and content
 - **Content creator** of class activities, weekend adventures, daily SMS, and textbooks
-- **English teacher** of all class types and student levels, as well as training other teachers
+- **English teacher** of all class types, student levels, and incoming teachers
 
 Examples of our 300+ English classes (called "Mini-Adventures"):
 
@@ -50,7 +54,7 @@ Examples of our 300+ English classes (called "Mini-Adventures"):
 
 ## The progress
 
-ALE's experiential learning model was a genuinely new approach that worked in Taiwan where we found immediate traction with open-minded families eager for an alternative to rote memorization. But in China, traditional learning methods were very ingrained, so it took many months of showing the Chinese concrete examples of how our learning method works before they were open to trying. After offering them a free week to attend our classes, membership exploded.
+ALE's experiential learning model was a genuinely new approach that worked in Taiwan where we found immediate traction with open-minded families eager for an alternative to rote memorization. But in China, traditional learning methods were deeply ingrained. It took many months of showing the Chinese concrete examples of how our learning method works before they were open to trying. After offering them a free week to attend our classes, membership exploded.
 
 | Year | Students | Cities (schools) |
 |:----:|:--------:|:------:|
@@ -64,6 +68,6 @@ By the end of the third year, we were teaching over 12,000 students in six major
 
 ## The result
 
-The biggest result I'm proud of is that many students saw [dramatic gains in both English ability and confidence](/portfolio/recommendations#talk-group---instructor) and that dozens of them went on to study abroad, with some earning scholarships based on their English proficiency.
+The biggest result I'm proud of is that many students saw [dramatic gains in both English ability and confidence](/portfolio/recommendations#talk-group---instructor) and that dozens of them went on to study abroad, with some earning scholarships based on how well they'd learned to speak and write English.
 
 Our success caught the attention of Disney English, who were looking to enter China's ESL market. My business partners and I chose to accept the acquisition, allowing the business to expand beyond what we could have achieved independently.

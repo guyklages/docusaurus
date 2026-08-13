@@ -427,7 +427,7 @@ reply:
 
 ---
 
-### Stopping your agent
+### Stop your agent
 
 The methods below turn off everything, depending on how you started your agent.
 

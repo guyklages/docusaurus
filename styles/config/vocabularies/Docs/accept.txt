@@ -3,6 +3,8 @@ API
 APIs?
 Atelio
 autopay
+backend
+backgroup
 Beijing
 Bellevue
 [Bb]oolean
@@ -24,13 +26,24 @@ endDate
 enum
 [Ff]ileshare
 [Ff]intech
+gitignore
+gitignored
+Gmail
+Gmail API
+Google
+Google Cloud
+hardcoded
+hardcoding
 [Hh]elpdesk
 [Ii]dempotency
 impactful
 ISOs
+Klages
+[Ll]aunchd
 Mastercard
 Middesk
 Mintlify
+Mistral
 Moneysend
 navbar
 [Nn]etworker
@@ -44,6 +57,7 @@ Param
 payfac
 [Pp]ayin
 Payins?
+[Pp]list
 Powerpoint
 Powerwall
 [Pp]refund(ing)?
@@ -63,6 +77,7 @@ startDate
 Taipei
 Taiwan
 TEDx
+templated
 typedef
 vCenters?
 Visio

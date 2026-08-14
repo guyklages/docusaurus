@@ -4,7 +4,7 @@ authors: [guyklages]
 tags: [fintech]
 ---
 
-# Building a Local Gmail Job-Reply Agent with Mistral and Ollama
+# Building a local Gmail job-reply agent with Mistral and Ollama
 
 *How I built a privacy-first agent that drafts customized replies to recruiter emails without sending my inbox to the cloud.*
 
@@ -26,7 +26,7 @@ My target account: `guy.klages@gmail.com`
 
 ## Prerequisites
 
-Before writing an agent, you need to have a clear list of which emails should be replied to. I used Gmail's built-in Filters to distill which emails to target and then the built-in Labels feature to tag those filtered emails with a "Job" label.
+Before writing an agent, you need to have a clear list of which emails you want to reply to. I used Gmail's built-in Filters to distill which emails to target and then the built-in Labels feature to tag those filtered emails with a "Job" label.
 
 ### Important caveats
 
@@ -35,7 +35,7 @@ As you write your prompt, these are good things to keep in mind:
 | Advice               | Description |
 |----------------------|-------------|
 | Output to draft      | You will likely need to modify this email agent many times to perfect it, so you don't want this agent to auto-reply until after you've worked out all the kinks. |
-| Structured logging   | Log the subject, sender, classification result, and which conditional paragraphs were included to make debugging reply content easy. |
+| Structured logging   | Log the subject, sender, classification result, and the conditional paragraphs to make debugging reply content easy. |
 
 The overall process is:
 
@@ -52,9 +52,9 @@ I asked Cursor to build an agent to write a customized email reply to any email 
 
 **If the email lacks "Job ID"** (subject or body):
 
-> To prevent duplicate submission, please tell me the JOB ID.
+> To prevent duplicate submission, please tell me the **Job ID**.
 
-**If there's no numerical pay range:**
+**If there's no numeric pay range:**
 
 > California state law requires Job Descriptions to include the pay range. Please tell me their budgeted W2 pay range for this role.
 
@@ -265,7 +265,7 @@ The full reply is assembled from fixed strings.
 
 ## Step 5: Evolving requirements
 
-My first version _auto-sent_ replies and scanned all unread mail. After testing, I changed three things:
+My first version _automatically sent_ replies and scanned all unread mail. After testing, I changed three things:
 
 ### Auto-send → drafts
 
@@ -315,7 +315,7 @@ The inbox stays visually "unread" until I actually open the message.
 
 ## Step 6: Running the agent
 
-There are three ways you can run your agent.
+You can run your agent three ways:
 
 #### A) One-shot test
 
@@ -384,7 +384,7 @@ Legal name, birth month/day, citizenship lines belong in `config.yaml` (gitignor
 
 ### Test classification with real emails
 
-Mistral correctly classified "Backend Engineer opening" vs "Your Amazon order shipped" after the chat API fix—but your recruiter corpus may differ. Keep a `--once --verbose` loop handy.
+Mistral correctly classified "Backend Engineer opening" vs "Your Amazon order shipped" after the chat API fix, but your recruiter corpus may differ. Keep a `--once --verbose` loop handy.
 
 ### OAuth Desktop app, not Web
 
@@ -394,7 +394,7 @@ Web OAuth clients need redirect URI gymnastics. Desktop app + `run_local_server(
 
 Regex pay-range detection will miss edge cases such as "$140K DOE" and "€120k", so tune patterns from real emails. When in doubt, include the California pay-range ask since false positives are safer than false negatives.
 
-### Resume path: one canonical file
+### Resume path: One canonical file
 
 Point config at a single PDF. Update that file when you revise your resume; the agent will then always attach the latest.
 

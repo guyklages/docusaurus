@@ -5,6 +5,7 @@ Atelio
 autopay
 backend
 backgroup
+[Bb]itwise
 Beijing
 Bellevue
 [Bb]oolean
@@ -43,6 +44,7 @@ ISOs
 Klages
 [Ll]aunchd
 Mastercard
+Metaverse
 Middesk
 Mintlify
 Mistral
@@ -52,6 +54,7 @@ navbar
 [Nn]etworkers
 Nium
 OAuth
+[Oo]bjective-C
 Ollama
 [Oo]nboarded
 [Oo]nboarding
@@ -64,6 +67,8 @@ Powerpoint
 Powerwall
 [Pp]refund(ing)?
 Profiler
+[Qq]uickstart
+[Qq]uickstarts
 redirectUri
 repo
 rescan
@@ -91,4 +96,5 @@ Writables
 writables
 Wulai
 Xcode
+[Xx]fer
 Zapier

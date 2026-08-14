@@ -223,7 +223,7 @@ python3 -> python3.12
 python3.12 -> /Library/Frameworks/.../python3.12
 ```
 
-That's normal. `python` is a **symlink**, not a folder.
+That's normal. `python` is a <abbr title="A symlink (symbolic link) is an advanced computer shortcut. It points to another file or folder on your system. Opening a symlink opens the target file or folder without copying any data.">_symlink_</abbr>, not a folder.
 
 Run:
 

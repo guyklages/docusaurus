@@ -18,6 +18,9 @@ config
 Config
 Couchbase
 [Dd]atastore
+[Dd]efragment
+[Dd]efragmented
+[Dd]efragmenting
 Deliverables
 dev
 Docusaurus
@@ -67,6 +70,7 @@ Powerpoint
 Powerwall
 [Pp]refund(ing)?
 Profiler
+Promptless
 [Qq]uickstart
 [Qq]uickstarts
 redirectUri
@@ -81,6 +85,7 @@ Shanghai
 SIKT
 SMEs?
 startDate
+swimlane
 Taipei
 Taiwan
 TEDx

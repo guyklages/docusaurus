@@ -1,4 +1,4 @@
-# BEFORE and AFTER 
+# Before and After 
 
 This page lists UX/UI items I improved whose impact wasn't measured but did make items more readable and less error-prone.
 

@@ -173,7 +173,9 @@ Notes:
 
 ```bash
 brew install ollama
+
 brew services start ollama
+
 ollama pull mistral
 ```
 

@@ -83,7 +83,7 @@ const sidebars = {
     {
         type: 'doc',
         id: 'portfolio/before-and-after',
-        label: 'BEFORE and AFTER',
+        label: 'Before and After',
         className: 'portfolio-sidebar-item',
     },
     {

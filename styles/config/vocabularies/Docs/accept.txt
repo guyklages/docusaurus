@@ -37,6 +37,8 @@ hardcoding
 [Hh]elpdesk
 [Ii]dempotency
 impactful
+iPad
+iPads
 ISOs
 Klages
 [Ll]aunchd

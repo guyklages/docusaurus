@@ -28,6 +28,12 @@ My target account: `guy.klages@gmail.com`
 
 Before writing an agent, you need to have a clear list of which emails you want to reply to. I used Gmail's built-in Filters to distill which emails to target and then the built-in Labels feature to tag those filtered emails with a "Job" label.
 
+Stack:
+
+- **Python 3.12** + Gmail API
+- **Ollama** + **Mistral 7B** (local)
+- **Gmail filters** for the "Job" label (upstream of the agent)
+
 ### Important caveats
 
 As you write your prompt, these are good things to keep in mind:
@@ -118,11 +124,6 @@ gmail-job-agent/
 └── com.guyklages.gmail-agent.plist  # Optional macOS background job
 ```
 
-Stack:
-
-- **Python 3.12** + Gmail API
-- **Ollama** + **Mistral 7B** (local)
-- **Gmail filters** for the "Job" label (upstream of the agent)
 
 ---
 

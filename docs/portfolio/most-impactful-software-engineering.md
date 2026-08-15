@@ -10,7 +10,7 @@
 | [Redesigned their database tables; website ran about 12x faster](#12x-faster-warranty-website) | Hewlett-Packard <br/> <sup> _Mt. View, CA_ </sup> |
 | [Automated their label printing system; freed up 40% of staff's time](#40-increase-in-productivity) | Bridgestone <br/> <sup> _Bloomington, IL_ </sup> |
 | [Created a product ordering system that resulted in 0 wrong orders & 25% time saved](#0-wrong-orders--time-saved) | Pueblo Grocery <br/> <sup> _Miami, FL_ </sup> |
-| [Ran SQL queries to uncover a $1 million discrepency in monthly rent totals](#1-million-per-month-saved) | Mall landlord <br/> <sup> _Miami, FL_ </sup> |
+| [Ran SQL queries to uncover a $1 million discrepancy in monthly rent totals](#1-million-per-month-saved) | Mall landlord <br/> <sup> _Miami, FL_ </sup> |
 
 
 ## DB saved 50% time, effort
@@ -70,7 +70,7 @@
 
 ## $1 million per month saved
 
-#### Mall landlord (Miami, FL) –– <mark> Ran SQL queries to uncover a $1 million discrepency in monthly rent totals </mark>
+#### Mall landlord (Miami, FL) –– <mark> Ran SQL queries to uncover a $1 million discrepancy in monthly rent totals </mark>
 
 <!-- Aug 1998 - Sep 1998 -->
 

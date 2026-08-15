@@ -49,6 +49,7 @@ iPad
 iPads
 ISOs
 Klages
+Komodo
 [Ll]aunchd
 Mastercard
 Metaverse

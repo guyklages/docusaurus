@@ -4,19 +4,19 @@ authors: [guyklages]
 tags: [fintech]
 ---
 
-(This was written for a job interview)
+_(I wrote this for a job interview)_
 
 ## Introduction
 
-The Stripe APIs are organized around [REST](https://en.wikipedia.org/wiki/REST). They have predictable, resource-oriented URLs, and use HTTP response codes to indicate API errors. They use built-in HTTP features, like HTTP authentication and HTTP verbs, which are understood by off-the-shelf HTTP clients. They support [cross-origin resource sharing](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing), allowing you to interact securely with our API from a client-side web application (though you should never expose your secret API key in any public website’s client-side code).
+The Stripe APIs are organized around [REST](https://en.wikipedia.org/wiki/REST). They have predictable, resource-oriented URLs, and use HTTP response codes to indicate API errors. They use built-in HTTP features, like HTTP authentication and HTTP verbs, which off-the-shelf HTTP clients understand. They support [cross-origin resource sharing](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing), allowing you to interact securely with our API from a client-side web application (though you should never expose your secret API key in any public website’s client-side code).
 
-To make the API as explorable as possible, accounts have test mode and live mode API keys. There is no “switch” for changing between modes, just use the appropriate key to perform a live or test transaction. Requests made with test mode credentials never hit the banking networks and incur no cost.
+To make the API as explorable as possible, accounts have test mode and live mode API keys. Since nothing switches between modes, use the appropriate key to perform a live or test transaction. Requests made with test mode credentials never hit the banking networks and incur no cost.
 
 ##  &nbsp; 
 
 ## Customers API
 
-Customer objects allow you to perform recurring charges and track multiple charges that are associated with the same customer. The API allows you to create, delete, and update your customers. You can retrieve individual customers as well as list of all your customers.
+Customer objects allow you to perform recurring charges and track multiple charges from the same customer. The API allows you to create, delete, and update your customers. You can retrieve individual customers as well as list of all your customers.
 
 ### The `customer` object 
 
@@ -26,16 +26,16 @@ The following are the attributes in this feature.
 |-------------------|-----------|-------------------------|
 | `id`              | string    | The unique record ID    |
 | `object`          | string    | The value is `customer` | 
-| `account_balance` | integer   | Current balance, if any, being stored on the customer’s account. If negative, the customer has credit to apply to the next invoice. If positive, the customer has an amount owed that will be added to the next invoice. The balance does not refer to any unpaid invoices; it solely takes into account amounts that have yet to be successfully applied to any invoice. This balance is only taken into account for recurring billing purposes (i.e., subscriptions, invoices, invoice items). |
+| `account_balance` | integer   | Current balance, if any, is stored in the customer’s account. If negative, the customer has credit to apply to the next invoice. If positive, the customer has an amount owed that will be added to the next invoice. The balance does not refer to any unpaid invoices; it solely takes into account amounts that have yet to be successfully applied to any invoice. This balance is only taken into account for recurring billing purposes (that is, subscriptions, invoices, invoice items). |
 | `business_vat_id` | string    | The customer’s VAT identification number |
-| `created`         | timestamp | The date and time the record was created |
-| `currency`        | string    | The currency the customer can be charged in for recurring billing purposes. |
+| `created`         | timestamp | The record creation date and time |
+| `currency`        | string    | The currency used for charging the customer recurring bills. |
 | `default_source`  | string    | ID of the default source attached to this customer |
-| `delinquent`      | boolean   | Whether or not the latest charge for the customer’s latest invoice has failed |
+| `delinquent`      | boolean   | The value is `true` if the customer's latest invoice charge failed. |
 | `description`     | string    | Remarks about the record |
 | `discount`        | hash      | Describes the current discount active on the customer, if there is one. |
 | `email`           | string    |  |
-| `livemode`        | boolean   | Whether or not `livemode` is on | 
+| `livemode`        | boolean   | The value is `true` if `livemode` is on. | 
 | `metadata`        | string    | A set of key/value pairs that you can attach to a customer object. It can be useful for storing additional information about the customer in a structured format. |
 | [`shipping`](#customer-shipping) | hash | Shipping information associated with the customer |
 | [`sources`](#customer-sources)   | list | The customer’s payment sources, if any |
@@ -69,10 +69,10 @@ The following are the `customer-sources` object's child attributes.
 | Attribute     | Type      | Description             |
 |---------------|-----------|-------------------------|
 | `object`      | string    | Value is `list`         |
-| `data`        | array     | The list contains all payment sources that have been attached to the customer. These may be Cards or BitcoinReceivers. |
-| `has_more`    | boolean   | Whether or not there are more records |
+| `data`        | array     | The list contains all customer payment sources. These may be Cards or BitcoinReceivers. |
+| `has_more`    | boolean   | The value is `true` if there are more records. |
 | `total_count` | positive integer or zero | The total number of items available. This value is not included by default, but you can request it by specifying `?include[]=total_count`. |
-| `url`         | string    | The URL where this list can be accessed. |
+| `url`         | string    | The URL where you can access this list. |
 
 #### `customer-subscriptions`
 
@@ -80,11 +80,11 @@ The following are the `customer-subscriptions` object's child attributes.
 
 | Attribute     | Type      | Description             |
 |---------------|-----------|-------------------------|
-| `object`      | string    | Value is `list`         |
-| `data`        | array     | The list contains all payment sources that have been attached to the customer. These may be Cards or BitcoinReceivers. |
-| `has_more`    | boolean   | Whether or not there are more records |
+| `object`      | string    | The value is `list`.         |
+| `data`        | array     | The list contains all customer payment sources. These may be Cards or BitcoinReceivers. |
+| `has_more`    | boolean   | The value is `true` if there are more records. |
 | `total_count` | positive integer or zero | The total number of items available. This value is not included by default, but you can request it by specifying `?include[]=total_count`. |
-| `url`         | string    | The URL where this list can be accessed. |
+| `url`         | string    | The URL where you can access this list. |
 
 The following is an example response: 
 
@@ -187,18 +187,18 @@ The following are the _optional_ arguments in this feature.
 
 | Argument          | Description |
 |-------------------|-------------|
-| `account_balance` | An integer amount in cents that is the starting account balance for your customer. A negative amount represents a credit that will be used before attempting any charges to the customer’s card; a positive amount will be added to the next invoice. |
+| `account_balance` | An integer amount in cents that is your customer's starting account balance. A negative amount represents a credit that will be used before attempting any charges to the customer’s card; a positive amount will be added to the next invoice. |
 | `business_vat_id` | The customer’s VAT identification number |
 | `coupon` | If you provide a coupon code, the customer will have a discount applied on all recurring charges. Charges you create through the API will not have the discount. |
-| `description` | An arbitrary string that you can attach to a customer object. It is displayed alongside the customer in the dashboard. This will be unset if you POST an empty value.This can be unset by updating the value to `Null` and then saving. |
+| `description` | An arbitrary string that you can attach to a customer object. The dashboard displays it alongside the customer. This will be unset if you POST an empty value. You can unset this by updating the value to `Null` and then saving. |
 | `email` | Customer’s email address. It’s displayed alongside the customer in your dashboard and can be useful for searching and tracking. This will be unset if you POST an empty value. This can be unset by updating the value to `Null` and then saving. |
-| metadata | A set of key/value pairs that you can attach to a customer object. It can be useful for storing additional information about the customer in a structured format. This will be unset if you POST an empty value.This can be unset by updating the value to `Null` and then saving. 
-| plan | The identifier of the plan to subscribe the customer to. If provided, the returned customer object will have a list of subscriptions that the customer is currently subscribed to. If you subscribe a customer to a plan without a free trial, the customer must have a valid card as well. |
-| quantity | The quantity you’d like to apply to the subscription you’re creating (if you pass in a `plan`). For example, if your plan is 10 cents/user/month, and your customer has 5 users, you could pass 5 as the quantity to have the customer charged 50 cents (5 x 10 cents) monthly. Defaults to `1` if not set. Only applies when the `plan` parameter is also provided. |
+| `metadata` | A set of key/value pairs that you can attach to a customer object. It can be useful for storing additional information about the customer in a structured format. This will be unset if you POST an empty value. This can be unset by updating the value to `Null` and then saving. 
+| `plan` | The identifier of the plan to subscribe the customer to. If provided, the returned customer object will have a list of subscriptions that the customer is currently subscribed to. If you subscribe a customer to a plan without a free trial, the customer must have a valid card as well. |
+| `quantity` | The quantity you’d like to apply to the subscription you’re creating (if you pass in a `plan`). For example, if your plan is 10 cents/user/month, and your customer has 5 users, you could pass 5 as the quantity to have the customer charged 50 cents (5 x 10 cents) monthly. Defaults to `1` if not set. Only applies when the `plan` parameter is also provided. |
 | [`shipping`](#shipping) | The shipping address | 
 | [`source`](#source) | The source can either be a token, like the ones returned by our Stripe.js, or a dictionary containing a user’s credit card details. |
-| `tax_percent` | A positive decimal (with at most two decimal places) between 1 and 100. This represents the percentage of the subscription invoice subtotal that will be calculated and added as tax to the final amount each billing period. For example, a plan which charges $10/month with a `tax_percent` of 20.0 will charge $12 per invoice. Can only be used if a plan is provided. |
-| `trial_end` | Unix timestamp representing the end of the trial period the customer will get before being charged. If set, `trial_end` will override the default trial period of the plan the customer is being subscribed to. The special value now can be provided to end the customer’s trial immediately. Only applies when the plan parameter is also provided. |
+| `tax_percent` | A positive decimal (with at most two decimal places) between 1 and 100. This represents the percentage of the subscription invoice subtotal that will be calculated and added as tax to the final amount each billing period. For example, a plan which charges $10/month with a `tax_percent` of 20.0 will charge $12 per invoice. You can use this only if you provide a plan. |
+| `trial_end` | Unix timestamp representing the end of the trial period before the customer is charged. If set, `trial_end` will override the default trial period of the customer's subscribed plan. This field applies only when the `plan` parameter is also provided. |
 
 #### `create-shipping`
 
@@ -229,7 +229,7 @@ The following are the `create-source` object's child arguments.
 
 | Argument    | Condition | Description |
 |-------------|-----------|-------------|
-| `object`    | Required  | The type of payment source. Should be `card` |
+| `object`    | Required  | The payment source type, such as `card` |
 | `exp_month` | Required  | Two-digit number representing the card’s expiration month |
 | `exp_year`  | Required  | Two- or four-digit number representing the card’s expiration year |
 | `number`    | Required  | The card number, as a string without any separators |
@@ -239,9 +239,9 @@ The following are the `create-source` object's child arguments.
 | `address_line2`   | Optional | The source's building / company name |
 | `address_state`   | Optional | The source's state |
 | `address_zip`     | Optional | The source's zip / postal code |
-| `currency`        | Managed Accounts Only | Required when adding a card to an account (not applicable to a customers or recipients). The card (which must be a debit card) can be used as a transfer destination for funds in this currency. Currently, the only supported currency for debit card transfers is `usd`. | 
-| `cvc`   | Required | Card security code. Required unless your account is registered in Australia, Canada, or the United States. Highly recommended to always include this value. |
-| `default_for_currency` | Managed Accounts Only | Only applicable on accounts (not customers or recipients). If you set this to `true` (or if this is the first external account being added in this currency) this card will become the default external account for its currency. |
+| `currency`        | Managed Accounts Only | Required when adding a card to an account (not applicable to a customers or recipients). You can use a debit card as a transfer destination for funds in this currency. The only supported currency for debit card transfers is `usd`. | 
+| `cvc`   | Required | Card security code. Banks require a `cvc` unless you registered your account in Australia, Canada, or the United States. We highly recommend to always include this value. |
+| `default_for_currency` | Managed Accounts Only | Only applicable to accounts, not customers or recipients. If you set this to `true` (or if this is the first external account added in this currency), this card becomes the default external account for its currency. |
 | `metadata` | Optional | A set of key/value pairs that you can attach to a card object. It can be useful for storing additional information about the card in a structured format. |
 | `name` | Optional | Cardholder’s full name |
 
@@ -259,9 +259,9 @@ Customer.create(customerParams);
 
 #### Returns customer
 
-Returns a customer object if the call succeeded. The returned object will have information about subscriptions, discount, and payment sources, if that information has been provided. If an invoice payment is due and a source is not provided, the call will raise an error. If a non-existent plan or a non-existent or expired coupon is provided, the call will raise an error.
+Returns a customer object if the call succeeded. The returned object has information about subscriptions, discount, and payment sources, if provided. If an invoice payment is due without a source, the call raises an error. If a non-existent or expired plan or coupon is provided, the call raises an error.
 
-If a source has been attached to the customer, the returned customer object will have a `default_source` attribute, which is an ID that can be expanded into the full source details when retrieving the customer.
+If the customer has a source, the returned customer object will have a `default_source` attribute, which is an ID that can be expanded into the full source details when retrieving the customer.
 
 The following is an example response:
 
@@ -313,7 +313,7 @@ Customer.retrieve("cus_8JNO6XkCpsjc7s");
 
 #### Returns customer
 
-Returns a customer object if a valid identifier was provided. When requesting the ID of a customer that has been deleted, a subset of the customer’s information will be returned, including a `deleted` property, which will be true. 
+Returns a customer object if a valid identifier was provided. When requesting the ID of a deleted customer, a subset of the customer’s information will be returned, including a `deleted` property of `true`.
 
 The following is an example response:
 
@@ -378,9 +378,13 @@ com.stripe.model.Customer JSON: {
 
 ### Update a customer
 
-Updates the specified customer by setting the values of the parameters passed. Any parameters not provided will be left unchanged. For example, if you pass the source parameter, that becomes the customer’s active source (e.g., a card) to be used for all charges in the future.
+Updates the specified customer by setting the values of the parameters passed. Any parameters not provided remain unchanged. For example, if you pass the source parameter, that becomes the customer’s active source (for example, a card) for all charges in the future.
 
-When you update a customer to a new valid source: for each of the customer’s current subscriptions, if the subscription is in the past_due state, then the latest unpaid, unclosed invoice for the subscription will be retried (note that this retry will not count as an automatic retry, and will not affect the next regularly scheduled payment for the invoice. Note also that no invoices pertaining to subscriptions in the unpaid state, or invoices pertaining to canceled subscriptions, will be retried as a result of updating the customer’s source.)
+When you update a customer to a new valid source: for each of the customer’s current subscriptions, if the subscription is in the `past_due` state, then the latest unpaid, unclosed invoice for the subscription will be retried.
+
+**Note**: This retry will not count as an automatic retry, and will not affect the next regularly scheduled payment for the invoice.
+
+**Note**: No invoices pertaining to subscriptions in the unpaid state, or invoices pertaining to canceled subscriptions, will be retried as a result of updating the customer’s source.
 
 This request accepts mostly the same arguments as the customer creation call.
 
@@ -399,12 +403,12 @@ The following are the _optional_ arguments in this feature.
 | Argument          | Description |
 |-------------------|-------------|
 | `account_balance` | An integer amount in cents that represents the account balance for your customer. Account balances only affect invoices. A negative amount represents a credit that decreases the amount due on an invoice; a positive amount increases the amount due on an invoice. |
-| `busines_vat_id`  | The customer’s VAT identification number. 
+| `busines_vat_id`  | The customer’s VAT identification number.
 | `coupon`          | If you provide a coupon code, the customer will have a discount applied on all recurring charges. Charges you create through the API will not have the discount. |
  `default_source`   | ID of source to make the customer’s new default for invoice payments |
-| `description`     | An arbitrary string that you can attach to a customer object. It is displayed alongside the customer in the dashboard. This will be unset if you POST an empty value. This can be unset by updating the value to `Null` and then saving. |
+| `description`     | An arbitrary string that you can attach to a customer object. The dashboard displays it alongside the customer. This will be unset if you POST an empty value. You can unset this by updating the value to `Null` and then saving. |
 | `email`           | Customer’s email address. It’s displayed alongside the customer in your dashboard and can be useful for searching and tracking. This will be unset if you POST an empty value. This can be unset by updating the value to `Null` and then saving. |
- `metadata`         | A set of key/value pairs that you can attach to a customer object. It can be useful for storing additional information about the customer in a structured format. This will be unset if you POST an empty value.This can be unset by updating the value to `Null` and then saving. |
+ `metadata`         | A set of key/value pairs that you can attach to a customer object. It can be useful for storing additional information about the customer in a structured format. This will be unset if you POST an empty value. You can unset this by updating the value to `Null` and then saving. |
 | [`shipping`](#update-shipping) | 
 | [`source`](#update-source) | The source can either be a token, like the ones returned by our Stripe.js, or a dictionary containing a user’s credit card details (with the options shown below). Passing source will create a new source object, make it the new customer default source, and delete the old customer default if one exists. If you want to add additional sources instead of replacing the existing default, use the card creation API. Whenever you attach a card to a customer, Stripe will automatically validate the card. |
 
@@ -447,7 +451,7 @@ The following are the `update-source` object's child arguments.
 | `address_line2`   | Optional  | The update source address' building / suite / company name |
 | `address_state`   | Optional  | The update source address' state |
 | `address_zip`     | Optional  | The update source address' zip / postal code |
-| `currency`        | Managed Accounts Only | Required when adding a card to an account (not applicable to a customers or recipients). The card (which must be a debit card) can be used as a transfer destination for funds in this currency. Currently, the only supported currency for debit card transfers is `usd`. |
+| `currency`        | Managed Accounts Only | Required when adding a card to an account (not applicable to a customers or recipients). You can use the debit card as a transfer destination for funds in this currency. The only supported currency for debit card transfers is `usd`. |
 | `cvc`             | Required | Card security code. Required unless your account is registered in Australia, Canada, or the United States. Highly recommended to always include this value. |
 | `default_for_currency` | Managed Accounts Only | Only applicable on accounts (not customers or recipients). If you set this to `true` (or if this is the first external account being added in this currency) this card will become the default external account for its currency. |
 | `metadata`        | Optional | A set of key/value pairs that you can attach to a card object. It can be useful for storing additional information about the card in a structured format. |
@@ -466,7 +470,7 @@ cu.update(updateParams);
 
 #### Returns update
 
-Returns the customer object if the update succeeded. Throws an error if update parameters are invalid (e.g. specifying an invalid coupon or an invalid source). 
+Returns the customer object if the update succeeded. Throws an error if update parameters are invalid (for example, specifying an invalid coupon or an invalid source).
 
 The following is an example response:
 
@@ -658,7 +662,7 @@ Customer cu = Customer.retrieve("cus_8JNmQG7nBfcoHK"); cu.delete();
 
 Returns an object with a deleted parameter on success. If the customer ID does not exist, this call raises an error.
 
-Unlike other objects, deleted customers can still be retrieved through the API, in order to be able to track the history of customers while still removing their credit card details and preventing any further operations to be performed (such as adding a new subscription).
+Unlike other objects, you can still retrieve deleted customers through the API to be able to track the history of customers while still removing their credit card details and preventing any further operations to be performed (such as adding a new subscription).
 
 The following is an example response:
 
@@ -681,8 +685,8 @@ The following are the _optional_ arguments in this feature.
 |------------------|-------------|
 | [`created`](#list-created) | A filter on the list based on the object `created` field. The value can be a string with an integer Unix timestamp, or it can be a dictionary with the other options. |
 | `customer`       | Only return charges for the customer specified by this customer ID |
-| `ending_before`  | A cursor for use in pagination. ending_before is an object ID that defines your place in the list. For instance, if you make a list request and receive 100 objects, starting with `obj_bar`, your subsequent call can include `ending_before=obj_bar` in order to fetch the previous page of the list. |
-| `limit` | A limit on the number of objects to be returned. Limit can range between 1 and 100 items. Default is 10. |
+| `ending_before`  | A cursor for use in pagination. ending_before is an object ID that defines your place in the list. For instance, if you make a list request and receive 100 objects, starting with `obj_bar`, your subsequent call can include `ending_before=obj_bar` to fetch the previous page of the list. |
+| `limit` | A limit on the number of returned objects. Limit can range between 1 and 100 items. Default is 10. |
 | `starting_after` | A cursor for use in pagination. `starting_after` is an object ID that defines your place in the list. For example, if you make a list request and receive 100 objects, ending with `obj_foo`, your subsequent call can include `starting_after=obj_foo` to fetch the next page of the list. |
 
 #### `list-created`
@@ -786,7 +790,7 @@ The following is an example response:
 
 ## Charge API
 
-To charge a credit or a debit card, you create a charge object. You can retrieve and refund individual charges as well as list all charges. Charges are identified by a unique random ID. 
+To charge a credit or a debit card, you create a charge object. You can retrieve and refund individual charges as well as list all charges. You can identify charges by their unique, random ID.
 
 ### The `charge` object 
 
@@ -800,20 +804,20 @@ The following table lists the attributes in the `charge` object.
 | `amount_refunded` | positive integer or zero | Amount in cents refunded (can be less than the amount attributes on the charge if a partial refund was issued) |
 | `application_fee` | string | The application fee (if any) for the charge |
 | `balance_transaction` | string | ID of the balance transaction that describes the impact of this charge on your account balance (not including refunds or disputes) |
-| `captured`        | boolean   | If the charge was created without capturing, this boolean represents whether or not it is still uncaptured or has since been captured |
-| `created`         | timestamp | The date the charge was created |
-| `currency`        | currency  | Three-letter ISO currency code representing the currency in which the charge was made |
+| `captured`        | boolean   | This value is `true` if the charge was created without capturing |
+| `created`         | timestamp | The charge's creation date |
+| `currency`        | currency  | Three-letter ISO currency code of the charge |
 | `customer`        | string    | ID of the customer this charge is for if one exists |
 | `description`     | string    | Remarks about the charge |
 | `destination`     | string    | The account (if any) the charge was made on behalf of |
-| `disputes`        | hash      | Details about the dispute if the charge has been disputed |
+| `disputes`        | hash      | Details about the dispute, if applicable |
 | `failure_code`    | string    | Error code explaining reason for charge failure, if available |
 | `failure_message` | string    | Message to user further explaining reason for charge failure, if available |
-| `fraud_details`   | hash      | Hash with information on fraud assessments for the charge. Assessments reported by you have the key `user_report` and, if set, possible values of `safe` and `fraudulent`. Assessments from Stripe have the key `stripe_report` and, if set, the value `fraudulent`. | 
-| `invoice`         | string    | ID of the invoice this charge is for, if one exists |
-| `livemode`        | boolean   | Default is `false` | 
-| `metadata`        | integer   | A set of key/value pairs that you can attach to a charge object. It can be useful for storing additional information about the charge in a structured format |
-| `order`           | string    | ID of the order this charge is for, if one exists |
+| `fraud_details`   | hash      | Hash with information on fraud assessments for the charge. Assessments reported by you have the key `user_report` with the valid values of `safe` and `fraudulent`. Assessments from Stripe have the key `stripe_report` with the valid value of `fraudulent`. |
+| `invoice`         | string    | ID of the charge's invoice, if one exists |
+| `livemode`        | boolean   | Default is `false` |
+| `metadata`        | integer   | A set of key/value pairs that you can attach to a charge object for storing additional information about the charge in a structured format |
+| `order`           | string    | ID of the charge's order, if one exists |
 | `paid`            | boolean   | `true` if the charge succeeded, or was successfully authorized for later capture |
 | `receipt_email`   | string    | The email address that the receipt for this charge was sent to |
 | `receipt_number`  | string    | The transaction number that appears on email receipts sent for this charge |

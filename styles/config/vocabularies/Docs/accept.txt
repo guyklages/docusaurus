@@ -1,3 +1,4 @@
+Airtable
 allowlist
 Android
 Android Pay
@@ -47,6 +48,7 @@ endDate
 enum
 explorable
 FAQ
+Figma
 [Ff]ileshare
 [Ff]intech
 GCC
@@ -127,6 +129,7 @@ Python
 [Qq]uickstarts
 RAM
 redirectUri
+Redocly
 REPL
 repo
 rescan
@@ -146,6 +149,7 @@ SSL
 Shanghai
 SIKT
 SMEs?
+Sphinx
 startDate
 SVG
 Swift

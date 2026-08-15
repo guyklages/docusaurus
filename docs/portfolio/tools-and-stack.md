@@ -21,12 +21,12 @@
 
 ## Also proficient in
 
-| Type | Tool |
-|------|------|
+| Type      | Tool |
+|-----------|------|
 | Authoring | Docs-as-code, Sphnix, LaTeX, MacTex, AsciiDoc, GovCloud, Mintlify, MkDocs, Redocly, RST, Texts |
 | API       | SOAP, cURL |
 | CI/CD     | CircleCI, Jekyll, Jenkins, Screwdriver, Kubernetes |
-| Languges  | OOP, C++, Java, MVC, NPM, VB |
+| Languages | OOP, C++, Java, MVC, NPM, VB |
 | Diagrams  | ArchiMate, OmniGraffle, LucidChart, PaintShop Pro, Sketch, UML | 
 | Big Data  | Apache: Doppler, Hadoop, HBase, Hive, Kafka, Jupyter, Shell, Spark; PyTorch, TensorFlow |
 | Databases | ERP, MRP, CRM, Clarify |

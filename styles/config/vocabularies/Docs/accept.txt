@@ -8,6 +8,7 @@ backgroup
 [Bb]itwise
 Beijing
 Bellevue
+blocklist
 [Bb]oolean
 Bridgestone
 Camtasia
@@ -40,6 +41,8 @@ Google Cloud
 hardcoded
 hardcoding
 [Hh]elpdesk
+http
+https
 [Ii]dempotency
 impactful
 iPad
@@ -92,7 +95,9 @@ Taiwan
 Talk Group
 TEDx
 templated
+ThinPrint
 typedef
+unprovisioned
 vCenters?
 Visio
 VMware

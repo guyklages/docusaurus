@@ -12,7 +12,7 @@ tags: [vm]
 - [Printers with ThinPrint conflicts](#thinprint-conflicts)
 - [Log collection usage](#log-collection-usage)
 - [Writables not created](#writables-not-created)
-- [AppStacks disabled after rescan](#rescan-disabled-appstacks)
+- [AppStacks turned off after rescan](#rescan-turned-off-appstacks)
 - [AppStacks not excluded from Writables](#appstack-included-in-writables)
 
 ##  &nbsp; 
@@ -21,13 +21,13 @@ tags: [vm]
 
 #### Symptoms
 
-You have an expired UEM license file that needs to be replaced.
+You have an expired UEM license file.
 
 #### Resolution
 
-VMware UEM stores the license file locally on each computer where the UEM agent is installed.
+VMware UEM stores the license file locally on each computer where your company installed the UEM agent.
 
-The license file is stored in the installation folder of the UEM agent. The default location of the license file is `C:\Program Files\Immidio\Flex Profiles\FlexEngine.lic`
+You can find the license in the installation folder of the UEM agent. The default location of the license file is `C:\Program Files\Immidio\Flex Profiles\FlexEngine.lic`
 
 The process of changing the license file is straightforward and you have two options:
 
@@ -37,9 +37,9 @@ The process of changing the license file is straightforward and you have two opt
 | Option | Description |
 |:------:|-------------|
 | A      | If you run a newer version of the UEM installer, the MSI installer will ask you for a license file. If you specify a new license file, the MSI installer will copy that new license file to the local installation folder of UEM during the upgrade. This works for both manual and unattended MSI installations. |
-| B      | If you have a new license file, you can simply rename that file to “FlexEngine.lic” and copy it to the installation folder of the UEM agent, overwriting the exiting license file. This needs to be done for each computer where the UEM agent is installed. |
+| B      | If you have a new license file, you can simply rename that file to “FlexEngine.lic” and copy it to the installation folder of the UEM agent, overwriting the exiting license file. You need to do this for each computer where the UEM agent is installed. |
 
-With the release of UEM 9.0 a change has been made to the license file check; on computers where the Horizon Agent is installed, a UEM license file is not needed. In this case the MSI installer will not ask you for a license file.
+UEM 9.0 made a change to the license file check; on computers that have Horizon Agent, you don't need a UEM license file. In this case, the MSI installer will not ask you for a license file.
 
 ##  &nbsp; 
 
@@ -47,13 +47,13 @@ With the release of UEM 9.0 a change has been made to the license file check; on
 
 #### Symptoms
 
-The checkbox `Run Once` for UEM configurations (like shortcuts) can still run multiple times when a Local User Profile is used. This could be unwanted behavior of UEM, and this KB describes how to change this behavior to really run once.
+The checkbox `Run Once` for UEM configurations (like shortcuts) still allows a Local User Profile to run multiple times. This might be unwanted behavior of UEM, and this KB describes how to change this behavior to really run once.
 
 #### Resolution
 
 User Environment Manager has support for a `runOnceSpecial` attribute in UEM XML configuration files (like shortcuts and printer mappings for example).
 
-If this attribute is used, it only has effect if `run-once` is enabled, and the User Profile type is `local`.
+If you used this attribute, it has effect only if `run-once` is turned on and if the User Profile type is `local`.
 
 This is how the behavior works technically:
 
@@ -62,7 +62,7 @@ This is how the behavior works technically:
 
 How to enable:
 
-- Manually edit the UEM configuration file (i.e. the `Notepad.XML` file for the shortcut to Notepad)
+- Manually edit the UEM configuration file (that is, the `Notepad.XML` file for the shortcut to Notepad)
 - Add the XML-attribuut: `runOnceSpecial="1"`
 - The result looks something like this: `... runOnce="1 "runOnceSpecial="1" ...`
 
@@ -120,7 +120,7 @@ You have three options:
 |:------:|-------------|
 | A      | Disable the default ThinPrint printer redirection completely in View Clients, detailed at https://kb.vmware.com/kb/2012770 |
 | B      | Disable only the default ThinPrint printer on a VMware View Client, detailed at https://kb.vmware.com/kb/2003626 |
-| C      | Use the View ADM template to disable printer redirection. <br/> Use the view client adm template (`vdm_client.adm`) by adding the template to an existing or new GPO. <br/> Under **user configuration > administrative templates > VMware View Client Configuration/RDP settings**, select **Disable redirect printers**. |
+| C      | Use the View ADM template to disable printer redirection. <br/> Use the View Client ADM template (`vdm_client.adm`) by adding the template to an existing or new GPO. <br/> Under **user configuration > administrative templates > VMware View Client Configuration/RDP settings**, select **Disable redirect printers**. |
 
 ##  &nbsp; 
 
@@ -268,20 +268,20 @@ You need to follow these steps to import the group writable entry from the other
 
 ##  &nbsp; 
 
-## Rescan disabled AppStacks
+## Rescan turned off AppStacks
 
 #### Symptoms
 
 After running an AppStack rescan, you experience one of these symptoms:
 
-- AppStacks appears as disabled 
+- AppStacks appears as turned off 
 - AppStacks appears as unprovisioned in the manager UI
 
 #### Cause
 
 This issue occurs because a separate AppVolumes deployment is configured to use the same datastore, which is not supported.
 
-AppVolumes modifies the metadata of AppStacks, especially in version 3.0. When rescanning, the system reads the metadata of the AppStacks on the datastore and reflects the changes in the UI.
+AppVolumes modifies the metadata of AppStacks, especially in version 3.0. When re-scanning, the system reads the metadata of the AppStacks on the datastore and reflects the changes in the UI.
 
 #### Resolution
 
@@ -303,9 +303,9 @@ Writable Volumes still capture files that could be excluded in AppStack `snapvol
 
 These symptoms are caused because writable policy affects the whole system while AppStack policy affects only AppStacks.
 
-Since AppStack exclusions will not apply to a writable, those exclusions need to be listed in `snapvol.cfg` files in order to prevent core applications and services from being broken.  So, it’s necessary to list the same exclusions in both AppStacks AND writable `snapvol.cfg` files when attaching a writable.
+Since AppStack exclusions will not apply to a writable, those exclusions need to be listed in `snapvol.cfg` files in order to prevent core applications and services from being broken. Therefore, it’s necessary to list the same exclusions in both AppStacks AND writable `snapvol.cfg` files when attaching a writable.
 
-To exclude a location, edit the `snapvol.cfg` file to add the full path that is to be excluded.  Paths can be listed in any order, for example:
+To exclude a location, edit the `snapvol.cfg` file to add the full path that is to be excluded. Paths can be listed in any order, for example:
 
 ```
 # File system exclusions
@@ -318,4 +318,4 @@ exclude_path=\ProgramData\VMware
 For more information about the `snapvol.cfg` file, see
 http://blogs.vmware.com/euc/2016/03/app-volumes-snapvol-cfg-writable-volume-customize-configure.html.
 
-**Note**: Introducing a writable volume without the explicit exclusions added, re-breaks the same core apps and services.  Re-adding the exclusions to the writable via the zip file method fixes this.
+**Note**: Introducing a writable volume without the explicit exclusions added, re-breaks the same core apps and services. Re-adding the exclusions to the writable via the zip file method fixes this.

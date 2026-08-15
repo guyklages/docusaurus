@@ -7,7 +7,7 @@
 
 | Before (May 2024) | After (July 2025) |
 |-------------------|-------------------|
-| PROBLEM: <br/> - Pages were hastily written by engineers <br/> - Pages were one-fourth to one-half of a screen each <br/> - 104 pages (three levels deep) in the left-nav <br/> - Google Analytics showed customers clicking through many pages before the one they needed <br/> <br/> Total of 104 pages| MY SOLUTION: <br/> - I combined pages that had been artifically split <br/> - I revamped and streamlined the IA to improve the flow <br/> - The number of customer clicks dropped dramatically <br/> <br/> [Total of 32 pages](https://guyklages.com/docs/atelio/getting-started/client-config) |
+| PROBLEM: <br/> - Pages were hastily written by engineers <br/> - Pages were one-fourth to one-half of a screen each <br/> - 104 pages (three levels deep) in the left-nav <br/> - Google Analytics showed customers clicking through many pages before the one they needed <br/> <br/> Total of 104 pages| MY SOLUTION: <br/> - I combined pages that had been artificially split <br/> - I revamped and streamlined the IA to improve the flow <br/> - The number of customer clicks dropped dramatically <br/> <br/> [Total of 32 pages](https://guyklages.com/docs/atelio/getting-started/client-config) |
 | ![Before](../../static/img/Nium_ca_50pgs.png) | ![After](../../static/img/Nium_ca_32pgs.png) |
 | (my 32 pg) / (inherited 104 pg) = 31% of the original | RESULTS: <br/> 69% fewer pages and customer clicks to find data. |
 
@@ -61,5 +61,5 @@
 
 | Before (Jan 2007) | After (May 2007) |
 |-------------------|------------------|
-| Hewlett-Packard's translation division used an Excel table to track which languages a project have been translated into and then reviewed for accuracy. I thought it was odd they used the standard ISO 2-letter language code on the X-axis while using their internal 3-letter languge code on the Y-axis. | After changing the 3-letter code to the 2-letter code, I noticed that a language wasn't reviewed yet--a mistake that the responsible project manager didn't notice either! |
+| Hewlett-Packard's translation division used an Excel table to track which languages a project have been translated into and then reviewed for accuracy. I thought it was odd they used the standard ISO 2-letter language code on the X-axis while using their internal 3-letter language code on the Y-axis. | After changing the 3-letter code to the 2-letter code, I noticed that a language wasn't reviewed yet--a mistake that the responsible project manager didn't notice either! |
 | ![Before](../../static/img/HP_internal-tool-for-tracking-translations_BEFORE.png) | RESULTS: <br/>  ![After](../../static/img/HP_internal-tool-for-tracking-translations_AFTER.png) |

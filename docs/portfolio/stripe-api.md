@@ -819,16 +819,16 @@ The following table lists the attributes in the `charge` object.
 | `metadata`        | integer   | A set of key/value pairs that you can attach to a charge object for storing additional information about the charge in a structured format |
 | `order`           | string    | ID of the charge's order, if one exists |
 | `paid`            | boolean   | `true` if the charge succeeded, or was successfully authorized for later capture |
-| `receipt_email`   | string    | The email address that the receipt for this charge was sent to |
+| `receipt_email`   | string    | The email address that receives this charge's receipt |
 | `receipt_number`  | string    | The transaction number that appears on email receipts sent for this charge |
-| `refunded`        | boolean   | Whether or not the charge has been fully refunded. If the charge is only partially refunded, this attribute will still be `false`. | 
-| [`refunds`](#refunds) | list  | A list of refunds that have been applied to the charge |
+| `refunded`        | boolean   | `true` if the charge was fully refunded; `false` if the charge was partially or not refunded | 
+| [`refunds`](#refunds) | list  | A list of charge refunds |
 | [`shipping`](#shipping) | hash | Shipping information for the charge |
 | `source`          | hash      | For most Stripe users, the source of every charge is a credit or debit card. This hash is then the card object describing that card. |
 | `source_transfer` | string    | The transfer ID which created this charge. Only present if the charge came from another Stripe account. |
 | `statement_descriptor` | string | Extra information about a charge. This will appear on your customer’s credit card statement. |
-| `status`          | string    | The status of the payment is either `succeeded`, `pending`, or `failed`. |
-| `transfer`        | string    | ID of the transfer to the `destination` account (only applicable if the charge was created using the `destination` parameter). |
+| `status`          | string    | The status of the payment. One of the valid values: `succeeded`, `pending`, or `failed` |
+| `transfer`        | string    | ID of the transfer to the `destination` account (only applicable if you used the `destination` parameter to create the charge) |
 
 #### `refunds`
 
@@ -863,9 +863,9 @@ The following are the `address` object child attributes.
 
 ### Create a charge 
 
-To charge a credit card, you create a charge object. If your API key is in test mode, the supplied payment source (e.g., card or Bitcoin receiver) won’t actually be charged, though everything else will occur as if in live mode. (Stripe assumes that the charge would have completed successfully). To do so, simply add `Charge.create();` to your program. 
+To charge a credit card, you create a charge object. If your API key is in test mode, the system won't charge your supplied payment source (for example, card or Bitcoin receiver), though everything else will occur as if in live mode. Stripe assumes that the charge would have completed successfully. To do so, simply add `Charge.create();` to your program.
 
-The following are the arguments of this feature. 
+The following are the arguments of this feature.
 
 | Argument   | Condition | Definition |
 |------------|-----------|------------|

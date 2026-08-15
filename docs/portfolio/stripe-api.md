@@ -871,9 +871,9 @@ The following are the arguments of this feature.
 |------------|-----------|------------|
 | `amount`   | Required  | A positive integer in the smallest currency unit (e.g 100 cents to charge $1.00, or 1 to charge ¥1, a 0-decimal currency) representing how much to charge the card. The minimum amount is $0.50 (or equivalent in charge currency). |
 | `currency` | Required  | Three-letter ISO code for currency. |
-| `application_fee` | Connect only | A fee in cents that will be applied to the charge and transferred to the application owner’s Stripe account. To use an application fee, the request must be made on behalf of another account, using the Stripe-Account header, an OAuth key, or the `destination` parameter. 
-| `capture`  | Optional | An arbitrary string which you can attach to a charge object. It is displayed when in the web interface alongside the charge. Note that if you use Stripe to send automatic email receipts to your customers, your receipt emails will include the `description` of the charge(s) that they are describing. Default is `true` | 
-| `destination` | Connect Only | An account to make the charge on behalf of. If specified, the charge will be attributed to the destination account for tax reporting, and the funds from the charge will be transferred to the destination account. The ID of the resulting transfer will be returned in the transfer field of the response. |
+| `application_fee` | Connect only | A fee in cents that is applied to the charge and transferred to the application owner’s Stripe account. To use an application fee, another account must make the request on behalf, using the Stripe-Account header, an OAuth key, or the `destination` parameter. 
+| `capture`  | Optional | An arbitrary string which you can attach to a charge object. The web interface displays it alongside the charge. <br/> **Note**: If you use Stripe to send automatic email receipts to your customers, your receipt emails include the `description` text of those charges. Default is `true` | 
+| `destination` | Connect Only | An account to make the charge on behalf of. If specified, the charge is attributed to the destination account for tax reporting, and the funds from the charge are transferred to the destination account. The ID of the resulting transfer will be returned in the transfer field of the response. |
 | `metadata`    | Optional     | A set of key/value pairs that you can attach to a charge object. It can be useful for storing additional information about the customer in a structured format. It’s often a good idea to store an email address in metadata for tracking later. Default is `{}` |
 | `receipt_email` | Optional | The email address to send this charge’s receipt to. The receipt will not be sent until the charge is paid. If this charge is for a customer, the email address specified here will override the customer’s email address. Receipts will not be sent for test mode charges. If `receipt_email` is specified for a charge in live mode, a receipt will be sent regardless of your email settings. Default is `None` |
 | `shipping`      | Optional | Shipping information for the charge. Helps prevent fraud on charges for physical goods. Default is `{}` | 
@@ -890,8 +890,8 @@ The following are the `create-source` object child attributes.
 | `exp_month` | Required  | Two-digit number representing the card’s expiration month |
 | `exp_year`  | Required  | Two- or four-digit number representing the card’s expiration year |
 | `number`    | Required  | The card number, as a string without any separators |
-| `object`    | Required  | The type of payment source. Should be `card` |
-| `cvc`       | Required  | Card security code. Required unless your account is registered in Australia, Canada, or the United States. Highly recommended to always include this value. |
+| `object`    | Required  | The payment source. Should be `card` |
+| `cvc`       | Required  | Card security code. Required unless you registered your account in Australia, Canada, or the United States. Highly recommended to always include this value. |
 | `address_city`    | Optional | The create source address' city |
 | `address_country` | Optional | The create source address' country |
 | `address_line1`   | Optional | The create source address' street |
@@ -914,19 +914,19 @@ The following table shows the verification responses for the CVC `source[cvc_che
 
 | Verification  | Meaning |
 |---------------|---------|
-| `pass`        | The CVC provided is correct.   |
-| `fail`        | The CVC provided is incorrect. |
+| `pass`        | The provided CVC is correct.   |
+| `fail`        | The provided CVC is incorrect. |
 | `unavailable` | The customer’s bank did not check the CVC provided. |
-| `unchecked`   | The CVC was provided but has not been checked. Checks are performed once a card is attached to a Customer object, or when a Charge is created. |
+| `unchecked`   | The provided CVC was not checked. Checks are performed once a card is attached to a Customer object, or when a Charge is created. |
 
-The following table shows the verification responses for the ADDRESS LINE `source[address_line1_check]`:
+The following table shows the verification responses for the _Address line_ `source[address_line1_check]`:
 
 | Verification  | Meaning |
 |---------------|---------|
-| `pass`        | The first address line provided is correct.   |
-| `fail`        | The first address line provided is incorrect. |
+| `pass`        | The provided first address line is correct.   |
+| `fail`        | The provided first address line is incorrect. |
 | `unavailable` | The customer’s bank did not check the first address line provided. |
-| `unchecked`   | The first address line was provided but has not been checked. Checks are performed once a card is attached to a Customer object, or when a Charge is created. |
+| `unchecked`   | The provided first address line was not checked. Checks are performed once a card is attached to a Customer object, or when a Charge is created. |
 
 
 The following table shows the verification responses for the ADDRESS ZIP `source[address_zip_check]`:
@@ -940,11 +940,11 @@ The following table shows the verification responses for the ADDRESS ZIP `source
 
 #### Returns a charge
 
-Returns a charge object if the charge succeeded. Raises an error if something goes wrong. A common source of error is an invalid or expired card, or a valid card with insufficient available balance. 
+Returns a charge object if the charge succeeded. Raises an error if something goes wrong. A common source of error is an invalid or expired card, or a valid card with insufficient available balance.
 
-If the `cvc` parameter is provided, Stripe will attempt to check the CVC’s correctness, and the check’s result will be returned. Similarly, if `address_line1` or `address_zip` are provided, Stripe will try to check the validity of those parameters. Some banks do not support checking one or more of these parameters, in which case Stripe will return an ‘unavailable’ result. Also note that, depending on the bank, charges can succeed even when passed incorrect CVC and address information. 
+If the `cvc` parameter is provided, Stripe will attempt to check if the CVC is valid, and the check’s result will be returned. Similarly, if `address_line1` or `address_zip` are provided, Stripe will try to check the validity of those parameters. Some banks do not support checking one or more of these parameters, in which case Stripe returns an ‘unavailable’ result. Also note that, depending on the bank, charges can succeed even when passed incorrect CVC and address information.
 
-The following is an example response: 
+The following is an example response:
 
 ```json
 com.stripe.model.Charge JSON: { 
@@ -1114,11 +1114,11 @@ The following are the _optional_ arguments of this feature.
 
 | Attribute      | Definition |
 |----------------|------------|
-| `description`  | An arbitrary string which you can attach to a charge object. It is displayed when in the web interface alongside the charge. Note that if you use Stripe to send automatic email receipts to your customers, your receipt emails will include the `description` of the charge(s) that they are describing. This will be unset if you POST an empty value.This can be unset by updating the value to `None` and then saving. Default is `None`. |
+| `description`  | An arbitrary string which you can attach to a charge object. It is displayed when in the web interface alongside the charge. Note that if you use Stripe to send automatic email receipts to your customers, your receipt emails will include the `description` of the charges that they are describing. This will be unset if you POST an empty value. This can be unset by updating the value to `None` and then saving. Default is `None`. |
  `fraud_details` | A set of key/value pairs you can attach to a charge giving information about its riskiness. If you believe a charge is fraudulent, include a `user_report` key with a value of `fraudulent` . If you believe a charge is safe, include a `user_report` key with a value of `safe`. Note that you must refund a charge before setting the `user_report` to `fraudulent`. Stripe will use the information you send to improve our fraud detection algorithms. Default is `{}` |
-| `metadata`     | A set of key/value pairs that you can attach to a charge object. It can be useful for storing additional information about the charge in a structured format. You can unset individual keys if you POST an empty value for that key. You can clear all keys if you POST an empty value for metadata.You can unset an individual key by setting its value to `None` and then saving. To clear all keys, set metadata to `None`, then save. Default is `{}` |
+| `metadata`     | A set of key/value pairs that you can attach to a charge object. It can be useful for storing additional information about the charge in a structured format. You can unset individual keys if you POST an empty value for that key. You can clear all keys if you POST an empty value for metadata. You can unset an individual key by setting its value to `None` and then saving. To clear all keys, set metadata to `None`, then save. Default is `{}` |
 | `receipt_email` | This is the email address that the receipt for this charge will be sent to. If this field is updated, then a new email receipt will be sent to the updated address. Default is `None` |
-| `shipping`      | Shipping information for the charge. Helps prevent fraud on charges for physical goods.  Default is `{}` |
+| `shipping`      | Shipping information for the charge. Helps prevent fraud on charges for physical goods. Default is `{}` |
 
 
 #### Returns update
@@ -1193,13 +1193,13 @@ com.stripe.model.Charge JSON: {
 } 
 ```
 
-### Capture a charge 
+### Capture a charge
 
-Capture the payment of an existing, uncaptured, charge. This is the second half of the two-step payment flow, where first you created a charge with the capture option set to `false`. 
+Capture the payment of an existing, uncaptured charge. This is the second half of the two-step payment flow, where first you created a charge with the capture option set to `false`.
 
-Uncaptured payments expire exactly seven days after they are created. If they are not captured by that point in time, they will be marked as refunded and will no longer be capturable. 
+Uncaptured payments expire exactly seven days after they are created. If they are not captured by that point in time, they will be marked as refunded and will no longer be capturable.
 
-To do so, add: 
+To do so, add:
 
 ```json
 ch = Charge.retrieve({CHARGE_ID}); 
@@ -1305,7 +1305,7 @@ The following are the _optional_ arguments in this feature.
 |----------|------------|
 | [`created`](#list-created) | A filter on the list based on the object `created` field. The value can be a string with an integer Unix timestamp, or it can be a dictionary with the other options. |
 | `customer` | Only return charges for the customer specified by this customer ID. 
-| `ending_before` | A cursor for use in pagination. `ending_before` is an object ID that defines your place in the list. For example, if you make a list request and receive 100 objects, starting with `obj_bar`, your subsequent call can include `ending_before=obj_bar` in order to fetch the previous page of the list. |
+| `ending_before` | A cursor for use in pagination. `ending_before` is an object ID that defines your place in the list. For example, if you make a list request and receive 100 objects, starting with `obj_bar`, your subsequent call can include `ending_before=obj_bar` to fetch the previous page of the list. |
 | `limit` | Default is 10 | 
 | [`source`](#list-source) | A filter on the list based on the source of the charge. The value can be a dictionary with the other options. Default is `{object:”all”}` |
 | `starting_after` | A cursor for use in pagination. `starting_after` is an object ID that defines your place in the list. For example, if you make a list request and receive 100 objects, ending with `obj_foo`, your subsequent call can include `starting_after=obj_foo` to fetch the next page of the list. |
@@ -1432,7 +1432,7 @@ Stripe.apiKey = "test_BQokikJOvBiI2HlWgH4olfQ2";
 
 ### Errors
 
-Stripe uses conventional HTTP response codes to indicate the success or failure of an API request. However, not all errors map cleanly onto HTTP response codes. When a request is valid but does not complete successfully (e.g., a card is declined), we return a 402 error code. 
+Stripe uses conventional HTTP response codes to indicate the success or failure of an API request. However, not all errors map cleanly onto HTTP response codes. When a request is valid but does not complete successfully (for example, a card is declined), we return a 402 error code. 
 
 #### HTTP status code
 
@@ -1456,7 +1456,7 @@ The following table shows the error types that you might come across:
 | Error Type | Meaning |
 |------------|---------|
 | `api_connection_error`  | Failure to connect to Stripe’s API. |
-| `api_error `            | API errors cover any other type of problem (e.g., a temporary problem with Stripe’s servers) and are extremely uncommon. |
+| `api_error `            | API errors cover any other type of problem (for example, a temporary problem with Stripe’s servers) and are extremely uncommon. |
 | `authentication-error`  | Failure to properly authenticate yourself in the request. |
 | `card_error`            | Card errors are the most common type of error you should expect to handle. They result when the user enters a card that cannot be charged for some reason. |
 | `invalid_request_error` | Invalid request errors arise when your request has invalid parameters. |
@@ -1477,7 +1477,7 @@ The following table shows the kind of card error that might occur:
 | `incorrect_cvc`        | The card’s security code is incorrect. |
 | `incorrect_zip`        | The card’s zip code failed validation. |
 | `card_declined`        | The card was declined. |
-| `missing`              | There is no card on a customer that is being charged. |
+| `missing`              | The charged customer doesn't have a card. |
 | `processing_error`     | An error occurred while processing the card. |
 
 **Note**: CVC validation and zip validation can be enabled/disabled in your setting. 
@@ -1520,11 +1520,11 @@ try {
 
 ### Idempotent requests 
 
-The API supports [idempotency](https://en.wikipedia.org/wiki/Idempotence) for safely retrying requests without accidentally performing the same operation twice. For example, if a request to create a charge fails due to a network connection error, you can retry the request with the same idempotency key to guarantee that only a single charge is created. 
+The API supports [idempotency](https://en.wikipedia.org/wiki/Idempotence) for safely retrying requests without accidentally performing the same operation twice. For example, if a request to create a charge fails due to a network connection error, you can retry the request with the same idempotency key to guarantee that only a single charge is created.
 
-To perform an idempotent request, provide a key to `setIdempotencyKey()` on a request. It is completely up to you on how to create unique keys. We suggest using random strings or UUIDs. We will always send back the same response for requests made with the same key. However, you cannot use the same key with different request parameters. The keys expire after 24 hours. 
+To perform an idempotent request, provide a key to `setIdempotencyKey()` on a request. It's completely up to you on how to create unique keys. We suggest using random strings or UUIDs. We will always send back the same response for requests made with the same key. However, you cannot use the same key with different request parameters. The keys expire after 24 hours.
 
-The following is an example request: 
+The following is an example request:
 
 ```json
 Stripe.apiKey = "test_BQokikJOvBiI2HlWgH4olfQ2"; 
@@ -1544,11 +1544,11 @@ Charge.create(chargeParams, options);
 
 ### Metadata 
 
-Metadata is useful for storing additional, structured information on an object. As an example, you could store your user’s full name and corresponding unique identifier from your system on a Stripe Customer object. Metadata is not used by Stripe (e.g., to authorize or decline a charge), and will not be seen by your users unless you choose to show it to them. 
+Metadata is useful for storing additional, structured information on an object. As an example, you could store your user’s full name and corresponding unique identifier from your system on a Stripe Customer object. Metadata is not used by Stripe (for example, to authorize or decline a charge), and will not be seen by your users unless you choose to show it to them.
 
-Some of the objects listed above also support a `description` parameter. You can use the `description` parameter to annotate a charge, for example, with a human-readable description, such as "2 shirts for test@example.com". Unlike `metadata`, `description` is a single string, and your users may see it (e.g., in email receipts Stripe sends on your behalf). 
+Some of the objects listed above also support a `description` parameter. You can use the `description` parameter to annotate a charge, for example, with a human-readable description, such as "2 shirts for test@example.com". Unlike `metadata`, `description` is a single string, and your users may see it (for example, in email receipts Stripe sends on your behalf).
 
-The following is an example request: 
+The following is an example request:
 
 ```json
 Stripe.apiKey = "test_BQokikJOvBiI2HlWgH4olfQ2";
@@ -1636,11 +1636,11 @@ com.stripe.model.Charge JSON: {
 
 The following details some common metadata use cases that you might come across:
 
-| Use case | Description |
-|----------|-------------|
-| Link IDs | Attach your system’s unique IDs to a Stripe object for easy lookups. Add your order number to a charge, your user ID to a customer or recipient, or a unique recipient, or a unique receipt number to a transfer. |
-| Refund papertrails | Store information about why a refund was created, and by whom. |
-| Customer details | Annotate a customer by storing the customer’s phone number for your later use. |
+| Use case            | Description |
+|---------------------|-------------|
+| Link IDs            | Attach your system’s unique IDs to a Stripe object for easy lookups. Add your order number to a charge, your user ID to a customer or recipient, or a unique recipient, or a unique receipt number to a transfer. |
+| Refund paper trails | Store information about why a refund was created, and by whom. |
+| Customer details    | Annotate a customer by storing the customer’s phone number for your later use. |
 
 ### Pagination
 
@@ -1656,7 +1656,7 @@ Parameter usage:
 - Both take an existing object ID value (see below).
 - The `ending_before` parameter returns objects created before the named object, in descending chronological order.
 - The `starting_after` parameter returns objects created after the named object, in ascending chronological order.
-- If both parameters are provided, only ending_before is used.
+- If both parameters are provided, only `ending_before` is used.
 
 The following is an example request:
 
@@ -1739,8 +1739,8 @@ The following table details some _optional_ arguments that you will come across.
 | Argument | Definition |
 |----------|------------| 
 | `limit`          | A limit on the number of objects to be returned, between 1 and 100. |
-| `starting_after` | A cursor for use in pagination. `starting_after` is an object ID that defines your place in the list. <br/> For example, if you make a list request and receive 100 objects, ending with `obj_foo`, your subsequent call can include `starting_after=obj_foo` in order to fetch the next page of the list. |
-| `ending_before`  | A cursor for use in pagination. `ending_before` is an object ID that defines your place in the list. <br/> For example, if you make a list request and receive 100 objects, starting `obj_bar`, your subsequent call can include `ending_before=obj_bar` in order to fetch the previous page of the list. |
+| `starting_after` | A cursor for use in pagination. `starting_after` is an object ID that defines your place in the list. <br/> For example, if you make a list request and receive 100 objects, ending with `obj_foo`, your subsequent call can include `starting_after=obj_foo` to fetch the next page of the list. |
+| `ending_before`  | A cursor for use in pagination. `ending_before` is an object ID that defines your place in the list. <br/> For example, if you make a list request and receive 100 objects, starting `obj_bar`, your subsequent call can include `ending_before=obj_bar` to fetch the previous page of the list. |
 
 The following table details some response formats that you will come across.
 
@@ -1751,11 +1751,11 @@ The following table details some response formats that you will come across.
 | `has_more` | boolean | Whether or not there are more elements available after this set. If `false`, this set comprises the end of the list. |
 | `url`      | string | The URL for accessing this list. |
 
-### Auto-pagination
+### Autopagination
 
-Most of our libraries support auto-pagination. This feature easily handles fetching large lists of resources without having to manually paginate results and perform subsequent requests.
+Most of our libraries support autopagination. This feature easily handles fetching large lists of resources without having to manually paginate results and perform subsequent requests.
 
-To use the auto-pagination feature in Python, simply issue an initial “list” call with the parameters you need, then call `auto_paging_iter()` on the returned list object to iterate over all objects matching your initial parameters.
+To use the autopagination feature in Python, simply issue an initial “list” call with the parameters you need, then call `auto_paging_iter()` on the returned list object to iterate over all objects matching your initial parameters.
 
 The following is an example request:
 
@@ -1801,7 +1801,7 @@ You can visit your Dashboard to upgrade your API version.
 
 This is an object representing your Stripe balance. You can retrieve it to see the balance currently on your Stripe account.
 
-You can also retrieve a list of the balance history, which contains a list of transactions that contributed to the balance (e.g., charges, transfers, and so forth).
+You can also retrieve a list of the balance history, which contains a list of transactions that contributed to the balance (for example, charges, transfers, and so forth).
 
 The available and pending amounts for each currency are broken down further by payment source types.
 
@@ -1860,7 +1860,7 @@ The following table details all the attributes of the `balance_transaction` obje
 | `created`      | timestamp | Date created |
 | `currency`     | currency  | The currency used |
 | `description`  | string    | Memo field for any remarks |
-| `fee`          | integer   | Fees (in cents) paid for ttransaction. |
+| `fee`          | integer   | Fees (in cents) paid for transaction. |
 | [`fee_details`](#fee_details) | list    | Detailed breakdown of fees (in cents) paid for this transaction. |
 | `net`          | integer   | Net amount of the transaction, in cents. |
 | `source`       | string    |The Stripe object this transaction is related to. |
@@ -2026,9 +2026,9 @@ com.stripe.model.BalanceTransaction JSON: {
 
 ### List all balance history
 
-Returns a list of transactions that have contributed to the Stripe account balance (e.g., charges, transfers, and so forth). The transactions are returned in sorted order, with the most recent transactions appearing first. 
+Returns a list of transactions that have contributed to the Stripe account balance (for example, charges, transfers, and so forth). The transactions are returned in sorted order, with the most recent transactions appearing first.
 
-To do so, simply add `BalanceTransaction.all();` to your program. 
+To do so, simply add `BalanceTransaction.all();` to your program.
 
 The following table details all the _optional_ attributes involved in this feature:
 
@@ -2037,7 +2037,7 @@ The following table details all the _optional_ attributes involved in this featu
 | [`available_on`](#available_on) | A filter on the list based on the object `available_on` field. The value can be a string with an integer Unix timestamp, or it can be a dictionary with other options. (see the Note below) |
 | [`created`](#created) | A filter on the list based on the object `created` field. The value can be a string with an integer Unix timestamp, or it can be a dictionary with other options. (see the Note below) |
 | `currency`       | The currency used. |
-| `ending_before`  | A cursor for use in pagination. `ending_before` is an object ID that defines your place in the list. <br/> For example, if you make a list request and receive 100 objects, starting with `obj_bar`, your subsequent call can include `ending_before=obj_bar` in order to fetch the previous page of the list. |
+| `ending_before`  | A cursor for use in pagination. `ending_before` is an object ID that defines your place in the list. <br/> For example, if you make a list request and receive 100 objects, starting with `obj_bar`, your subsequent call can include `ending_before=obj_bar` to fetch the previous page of the list. |
 | `limit`          | The default is 10. A limit on the number of objects to be returned. Limit can range between 1 and 100 items. |
 | `source`         | Only returns the original transaction. |
 | `starting_after` | A cursor for use in pagination. `starting_after` is an object ID that defines your place in the list. <br/> For example, if you make a list request and receive 100 objects, starting with `obj_foo`, your subsequent call can include `starting_after=obj_foo` to fetch the next page of the list. |

@@ -5,6 +5,7 @@ API
 APIs?
 Apple
 Apple Pay
+ASCII
 ASP
 Atelio
 autopay
@@ -17,6 +18,7 @@ blocklist
 [Bb]oolean
 Bridgestone
 Camtasia
+[Cc]apturable
 cardholder
 [Cc]lawbacks?
 CLI
@@ -28,6 +30,7 @@ Couchbase
 CPU
 CSS
 CSV
+CVC
 [Dd]atastore
 DEBUG
 [Dd]efragment
@@ -72,6 +75,7 @@ IDE
 impactful
 iPad
 iPads
+ISO
 ISOs
 JAR
 JSON
@@ -81,6 +85,8 @@ Komodo
 [Ll]aunchd
 LESS
 LLDB
+lookup
+lookups
 Mastercard
 Metaverse
 Middesk
@@ -154,11 +160,14 @@ templated
 ThinPrint
 TODO
 typedef
+[Uu]ncaptured
 unprovisioned
 URI
 URL
 USB
 UTF
+UUID
+UUIDs
 vCenters?
 Visio
 VMware

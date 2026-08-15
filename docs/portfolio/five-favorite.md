@@ -7,9 +7,9 @@
 | Nium      | **[Onboarding](https://docs.nium.com/docs/onboarding)** | Fintech onboarding varies by region and customer type. |
 | Couchbase | **[Adaptive indexing](https://docs.couchbase.com/server/current/n1ql/n1ql-language-reference/adaptive-indexing.html)** | This database index type works on all or specified fields of a document. |
 
-## BEFORE and AFTER
+## Before and After
 
-### Couchbase 
+### Couchbase
 
 #### Color-coded system table
 
@@ -22,7 +22,7 @@
 
 | Before (Apr 2017) | After (Apr 2017) |
 |-------------------|------------------|
-| During my Couchbase interview, I was given 30 minutes to improve their website's page to be more readable and easier to understand. | I quickly made a graph and tables to show the concepts more clearly than the original "wall of text". |
+| During my Couchbase interview, the manager gave me 30 minutes to improve their website's page to be more readable and easier to understand. | I quickly made a graph and tables to show the concepts more clearly than the original wall of text. |
 | ![Before](../../static/img/Couchbase_submillisecond-latencies_BEFORE.png) | ![After](../../static/img/Couchbase_submillisecond-latencies_AFTER.png) |
 
 

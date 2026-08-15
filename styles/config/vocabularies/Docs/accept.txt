@@ -16,6 +16,7 @@ cardholder
 [Cc]ybersecurity
 config
 Config
+CorelDraw
 Couchbase
 [Dd]atastore
 [Dd]efragment
@@ -88,6 +89,7 @@ startDate
 swimlane
 Taipei
 Taiwan
+Talk Group
 TEDx
 templated
 typedef

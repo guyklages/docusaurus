@@ -4,21 +4,21 @@ authors: [guyklages]
 tags: [fintech]
 ---
 
-(This was written for a job interview)
+(I wrote this for a job interview)
 
 ## Introduction
 
-This documentation provides knowledge in developing Stripe mobile payment inside any Android app. If you need help or have any questions after reading this documentation, we recommend you to check out our answers for [common Android questions](https://support.stripe.com/search?q=android) or contact other developers in #stripe on freenode.
+This documentation provides knowledge in developing Stripe mobile payment inside any Android app. If you need help or have any questions after reading this documentation, see [common Android questions](https://support.stripe.com/search?q=android).
 
-Stripe has created a Java library for Android, allowing you to easily submit payments from an Android app. Our library eliminates the need to send card data directly to your server. Instead, it sends the card data directly to our servers, where we can convert them to tokens.
+Stripe has created a Java library for Android, allowing you to submit payments from an Android app. Our library eliminates the need to send card data directly to your server. Instead, it sends the card data directly to our servers, where we can convert them to tokens.
 
-Your app will receive the token back, and will then be able to send the token to an endpoint on your server, where it can be used to process a payment, establish recurring billing, or merely saved for later use.
+Your app will receive the token back, and will then be able to send the token to an endpoint on your server, where it can process a payment, establish recurring billing, or merely saved for later use.
 
 Stripe supports Android back to version 4 (Ice Cream Sandwich), and the library has no external dependencies.
 
 ## Installation
 
-There is a difference in installing the Stripe Android library depending on whether you use [Android Studio or Eclipse](https://developer.android.com/studio/intro).
+Installing the Stripe Android library differs on whether you use [Android Studio or Eclipse](https://developer.android.com/studio/intro).
 
 For Android Studio, add the following code to your app's `build.gradle` file, inside the dependencies section:
 
@@ -35,7 +35,7 @@ For Eclipse, follow these steps:
 
 ## Collecting credit card info
 
-At some point in the flow of your app, you will want to obtain payment details from the user. There are 2 ways to do this:
+To obtain payment details from the user, there are two methods to do this:
 
 - Use Android Pay to access your customer's stored card information.
 - Build your own credit card form.
@@ -45,8 +45,6 @@ We recommend you to write your app to offer support for both.
 ## Using Android Pay
 
 Through Android Pay, you can access payment information stored in your customer's Google accounts. Following are the instructions to integrate your app with Android Pay.
-
-Note: When this documentation was released, Android Pay was still in Beta Version.
 
 ### Setting up your app
 
@@ -86,7 +84,7 @@ After placing the fragment, you need to:
 2. Create a MaskWalletRequest
 3. Initialize the fragment
 
-In the `MaskWalletRequest`, you are able to specify the amount to charge and what additional information you would like to collect (e.g., the shipping address). This is also where you can specify that you are using Stripe as the processor. Doing so will allow the application to request a Stripe token directly from the wallet.
+In the `MaskWalletRequest`, you are able to specify the amount to charge and what additional information you would like to collect (for example, the shipping address). This is also where you can specify that you are using Stripe as the processor. Doing so will allow the application to request a Stripe token directly from the wallet.
 
 Before starting the Android Pay flow, use the isReadyToPay() method to check whether the user has the Android Pay app installed and is ready to pay through it. Make sure you have already mastered Google's documentation for information on their UI and branding requirements.
 
@@ -165,9 +163,9 @@ public class PaymentActivity extends FragmentActivity implements GoogleApiClient
 }
 ```
 
-**Note**: <br/> The price set within the Android app is written as a decimal and is for the Android app only. The token received back will be sent to your server, and the charge request will be made of the Stripe API from there. The actual amount to be charged is requested at that point, and is set as an integer.
+**Note**: <br/> The Android app writes the price as a decimal and is for the Android app only. The received token is sent to your server, and the charge request is made of the Stripe API from there. The actual charged amount is requested at that point, and is set as an integer.
 
-The last step of the Android Pay setup process for the app is to connect to the Google Wallet API. This connection handles the case when a user presses the Android Pay purchase button and the payment is processed. To do so, add the following code:
+The last step of the Android Pay setup process for the app is to connect to the Google Wallet API. This connection handles the case when a user presses the Android Pay purchase button to process the payment. To do so, add the following code:
 
 ```java
 public class PaymentActivity extends FragmentActivity {
@@ -237,7 +235,7 @@ public class PaymentActivity extends FragmentActivity {
 
 ### Creating tokens from Android Pay
 
-Once your customer allows access to their wallet for payment, the application will be given back a Stripe token. You will then send this token to your server for use through the API.
+Once your customer allows access to their wallet for payment, Stripe gives the application a Stripe token. You then send this token to your server for use through the API.
 
 ```java
 public class PaymentActivity extends FragmentActivity {
@@ -327,7 +325,7 @@ if ( !card.validateCard() ) {
 
 The next step is to pass off that sensitive payment information securely to Stripe, where you will exchange it for a token.
 
-You can create tokens using the `Stripe` instance method `createToken`, passing in a `Card` instance and completion callbacks. An asynchronous network request will be executed, and the appropriate callback invoked when it completes.
+You can create tokens using the `Stripe` instance method `createToken`, passing in a `Card` instance and completion callbacks. Stripe executes an asynchronous network request and invokes the appropriate callback when it completes.
 
 ```java
 Card card = new Card("4242424242424242", 12, 2017, "123");

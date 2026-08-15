@@ -1,6 +1,10 @@
 allowlist
+Android
+Android Pay
 API
 APIs?
+Apple
+Apple Pay
 Atelio
 autopay
 backend

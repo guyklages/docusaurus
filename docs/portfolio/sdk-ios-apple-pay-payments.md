@@ -4,7 +4,7 @@ authors: [guyklages]
 tags: [fintech]
 ---
 
-(This was written for a job interview)
+_(I wrote this for a job interview)_
 
 ## Introduction
 
@@ -40,10 +40,10 @@ We publish our SDK as a static framework that you can copy directly into your ap
 
 1. Head to our releases page and downloads the framework that is right for you.
 2. Unzip the file you downloaded.
-3. In Xcode, with your project open, click **File > Add files**.
+3. In Xcode, with your project open, select **File > Add files**.
 4. Select **Stripe.framework** in the directory you just unzipped.
 5. Make sure **Copy items if needed** is checked.
-6. Click **Add**.
+6. Select **Add**.
 7. In your project settings, go to the **Build Settings** tab, and under **Other Linker Flags**, make sure `-ObjC` is present.
 
 ### Configure API keys
@@ -93,13 +93,13 @@ didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 
 ## Collecting credit card info
 
-There are three ways to obtain payment details from the user:
+Choose one of three ways to obtain payment details from the user:
 
-1. Use the Apple Pay framework to access your users’ stored payment information.
-2. Use our pre-built form component, STPPaymentCardTextField to collect new credit card details.
-3. Build your own credit card form from scratch.
+- A) Use the Apple Pay framework to access your users’ stored payment information.
+- B) Use our pre-built form component, STPPaymentCardTextField to collect new credit card details.
+- C) Build your own credit card form from scratch.
 
-Since Apple Pay supports only certain credit cards on the latest iOS devices, we recommend using Apple Pay in combination with option 2 or option 3 as a fallback on devices where Apple Pay is not available.
+Since Apple Pay supports only certain credit cards on the latest iOS devices, we recommend using Apple Pay in combination with option B or option C as a fallback on devices where Apple Pay is not available.
 
 ### Using Apple Pay
 
@@ -265,7 +265,7 @@ override func viewDidLoad() {
 }
 ```
 
-By adding an `STPPaymentCardTextField` to the controller, your app is enabled to accept card numbers, expiration dates, and CVCs. It will also format the input and validate that input on-the-fly.
+By adding an `STPPaymentCardTextField` to the controller, your app is enabled to accept a card number, expiration date, and CVC. It will also format the input and validate that input on-the-fly.
 
 When a user enters text into this field, the `paymentCardTextFieldidChange` method will be called on our view
 controller. In this callback, we can enable a save button to allow users to submit their valid cards if the form is valid.

@@ -8,12 +8,12 @@ import { DefinitionProvider, DefTerm, DefinitionPanel } from '@site/src/componen
 
 | Company               | Topic | In-person trainer | <div style={{ width: '100px' }}>Curriculum designer</div> | <div style={{ width: '100px' }}>City</div> | <div style={{ width: '100px' }}>Year</div> |
 |-----------------------|---------------------------------------------------------------|:---:|:---:|-------------|:-----------:|
-| <DefTerm def="My own startup company that has been teaching/training college students and adults throughout the Bay Area.">Edutainme</DefTerm>             | [Swagger](#swagger), DITA, MS Office, ESL, resumes            | Yes | Yes | Bay Area    | 2014 - now  |
+| <DefTerm def="Edutainme is my own startup company that has been teaching/training college students and adults throughout the Bay Area.">Edutainme</DefTerm>             | [Swagger](#swagger), DITA, MS Office, ESL, resumes            | Yes | Yes | Bay Area    | 2014 - now  |
 | OpSec Security        | [anti-counterfeiting labeling](#anti-counterfeiting-labeling) | Yes | Yes | Boston      | 2013 - 2013 |
 | VA Medical Center     | [eDC clinical trials](#edc-for-clinical-trials)               | Yes | Yes | Boston      | 2011 - 2013 |
 | ADP Payroll           | [payroll reporting](#payroll-reporting)                       | Yes | Yes | Seattle     | 2008 - 2011 |
-| <DefTerm def="Talk Group is an experiential language center that teaches through 2-hour activities called <i>Mini Adventures</i> at various topic-related venues instead of a traditional classroom.">Talk Group</DefTerm>   | [ESL, Excel](#esl-excel), resumes | Yes | Yes | Shanghai    | 2002 - 2008 |
-| Expandable Software   | ERP modules and reporting                                     | Yes | No  | San Jose    | 2000 - 2002 |
+| <DefTerm def="Talk Group is an experiential language center that teaches through 2-hour activities called Mini Adventures at various topic-related venues instead of a traditional classroom.">Talk Group</DefTerm>   | [ESL, Excel](#esl-excel), resumes | Yes | Yes | Shanghai    | 2002 - 2008 |
+| <DefTerm def="Expandable Software, Inc. develops, markets, implements and supports an enterprise resources planning (ERP) software suite designed to help executives and managers of fast-growing manufacturing companies maximize business performance by maintaining real-time visibility and control of their organization.">Expandable Software</DefTerm>   | ERP modules and reporting                                     | Yes | No  | San Jose    | 2000 - 2002 |
 
 <DefinitionPanel/>
 

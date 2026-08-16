@@ -1,3 +1,4 @@
+ADP
 Airtable
 allowlist
 Android
@@ -23,15 +24,17 @@ Camtasia
 cardholder
 [Cc]lawbacks?
 CLI
-[Cc]ybersecurity
+CMS
 config
 Config
+Corel
 CorelDraw
 Couchbase
 CPU
 CSS
 CSV
 CVC
+[Cc]ybersecurity
 [Dd]atastore
 DEBUG
 [Dd]efragment
@@ -39,13 +42,20 @@ DEBUG
 [Dd]efragmenting
 Deliverables
 dev
+DITA
 Docusaurus
 DOM
+Dozuki
 DPI
+eDC
 Edmonds
+Edutainme
+ELB Learning
 embeddable
 endDate
 enum
+ERP
+ESL
 explorable
 FAQ
 Figma
@@ -85,8 +95,10 @@ JSX
 Klages
 Komodo
 [Ll]aunchd
+Lectora
 LESS
 LLDB
+LMS
 lookup
 lookups
 Mastercard
@@ -95,6 +107,7 @@ Middesk
 Mintlify
 Mistral
 Moneysend
+Moodle
 navbar
 NET
 [Nn]etworker
@@ -127,6 +140,7 @@ Promptless
 Python
 [Qq]uickstart
 [Qq]uickstarts
+Quizmaker
 RAM
 redirectUri
 Redocly
@@ -188,3 +202,4 @@ XSS
 YAML
 Zapier
 ZIP
+Zoomerang

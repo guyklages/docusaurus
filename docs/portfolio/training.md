@@ -1,6 +1,10 @@
+import { DefinitionProvider, DefTerm, DefinitionPanel } from '@site/src/components/DefTerm';
+
 # Training and instructional design
 
 ## Overview
+
+<DefinitionProvider>
 
 | Company               | Topic | In-person trainer | <div style={{ width: '100px' }}>Curriculum designer</div> | <div style={{ width: '100px' }}>City</div> | <div style={{ width: '100px' }}>Year</div> |
 |-----------------------|---------------------------------------------------------------|:---:|:---:|-------------|:-----------:|
@@ -8,8 +12,12 @@
 | OpSec Security        | [anti-counterfeiting labeling](#anti-counterfeiting-labeling) | Yes | Yes | Boston      | 2013 - 2013 |
 | VA Medical Center     | [eDC clinical trials](#edc-for-clinical-trials)               | Yes | Yes | Boston      | 2011 - 2013 |
 | ADP Payroll           | [payroll reporting](#payroll-reporting)                       | Yes | Yes | Seattle     | 2008 - 2011 |
-| Talk Group            | [ESL, Excel](#esl-excel), resumes                             | Yes | Yes | Shanghai    | 2002 - 2008 |
+| <DefTerm def="An experiential language center that teaches through 2-hour activities called _Mini Adventures_ at various related venues instead of a traditional classroom">Talk Group</DefTerm>   | [ESL, Excel](#esl-excel), resumes | Yes | Yes | Shanghai    | 2002 - 2008 |
 | Expandable Software   | ERP modules and reporting                                     | Yes | No  | San Jose    | 2000 - 2002 |
+
+<DefinitionPanel/>
+
+</DefinitionProvider>
 
 ### Recommendations
 

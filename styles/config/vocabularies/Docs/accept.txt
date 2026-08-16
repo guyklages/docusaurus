@@ -56,6 +56,7 @@ endDate
 enum
 ERP
 ESL
+Excel
 explorable
 FAQ
 Figma
@@ -165,6 +166,7 @@ SIKT
 SMEs?
 Sphinx
 startDate
+storyboarding
 SVG
 Swift
 swimlane

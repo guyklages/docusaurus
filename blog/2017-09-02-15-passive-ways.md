@@ -26,14 +26,14 @@ But did you know that LinkedIn supports media? Build your portfolio of work samp
 
 _Before hiring or doing business with anyone, people and companies google a person's name. And the best way to "control" what those people/companies see is by having a LinkedIn profile summarize all the things you want people to read—in the order you want—since LinkedIn profiles are always in the top three Google Search results._
 
-Since my current and six previous companies in the U.S. and Asia found me on LinkedIn (while I was working on my own projects), I'd like to share with you what I learned from other job-hunters, articles, resume workshops, and interview workshops that worked for me and dozens of my friends and clients.
+Since my current and six previous companies in the U.S. and Asia _found me_ on LinkedIn (while I was working on my own projects), I'd like to share with you what I learned from other job-hunters, articles, resume workshops, and interview workshops that worked for me and dozens of my friends and clients.
 
 
 
 It's a 3-step process:
 
-1. Add _all_ your resume info, skills, accomplishments, and samples.
-2. Add _all_ the people you've ever worked with or studied with.
+1. Add ***all*** your resume info, skills, accomplishments, and samples.
+2. Add ***all*** the people you've ever worked with or studied with.
 3. Eventually, one of your contact's friends (or that friend's friend) will see you while searching for someone with your skills.
 
 
@@ -55,19 +55,19 @@ To prevent anyone from receiving emails when you make any edits to your LinkedIn
 
 ## Add all versions of your name
 
-If you speak another language, adding the 漢字, हिंदी, etc. versions of your name will make you appear more international and found by your other name. 
+If you speak another language, adding the 漢字, हिंदी, etc. versions of your name will make you appear more international and found by your other name.
 
 ## Add your close-up, smiling, color photo
 
-To show you're warm, open, honest, and businesslike (in a nice shirt), add a high-resolution, passport-like photo. 
+To show you're warm, open, honest, and businesslike (in a nice shirt), add a high-resolution, passport-like photo.
 
-If you're shy, find someone to make a realistic sketch of you. 
+If you're shy, find someone to make a realistic sketch of you.
 
 People/Colleges/Companies want to choose a human, not a hyperlink.
 
 ## Personalize your URL
 
-Replace the long default URL with a personalized one such as `linkedin.com/in/myname` (the shorter, the better) so it can be used on your resume, business cards, website, any posters or marketing materials——and most importantly, verbally. 
+Replace the long default URL with a personalized one such as `linkedin.com/in/myname` (the shorter, the better) so it can be used on your resume, business cards, website, any posters or marketing materials——and most importantly, _verbally_.
 
 1. Select **Edit Profile** from the top menu bar.
 2. Your URL is under your profile photo.
@@ -77,7 +77,7 @@ Replace the long default URL with a personalized one such as `linkedin.com/in/my
 ## Add all experience info
 
 - All companies, volunteering, part-time jobs, etc. 
-- Their cities, your job duties, your accomplishments, and value you added.
+- Their _cities_, your job _duties_, your _accomplishments_, and _value_ you added.
 - Single-line bullet list since bullets are easier to read than paragraphs.
 - For overseas jobs, use the company's name in English and its native language.
 
@@ -90,7 +90,7 @@ Replace the long default URL with a personalized one such as `linkedin.com/in/my
 ## Add "Honors & Awards"
 
 - Add the "Honors & Awards" section to your profile.
-- Summarize (re-list) the accomplishments you've achieved in your school/career in single-line bullet points.
+- Summarize (re-list) the accomplishments you've achieved in your school/career in _single_-line bullet points.
 - (add the company name in parenthesis)
 
 ## Add all education info
@@ -102,7 +102,7 @@ Replace the long default URL with a personalized one such as `linkedin.com/in/my
 ## Add all "Languages"
 
 - Add the "Languges" section to your profile and list all those you speak or have studied.
-- Add your level of fluency in each--including your native language
+- Add your level of fluency in each--including your native language.
 - This makes you appear more international and social.
 
 ## Add all "Certifications"
@@ -111,9 +111,9 @@ If you have earned any certificates or completed any trainings, add the "Certifi
 
 ## Add all your work samples
 
-Pictures are worth a thousand words, and employers/recruiters want to _see_ what you have actually made and are capable of!
+Pictures are worth a thousand words, and employers/recruiters want to _see_ what you have actually made and are capable of.
 
-Buy a domain with your name in it (prices have come way down!) and use PrestaShop or other website-making tool (there are so many!) and then add any type of file that shows your skills for managers to look at any time, especially:
+Buy a domain with your name in it (prices have come way down!) and use PrestaShop or other website-making tool and then add any type of file that shows your skills for managers to look at any time, especially:
 
 - Your resume in PDF format.
 - Reference Letters from previous managers and teachers.
@@ -121,7 +121,7 @@ Buy a domain with your name in it (prices have come way down!) and use PrestaSho
 - If possible, add Before-and-After screenshots of things you've improved.
 - Demos, presentations, statistics, graphs, etc. of your work and skills
 
- ## Add a Summary
+## Add a Summary
 
 Many people forget the "Summary" section at the top, but it's a great place to:
 - Add a brief paragraph of your skills, career, goals, etc. to show your personality.
@@ -164,6 +164,7 @@ To your publications, personal websites, blogs, patents, etc.
 ## Add everyone you know
 
 Add everyone you've talked with from every:
+
 - school
 - job
 - business card

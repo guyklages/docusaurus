@@ -4,7 +4,7 @@ authors: [guyklages]
 tags: [fintech]
 ---
 
-(I wrote this for a job interview)
+_(I wrote this for a job interview's assigment)_
 
 ## Introduction
 

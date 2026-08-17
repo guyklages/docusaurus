@@ -29,12 +29,6 @@ const sidebars = {
               label: 'KB for VMware',
               className: 'portfolio-sidebar-item',
           },
-          {
-              type: 'doc',
-              id: 'portfolio/stripe-api',
-              label: 'Stripe API',
-              className: 'portfolio-sidebar-item',
-          },
         ]
     },
     {

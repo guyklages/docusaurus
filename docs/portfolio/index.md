@@ -1,14 +1,22 @@
+import { DefinitionProvider, DefTerm, DefinitionPanel } from '@site/src/components/DefTerm';
+
 # Portfolio
 
 ## Live company websites
 
 I created and fully owned the following company websites. I used Git, Markdown, Oxygen, Postman, ReadMe, and VS Code to create documentation for developers, DBAs, and technical PMs. Links open into a new browser tab.
 
-| Company      | Industry       | Developer guides | API reference | Collaborated with | Highlight |
-|--------------|----------------|------------------|---------------|:-----------------:|-----------|
-| Atelio&nbsp;of&nbsp;FIS | Fintech        | **[Quickstart](https://guyklages.com/atelio/getting-started/quickstart)** | _Site removed._ <br/> **[Similar&nbsp;to&nbsp;Nium's](https://docs.nium.com/api#description/introduction)** | 1 editor, <br/> 5 SMEs | [Revamped and reduced the developer pages by 36%](./most-impactful-tech-writing.md#36-page-reduction-from-new-ia) |
-| Nium         | Fintech        | **[Getting Started](https://docs.nium.com/docs/getting-started)** | **[Introduction](https://docs.nium.com/api#description/introduction)** | 1 editor, <br/> 6 SMEs | [Doubled onboarding of clients with 75% fewer issues](./most-impactful-tech-writing.md#2x-onboarding-75-fewer-issues) |
-| Couchbase    | NoSQL database | **[SQL++&nbsp;Reference](https://docs.couchbase.com/server/current/n1ql/n1ql-language-reference/index.html)** |  | 1 editor, <br/> 9 SMEs | [Reduced their writing process by 80%](./most-impactful-tech-writing.md#80-time-saved-on-writing-process) |
+<DefinitionProvider>
+
+| Company      | Developer guides | API reference | Collaborated with | Highlight |
+|--------------|------------------|---------------|:-----------------:|-----------|
+| <DefTerm def="FIS bought fintech startup Atelio and later shut it down to return to traditional banking.">Atelio&nbsp;of&nbsp;FIS</DefTerm> | **[Quickstart](https://guyklages.com/atelio/getting-started/quickstart)** | _Site removed._ <br/> **[Similar&nbsp;to&nbsp;Nium's](https://docs.nium.com/api#description/introduction)** | 1 editor, <br/> 5 SMEs | [Revamped and reduced the developer pages by 36%](./most-impactful-tech-writing.md#36-page-reduction-from-new-ia) |
+| <DefTerm def="Nium was a startup fintech company.">Nium</DefTerm>         | **[Getting Started](https://docs.nium.com/docs/getting-started)** | **[Introduction](https://docs.nium.com/api#description/introduction)** | 1 editor, <br/> 6 SMEs | [Doubled onboarding of clients with 75% fewer issues](./most-impactful-tech-writing.md#2x-onboarding-75-fewer-issues) |
+| <DefTerm def="Couchbase was a NoSQL database startup.">Couchbase</DefTerm>    | **[SQL++&nbsp;Reference](https://docs.couchbase.com/server/current/n1ql/n1ql-language-reference/index.html)** |  | 1 editor, <br/> 9 SMEs | [Reduced their writing process by 80%](./most-impactful-tech-writing.md#80-time-saved-on-writing-process) |
+
+<DefinitionPanel/>
+
+</DefinitionProvider>
 
 
 ## My most technical projects

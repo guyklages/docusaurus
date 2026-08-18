@@ -4,7 +4,7 @@
 
 - Git, GitHub, GitLab (pipelines and feature flags)
 - Postman, VS Code
-- Docusaurus, ReadMe, Markdown
+- Docusaurus, Markdown, ReadMe
 - OpenAPI/Swagger, REST APIs
 
 ## Languages
@@ -13,7 +13,7 @@
 
 ## Databases
 
-- Airtable, PostgreSQL, SQL, NoSQL, MySQL, SQL Server, T-SQL
+- Airtable, MySQL, NoSQL, PostgreSQL, SQL, SQL Server, T-SQL
 
 ## Diagrams
 
@@ -23,11 +23,11 @@
 
 | Type      | Tool                                                                                           |
 |-----------|------------------------------------------------------------------------------------------------|
-| Authoring | Docs-as-code, Sphinx, LaTeX, MacTex, AsciiDoc, GovCloud, Mintlify, MkDocs, Redocly, RST, Texts |
-| API       | SOAP, cURL                                                                                     |
-| CI/CD     | CircleCI, Jekyll, Jenkins, Screwdriver, Kubernetes                                             |
-| Languages | OOP, C++, Java, MVC, NPM, VB                                                                   |
-| Diagrams  | ArchiMate, OmniGraffle, LucidChart, PaintShop Pro, Sketch, UML                                 |
+| Authoring | AsciiDoc, Docs-as-code, GovCloud, LaTeX, MacTex, Mintlify, MkDocs, Redocly, RST, Sphinx, Texts |
+| API       | cURL, SOAP                                                                                     |
+| CI/CD     | CircleCI, Jekyll, Jenkins, Kubernetes, Screwdriver                                             |
+| Languages | C, C++, Java, MVC, NPM, OOP, VB                                                                |
+| Diagrams  | ArchiMate, LucidChart, OmniGraffle, PaintShop Pro, Sketch, UML                                 |
 | Big Data  | Apache: Doppler, Hadoop, HBase, Hive, Kafka, Jupyter, Shell, Spark; PyTorch, TensorFlow        |
 | Databases | Clarify, CRM, ERP, MRP                                                                         |
 | CMS       | AccuRev, Confluence, CVS, Drupal, Notion, Perforce, SharePoint, SourceTree, Stash, ZenDesk     |

@@ -92,6 +92,8 @@ The biggest design decision was **not** letting the LLM write replies.
 | Pay range present?           | Regex                    | Exact, deterministic |
 | Reply body                   | Python template          | Zero wording drift   |
 
+The following is a flow diagram:
+
 ```mermaid
 flowchart TD
     A[Gmail: Job label applied by filter] --> B[Agent polls inbox]

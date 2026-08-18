@@ -2164,13 +2164,13 @@ kubectl [command] [TYPE] [NAME] [flags]
 
 The following table lists all `kubectl` commands for debugging your cluster:
 
-|  CLI Command                               | Description |
-|--------------------------------------------|-------------|
-| `kubectl get pods --namespace <namespace>` | Get a list of pods and their status by specifying the `namespace`.                    |
-| `kubectl logs <pod-name>`                  | Retrieve the logs of a specific pod.                                                  |
-| `kubectl logs -f <pod-name>`               | Stream or "follow" logs in real-time.                                                 |
-| `kubectl exec <pod-name>`                  | Debug a container from the inside or explore the environment of the container itself. |
-| `kubectl exec -it <pod-name> -- /bin/bash` | Open an interactive terminal session inside a running pod's container.                |
+| <div style={{ width: '300px' }}>CLI Command</div> | Description |
+|---------------------------------------------------|-------------|
+| `kubectl get pods --namespace <namespace>`        | Get a list of pods and their status by specifying the `namespace`.                    |
+| `kubectl logs <pod-name>`                         | Retrieve the logs of a specific pod.                                                  |
+| `kubectl logs -f <pod-name>`                      | Stream or "follow" logs in real-time.                                                 |
+| `kubectl exec <pod-name>`                         | Debug a container from the inside or explore the environment of the container itself. |
+| `kubectl exec -it <pod-name> -- /bin/bash`        | Open an interactive terminal session inside a running pod's container.                |
 
 ### Handle Errors
 

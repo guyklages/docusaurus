@@ -17,6 +17,12 @@
   --ifm-link-color: #0000FF;
   --ifm-link-hover-color: #0000AA;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  /* Table styling to match https://camelmind-docs.vercel.app tables */
+  --ifm-table-head-background: #f4f4f4;
+  --ifm-table-head-color: #333;
+  --ifm-table-border-color: #e0e0e0;
+  --ifm-table-stripe-background: #f9f9f9;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -31,6 +37,12 @@
   --ifm-link-color: #4da6ff;
   --ifm-link-hover-color: #80bfff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+  /* Table styling to match https://camelmind-docs.vercel.app tables */
+  --ifm-table-head-background: #1f2937;
+  --ifm-table-head-color: #d1d5db;
+  --ifm-table-border-color: #374151;
+  --ifm-table-stripe-background: #1a1f2e;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
@@ -45,6 +57,20 @@ h1, h2, h3, h4 {
 
 sidebar-spacer {
   height: 3rem; /* Adjust the height as needed for your desired spacing */
+}
+
+/* Drop the vertical grid lines Infima draws by default, keeping only
+   the horizontal header underline and the zebra-striped row backgrounds
+   set above, to match the CamelMind docs table look. */
+table th,
+table td {
+  border: none;
+}
+table tr {
+  border-top: none;
+}
+table thead tr {
+  border-bottom: 2px solid var(--ifm-table-border-color);
 }
 
 table.fixedFourColumn {

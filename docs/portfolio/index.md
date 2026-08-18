@@ -2164,7 +2164,7 @@ kubectl [command] [TYPE] [NAME] [flags]
 
 The following table lists all `kubectl` commands for debugging your cluster:
 
-| <div style={{ width: '360px' }}>CLI Command</div> | Description |
+| <div style={{ width: '370px' }}>CLI Command</div> | Description |
 |---------------------------------------------------|-------------|
 | `kubectl get pods --namespace <namespace>`        | Get a list of pods and their status by specifying the `namespace`.                    |
 | `kubectl logs <pod-name>`                         | Retrieve the logs of a specific pod.                                                  |

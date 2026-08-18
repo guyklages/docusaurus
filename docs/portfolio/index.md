@@ -2149,3 +2149,64 @@ The following is an example response:
   "has_more": false 
 }
 ```
+
+---
+
+## Kubernetes `kubectl` Debug Operations
+
+_(I wrote this for an interview's assignment with that company's style guide)_
+
+Major and alternative cloud providers support Kubernetes, offering fully managed services that handle the control plane. Use `kubectl`, a command-line utility, to communicate with a cluster's control plane via the Kubernetes API. Every `kubectl` command has the following syntax:
+
+```bash
+kubectl [command] [TYPE] [NAME] [flags]
+```
+
+The following table lists all `kubectl` commands for debugging your cluster:
+
+|  CLI Command                               | Description |
+|--------------------------------------------|-------------|
+| `kubectl get pods --namespace <namespace>` | Get a list of pods and their status by specifying the `namespace`.                    |
+| `kubectl logs <pod-name>`                  | Retrieve the logs of a specific pod.                                                  |
+| `kubectl logs -f <pod-name>`               | Stream or "follow" logs in real-time.                                                 |
+| `kubectl exec <pod-name>`                  | Debug a container from the inside or explore the environment of the container itself. |
+| `kubectl exec -it <pod-name> -- /bin/bash` | Open an interactive terminal session inside a running pod's container.                |
+
+### Handle Errors
+
+#### Issues Inside a Container
+
+If you experience issues inside a container, use the following syntax:
+
+```shell
+kubectl debug -it <pod-name> --image=busybox --target=<container-name>
+```
+
+What you see first:
+
+```text
+Defaulting debug container name to debugger-xxxxx.
+Targeting container "your-app-container". If you don't see logs for this container, try something else.
+```
+
+Use `kubectl debug` to diagnose the following symptoms in a running (or crash-looping) container:
+
+- Container lacks a shell
+- Container constantly crashes
+- Container requires node-level host troubleshooting
+
+#### Pod Doesn't Terminate
+
+A stuck pod is often caused by:
+
+- stuck finalizers
+- a hung kubelet
+- a volume that won't unmount
+
+To troubleshoot this, try `kubectl delete pod <name> --grace-period=0 --force` or investigate finalizers directly.
+
+### References
+
+- [Getting started with Kubernetes](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#-strong-getting-started-strong-)
+
+- [What is Kubernetes](https://kubernetes.io/docs/concepts/overview/)

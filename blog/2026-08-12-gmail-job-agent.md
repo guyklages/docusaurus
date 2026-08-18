@@ -102,8 +102,8 @@ flowchart TD
     C -->|no| D[Mistral: job description?]
     D -->|no| Z
     D -->|yes| E[Build reply from rules]
-    E --> F[Create draft + attach resume ]
-    F --> G[Add job-agent/processed label ]
+    E --> F[Create draft + attach resume. ]
+    F --> G[Add job-agent/processed label. ]
     G --> H[Leave message unread]
 ```
 

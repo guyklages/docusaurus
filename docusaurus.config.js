@@ -90,9 +90,13 @@ presets: [
   ],
 ],
 
-  themes: ['docusaurus-theme-redoc'],
+  themes: ['docusaurus-theme-redoc', '@docusaurus/theme-mermaid'],
 
   plugins: ['docusaurus-plugin-image-zoom'],
+
+  markdown: {
+    mermaid: true,
+  },
 
   themeConfig:
     {

@@ -2152,7 +2152,7 @@ The following is an example response:
 
 ---
 
-## Kubernetes `kubectl` Debug Operations
+## Kubernetes `kubectl`
 
 _(I wrote this for an interview's assignment with that company's style guide)_
 

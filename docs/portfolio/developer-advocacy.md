@@ -289,6 +289,8 @@ Nium has added more API endpoints and supported languages after I left. The foll
 
 ## Meetup events I attend
 
-### SF AI Code and Coffee
-
-### Toastmasters
+| Event                          | Frequency | Remarks    |
+|--------------------------------|-----------|------------|
+| SF AI Code & Coffee            | Monthly   |            |
+| Toastmasters                   | Weekly    |            |
+| Agents & APIs Developer Meetup | Monthly   | by Postman |

@@ -291,8 +291,8 @@ Nium has added more API endpoints and supported languages after I left. The foll
 
 | Event                                                                             | City    | Frequency | Remarks    |
 |-----------------------------------------------------------------------------------|---------|-----------|------------|
-| [SF AI Code & Coffee](https://www.meetup.com/sf-code-coffee/events/)              | SF      | Monthly   |            |
-| [Toastmasters](https://toastmasters.org/find-a-club?q=Alameda%2C+CA+94502&radius=5&n=&advanced=0&latitude=37.733343&longitude=-122.242083&autocomplete=False&zoom=0)                                                          | Alameda | Weekly    |            |
 | [Agents & APIs Developer Meetup](https://www.postman.com/events/?region=NA)       | SF      | Monthly   | by Postman |
 | [Global AI Makers](https://www.meetup.com/global-ai-makers-san-francisco/events/) | SF      | Monthly   |            |
+| [SF AI Code & Coffee](https://www.meetup.com/sf-code-coffee/events/)              | SF      | Monthly   |            |
+| [Toastmasters](https://toastmasters.org/find-a-club?q=Alameda%2C+CA+94502&radius=5&n=&advanced=0&latitude=37.733343&longitude=-122.242083&autocomplete=False&zoom=0)                                                          | Alameda | Weekly    |            |
 | [Write the Docs](https://www.meetup.com/write-the-docs-bay-area/events/)          | SF      | Monthly   |            |

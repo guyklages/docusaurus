@@ -6,7 +6,7 @@ To see questions and answers from other solar panel owners or to post your own q
 
 The flow of sunlight is measured in Watts and can be thought of as raindrops, measured in the following way:
 
-| Unit                  | Example of usage         | | Analogy                                               | Analagy example of usage |
+| Unit                  | Example of usage         | | Analogy                                               | Analogy example of usage |
 |-----------------------|--------------------------|-|-------------------------------------------------------|--------------------------|
 | 1 Watt (W)            | 1 LED night light        | | one raindrop per second                               | a light drizzle of rain         |
 | 1 Kilowatt (kW)       | a microwave              | | 1,000 raindrops per second                            | a downpour of torrential rain            |
@@ -15,7 +15,7 @@ The flow of sunlight is measured in Watts and can be thought of as raindrops, me
 
 ### Common electric usage
 
-The amount of electricity you use will vary throughout the day, depending on which items you use and for how long. 
+The amount of electricity you use will vary throughout the day, depending on which items you use and for how long.
 
 For comparison, the following table lists the actual kW and kWh we use.
 
@@ -34,8 +34,7 @@ For comparison, the following table lists the actual kW and kWh we use.
 |                        |                 |                         |           | =========== |
 |                        |                 |                         |           | 6400 - 8300 |
 
-
-Once, for an hour, we were washing and drying a load of laundry while using the oven and stove--all at the same time. That "maximum usage" of 11.5 kW turned out to be good to know since our Powerwall+ is able to supply a maximum output of 5.7 kW, which required the remaining 5.8 kW to come from the Grid. 
+Once, for an hour, we were washing and drying a load of laundry while using the oven and stove--all at the same time. That "maximum usage" of 11.5 kW turned out to be good to know since our Powerwall+ is able to supply a maximum output of 5.7 kW, which required the remaining 5.8 kW to come from the Grid.
 
 So, we learned to use heavy appliances at different times--until we added a second Powerwall. (That issue is no longer a problem since a Powerwall 3 can output 11.5 kW)
 

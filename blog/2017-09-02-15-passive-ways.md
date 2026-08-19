@@ -159,7 +159,11 @@ By default, LinkedIn lists your Skills in descending order (most to least endors
 
 To your publications, personal websites, blogs, patents, etc.
 
-<br/> ... _after_ you've done all those steps ... <br/>
+---
+
+<br/> . . . _After_ you've done all those steps . . . <br/>
+
+---
 
 ## Add everyone you know
 

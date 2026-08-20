@@ -1,0 +1,130 @@
+.widget {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 200;
+  background: #ffffff;
+  color: #1c1e21;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+  padding: 0.6rem 0.75rem;
+  font-size: 0.85rem;
+  max-width: 260px;
+}
+
+:global(html[data-theme='dark']) .widget {
+  background: #242526;
+  color: #e3e3e3;
+  border-color: rgba(255, 255, 255, 0.12);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+}
+
+.closeButton {
+  position: absolute;
+  top: 0.35rem;
+  right: 0.35rem;
+  background: transparent;
+  border: none;
+  padding: 0.15rem;
+  cursor: pointer;
+  color: inherit;
+  opacity: 0.5;
+  display: flex;
+}
+
+.closeButton:hover {
+  opacity: 1;
+}
+
+.promptRow {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding-right: 1rem;
+}
+
+.promptText {
+  flex: 1;
+}
+
+.iconButton {
+  background: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+  padding: 0.3rem;
+  cursor: pointer;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.iconButton:hover {
+  background: rgba(0, 0, 0, 0.06);
+}
+
+:global(html[data-theme='dark']) .iconButton {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+:global(html[data-theme='dark']) .iconButton:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.iconButtonActive {
+  border-color: var(--ifm-color-primary);
+  color: var(--ifm-color-primary);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 0.4rem;
+}
+
+.textarea {
+  width: 100%;
+  resize: none;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  padding: 0.4rem 0.5rem;
+  font-size: 0.85rem;
+  font-family: inherit;
+  color: inherit;
+  background: transparent;
+  box-sizing: border-box;
+}
+
+:global(html[data-theme='dark']) .textarea {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.errorText {
+  margin: 0;
+  color: #e0245e;
+  font-size: 0.78rem;
+}
+
+.sendButton {
+  align-self: flex-end;
+  background: var(--ifm-color-primary);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.35rem 0.9rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.sendButton:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.thanksText {
+  margin: 0;
+  padding-right: 1rem;
+}

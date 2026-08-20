@@ -1,5 +1,11 @@
 const sidebars = {
   sidebarPortfolio: [
+    {
+        type: 'doc',
+        id: 'portfolio/developer-advocacy',
+        label: 'Developer advocacy',
+        className: 'portfolio-sidebar-item',
+    },
     { 
         type: 'category',
         label: 'Developer docs',
@@ -7,7 +13,7 @@ const sidebars = {
         items: [
           {
               type: 'doc',
-              id: 'portfolio/index',
+              id: 'portfolio/guides-api-reference',
               label: 'Guides and API reference',
               className: 'portfolio-sidebar-item',
           },
@@ -84,12 +90,6 @@ const sidebars = {
         type: 'doc',
         id: 'portfolio/tools-and-stack',
         label: 'Tools & Stack',
-        className: 'portfolio-sidebar-item',
-    },
-    {
-        type: 'doc',
-        id: 'portfolio/developer-advocacy',
-        label: 'Developer advocacy',
         className: 'portfolio-sidebar-item',
     },
     {

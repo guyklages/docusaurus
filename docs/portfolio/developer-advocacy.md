@@ -17,11 +17,14 @@
 
 ## Blog posts
 
-### Social media followers
+### LinkedIn (21,000+)
 
-| Platform | Number of followers |
-|----------|:-------------------:|
-| LinkedIn | 21,000+             |
+| Post title | Target audience |
+|------------|-----------------|
+| [15 passive ways to make employers find you](https://www.linkedin.com/pulse/how-make-employers-clients-find-you-linkedin-guy-klages/) | Everyone |
+| [13 active ways to make employers find you](https://www.linkedin.com/pulse/13-active-ways-make-employeers-clients-find-you-linkedin-guy-klages/) | Job hunters |
+| [The healthier doughnut](https://www.linkedin.com/pulse/20141206182745-17661981-the-healthy-doughnut/?trackingId=E4fbZbXvQTWHnmxhK3C82g%3D%3D) | Everyone |
+
 
 ## API
 
@@ -56,13 +59,13 @@
 | [Printers with ThinPrint default conflicts](kb-vmware#thinprint-conflicts) |
 | [How to allowlist blocked application](kb-vmware#allowlist-blocked-applications) |
 | [`Run Once` configurations that run multiple times](kb-vmware#run-once-unwanted-behavior) |
-| [How to replace an expired UEM licence file](kb-vmware#replace-a-uem-license-file) |
+| [How to replace an expired UEM license file](kb-vmware#replace-a-uem-license-file) |
 
 ## Dev problems I've solved
 
 | Developer problem | How I solved it | Company |
 |-------------------|-----------------|---------|
-| Developers had a hodge-podge of `skill.md` and `instruction.md` and various `.yaml` files and needed structure for their internal agent-driven workflows, server architecture, and usability. | I Created a framework of governance and guardrails with templates in Markdown and YAML files to make it easier for developers to build Copilot Agents | Microsoft |
+| Developers had a hodgepodge of `skill.md` and `instruction.md` and various `.yaml` files and needed structure for their internal agent-driven workflows, server architecture, and usability. | I Created a framework of governance and guardrails with templates in Markdown and YAML files to make it easier for developers to build Copilot Agents | Microsoft |
 | Metaverse developers had trouble making 3-D objects behave the way they wanted. | I improved the Metaverse documentation with explanations and examples for faster building. | Meta |
 | Developers created an AI/ML/LLM system to populate the Netflix home screen of titles and needed to share this technology with other Netflix departments but weren't able to install or configure it outside their group. | I tested and created internal documentation for the complex installation and configuration of their tool that populates the Netflix Home screen of titles so other departments can use it as well | Netflix |
 | Customers' developers weren't able to onboard Nium's products due to the complexity of different steps for different company types in different countries. | I made a step-by-step unified onboarding process that immediately **[70% more onboarded while 70% fewer helpdesk tickets](./most-impactful-tech-writing.md#70-more--70-fewer)**. | Nium |

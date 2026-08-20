@@ -17,7 +17,7 @@
 
 ## Blog posts
 
-### LinkedIn (21,000+)
+### LinkedIn (21,000+ followers)
 
 | Post title | Target audience |
 |------------|-----------------|

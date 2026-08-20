@@ -107,6 +107,20 @@ Driver of growth
 - Actual snippets and GitHub repos
 -->
 
+## Marketing contributions
+
+At Couchbase, Nium, and FIS/Atelio, I've helped the marketing department in the following ways:
+
+| Category                                         | Description |
+|--------------------------------------------------|-------------|
+| Technically credible content                     | - Blog posts <br/> - Tutorials <br/> - Training videos |
+| Developer feedback loop                          | - Forums <br/> - Discord <br/> - Conference hallway conversations <br/> - Support threads (objections, confuses them, etc.) |
+| Organic reach                                    | - Conference talks <br/> - Meetups <br/> - Community presence |
+| Customer stories                                 | - Deep relationships have surfaced genuine use cases and testimonials orgnically <br/> - Helped Marketing turn those into case studies and proof points |
+| Launch support and technical narrative           | - When shipping a new feature, I turned "what we built" into "why it matters and how to use it" <br/> - Deep-dive blog posts <br/> - Demos and workshops |
+| Event strategy by informed community knowledge   | I informed Marketing which developer-specific meetups and communities would have a good chance of reaching the target audience |
+
+
 ## Feedback loops
 
 On the [Couchbase SQL++ for Query Reference](https://docs.couchbase.com/cloud/n1ql/n1ql-language-reference/index.html) and Atelio documentation pages, I added a feedback mechanism that:
@@ -292,6 +306,7 @@ Nium has added more API endpoints and supported languages after I left. The foll
 | Event                                                                             | City    | Frequency | Remarks    |
 |-----------------------------------------------------------------------------------|---------|-----------|------------|
 | [Agents & APIs Developer Meetup](https://www.postman.com/events/?region=NA)       | SF      | Monthly   | by Postman |
+| [AI Tinkerers - SF](https://sf.aitinkerers.org/)                                  | SF      | Monthly   |            |
 | [Global AI Makers](https://www.meetup.com/global-ai-makers-san-francisco/events/) | SF      | Monthly   |            |
 | [SF AI Code & Coffee](https://www.meetup.com/sf-code-coffee/events/)              | SF      | Monthly   |            |
 | [Toastmasters](https://toastmasters.org/find-a-club?q=Alameda%2C+CA+94502&radius=5&n=&advanced=0&latitude=37.733343&longitude=-122.242083&autocomplete=False&zoom=0)                                                          | Alameda | Weekly    |            |

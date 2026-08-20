@@ -15,13 +15,12 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <Heading as="h1" className="hero__title">
+        <Heading as="h2" className="hero__title">
           Empowering users, one page at a time.
         </Heading>
-        <Heading as="h2" className="hero__subtitle">
+        <Heading as="h3" className="hero__subtitle">
           I'm passionate about creating documentation and resources that help developers and end users fully unlock a product's
-          potential. I'm also excited to support fellow technical writers&mdash;sharing interview questions, writing tips, and insights
-          to help you showcase your skills and land your next role with confidence.
+          potential. I'm also excited to support fellow technical writers.
         </Heading>
       </div>
     </header>

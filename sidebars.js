@@ -2,6 +2,12 @@ const sidebars = {
   sidebarPortfolio: [
     {
         type: 'doc',
+        id: 'portfolio/index',
+        label: 'Overview',
+        className: 'portfolio-sidebar-item',
+    },
+    {
+        type: 'doc',
         id: 'portfolio/developer-advocacy',
         label: 'Developer advocacy',
         className: 'portfolio-sidebar-item',

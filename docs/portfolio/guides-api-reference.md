@@ -1,6 +1,7 @@
+# Guides and API reference
+
 import { DefinitionProvider, DefTerm, DefinitionPanel } from '@site/src/components/DefTerm';
 
-# Guides and API reference
 
 ## Live company websites
 

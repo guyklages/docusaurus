@@ -13,7 +13,7 @@ tags: [vm]
 - [Log collection usage](#log-collection-usage)
 - [Writables not created](#writables-not-created)
 - [AppStacks turned off after rescan](#rescan-turned-off-appstacks)
-- [AppStacks not excluded from Writables](#appstack-included-in-writables)
+- [AppStacks not excluded from Writables](#appstacks-still-in-writables)
 
 ##  &nbsp; 
 
@@ -274,7 +274,7 @@ You need to follow these steps to import the group writable entry from the other
 
 After running an AppStack rescan, you experience one of these symptoms:
 
-- AppStacks appears as turned off 
+- AppStacks appears as turned off
 - AppStacks appears as unprovisioned in the manager UI
 
 #### Cause
@@ -291,7 +291,7 @@ To prevent this issue from recurring, move the AppStacks on the production datas
 
 ##  &nbsp; 
 
-## AppStack still in Writables
+## AppStacks still in Writables
 
 #### Symptoms
 

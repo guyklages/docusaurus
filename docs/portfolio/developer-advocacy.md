@@ -52,8 +52,8 @@
 
 | Title |
 |-------|
-| [AppStack exclusions are not excluded from Writables Volumes](kb-vmware#appstacks-included-in-writables) |
-| [After AppStack rescan, AppStacks is disabled or unprovisioned](kb-vmware#rescan-disabled-appstacks) |
+| [AppStack exclusions are not excluded from Writables Volumes](kb-vmware#appstacks-still-in-writables) |
+| [After AppStack rescan, AppStacks is disabled or unprovisioned](kb-vmware#rescan-turned-off-appstacks) |
 | [Writables are not created upon login in a multi-vCenter environment](kb-vmware#writables-not-created) |
 | [How to install and use Log Collection with AppVolumes](kb-vmware#log-collection-usage) |
 | [Printers with ThinPrint default conflicts](kb-vmware#thinprint-conflicts) |

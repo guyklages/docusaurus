@@ -6,9 +6,9 @@
 | Accomplishment  | Company |
 |-----------------|---------|
 | [Made a database to automate reports that saved > 50% of the employees' time](#db-saved-50-time-effort) | ADP Payroll <br/> <sup> _Seattle, WA_ </sup> |
-| [Redesigned their Helpdesk system that reduced their call queue by 88%](#88-drop-in-helpdesk-queue) | Microsoft <br/> <sup> _Shanghai, China_ </sup> |
+| [Redesigned their Helpdesk system that reduced their call queue by 92%](#92-drop-in-helpdesk-queue) | Microsoft <br/> <sup> _Shanghai, China_ </sup> |
 | [Redesigned their database tables; website ran about 12x faster](#12x-faster-warranty-website) | Hewlett-Packard <br/> <sup> _Mt. View, CA_ </sup> |
-| [Automated their label printing system; freed up 40% of staff's time](#40-increase-in-productivity) | Bridgestone <br/> <sup> _Bloomington, IL_ </sup> |
+| [Automated their label printing system; freed up 75% of staff's time](#75-increase-in-productivity) | Bridgestone <br/> <sup> _Bloomington, IL_ </sup> |
 | [Created a product ordering system that resulted in 0 wrong orders & 25% time saved](#0-wrong-orders--time-saved) | Pueblo Grocery <br/> <sup> _Miami, FL_ </sup> |
 | [Ran SQL queries to uncover a $1 million discrepancy in monthly rent totals](#1-million-per-month-saved) | Mall landlord <br/> <sup> _Miami, FL_ </sup> |
 
@@ -48,7 +48,7 @@
 
 ## 75% increase in productivity
 
-#### Bridgestone (Bloomington, IL) –– <mark> Automated their label printing system; freed up 40% of staff's time </mark>
+#### Bridgestone (Bloomington, IL) –– <mark> Automated their label printing system; freed up 75% of staff's time </mark>
 
 <!-- May 1999 - May 1999 -->
 

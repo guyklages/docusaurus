@@ -792,7 +792,7 @@ The following is an example response:
 
 To charge a credit or a debit card, you create a charge object. You can retrieve and refund individual charges as well as list all charges. You can identify charges by their unique, random ID.
 
-### The `charge` object 
+### The `charge` object
 
 The following table lists the attributes in the `charge` object.
 

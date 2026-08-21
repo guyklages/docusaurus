@@ -32,9 +32,9 @@
 
 | Title | Contents |
 |-------|----------|
-| [Stripe API authentication](stripe-api#authentication-api) | Authentication, errors, idempotent requests, pagination, etc. |
-| [Stripe API charge](stripe-api#charge) | Charges object, creating, retrieving, updating, etc. |
-| [Stripe API customers](stripe-api) | Customers object, creating, retrieving, updating, etc. |
+| [Stripe - Authentication API](stripe-api#authentication-api) | Authentication, errors, idempotent requests, pagination, etc. |
+| [Stripe - Charge API](stripe-api#charge-api) | Charges object, creating, retrieving, updating, etc. |
+| [Stripe - Customers API](stripe-api) | Customers object, creating, retrieving, updating, etc. |
 
 ## SDK
 

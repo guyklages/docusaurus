@@ -11,7 +11,7 @@ _Countryside Donut is on [220th and 66th Ave. in Edmonds, WA](https://www.google
 
 ---
 
-Those of us who succumb to the occasional urge for these nutritional hand-grenades, there is a glimmer of hope. Nestled in a small strip mall  is the best doughnut shop around——possibly on the west coast——and their scant use of oil and sugar make these delicious treats almost healthy.
+Those of us who succumb to the occasional urge for these nutritional hand-grenades, there is a glimmer of hope. Nestled in a small strip mall  is the best doughnut shop around—possibly on the west coast—and their scant use of oil and sugar make these delicious treats almost healthy.
 
 Countryside Donut has been open in the same spot every single day since 1976. And if you stop by this shop after 1 PM, you will most likely see their note, "Sorry, sold out, please come tomorrow" posted on the door. On weekends, it's best to arrive before 9 AM.
 

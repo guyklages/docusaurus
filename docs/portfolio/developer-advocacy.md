@@ -23,7 +23,7 @@
 |-----------------------------------------------------------------------------------------------|-----------------|
 | [Gmail agent for job auto-replies](/blog/gmail-agent-for-job-auto-replies)                    | Job hunters     |
 | [15 passive ways for employers to find you](/blog/15-passive-ways-for-employers-to-find-you)  | Everyone        |
-| [13 active ways for employers to find you](/blog/13-active-ways-for-employeers-to-find-you)   | Job hunters     |
+| [13 active ways for employers to find you](/blog/13-active-ways-for-employers-to-find-you)    | Job hunters     |
 | [The healthier doughnut](/blog/the-healthier-doughnut)                                        | Everyone        |
 
 

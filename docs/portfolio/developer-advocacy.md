@@ -19,12 +19,12 @@
 
 ### LinkedIn (21,000+ followers)
 
-| Title                                                                                          | Target audience |
-|------------------------------------------------------------------------------------------------|-----------------|
-| [Gmail agent for job auto-replies](/blog/gmail-agent-for-job-auto-replies)                     | Job hunters     |
-| [15 passive ways to make employers find you](/blog/15-passive-ways-to-make-employers-find-you) | Everyone        |
-| [13 active ways to make employers find you](/blog/13-active-ways-to-make-employeers-find-you)  | Job hunters     |
-| [The healthier doughnut](/blog/the-healthier-doughnut)                                         | Everyone        |
+| Title                                                                                         | Target audience |
+|-----------------------------------------------------------------------------------------------|-----------------|
+| [Gmail agent for job auto-replies](/blog/gmail-agent-for-job-auto-replies)                    | Job hunters     |
+| [15 passive ways for employers to find you](/blog/15-passive-ways-for-employers-to-find-you)  | Everyone        |
+| [13 active ways for employers to find you](/blog/13-active-ways-for-employeers-to-find-you)   | Job hunters     |
+| [The healthier doughnut](/blog/the-healthier-doughnut)                                        | Everyone        |
 
 
 ## API

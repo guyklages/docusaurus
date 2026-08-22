@@ -21,7 +21,7 @@
 
 | Title | Target audience |
 |-------|-----------------|
-| [Gmail agent for job auto-replies](https://www.linkedin.com/pulse/gmail-agent-job-auto-replies-guy-k--vlskc/) | Job hunters |
+| [Gmail agent for job auto-replies](../../blog/2026-08-12-gmail-job-agent.md) | Job hunters |
 | [15 passive ways to make employers find you](https://www.linkedin.com/pulse/how-make-employers-clients-find-you-linkedin-guy-klages/) | Everyone |
 | [13 active ways to make employers find you](https://www.linkedin.com/pulse/13-active-ways-make-employeers-clients-find-you-linkedin-guy-klages/) | Job hunters |
 | [The healthier doughnut](https://www.linkedin.com/pulse/20141206182745-17661981-the-healthy-doughnut/?trackingId=E4fbZbXvQTWHnmxhK3C82g%3D%3D) | Everyone |

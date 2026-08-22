@@ -4,9 +4,11 @@ authors: [guyklages]
 tags: [fintech]
 ---
 
+![Gmail agent for job auto-replies](../static/img/Blog_GmailAgent-inbox.png)
+
 # Building a local Gmail job-reply agent with Mistral and Ollama
 
-*How I built a privacy-first agent that drafts customized replies to recruiter emails without sending my inbox to the cloud.*
+*This article describes how I built a privacy-first agent (with Mistral and Ollama) that drafts customized replies to recruiter emails without sending my inbox to the cloud.*
 
 
 ## The problem

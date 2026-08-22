@@ -1,5 +1,5 @@
 ---
-slug: 15-passive-ways
+slug: 15-passive-ways-for-employers-to-find-you
 title: 15 passive ways for employers to find you
 authors: [guyklages]
 tags: [linkedin, job-hunting, portfolio]

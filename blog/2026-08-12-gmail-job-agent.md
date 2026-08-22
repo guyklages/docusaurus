@@ -1,4 +1,5 @@
 ---
+slug: gmail-agent-for-job-auto-replies
 title: Gmail agent for job auto-replies
 authors: [guyklages]
 tags: [fintech]

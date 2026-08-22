@@ -1,4 +1,5 @@
 ---
+slug: how-docs-generate-money
 title: How documentation generates money
 authors: [guyklages]
 tags: [fintech]

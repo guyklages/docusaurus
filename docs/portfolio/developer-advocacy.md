@@ -15,12 +15,13 @@
 | San Jose Convention Center | [Couchbase Connect](https://www.couchbase.com/resources/webcasts-and-events/) Hands-on query walkthrough | - Developers <br/> - techy PMs | 300+ | Projected a PowerPoint presentation while speaking and leading the crowd to build queries on their laptops while I did on mine |
 | Monthly [MeetUp](https://www.meetup.com/find/?keywords=Couchbase&source=EVENTS) groups | Couchbase NoSQL vs SQL | - Developers <br/> - DBAs | 20+ | Discussed index and query types and Big Data use cases |
 
-## Blog posts
+## Published articles
 
 ### LinkedIn (21,000+ followers)
 
-| Post title | Target audience |
-|------------|-----------------|
+| Title | Target audience |
+|-------|-----------------|
+| [Gmail agent for job auto-replies](https://www.linkedin.com/pulse/gmail-agent-job-auto-replies-guy-k--vlskc/) | Job hunters |
 | [15 passive ways to make employers find you](https://www.linkedin.com/pulse/how-make-employers-clients-find-you-linkedin-guy-klages/) | Everyone |
 | [13 active ways to make employers find you](https://www.linkedin.com/pulse/13-active-ways-make-employeers-clients-find-you-linkedin-guy-klages/) | Job hunters |
 | [The healthier doughnut](https://www.linkedin.com/pulse/20141206182745-17661981-the-healthy-doughnut/?trackingId=E4fbZbXvQTWHnmxhK3C82g%3D%3D) | Everyone |

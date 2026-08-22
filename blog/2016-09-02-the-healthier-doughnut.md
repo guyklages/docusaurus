@@ -15,7 +15,7 @@ Those of us who succumb to the occasional urge for these nutritional hand-grenad
 
 Countryside Donut has been open in the same spot every single day since 1976. And if you stop by this shop after 1 PM, you will most likely see their note, "Sorry, sold out, please come tomorrow" posted on the door. On weekends, it's best to arrive before 9 AM.
 
-When you enter this humble store, you will see a short and svelte owner behind the counter: "The Donut Man" as he likes to be called. If he's not already helping another customer, his warm smile and genuine greeting will make you feel like you’re his favorite customer. Clipped articles and reviews of his unique doughnut recipes are subtly posted near his cash register, but by his down-to-earth demeanor, you’d never guess that he’s been interviewed by many——including the Discovery Channel.
+When you enter this humble store, you will see a short and svelte owner behind the counter: "The Donut Man" as he likes to be called. If he's not already helping another customer, his warm smile and genuine greeting will make you feel like you’re his favorite customer. Clipped articles and reviews of his unique doughnut recipes are subtly posted near his cash register, but by his down-to-earth demeanor, you’d never guess that he’s been interviewed by many—including the Discovery Channel.
 
 Saying the police know where to go for the best doughnuts is an understatement; police from various cities and even the mayor are often spotted in this piece of Seattle culinary history to pick up their orders of the most amazing apple fritters.
 
@@ -24,4 +24,4 @@ The Donut Man bakes 4:00 to 7:00 every morning and serves people until he is sol
 - _“They are dry on the bottom since they are much less oily.”_
 - _“I use very little sugar coating so they are not too sweet.”_
 
-There may be no such thing as a healthy doughnut, but these exquisite creations are the closest you’ll find——so enjoy another one!
+There may be no such thing as a healthy doughnut, but these exquisite creations are the closest you’ll find—so enjoy another one!

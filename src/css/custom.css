@@ -23,6 +23,13 @@
   --ifm-table-head-color: #333;
   --ifm-table-border-color: #e0e0e0;
   --ifm-table-stripe-background: #f9f9f9;
+
+  /* Portfolio landing page: colored category boxes (docs/portfolio/index.md).
+     Light and pastel here since dark text (the light-mode default) needs a
+     light background to read; dark-mode gets the inverse further down. */
+  --portfolio-box-red: rgb(255, 225, 225);
+  --portfolio-box-blue: rgb(225, 225, 255);
+  --portfolio-box-green: rgb(225, 255, 225);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -43,6 +50,11 @@
   --ifm-table-head-color: #d1d5db;
   --ifm-table-border-color: #374151;
   --ifm-table-stripe-background: #1a1f2e;
+
+  /* Portfolio landing page: colored category boxes (docs/portfolio/index.md) */
+  --portfolio-box-red: rgb(70, 0, 0);
+  --portfolio-box-blue: rgb(13, 0, 116);
+  --portfolio-box-green: rgb(10, 71, 0);
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');

@@ -114,13 +114,13 @@
 
 ## Software Engineer
 
-### ADP Payroll - database
+### ADP Payroll - DBA
 
 | Recommendation | Person |
 | --- | --- |
 | _"It was so great working with Guy.  Not only was he very detailed and always improving the database he was creating to fit our ever-changing needs, he was also always available and very quick to respond to any issue we were experiencing.  Guy was always patient with those of us with less computer savy in explaining the new features he was constantly adding, and we wouldn’t have gotten the job done without his help. Though I was transferred from ADP Bothell to ADP Augusta last November he was still constantly available.  Our group will miss him and hopes to work with him again in the future!"_ | [Allyn Anderson](https://www.linkedin.com/in/allyn-anderson-adp) <br/><br/> Coworker |
 
-### Talk Group - database 
+### Talk Group - DBA
 
 | Recommendation | Person |
 | --- | --- |

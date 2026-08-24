@@ -91,7 +91,7 @@
 
 #### Websites
 
-- Atelio Dev Portal (product discontinued)
+- Atelio Dev Portal _(product discontinued)_
 - [Nium.com Dev Portal](https://app.nium.com/)
 - [Couchbase.com/forums](https://www.couchbase.com/forums)
 

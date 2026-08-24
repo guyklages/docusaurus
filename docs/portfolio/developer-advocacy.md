@@ -89,12 +89,11 @@
 
 ## Community contributions
 
-#### [Nium.com Dev Portal](https://app.nium.com/)
+#### Websites
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and
-
-#### [Couchbase.com/forums](https://www.couchbase.com/forums)
-
+- Atelio Dev Portal (closed)
+- [Nium.com Dev Portal](https://app.nium.com/)
+- [Couchbase.com/forums](https://www.couchbase.com/forums)
 
 Moderator
 - Helped facilitate community discussions by enforcing forum guidelines

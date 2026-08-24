@@ -62,16 +62,16 @@
 
 ### For VMware developers
 
-| Title |
-|-------|
-| [AppStack exclusions are not excluded from Writables Volumes](kb-vmware#appstacks-still-in-writables) |
-| [After AppStack rescan, AppStacks is disabled or unprovisioned](kb-vmware#rescan-turned-off-appstacks) |
-| [Writables are not created upon login in a multi-vCenter environment](kb-vmware#writables-not-created) |
-| [How to install and use Log Collection with AppVolumes](kb-vmware#log-collection-usage) |
-| [Printers with ThinPrint default conflicts](kb-vmware#thinprint-conflicts) |
-| [How to allowlist blocked application](kb-vmware#allowlist-blocked-applications) |
-| [`Run Once` configurations that run multiple times](kb-vmware#run-once-unwanted-behavior) |
-| [How to replace an expired UEM license file](kb-vmware#replace-a-uem-license-file) |
+| Title | Product |
+|-------|---------|
+| [AppStack exclusions are not excluded from Writables Volumes](kb-vmware#appstacks-still-in-writables)  | AppStack   |
+| [After AppStack rescan, AppStacks is disabled or unprovisioned](kb-vmware#rescan-turned-off-appstacks) | AppStack   |
+| [Writables are not created upon login in a multi-vCenter environment](kb-vmware#writables-not-created) | AppVolumes |
+| [How to install and use Log Collection with AppVolumes](kb-vmware#log-collection-usage)                | AppVolumes |
+| [Printers with ThinPrint default conflicts](kb-vmware#thinprint-conflicts)                             | ThinPrint  |
+| [How to allowlist blocked application](kb-vmware#allowlist-blocked-applications)                       | UEM        |
+| [`Run Once` configurations that run multiple times](kb-vmware#run-once-unwanted-behavior)              | UEM        |
+| [How to replace an expired UEM license file](kb-vmware#replace-a-uem-license-file)                     | UEM        |
 
 ## Dev problems I've solved
 

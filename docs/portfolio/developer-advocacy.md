@@ -28,14 +28,14 @@
 
 ### Fintech blog posts
 
-| Title                                                                                              | Company |
-|----------------------------------------------------------------------------------------------------|---------|
-| Pay by Bank's payment method that allows customers to make payments without their credit card info | Atelio  |
-| Consumer secured charge card as an embeddable solution for onboarding, issuing, and managing cards | Atelio  |
-| Identity from Atelio solves for use cases across key customer channels online, in-branch, mobile apps, and call centers | Atelio  |
-| Nium's Client Prefund Account APIs let you fund your Nium account and track those funds across all currencies           | Nium    |
-| Nium's Wallet-to-Wallet Transfers APIs move funds across different clients or within the same client group              | Nium    |
-| Nium's Customer Virtual Accounts APIs assign and manage virtual account numbers for a customer's wallet                 | Nium    |
+| Title                                                                              | Company |
+|------------------------------------------------------------------------------------|---------|
+| Atelio's Pay by Bank payment method allows payments without credit/debit card info | Atelio  |
+| Atelio's Consumer Secured Charge Card is an embeddable solution for many use cases | Atelio  |
+| Identity from Atelio solves for use cases across key customer channels             | Atelio  |
+| Nium's Client Prefund Account APIs let you track those funds across all currencies | Nium    |
+| Nium's Wallet-to-Wallet Transfers APIs move funds across different clients         | Nium    |
+| Nium's Customer Virtual Accounts APIs manage virtual account numbers for a customer's wallet | Nium    |
 
 ## API
 

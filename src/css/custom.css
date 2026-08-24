@@ -81,7 +81,8 @@ table td {
 table tr {
   border-top: none;
 }
-table thead tr {
+table thead tr,
+table tbody tr {
   border-bottom: 2px solid var(--ifm-table-border-color);
 }
 

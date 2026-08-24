@@ -95,6 +95,8 @@
 - [Nium.com Dev Portal](https://app.nium.com/)
 - [Couchbase.com/forums](https://www.couchbase.com/forums)
 
+#### Roles I performed at those websites
+
 Moderator
 - Helped facilitate community discussions by enforcing forum guidelines
 - Removed spam, ads, and self-promotion posts

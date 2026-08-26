@@ -1,7 +1,7 @@
 # Guy Klages portfolio
 > Empowering users, one page at a time.
 
-I'm passionate about creating documentation and resources that help developers and end users fully unlock a product's potential. I'm also excited to support fellow technical writers.
+Developer Advocate and Technical Writer with 10+ years of experience in developer documentation, API/SDK reference, and AI-native documentation infrastructure
 
 ## Documentation
 - [Developer Guides and API Reference](/portfolio/guides-api-reference): Developer Guides and API Reference.

@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /private-folder/
+Allow: /private-folder/public-page.html
+
+Sitemap: https://www.example.com/sitemap.xml
+

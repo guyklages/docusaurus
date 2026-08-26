@@ -1,0 +1,24 @@
+# Guy Klages portfolio
+> Empowering users, one page at a time.
+
+I'm passionate about creating documentation and resources that help developers and end users fully unlock a product's potential. I'm also excited to support fellow technical writers.
+
+## Documentation
+- [Developer Guides and API Reference](/docs/portfolio/guides-api-reference.md): Developer Guides and API Reference.
+- [5 favorite samples](/docs/portfolio/five-favorite.md): Five favorite samples.
+- [Most impactful technical writing](/docs/most-impactful-tech-writing.md): Most impactful techncical writing.
+- [Before and After](/docs/before-and-after.md): Before and After.
+- [Diagrams and illustrations](/docs/diagrams.md): Diagrams and illustrations.
+
+## Developer advocacy
+- [DevRel page](/docs/developer-advocacy.md): DevRel page (Talks, Blogs/Articles, Code, Meetups, etc.).
+- [Most impactful software engineering](/docs/most-impactful-software-engineering.md): Most impactful software engineering.
+- [Most impactful automating](/docs/most-impactful-automating.md): Most impactful automating.
+
+## Training
+- [Training and instructional design](/docs/training.md): Training and instructional design.
+- [Most impactful training](/docs/most-impactful-training.md): Most impactful training.
+
+## Other
+- [Tools and stack](docs/tools-and-stack.md): Tools and stack.
+- [Recommendations](docs/recommendations.md): LinkedIn recommendations. 

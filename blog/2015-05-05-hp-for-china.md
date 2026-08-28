@@ -18,6 +18,17 @@ I was confident I would do well because I had:
 - 3 years' experience studying Chinese and using it while living in Taiwan
 - 6 years' experience designing and improving database and CRM systems, starting with my computer science degree and continuing through my software engineering roles in Silicon Valley
 
+### The experiential method
+
+| Aspect       | Traditional                       | Experiential                                                                             |
+|--------------|-----------------------------------|------------------------------------------------------------------------------------------|
+| Ratio        | 1 teacher per 30 learners         | 3 teachers per 30 learners                                                               |
+| Positions    | Teacher stand while learners sit  | Everyone stands and walks around the room                                                |
+| Interaction  | Teacher lectures from the front   | Teachers wander through the room to observe and correct students when needed             |
+| Talk %       | Teacher talks 60% of the class    | Students talk in pairs 90% of the class; teachers explain class materials and activities |
+| Venue        | The same classroom every time     | [Different venues](#the-classes) that relate to the class topic                          |
+| Class length | 1 hour                            | 2 hours                                                                                  |
+
 ## The calculated risk
 
 What made it calculated rather than reckless was that we weren't testing a new idea, we were scaling a proven one. 
@@ -43,7 +54,9 @@ For three thrilling years, I worked three roles from 9 AM to 10 PM, six days per
 - **Content creator** of class activities, weekend adventures, daily SMS, and textbooks
 - **English teacher** of all class types, student levels, and incoming teachers
 
-Examples of our 300+ English classes (called "Mini-Adventures"):
+## The classes
+
+Examples of our 300+ English classes (called "Mini-Adventures") include:
 
 | Topic           | Venue | Contents of 2-hour class |
 |-----------------|-------|--------------------------|

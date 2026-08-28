@@ -93,15 +93,15 @@ Nium
 | Developer problem | How I solved it | Company |
 |-------------------|-----------------|---------|
 | Since Couchbase is schemaless and query performance is index-dependent in a way that isn't always obvious from the query syntax alone, developers routinely write a SQL++ query that works fine against a small local dataset, then silently full-scans a multi-million-document bucket in production; and it's often not discovered until someone notices latency or cost spike. <br/><br/> My Couchbase documentation work detailed this exactly in the GSI indexing, Adaptive Index, and Index Pushdown pages. | Query preflight checker. <br/><br/> I built a small CLI tool that takes a SQL++ query and a target bucket, and warns _before_ the query runs in production whether it will trigger a full primary index scan instead of using a covering secondary index. | Couchbase |
-| Since Couchbase documents in the same collection have no enforced schema, teams coming from a relational background often created a kind of silent drift that's easy to introduce and hard to notice in a schemaless system. | Schema drift detector <br/><br/> I built a tool that samples a collection and reports fields that are inconsistently typed or present across documents, catching that kind of silent drift. | Couchbase |
+| Since Couchbase documents in the same collection have no enforced schema, teams coming from a relational background often created a kind of silent drift that's easy to introduce and hard to notice in a schemaless system. | Schema drift detector. <br/><br/> I built a tool that samples a collection and reports fields that are inconsistently typed or present across documents, catching that kind of silent drift. | Couchbase |
 
 ## Community contributions
 
 #### Websites
 
-- Atelio Dev Portal _(product discontinued)_
-- [Nium.com Dev Portal](https://app.nium.com/)
-- [Couchbase.com/forums](https://www.couchbase.com/forums)
+- Atelio ...... Dev Portal _(product discontinued)_
+- Nium ........ [Dev Portal](https://app.nium.com/)
+- Couchbase ... [Forums](https://www.couchbase.com/forums)
 
 #### Roles I performed at those websites
 

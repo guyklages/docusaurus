@@ -327,5 +327,16 @@ Nium has added more API endpoints and supported languages after I left. The foll
 | [AI Tinkerers - SF](https://sf.aitinkerers.org/)                                  | SF      | Monthly   |            |
 | [Global AI Makers](https://www.meetup.com/global-ai-makers-san-francisco/events/) | SF      | Monthly   |            |
 | [SF AI Code & Coffee](https://www.meetup.com/sf-code-coffee/events/)              | SF      | Monthly   |            |
-| [Toastmasters](https://toastmasters.org/find-a-club?q=Alameda%2C+CA+94502&radius=5&n=&advanced=0&latitude=37.733343&longitude=-122.242083&autocomplete=False&zoom=0)                                                          | Alameda | Weekly    |            |
+| [Toastmasters](https://toastmasters.org/find-a-club?q=Alameda%2C+CA+94502&radius=5&n=&advanced=0&latitude=37.733343&longitude=-122.242083&autocomplete=False&zoom=0)                                                   | Alameda | Weekly    |            |
 | [Write the Docs](https://www.meetup.com/write-the-docs-bay-area/events/)          | SF      | Monthly   |            |
+
+
+## Reddit communities I'm in
+
+| r/                                                           | Description                                       |
+|--------------------------------------------------------------|---------------------------------------------------|
+| [LocalLLaMA](https://www.reddit.com/r/LocalLLaMA/)           | Locally hostable AI                               |
+| [MachineLearning](https://www.reddit.com/r/MachineLearning/) | AI & ML                                           |
+| [ChatGPTCoding](https://www.reddit.com/r/ChatGPTCoding/)     | For building and learning with AI-assisted coding |
+| [ClaudeCode](https://www.reddit.com/r/ClaudeCode/)           | For building and learning with AI-assisted coding |
+| [StableDiffusion](https://www.reddit.com/r/StableDiffusion)  | Open-source, local AI related to art              |

@@ -99,8 +99,8 @@ Nium
 
 #### Websites
 
-- Atelio ...... Dev Portal _(product discontinued)_
-- Nium ........ [Dev Portal](https://app.nium.com/)
+- Atelio ............ Dev Portal _(product discontinued)_
+- Nium ............. [Dev Portal](https://app.nium.com/)
 - Couchbase ... [Forums](https://www.couchbase.com/forums)
 
 #### Roles I performed at those websites

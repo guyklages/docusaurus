@@ -333,10 +333,10 @@ Nium has added more API endpoints and supported languages after I left. The foll
 
 ## Reddit communities I'm in
 
-| r/                                                           | Description                                       |
-|--------------------------------------------------------------|---------------------------------------------------|
-| [LocalLLaMA](https://www.reddit.com/r/LocalLLaMA/)           | Locally hostable AI                               |
-| [MachineLearning](https://www.reddit.com/r/MachineLearning/) | AI & ML                                           |
-| [ChatGPTCoding](https://www.reddit.com/r/ChatGPTCoding/)     | For building and learning with AI-assisted coding |
-| [ClaudeCode](https://www.reddit.com/r/ClaudeCode/)           | For building and learning with AI-assisted coding |
-| [StableDiffusion](https://www.reddit.com/r/StableDiffusion)  | Open-source, local AI related to art              |
+| r/                                                           | Description                                        |
+|--------------------------------------------------------------|----------------------------------------------------|
+| [LocalLLaMA](https://www.reddit.com/r/LocalLLaMA/)           | Locally hostable AI                                |
+| [MachineLearning](https://www.reddit.com/r/MachineLearning/) | AI & ML                                            |
+| [ChatGPTCoding](https://www.reddit.com/r/ChatGPTCoding/)     | For building and learning with AI-assisted coding  |
+| [ClaudeCode](https://www.reddit.com/r/ClaudeCode/)           | For building and learning with AI-assisted coding  |
+| [StableDiffusion](https://www.reddit.com/r/StableDiffusion)  | Open-source, local AI photorealistic art from text |

@@ -9,6 +9,9 @@ import { DefinitionProvider, DefTerm, DefinitionPanel } from '@site/src/componen
 | Company               | Topic | In-person trainer | <div style={{ width: '100px' }}>Curriculum designer</div> | <div style={{ width: '100px' }}>City</div> | <div style={{ width: '100px' }}>Year</div> |
 |-----------------------|---------------------------------------------------------------|:---:|:---:|-------------|:-----------:|
 | <DefTerm def="Edutainme is my own (part-time) startup company that has been teaching/training college students and adults throughout the Bay Area on weekends.">Edutainme</DefTerm>             | [Swagger](#swagger), DITA, MS Office, ESL, resumes            | Yes | Yes | Bay Area    | 2014 - now  |
+| <DevTerm def="Atelio was the fintech startup within Fidelity.">Atelio</> | Pay by Bank, Charge card, Identity | Yes | Yes | Bay Area | 2024 - 2025 |
+| <DefTerm def="Nium is a fintech company driving the future of payments.">Nium</>  | Onboarding, payins, payouts | Yes | Yes | Bay Area | 2022 - 2023 |
+| <DefTerm def="Couchbase is the leader of NoSQL databases.">Couchbase</>  | NoSQL querying and indexes | Yes | Yes | Santa Clara | 2017 - 2018 |
 | <DefTerm def="OpSec Security is the leading provider of integrated online protection and on-product authentication solutions for brands and governments. An example would be the label in a Prada bag that customers can verify authenticity with their mobile phone.">OpSec Security</DefTerm>        | [anti-counterfeiting labeling](#anti-counterfeiting-labeling) | Yes | Yes | Boston      | 2013 - 2013 |
 | <DefTerm def="The VA Medical Center in Jamaica Plain offers ambulatory care and primary care services, and serves as a hub for outpatient care, including ambulatory surgery, pharmacy, whole health, audiology and diagnostic imaging for military veterans.">VA Medical Center</DefTerm>     | [eDC clinical trials](#edc-for-clinical-trials)               | Yes | Yes | Boston      | 2011 - 2013 |
 | ADP Payroll           | [payroll reporting](#payroll-reporting)                       | Yes | Yes | Seattle     | 2008 - 2011 |
@@ -47,35 +50,55 @@ import { DefinitionProvider, DefTerm, DefinitionPanel } from '@site/src/componen
 | Video recording and editing   | Camtasia, Captivate, Zoomerang  | 3+ |
 
 
-## Swagger 
+## Topics taught
+
+### Swagger 
 
 | Description | Example |
 |-------------|---------|
-| **Edutainme (2015-2017) Bay Area <br/> <br/> Audience** <br/> Technical writers <br/> <br/> **Deliverables** <br/> Curriculum and hands-on classes using an address book example <br/> <br/> **Tools** <br/> Swagger and PowerPoint | <iframe src="https://docs.google.com/document/d/e/2PACX-1vSAFyqq2XqEuMWBQQDIl7dz2IlCzPeXTt-mDgf4ZekmjRsb_qXKvNpYons8GWn085jl6WMw4Yfvrw-X/pub?embedded=true" width="500" height="400"></iframe>|
+| **Edutainme (2015-2017) Bay Area <br/><br/> Audience** <br/> Technical writers <br/><br/> **Deliverables** <br/> Curriculum and hands-on classes using an address book example <br/><br/> **Tools** <br/> Swagger and PowerPoint | <iframe src="https://docs.google.com/document/d/e/2PACX-1vSAFyqq2XqEuMWBQQDIl7dz2IlCzPeXTt-mDgf4ZekmjRsb_qXKvNpYons8GWn085jl6WMw4Yfvrw-X/pub?embedded=true" width="500" height="400"></iframe>|
 
 
-## Anti-counterfeiting labeling
+### Pay by Bank
+
+| Description | Example |
+|-------------|---------|
+| **Atelio (2024-2025) Bay Area <br/><br/> Audience** <br/> Fintech developers <br/><br/> **Deliverables** <br/> Curriculum and hands-on classes using a sandbox account to test Atelio's Pay by Bank app with customers' own app via API calls <br/><br/> **Tools** <br/> PowerPoint | ![Label](../../static/img/Atelio_Pay-by-Bank.png) |
+
+### Payins, Payouts
+
+| Description | Example |
+|-------------|---------|
+| **Nium (2022-2023) Bay Area <br/><br/> Audience** <br/> Fintech developers <br/><br/> **Deliverables** <br/> Curriculum and hands-on classes using a sandbox account to test Nium's API endpoints with customers' own app via API calls <br/><br/> **Tools** <br/> PowerPoint | ![Label](../../static/img/Nium_Payins_Customer-Virtual-Accts.png) |
+
+### SQL++ queries
+
+| Description | Example |
+|-------------|---------|
+| **Couchbase (2017-2018) Bay Area <br/><br/> Audience** <br/> Big Data analysts, PMs, developers <br/><br/> **Deliverables** <br/> Curriculum and hands-on classes using their Couchbase account to make advanced queries against Couchbase's sample database <br/><br/> **Tools** PowerPoint | ![Label](../../static/img/Couchbase_SQL++_for_Query_Reference.png) |
+
+### Anti-counterfeiting labeling
 
 | Description | Example |
 |-------------|---------|
 | **OpSec Security (2013) Boston <br/> <br/> Audience** <br/> OpSec Employees <br/> <br/> **Deliverables** <br/> Internal training videos with voiceover narration that explains the complex process of how OpSec makes their anti-counterfeiting labels <br/> <br/> **Method** <br/> Documenting and storyboarding the use of their in-house anti-counterfeiting system <br/> <br/> **Tools** <br/> Adobe Captivate and Camtasia | ![Label](../../static/img/OpSec_Holographic-anti-counterfeiting-label.png) |
 
 
-## eDC for clinical trials
+### eDC for clinical trials
 
 | Description | Example |
 |-------------|---------|
 | **VA Medical Center (2011-2013) Boston <br/> <br/> Audience** <br/> Clinical trial PMs <br/> <br/> **Deliverables** <br/> Technical documents and class materials for their in-house clinical trial software <br/> <br/> **Method** <br/> Provided Instructor Led Training (ILT) and Virtual Classroom Training (VCT) on their eDC software. <br/> <br/> **Tools** <br/> MS Word, Excel, Visio, Powerpoint, Access, SQL Server, SharePoint, Captivate | ![VA](../../static/img/VA_eDC-software.png) |
 
 
-## Payroll reporting
+### Payroll reporting
 
 | Description | Example |
 |-------------|---------|
 | **ADP Payroll (2008-2011) Seattle <br/> <br/> Audience** <br/> Payroll Specialists <br/> <br/> **Deliverables** <br/> Training materials and curriculum for reporting of Garnishments, Payroll, AP/AR, GL, and Reimbursements <br/> <br/> **Method** <br/> Provided Instructor Led Training (ILT) and Virtual Classroom Training (VCT) <br/> <br/> **Tools** <br/> MS Word, Excel, Visio, Access, SQL Server, Captivate | ![ADP](../../static/img/ADP_COS-NSC-Tax-inquiry-process-diagram.png) |
 
 
-## ESL, Excel
+### ESL, Excel
 
 | Description | Example |
 |-------------|---------|

@@ -23,7 +23,7 @@ I was confident I would do well because I had:
 | Aspect       | Traditional                       | Experiential                                                                             |
 |--------------|-----------------------------------|------------------------------------------------------------------------------------------|
 | Ratio        | 1 teacher per 30 learners         | 3 teachers per 30 learners                                                               |
-| Positions    | Teacher stand while learners sit  | Everyone stands and walks around the room                                                |
+| Positions    | Teacher stands while learners sit | Teachers and learners gradually move around the room while speaking                      |
 | Interaction  | Teacher lectures from the front   | Teachers wander through the room to observe and correct students when needed             |
 | Talk %       | Teacher talks 60% of the class    | Students talk in pairs 90% of the class; teachers explain class materials and activities |
 | Venue        | The same classroom every time     | [Different venues](#the-classes) that relate to the class topic                          |

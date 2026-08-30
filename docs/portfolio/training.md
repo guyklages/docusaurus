@@ -9,7 +9,7 @@ import { DefinitionProvider, DefTerm, DefinitionPanel } from '@site/src/componen
 | Company               | Topic | In-person trainer | <div style={{ width: '100px' }}>Curriculum designer</div> | <div style={{ width: '100px' }}>City</div> | <div style={{ width: '100px' }}>Year</div> |
 |-----------------------|---------------------------------------------------------------|:---:|:---:|-------------|:-----------:|
 | <DefTerm def="Edutainme is my own (part-time) startup company that has been teaching/training college students and adults throughout the Bay Area on weekends.">Edutainme</DefTerm>             | [Swagger](#swagger), DITA, MS Office, ESL, resumes            | Yes | Yes | Bay Area    | 2014 - now  |
-| <DevTerm def="Atelio was the fintech startup within Fidelity.">Atelio</DefTerm> | Pay by Bank, Charge card, Identity | Yes | Yes | Bay Area | 2024 - 2025 |
+| <DefTerm def="Atelio was the fintech startup within Fidelity.">Atelio</DefTerm> | Pay by Bank, Charge card, Identity | Yes | Yes | Bay Area | 2024 - 2025 |
 | <DefTerm def="Nium is a fintech company driving the future of payments.">Nium</DefTerm>  | Onboarding, payins, payouts | Yes | Yes | Bay Area | 2022 - 2023 |
 | <DefTerm def="Couchbase is the leader of NoSQL databases.">Couchbase</DefTerm>  | NoSQL querying and indexes | Yes | Yes | Santa Clara | 2017 - 2018 |
 | <DefTerm def="OpSec Security is the leading provider of integrated online protection and on-product authentication solutions for brands and governments. An example would be the label in a Prada bag that customers can verify authenticity with their mobile phone.">OpSec Security</DefTerm>        | [anti-counterfeiting labeling](#anti-counterfeiting-labeling) | Yes | Yes | Boston      | 2013 - 2013 |

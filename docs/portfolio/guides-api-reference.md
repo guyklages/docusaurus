@@ -2211,3 +2211,12 @@ To troubleshoot this, try `kubectl delete pod <name> --grace-period=0 --force` o
 - [Getting started with Kubernetes](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#-strong-getting-started-strong-)
 
 - [What is Kubernetes](https://kubernetes.io/docs/concepts/overview/)
+
+
+## Appendix
+
+### Years of DITA
+
+| Company      | From     | Until    | Years | DITA | AEM | Oxygen XML | XMetaL |
+|--------------|:--------:|:--------:|:-----:|:----:|:---:|:----------:|:------:|
+| ChargePoint  | Nov 2018 | May 2019 |  0.5  | [x]  |     | :heavy_check_mark |  |

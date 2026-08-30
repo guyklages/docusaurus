@@ -8,15 +8,15 @@ import { DefinitionProvider, DefTerm, DefinitionPanel } from '@site/src/componen
 
 | Company               | Topic | In-person trainer | <div style={{ width: '100px' }}>Curriculum designer</div> | <div style={{ width: '100px' }}>City</div> | <div style={{ width: '100px' }}>Year</div> |
 |-----------------------|---------------------------------------------------------------|:---:|:---:|-------------|:-----------:|
-| <DefTerm def="Edutainme is my own (part-time) startup company that has been teaching/training college students and adults throughout the Bay Area on weekends.">Edutainme</DefTerm>             | [Swagger](#swagger), DITA, MS Office, ESL, resumes            | Yes | Yes | Bay Area    | 2014 - now  |
-| <DefTerm def="Atelio was the fintech startup within Fidelity.">Atelio</DefTerm> | Pay by Bank, Charge card, Identity | Yes | Yes | Bay Area | 2024 - 2025 |
-| <DefTerm def="Nium is a fintech company driving the future of payments.">Nium</DefTerm>  | Onboarding, payins, payouts | Yes | Yes | Bay Area | 2022 - 2023 |
-| <DefTerm def="Couchbase is the leader of NoSQL databases.">Couchbase</DefTerm>  | NoSQL querying and indexes | Yes | Yes | Santa Clara | 2017 - 2018 |
+| <DefTerm def="Edutainme is my own (part-time) startup company that has been teaching/training college students and adults throughout the Bay Area on weekends.">Edutainme</DefTerm>             | [Swagger](#swagger), DITA, MS Office, resume         | Yes | Yes | Bay Area    | 2014 - now  |
+| <DefTerm def="Atelio was the fintech startup within Fidelity.">Atelio</DefTerm> | [Pay by Bank](#pay-by-bank)  | Yes | Yes | Bay Area | 2024 - 2025 |
+| <DefTerm def="Nium is a fintech company driving the future of payments.">Nium</DefTerm>  | Onboarding, [Payins, Payouts](#payins-payouts) | Yes | Yes | Bay Area | 2022 - 2023 |
+| <DefTerm def="Couchbase is the leader of NoSQL databases.">Couchbase</DefTerm>  | [SQL++ queries and indexes](#sql-queries-and-indexes) | Yes | Yes | Santa Clara | 2017 - 2018 |
 | <DefTerm def="OpSec Security is the leading provider of integrated online protection and on-product authentication solutions for brands and governments. An example would be the label in a Prada bag that customers can verify authenticity with their mobile phone.">OpSec Security</DefTerm>        | [anti-counterfeiting labeling](#anti-counterfeiting-labeling) | Yes | Yes | Boston      | 2013 - 2013 |
 | <DefTerm def="The VA Medical Center in Jamaica Plain offers ambulatory care and primary care services, and serves as a hub for outpatient care, including ambulatory surgery, pharmacy, whole health, audiology and diagnostic imaging for military veterans.">VA Medical Center</DefTerm>     | [eDC clinical trials](#edc-for-clinical-trials)               | Yes | Yes | Boston      | 2011 - 2013 |
 | <DefTerm def="ADP offers industry-leading online payroll and HR solutions, plus tax, compliance, benefit administration and more.">ADP Payroll</DefTerm>      | [payroll reporting](#payroll-reporting)                       | Yes | Yes | Seattle     | 2008 - 2011 |
 | <DefTerm def="Talk Group is an experiential language center that teaches through 2-hour activities called Mini Adventures at various topic-related venues throughout the city instead of a traditional (single) classroom.">Talk Group</DefTerm>   | [ESL, Excel](#esl-excel), resumes | Yes | Yes | Shanghai    | 2002 - 2008 |
-| <DefTerm def="Expandable Software develops and implements an enterprise resources planning (ERP) software suite to help executives and managers of manufacturing companies maximize business performance with real-time visibility and control of their organization.">Expandable Software</DefTerm>   | ERP modules and reporting                                     | Yes | No  | San Jose    | 2000 - 2002 |
+| <DefTerm def="Expandable Software develops and implements an enterprise resources planning (ERP) software suite to help executives and managers of manufacturing companies maximize business performance with real-time visibility and control of their organization.">Expandable</DefTerm>   | ERP modules and reporting                                     | Yes | No  | San Jose    | 2000 - 2002 |
 
 <DefinitionPanel/>
 
@@ -71,7 +71,7 @@ import { DefinitionProvider, DefTerm, DefinitionPanel } from '@site/src/componen
 |-------------|---------|
 | **Nium (2022-2023) Bay Area <br/><br/> Audience** <br/> Fintech developers <br/><br/> **Deliverables** <br/> Curriculum and hands-on classes using a sandbox account to test Nium's API endpoints with customers' own app via API calls <br/><br/> **Tools** <br/> PowerPoint | ![Label](../../static/img/Nium_Payins_Customer-Virtual-Accts.png) |
 
-### SQL++ queries
+### SQL++ queries and indexes
 
 | Description | Example |
 |-------------|---------|

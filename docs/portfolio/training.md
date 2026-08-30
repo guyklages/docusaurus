@@ -6,7 +6,7 @@ import { DefinitionProvider, DefTerm, DefinitionPanel } from '@site/src/componen
 
 <DefinitionProvider>
 
-| Company               | Topic | In-person trainer | <div style={{ width: '100px' }}>Curriculum designer</div> | <div style={{ width: '100px' }}>City</div> | <div style={{ width: '100px' }}>Year</div> |
+| Company               | Topic | In-person <br/> trainer | <div style={{ width: '100px' }}>Curriculum designer</div> | <div style={{ width: '100px' }}>City</div> | <div style={{ width: '100px' }}>Year</div> |
 |-----------------------|---------------------------------------------------------------|:---:|:---:|-------------|:-----------:|
 | <DefTerm def="Edutainme is my own (part-time) startup company that has been teaching/training college students and adults throughout the Bay Area on weekends.">Edutainme</DefTerm>             | [Swagger](#swagger), DITA, MS Office, etc.  | Yes | Yes | Bay Area    | 2014 - now  |
 | <DefTerm def="Atelio was the fintech startup within Fidelity.">Atelio</DefTerm> | [Pay by Bank](#pay-by-bank)  | Yes | Yes | Bay Area | 2024 - 2025 |

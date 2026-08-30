@@ -2219,4 +2219,4 @@ To troubleshoot this, try `kubectl delete pod <name> --grace-period=0 --force` o
 
 | Company      | From     | Until    | Years | DITA | AEM | Oxygen XML | XMetaL |
 |--------------|:--------:|:--------:|:-----:|:----:|:---:|:----------:|:------:|
-| ChargePoint  | Nov 2018 | May 2019 |  0.5  | [x]  |     | :heavy_check_mark |  |
+| ChargePoint  | Nov 2018 | May 2019 |  0.5  | :heavy_check_mark:  |     | :heavy_check_mark: |  |

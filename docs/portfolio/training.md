@@ -66,7 +66,7 @@ import { DefinitionProvider, DefTerm, DefinitionPanel } from '@site/src/componen
 
 | Description | Example |
 |-------------|---------|
-| **Atelio (2024-2025) Bay Area <br/><br/> Audience** <br/> Fintech developers <br/><br/> **Deliverables** <br/> Curriculum and hands-on classes using a sandbox account to test Atelio's Pay by Bank app with customers' own app via API calls <br/><br/> **Tools** <br/> PowerPoint | ![Label](../../static/img/Atelio_Pay-by-Bank.png) |
+| **Atelio (2024-2025) Bay Area <br/><br/> Audience** <br/> Fintech developers <br/><br/> **Deliverables** <br/> Curriculum and hands-on classes using a sandbox account to test Atelio's Pay by Bank app with customers' own app via API calls <br/><br/> **Tools** <br/> PowerPoint | ![Label](../../static/img/Atelio_Pay-By-Bank_light.png) |
 
 ### Payins, Payouts
 

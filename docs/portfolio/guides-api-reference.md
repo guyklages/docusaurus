@@ -2219,14 +2219,14 @@ To troubleshoot this, try `kubectl delete pod <name> --grace-period=0 --force` o
 
 <DefinitionProvider>
 
-| Company                             | From     | Until    | Years | DITA | AEM  | Oxygen <br/> XML | XMetaL | Pages |
-|-------------------------------------|:--------:|:--------:|:-----:|:----:|:----:|:----------------:|:------:|:-----:|
-| <DefTerm def="ChargePoint makes chargers for electric vehicles (EVs), and I wrote internal manuals for the manager of those chargers (such as a store supervisor at Target) to adjust the settings for EVs charging in their parking lot while shopping. Guides include PDFs and online dashboards.">ChargePoint</DefTerm>    | Nov 2018 | May 2019 |  0.5  |  ✅  |      |        ✅        |        |       |
-| Couchbase    | Apr 2017 | May 2018 |  1.2  |  ✅  |      |        ✅        |        |       |
-| Wells Fargo  | Jan 2017 | Mar 2017 |  0.2  |  ✅  |  ✅  |                  |        |       |
-| VMware       | Aug 2016 | Dec 2016 |  0.3  |  ✅  |  ✅  |                  |        |       |
-| Visa         | Mar 2016 | Jun 2016 |  0.3  |  ✅  |  ✅  |                  |        |       |
-| Hitachi      | Aug 2015 | Feb 2016 |  0.5  |  ✅  |      |                  |   ✅   |       |
+| Company                                    | From     | Until    | Years | DITA | AEM  | Oxygen <br/> XML | XMetaL | Pages |
+|--------------------------------------------|:--------:|:--------:|:-----:|:----:|:----:|:----------------:|:------:|:-----:|
+| <DefTerm def="ChargePoint makes chargers for electric vehicles (EVs), and I wrote internal manuals for the manager of those chargers (such as a store supervisor at Target) to adjust the settings for EVs charging in their parking lot while their owner shops. Guides include PDFs and online dashboards.">ChargePoint</DefTerm>    | Nov 2018 | May 2019 |  0.5  |  ✅  |      |        ✅        |        |       |
+| <DefTerm def="Couchbase makes Big Data NoSQL databases, and I owned all of the SQL++ reference pages. I documented new features and revamped the pre-existing pages by elaborating their explanations, by adding index and query examples, and by adding diagrams.">Couchbase</DefTerm>                                     | Apr 2017 | May 2018 |  1.2  |  ✅  |      |        ✅        |        |       |
+| <DefTerm def="The Wells Fargo department I worked in was responsible for their developer portal and banking APIs. I documented how to register, subscribe, generate, and test API keys.">Wells Fargo</DefTerm>   | Jan 2017 | Mar 2017 |  0.2  |  ✅  |  ✅  |                  |        |       |
+| <DefTerm def="The VMware department I worked in was responsible for their UEM virtualization products. I documented the user guides, design guides, deployment guides, knowledge base articles, and blog posts of their AppStacks, App Volumes, and AppSense PDFs.">VMware</DefTerm>                                     | Aug 2016 | Dec 2016 |  0.3  |  ✅  |  ✅  |                  |        |       |
+| <DefTerm def="The Visa department I worked in was responsible for their fintech portal APIs. I documented how to register, subscribe, generate, and test API keys.">Visa</DefTerm> | Mar 2016 | Jun 2016 |  0.3  |  ✅  |  ✅  |                  |        |       |
+| <DefTerm def="The Hitachi department I worked in was creating a realtime text message monitoring system to look for crime patterns. I documented their PDF user guides, deployment guides, and configuration guides.">Hitachi</DefTerm> | Aug 2015 | Feb 2016 |  0.5  |  ✅  |      |                  |   ✅   |       |
 | Apple        | Feb 2015 | Jun 2015 |  0.3  |  ✅  |      |                  |        |  ✅   |
 | NICE Systems | May 2014 | Jul 2014 |  0.2  |  ✅  |      |        ✅        |        |       |
 | V.A. Medical | Feb 2011 | Sep 2012 |  1.6  |  ✅  |      |                  |        |       |

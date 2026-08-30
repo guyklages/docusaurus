@@ -16,7 +16,10 @@ import { DefinitionProvider, DefTerm, DefinitionPanel } from '@site/src/componen
 | <DefTerm def="The VA Medical Center in Jamaica Plain offers ambulatory care and primary care services, and serves as a hub for outpatient care, including ambulatory surgery, pharmacy, whole health, audiology and diagnostic imaging for military veterans.">VA Medical Center</DefTerm>     | [eDC clinical trials](#edc-for-clinical-trials)               | Yes | Yes | Boston      | 2011 - 2013 |
 | <DefTerm def="ADP offers industry-leading online payroll and HR solutions, plus tax, compliance, benefit administration and more.">ADP Payroll</DefTerm>      | [Payroll reporting](#payroll-reporting)                       | Yes | Yes | Seattle     | 2008 - 2011 |
 | <DefTerm def="Talk Group is an experiential language center that teaches through 2-hour activities called Mini Adventures at various topic-related venues throughout the city instead of a traditional (single) classroom.">Talk Group</DefTerm>   | [ESL, Excel](#esl-excel), resumes | Yes | Yes | Shanghai    | 2002 - 2008 |
+
+<!--
 | <DefTerm def="Expandable Software develops and implements an enterprise resources planning (ERP) software suite to help executives and managers of manufacturing companies maximize business performance with real-time visibility and control of their organization.">Expandable</DefTerm>   | ERP modules and reporting                                     | Yes | No  | San Jose    | 2000 - 2002 |
+-->
 
 <DefinitionPanel/>
 

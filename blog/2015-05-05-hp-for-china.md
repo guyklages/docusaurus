@@ -83,4 +83,4 @@ By the end of the third year, we were teaching over 12,000 students in six major
 
 The biggest result I'm proud of is that many students saw [dramatic gains in both English ability and confidence](/portfolio/recommendations#talk-group---instructor) and that dozens of them went on to study abroad, with some earning scholarships based on how well they'd learned to speak and write English.
 
-Our success caught the attention of Disney English, who were looking to enter China's ESL market. My business partners and I chose to accept the acquisition, allowing the business to expand beyond what we could have achieved independently.
+Our success caught the attention of another ESL school that wanted to expand its presence in China. My business partners and I chose to accept the acquisition, allowing the business to expand beyond what we could have achieved independently.

@@ -1,3 +1,5 @@
+import { DefinitionProvider, DefTerm, DefinitionPanel } from '@site/src/components/DefTerm';
+
 # Guides and API reference
 
 import { DefinitionProvider, DefTerm, DefinitionPanel } from '@site/src/components/DefTerm';
@@ -2217,9 +2219,11 @@ To troubleshoot this, try `kubectl delete pod <name> --grace-period=0 --force` o
 
 ### Years of DITA
 
-| Company      | From     | Until    | Years | DITA | AEM  | Oxygen <br/> XML | XMetaL | Pages |
-|--------------|:--------:|:--------:|:-----:|:----:|:----:|:----------------:|:------:|:-----:|
-| ChargePoint  | Nov 2018 | May 2019 |  0.5  |  ✅  |      |        ✅        |        |       |
+<DefinitionProvider>
+
+| Company                             | From     | Until    | Years | DITA | AEM  | Oxygen <br/> XML | XMetaL | Pages |
+|-------------------------------------|:--------:|:--------:|:-----:|:----:|:----:|:----------------:|:------:|:-----:|
+| <DefTerm def="ChargePoint makes chargers for electric vehicles (EVs), and I wrote internal manuals for the manager of those chargers (such as a store supervisor at Target) to adjust the settings for EVs charging in their parking lot while shopping. Guides include PDFs and online dashboards.">ChargePoint</DefTerm>    | Nov 2018 | May 2019 |  0.5  |  ✅  |      |        ✅        |        |       |
 | Couchbase    | Apr 2017 | May 2018 |  1.2  |  ✅  |      |        ✅        |        |       |
 | Wells Fargo  | Jan 2017 | Mar 2017 |  0.2  |  ✅  |  ✅  |                  |        |       |
 | VMware       | Aug 2016 | Dec 2016 |  0.3  |  ✅  |  ✅  |                  |        |       |
@@ -2231,3 +2235,7 @@ To troubleshoot this, try `kubectl delete pod <name> --grace-period=0 --force` o
 | ADP Payroll  | Oct 2008 | Dec 2010 |  2.2  |  ✅  |      |                  |   ✅   |       |
 |              |          |          |       | ==== | ==== |   ======         | ====== | ===== |
 |              |          |          |       |  7.2 | 0.8  |    1.9           |  2.7   |  0.3  |
+
+<DefinitionPanel/>
+
+</DefinitionProvider>

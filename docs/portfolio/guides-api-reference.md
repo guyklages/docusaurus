@@ -2217,6 +2217,17 @@ To troubleshoot this, try `kubectl delete pod <name> --grace-period=0 --force` o
 
 ### Years of DITA
 
-| Company      | From     | Until    | Years | DITA | AEM | Oxygen XML | XMetaL |
-|--------------|:--------:|:--------:|:-----:|:----:|:---:|:----------:|:------:|
-| ChargePoint  | Nov 2018 | May 2019 |  0.5  | :heavy_check_mark:  |     | :heavy_check_mark: |  |
+| Company      | From     | Until    | Years | DITA | AEM  | Oxygen XML | XMetaL |
+|--------------|:--------:|:--------:|:-----:|:----:|:----:|:----------:|:------:|
+| ChargePoint  | Nov 2018 | May 2019 |  0.5  |  ✅  |      |     ✅     |        |
+| Couchbase    | Apr 2017 | May 2018 |  1.2  |  ✅  |      |     ✅     |        |
+| Wells Fargo  | Jan 2017 | Mar 2017 |  0.2  |  ✅  |  ✅  |            |        |
+| VMware       | Aug 2016 | Dec 2016 |  0.3  |  ✅  |  ✅  |            |        |
+| Visa         | Mar 2016 | Jun 2016 |  0.3  |  ✅  |  ✅  |            |        |
+| Hitachi      | Aug 2015 | Feb 2016 |  0.5  |  ✅  |      |            |   ✅   |
+| Apple        | Feb 2015 | Jun 2015 |  0.3  |  ✅  |      |            |        |
+| NICE Systems | May 2014 | Jul 2014 |  0.2  |  ✅  |      |     ✅     |        |
+| V.A. Medical | Feb 2011 | Sep 2012 |  1.6  |  ✅  |      |            |        |
+| ADP Payroll  | Oct 2008 | Dec 2010 |  2.2  |  ✅  |      |            |   ✅   |
+|              |          |          |       |======|======|============|========|
+|              |          |          |       |  7.2 | 0.8  |    1.9     |  2.7   |

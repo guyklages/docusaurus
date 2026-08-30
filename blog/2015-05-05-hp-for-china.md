@@ -20,7 +20,7 @@ I was confident I would do well because I had:
 
 ### The experiential method
 
-| Aspect       | Traditional                       | Experiential                                                                             |
+| Aspect       | Traditional                       | Experiential (by experience)                                                             |
 |--------------|-----------------------------------|------------------------------------------------------------------------------------------|
 | Ratio        | 1 teacher per 30 learners         | 3 teachers per 30 learners                                                               |
 | Positions    | Teacher stands while learners sit | Teachers and learners gradually move around the room while speaking                      |

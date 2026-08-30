@@ -84,21 +84,21 @@ import { DefinitionProvider, DefTerm, DefinitionPanel } from '@site/src/componen
 
 | Description | Example |
 |-------------|---------|
-| **OpSec Security (2013) Boston <br/> <br/> Audience** <br/> OpSec Employees <br/> <br/> **Deliverables** <br/> Internal training videos with voiceover narration that explains the complex process of how OpSec makes their anti-counterfeiting labels <br/> <br/> **Method** <br/> Documenting and storyboarding the use of their in-house anti-counterfeiting system <br/> <br/> **Tools** <br/> Adobe Captivate and Camtasia | ![Label](../../static/img/OpSec_Holographic-anti-counterfeiting-label.png) |
+| **OpSec Security (2013) Boston <br/> <br/> Audience** <br/> OpSec Employees (non-technical) <br/> <br/> **Deliverables** <br/> Internal training videos with voiceover narration that explains the complex process of how OpSec makes their anti-counterfeiting labels <br/> <br/> **Method** <br/> Documenting and storyboarding the use of their in-house anti-counterfeiting system <br/> <br/> **Tools** <br/> Adobe Captivate and Camtasia | ![Label](../../static/img/OpSec_Holographic-anti-counterfeiting-label.png) |
 
 
 ### eDC for clinical trials
 
 | Description | Example |
 |-------------|---------|
-| **VA Medical Center (2011-2013) Boston <br/> <br/> Audience** <br/> Clinical trial PMs <br/> <br/> **Deliverables** <br/> Technical documents and class materials for their in-house clinical trial software <br/> <br/> **Method** <br/> Provided Instructor Led Training (ILT) and Virtual Classroom Training (VCT) on their eDC software. <br/> <br/> **Tools** <br/> MS Word, Excel, Visio, Powerpoint, Access, SQL Server, SharePoint, Captivate | ![VA](../../static/img/VA_eDC-software.png) |
+| **VA Medical Center (2011-2013) Boston <br/> <br/> Audience** <br/> Clinical trial PMs (non-technical) <br/> <br/> **Deliverables** <br/> Technical documents and class materials for their in-house clinical trial software <br/> <br/> **Method** <br/> Provided Instructor Led Training (ILT) and Virtual Classroom Training (VCT) on their eDC software. <br/> <br/> **Tools** <br/> MS Word, Excel, Visio, Powerpoint, Access, SQL Server, SharePoint, Captivate | ![VA](../../static/img/VA_eDC-software.png) |
 
 
 ### Payroll reporting
 
 | Description | Example |
 |-------------|---------|
-| **ADP Payroll (2008-2011) Seattle <br/> <br/> Audience** <br/> Payroll Specialists <br/> <br/> **Deliverables** <br/> Training materials and curriculum for reporting of Garnishments, Payroll, AP/AR, GL, and Reimbursements <br/> <br/> **Method** <br/> Provided Instructor Led Training (ILT) and Virtual Classroom Training (VCT) <br/> <br/> **Tools** <br/> MS Word, Excel, Visio, Access, SQL Server, Captivate | ![ADP](../../static/img/ADP_COS-NSC-Tax-inquiry-process-diagram.png) |
+| **ADP Payroll (2008-2011) Seattle <br/> <br/> Audience** <br/> Payroll Specialists (non-technical) <br/> <br/> **Deliverables** <br/> Training materials and curriculum for reporting of Garnishments, Payroll, AP/AR, GL, and Reimbursements <br/> <br/> **Method** <br/> Provided Instructor Led Training (ILT) and Virtual Classroom Training (VCT) <br/> <br/> **Tools** <br/> MS Word, Excel, Visio, Access, SQL Server, Captivate | ![ADP](../../static/img/ADP_COS-NSC-Tax-inquiry-process-diagram.png) |
 
 
 ### ESL, Excel

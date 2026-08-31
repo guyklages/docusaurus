@@ -26,7 +26,7 @@
 
 ## 92% drop in helpdesk queue
 
-#### Microsoft (Shanghai, CHINA) –– <mark> Redesigned their Helpdesk system that reduced their call queue by 88% </mark>
+#### Microsoft (Shanghai, CHINA) –– <mark> Redesigned their Helpdesk system that reduced their call queue by 92% </mark>
 
 <!-- Feb 2003 - Mar 2003 -->
 

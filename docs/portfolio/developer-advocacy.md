@@ -42,19 +42,19 @@ Nium
 
 ## API
 
-### For fintech developers
+### Nium -- for fintech developers
 
-| Company | Category  | APIs |
-|---------|-----------|------|
-| Nium    | Clients   | [Client Prefund Account](https://docs.nium.com/api#tag/client-prefund-account) - [Client Settings](https://docs.nium.com/api#tag/client-settings) - [Client Transactions](https://docs.nium.com/api#tag/client-transactions/GET/api/v1/client/{clientHashId}/transactions) |
-|         | Customers | [User Management](https://docs.nium.com/api#tag/user-management) - [Customer Account - Individual](https://docs.nium.com/api#tag/customer-account-individual), [Customer Account - Corporate](https://docs.nium.com/api#tag/customer-account-corporate) - [Customer Management](https://docs.nium.com/api#tag/customer-management) - [Accounts](https://docs.nium.com/api#tag/accounts) - [Files](https://docs.nium.com/api#tag/files) |
-|         | Wallets   | [Customer Wallet Balance](https://docs.nium.com/api#tag/customer-wallet-balance) - [Wallet to Wallet Transfers](https://docs.nium.com/api#tag/wallet-to-wallet-transfers) |
-|         | Payins    | [Customer Funding](https://docs.nium.com/api#tag/customer-funding) - [Customer Virtual Accounts](https://docs.nium.com/api#tag/customer-virtual-accounts) |
-|         | Payouts   | [Beneficiary](https://docs.nium.com/api#tag/beneficiary) - [Payout](https://docs.nium.com/api#tag/payout) |
-|         | Cards     | [Simulators](https://docs.nium.com/api#tag/simulators) - [Lifecycle](https://docs.nium.com/api#tag/lifecycle) - [Security](https://docs.nium.com/api#tag/security) - [Controls](https://docs.nium.com/api#tag/controls) |
-|         | RFIs      | [Request for Information](https://docs.nium.com/api#tag/request-for-information) |
-|         | Reports   | [Reports](https://docs.nium.com/api#tag/reports)
-|         | Testing   | [Payouts](https://docs.nium.com/api#tag/payouts) - [Payins](https://docs.nium.com/api#tag/payin) - [Customer](https://docs.nium.com/api#tag/customer) |
+| Category  | APIs |
+|-----------|------|
+| Clients   | [Client Prefund Account](https://docs.nium.com/api#tag/client-prefund-account) • [Client Settings](https://docs.nium.com/api#tag/client-settings) • [Client Transactions](https://docs.nium.com/api#tag/client-transactions/GET/api/v1/client/{clientHashId}/transactions) |
+| Customers | [User Management](https://docs.nium.com/api#tag/user-management) • [Customer Account - Individual](https://docs.nium.com/api#tag/customer-account-individual) • [Customer Account - Corporate](https://docs.nium.com/api#tag/customer-account-corporate) • [Customer Management](https://docs.nium.com/api#tag/customer-management) • [Accounts](https://docs.nium.com/api#tag/accounts) - [Files](https://docs.nium.com/api#tag/files) |
+| Wallets   | [Customer Wallet Balance](https://docs.nium.com/api#tag/customer-wallet-balance) • [Wallet to Wallet Transfers](https://docs.nium.com/api#tag/wallet-to-wallet-transfers) |
+| Payins    | [Customer Funding](https://docs.nium.com/api#tag/customer-funding) • [Customer Virtual Accounts](https://docs.nium.com/api#tag/customer-virtual-accounts) |
+| Payouts   | [Beneficiary](https://docs.nium.com/api#tag/beneficiary) • [Payout](https://docs.nium.com/api#tag/payout) |
+| Cards     | [Simulators](https://docs.nium.com/api#tag/simulators) • [Lifecycle](https://docs.nium.com/api#tag/lifecycle) • [Security](https://docs.nium.com/api#tag/security) • [Controls](https://docs.nium.com/api#tag/controls) |
+| RFIs      | [Request for Information](https://docs.nium.com/api#tag/request-for-information) |
+| Reports   | [Reports](https://docs.nium.com/api#tag/reports)
+| Testing   | [Payouts](https://docs.nium.com/api#tag/payouts) • [Payins](https://docs.nium.com/api#tag/payin) • [Customer](https://docs.nium.com/api#tag/customer) |
 
 ## SDK
 

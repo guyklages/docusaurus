@@ -62,9 +62,15 @@ export default function RecommendationShowcase() {
     return null;
   }
 
-  const selectLogo = (index) => {
+  const selectLogo = (index, company) => {
     setActiveIndex(index);
     setVisible(true);
+    const ph = typeof window !== 'undefined' ? window.posthog : undefined;
+    if (ph && company) {
+      ph.capture('recommendation_logo_selected', {
+        company,
+      });
+    }
   };
 
   return (
@@ -76,7 +82,19 @@ export default function RecommendationShowcase() {
           <p className={styles.quote}>&ldquo;{active.quote}&rdquo;</p>
           <p className={styles.attribution}>
             {active.link ? (
-              <a href={active.link} target="_blank" rel="noopener noreferrer">
+              <a
+                href={active.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => {
+                  const ph = typeof window !== 'undefined' ? window.posthog : undefined;
+                  if (ph) {
+                    ph.capture('recommendation_link_clicked', {
+                      company: active.company,
+                      role: active.role,
+                    });
+                  }
+                }}>
                 {active.person}
               </a>
             ) : (
@@ -97,8 +115,8 @@ export default function RecommendationShowcase() {
             key={key}
             type="button"
             className={clsx(styles.logoButton, key === activeKey && styles.logoButtonActive)}
-            onMouseEnter={() => selectLogo(index)}
-            onFocus={() => selectLogo(index)}
+            onMouseEnter={() => selectLogo(index, testimonials[key].company)}
+            onFocus={() => selectLogo(index, testimonials[key].company)}
             aria-label={`Show recommendation from ${testimonials[key].company}`}>
             <img
               src={src}

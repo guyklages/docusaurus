@@ -2,6 +2,15 @@ import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
+function captureFeatureClick(featureTitle) {
+  const ph = typeof window !== 'undefined' ? window.posthog : undefined;
+  if (ph) {
+    ph.capture('homepage_feature_clicked', {
+      feature_title: featureTitle,
+    });
+  }
+}
+
 const FeatureList = [
   {
     title: 'Guy Klages',
@@ -37,11 +46,11 @@ const FeatureList = [
   },
 ];
 
-function Feature({img, title, description}) {
+function Feature({img, title, description, featureKey}) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx('col col--4')} onClick={() => captureFeatureClick(featureKey)}>
       <div className="text--center">
-        <img src={img} className={styles.featureSvg} role="img" alt={title} />
+        <img src={img} className={styles.featureSvg} role="img" alt={featureKey} />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
@@ -57,7 +66,7 @@ export default function HomepageFeatures() {
       <div className="container">
         <div className="row">
           {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
+            <Feature key={idx} featureKey={typeof props.title === 'string' ? props.title : ['Guy Klages', 'Technical Writer', 'Developer Advocate'][idx]} {...props} />
           ))}
         </div>
       </div>

@@ -5,6 +5,7 @@
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
 import {themes as prismThemes} from 'prism-react-renderer';
+import 'dotenv/config';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -31,6 +32,13 @@ const config = {
   // projectName: 'docusaurus', // Usually your repo name.
 
   onBrokenLinks: 'throw',
+
+  // PostHog public keys — safe to expose in the browser bundle.
+  // Set POSTHOG_PROJECT_TOKEN and POSTHOG_HOST in .env (never committed).
+  customFields: {
+    posthogKey: process.env.POSTHOG_PROJECT_TOKEN || '',
+    posthogHost: process.env.POSTHOG_HOST || 'https://us.i.posthog.com',
+  },
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you

@@ -2,6 +2,10 @@ import React, {useState, useEffect} from 'react';
 import {useLocation} from '@docusaurus/router';
 import styles from './styles.module.css';
 
+function getPosthog() {
+  return typeof window !== 'undefined' ? window.posthog : undefined;
+}
+
 // Formspree form endpoint (guy.klages@gmail.com's form at formspree.io).
 const FORMSPREE_ENDPOINT = 'https://formspree.io/f/xeajvlqn';
 
@@ -68,6 +72,13 @@ export default function FeedbackWidget() {
   function selectRating(value) {
     setRating(value);
     setState(STATE.EXPANDED);
+    const ph = getPosthog();
+    if (ph) {
+      ph.capture('feedback_rating_selected', {
+        rating: value,
+        page_path: location.pathname,
+      });
+    }
   }
 
   async function submitFeedback(event) {
@@ -91,8 +102,24 @@ export default function FeedbackWidget() {
         throw new Error('Formspree submission failed');
       }
       setState(STATE.SENT);
+      const ph = getPosthog();
+      if (ph) {
+        ph.capture('feedback_submitted', {
+          rating,
+          has_comment: comment.trim().length > 0,
+          page_path: location.pathname,
+        });
+      }
     } catch (error) {
       setState(STATE.ERROR);
+      const ph = getPosthog();
+      if (ph) {
+        ph.capture('feedback_submission_failed', {
+          rating,
+          page_path: location.pathname,
+        });
+        ph.captureException(error, {extra: {context: 'feedback_widget'}});
+      }
     }
   }
 
@@ -102,7 +129,16 @@ export default function FeedbackWidget() {
         type="button"
         className={styles.closeButton}
         aria-label="Dismiss feedback widget"
-        onClick={() => setDismissed(true)}
+        onClick={() => {
+          setDismissed(true);
+          const ph = getPosthog();
+          if (ph) {
+            ph.capture('feedback_dismissed', {
+              had_rating: rating !== null,
+              page_path: location.pathname,
+            });
+          }
+        }}
       >
         <CloseIcon />
       </button>

@@ -44,11 +44,9 @@ Nium
 
 ### For fintech developers
 
-| Title | Contents |
-|-------|----------|
-| [Stripe - Authentication API](stripe-api#authentication-api) | Authentication, errors, idempotent requests, pagination, etc. |
-| [Stripe - Charge API](stripe-api#charge-api) | Charges object, creating, retrieving, updating, etc. |
-| [Stripe - Customers API](stripe-api) | Customers object, creating, retrieving, updating, etc. |
+| Company | APIs |
+|---------|------|
+| Nium    | _Clients_ <br/> [Client Prefund Account](https://docs.nium.com/api#tag/client-prefund-account), [Client Settings](https://docs.nium.com/api#tag/client-settings), [Client Transactions](https://docs.nium.com/api#tag/client-transactions/GET/api/v1/client/{clientHashId}/transactions) <br/><br/> _Customers_ <br/> [User Management](https://docs.nium.com/api#tag/user-management), [Customer Account - Individual](https://docs.nium.com/api#tag/customer-account-individual), [Customer Account - Corporate](https://docs.nium.com/api#tag/customer-account-corporate), [Customer Management](https://docs.nium.com/api#tag/customer-management), [Accounts](https://docs.nium.com/api#tag/accounts), [Files](https://docs.nium.com/api#tag/files) <br/><br/> _Wallets_ <br/> [Customer Wallet Balance](https://docs.nium.com/api#tag/customer-wallet-balance), [Wallet to Wallet Transfers](https://docs.nium.com/api#tag/wallet-to-wallet-transfers) <br/><br/> _Payins_ <br/> [Customer Funding](https://docs.nium.com/api#tag/customer-funding), [Customer Virtual Accounts](https://docs.nium.com/api#tag/customer-virtual-accounts) <br/><br/> _Payouts_ <br/> [Beneficiary](https://docs.nium.com/api#tag/beneficiary), [Payout](https://docs.nium.com/api#tag/payout) <br/><br/> _Cards_ <br/> [Simulators](https://docs.nium.com/api#tag/simulators), [Lifecycle](https://docs.nium.com/api#tag/lifecycle), [Security](https://docs.nium.com/api#tag/security), [Controls](https://docs.nium.com/api#tag/controls) <br/><br/> _RFIs_ <br/> [Request for Information](https://docs.nium.com/api#tag/request-for-information) <br/><br/> _Reports_ [Reports](https://docs.nium.com/api#tag/reports) <br/><br/> _Testing_ <br/> [Payouts](https://docs.nium.com/api#tag/payouts), [Payins](https://docs.nium.com/api#tag/payin), [Customer](https://docs.nium.com/api#tag/customer) |
 
 ## SDK
 

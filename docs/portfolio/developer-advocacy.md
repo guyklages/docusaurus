@@ -73,7 +73,7 @@ Nium
 
 ## KB
 
-### For VMware developers
+### VMware -- for UEM developers
 
 | Title | Product |
 |-------|---------|

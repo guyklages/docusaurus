@@ -2227,10 +2227,10 @@ To troubleshoot this, try `kubectl delete pod <name> --grace-period=0 --force` o
 | <DefTerm def="The VMware department I worked in was responsible for their UEM virtualization products. I documented the user guides, design guides, deployment guides, knowledge base articles, and blog posts of their AppStacks, App Volumes, and AppSense PDFs.">VMware</DefTerm>                                     | Aug 2016 | Dec 2016 |  0.3  |  ✅  |  ✅  |                  |        |       |
 | <DefTerm def="The Visa department I worked in was responsible for their fintech portal APIs. I documented how to register, subscribe, generate, and test API keys.">Visa</DefTerm> | Mar 2016 | Jun 2016 |  0.3  |  ✅  |  ✅  |                  |        |       |
 | <DefTerm def="The Hitachi department I worked in was creating a realtime text message monitoring system to look for crime patterns. I documented their PDF user guides, deployment guides, and configuration guides.">Hitachi</DefTerm> | Aug 2015 | Feb 2016 |  0.5  |  ✅  |      |                  |   ✅   |       |
-| Apple        | Feb 2015 | Jun 2015 |  0.3  |  ✅  |      |                  |        |  ✅   |
-| NICE Systems | May 2014 | Jul 2014 |  0.2  |  ✅  |      |        ✅        |        |       |
-| V.A. Medical | Feb 2011 | Sep 2012 |  1.6  |  ✅  |      |                  |        |       |
-| ADP Payroll  | Oct 2008 | Dec 2010 |  2.2  |  ✅  |      |                  |   ✅   |       |
+| <DefTerm def="The Apple department I worked in was responsible for the robots that assembled iPads. I documented how to activate, configure, operate, and troubleshoot these robots for their corresponding team in China.">Apple</DefTerm>        | Feb 2015 | Jun 2015 |  0.3  |  ✅  |      |                  |        |  ✅   |
+| <DefTerm def="The NICE department I worked in was responsible for their employee monitoring tool. I documented how to install, configure, use, and troubleshoot their software.">NICE Systems</DefTerm> | May 2014 | Jul 2014 |  0.2  |  ✅  |      |        ✅        |        |       |
+| <DefTerm def="The Veteran Affairs Medical Center's epidemiology department was converting from paper forms to electronic forms for their clinical trials. I documented user guides and wrote class materials to train PMs how to use the new system.">V.A. Medical</DefTerm> | Feb 2011 | Sep 2012 |  1.6  |  ✅  |      |                  |        |       |
+| <DefTerm def="The ADP Payroll department I worked in was responsible for garnishments, payroll, AP/AR, GL, and reimbursements. I documented their processes and created database reports to automate their workflow.">ADP Payroll</DefTerm>  | Oct 2008 | Dec 2010 |  2.2  |  ✅  |      |                  |   ✅   |       |
 |              |          |          |       | ==== | ==== |   ======         | ====== | ===== |
 |              |          |          |       |  7.2 | 0.8  |    1.9           |  2.7   |  0.3  |
 

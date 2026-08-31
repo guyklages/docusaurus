@@ -29,7 +29,7 @@ I created and fully owned the following company websites. I used Git, Markdown, 
 | Developers of Nium's customers weren't able to onboard Nium's products due to the complexity of different steps for different company types in different countries. | I made a step-by-step unified onboarding process that immediately [doubled the number of customers onboarded while reducing helpdesk tickets by 75%](./most-impactful-tech-writing.md#2x-onboarding-75-fewer-issues). | Nium |
 | Developers were building internal AI/ML/LLM tools but had difficulty since Apache's documentation didn't cover all of their use cases or needs. | I filled in their documentation gaps and greatly enhanced their internal documentation with more explanations and examples for engineers to use the Apache ecosystem tools for their Big Data and IoT projects. An engineer called my docs "more thorough than Apache's documentation site." | Yahoo |
 
-
+<!--
 ## 3 Stripe APIs
 
 _(I wrote this for a job interview)_
@@ -2150,6 +2150,8 @@ The following is an example response:
   "has_more": false 
 }
 ```
+
+-->
 
 ---
 

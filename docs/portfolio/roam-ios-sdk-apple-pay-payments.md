@@ -58,49 +58,40 @@ application:didFinishLaunchingWithOptions method so that it will be set for the 
 
 **Example in Swift**
 
+```swift
 // AppDelegate.swift
 
 import Stripe
 
 @UIApplicationMain
-
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: \[NSObject: AnyObject\]?)
-
-\-> Bool {
-
-Stripe.setDefaultPublishableKey("pk_test_6pRNASCoBOKtIshFeQd4XMUh")
-
-return true
-
+    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: \[NSObject: AnyObject\]?)
+-> Bool {
+        Stripe.setDefaultPublishableKey("pk_test_6pRNASCoBOKtIshFeQd4XMUh")
+        return true
+    }
 }
-
-}
+```
 
 **Example in Objective-C**
 
+```objective-c
 // AppDelegate.m
 
-## import "AppDelegate.h"
-
-## import &lt;Stripe/Stripe.h&gt;
+# import "AppDelegate.h"
+# import &lt;Stripe/Stripe.h&gt;
 
 @implementation AppDelegate
 
-\- (BOOL)application:(UIApplication \*)application
-
+- (BOOL)application:(UIApplication \*)application
 didFinishLaunchingWithOptions:(NSDictionary \*)launchOptions
-
 {
-
-\[Stripe setDefaultPublishableKey:@"pk_test_6pRNASCoBOKtIshFeQd4XMUh"\];
-
-return YES;
-
+    [Stripe setDefaultPublishableKey:@"pk_test_6pRNASCoBOKtIshFeQd4XMUh"\];
+    return YES;
 }
 
 @end
+```
 
 **Note**: We have placed your test publishable API key as the StripePublishableKey constant in the above snippet. You will need to swap it out with your live publishable key in production. You can see all your API keys in your dashboard.
 
@@ -120,7 +111,7 @@ Since Apple Pay supports only certain credit cards on the latest iOS devices, we
 
 With Apple Pay, you are able to access payment information stored on your customer' iOS devices.
 
-#### Important note before starting
+### important note before starting
 
 To use Apple Pay, you need to add the Apple Pay capability to your app in Xcode. This requires creating a merchant ID with Apple first, as explained in the "Getting Started with Apple Pay" documentation.
 
@@ -132,67 +123,50 @@ payment request view controller. To do so, follow the below code:
 
 **Example in Swift**
 
+```swift
 // ViewController.swift
 
 guard let request = Stripe.paymentRequestWithMerchantIdentifier("YOUR_APPLE_MERCHANT_ID") else {
-
-// request will be nil if running on < iOS8
-
-return
-
+    // request will be nil if running on < iOS8
+    return
 }
-
 request.paymentSummaryItems = \[
-
-PKPaymentSummaryItem(label: "Premium Llama Food", amount: 10.0)
-
-\]
+    PKPaymentSummaryItem(label: "Premium Llama Food", amount: 10.0)
+]
 
 if (Stripe.canSubmitPaymentRequest(request)) {
-
-let paymentController = PKPaymentAuthorizationViewController(paymentRequest: request)
-
-presentViewController(paymentController, animated: true, completion: nil)
-
+    let paymentController = PKPaymentAuthorizationViewController(paymentRequest: request)
+    presentViewController(paymentController, animated: true, completion: nil)
 } else {
-
-// Show the user your own credit card form (see options 2 or 3)
+    // Show the user your own credit card form (see options 2 or 3)
 
 }
+```
 
 **Example in Objective-C**
 
+```objective-c
 // ViewController.m
 
 PKPaymentRequest \*request = \[Stripe paymentRequestWithMerchantIdentifier:"YOUR_APPLE_MERCHANT_ID"\];
-
 NSString \*label = @"Premium Llama Food";
-
 NSDecimalNumber \*amount = \[NSDecimalNumber decimalNumberWithString:@"10.00"\];
-
 request.paymentSummaryItems = @\[
-
-\[PKPaymentSummaryItem summaryItemWithLabel:label
-
-amount:amount\]
-
-\];
+[PKPaymentSummaryItem summaryItemWithLabel:label
+                                    amount:amount]
+];
 
 if (\[Stripe canSubmitPaymentRequest:request\]) {
-
-PKPaymentAuthorizationViewController \*paymentController;
-
-paymentController = \[\[PKPaymentAuthorizationViewController alloc\] initWithPaymentRequest:paymentRequest\];
-
-paymentController.delegate = self;
-
-\[self presentViewController:paymentController animated:YES completion:nil\];
+    PKPaymentAuthorizationViewController \*paymentController;
+    paymentController = \[\[PKPaymentAuthorizationViewController alloc\] initWithPaymentRequest:paymentRequest\];
+    paymentController.delegate = self;
+    [self presentViewController:paymentController animated:YES completion:nil\];
 
 } else {
-
 // Show the user your own credit card form (see options 2 or 3)
 
 }
+```
 
 Note that ViewController is a PKPaymentAuthorizationViewControllerDelegate. By implementing
 
@@ -200,73 +174,52 @@ this protocol, the PKPayment is handled to return the authorization controller.
 
 **Example in Swift**
 
+```swift
 // ViewController.swift
 
 func paymentAuthorizationViewController(controller: PKPaymentAuthorizationViewController, didAuthorizePayment payment:
-
 PKPayment, completion: (PKPaymentAuthorizationStatus) -> Void) {
-
-/\*
-
+/*
 We'll implement this method below in 'Creating a single-use token'.
-
 Note that we've also been given a block that takes a PKPaymentAuthorizationStatus.
-
 We'll call this function with either PKPaymentAuthorizationStatusSuccess or PKPaymentAuthorizationStatusFailure
-
 after all of our asynchronous code is finished executing.
-
 This is how the PKPaymentAuthorizationViewController knows when and how to update its UI.
+*/
 
-\*/
-
-handlePaymentAuthorizationWithPayment(payment, completi
-
-on: nil)
-
+handlePaymentAuthorizationWithPayment(payment, completion: nil)
 }
 
 func paymentAuthorizationViewControllerDidFinish(controller: PKPaymentAuthorizationViewController) {
-
-dismissViewControllerAnimated(true, completion: nil)
-
+    dismissViewControllerAnimated(true, completion: nil)
 }
+```
 
 **Example in Objective-C**
 
+```objective-c
 // ViewController.m
 
-\- (void)paymentAuthorizationViewController:(PKPaymentAuthorizationViewController \*)controller
+- (void)paymentAuthorizationViewController:(PKPaymentAuthorizationViewController *)controller
+                       didAuthorizePayment:(PKPayment *)payment
+                                completion:(void (^)(PKPaymentAuthorizationStatus))completion {
 
-didAuthorizePayment:(PKPayment \*)payment
-
-completion:(void (^)(PKPaymentAuthorizationStatus))completion {
-
-/\*
-
+/*
 We'll implement this method below in 'Creating a single-use token'.
-
 Note that we've also been given a block that takes a PKPaymentAuthorizationStatus.
-
 We'll call this function with either PKPaymentAuthorizationStatusSuccess or PKPaymentAuthorizationStatusFailure
-
 after all of our asynchronous code is finished executing.
-
 This is how the PKPaymentAuthorizationViewController knows when and how to update its UI.
+*/
 
-\*/
-
-\[self handlePaymentAuthorizationWithPayment:payment completion:completion\];
-
+[self handlePaymentAuthorizationWithPayment:payment completion:completion];
 }
 
-\- (void)paymentAuthorizationViewControllerDidFinish:(PKPaymentAuthorizationViewController \*)controller {
-
-\[self dismissViewControllerAnimated:YES completion:nil\]
-
+- (void)paymentAuthorizationViewControllerDidFinish:(PKPaymentAuthorizationViewController \*)controller {
+[self dismissViewControllerAnimated:YES completion:nil]
 ;
-
 }
+```
 
 To implement optional PKPaymentAuthorizationViewControllerDelegate methods for customer events (such as, to recalculate shipping costs based on user selection, see the [PKPaymentAuthorizationViewController documentation](https://developer.apple.com/documentation/passkit/pkpaymentauthorizationviewcontroller).
 
@@ -278,85 +231,77 @@ To use our pre-built form component, you need to create a view controller called
 
 **Example in Swift**
 
+```swift
 // PaymentViewController.swift
 
 class PaymentViewController: UIViewController, STPPaymentCardTextFieldDelegate {
-
-let paymentTextField = STPPaymentCardTextField()
-
+    let paymentTextField = STPPaymentCardTextField()
 }
+```
 
 **Example in Objective-C**
 
+```objective-c
 // PaymentViewController.m
 
-## import "PaymentViewController.h"
+# import "PaymentViewController.h"
 
 @interface PaymentViewController ()&lt;STPPaymentCardTextField Delegate&gt;
-
 @property(nonatomic) STPPaymentCardTextField \*paymentTextField;
-
 @end
+```
 
 To instantiate the STPPaymentCardTextField, set the PaymentViewController as its STPPaymentCardTextFieldDelegate and add it to your view.
 
 **Example in Swift**
 
+```swift
 // PaymentViewController.swift
 
 override func viewDidLoad() {
-
-super.viewDidLoad();
-
-paymentTextField.frame = CGRectMake(15, 15, CGRectGetWidth(self.view.frame) - 30, 44)
-
-paymentTextField.delegate = self
-
-view.addSubview(paymentTextField)
-
+    super.viewDidLoad();
+    paymentTextField.frame = CGRectMake(15, 15, CGRectGetWidth(self.view.frame) - 30, 44)
+    paymentTextField.delegate = self
+    view.addSubview(paymentTextField)
 }
+```
 
 **Example in Objective-C**
 
+```objective-c
 // PaymentViewController.m
 
-\- (void)viewDidLoad {
-
-\[super viewDidLoad\];
-
-self.paymentTextField = \[\[STPPaymentCardTextField alloc\] initWithFrame:CGRectMake(15, 15, CGRectGetWidth(self.view.frame) - 30, 44)\];
-
-self.paymentTextField.delegate = self;
-
-\[self.view addSubview:self.paymentTextField\];
-
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    self.paymentTextField = [[STPPaymentCardTextField alloc] initWithFrame:CGRectMake(15, 15, CGRectGetWidth(self.view.frame) - 30, 44)];
+    self.paymentTextField.delegate = self;
+    [self.view addSubview:self.paymentTextField];
 }
+```
 
 By adding an STPPaymentCardTextField to the controller, your app is enabled to accept card numbers, expiration dates, and CVCs. It will also format the input and validate that input on-the-fly.
 
-When a user enters text into this field, the paymentCardTextFieldidChange method will be called on our view
+When a user enters text into this field, the paymentCardTextFieldDidChange method will be called on our view
 
 controller. In this callback, we can enable a save button to allow users to submit their valid cards if the form is valid.
 
 **Example in Swift**
 
+```swift
 func paymentCardTextFieldDidChange(textField: STPPaymentCardTextField) {
-
-// Toggle navigation, for example
-
-saveButton.enabled = textField.isValid
-
+    // Toggle navigation, for example
+    saveButton.enabled = textField.isValid
 }
+```
 
 **Example in Objective-C**
 
-\- (void)paymentCardTextFieldDidChange:(STPPaymentCardTextField \*)textField { {
-
-// Toggle navigation, for example
-
-self.saveButton.enabled = textField.isValid;
-
+```objective-c
+- (void)paymentCardTextFieldDidChange:(STPPaymentCardTextField *)textField {
+    // Toggle navigation, for example
+    self.saveButton.enabled = textField.isValid;
 }
+```
 
 ### Building your own form
 
@@ -372,71 +317,47 @@ After your PKPayment has arrived, you can turn it into a single-use Stripe token
 
 **Example in Swift**
 
+```swift
 // ViewController.swift
 
 func handlePaymentAuthorizationWithPayment(payment: PKPayment, completion: PKPaymentAuthorizationStatus -> ()) {
-
-STPAPIClient.sharedClient().createTokenWithPayment(payment) { (token, error) -> Void in
-
-if error != nil {
-
-completion(PKPaymentAuthorizationStatus.Failure)
-
-return
-
+    STPAPIClient.sharedClient().createTokenWithPayment(payment) { (token, error) -> Void in
+        if error != nil {
+            completion(PKPaymentAuthorizationStatus.Failure)
+            return
+        }
+        /*
+        We'll implement this below in "Sending the token to your server".
+        Notice that we're passing the completion block through.
+        See the above comment in didAuthorizePayment to learn why.
+        */
+        createBackendChargeWithToken(token, completion: completion)
+    }
 }
-
-/\*
-
-We'll implement this below in "Sending the token to your server".
-
-Notice that we're passing the completion block through.
-
-See the above comment in didAuthorizePayment to learn why.
-
-\*/
-
-createBackendChargeWithToken(token, completion: completion)
-
-}
-
-}
+```
 
 **Example in Objective-C**
 
+```objective-c
 // ViewController.m
 
-\- (void)handlePaymentAuthorizationWithPayment:(PKPayment \*) payment
-
-completion:(void (^)(PKPaymentAuthorizationStatus))completion {
-
-\[\[STPAPIClient sharedClient\] createTokenWithPayment:payment
-
-completion:^(STPToken \*token, NSError \*error) {
-
-if (error) {
-
-completion(PKPaymentAuthorizationStatus Failure);
-
-return;
-
+- (void)handlePaymentAuthorizationWithPayment:(PKPayment *) payment
+                                   completion:(void (^)(PKPaymentAuthorizationStatus))completion {
+    [[STPAPIClient sharedClient] createTokenWithPayment:payment
+        completion:^(STPToken *token, NSError *error) {
+            if (error) {
+                completion(PKPaymentAuthorizationStatus Failure);
+                return;
+            }
+            /*
+            We'll implement this below in "Sending the token to your server".
+            Notice that we're passing the completion block through.
+            See the above comment in didAuthorizePayment to learn why.
+            */
+            [self createBackendChargeWithToken:token completion:completion];
+        }];
 }
-
-/\*
-
-We'll implement this below in "Sending the token to your server".
-
-Notice that we're passing the completion block through.
-
-See the above comment in didAuthorizePayment to learn why.
-
-\*/
-
-\[self createBackendChargeWithToken:token completion:completion\];
-
-}\];
-
-}
+```
 
 ### Using STPCardParams
 
@@ -446,59 +367,39 @@ To do so, add the below code to your program.
 
 **Example in Swift**
 
+```swift
 @IBAction func save(sender: UIButton) {
-
-if let card = paymentTextField.card {
-
-STPAPIClient.sharedClient().createTokenWithCard(card) { (token, error) -> Void in
-
-if let error = error {
-
-handleError(error)
-
+    if let card = paymentTextField.card {
+        STPAPIClient.sharedClient().createTokenWithCard(card) { (token, error) -> Void in
+            if let error = error {
+                handleError(error)
+            }
+            else if let token = token {
+                createBackendChargeWithToken(token) { status in
+                ...
+                }
+            }
+        }
+    }
 }
-
-else if let token = token {
-
-createBackendChargeWithToken(token) { status in
-
-...
-
-}
-
-}
-
-}
-
-}
-
-}
+```
 
 **Example in Objective-C**
 
-\- (IBAction)save:(UIButton \*)sender {
-
-\[\[STPAPIClient sharedClient\]
-
-createTokenWithCard:self.paymentTextField.card completion:^(STPToken \*token, NSError \*error) {
-
-if (error) {
-
-\[self handleError:error\];
-
-} else {
-
-\[self createBackendChargeWithToken:token completion:^(PKPaymentAuthorizationStatus status) {
-
-...
-
-}\];
-
+```objective-c
+- (IBAction)save:(UIButton *)sender {
+    [[STPAPIClient sharedClient]
+        createTokenWithCard:self.paymentTextField.card completion:^(STPToken *token, NSError *error) {
+            if (error) {
+                [self handleError:error];
+            } else {
+                [self createBackendChargeWithToken:token completion:^(PKPaymentAuthorizationStatus status) {
+                    ...
+                }];
+            }
+    }];
 }
-
-}\];
-
-}
+```
 
 **Note**: In the example above, the createTokenWithCard is called when a save button is tapped. It is important that the createToken is not called before user has finished entering their card details.
 
@@ -512,91 +413,58 @@ Here is how it looks for a token created with Apple Pay.
 
 **Example in Swift**
 
+```swift
 // ViewController.swift
 
 func createBackendChargeWithToken(token: STPToken, completion: PKPaymentAuthorizationStatus -> ()) {
-
-let url = NSURL(string: "<https://example.com/token>")!
-
-let request = NSMutableURLRequest(URL: url)
-
-request.HTTPMethod = "POST"
-
-let body = "stripeToken=(token.tokenId)"
-
-request.HTTPBody = body.dataUsingEncoding(NSUTF8StringEncoding)
-
-let configuration = NSURLSessionConfiguration.ephemeralSessionConfiguration()
-
-let session = NSURLSession(configuration: configuration)
-
-let task = session.dataTaskWithRequest(request) { (data, response, error) -> Void in
-
-if error != nil {
-
-completion(PKPaymentAuthorizationStatus.Failure)
-
+    let url = NSURL(string: "<https://example.com/token>")!
+    let request = NSMutableURLRequest(URL: url)
+    request.HTTPMethod = "POST"
+    let body = "stripeToken=(token.tokenId)"
+    request.HTTPBody = body.dataUsingEncoding(NSUTF8StringEncoding)
+    let configuration = NSURLSessionConfiguration.ephemeralSessionConfiguration()
+    let session = NSURLSession(configuration: configuration)
+    let task = session.dataTaskWithRequest(request) { (data, response, error) -> Void in
+        if error != nil {
+            completion(PKPaymentAuthorizationStatus.Failure)
+        }
+        else {
+            completion(PKPaymentAuthorizationStatus.Success)
+        }
+    }
+    task.resume()
 }
-
-else {
-
-completion(PKPaymentAuthorizationStatus.Success)
-
-}
-
-}
-
-task.resume()
-
-}
+```
 
 **Example in Objective-C**
 
+```objective-c
 // ViewController.m
 
-\- (void)createBackendChargeWithToken:(STPToken \*)token
+- (void)createBackendChargeWithToken:(STPToken *)token
+                          completion:(void (^)(PKPaymentAuthorizationStatus))completion {
 
-completion:(void (^)(PKPaymentAuthorizationStatus))completion {
-
-NSURL \*url = \[NSURL URLWithString:@"<https://example.com> /token"\];
-
-NSMutableURLRequest \*request = \[\[NSMutableURLRequest alloc\] initWithURL:url\];
-
-request.HTTPMethod = @"POST";
-
-NSString \*body = \[NSString stringWithFormat:@"stripeToken=%@", token.tokenId\];
-
-request.HTTPBody = \[body dataUsingEncoding:NSUTF8StringEncoding\];
-
-NSURLSessionConfiguration \*configuration = \[NSURLSessionConfiguration defaultSessionConfiguration\];
-
-NSURLSession \*session = \[NSURLSession sessionWithConfiguration:configuration\];
-
-NSURLSessionDataTask \*task =
-
-\[session dataTaskWithRequest:request
-
-completionHandler:^(NSData \*data,
-
-NSURLResponse \*response,
-
-NSError \*error) {
-
-if (error) {
-
-completion(PKPaymentAuthorizationStatusFailure);
-
-} else {
-
-completion(PKPaymentAuthorizationStatusSuccess);
-
+    NSURL *url = [NSURL URLWithString:@"https://example.com /token"];
+    NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL:url];
+    request.HTTPMethod = @"POST";
+    NSString *body = [NSString stringWithFormat:@"stripeToken=%@", token.tokenId];
+    request.HTTPBody = [body dataUsingEncoding:NSUTF8StringEncoding];
+    NSURLSessionConfiguration *configuration = [NSURLSessionConfiguration defaultSessionConfiguration];
+    NSURLSession *session = [NSURLSession sessionWithConfiguration:configuration];
+    NSURLSessionDataTask *task =
+    [session dataTaskWithRequest:request
+        completionHandler:^(NSData *data,
+                            NSURLResponse *response,
+                            NSError *error) {
+            if (error) {
+                completion(PKPaymentAuthorizationStatusFailure);
+            } else {
+                completion(PKPaymentAuthorizationStatusSuccess);
+            }
+        }];
+    [task resume];
 }
-
-}\];
-
-\[task resume\];
-
-}
+```
 
 **Note**: The completion callback above is Apple Pay-specific. If you are not using Apple Pay, the code is still mostly the same, but you would want to implement custom error and success handling.
 

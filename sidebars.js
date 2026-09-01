@@ -25,14 +25,14 @@ const sidebars = {
           },
           {
               type: 'doc',
-              id: 'portfolio/sdk-android-payments',
+              id: 'portfolio/roam-android-sdk-online-payments',
               label: 'SDK for Android payments',
               className: 'portfolio-sidebar-item',
           },
           {
               type: 'doc',
               id: 'portfolio/roam-ios-sdk-apple-pay-payments',
-              label: 'ROAM SDK for iOS Apple Pay payments',
+              label: 'SDK for iOS Apple Pay payments',
               className: 'portfolio-sidebar-item',
           },
           {

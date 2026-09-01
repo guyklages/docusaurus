@@ -16,7 +16,7 @@ import { DefinitionProvider, DefTerm, DefinitionPanel } from '@site/src/componen
 <tr><td></td><td></td><td></td></tr><tr>
 <td style={{backgroundColor: 'var(--portfolio-box-red)', borderRadius: '16px'}}><span style={{fontSize: '2rem', fontWeight: 700}}>DevRel</span></td>
 <td></td>
-<td style={{backgroundColor: 'var(--portfolio-box-red)', borderRadius: '16px'}}><span style={{fontSize: '1.4rem'}}>- [DevRel page (Talks, Blogs/Articles, Code, Meetups, etc.)](developer-advocacy.md) <br/> - [Most impactful software engineering](./most-impactful-software-engineering.md) <br/> - [Android SDK](./sdk-android-payments.md) <br/> - [iOS SDK](./sdk-ios-apple-pay-payments.md) </span></td>
+<td style={{backgroundColor: 'var(--portfolio-box-red)', borderRadius: '16px'}}><span style={{fontSize: '1.4rem'}}>- [DevRel page (Talks, Blogs/Articles, Code, Meetups, etc.)](developer-advocacy.md) <br/> - [Most impactful software engineering](./most-impactful-software-engineering.md) <br/> - [Android SDK](./sdk-android-payments.md) - [iOS SDK](./sdk-ios-apple-pay-payments.md) </span></td>
 </tr>
 <tr><td></td><td></td><td></td></tr>
 <tr>

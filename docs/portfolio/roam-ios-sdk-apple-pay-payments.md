@@ -56,7 +56,7 @@ First, configure Stripe with your published API key. We recommend doing this in 
 
 application:didFinishLaunchingWithOptions method so that it will be set for the entire lifecycle of your app.
 
-#### Example in Swift
+**Example in Swift**
 
 // AppDelegate.swift
 
@@ -78,7 +78,7 @@ return true
 
 }
 
-#### Example in Objective-C
+**Example in Objective-C**
 
 // AppDelegate.m
 
@@ -120,7 +120,7 @@ Since Apple Pay supports only certain credit cards on the latest iOS devices, we
 
 With Apple Pay, you are able to access payment information stored on your customer' iOS devices.
 
-**Important note before starting**
+#### Important note before starting
 
 To use Apple Pay, you need to add the Apple Pay capability to your app in Xcode. This requires creating a merchant ID with Apple first, as explained in the "Getting Started with Apple Pay" documentation.
 
@@ -130,7 +130,7 @@ Now that you have created the request, the next step is to query the device to s
 
 payment request view controller. To do so, follow the below code:
 
-#### Example in Swift
+**Example in Swift**
 
 // ViewController.swift
 
@@ -160,7 +160,7 @@ presentViewController(paymentController, animated: true, completion: nil)
 
 }
 
-#### Example in Objective-C
+**Example in Objective-C**
 
 // ViewController.m
 
@@ -198,7 +198,7 @@ Note that ViewController is a PKPaymentAuthorizationViewControllerDelegate. By i
 
 this protocol, the PKPayment is handled to return the authorization controller.
 
-#### Example in Swift
+**Example in Swift**
 
 // ViewController.swift
 
@@ -232,7 +232,7 @@ dismissViewControllerAnimated(true, completion: nil)
 
 }
 
-#### Example in Objective-C
+**Example in Objective-C**
 
 // ViewController.m
 
@@ -276,7 +276,7 @@ To implement optional PKPaymentAuthorizationViewControllerDelegate methods for c
 
 To use our pre-built form component, you need to create a view controller called PaymentViewController and add an STPPaymentCardTextField property to it.
 
-#### Example in Swift
+**Example in Swift**
 
 // PaymentViewController.swift
 
@@ -286,7 +286,7 @@ let paymentTextField = STPPaymentCardTextField()
 
 }
 
-#### Example in Objective-C
+**Example in Objective-C**
 
 // PaymentViewController.m
 
@@ -300,7 +300,7 @@ let paymentTextField = STPPaymentCardTextField()
 
 To instantiate the STPPaymentCardTextField, set the PaymentViewController as its STPPaymentCardTextFieldDelegate and add it to your view.
 
-#### Example in Swift
+**Example in Swift**
 
 // PaymentViewController.swift
 
@@ -316,7 +316,7 @@ view.addSubview(paymentTextField)
 
 }
 
-#### Example in Objective-C
+**Example in Objective-C**
 
 // PaymentViewController.m
 
@@ -338,7 +338,7 @@ When a user enters text into this field, the paymentCardTextFieldidChange method
 
 controller. In this callback, we can enable a save button to allow users to submit their valid cards if the form is valid.
 
-#### Example in Swift
+**Example in Swift**
 
 func paymentCardTextFieldDidChange(textField: STPPaymentCardTextField) {
 
@@ -348,7 +348,7 @@ saveButton.enabled = textField.isValid
 
 }
 
-#### Example in Objective-C
+**Example in Objective-C**
 
 \- (void)paymentCardTextFieldDidChange:(STPPaymentCardTextField \*)textField { {
 
@@ -370,7 +370,7 @@ Our libraries shoulder the burden of PCI compliance by helping you avoid the nee
 
 After your PKPayment has arrived, you can turn it into a single-use Stripe token with a simple method call by using the following code.
 
-#### Example in Swift
+**Example in Swift**
 
 // ViewController.swift
 
@@ -402,7 +402,7 @@ createBackendChargeWithToken(token, completion: completion)
 
 }
 
-#### Example in Objective-C
+**Example in Objective-C**
 
 // ViewController.m
 
@@ -444,7 +444,7 @@ If you choose to use STPPaymentCardTextField or your own form, you can assemble 
 
 To do so, add the below code to your program.
 
-#### Example in Swift
+**Example in Swift**
 
 @IBAction func save(sender: UIButton) {
 
@@ -474,7 +474,7 @@ createBackendChargeWithToken(token) { status in
 
 }
 
-#### Example in Objective-C
+**Example in Objective-C**
 
 \- (IBAction)save:(UIButton \*)sender {
 
@@ -510,7 +510,7 @@ The block you gave to createToken in the previous steps is called whenever Strip
 
 Here is how it looks for a token created with Apple Pay.
 
-#### Example in Swift
+**Example in Swift**
 
 // ViewController.swift
 
@@ -550,7 +550,7 @@ task.resume()
 
 }
 
-#### Example in Objective-C
+**Example in Objective-C**
 
 // ViewController.m
 

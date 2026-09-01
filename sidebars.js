@@ -31,8 +31,8 @@ const sidebars = {
           },
           {
               type: 'doc',
-              id: 'portfolio/sdk-ios-apple-pay-payments',
-              label: 'SDK for iOS Apple Pay payments',
+              id: 'portfolio/roam-sdk-ios-apple-pay-payments',
+              label: 'ROAM SDK for iOS Apple Pay payments',
               className: 'portfolio-sidebar-item',
           },
           {

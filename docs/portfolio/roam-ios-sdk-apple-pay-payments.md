@@ -1,4 +1,4 @@
-# iOS SDK for Apple Pay
+# ROAM Data iOS SDK for Apple Pay
 
 ## Introduction
 
@@ -8,11 +8,9 @@ If you want to build a mobile app like [Lyft](https://www.lyft.com/) or [Fancy](
 
 Accepting payments in your app involves 3 steps:
 
-1\. Collecting credit card information from your customer
-
-2\. Converting the credit card information to a single-use token
-
-3\. Sending this token to your server to create a charge
+1. Collecting credit card information from your customer
+2. Converting the credit card information to a single-use token
+3. Sending this token to your server to create a charge
 
 ## Getting started
 
@@ -36,19 +34,13 @@ To use [Carthage](https://github.com/Carthage/Carthage), simply add github "stri
 
 We publish our SDK as a static framework that you can copy directly into your app without any additional tools. To manually install the library, do the following:
 
-1\. Head to our releases page and downloads the framework that is right for you.
-
-2\. Unzip the file you downloaded.
-
-3\. In Xcode, with your project open, click **File > Add files**.
-
-4\. Select Stripe.framework in the directory you just unzipped.
-
-5\. Make sure **Copy items if needed** is checked.
-
-6\. Click **Add**.
-
-7\. In your project settings, go to the **Build Settings** tab, and under **Other Linker Flags**, make sure -ObjC is present.
+1. Head to our releases page and downloads the framework that is right for you.
+2. Unzip the file you downloaded.
+3. In Xcode, with your project open, click **File > Add files**.
+4. Select Stripe.framework in the directory you just unzipped.
+5. Make sure **Copy items if needed** is checked.
+6. Click **Add**.
+7. In your project settings, go to the **Build Settings** tab, and under **Other Linker Flags**, make sure -ObjC is present.
 
 ### Step 2: Configure API keys
 
@@ -75,11 +67,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 **Example in Objective-C**
 
-```objective-c
+```objectivec
 // AppDelegate.m
 
 # import "AppDelegate.h"
-# import &lt;Stripe/Stripe.h&gt;
+# import <Stripe/Stripe.h>
 
 @implementation AppDelegate
 
@@ -95,15 +87,13 @@ didFinishLaunchingWithOptions:(NSDictionary \*)launchOptions
 
 **Note**: We have placed your test publishable API key as the StripePublishableKey constant in the above snippet. You will need to swap it out with your live publishable key in production. You can see all your API keys in your dashboard.
 
-## Collecting credit card information
+## Collecting credit card info
 
 There are three ways to obtain payment details from the user:
 
-1\. Use the Apple Pay framework to access your users' stored payment information.
-
-2\. Use our pre-built form component, STPPaymentCardTextField to collect new credit card details.
-
-3\. Build your own credit card form from scratch.
+A. Use the Apple Pay framework to access your users' stored payment information.
+B. Use our pre-built form component, STPPaymentCardTextField to collect new credit card details.
+C. Build your own credit card form from scratch.
 
 Since Apple Pay supports only certain credit cards on the latest iOS devices, we recommend using Apple Pay in combination with option 2 or option 3 as a fallback on devices where Apple Pay is not available.
 
@@ -145,7 +135,7 @@ if (Stripe.canSubmitPaymentRequest(request)) {
 
 **Example in Objective-C**
 
-```objective-c
+```objectivec
 // ViewController.m
 
 PKPaymentRequest \*request = \[Stripe paymentRequestWithMerchantIdentifier:"YOUR_APPLE_MERCHANT_ID"\];
@@ -197,7 +187,7 @@ func paymentAuthorizationViewControllerDidFinish(controller: PKPaymentAuthorizat
 
 **Example in Objective-C**
 
-```objective-c
+```objectivec
 // ViewController.m
 
 - (void)paymentAuthorizationViewController:(PKPaymentAuthorizationViewController *)controller
@@ -241,7 +231,7 @@ class PaymentViewController: UIViewController, STPPaymentCardTextFieldDelegate {
 
 **Example in Objective-C**
 
-```objective-c
+```objectivec
 // PaymentViewController.m
 
 # import "PaymentViewController.h"
@@ -268,7 +258,7 @@ override func viewDidLoad() {
 
 **Example in Objective-C**
 
-```objective-c
+```objectivec
 // PaymentViewController.m
 
 - (void)viewDidLoad {
@@ -296,7 +286,7 @@ func paymentCardTextFieldDidChange(textField: STPPaymentCardTextField) {
 
 **Example in Objective-C**
 
-```objective-c
+```objectivec
 - (void)paymentCardTextFieldDidChange:(STPPaymentCardTextField *)textField {
     // Toggle navigation, for example
     self.saveButton.enabled = textField.isValid;
@@ -338,7 +328,7 @@ func handlePaymentAuthorizationWithPayment(payment: PKPayment, completion: PKPay
 
 **Example in Objective-C**
 
-```objective-c
+```objectivec
 // ViewController.m
 
 - (void)handlePaymentAuthorizationWithPayment:(PKPayment *) payment
@@ -386,7 +376,7 @@ To do so, add the below code to your program.
 
 **Example in Objective-C**
 
-```objective-c
+```objectivec
 - (IBAction)save:(UIButton *)sender {
     [[STPAPIClient sharedClient]
         createTokenWithCard:self.paymentTextField.card completion:^(STPToken *token, NSError *error) {
@@ -438,7 +428,7 @@ func createBackendChargeWithToken(token: STPToken, completion: PKPaymentAuthoriz
 
 **Example in Objective-C**
 
-```objective-c
+```objectivec
 // ViewController.m
 
 - (void)createBackendChargeWithToken:(STPToken *)token

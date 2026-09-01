@@ -62,8 +62,8 @@ Nium
 
 | Title | <div style={{ width: '120px' }}>Code samples</div> | Contents |
 |-------|--------------|----------|
-| [SDK for Android payments](sdk-android-payments) | Java | Using Android Pay, collecting credit card info and payments, setting up an app, creating & using tokens, testing & deploying |
-| [SDK for iOS Apple Pay payments](sdk-ios-apple-pay-payments) | - Swift <br/> - Objective-C | Using Apple Pay, collecting credit card info, creating tokens, sending tokens to your server |
+| [SDK for Android payments](./roam-android-sdk-online-payments.md) | Java | Using Android Pay, collecting credit card info and payments, setting up an app, creating & using tokens, testing & deploying |
+| [SDK for iOS Apple Pay payments](./roam-ios-sdk-apple-pay-payments.md | - Swift <br/> - Objective-C | Using Apple Pay, collecting credit card info, creating tokens, sending tokens to your server |
 
 ### Atelio -- for fintech developers
 

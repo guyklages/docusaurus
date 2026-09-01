@@ -93,11 +93,11 @@ Nium
 | Developers had a hodgepodge of `skill.md` and `instruction.md` and various `.yaml` files and needed structure for their internal agent-driven workflows, server architecture, and usability. | I Created a framework of governance and guardrails with templates in Markdown and YAML files to make it easier for developers to build Copilot Agents | Microsoft |
 | Metaverse developers had trouble making 3-D objects behave the way they wanted. | I improved the Metaverse documentation with explanations and examples for faster building. | Meta |
 | Developers created an AI/ML/LLM system to populate the Netflix home screen of titles and needed to share this technology with other Netflix departments but weren't able to install or configure it outside their group. | I tested and created internal documentation for the complex installation and configuration of their tool that populates the Netflix Home screen of titles so other departments can use it as well | Netflix |
-| Customers' developers weren't able to onboard Nium's products due to the complexity of different steps for different company types in different countries. | I made a step-by-step unified onboarding process that immediately **[70% more onboarded while 70% fewer helpdesk tickets](./most-impactful-tech-writing.md#70-more--70-fewer)**. | Nium |
+| Customers' developers weren't able to onboard Nium's products due to the complexity of different steps for different company types in different countries. | I made a step-by-step unified onboarding process that immediately saw **[70% more onboarded while 70% fewer helpdesk tickets](./most-impactful-tech-writing.md#70-more--70-fewer)**. | Nium |
 | Developers were building internal AI/ML/LLM tools but had difficulty since Apache's documentation didn't cover all of their use cases or needs. | I filled in their documentation gaps and greatly enhanced their internal documentation with more explanations and examples for engineers to use the Apache ecosystem tools for their Big Data and IoT projects. An engineer said my docs are "more thorough than Apache's documentation site." | Yahoo |
-| AdWordsAPI developers had trouble finding what they needed since the AdWords department hadn't updated their Confluence pages in many years and some were simply obsolete. | I improved the completeness and accuracy of the AdWords API department's documentation to be the **[highest rated department in all of Google](https://guyklages.com/portfolio/most-impactful-tech-writing#1-dept-in-documention)**. | Google |
-| Customer developers had trouble writing queries since the documentation was sparse and had no example queries of usage. | I vastly improved their documentation by elaborating on the explanations and adding many example queries, which **[Reduced helpdesk tickets by 30%](https://guyklages.com/portfolio/most-impactful-tech-writing#30-fewer-helpdesk-tickets)** | Couchbase |
-| Developers couldn't keep up with the ever-growing queue of helpdesk tickets since their process didn't call customers at the best time to reach them. | I redesigned their Helpdesk system to call them during the time range the customer specified and at the number (home or work) specified; and I answered many calls myself instead of creating a ticket. These **[Reduced helpdesk tickets by 88%](https://guyklages.com/portfolio/most-impactful-software-engineering#88-drop-in-helpdesk-queue)** | Microsoft |
+| AdWordsAPI developers had trouble finding what they needed since the AdWords department hadn't updated their Confluence pages in many years and some were simply obsolete. | I improved the completeness and accuracy of the AdWords API department's documentation to be the **[highest rated department in all of Google](./most-impactful-tech-writing.md#1-dept-in-documentation)**. | Google |
+| Customer developers had trouble writing queries since the documentation was sparse and had no example queries of usage. | I vastly improved their documentation by elaborating on the explanations and adding many example queries, which **[Reduced helpdesk tickets by 30%](./most-impactful-tech-writing.md#30-fewer-helpdesk-tickets)** | Couchbase |
+| Developers couldn't keep up with the ever-growing queue of helpdesk tickets since their process didn't call customers at the best time to reach them. | I redesigned their Helpdesk system to call them during the time range the customer specified and at the number (home or work) specified; and I answered many calls myself instead of creating a ticket. These **[Reduced helpdesk tickets by 92%](./most-impactful-software-engineering.md#92-drop-in-helpdesk-queue)** | Microsoft |
 
 ## Dev tools I've built
 
@@ -117,19 +117,22 @@ Nium
 #### Roles I performed at those websites
 
 Moderator
+
 - Helped facilitate community discussions by enforcing forum guidelines
 - Removed spam, ads, and self-promotion posts
 - Ensured posts remain respectful and on-topic
 - Moved, edited, or merged threads so questions are properly categorized and easier to find
 
 Developer advocate
+
 - Assisted developers
 - Escalated technical questions to the right engineering teams
-- Replied to posts with technical answers 
+- Replied to posts with technical answers
 - Replied to dozens of forum posts via email due to privacy issues
-- (In the future, I'll post the non-private parts in the forum so everyone can benefit)
+- After replying to sensitive matters in email, I learned to post a 2nd reply without sensitive info in the forum so everyone can benefit
 
 Driver of growth
+
 - Gathered customer and potential customer feedback which influenced the product
 - Identified friction points of customers and potential customers and addressed them
 - Generated dozens of "leads" and "pipeline influence"
@@ -325,12 +328,15 @@ Nium has added more API endpoints and supported languages after I left. The foll
 
 ### SQL indexes and queries
 
-- While at Couchbase, there was a potential customer who wanted to buy if he could see examples of a new ANSI Index that was shipping in the latest version. 
+- While at Couchbase, there was a potential customer who wanted to buy if he could see examples of a new ANSI Index that was shipping in the latest version.
   - The problem was that the default database that comes with Couchbase Server didn't contain enough specialized indexed fields to demonstrate the power of the new ANSI Index, and Couchbase executives didn't want to change any part of their example database. 
   - So, I created the indexes needed to make a query that could use the new ANSI Index and then made sample queries that used the new ANSI Indexes with my newly made indexed fields; and then I made a script so anyone could replicate those creation steps. 
   - I did this ad hoc "patch" again a few weeks later for a different customer who had a different use case. 
   - A few months later, Couchbase modified their example database to include these and other index types for all customers.
-- All the **_SQL indexes_** and ***SQL queries*** on all pages under [SQL++ for Query Reference](https://docs.couchbase.com/cloud/n1ql/n1ql-language-reference/index.html)
+- I wrote or vastly improved nearly all pages under [SQL++ for Query Reference](https://docs.couchbase.com/cloud/n1ql/n1ql-language-reference/index.html) by adding:
+  - Examples
+  - Diagrams
+  - Indexes and queries
 
 | Operators  | Functions | <div style={{ width: '200px' }}>Statements (A-D)</div> | Statements (E-U) | SELECT |
 |------------|-----------|------------------|------------------|--------|

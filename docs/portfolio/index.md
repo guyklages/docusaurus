@@ -28,4 +28,4 @@ import { DefinitionProvider, DefTerm, DefinitionPanel } from '@site/src/componen
 </tbody>
 </table>
 
-## [Tools and stack](./tools-and-stack.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Recommendations](./recommendations.md)
+## [Tools and stack](./tools-and-stack.md) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [Recommendations](./recommendations.md)

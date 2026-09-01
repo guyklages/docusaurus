@@ -30,6 +30,7 @@
   --portfolio-box-red: rgb(255, 225, 225);
   --portfolio-box-blue: rgb(225, 225, 255);
   --portfolio-box-green: rgb(225, 255, 225);
+  --portfolio-box-purple: rgb(240, 225, 240);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -55,6 +56,7 @@
   --portfolio-box-red: rgb(70, 0, 0);
   --portfolio-box-blue: rgb(13, 0, 116);
   --portfolio-box-green: rgb(10, 71, 0);
+  --portfolio-box-purple: rgb(42, 0, 58);
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');

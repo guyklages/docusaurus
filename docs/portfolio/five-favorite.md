@@ -39,7 +39,7 @@
 
 | Before (Apr 2012) | After (May 2012) |
 |-------------------|------------------|
-| TEDxBeaconStreet wanted their Adventures guidebook to have a newer and refreshed look while improving their wording. | I 
+| TEDxBeaconStreet wanted their Adventures guidebook to have a newer and refreshed look while improving their wording. | I replaced the religious-sounding words with neutral "Rules", dropped the numbers, and reduced each rule to a two-word title with supporting text. |
 | ![Before](../../static/img/TEDx_adventures-handbook-rules_BEFORE.png) | ![After](../../static/img/TEDx_adventures-handbook-rules_AFTER.png) |
 
 #### Lifecycle

@@ -310,7 +310,7 @@ You will probably want to validate these three things at once, so we have includ
 ```java
 Card card = new Card("4242-4242-4242-4242", 12, 2017, "123");
 if ( !card.validateCard() ) {
-// Show errors
+  // Show errors
 }
 ```
 
@@ -323,20 +323,21 @@ You can create tokens using the Stripe instance method createToken, passing in a
 ```java
 Card card = new Card("4242424242424242", 12, 2017, "123");
 Stripe stripe = new Stripe("pk_test_6pRNASCoBOKtIshFeQd4XMUh");
+
 stripe.createToken(
-card,
-new TokenCallback() {
-public void onSuccess(Token token) {
-// Send token to your server
-}
-public void onError(Exception error) {
-// Show localized error message
-Toast.makeText(getContext(),
-error.getLocalizedString(getContext()),
-Toast.LENGTH_LONG
-).show();
-}
-}
+  card,
+  new TokenCallback() {
+    public void onSuccess(Token token) {
+      // Send token to your server
+    }
+    public void onError(Exception error) {
+      // Show localized error message
+      Toast.makeText(getContext(),
+        error.getLocalizedString(getContext()),
+        Toast.LENGTH_LONG
+      ).show();
+    }
+  }
 );
 ```
 

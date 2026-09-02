@@ -88,6 +88,7 @@ The following code is the Android Pay flow:
 ```java
 public class PaymentActivity extends FragmentActivity implements GoogleApiClient.ConnectionCallbacks,
 GoogleApiClient.OnConnectionFailedListener {
+
 // You will need to use your live API key even while testing
 public static final String PUBLISHABLE_KEY = "pk_live_XXX";
 
@@ -95,58 +96,64 @@ public static final String PUBLISHABLE_KEY = "pk_live_XXX";
 private static final int LOAD_MASKED_WALLET_REQUEST_CODE = 1000;
 private static final int LOAD_FULL_WALLET_REQUEST_CODE = 1001;
 private SupportWalletFragment walletFragment;
+
 public void onCreate(Bundle savedInstanceState) {
-super.onCreate(savedInstanceState);
-Wallet.Payments.isReadyToPay(googleApiClient).setResultCallback(
-new ResultCallback<BooleanResult>() {
-@Override
-public void onResult(@NonNull BooleanResult booleanResult) {
-if (booleanResult.getStatus().isSuccess()) {
-if (booleanResult.getValue()) {
-showAndroidPay();
-} else {
-// Hide Android Pay buttons, show a message that Android Pay
-// cannot be used yet, and display a traditional checkout button
+  super.onCreate(savedInstanceState);
+  Wallet.Payments.isReadyToPay(googleApiClient).setResultCallback(
+    new ResultCallback<BooleanResult>() {
+      @Override
+      public void onResult(@NonNull BooleanResult booleanResult) {
+        if (booleanResult.getStatus().isSuccess()) {
+          if (booleanResult.getValue()) {
+            showAndroidPay();
+          } else {
+            // Hide Android Pay buttons, show a message that Android Pay
+            // cannot be used yet, and display a traditional checkout button
+          }
+        } else {
+          // Error making isReadyToPay call
+          Log.e(TAG, "isReadyToPay:" + booleanResult.getStatus());
+        }
+      }
+    });
+  ...
 }
-} else {
-// Error making isReadyToPay call
-Log.e(TAG, "isReadyToPay:" + booleanResult.getStatus());
-}
-}
-});
-...
-}
+
 public void showAndroidPay() {
-setContentView(R.layout.payment_activity);
-walletFragment = (SupportWalletFragment) getSupportFragmentManager()
-.findFragmentById(R.id.wallet_fragment);
-MaskedWalletRequest maskedWalletRequest = MaskedWalletRequest.newBuilder()
-// Request credit card tokenization with Stripe:
-.setPaymentMethodTokenizationParameters(
-PaymentMethodTokenizationParameters.newBuilder()
-.setPayment MethodTokenizationType(PaymentMethodTokenizationType.PAYMENT_GATEWAY)
-.addParameter("gateway", "stripe")
-.addParameter("stripe:publishableKey", PUBLISHABLE_KEY)
-.addParameter("stripe:version", com.stripe.Stripe.VERSION)
-.build())
-.setShippingAddressRequired(true)
-.setEstimatedTotalPrice("20.00")
-.setCurrencyCode("USD")
-.build();
-WalletFragmentInitParams initParams = WalletFragmentInitParams.newBuilder()
-.setMaskedWalletRequest(maskedWalletRequest)
-.setMaskedWalletRequestCode(LOAD_MASKED_WALLET_REQUEST_CODE)
-.build();
-walletFragment.initialize(initParams);
-...
-}
-public void onStart() { ... }
-public void onStop() { ... }
-@Override
-protected void onActivityResult(int requestCode, int resultCode, Intent data) { ... }
-@Override public void onConnectionFailed(ConnectionResult connectionResult) {}
-@Override public void onConnected(Bundle bundle) {}
-@Override public void onConnectionSuspended(int i) {}
+  setContentView(R.layout.payment_activity);
+  walletFragment = (SupportWalletFragment) getSupportFragmentManager()
+    .findFragmentById(R.id.wallet_fragment);
+
+  MaskedWalletRequest maskedWalletRequest = MaskedWalletRequest.newBuilder()
+    // Request credit card tokenization with Stripe:
+    .setPaymentMethodTokenizationParameters(
+      PaymentMethodTokenizationParameters.newBuilder()
+        .setPayment MethodTokenizationType(PaymentMethodTokenizationType.PAYMENT_GATEWAY)
+        .addParameter("gateway", "stripe")
+        .addParameter("stripe:publishableKey", PUBLISHABLE_KEY)
+        .addParameter("stripe:version", com.stripe.Stripe.VERSION)
+        .build())
+      .setShippingAddressRequired(true)
+      .setEstimatedTotalPrice("20.00")
+      .setCurrencyCode("USD")
+      .build();
+
+    WalletFragmentInitParams initParams = WalletFragmentInitParams.newBuilder()
+      .setMaskedWalletRequest(maskedWalletRequest)
+      .setMaskedWalletRequestCode(LOAD_MASKED_WALLET_REQUEST_CODE)
+      .build();
+    walletFragment.initialize(initParams);
+    ...
+  }
+
+  public void onStart() { ... }
+  public void onStop() { ... }
+
+  @Override
+  protected void onActivityResult(int requestCode, int resultCode, Intent data) { ... }
+  @Override public void onConnectionFailed(ConnectionResult connectionResult) {}
+  @Override public void onConnected(Bundle bundle) {}
+  @Override public void onConnectionSuspended(int i) {}
 }
 ```
 
@@ -156,27 +163,30 @@ The last step of the Android Pay setup process for the app is to connect to the 
 
 ```java
 public class PaymentActivity extends FragmentActivity {
-...
-private GoogleApiClient googleApiClient;
-public void onCreate(Bundle savedInstanceState) {
-...
-googleApiClient = new GoogleApiClient.Builder(this)
-.addConnectionCallbacks(this)
-.addOnConnectionFailedListener(this)
-.addApi(Wallet.API, new Wallet.WalletOptions.Builder()
-.setEnvironment(WalletConstants.ENVIRONMENT_TEST)
-.setTheme(WalletConstants.THEME_LIGHT)
-.build())
-.build();
-}
-public void onStart() {
-super.onStart();
-googleApiClient.connect();
-}
-public void onStop() {
-super.onStop();
-googleApiClient.disconnect();
-}
+  ...
+  private GoogleApiClient googleApiClient;
+
+  public void onCreate(Bundle savedInstanceState) {
+    ...
+    googleApiClient = new GoogleApiClient.Builder(this)
+      .addConnectionCallbacks(this)
+      .addOnConnectionFailedListener(this)
+      .addApi(Wallet.API, new Wallet.WalletOptions.Builder()
+        .setEnvironment(WalletConstants.ENVIRONMENT_TEST)
+        .setTheme(WalletConstants.THEME_LIGHT)
+        .build())
+     .build();
+  }
+
+  public void onStart() {
+    super.onStart();
+    googleApiClient.connect();
+  }
+
+  public void onStop() {
+    super.onStop();
+    googleApiClient.disconnect();
+  }
 }
 ```
 
@@ -184,33 +194,33 @@ Once your customer confirms their purchase, the application then needs to create
 
 ```java
 public class PaymentActivity extends FragmentActivity {
-...
-@Override
-protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-super.onActivityResult(requestCode, resultCode, data);
-if (requestCode == LOAD_MASKED_WALLET_REQUEST_CODE) {
-if (resultCode == Activity.RESULT_OK) {
-MaskedWallet maskedWallet = data.getParcelableExtra(WalletConstants.EXTRA_MASKED_WALLET);
-FullWalletRequest fullWalletRequest = FullWalletRequest.newBuilder()
-.setCart(Cart.newBuilder()
-.setCurrencyCode("USD")
-.setTotalPrice("20.00")
-.addLineItem(LineItem.newBuilder()
-.setCurrencyCode("USD")
-.setQuantity("1")
-.setDescription("Premium Llama Food")
-.setTotalPrice("20.00")
-.setUnitPrice("20.00")
-.build())
-.build())
-.setGoogleTransactionId(maskedWallet.getGoogleTransactionId())
-.build();
-Wallet.Payments.loadFullWallet(googleApiClient, fullWalletRequest, LOAD_FULL_WALLET_REQUEST_CODE);
-}
-} else if (requestCode == LOAD_FULL_WALLET_REQUEST_CODE) {
-...
-}
-}
+  ...
+  @Override
+  protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+  super.onActivityResult(requestCode, resultCode, data);
+  if (requestCode == LOAD_MASKED_WALLET_REQUEST_CODE) {
+    if (resultCode == Activity.RESULT_OK) {
+        MaskedWallet maskedWallet = data.getParcelableExtra(WalletConstants.EXTRA_MASKED_WALLET);
+        FullWalletRequest fullWalletRequest = FullWalletRequest.newBuilder()
+          .setCart(Cart.newBuilder()
+            .setCurrencyCode("USD")
+            .setTotalPrice("20.00")
+            .addLineItem(LineItem.newBuilder()
+              .setCurrencyCode("USD")
+              .setQuantity("1")
+              .setDescription("Premium Llama Food")
+              .setTotalPrice("20.00")
+              .setUnitPrice("20.00")
+              .build())
+            .build())
+          .setGoogleTransactionId(maskedWallet.getGoogleTransactionId())
+          .build();
+        Wallet.Payments.loadFullWallet(googleApiClient, fullWalletRequest, LOAD_FULL_WALLET_REQUEST_CODE);
+      }
+    } else if (requestCode == LOAD_FULL_WALLET_REQUEST_CODE) {
+      ...
+    }
+  }
 }
 ```
 
@@ -222,30 +232,31 @@ Once your customer allows access to their wallet for payment, the application wi
 
 ```java
 public class PaymentActivity extends FragmentActivity {
-...
-// Keep track of your current environment.
-// Change to WalletConstants.ENVIRONMENT_PRODUCTION when ready to go live.
-public static final int mEnvironment = WalletConstants.ENVIRONMENT_TEST;
-@Override
-protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-if (requestCode == LOAD_MASKED_WALLET_REQUEST_CODE) {
-...
-} else if (requestCode == LOAD_FULL_WALLET_REQUEST_CODE) {
-if (resultCode == Activity.RESULT_OK) {
-FullWallet fullWallet = data.getParcelableExtra(WalletConstants.EXTRA_FULL_WALLET);
-String tokenJSON = fullWallet.getPaymentMethodToken().getToken();
-// A token will only be returned in production mode,
-// i.e. WalletConstants.ENVIRONMENT_PRODUCTION
-if (mEnvironment == WalletConstants.ENVIRONMENT_PRODUCTION) {
-com.stripe.model.Token token = com.stripe.model.Token.GSON.fromJson(
-tokenJSON, com.stripe.model.Token.class);
-// TODO: send token to your server
-}
-}
-} else {
-super.onActivityResult(requestCode, resultCode, data);
-}
-}
+  ...
+  // Keep track of your current environment.
+  // Change to WalletConstants.ENVIRONMENT_PRODUCTION when ready to go live.
+  public static final int mEnvironment = WalletConstants.ENVIRONMENT_TEST;
+
+  @Override
+  protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+    if (requestCode == LOAD_MASKED_WALLET_REQUEST_CODE) {
+      ...
+    } else if (requestCode == LOAD_FULL_WALLET_REQUEST_CODE) {
+      if (resultCode == Activity.RESULT_OK) {
+        FullWallet fullWallet = data.getParcelableExtra(WalletConstants.EXTRA_FULL_WALLET);
+        String tokenJSON = fullWallet.getPaymentMethodToken().getToken();
+        // A token will only be returned in production mode,
+        // i.e. WalletConstants.ENVIRONMENT_PRODUCTION
+        if (mEnvironment == WalletConstants.ENVIRONMENT_PRODUCTION) {
+          com.stripe.model.Token token = com.stripe.model.Token.GSON.fromJson(
+            tokenJSON, com.stripe.model.Token.class);
+          // TODO: send token to your server
+        }
+      }
+    } else {
+      super.onActivityResult(requestCode, resultCode, data);
+    }
+  }
 }
 ```
 
@@ -279,10 +290,10 @@ To construct a Card instance with your customer's payment information, add the f
 
 ```java
 Card card = new Card(
-cardNumber,
-cardExpMonth,
-cardExpYear,
-cardCVC
+  cardNumber,
+  cardExpMonth,
+  cardExpYear,
+  cardCVC
 );
 card.validateNumber();
 card.validateCVC();
@@ -290,11 +301,9 @@ card.validateCVC();
 
 The Card instance contains helpers to validate that:
 
--   the card number passes the Luhn check
-
--   the expiration date is in the future
-
--   the CVC looks valid
+- the card number passes the Luhn check
+- the expiration date is in the future
+- the CVC looks valid
 
 You will probably want to validate these three things at once, so we have included a validateCard function that does so:
 

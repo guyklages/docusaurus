@@ -5,7 +5,7 @@ authors: [guyklages]
 tags: [fintech]
 ---
 
-<img src="/img/Blog_GmailAgent-inbox.png" alt="Gmail agent for job auto-replies" width="768" height="512" />
+<img src="/img/Blog_GmailAgent-inbox.png" alt="Gmail agent for job auto-replies" width="384" height="256" />
 
 # Building a local Gmail job-reply agent with Mistral and Ollama
 

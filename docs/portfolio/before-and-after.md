@@ -13,7 +13,7 @@ For a list of items that had a measurable impact, see the **[most impactful UX/U
 
 | Before (Apr 2018) | After (May 2018) |
 |-------------------|------------------|
-| Couchbase's list of reserved words fit on one page. | Over time, we added many words and needed a new way to display them. |
+| Couchbase's reserved words were listed horizontally. | I moved the words to be listed vertically with space between initial letters. |
 | ![Before](../../static/img/Couchbase_Reserved-words_BEFORE.png) | ![After](../../static/img/Couchbase_Reserved-words_AFTER.png) |
 
 ### Color-coded system table

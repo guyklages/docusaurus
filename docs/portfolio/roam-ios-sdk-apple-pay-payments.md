@@ -1,5 +1,7 @@
 # ROAM Data iOS SDK for Apple Pay
 
+_(This page describes the Stripe-based integration we built at ROAM Data)_
+
 ## Introduction
 
 This document provides knowledge in building the iOS app that accepts payment in iOS devices, with built-in support for Apple Pay.

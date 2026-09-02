@@ -1,15 +1,17 @@
 # Most impactful automating
 
 
-## Overview
+### Overview
 
 | Accomplishment  | Year | Company |
 |-----------------|------|---------|
 | [Reduced obsolete pages by 40% and added automation to prevent obsolete pages](#prevent-obsolete-pages) | 2019 | Yahoo <br/> <sup> _Sunnyvale, CA_ </sup> |
 | [Made a database to automate reports; saved >50% of the employees' time and effort](#db-saved-50-time-effort) | 2009 | ADP Payroll <br/> <sup> _Seattle, WA_ </sup> |
-| [Automated their label printing system; freed up 40% of staff's time](#75-increase-in-productivity) | 1999 | Bridgestone <br/> <sup> _Bloomington, IL_ </sup> |
+| [Automated their label printing system; freed up 75% of staff's time](#75-increase-in-productivity) | 1999 | Bridgestone <br/> <sup> _Bloomington, IL_ </sup> |
 
-## Prevent obsolete pages
+## Automated
+
+### Prevent obsolete pages
 
 #### Yahoo (Sunnyvale, CA) –– <mark> Reduced obsolete pages by 40% and added automation to prevent obsolete pages </mark>
 
@@ -19,7 +21,7 @@
 | Originally had 1,439 pages <br/> I revamped to 849 pages | RESULTS: <br/> - Total number of pages reduced by 40%. <br/> - Automated a timely reminder for page owners to review. |
 
 
-## DB saved 50% time, effort
+### DB saved 50% time, effort
 
 #### ADP Payroll (Seattle, WA) –– <mark> Made a database to automate reports; saved >50% of the employees' time and effort </mark>
 
@@ -29,7 +31,7 @@
 | What used to take 8 hours, now took 4 hours. | RESULTS: <br/> This new system freed up at least 50% of their time which allowed them to do other things. |
 
 
-## 75% increase in productivity
+### 75% increase in productivity
 
 #### Bridgestone (Bloomington, IL) –– <mark> Automated their label printing system; freed up 75% of staff's time </mark>
 
@@ -40,16 +42,15 @@
 | PROBLEM: <br/> Staff didn't have enough time to do everything needed. <br/> <br/> 1. Staff would print the labels needed for a single part of a particular batch.  (5 min) <br/> <br/> 2. Staff would wait (15 min) until that part finished before printing labels for the next part because their SQL application would print only one part at a time. <br/> <br/> 3. Staff would go back to Step 1, repeating the long wait times throughout the day. | MY SOLUTION: <br/> Change how their SQL Server application operates to select and print labels of all steps of a batch at a single time. <br/> <br/> I re-designed their software to print all labels of all steps of a given batch at a single time, so the staff were available to do other things while all the needed labels printed on their own. |
 | 15 of every 20 min were waiting (75%)| RESULTS: <br/> The staff's waiting time (75% of the day) became productive time on other tasks |
 
-## -
 
-## Simplifying
+## Simplified
 
 Some things can't be fully automated, but they can be vastly simplified or mostly automated.
 
 
-## 69% fewer pages via new IA
+### 69% fewer pages via new IA
 
-#### Atelio of FIS Global (Seattle) –– <mark> Revamped information architecture (IA), reduced dev pages and navigation by 69% </mark>
+#### Atelio of FIS Global (San Francisco, CA) –– <mark> Revamped information architecture (IA), reduced dev pages and navigation by 69% </mark>
 
 | Before (May 2024) | After (July 2025) |
 |-------------------|-------------------|
@@ -58,7 +59,7 @@ Some things can't be fully automated, but they can be vastly simplified or mostl
 | (my 32 pg) / (inherited 104 pg) = 31% of the original | RESULTS: <br/> 69% fewer pages and customer clicks to find data. |
 
 
-## 56% fewer pages
+### 56% fewer pages
 
 #### Google (Mt. View, CA) –– <mark> A dept added doc pages for 5 years without checking for "freshness" and needed to be revamped </mark>
 
@@ -68,7 +69,7 @@ Some things can't be fully automated, but they can be vastly simplified or mostl
 | 173 &nbsp;&nbsp;&nbsp; final pages <br/> ---- <br/> 386 &nbsp;&nbsp; original pages <br/><br/> = 44%  | RESULTS: <br/> 56% fewer pages and #1 dept. <br/> ![After](../../static/img/Google_AdWordsAPI_Top-in-DocHealth.png) |
 
 
-## 80% time saved on writing
+### 80% time saved on writing
 
 #### Couchbase (Santa Clara, CA) –– <mark> Reduced the writing process of a new feature from 4-6 weeks to 4-5 days </mark>
 
@@ -77,7 +78,7 @@ Some things can't be fully automated, but they can be vastly simplified or mostl
 | PROBLEM: <br/> Turnaround&nbsp;time&nbsp;to&nbsp;add&nbsp;features&nbsp;took&nbsp;way&nbsp;too&nbsp;long. <br/> 1.  Writers authored a feature in Oxygen. (2-3d) <br/> 2.  Webpage staged for engineer review. (2-3h) <br/> 3.  Engineers eventually gave feedback. (3-5d) <br/> 4.  Webpage updated. (1-2d) <br/> <br/> Time for iteration: 6-13d <br/> x 2-4 iterations (going to Step 2) <br/> ======================== <br/> Total of 4 - 6 _weeks_ per feature | MY SOLUTION: <br/> Google Docs for synchronous writing/editing. <br/> 1. I authored a single feature in Google Docs and shared it with all engineers involved. (2-3d) <br/> 2. While engineers discussed how the feature will be finalized, I started on the next feature. <br/> 3. After the engineers finalized a feature's text, I imported it in Oxygen and staged it only _once_. (2-3h) <br/> ====================== <br/> Total of 4 - 5 _days_ per feature | 
 | | RESULTS: <br/> Average time saved:  5 weeks → 1 week (80%) |
 
-## Saved 85% of translation
+### Saved 85% of translation
 
 #### Pristine (Taipei) –– <mark> Improved readability while saving 85% on translation costs by converting paragraphs to a table </mark>
 

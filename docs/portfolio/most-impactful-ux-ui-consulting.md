@@ -3,7 +3,7 @@
 
 ## 69% fewer pages via new IA
 
-#### Atelio of FIS Global (Seattle) –– <mark> Revamped information architecture (IA), reduced dev pages and navigation by 69% </mark>
+#### Atelio of FIS Global (San Francisco) –– <mark> Revamped information architecture (IA), reduced dev pages and navigation by 69% </mark>
 
 | Before (May 2024) | After (July 2025) |
 |-------------------|-------------------|
@@ -18,7 +18,7 @@
 
 | Before (Oct 2022) | After (Dec 2022) |
 |-------------------|------------------|
-| PROBLEM: <br/> New clients were unable to onboard themselves due to the unclear method to them–-and even to Nium. <br/> <br/> Each region (AU, EU, HK, SG, UK, US) contains five very complex spreadsheets describing various steps of onboarding for various client types and situations: | MY SOLUTION: <br/> I created **[a clear onboarding process with sections of customer types](https://docs.nium.com/docs/onboarding)** for common onboarding steps and for region-specific parameter and example pages. <br/> <br/> Immediately saw twice as many customers onboarded and only a quarter of the Helpdesk requests for onboarding |
+| PROBLEM: <br/> New clients were unable to onboard themselves due to the unclear method to them–-and even to Nium. <br/> <br/> Each region (AU, EU, HK, SG, UK, US) contains five very complex spreadsheets describing various steps of onboarding for various client types and situations: | MY SOLUTION: <br/> I created **[a clear onboarding process with sections of customer types](https://docs.nium.com/docs/onboarding)** for common onboarding steps and for region-specific parameter and example pages. <br/> <br/> Immediately saw 70% more customers onboarded and 70% fewer Helpdesk requests for onboarding |
 | ![Before](../../static/img/Nium_onboarding-before.png) | ![After](../../static/img/Nium_onboarding-after.png) |
 | For every 10 customers who tried to onboard: <br/> - 2 (20%) were successful <br/> - 8 (80%) filed helpdesk tickets. <br/><br/> After I created the onboarding process: <br/> - 9 (90%) were successful <br/> - 1 (10%) filed helpdesk tickets | Successful onboarding rose 70% <br/> while helpdesk tickets reduced by 70%. |
 
@@ -35,7 +35,7 @@
 
 ## 25% more players and sales
 
-#### Mica Games (Seattle) –– <mark> 25% more players and revenue from my suggested changes to his games </mark>
+#### Mica Games (Seattle, remote part-time) –– <mark> 25% more players and revenue from my suggested changes to his games </mark>
 
 | Before (Mar 1998) | After (Apr 2013) |
 |-------------------|------------------|

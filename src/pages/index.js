@@ -19,7 +19,7 @@ function HomepageHeader() {
           Empowering users, one page at a time.
         </Heading>
         <Heading as="h2" className={clsx('hero__subtitle', styles.heroSubtitle)}>
-          I'm passionate about creating documentation and resources that help developers and end users
+          I'm passionate about creating documentation and resources that help developers and end users <br/>
           fully unlock a product's potential. I'm also excited to support fellow technical writers.
         </Heading>
       </div>

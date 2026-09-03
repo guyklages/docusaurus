@@ -169,6 +169,7 @@ presets: [
           {
             href: 'https://camelmind-docs.vercel.app/home',
             label: 'CamelMind docs platform',
+            title: 'My and my friend\'s side project to build the documentation platform with all the features we wish other platforms had.',
             position: 'right',
           },
           {

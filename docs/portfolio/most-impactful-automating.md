@@ -5,15 +5,23 @@
 
 | Accomplishment  | Year | Company |
 |-----------------|------|---------|
-| [Reduced obsolete pages by 40% and added automation to prevent obsolete pages](#prevent-obsolete-pages) | 2019 | Yahoo <br/> <sup> _Sunnyvale, CA_ </sup> |
+| [Reduced obsolete pages by 40% and added automation to prevent obsolete pages](#prevention-on-obsolete-pages) | 2019 | Yahoo <br/> <sup> _Sunnyvale, CA_ </sup> |
 | [Made a database to automate reports; saved >50% of the employees' time and effort](#db-saved-50-time-effort) | 2009 | ADP Payroll <br/> <sup> _Seattle, WA_ </sup> |
 | [Automated their label printing system; freed up 75% of staff's time](#75-increase-in-productivity) | 1999 | Bridgestone <br/> <sup> _Bloomington, IL_ </sup> |
 
 ## Automated
 
-### Prevent obsolete pages
+### Syncing authorization statuses
 
-#### Yahoo (Sunnyvale, CA) –– <mark> Reduced obsolete pages by 40% and added automation to prevent obsolete pages </mark>
+#### Atelio (San Francisco, CA) -- <mark> Synced the authorization status for dozens of cloud services across AWS, Azure, and GCP </mark>
+
+| Before (Aug 2025) | After (Sep 2025) |
+|-------------------|------------------|
+| PROBLEM: <br/> Documentation pages show the current authorization status (GovCloud, DefRAMP) for dozens of cloud services, and since these statuses change daily, it's a huge manual effort to maintain. | MY SOLUTION: <br/> I wrote a TypeScript script to automate the collection and updating of these many services. <br/><br/> For a few weeks, I manually ran my script daily, then the DevOps team folded it into the pipeline. |
+
+### Prevention of obsolete pages
+
+#### Yahoo (Sunnyvale, CA) –– <mark> Reduced obsolete pages by 40% and added automation to prevent obsolete pages in the future</mark>
 
 | Before (May 2019) | After (Dec 2019) |
 |-------------------|------------------|

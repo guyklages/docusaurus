@@ -47,7 +47,7 @@ Nium
 | Category  | APIs |
 |-----------|------|
 | Clients   | [Client Prefund Account](https://docs.nium.com/api#tag/client-prefund-account) • [Client Settings](https://docs.nium.com/api#tag/client-settings) • [Client Transactions](https://docs.nium.com/api#tag/client-transactions/GET/api/v1/client/{clientHashId}/transactions) |
-| Customers | [User Management](https://docs.nium.com/api#tag/user-management) • [Customer Account - Individual](https://docs.nium.com/api#tag/customer-account-individual) • [Customer Account - Corporate](https://docs.nium.com/api#tag/customer-account-corporate) • [Customer Management](https://docs.nium.com/api#tag/customer-management) • [Accounts](https://docs.nium.com/api#tag/accounts) - [Files](https://docs.nium.com/api#tag/files) |
+| Customers | [User Management](https://docs.nium.com/api#tag/user-management) • [Customer Account - Individual](https://docs.nium.com/api#tag/customer-account-individual) • [Customer Account - Corporate](https://docs.nium.com/api#tag/customer-account-corporate) • [Customer Management](https://docs.nium.com/api#tag/customer-management) • [Accounts](https://docs.nium.com/api#tag/accounts) • [Files](https://docs.nium.com/api#tag/files) |
 | Wallets   | [Customer Wallet Balance](https://docs.nium.com/api#tag/customer-wallet-balance) • [Wallet to Wallet Transfers](https://docs.nium.com/api#tag/wallet-to-wallet-transfers) |
 | Payins    | [Customer Funding](https://docs.nium.com/api#tag/customer-funding) • [Customer Virtual Accounts](https://docs.nium.com/api#tag/customer-virtual-accounts) |
 | Payouts   | [Beneficiary](https://docs.nium.com/api#tag/beneficiary) • [Payout](https://docs.nium.com/api#tag/payout) |

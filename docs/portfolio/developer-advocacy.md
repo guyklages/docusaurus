@@ -191,7 +191,7 @@ Nium has added more API endpoints and supported languages for fintech developers
   - I did this ad hoc "patch" again a few weeks later for a different customer who had a different use case. 
   - A few months later, Couchbase modified their example database to include these and other index types for all customers.
 - I wrote or vastly improved nearly all pages under [SQL++ for Query Reference](https://docs.couchbase.com/cloud/n1ql/n1ql-language-reference/index.html) by adding:
-  - Elaborated on explanations
+  - More detailed explanations
   - Examples
   - Diagrams
   - Indexes and queries

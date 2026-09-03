@@ -167,6 +167,11 @@ presets: [
             label: 'Solar',
           },
           {
+            href: 'https://camelmind-docs.vercel.app/home',
+            label: 'CamelMind docs platform',
+            position: 'right',
+          },
+          {
             href: 'https://github.com/guyklages',
             label: 'Guy Klages GitHub',
             position: 'right',

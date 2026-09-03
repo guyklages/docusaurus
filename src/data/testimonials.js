@@ -14,7 +14,7 @@ export default {
     link: 'https://www.linkedin.com/in/louie-mayor/',
   },
   FIS: {
-    company: 'FIS Global',
+    company: 'FIS Global / Atelio',
     quote:
       "Guy was our lead and only tech writer and was an important part of my team. His work was clear, organized and thoughtful, across all product areas. As a former software engineer, he wrote in a way our engineers and customers' engineers understood easily, and his passion for perfectionism was appreciated by many. I hope to work with Guy (and his sense of humor) again in the future.",
     person: 'Jon Eisenstein',

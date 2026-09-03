@@ -18,7 +18,7 @@
 
 | Before (Aug 2025) | After (Sep 2025) |
 |-------------------|------------------|
-| PROBLEM: <br/> Documentation pages show the current authorization status (GovCloud, DefRAMP) for dozens of cloud services, and since these statuses change daily, it's a huge manual effort to maintain. | MY SOLUTION: <br/> I wrote a TypeScript script to automate the collection and updating of these many services. <br/><br/> For a few weeks, I manually ran my script daily, then the DevOps team folded it into the pipeline. |
+| PROBLEM: <br/> Documentation pages show the current authorization status (GovCloud, DefRAMP) for dozens of cloud services, and since these statuses change daily, it's a huge manual effort to maintain. | MY SOLUTION: <br/> I&nbsp;wrote&nbsp;a&nbsp;TypeScript&nbsp;script&nbsp;to&nbsp;automate&nbsp;the&nbsp;collection and updating of these many services. <br/><br/> For a few weeks, I manually ran my script daily, then the DevOps team folded it into the pipeline. |
 
 ### Prevention of obsolete pages
 

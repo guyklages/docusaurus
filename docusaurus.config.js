@@ -142,6 +142,7 @@ presets: [
             sidebarId: 'sidebarAtelioGuides',
             position: 'left',
             label: 'Atelio guides',
+            title: 'My local copy of the now-defunct Atelio website',
           },
           {
             type: 'docSidebar',

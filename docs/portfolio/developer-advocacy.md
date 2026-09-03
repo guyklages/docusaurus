@@ -172,7 +172,7 @@ On the [Couchbase SQL++ for Query Reference](https://docs.couchbase.com/cloud/n1
 
 ### Nium API reference
 
-Nium has added more API endpoints and supported languages after I left. The following are the **[Nium API endpoints](./guides-api-reference.md#nium)** I documented with code samples in:
+Nium has added more API endpoints and supported languages after I left. **[These are the Nium API endpoints](./guides-api-reference.md#nium)** I documented with code samples in:
 
 - C
 - cURL

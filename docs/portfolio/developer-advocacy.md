@@ -162,10 +162,8 @@ On the [Couchbase SQL++ for Query Reference](https://docs.couchbase.com/cloud/n1
 
 ### API sandbox demos
 
-| Sandbox demo | Company |
-|--------------|---------|
-| [Sandbox vs Production](https://guyklages.com/atelio/getting-started/sandbox-vs-production) | Atelio of FIS |
-| [Testing services](https://docs.nium.com/docs/getting-started/testing-nium) | Nium    |
+- [Atelio (of FIS) Sandbox vs Production](https://guyklages.com/atelio/getting-started/sandbox-vs-production)
+- [Nium Testing services](https://docs.nium.com/docs/getting-started/testing-nium)
 
 ### Postman collections
 

@@ -2,13 +2,13 @@
 
 ## Talks
 
-### Nium
+#### Nium
 
 | Venue | <div style={{ width: '150px' }}>Topic</div> | <div style={{ width: '150px' }}>Audience</div> | Crowd size | Remarks |
 |-------|-------|----------|:----------:|---------|
 | Monthly [Nium events](https://www.nium.com/events) | - Fintech Meetup <br/> - Money20/20 <br/> - Money&nbsp;Street&nbsp;Fest | - Developers <br/> - PMs <br/> - payment leaders <br/> - treasury teams | 20+ | Panel discussions about trust, compliance, payments stack, other financial topics, and how Nium can help |
 
-### Couchbase
+#### Couchbase
 
 | Venue | Topic | <div style={{ width: '130px' }}>Audience</div> | Crowd size | Remarks |
 |-------|-------|----------|:----------:|---------|
@@ -17,7 +17,7 @@
 
 ## Published articles
 
-### LinkedIn (21,000+ followers)
+#### LinkedIn (21,000+ followers)
 
 | Title                                                                                         | Target audience |
 |-----------------------------------------------------------------------------------------------|-----------------|
@@ -26,7 +26,7 @@
 | [13 active ways for employers to find you](/blog/13-active-ways-for-employers-to-find-you)    | Job hunters     |
 | [The healthier doughnut](/blog/the-healthier-doughnut)                                        | Everyone        |
 
-### Fintech blog posts
+#### Fintech blog posts
 
 FIS/Atelio
 
@@ -42,7 +42,7 @@ Nium
 
 ## API
 
-### Nium -- for fintech developers
+#### Nium -- for fintech developers
 
 | Category  | APIs |
 |-----------|------|
@@ -58,14 +58,14 @@ Nium
 
 ## SDK
 
-### ROAM -- for fintech developers
+#### ROAM -- for fintech developers
 
 | Title | <div style={{ width: '120px' }}>Code samples</div> | Contents |
 |-------|--------------|----------|
 | [SDK for Android payments](./roam-android-sdk-online-payments.md | Java | Using Android Pay, collecting credit card info and payments, setting up an app, creating & using tokens, testing & deploying |
 | [SDK for iOS Apple Pay payments](./roam-ios-sdk-apple-pay-payments.md | - Swift <br/> - Objective-C | Using Apple Pay, collecting credit card info, creating tokens, sending tokens to your server |
 
-### Atelio -- for fintech developers
+#### Atelio -- for fintech developers
 
 | Title | <div style={{ width: '120px' }}>Code samples</div> | Contents |
 |-------|--------------|----------|
@@ -73,7 +73,7 @@ Nium
 
 ## KB
 
-### VMware -- for UEM developers
+#### VMware -- for UEM developers
 
 | Title | Product |
 |-------|---------|

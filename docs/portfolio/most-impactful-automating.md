@@ -3,11 +3,12 @@
 
 ### Overview
 
-| Accomplishment  | Year | Company |
-|-----------------|------|---------|
+| Automated item                                                                                                | Year | Company |
+|---------------------------------------------------------------------------------------------------------------|------|---------|
+| [Syncing of auth statuses for dozens of cloud services](#syncing-authorization-statuses)                      | 2025 | Atelio <br/> <sup> _San Francisco, CA_ </sup> |
 | [Reduced obsolete pages by 40% and added automation to prevent obsolete pages](#prevention-on-obsolete-pages) | 2019 | Yahoo <br/> <sup> _Sunnyvale, CA_ </sup> |
 | [Made a database to automate reports; saved >50% of the employees' time and effort](#db-saved-50-time-effort) | 2009 | ADP Payroll <br/> <sup> _Seattle, WA_ </sup> |
-| [Automated their label printing system; freed up 75% of staff's time](#75-increase-in-productivity) | 1999 | Bridgestone <br/> <sup> _Bloomington, IL_ </sup> |
+| [Automated their label printing system; freed up 75% of staff's time](#75-increase-in-productivity)           | 1999 | Bridgestone <br/> <sup> _Bloomington, IL_ </sup> |
 
 ## Automated
 

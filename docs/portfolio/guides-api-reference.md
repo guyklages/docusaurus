@@ -41,7 +41,16 @@ Nearly identical to [Nium's APIs](#nium).
 
 ### Nium
 
-APIs for fintech developers.
+Nium has added more API endpoints and supported languages for fintech developers after I left.
+
+The following are the Nium API endpoints I documented with code samples in:
+
+- C
+- cURL
+- HTTP
+- Java
+- JavaScript
+- Python
 
 | Category  | APIs |
 |-----------|------|

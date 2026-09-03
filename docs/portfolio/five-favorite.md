@@ -2,14 +2,14 @@
 
 ## Technical blogs
 
-| Post Title                       | Description |
+| Post title                       | Description |
 |----------------------------------|-------------|
-| [Gmail agent for job auto-replies](https://guyklages.com/blog/gmail-agent-for-job-auto-replies) | How I automated customized replies to recruiters. |
+| **[Gmail agent for job auto-replies](https://guyklages.com/blog/gmail-agent-for-job-auto-replies)** | How I automated customized replies to the dozens of recruiter emails I receive daily. |
 
 ## Developer guides
 
-| Company   | Detailed link | Brief description |
-|-----------|-----------|-------------|
+| Company   | Details | Brief description |
+|-----------|---------|-------------------|
 | Nium      | **[Streamlined onboarding](./most-impactful-tech-writing.md#70-more--70-fewer)** | Fintech customers couldn't self-onboard until I documented the process. |
 | Couchbase | **[Adaptive indexing](https://docs.couchbase.com/server/current/n1ql/n1ql-language-reference/adaptive-indexing.html)** | This database index type works on all or specified fields of a document. |
 

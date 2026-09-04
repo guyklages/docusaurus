@@ -5,7 +5,10 @@ import { DefinitionProvider, DefTerm, DefinitionPanel } from '@site/src/componen
 
 ## Live company websites
 
-I created and fully owned the following company websites. I used Git, Markdown, Oxygen, Postman, ReadMe, and VS Code to create documentation for developers, DBAs, and technical PMs. Links open into a new browser tab.
+- I created and fully owned the following company websites.
+- Tools: Git, Markdown, Oxygen, Postman, ReadMe, and VS Code.
+- Audience: Fintech developers, DBAs, and technical PMs.
+- Links open into a new browser tab.
 
 <DefinitionProvider>
 

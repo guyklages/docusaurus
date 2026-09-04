@@ -142,7 +142,7 @@ Driver of growth
 | bug tickets, forum answers              | 2017 - 2018 | [Couchbase forums](https://www.couchbase.com/forums)                |
 | bug tickets, suggestions, testing       | 1998 - 2013 | [MICA Games WordZap](https://wordzap.com/Zap8/wordzap.html)         |
 
-## DevRel/Advocacy communities
+## DevRel communities
 
 | Community                                          | Years      | Description                                                 |
 |----------------------------------------------------|------------|-------------------------------------------------------------|

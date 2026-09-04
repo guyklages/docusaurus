@@ -31,6 +31,26 @@ I created and fully owned the following company websites. I used Git, Markdown, 
 
 ---
 
+## Developer guides
+
+### Atelio
+
+Fintech developer guides I wrote:
+
+| Category          | Guides |
+|-------------------|--------|
+| Getting started   | [Client configuration](https://guyklages.com/atelio/getting-started/client-config) • [Quickstart](https://guyklages.com/atelio/getting-started/quickstart) • [Postman](https://guyklages.com/atelio/getting-started/postman-collection) • [Sandbox vs Production](https://guyklages.com/atelio/getting-started/sandbox-vs-production) • [Webhooks](https://guyklages.com/atelio/webhooks/webhook) • [Errors](https://guyklages.com/atelio/getting-started/errors) • [Glossary](https://guyklages.com/atelio/getting-started/glossary) • [FAQ](https://guyklages.com/atelio/getting-started/faq) |
+| Widgets           | [Consumer secured charge card](https://guyklages.com/atelio/widgets/consumer-secured-charge-card) • [Pay by Bank app overview](https://guyklages.com/atelio/widgets/pay-by-bank-app-overview) |
+| Customers         | [KYC] • [Start KYC process] • [KYC sandbox scenarios] • [Upload KYC documentation] • [Customer onboarding] |
+| Business          | [Manage business] • [KYB] • [Business onboarding] • [Beneficial owners] |
+| Accounts          | [Accounts overview] • [Credit accounts] • [Deposit accounts] • [External accounts with Plaid] • [External accounts SDK] • [SDK documentation] • [Account statements] |
+| Cards             | [Secured charge card] • [Consumer secured charge card] • [Commercial secured charge card] • [Multi•card] • [Manage cards] • [Card reissue FAQ] • [Atelio cards SDK] |
+| Identity          | [Identity overview] • [Identity integration] • [Identity user guide] • [Pricing and bundling] |
+| Money movement    | [Pay by Bank payments] • [Money movement] • [Transactions] • [Account transfers] |
+| Developers        | [Error handling] • [HMAC signature] • [API headers] • [Web SDK documentation] |
+
+---
+
 ## API
 
 ### Atelio

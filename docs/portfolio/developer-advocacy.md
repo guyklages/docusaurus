@@ -137,10 +137,26 @@ Driver of growth
 | Contribution                            | Years       | Company / group                                                     |
 |-----------------------------------------|-------------|---------------------------------------------------------------------|
 | bug tickets, suggestions, code, testing | 2025 - now  | [CamelMind docs platform](https://camelmind-docs.vercel.app/home)   |
-| bug tickets, suggestions                | 2025 - now  | [Word-to-Markdown](https://word2md.com/) |
+| bug tickets, suggestions                | 2025 - now  | [Word-to-Markdown](https://word2md.com/)                            |
 | bug tickets, suggestions                | 2022 - 2023 | [ReadMe docs platform](https://readme.com/help-center)              |
 | bug tickets, forum answers              | 2017 - 2018 | [Couchbase forums](https://www.couchbase.com/forums)                |
 | bug tickets, suggestions, testing       | 1998 - 2013 | [MICA Games WordZap](https://wordzap.com/Zap8/wordzap.html)         |
+
+## DevRel/Advocacy communities
+
+| Community                                          | Years      | Description                                                 |
+|----------------------------------------------------|------------|-------------------------------------------------------------|
+| [DEV Community](https://dev.to)                    | 2025 - now | Dev publish articles and discus DevRel practices            |
+| [DevRel Academy](https://devrelacademy.com/)       | 2025 - now | Learning hub with resources, podcasts, community lists      |
+| [DevRel Collective](https://devrelcollective.fun/) | 2025 - now | Slack group for DevRel people to connect and share advice   |
+| [DevRel Foundation](https://dev-rel.org/)          | 2025 - now | Open-source standards, resources, and DevRel working groups |
+| [DevRelX](https://www.devrelx.com/)                | 2025 - now | Scaling developer ecosystems and strategy                   |
+
+| Spotify                                                                                                             | Description |
+|---------------------------------------------------------------------------------------------------------------------|-------------|
+| [Developer Advocate Stories by Marketech](https://open.spotify.com/show/0TtxVBcAWVZJKA8GuDMbI0?si=fbbcc52594904b39) | (show)      |
+| [Developer Advocast](https://open.spotify.com/show/1zefaQTuBrN9f2luky3YSi?si=3237ae64502c44c2)                      | (show)      |
+| [Amir Shevat on Growing DevRel](https://open.spotify.com/episode/6tIvAoFhCjKunwYsRM2GPR?si=Lv0r5-EVTLydb0Mhc7eGXA)  | (episode) Growing at Google, Microsoft, Slack, Twitch, and Twitter |
 
 ## Marketing contributions
 

@@ -242,8 +242,9 @@ Nium has added more API endpoints and supported languages for fintech developers
 | [Write the Docs](https://www.meetup.com/write-the-docs-bay-area/events/)          | SF      | Monthly   |            |
 
 
-## Reddit communities I'm in
+## Reddit communities
 
+Reddit communities I subscribe to:
 | r/                                                           | Description                                        |
 |--------------------------------------------------------------|----------------------------------------------------|
 | [LocalLLaMA](https://www.reddit.com/r/LocalLLaMA/)           | Locally hostable AI                                |

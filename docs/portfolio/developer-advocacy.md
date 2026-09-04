@@ -154,8 +154,8 @@ Driver of growth
 
 | Spotify                                                                                                             | Description |
 |---------------------------------------------------------------------------------------------------------------------|-------------|
-| [Developer Advocate Stories by Marketech](https://open.spotify.com/show/0TtxVBcAWVZJKA8GuDMbI0?si=fbbcc52594904b39) | (show)      |
-| [Developer Advocast](https://open.spotify.com/show/1zefaQTuBrN9f2luky3YSi?si=3237ae64502c44c2)                      | (show)      |
+| [Developer Advocate Stories by Marketech](https://open.spotify.com/show/0TtxVBcAWVZJKA8GuDMbI0?si=fbbcc52594904b39) | (show) Interviews with dev advocates from top tech companies     |
+| [Developer Advocast](https://open.spotify.com/show/1zefaQTuBrN9f2luky3YSi?si=3237ae64502c44c2)                      | (show) Topics related to DevRel and community building         |
 | [Amir Shevat on Growing DevRel](https://open.spotify.com/episode/6tIvAoFhCjKunwYsRM2GPR?si=Lv0r5-EVTLydb0Mhc7eGXA)  | (episode) Growing at Google, Microsoft, Slack, Twitch, and Twitter |
 
 ## Marketing contributions

@@ -38,7 +38,7 @@ import { DefinitionProvider, DefTerm, DefinitionPanel } from '@site/src/componen
 
 ### Atelio
 
-To interact with the guides, see [my copy of the defunct Atelio website](/atelio/getting-started/).
+To interact with the guides, see [my copy of the defunct Atelio website](/atelio/getting-started/client-config).
 
 Comprehensive list of the fintech developer guides I wrote and owned:
 

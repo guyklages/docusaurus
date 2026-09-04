@@ -132,6 +132,16 @@ Driver of growth
 - Actual snippets and GitHub repos
 -->
 
+## Open-source community
+
+| Contribution                            | Years       | Company / group                                                     |
+|-----------------------------------------|-------------|---------------------------------------------------------------------|
+| bug tickets, suggestions, code, testing | 2025 - now  | [CamelMind docs platform](https://camelmind-docs.vercel.app/home)   |
+| bug tickets, suggestions                | 2025 - now  | [Word-to-Markdown](https://word2md.com/) |
+| bug tickets, suggestions                | 2022 - 2023 | [ReadMe docs platform](https://readme.com/help-center)              |
+| bug tickets, forum answers              | 2017 - 2018 | [Couchbase forums](https://www.couchbase.com/forums)                |
+| bug tickets, suggestions, testing       | 1998 - 2013 | [MICA Games WordZap](https://wordzap.com/Zap8/wordzap.html)         |
+
 ## Marketing contributions
 
 At Couchbase, Nium, and FIS/Atelio, I've helped the marketing department in the following ways:

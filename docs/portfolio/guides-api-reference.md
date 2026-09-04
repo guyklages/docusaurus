@@ -38,16 +38,18 @@ import { DefinitionProvider, DefTerm, DefinitionPanel } from '@site/src/componen
 
 ### Atelio
 
-Fintech developer guides I wrote:
+To interact with the guides, see [my copy of the defunct Atelio website](../atelio/getting-started/).
+
+Comprehensive list of the fintech developer guides I wrote and owned:
 
 | Category          | Guides |
 |-------------------|--------|
 | Getting started   | [Client configuration](https://guyklages.com/atelio/getting-started/client-config) • [Quickstart](https://guyklages.com/atelio/getting-started/quickstart) • [Postman](https://guyklages.com/atelio/getting-started/postman-collection) • [Sandbox vs Production](https://guyklages.com/atelio/getting-started/sandbox-vs-production) • [Webhooks](https://guyklages.com/atelio/webhooks/webhook) • [Errors](https://guyklages.com/atelio/getting-started/errors) • [Glossary](https://guyklages.com/atelio/getting-started/glossary) • [FAQ](https://guyklages.com/atelio/getting-started/faq) |
 | Widgets           | [Consumer secured charge card](https://guyklages.com/atelio/widgets/consumer-secured-charge-card) • [Pay by Bank app overview](https://guyklages.com/atelio/widgets/pay-by-bank-app-overview) |
-| Customers         | [KYC] • [Start KYC process] • [KYC sandbox scenarios] • [Upload KYC documentation] • [Customer onboarding] |
-| Business          | [Manage business] • [KYB] • [Business onboarding] • [Beneficial owners] |
-| Accounts          | [Accounts overview] • [Credit accounts] • [Deposit accounts] • [External accounts with Plaid] • [External accounts SDK] • [SDK documentation] • [Account statements] |
-| Cards             | [Secured charge card] • [Consumer secured charge card] • [Commercial secured charge card] • [Multi•card] • [Manage cards] • [Card reissue FAQ] • [Atelio cards SDK] |
+| Customers         | [KYC](https://guyklages.com/atelio/customer/kyc) • [Start KYC process](https://guyklages.com/atelio/customer/start-kyc-process) • [KYC sandbox scenarios](https://guyklages.com/atelio/customer/kyc-sandbox-scenarios) • [Upload KYC documentation](https://guyklages.com/atelio/customer/upload-kyc-documentation) • [Customer onboarding](https://guyklages.com/atelio/customer/customer-onboarding) |
+| Business          | [Manage business](https://guyklages.com/atelio/business/manage-business) • [KYB](https://guyklages.com/atelio/business/ef-kyb) • [Business onboarding](https://guyklages.com/atelio/business/business-onboarding) • [Beneficial owners](https://guyklages.com/atelio/business/beneficial-owners) |
+| Accounts          | [Accounts overview](https://guyklages.com/atelio/accounts/account-overview) • [Credit accounts](https://guyklages.com/atelio/accounts/credit-accounts) • [Deposit accounts](https://guyklages.com/atelio/accounts/deposit-accounts) • [External accounts with Plaid](https://guyklages.com/atelio/accounts/link-an-external-account) • [External accounts SDK](https://guyklages.com/atelio/accounts/external-accounts-sdk) • [SDK documentation](https://guyklages.com/atelio/accounts/sdk-documentation) • [Account statements](https://guyklages.com/atelio/accounts/account-statements) |
+| Cards             | [Secured charge card](https://guyklages.com/atelio/cards/secured-charge-card-overview) • [Consumer secured charge card](https://guyklages.com/atelio/cards/consumer-secured-charge-card) • [Commercial secured charge card](https://guyklages.com/atelio/cards/commercial-secured-charge-card) • [Multi•card](https://guyklages.com/atelio/cards/multi-card) • [Manage cards](https://guyklages.com/atelio/cards/manage-cards) • [Card reissue FAQ](https://guyklages.com/atelio/cards/card-reissue-faq) • [Atelio cards SDK](https://guyklages.com/atelio/cards/ateliocards-sdk) |
 | Identity          | [Identity overview] • [Identity integration] • [Identity user guide] • [Pricing and bundling] |
 | Money movement    | [Pay by Bank payments] • [Money movement] • [Transactions] • [Account transfers] |
 | Developers        | [Error handling] • [HMAC signature] • [API headers] • [Web SDK documentation] |

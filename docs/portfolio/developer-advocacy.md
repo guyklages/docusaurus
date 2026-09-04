@@ -60,6 +60,9 @@ Nium
 
 | Title | <div style={{ width: '120px' }}>Code samples</div> | Contents |
 |-------|--------------|----------|
+| **[External accounts SDK](../atelio/accounts/external-accounts-sdk.md)** | - cURL <br/> - HTML <br/> - JavaScript | Getting, using, response fields |
+| **[SDK documentation](../atelio/accounts/sdk-documentation.md)** |  | Classes |
+| **[Atelio cards SDK](../atelio/cards/ateliocards-sdk.md)** | - cURL <br/> - C# <br/> - Java <br/> - JavaScript <br/> - Python <br/> - Ruby | Requirements, importing, displaying, setting card PIN |
 | **[SDK for web documentation](https://guyklages.com/atelio/developers/web-sdk-documentation)** |  | Requirements, importing, displaying, setting card PIN |
 
 ## KB

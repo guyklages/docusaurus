@@ -147,6 +147,8 @@ Driver of growth
 
 ## DevRel communities
 
+Websites that I read:
+
 | Community                                          | Years      | Description                                                 |
 |----------------------------------------------------|------------|-------------------------------------------------------------|
 | [DEV Community](https://dev.to)                    | 2025 - now | Dev publish articles and discus DevRel practices            |
@@ -154,6 +156,8 @@ Driver of growth
 | [DevRel Collective](https://devrelcollective.fun/) | 2025 - now | Slack group for DevRel people to connect and share advice   |
 | [DevRel Foundation](https://dev-rel.org/)          | 2025 - now | Open-source standards, resources, and DevRel working groups |
 | [DevRelX](https://www.devrelx.com/)                | 2025 - now | Scaling developer ecosystems and strategy                   |
+
+Shows that I listen to:
 
 | Spotify                                                                                                             | Description |
 |---------------------------------------------------------------------------------------------------------------------|-------------|

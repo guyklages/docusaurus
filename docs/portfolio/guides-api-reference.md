@@ -42,17 +42,37 @@ To interact with the guides, see [my copy of the defunct Atelio website](/atelio
 
 Comprehensive list of the fintech developer guides I wrote and owned:
 
-| Category          | Guides |
-|-------------------|--------|
-| Getting started   | [Client configuration](/atelio/getting-started/client-config) • [Quickstart](/atelio/getting-started/quickstart) • [Postman](/atelio/getting-started/postman-collection) • [Sandbox vs Production](/atelio/getting-started/sandbox-vs-production) • [Webhooks](https://guyklages.com/atelio/webhooks/webhook) • [Errors](/atelio/getting-started/errors) • [Glossary](/atelio/getting-started/glossary) • [FAQ](/atelio/getting-started/faq) |
+| Category          | Developer guides |
+|-------------------|------------------|
+| Getting started   | [Client configuration](/atelio/getting-started/client-config) • [Quickstart](/atelio/getting-started/quickstart) • [Postman](/atelio/getting-started/postman-collection) • [Sandbox](/atelio/getting-started/sandbox-vs-production) • [Webhooks](https://guyklages.com/atelio/webhooks/webhook) • [Errors](/atelio/getting-started/errors) • [Glossary](/atelio/getting-started/glossary) • [FAQ](/atelio/getting-started/faq) |
 | Widgets           | [Consumer secured charge card](/atelio/widgets/consumer-secured-charge-card) • [Pay by Bank app overview](/atelio/widgets/pay-by-bank-app-overview) |
-| Customers         | [KYC](/atelio/customer/kyc) • [Start KYC process](/atelio/customer/start-kyc-process) • [KYC sandbox scenarios](/atelio/customer/kyc-sandbox-scenarios) • [Upload KYC documentation](/atelio/customer/upload-kyc-documentation) • [Customer onboarding](/atelio/customer/customer-onboarding) |
+| Customers         | [KYC](/atelio/customer/kyc) • [Start KYC process](/atelio/customer/start-kyc-process) • [KYC sandbox scenarios](/atelio/customer/kyc-sandbox-scenarios) • [Upload KYC docs](/atelio/customer/upload-kyc-documentation) • [Customer onboarding](/atelio/customer/customer-onboarding) |
 | Business          | [Manage business](/atelio/business/manage-business) • [KYB](/atelio/business/ef-kyb) • [Business onboarding](/atelio/business/business-onboarding) • [Beneficial owners](/atelio/business/beneficial-owners) |
 | Accounts          | [Accounts overview](/atelio/accounts/account-overview) • [Credit accounts](/atelio/accounts/credit-accounts) • [Deposit accounts](/atelio/accounts/deposit-accounts) • [External accounts with Plaid](/atelio/accounts/link-an-external-account) • [External accounts SDK](/atelio/accounts/external-accounts-sdk) • [SDK documentation](/atelio/accounts/sdk-documentation) • [Account statements](/atelio/accounts/account-statements) |
 | Cards             | [Secured charge card](/atelio/cards/secured-charge-card-overview) • [Consumer secured charge card](/atelio/cards/consumer-secured-charge-card) • [Commercial secured charge card](/atelio/cards/commercial-secured-charge-card) • [Multi-card](/atelio/cards/multi-card) • [Manage cards](/atelio/cards/manage-cards) • [Card reissue FAQ](/atelio/cards/card-reissue-faq) • [Atelio cards SDK](/atelio/cards/ateliocards-sdk) |
 | Identity          | [Identity overview](/atelio/identity/identity-overview) • [Identity integration guide](/atelio/identity/identity-integration-guide) • [Identity user guide](/atelio/identity/identity-user-guide) • [Pricing and bundling](/atelio/identity/pricing-and-bundling) |
 | Money movement    | [Pay by Bank payments](/atelio/money-movement/pay-by-bank-payments) • [Money movement](/atelio/money-movement) • [Transactions](/atelio/money-movement/transactions-overview) • [Account transfers](/atelio/money-movement/account-transfers) |
 | Developers        | [Error handling](/atelio/developers/error-handling) • [HMAC signature](/atelio/developers/hmac-signature) • [API headers](/atelio/developers/api-headers) • [Web SDK documentation](/atelio/developers/web-sdk-documentation) |
+
+### Nium
+
+To interact with the guides, see [Nium's live website](https://docs.nium.com).
+
+Comprehensive list of the fintech developer guides I wrote and owned:
+
+| Category          | Developer guides |
+|-------------------|------------------|
+| Getting Started   | [Key Concepts](https://docs.nium.com/docs/getting-started/key-concepts) • [Postman Collection](https://docs.nium.com/docs/getting-started/postman-collection) • [Parent-Child Hierarchy](https://docs.nium.com/docs/getting-started/parent-child-hierarchy) • [Glossary](https://docs.nium.com/docs/getting-started/glossary) • [Currency and Country Codes](https://docs.nium.com/docs/getting-started/currency-and-country-codes) • [Testing Nium](https://docs.nium.com/docs/getting-started/testing-nium) • [Error Responses](https://docs.nium.com/docs/getting-started/error-responses) |
+| Onboarding        | [Customer Onboarding](https://docs.nium.com/docs/onboarding/customer-onboarding) • [User Management](https://docs.nium.com/docs/onboarding/user-management) • [Corporate Customers](https://docs.nium.com/docs/onboarding/corporate-customers) • [Individual Customers](https://docs.nium.com/docs/onboarding/individual-customers) |
+| Wallets           | [Wallet to Wallet Transfers](https://docs.nium.com/docs/wallets/wallet-to-wallet-transfers) |
+| Payins            | [Fund a Wallet](https://docs.nium.com/docs/payins/fund-wallet) • [Virtual Accounts](https://docs.nium.com/docs/payins/virtual-account-number) • [Prefund Account](https://docs.nium.com/docs/payins/program-client-and-client-prefund-account) |
+| Payouts           | [Transfer Money](https://docs.nium.com/docs/payouts/transfer-money) • [Beneficiaries](https://docs.nium.com/docs/payouts/beneficiaries) • [Card Widget](https://docs.nium.com/docs/payouts/get-a-card-widget) • [Batch Payouts](https://docs.nium.com/docs/payouts/bulk-payouts) |
+| Cards             | [Card Lifecycle](https://docs.nium.com/docs/cards/card-lifecycle) • [Manage Cards](https://docs.nium.com/docs/cards/manage-cards) • [Card Transactions](https://docs.nium.com/docs/cards/card-transactions) • [Card Widget](https://docs.nium.com/docs/cards/card-widget) |
+| Transactions      | [Transaction Statuses](https://docs.nium.com/docs/transactions/transaction-statuses) • [Transaction Response Labels](https://docs.nium.com/docs/transactions/response-labels) • [Requests for Information](https://docs.nium.com/docs/transactions/transaction-rfis) |
+| Reports           | [Daily Reports](https://docs.nium.com/docs/reports/daily-reports) • [Client Reports](https://docs.nium.com/docs/reports/client-reports) • [Customer Account Statements](https://docs.nium.com/docs/reports/customer-account-statements) |
+| Use Cases         | [Financial Institutions](https://docs.nium.com/docs/use-cases/financial-institutions) • [Payroll](https://docs.nium.com/docs/use-cases/payroll) • [Spend Management](https://docs.nium.com/docs/use-cases/spend-management) |
+| Developers        | [Hosted Components](https://docs.nium.com/docs/developers/pre-built-forms) • [Notifications and Webhooks](https://docs.nium.com/docs/developers/notifications-and-webhooks) • [FAQs](https://docs.nium.com/docs/developers/faqs) |
+
 
 ### Couchbase
 

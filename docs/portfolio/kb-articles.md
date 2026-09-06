@@ -13,7 +13,7 @@ tags: [vm]
 | [Log collection usage](#log-collection-usage) <br/> [Writables not created](#writables-not-created) | AppVolumes |
 | [AppStacks turned off after rescan](#rescan-turned-off-appstacks) <br/> [AppStacks not excluded from Writables](#appstacks-still-in-writables) | AppStacks |
 
-##  &nbsp; 
+---
 
 ## Replace a UEM license file
 
@@ -39,7 +39,7 @@ The process of changing the license file is straightforward and you have two opt
 
 UEM 9.0 made a change to the license file check; on computers that have Horizon Agent, you don't need a UEM license file. In this case, the MSI installer will not ask you for a license file.
 
-##  &nbsp; 
+---
 
 ## `Run Once` unwanted behavior
 
@@ -61,10 +61,10 @@ This is how the behavior works technically:
 How to enable:
 
 - Manually edit the UEM configuration file (that is, the `Notepad.XML` file for the shortcut to Notepad)
-- Add the XML-attribuut: `runOnceSpecial="1"`
-- The result looks something like this: `... runOnce="1 "runOnceSpecial="1" ...`
+- Add the XML-attribute: `runOnceSpecial="1"`
+- The result looks something like this: `... runOnce="1" runOnceSpecial="1" ...`
 
-##  &nbsp; 
+---
 
 ## Allowlist blocked applications
 
@@ -90,7 +90,7 @@ Create a `reg_sz` value with a random name, for instance `1` and make the value 
 "2"="winword.exe" <br/>
 "3"="outlook.exe"
 
-##  &nbsp; 
+---
 
 ## ThinPrint conflicts
 
@@ -116,11 +116,11 @@ You have three options:
 
 | Option | Description |
 |:------:|-------------|
-| A      | Disable the default ThinPrint printer redirection completely in View Clients, detailed at https://kb.vmware.com/kb/2012770 |
-| B      | Disable only the default ThinPrint printer on a VMware View Client, detailed at https://kb.vmware.com/kb/2003626 |
+| A      | Disable the default ThinPrint printer redirection completely in View Clients |
+| B      | Disable only the default ThinPrint printer on a VMware View Client |
 | C      | Use the View ADM template to disable printer redirection. <br/> Use the View Client ADM template (`vdm_client.adm`) by adding the template to an existing or new GPO. <br/> Under **user configuration > administrative templates > VMware View Client Configuration/RDP settings**, select **Disable redirect printers**. |
 
-##  &nbsp; 
+---
 
 ## Log collection usage
 
@@ -211,13 +211,13 @@ Example of running the script:
 support.bat -destination C:\Logs -fhhost \\10.33.99.231\uem\logs -fhdomain <domain> -fhuname <username> -fhpwd <password>
 ```
 
-##  &nbsp; 
+---
 
 ## Writables not created
 
-Part of the writables are not created upon login in a multi-vCenter environment 
-
 #### Symptoms
+
+Part of the writables are not created upon login in a multi-vCenter environment.
 
 AppVolumes 2.11 and above is configured to work with more than one vCenter.
 
@@ -264,7 +264,7 @@ You need to follow these steps to import the group writable entry from the other
 
 **Note**:  Each writable must have as many records as the number of vCenters
 
-##  &nbsp; 
+---
 
 ## Rescan turned off AppStacks
 
@@ -287,7 +287,7 @@ To resolve this issue, change the configuration of the second AppVolumes deploym
 
 To prevent this issue from recurring, move the AppStacks on the production datastore to a different path on the datastore, import them, and recreate the assignments.
 
-##  &nbsp; 
+---
 
 ## AppStacks still in Writables
 

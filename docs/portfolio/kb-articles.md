@@ -1,5 +1,5 @@
 ---
-title: VMware Knowledge Base articles
+title: Knowledge Base articles
 authors: [guyklages]
 tags: [vm]
 ---

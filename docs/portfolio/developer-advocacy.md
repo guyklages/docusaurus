@@ -54,7 +54,7 @@ See the **[table of links to the SDKs I've written for developers](./sdk-for-dev
 
 ## KB
 
-See the **[table of VMware Knowledge Base articles for UEM developers](./kb-vmware.md)**.
+See the **[table of Knowledge Base articles for developers](./kb-articles.md)**.
 
 
 ## Dev problems I've solved

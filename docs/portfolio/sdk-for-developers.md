@@ -393,7 +393,7 @@ If you have not set up CocoaPods before, we recommend following the installation
 
 ##### Using Carthage
 
-To use [Carthage](https://github.com/Carthage/Carthage), simply add github `stripe/stripe-ios` to your Cartfile and follow the [Carthage Installation instructions](https://github.com/Carthage/Carthage).
+To use [Carthage](https://github.com/Carthage/Carthage), simply add `github "stripe/stripe-ios"` to your Cartfile and follow the [Carthage Installation instructions](https://github.com/Carthage/Carthage).
 
 ##### Using manual installation
 

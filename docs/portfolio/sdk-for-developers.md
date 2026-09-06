@@ -415,36 +415,7 @@ First, configure Stripe with your published API key. We recommend doing this in 
 
 | Swift | Objective-C |
 |-------|-------------|
-| ```swift
-// AppDelegate.swift
-
-import Stripe
-
-@UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
-    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: \[NSObject: AnyObject\]?)
--> Bool {
-        Stripe.setDefaultPublishableKey("pk_test_6pRNASCoBOKtIshFeQd4XMUh")
-        return true
-    }
-}
-``` | ```objectivec
-// AppDelegate.m
-
-## import "AppDelegate.h"
-## import <Stripe/Stripe.h>
-
-@implementation AppDelegate
-
-- (BOOL)application:(UIApplication \*)application
-didFinishLaunchingWithOptions:(NSDictionary \*)launchOptions
-{
-    [Stripe setDefaultPublishableKey:@"pk_test_6pRNASCoBOKtIshFeQd4XMUh"\];
-    return YES;
-}
-
-@end
-``` |
+| <pre> // AppDelegate.swift <br/><br/> import Stripe <br/><br/> @UIApplicationMain <br/> class AppDelegate: UIResponder, UIApplicationDelegate { <br/>     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: \[NSObject: AnyObject\]?) <br/> -> Bool { <br/>         Stripe.setDefaultPublishableKey("pk_test_6pRNASCoBOKtIshFeQd4XMUh") <br/>         return true <br/>     } <br/> } <br/> </pre> | <pre> // AppDelegate.m <br/> <br/> ## import "AppDelegate.h" <br/> ## import <Stripe/Stripe.h> <br/> <br/> @implementation AppDelegate <br/> <br/> - (BOOL)application:(UIApplication \*)application <br/> didFinishLaunchingWithOptions:(NSDictionary \*)launchOptions <br/> { <br/>     [Stripe setDefaultPublishableKey:@"pk_test_6pRNASCoBOKtIshFeQd4XMUh"\]; <br/>     return YES; <br/> } <br/> <br/> @end <br/> </pre> |
 
 **Note**: We have placed your test publishable API key as the StripePublishableKey constant in the above snippet. You will need to swap it out with your live publishable key in production. You can see all your API keys in your dashboard.
 

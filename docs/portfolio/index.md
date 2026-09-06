@@ -16,7 +16,7 @@ import { DefinitionProvider, DefTerm, DefinitionPanel } from '@site/src/componen
 <tr><td></td><td></td><td></td></tr><tr>
 <td style={{backgroundColor: 'var(--portfolio-box-purple)', borderRadius: '16px'}}><span style={{fontSize: '2rem', fontWeight: 700}}>DevRel</span></td>
 <td></td>
-<td style={{backgroundColor: 'var(--portfolio-box-purple)', borderRadius: '16px'}}><span style={{fontSize: '1.4rem'}}>- [DevRel page (Talks, Blogs/Articles, Code, Meetups, etc.)](developer-advocacy.md) <br/> - [Android SDK](./roam-android-sdk-online-payments.md) • [iOS SDK](./roam-ios-sdk-apple-pay-payments.md) </span></td>
+<td style={{backgroundColor: 'var(--portfolio-box-purple)', borderRadius: '16px'}}><span style={{fontSize: '1.4rem'}}>- [DevRel page (Talks, Blogs/Articles, Code, Meetups, etc.)](developer-advocacy.md) <br/> - [SDK for developers](./sdk-for-developers.md) </span></td>
 </tr>
 <tr><td></td><td></td><td></td></tr>
 <tr>

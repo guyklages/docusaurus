@@ -49,21 +49,8 @@ Nium
 
 ## SDK
 
-#### ROAM -- for fintech developers
+**[SDKs for developers](./sdk-for-developers.md)**
 
-| Title | <div style={{ width: '120px' }}>Code samples</div> | Contents |
-|-------|--------------|----------|
-| **[SDK for Android payments](./roam-android-sdk-online-payments.md)** | Java | Using Android Pay, collecting credit card info and payments, setting up an app, creating & using tokens, testing & deploying |
-| **[SDK for iOS Apple Pay payments](./roam-ios-sdk-apple-pay-payments.md)** | - Swift <br/> - Objective-C | Using Apple Pay, collecting credit card info, creating tokens, sending tokens to your server |
-
-#### Atelio -- for fintech developers
-
-| Title | <div style={{ width: '120px' }}>Code samples</div> | Contents |
-|-------|--------------|----------|
-| **[External accounts SDK](../atelio/accounts/external-accounts-sdk.md)** | - cURL <br/> - HTML <br/> - JavaScript | Getting, using, response fields |
-| **[SDK documentation](../atelio/accounts/sdk-documentation.md)** |  | Classes |
-| **[Atelio cards SDK](../atelio/cards/ateliocards-sdk.md)** | - cURL <br/> - C# <br/> - Java <br/> - JavaScript <br/> - Python <br/> - Ruby | Requirements, importing, displaying, setting card PIN |
-| **[SDK for web documentation](https://guyklages.com/atelio/developers/web-sdk-documentation)** |  | Requirements, importing, displaying, setting card PIN |
 
 ## KB
 

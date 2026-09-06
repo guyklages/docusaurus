@@ -19,41 +19,41 @@
 
 #### Color-coded system table
 
-| Before (Jan 2018) | After (Feb 2018) |
-|-------------------|------------------|
+| Before  | After  |
+|---------|--------|
 | Their website contained a description of the system tables in a way that wasn't easy to read nor scan. | I converted their original layout to a color-coded table while keeping the same text. |
-| ![Before](../../static/img/Couchbase_system-table_BEFORE.png) | ![After](../../static/img/Couchbase_system-table_AFTER.png) |
+| ![](../../static/img/Couchbase_system-table_BEFORE.png) | ![](../../static/img/Couchbase_system-table_AFTER.png) |
 
 #### Interview challenge
 
-| Before (Apr 2017) | After (Apr 2017) |
-|-------------------|------------------|
+| Before  | After  |
+|---------|--------|
 | During my Couchbase interview, the manager gave me 30 minutes to improve their website's page to be more readable and easier to understand. | I quickly made a graph and tables to show the concepts more clearly than the original wall of text. |
-| ![Before](../../static/img/Couchbase_submillisecond-latencies_BEFORE.png) | ![After](../../static/img/Couchbase_submillisecond-latencies_AFTER.png) |
+| ![](../../static/img/Couchbase_submillisecond-latencies_BEFORE.png) | ![](../../static/img/Couchbase_submillisecond-latencies_AFTER.png) |
 
 
 ### TEDx Adventures
 
 #### Background
 
-| Before (Apr 2012) | After (May 2012) |
-|-------------------|------------------|
+| Before  | After  |
+|---------|--------|
 | TEDxBeaconStreet wanted their Adventures guidebook to have a newer and refreshed look while improving their wording. | I summarized the text by year to show the progression. |
-| ![Before](../../static/img/TEDx_adventures-handbook-background_BEFORE.png) | ![After](../../static/img/TEDx_adventures-handbook-background_AFTER.png) |
+| ![](../../static/img/TEDx_adventures-handbook-background_BEFORE.png) | ![](../../static/img/TEDx_adventures-handbook-background_AFTER.png) |
 
 #### Rules
 
-| Before (Apr 2012) | After (May 2012) |
-|-------------------|------------------|
+| Before  | After  |
+|---------|--------|
 | TEDxBeaconStreet wanted their Adventures guidebook to have a newer and refreshed look while improving their wording. | I replaced the religious-sounding words with neutral "Rules", dropped the numbers, and reduced each rule to a two-word title with supporting text. |
-| ![Before](../../static/img/TEDx_adventures-handbook-rules_BEFORE.png) | ![After](../../static/img/TEDx_adventures-handbook-rules_AFTER.png) |
+| ![](../../static/img/TEDx_adventures-handbook-rules_BEFORE.png) | ![](../../static/img/TEDx_adventures-handbook-rules_AFTER.png) |
 
 #### Lifecycle
 
-| Before (Apr 2012) | After (May 2012) |
-|-------------------|------------------|
-| Some TEDxBeaconStreet pages were simply notes of ideas that they wanted conveyed. | I took those notes and wrote about them in the same style as the other Adventure guidebook pages. | 
-| ![Before](../../static/img/TEDx_adventures-handbook-lifecycle_BEFORE.png) | ![After](../../static/img/TEDx_adventures-handbook-lifecycle_AFTER.png) |
+| Before  | After  |
+|---------|--------|
+| Some TEDxBeaconStreet pages were simply notes of ideas that they wanted conveyed. | I took those notes and wrote about them in the same style as the other Adventure guidebook pages. |
+| ![](../../static/img/TEDx_adventures-handbook-lifecycle_BEFORE.png) | ![](../../static/img/TEDx_adventures-handbook-lifecycle_AFTER.png) |
 
 ## Diagrams and illustrations
 

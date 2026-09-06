@@ -393,9 +393,7 @@ If you have not set up CocoaPods before, we recommend following the installation
 
 ##### Using Carthage
 
-To use [Carthage](https://github.com/Carthage/Carthage), simply add github "stripe/stripe-ios" to your Cartfile and follow the
-
-[Carthage Installation instructions](https://github.com/Carthage/Carthage).
+To use [Carthage](https://github.com/Carthage/Carthage), simply add github `stripe/stripe-ios` to your Cartfile and follow the [Carthage Installation instructions](https://github.com/Carthage/Carthage).
 
 ##### Using manual installation
 
@@ -415,7 +413,9 @@ First, configure Stripe with your published API key. We recommend doing this in 
 
 **Example in Swift**
 
-```swift
+| Swift | Objective-C |
+|-------|-------------|
+| ```swift
 // AppDelegate.swift
 
 import Stripe
@@ -428,8 +428,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
 }
-```
-```objectivec
+``` | ```objectivec
 // AppDelegate.m
 
 ## import "AppDelegate.h"
@@ -445,7 +444,7 @@ didFinishLaunchingWithOptions:(NSDictionary \*)launchOptions
 }
 
 @end
-```
+``` |
 
 **Note**: We have placed your test publishable API key as the StripePublishableKey constant in the above snippet. You will need to swap it out with your live publishable key in production. You can see all your API keys in your dashboard.
 

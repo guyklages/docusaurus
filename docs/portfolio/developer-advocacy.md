@@ -49,12 +49,12 @@ Nium
 
 ## SDK
 
-See the **[table of SDKs I've written for developers](./sdk-for-developers.md)**.
+See the **[table of SDKs](./sdk-for-developers.md)** I've written for developers.
 
 
 ## KB
 
-See the **[table of Knowledge Base articles I've written for developers](./kb-articles.md)**.
+See the **[table of Knowledge Base articles](./kb-articles.md)** I've written for developers.
 
 
 ## Dev problems I've solved

@@ -12,7 +12,7 @@ I wrote the following SDKs for fintech developers:
 ## Android SDK for payments
 
 _(This page describes the Stripe-based integration we built at ROAM Data)_
-)
+
 This documentation provides knowledge in developing Stripe mobile payment inside any Android app. If you need help or have any questions after reading this documentation, we recommend you to check out our answers for common questions or contact other developers in #stripe on freenode.
 
 Stripe has created a Java library for Android, allowing you to easily submit payments from an Android app. Our library eliminates the need to send card data directly to your server. Instead, it sends the card data directly to our servers, where we can convert them to tokens.

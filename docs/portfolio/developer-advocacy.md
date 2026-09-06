@@ -42,10 +42,10 @@ Nium
 
 ## API
 
-| Company                                    | API categories                                                              |
-|--------------------------------------------|-----------------------------------------------------------------------------|
-| Atelio                                     | _(Discontinued product)_ Nearly identical to Nium                           |
-| **[Nium](./guides-api-reference.md#nium)** | Cards, Clients, Customers, Payins, Payouts, Reports, RFIs, Testing, Wallets |
+| Company                                         | API categories                                                              |
+|-------------------------------------------------|-----------------------------------------------------------------------------|
+| Atelio APIs                                     | _(Discontinued product)_ Nearly identical to Nium                           |
+| **[Nium APIs](./guides-api-reference.md#nium)** | Cards, Clients, Customers, Payins, Payouts, Reports, RFIs, Testing, Wallets |
 
 ## SDK
 
@@ -54,9 +54,7 @@ See the **[table of links to the SDKs I've written for developers](./sdk-for-dev
 
 ## KB
 
-| Company and audience                            | Products                             |
-|-------------------------------------------------|--------------------------------------|
-| **[VMware for UEM developers](./kb-vmware.md)** | AppStack, AppVolumes, ThinPrint, UEM |
+See the **[table of VMware Knowledge Base articles for UEM developers](./kb-vmware.md)**.
 
 
 ## Dev problems I've solved

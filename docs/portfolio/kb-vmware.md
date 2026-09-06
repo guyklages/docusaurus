@@ -4,16 +4,14 @@ authors: [guyklages]
 tags: [vm]
 ---
 
-## VMware KB articles
+## Overview
 
-- [Replace a UEM license file](#replace-a-uem-license-file)
-- [`Run Once` unwanted behavior](#run-once-unwanted-behavior)
-- [How to allowlist blocked applications](#allowlist-blocked-applications)
-- [Printers with ThinPrint conflicts](#thinprint-conflicts)
-- [Log collection usage](#log-collection-usage)
-- [Writables not created](#writables-not-created)
-- [AppStacks turned off after rescan](#rescan-turned-off-appstacks)
-- [AppStacks not excluded from Writables](#appstacks-still-in-writables)
+| VMware KB articles                                                        | Product |
+|---------------------------------------------------------------------------|---------|
+| [Replace a UEM license file](#replace-a-uem-license-file) <br/> [`Run Once` unwanted behavior](#run-once-unwanted-behavior) <br/> [How to allowlist blocked applications](#allowlist-blocked-applications) | UEM     |
+| [Printers with ThinPrint conflicts](#thinprint-conflicts) | ThinPrint |
+| [Log collection usage](#log-collection-usage) <br/> [Writables not created](#writables-not-created) | AppVolumes |
+| [AppStacks turned off after rescan](#rescan-turned-off-appstacks) <br/> [AppStacks not excluded from Writables](#appstacks-still-in-writables) | AppStacks |
 
 ##  &nbsp; 
 

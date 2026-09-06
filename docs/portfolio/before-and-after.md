@@ -7,7 +7,7 @@ For a list of items that had a measurable impact, see the **[most impactful UX/U
 
 
 
-## Couchbase 
+## Couchbase
 
 ### Reserved words table
 

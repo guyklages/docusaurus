@@ -31,8 +31,8 @@ const sidebars = {
           },
           {
               type: 'doc',
-              id: 'portfolio/kb-vmware',
-              label: 'KB for developers',
+              id: 'portfolio/kb-articles',
+              label: 'KB articles',
               className: 'portfolio-sidebar-item',
           },
         ]

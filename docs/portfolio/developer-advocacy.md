@@ -49,7 +49,7 @@ Nium
 
 ## SDK
 
-See the **[table of links that summarize the SDKs I've written for developers](./sdk-for-developers.md)**.
+See the **[table of links to the SDKs I've written for developers](./sdk-for-developers.md)**.
 
 
 ## KB

@@ -11,7 +11,7 @@ I wrote the following SDKs for fintech developers:
 
 ## Android SDK for payments
 
-_(This page describes the Stripe-based integration we built at ROAM Data)_
+_(This guide describes the Stripe-based integration we built at ROAM Data)_
 
 This documentation provides knowledge in developing Stripe mobile payment inside any Android app. If you need help or have any questions after reading this documentation, we recommend you to check out our answers for common questions or contact other developers in #stripe on freenode.
 
@@ -365,7 +365,7 @@ To do so, you need to set up an endpoint on your server that can receive an HTTP
 
 ## iOS SDK for Apple Pay
 
-_(This page describes the Stripe-based integration we built at ROAM Data)_
+_(This guide describes the Stripe-based integration we built at ROAM Data)_
 
 ### Introduction
 

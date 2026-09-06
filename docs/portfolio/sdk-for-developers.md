@@ -6,8 +6,8 @@ I wrote the following SDKs for fintech developers:
 
 | Title | <div style={{ width: '120px' }}>Code samples</div> | Company |
 |-------|----------------------------------------------------|---------|
-| **[External accounts SDK](../atelio/accounts/external-accounts-sdk.md)** <br/> **[SDK classes](../atelio/accounts/sdk-documentation.md)** <br/> **[Atelio cards SDK](../atelio/cards/ateliocards-sdk.md)** <br/> **[SDK for web documentation](https://guyklages.com/atelio/developers/web-sdk-documentation)** | cURL, HTML, JavaScript <br/> <br/> cURL, C#, Java, JavaScript, Python, Ruby <br/> <br/>| Atelio / FIS <br/> <sup> San Francisco, CA </sup> |
-| **[Android SDK for payments](#android-sdk-for-payments)** <br/> **[iOS SDK for Apple Pay payments](#ios-sdk-for-apple-pay)**   | Java <br/> Objective-C, Swift | ROAM Data <br/> <sup> Boston, MA </sup> |
+| **[External accounts SDK](../atelio/accounts/external-accounts-sdk.md)** <br/> **[SDK classes](../atelio/accounts/sdk-documentation.md)** <br/> **[Atelio cards SDK](../atelio/cards/ateliocards-sdk.md)** <br/> **[SDK for web documentation](https://guyklages.com/atelio/developers/web-sdk-documentation)** | cURL, HTML, JavaScript <br/> <br/> cURL, C#, Java, JavaScript, Python, Ruby <br/> <br/>| Atelio / FIS <br/> <sup> _San Francisco, CA_ </sup> |
+| **[Android SDK for payments](#android-sdk-for-payments)** <br/> **[iOS SDK for Apple Pay payments](#ios-sdk-for-apple-pay)**   | Java <br/> Objective-C, Swift | ROAM Data <br/> <sup> _Boston, MA_ </sup> |
 
 ## Android SDK for payments
 

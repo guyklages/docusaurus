@@ -32,7 +32,7 @@ const sidebars = {
           {
               type: 'doc',
               id: 'portfolio/kb-vmware',
-              label: 'KB for VMware',
+              label: 'KB for developers',
               className: 'portfolio-sidebar-item',
           },
         ]

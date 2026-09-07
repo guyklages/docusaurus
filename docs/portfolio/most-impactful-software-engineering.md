@@ -5,12 +5,12 @@
 
 | Accomplishment  | Company |
 |-----------------|---------|
-| [Made a database to automate reports that saved > 50% of the employees' time](#db-saved-50-time-effort) | ADP Payroll <br/> <sup> _Seattle, WA_ </sup> |
-| [Redesigned their Helpdesk system that reduced their call queue by 92%](#92-drop-in-helpdesk-queue) | Microsoft <br/> <sup> _Shanghai, China_ </sup> |
-| [Redesigned their database tables; website ran about 12x faster](#12x-faster-warranty-website) | Hewlett-Packard <br/> <sup> _Mt. View, CA_ </sup> |
-| [Automated their label printing system; freed up 75% of staff's time](#75-increase-in-productivity) | Bridgestone <br/> <sup> _Bloomington, IL_ </sup> |
-| [Created a product ordering system that resulted in 0 wrong orders & 25% time saved](#0-wrong-orders--time-saved) | Pueblo Grocery <br/> <sup> _Miami, FL_ </sup> |
-| [Ran SQL queries to uncover a $1 million discrepancy in monthly rent totals](#1-million-per-month-saved) | Mall landlord <br/> <sup> _Miami, FL_ </sup> |
+| [Made a database to automate reports that saved > 50% of the employees' time](#db-saved-50-time-effort) | ADP Payroll |
+| [Redesigned their Helpdesk system that reduced their call queue by 92%](#92-drop-in-helpdesk-queue) | Microsoft |
+| [Redesigned their database tables; website ran about 12x faster](#12x-faster-warranty-website) | Hewlett-Packard |
+| [Automated their label printing system; freed up 75% of staff's time](#75-increase-in-productivity) | Bridgestone |
+| [Created a product ordering system that resulted in 0 wrong orders & 25% time saved](#0-wrong-orders--time-saved) | Pueblo Grocery |
+| [Ran SQL queries to uncover a $1 million discrepancy in monthly rent totals](#1-million-per-month-saved) | Mall landlord |
 
 
 ## DB saved 50% time, effort
@@ -129,7 +129,7 @@
 
 #### Interbase Solutions (Santa Clara, CA) –– <mark> Removed a virus before the concept of a computer virus was common knowledge </mark>
 
-<-- May 1998 - May 1998 --
+May 1998 - May 1998 
 
 | Before | After |
 |--------|-------|

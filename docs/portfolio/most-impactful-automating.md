@@ -3,14 +3,14 @@
 
 ### Overview
 
-| Automated item                                                                                                | Company      |
+| Automated items                                                                                               | Company      |
 |---------------------------------------------------------------------------------------------------------------|--------------|
 | [Syncing of auth statuses for dozens of cloud services](#syncing-authorization-statuses)                      | Atelio       |
 | [Reduced obsolete pages by 40% and added automation to prevent obsolete pages](#prevention-on-obsolete-pages) | Yahoo        |
 | [Made a database to automate reports; saved >50% of the employees' time and effort](#db-saved-50-time-effort) | ADP Payroll  |
 | [Automated their label printing system; freed up 75% of staff's time](#75-increase-in-productivity)           | Bridgestone  |
 
-| Simplified item                                                                                                  | Company      |
+| Simplified items                                                                                                 | Company      |
 |------------------------------------------------------------------------------------------------------------------|--------------|
 | [Revamped information architecture (IA), reduced dev pages and navigation by 69%](#69-fewer-pages-via-new-ia)    | Atelio / FIS |
 | [A dept added doc pages for 5 years without checking for "freshness" and needed to be revamped](#56-fewer-pages) | Google       |

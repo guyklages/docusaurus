@@ -21,10 +21,11 @@
 | API             | SOAP                                                                                           |
 | CI/CD           | CircleCI, Jekyll, Jenkins, Kubernetes, Screwdriver                                             |
 | Languages       | C, C++, Java, MVC, NPM, OOP, VB                                                                |
-| Diagrams        | ArchiMate, LucidChart, OmniGraffle, PaintShop Pro, Sketch, UML                                 |
+| Diagrams        | ArchiMate, Autodesk, LucidChart, OmniGraffle, PaintShop Pro, Sketch, UML                       |
 | Big Data        | Apache: Doppler, Hadoop, HBase, Hive, Kafka, Jupyter, Shell, Spark; PyTorch, TensorFlow        |
-| Proj. Mgmt.     | Clarity                                                                                        |
+| eDMS            | Microsoft SharePoint, Google Workspace, Box, Dropbox                                           |
+| PLM             | Oracle Product Lifecycle Management, SAP Product Lifecycle Management                          |
 | Collaboration   | Confluence, Drupal, Notion, SharePoint, Zendesk                                                |
 | Version Control | AccuRev, CVS, Perforce, SourceTree, Stash                                                      |
-| Enterprise      | CRM, ERP, MRP                                                                                  |
+| Enterprise      | CRM, Clarify, ERP, MRP                                                                         |
 | Analytics       | Tableau, Microsoft Power BI                                                                    |

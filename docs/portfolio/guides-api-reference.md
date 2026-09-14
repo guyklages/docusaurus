@@ -218,8 +218,8 @@ To troubleshoot this, try `kubectl delete pod <name> --grace-period=0 --force` o
 | <DefTerm def="Nium was a fintech startup where I hired, mentored, and managed one technical writer.">Nium</DefTerm> | Jan 2024 | Oct 2024 | 0.8 |   |   |   |   |    ✅        |
 | <DefTerm def="Talk Group was an experiential English school in Shanghai and five other cities. I managed five software engineers who built on the database I designed as well as two graphic artists and three translators who helped me make the textbooks, activities, and other learning materials, as well as 20+ teachers who taught those English-learning materials to our students.">Talk Group</DefTerm>    | Feb 2002 | May 2006 |  4.3  |  ✅  |  ✅  |  ✅  |  ✅ |
 | <DefTerm def="Pyramid Software was a startup company in Vietnam making an auction website to rival eBay. I managed: 12 developers who built the auction website, two graphic artists who made the site look good, and two translators who make our site support seven languages.">Pyramid Software</DefTerm> | Feb 1998 | Aug 1999 | 1.5 | ✅ | ✅ | ✅ | |
-|                           |          |          | ===== | ====                     |   ======               | ======                     | =====    |
-|                           |          |          | 5.8   | 5.8                      |    5.8                 |  5.8                       | 4.3      |
+|                           |          |          | ===== | =====                    |   =====                | =====                      | =====    | ===== |
+|                           |          |          | 7.9   | 5.8                      |    5.8                 |  5.8                       | 4.3      | 2.1   |
 
 <DefinitionPanel/>
 

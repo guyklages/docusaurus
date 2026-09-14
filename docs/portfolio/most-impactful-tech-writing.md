@@ -145,7 +145,7 @@
 
 ## 1/3rd the time to edit eDC
 
-#### VA Medical Center (Boston, MA) –– <mark> Reduced the time needed to make any changes to an eDC clinical trial form to one-third. </mark>
+#### VA Medical Center (Boston, MA) –– <mark> Reduced the time needed by two-thirds to make changes to an eDC clinical trial form. </mark>
 
 | Before (Aug 2011) | After (Dec 2011) |
 |-------------------|------------------|

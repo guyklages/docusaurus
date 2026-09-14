@@ -78,7 +78,7 @@
 
 ## #1 dept in documentation
 
-#### Google (Mt. View, CA) –– <mark> The AdWords API dept needed to improve the "freshness" of their internal documentation pages </mark>
+#### Google (Mt. View, CA) –– <mark> The AdWords API dept needed to improve the "freshness" of their internal documentation </mark>
 
 | Before (May 2018) | After (Nov 2018) |
 |-------------------|------------------|

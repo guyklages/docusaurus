@@ -201,8 +201,8 @@ To troubleshoot this, try `kubectl delete pod <name> --grace-period=0 --force` o
 | <DefTerm def="The NICE department I worked in was responsible for their employee monitoring tool. I documented how to install, configure, use, and troubleshoot their software.">NICE Systems</DefTerm> | May 2014 | Sep 2014 |  0.4  |  ✅  |      |        ✅        |        |       |
 | <DefTerm def="The Veteran Affairs Medical Center's epidemiology department was converting from paper forms to electronic forms for their clinical trials. I documented user guides and wrote class materials to train PMs how to use the new system.">V.A. Medical</DefTerm> | Feb 2011 | Sep 2012 |  1.6  |  ✅  |      |                  |        |       |
 | <DefTerm def="The ADP Payroll department I worked in was responsible for garnishments, payroll, AP/AR, GL, and reimbursements. I documented their processes and created database reports to automate big parts of their workflow.">ADP Payroll</DefTerm>  | Oct 2008 | Dec 2010 |  2.2  |  ✅  |      |                  |   ✅   |       |
-|              |          |          |       | ==== | ==== |   ======         | ====== | ===== |
-|              |          |          |       |  8.0 | 1.2  |    2.1           |  2.7   |  0.5  |
+|              |          |          |       | ===== | ===== |   ======         | ===== | ===== |
+|              |          |          |       |  8.0  |  1.2  |    2.1           |  2.7  |  0.5  |
 
 <DefinitionPanel/>
 

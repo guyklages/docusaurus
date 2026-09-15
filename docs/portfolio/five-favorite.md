@@ -4,7 +4,7 @@
 
 | Post title                       | Brief description |
 |----------------------------------|-------------------|
-| **[Gmail agent for job auto-replies](https://guyklages.com/blog/gmail-agent-for-job-auto-replies)** | How I automated customized replies to the many recruiter emails I receive daily. |
+| **[Gmail agent for job auto-replies](https://guyklages.com/blog/gmail-agent-for-job-auto-replies)** | How I used AI to automate customized replies to the many emails I receive. |
 
 ## Developer guides
 

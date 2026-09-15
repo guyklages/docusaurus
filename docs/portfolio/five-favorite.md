@@ -10,7 +10,7 @@
 
 | Guide details | Brief description |
 |---------------|-------------------|
-| **[Streamlined onboarding](./most-impactful-tech-writing.md#70-more--70-fewer)** | Nium's customers couldn't self-onboard until I documented the process. |
+| **[Streamlined onboarding](./most-impactful-tech-writing.md#70-more--70-fewer)** | Nium's customers couldn't self-onboard until I documented the complex process. |
 | **[Adaptive indexing](https://docs.couchbase.com/server/current/n1ql/n1ql-language-reference/adaptive-indexing.html)** | Couchbase's new database index type works on all or specified fields of a document. |
 
 ## Before and After

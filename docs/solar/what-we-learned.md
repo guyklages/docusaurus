@@ -40,7 +40,7 @@ And then some truths became apparent:
 
 So, now we're stuck with what we have. We still love our solar panels, but it would've been nice to have a slightly bigger system from the start.
 
-The moral: think carefully what you want to achieve because it's near impossible to find an installer willing to go out for a tiny amount of profit--changes need to be expensive enough to make it worth their time.
+The moral: think carefully what you want to achieve because it's near impossible to find an installer willing to travel for a tiny amount of profit--changes need to be expensive enough to make it worth their time.
 
 Other things to consider:
 

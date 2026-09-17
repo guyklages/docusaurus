@@ -77,16 +77,14 @@ For example, in our case:
 
 ![4 more panels for 2% more](images/4-more-panels-for-2-percent-more.png)
 
-If you have an EV made in 2024 or newer, your EV has bidirectional charging built-in. That means your home solar system needs only 1 battery because can use your EV's massive battery to be your home's 2nd (and 3rd and 4th) solar battery.
+If you have an EV made in 2024 or newer, your EV has bidirectional charging built-in. That means your home solar system needs only 1 battery because you can use your EV's huge battery to be your home's 2nd (and 3rd and 4th) solar battery.
 
 
+### 2nd Powerwall avoids grid usage
 
+- One Powerwall keeps a charge on sunny days and needs a second battery for non-sunny days.
+- Our installer said some of his customers have a third Powerwall or use many car batteries.
 
-
-
-
-
-
-
-
-
+In the below graph:
+- X-axis denotes weeks.
+- Y-axis denotes the energy sources per our Tesla mobile app.

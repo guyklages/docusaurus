@@ -1,6 +1,6 @@
 # What we learned
 
-## If I could redo my solar setup
+## If I could redo my setup
 
 Before installing panels:
 

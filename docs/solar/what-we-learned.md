@@ -80,7 +80,7 @@ For example, in our case:
 If you have an EV made in 2024 or newer, your EV has bidirectional charging built-in. That means your home solar system needs only 1 battery because you can use your EV's huge battery to be your home's 2nd (and 3rd and 4th) solar battery.
 
 
-### 2nd battery avoids grid usage
+## 2nd battery avoids grid usage
 
 - During spring/summer/fall, one battery stays at least 50% charged on sunny days but needs a second battery during non-sunny days; winter days absolutely need a 2nd battery.
 - The [Powerwall3's 11 kW output](https://energylibrary.tesla.com/docs/Public/EnergyStorage/Powerwall/3/Datasheet/en-us/Powerwall-3-Datasheet.pdf) removes the need for a 2nd Powerwall2 during spring/summer/fall but not winter.

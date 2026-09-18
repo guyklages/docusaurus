@@ -104,7 +104,7 @@ Notes:
 2023
 
 - Jan: we had two weeks of no grid usage because half of us weren't home.
-- Jul: we installed a second Powerwall which removed 99% of our grid usage in July and Aug.
+- Jul: we installed a second Powerwall2 which removed 99% of our grid usage in July and Aug.
 - Sep: we started charging our EV at home instead of the office.
 - Nov: we installed a Heat Pump.
 
@@ -113,16 +113,25 @@ Notes:
 - Aug: we re-roofed (3 weeks) and moved 6 panels from our NW to SE roof.
 - Oct: a heat wave caused our Powerwalls to stop supplying power occasionally until they cooled down.
 
-## Charge EV slowly when possible
+## Charge EV slowly
 
-- If your EV doesn't support adjustable amperage, you can get a wall charger (and maybe a rebate).
-- Calculate when a certain battery % is needed by and charge at the amperage closest to that kW.
-    - For example, to charge an EV in 6 hours from 50% to 80%, then that's 30% of the battery; and 30% of a 60 kWh battery = 18 kWh to charge in 6 hours = 3 kWh per hour = 3 kW.
-- Unless urgent, don't charge your EV until your Powerwall battery is fully charged.
-- The routine I follow:
-    - 7-8pm:	After dinner and shower, start charging our EV 4-5 kW until our Powerwall SoC is 50-70% (happens around 9-10pm), depending on how cloudy the weather will be the next day.
-    - Noonish:	After our Powerwall is charged 100%, charge our EV to match the kW excess going to the grid, adjusting the amperage every 15 minutes to match changes in weather or excess.
+Although charging an EV at high kW speeds degrade the batteries only [1-2% over many years](https://www.google.com/search?q=how+much+does+supercharging+degrade+battery&oq=how+much+does+supercharging+de&gs_lcrp=EgZjaHJvbWUqCggAEAAYgAQYtAcyCggAEAAYgAQYtAcyBggBEEUYOTIICAIQABgWGB4yDQgDEAAYhgMYgAQYigUyDQgEEAAYhgMYgAQYigUyDQgFEAAYhgMYgAQYigUyCggGEAAYogQYiQXSAQkxMDE4NmowajeoAgCwAgA&sourceid=chrome&source=chrome.ob&ie=UTF-8), it's better to charge your EV at low kW (amperage) whenever possible for the benefits of charging at 1 kW:
 
+- While using other appliances, it reduces your overall load and lowers the chance you'll draw from the grid.
+- Your Powerwall2 won't heat up as much and won't use a fan to cool down as much, and thus lasts longer.
+
+If your EV doesn't support adjustable amperage, you can get a wall charger (and [maybe a rebate](https://www.google.com/search?q=ev+wall+charger+rebates&oq=ev+wall+charger+rebates&aqs=chrome..69i57j33i160j33i22i29i30l5.7098j0j7&sourceid=chrome&ie=UTF-8)).
+
+Unless urgent, don't charge your EV until your Powerwall2 battery is at least 80% charged.
+
+The routine I follow:
+
+| Time   | Routine description |
+|--------|---------------------|
+| ~ 8 pm | After dinner and shower, I start charging our EV 5 amps (1 kW) until our Powerwall2 SoC is ~50% (~10pm), depending on how cloudy tomorrow will be. |
+| ~ Noon | After our single Powerwall2 is charged 100%, I continue charging our EV 5 amps (1 kW) or higher when needed. |
+
+**Note:** After adding a second Powerwall2, we can charge our EV from 8pm during the night and finish by 6am at 5 amps (1 kW).
 
 ## Tips for 1-battery systems
 
@@ -140,17 +149,17 @@ Always try to keep your battery SoC above 30%.
 
 **Note:**  If you live in an outage-prone area, then this tip won't apply to you since you should use the default Tesla settings that learn your usage patterns and optimize keeping your battery charged as possible for outages.
 
-To reduce your use of the Grid, go to your Tesla app _Settings_ and select **Self-Powered**.  This will use your Powerwall at all times except:
+To reduce your use of the Grid, go to your Tesla app _Settings_ and select **Self-Powered**.  This will use your Powerwall2 at all times except:
 
-- If your kW power usage exceeds the power generation from your panels + Powerwall max (about 5 kW).
-- If your Powerwall falls below your minimum setting (Tesla recommends 20%).
+- If your kW power usage exceeds the power generation from your panels + Powerwall2 max (about 5 kW).
+- If your Powerwall2 falls below your minimum setting (Tesla recommends 20%).
 - Very brief (1 - 3 seconds) "transition periods" of 0.1 - 0.2 kW when energy usage spikes from a big appliance.
 
 ### Don't use Storm Watch
 
-**Note:** If you live in an outage-prone area, then this tip won't apply to you since you may want to keep your Powerwall fully charged as often as possible.
+**Note:** If you live in an outage-prone area, then this tip won't apply to you since you may want to keep your Powerwall2 fully charged as often as possible.
 
-Storm Watch uses the Grid to fully charge your Powerwall; but if your Powerwall is usually fully charged by the sun by the afternoon, then you don't need to use the Grid to charge it.
+Storm Watch uses the Grid to fully charge your Powerwall; but if your Powerwall2 is usually fully charged by the sun by the afternoon, then you don't need to use the Grid to charge it.
 
 ### How many appliances at a time?
 
@@ -176,6 +185,6 @@ Plan ahead which electrical appliances you'll use, and schedule their use to avo
 
 <sup>1</sup>  Electric water heaters use an immense 4.5 kW, so be aware of anything that might use hot water.
 
-The following is a graph of appliances' electrical use compared between 1, 2, and 3 Powerwall batteries:
+The following is a graph of appliances' electrical use compared between 1, 2, and 3 Powerwall2 batteries:
 
 ![Appliance kW usage versus 1, 2, and 3 Powerwalls](./images/appliance-kw-usage-1-2-3-powerwalls.png)

@@ -177,13 +177,13 @@ Plan ahead which electrical appliances you'll use, and schedule their use to avo
 | Electric appliance | kW usage | Average | Remarks      |
 |--------------------|:--------:|:-------:|--------------|
 | Oven               | 5 - 9    | 7.0     |              |
-| Clothes dryer      | 5 - 6    | 5.5     | <sup>1</sup> |
-| Dishwasher         | 3 - 7    | 5.0     | <sup>1</sup> |
-| Shower             | 4.5      | 4.5     | <sup>1</sup> |
-| Clothes washer     | 2 - 6    | 4.0     | <sup>1</sup> |
+| Clothes dryer      | 5 - 6    | 5.5     | <sup>*</sup> |
+| Dishwasher         | 3 - 7    | 5.0     | <sup>*</sup> |
+| Shower             | 4.5      | 4.5     | <sup>*</sup> |
+| Clothes washer     | 2 - 6    | 4.0     | <sup>*</sup> |
 | Stove              | 1 - 3    | 2.0     |              |
 
-<sup>1</sup>  Electric water heaters use an immense 4.5 kW, so be aware of anything that might use hot water.
+<sup>*</sup>  Electric water heaters use an immense 4.5 kW, so be aware of anything that might use hot water.
 
 The following is a graph of appliances' electrical use compared between 1, 2, and 3 Powerwall2 batteries:
 

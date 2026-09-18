@@ -145,18 +145,25 @@ Storm Watch uses the Grid to fully charge your Powerwall; but if your Powerwall 
 
 To avoid drawing from the Grid, keep in mind:
 
-- How much your battery can supply. 		(0.1 - 5.7 kW, depending on your battery's SoC)
-- How much your panels are generating.		(1.0 - 4.0 kW, depending on current sunlight)
-- Stay below the sum of (A) and (B).		(1.1 - 9.7 kW)
+| How much                          | kW        | Remarks                       |
+|-----------------------------------|:---------:|-------------------------------|
+| A) Your battery can supply        | 0.1 - 5.7 | Depends on your battery's SoC |
+| B) Your panels are generating     | 0.0 - 4.0 | Depends on your sunlight      |
+|                                   | ========= |                               |
+| C) The sum of (A) plus (B)        | 0.1 - 9.7 |                               |
 
 Plan ahead which electrical appliances you'll use, and schedule their use to avoid drawing from the grid:
 
-- Oven				5 - 9 kW	(avg. 7)
-- Clothes Dryer		5 - 6 kW	(avg. 5.5)	* Electric water heaters use an immense 4.5 kW,
-- Dishwasher		3 - 7 kW *	(avg. 5)	 so be aware of anything that might use hot water.
-- Hot Shower		4.5 kW *	(avg. 4.5)
-- Clothes Washer	2 - 3 kW *	(avg. 2.5)	   
-- Stove				1 - 3 kW	(avg. 2)	 
+| Electric appliance | kW usage | Average | Remarks      |
+|--------------------|:--------:|:-------:|--------------|
+| Oven               | 5 - 9    | 7.0     |              |
+| Clothes dryer      | 5 - 6    | 5.5     | <sup>1</sup> |
+| Dishwasher         | 3 - 7    | 5.0     | <sup>1</sup> |
+| Shower             | 4.5      | 4.5     | <sup>1</sup> |
+| Clothes washer     | 2 - 6    | 4.0     | <sup>1</sup> |
+| Stove              | 1 - 3    | 2.0     |              |
+
+<sup>1</sup>  Electric water heaters use an immense 4.5 kW, so be aware of anything that might use hot water.
 
 The following is a graph of appliances' electrical use compared between 1, 2, and 3 Powerwall batteries:
 

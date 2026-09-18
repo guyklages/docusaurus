@@ -113,6 +113,17 @@ Notes:
 - Aug: we re-roofed (3 weeks) and moved 6 panels from our NW to SE roof.
 - Oct: a heat wave caused our Powerwalls to stop supplying power occasionally until they cooled down.
 
+## Charge EV slowly when possible
+
+- If your EV doesn't support adjustable amperage, you can get a wall charger (and maybe a rebate).
+- Calculate when a certain battery % is needed by and charge at the amperage closest to that kW.
+    - For example, to charge an EV in 6 hours from 50% to 80%, then that's 30% of the battery; and 30% of a 60 kWh battery = 18 kWh to charge in 6 hours = 3 kWh per hour = 3 kW.
+- Unless urgent, don't charge your EV until your Powerwall battery is fully charged.
+- The routine I follow:
+    - 7-8pm:	After dinner and shower, start charging our EV 4-5 kW until our Powerwall SoC is 50-70% (happens around 9-10pm), depending on how cloudy the weather will be the next day.
+    - Noonish:	After our Powerwall is charged 100%, charge our EV to match the kW excess going to the grid, adjusting the amperage every 15 minutes to match changes in weather or excess.
+
+
 ## Tips for 1-battery systems
 
 Always try to keep your battery SoC above 30%.

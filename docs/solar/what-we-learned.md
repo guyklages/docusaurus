@@ -113,7 +113,7 @@ Notes:
 - Aug: we re-roofed (3 weeks) and moved 6 panels from our NW to SE roof.
 - Oct: a heat wave caused our Powerwalls to stop supplying power occasionally until they cooled down.
 
-### Tips for 1-battery systems
+## Tips for 1-battery systems
 
 Always try to keep your battery SoC above 30%.
 
@@ -125,7 +125,7 @@ Always try to keep your battery SoC above 30%.
 
 **Note:** Unless urgent, don't charge extra items overnight, especially if the next morning will be cloudy.
 
-#### Use Self-Powered mode
+### Use Self-Powered mode
 
 **Note:**  If you live in an outage-prone area, then this tip won't apply to you since you should use the default Tesla settings that learn your usage patterns and optimize keeping your battery charged as possible for outages.
 
@@ -135,13 +135,13 @@ To reduce your use of the Grid, go to your Tesla app _Settings_ and select **Sel
 - If your Powerwall falls below your minimum setting (Tesla recommends 20%).
 - Very brief (1 - 3 seconds) "transition periods" of 0.1 - 0.2 kW when energy usage spikes from a big appliance.
 
-#### Don't use Storm Watch
+### Don't use Storm Watch
 
 **Note:** If you live in an outage-prone area, then this tip won't apply to you since you may want to keep your Powerwall fully charged as often as possible.
 
 Storm Watch uses the Grid to fully charge your Powerwall; but if your Powerwall is usually fully charged by the sun by the afternoon, then you don't need to use the Grid to charge it.
 
-#### How many appliances at a time?
+### How many appliances at a time?
 
 To avoid drawing from the Grid, keep in mind:
 

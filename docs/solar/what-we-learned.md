@@ -89,3 +89,26 @@ If you have an EV made in 2024 or newer, your EV has bidirectional charging buil
 In the below graph:
 - X-axis denotes weeks.
 - Y-axis denotes the energy sources per our Tesla mobile app.
+
+![Energy sources with 1 Powerwall](./images/energy-sources_1-powerwall.png)
+
+![Energy sources with 2 Powerwalls](./images/energy-sources_2-powerwalls.png)
+
+Notes:
+
+2022
+
+- Mar: a problem with the PW caused 3 weeks of grid usage that a 2nd PW would've helped.
+- Aug: a cheap 3rd-party Gateway breaker broke, causing 6 weeks of grid usage.
+
+2023
+
+- Jan: we had two weeks of no grid usage because half of us weren't home.
+- Jul: we installed a second Powerwall which removed 99% of our grid usage in July and Aug.
+- Sep: we started charging our EV at home instead of the office.
+- Nov: we installed a Heat Pump.
+
+2024
+
+- Aug: we re-roofed (3 weeks) and moved 6 panels from our NW to SE roof.
+- Oct: a heat wave caused our Powerwalls to stop supplying power occasionally until they cooled down.

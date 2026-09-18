@@ -170,7 +170,7 @@ To avoid drawing from the Grid, keep in mind:
 | A) Your battery can supply        | 0.1 - 5.7 | Depends on your battery's SoC |
 | B) Your panels are generating     | 0.0 - 4.0 | Depends on your sunlight      |
 |                                   | ========= |                               |
-| C) The sum of (A) plus (B)        | 0.1 - 9.7 |                               |
+| The sum of (A) plus (B)           | 0.1 - 9.7 |                               |
 
 Plan ahead which electrical appliances you'll use, and schedule their use to avoid drawing from the grid:
 

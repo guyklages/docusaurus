@@ -126,12 +126,12 @@ Unless urgent, don't charge your EV until your Powerwall2 battery is at least 80
 
 The routine I follow:
 
-| Time   | Routine description |
-|--------|---------------------|
-| ~ 8 pm | After dinner and shower, I start charging our EV 5 amps (1 kW) until our Powerwall2 SoC is ~50% (~10pm), depending on how cloudy tomorrow will be. |
-| ~ Noon | After our single Powerwall2 is charged 100%, I continue charging our EV 5 amps (1 kW) or higher when needed. |
+| Time | Routine description |
+|------|---------------------|
+| 8pm  | After dinner and shower, I start charging our EV 5 amps (1 kW) until our Powerwall2 SoC is ~50% (~10pm), depending on how cloudy tomorrow will be. |
+| Noon | After our single Powerwall2 is charged 100%, I continue charging our EV 5 amps (1 kW) or higher when needed. |
 
-**Note:** After adding a second Powerwall2, we can charge our EV from 8pm during the night and finish by 6am at 5 amps (1 kW).
+**Note:** After adding a second Powerwall2, we can charge our EV throughout the night and finish by 6am at 5 amps (1 kW).
 
 ## Tips for 1-battery systems
 

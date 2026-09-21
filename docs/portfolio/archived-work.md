@@ -157,10 +157,10 @@ Nium has added more API endpoints and supported languages after I left. The foll
 
 ## Various types of PDF guides
 
-To make the following guides, I used Microsoft Word or Adobe FrameMaker to create PDFs for customers and developers. Links open into a new browser tab.
+I used Word or FrameMaker to create the following PDFs for customers and developers. Links open into a new browser tab.
 
-| Company    | Industry            | Guide | Collaborated with |
-|------------|---------------------|-------|-------------------|
+| Company    | Industry            | Guide | Collaboration |
+|------------|---------------------|-------|---------------|
 | Couchbase  | NoSQL database      | <a href="/files/Couchbase_Differences-between-server-versions.pdf" target="_blank" rel="noopener noreferrer">Differences between server versions</a> | 1 editor, 3 SMEs |
 | NICE       | Enterprise software | <a href="/files/NICE_Performance-Management_architecture-and-system-overview-2014.pdf" target="_blank" rel="noopener noreferrer">Performance Management architecture and system overview</a> <br/> <a href="/files/NICE_Writers-style-guide-2014.pdf" target="_blank" rel="noopener noreferrer">Writers style guide</a> | 1 editor, 3 SMEs |
 | <a id="vmware"></a> VMware     | Virtualization software | <a href="/files/VMware_App-Volumes-user-guide-2016.pdf" target="_blank" rel="noopener noreferrer">App Volumes User Guide</a> <br/> <a href="/files/VMware_UEM_admin-guide-2016.pdf" target="_blank" rel="noopener noreferrer">UEM Administration Guide</a> | 1 editor, 3 SMEs |

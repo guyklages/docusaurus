@@ -1,7 +1,9 @@
 # Most impactful UX/UI
 
 
-## 69% fewer pages via new IA
+## Atelio of FIS Global
+
+### 69% fewer pages via new IA
 
 #### Atelio of FIS Global (San Francisco) –– <mark> Revamped information architecture (IA), reduced dev pages & navigation by 69% </mark>
 
@@ -12,7 +14,9 @@
 | (my 32 pg) / (inherited 104 pg) = 31% of the original | RESULTS: <br/> 69% fewer pages and customer clicks to find data. |
 
 
-## 70% more + 70% less
+## Nium
+
+### 70% more + 70% less
 
 #### Nium (San Francisco) –– <mark> 70% more customers onboarded while 70% fewer helpdesk issues </mark>
 
@@ -23,7 +27,7 @@
 | For every 10 customers who tried to onboard: <br/> - 2 (20%) were successful <br/> - 8 (80%) filed helpdesk tickets. <br/><br/> After I created the onboarding process: <br/> - 9 (90%) were successful <br/> - 1 (10%) filed helpdesk tickets | Successful onboarding rose 70% <br/> while helpdesk tickets reduced by 70%. |
 
 
-## New UX with 2x details
+### New UX with 2x details
 
 #### Nium (San Francisco) –– <mark> Completely different UX and information architecture with twice as many pages of information </mark>
 
@@ -33,7 +37,9 @@
 | ![Before](../../static/img/Nium_Payouts_BEFORE.png) | ![After](../../static/img/Nium_Payouts_AFTER.png) |
 
 
-## 25% more players and sales
+## Mica Games
+
+### 25% more players and sales
 
 #### Mica Games (Seattle, remote part-time) –– <mark> 25% more players and revenue from my suggested changes to his games </mark>
 
@@ -44,7 +50,9 @@
 | | RESULTS: <br/> The owner of the game said the number of players had increased by 25% due to word-of-mouth. |
 
 
-## Saved 85% of translation
+## Pristine Translations
+
+### Saved 85% of translation
 
 #### Pristine (Taipei) –– <mark> Improved readability while saving 85% on translation costs by converting paragraphs to a table </mark>
 
@@ -55,7 +63,9 @@
 | | RESULTS: <br/> By reducing the number of words, translation costs reduced by 85%. |
 
 
-## 20% drop in i18n mistakes
+## HP
+
+### 20% drop in i18n mistakes
 
 #### Hewlett-Packard (Singapore) –– <mark> 20% drop in internationalization (i18n) and translation mistakes by PMs </mark>
 

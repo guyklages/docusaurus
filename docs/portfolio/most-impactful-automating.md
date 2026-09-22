@@ -51,7 +51,7 @@
 
 #### Bridgestone (Bloomington, IL) –– <mark> Automated their label printing system; freed up 75% of staff's time </mark>
 
-<!-- May 1999 - May 1999 -->
+{/*  May 1999 - May 1999 */}
 
 | Before  | After  |
 |---------|--------|

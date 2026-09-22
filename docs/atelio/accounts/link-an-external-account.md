@@ -34,7 +34,7 @@ The following steps will largely use Python for code examples. Examples in other
 
 There will be references to a `client` variable which can be initialized like:
 
-<!-- <Tabs><TabItem value="python" label="Python"> -->
+{/*  <Tabs><TabItem value="python" label="Python"> */}
 
 ```python title="Python"
 import plaid
@@ -53,7 +53,7 @@ configuration = plaid.Configuration(
 api_client = plaid.ApiClient(configuration)
 client = plaid_api.PlaidApi(api_client)
 ```
-<!-- </TabItem></Tabs> -->
+{/*  </TabItem></Tabs> */}
 
 ### Create a link token
 

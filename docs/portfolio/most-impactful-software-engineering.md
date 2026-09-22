@@ -21,7 +21,7 @@
 
 #### ADP Payroll (Seattle, WA) –– <mark> Made a database to automate reports; saved >50% of the employees' time and effort </mark>
 
-<!-- Mar 2009 - Aug 2009 -->
+{/*  Mar 2009 - Aug 2009 */}
 
 | Before | After |
 |--------|-------|
@@ -32,7 +32,7 @@
 
 #### Microsoft (Shanghai, CHINA) –– <mark> Redesigned their Helpdesk system that reduced their call queue by 92% </mark>
 
-<!-- Feb 2003 - Mar 2003 -->
+{/* Feb 2003 - Mar 2003 */}
 
 | Before | After |
 |--------|-------|
@@ -43,7 +43,7 @@
 
 #### HP (Mt. View, CA) –– <mark> Redesigned their database tables; website ran about 12x faster </mark>
 
-<!-- May 2001 - Aug 2001 -->
+{/* May 2001 - Aug 2001 */}
 
 | Before | After |
 |--------|-------|
@@ -54,7 +54,7 @@
 
 #### Bridgestone (Bloomington, IL) –– <mark> Automated their label printing system; freed up 75% of staff's time </mark>
 
-<!-- May 1999 - May 1999 -->
+{/* May 1999 - May 1999 */}
 
 | Before | After |
 |--------|-------|
@@ -65,7 +65,7 @@
 
 #### Pueblo Grocery (Miami, FL) –– <mark> Created a product ordering system that resulted in 0 wrong orders and 25% time saved </mark>
 
-<!-- Mar 1999 - Apr 1999 -->
+{/* Mar 1999 - Apr 1999 */}
 
 | Before | After |
 |--------|-------|
@@ -76,7 +76,7 @@
 
 #### A mall landlord (Miami, FL) –– <mark> Ran SQL queries to uncover a $1 million discrepancy in monthly rent totals </mark>
 
-<!-- Aug 1998 - Sep 1998 -->
+{/* Aug 1998 - Sep 1998 */}
 
 | Before | After |
 |--------|-------|
@@ -87,7 +87,7 @@
 
 #### A law firm (Santa Clara, CA) –– <mark> Created DITA-like database to reuse paragraphs of text in multiple contracts </mark>
 
-<!-- Mar 1998 - Apr 1998 -->
+{/* Mar 1998 - Apr 1998 */}
 
 | Before | After |
 |--------|-------|
@@ -98,7 +98,7 @@
 
 #### AMAT (Santa Clara, CA) –– <mark> Displayed dynamically how different company reorganization scenarios would affect the whole </mark>
 
-<!-- Aug 1997 - Sep 1997 -->
+{/* Aug 1997 - Sep 1997 */}
 
 | Before | After |
 |--------|-------|
@@ -109,7 +109,7 @@
 
 #### Komodo Toys (Hong Kong) –– <mark> Removed 1,000s of duplicate records while database was in production </mark>
 
-<!-- Mar 1997 - Apr 1997 -->
+{/* Mar 1997 - Apr 1997 */}
 
 | Before | After |
 |--------|-------|
@@ -120,14 +120,14 @@
 
 #### Lung Electronics (Hong Kong) –– <mark> Unified the Marketing, Testing, and Sales departments with a database </mark>
 
-<!-- Mar 1996 - Apr 1997 -->
+{/* Mar 1996 - Apr 1997 */}
 
 | Before | After |
 |--------|-------|
 | SITUATION: <br/> - 1,000's of products sourced from Taiwan. <br/> - 10 PMs tracked their products their own way. <br/> -&nbsp;PMs&nbsp;swapped&nbsp;products&nbsp;every&nbsp;month&nbsp;to&nbsp;avoid&nbsp;fraud. <br/> - Products needed to be tested for quality. <br/> - Sales people sold products in Europe. <br/> <br/> PROBLEM: <br/> PMs and Sales people spent many days each month learning new products that were organized differently. | MY SOLUTION: <br/> Combine all products into a unified database to normalize how all products are organized. <br/> <br/> - Product-switching took only a few minutes. <br/> - Easier to track who managed which products when. <br/> - Easier to sell since all data was available in real-time. <br/> - Faster to track which ones needed testing, which were being tested, which passed, and which failed. |
 | | RESULTS: <br/> When a visiting Oracle engineer saw what I created (especially the table headers change specs to match the selected product), he was stunned and said, "I didn't know Access could do that!" |
 
-<!--
+{/*
 
 ## 1st to identify virus
 
@@ -140,4 +140,4 @@ May 1998 - May 1998
 | PROBLEM: <br/> Windows 2.0 installation would stop after 3 minutes. | MY SOLUTION: <br/> I identified and removed a computer virus that four consultants with Masters degrees couldn't diagnose. <br/> <br/> I ran the installation; it stopped after 3 min. <br/> <br/> Days earlier at school, I had talked with fellow computer nerds about a new thing called a "virus" and had borrowed their Norton Utilities software. <br/> <br/> There was, in fact, a virus on the customer's install disk, which I removed and finished the installation in 40 min. |
 | ![Floppy disks](../../static/img/Interbase_Reebok-shoebox.png) | RESULTS: <br/> - Client's wife said, "I was doubtful when I saw your shoebox of floppy disks, but you fixed something four other $100/hr men with Masters degrees couldn't do--even after a few hours. Good job!" <br/> - Even though I had already stated $12/hr, solving it felt great! |
 
--->
+*/}

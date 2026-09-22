@@ -113,12 +113,12 @@ Driver of growth
 - Generated dozens of "leads" and "pipeline influence"
 - Noticed stalled or immature forum categories and designed plans to grow them
 
-<!--
+{/* 
 - Discord comments posted
 - GitHub issues reported
 - StackOverflow answers posted
 - Actual snippets and GitHub repos
--->
+*/}
 
 ## Open-source community
 

@@ -75,7 +75,7 @@ android:value="true" />
 In the activity's layout, your application will also need a SupportWalletFragment (the placeholder for the Android Pay purchase button). To create this, add the following code to your program:
 
 ```java
-<!-- You will need to add the wallet namespace to your enclosing Layout -->
+{/* You will need to add the wallet namespace to your enclosing Layout */}
 xmlns:wallet="http://schemas.android.com/apk/res-auto"
 <fragment
 android:id="@+id/wallet_fragment"

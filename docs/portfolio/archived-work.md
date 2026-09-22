@@ -1,9 +1,11 @@
 # Archive of all work samples
 
-<!-- This page is reference tables (API endpoints, SQL keywords), not prose —
-     repeated terms are expected, so word-repetition checks don't apply. -->
-<!-- vale Vale.Repetition = NO -->
-<!-- vale write-good.Illusions = NO -->
+{/*
+This page is reference tables (API endpoints, SQL keywords), not prose 
+repeated terms are expected, so word-repetition checks don't apply. -->
+vale Vale.Repetition = NO
+vale write-good.Illusions = NO
+*/}
 
 ## Nium API reference
 

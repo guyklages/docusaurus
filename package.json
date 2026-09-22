@@ -50,6 +50,7 @@
     "node": ">=20.0"
   },
   "allowScripts": {
-    "core-js@3.50.0": true
+    "core-js@3.50.0": true,
+    "fsevents@2.3.3": true
   }
 }

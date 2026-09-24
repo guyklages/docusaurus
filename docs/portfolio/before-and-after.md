@@ -84,18 +84,18 @@ TEDxBeaconStreet wanted their Adventures guidebook (left side) to have a newer a
 | Before  | After  |
 |---------|--------|
 | TEDxBeaconStreet wanted their Adventures guidebook to have a newer and refreshed look while improving their wording. | I summarized the text by year to show the progression. |
-| ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Install+Deploy+Admin+User_guides/TEDx_adventures-handbook-background_BEFORE.png) | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Install+Deploy+Admin+User_guides/TEDx_adventures-handbook-background_AFTER.png) |
+| ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/BEFORE-and-AFTER/TEDx_adventures-handbook-background_BEFORE.png) | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/BEFORE-and-AFTER/TEDx_adventures-handbook-background_AFTER.png) |
 
 ### Rules
 
 | Before  | After  |
 |---------|--------|
 | TEDxBeaconStreet wanted their Adventures guidebook to have a newer and refreshed look while improving their wording. | Instead of numbered rules, I wanted short, easy-to-remember two-word phrases with a brief description. Adding photos felt warmer than a gray box. | 
-| ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Install+Deploy+Admin+User_guides/TEDx_adventures-handbook-rules_BEFORE.png) | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Install+Deploy+Admin+User_guides/TEDx_adventures-handbook-rules_AFTER.png) |
+| ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/BEFORE-and-AFTER/TEDx_adventures-handbook-rules_BEFORE.png) | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/BEFORE-and-AFTER/TEDx_adventures-handbook-rules_AFTER.png) |
 
 ### Lifecycle
 
 | Before  | After  |
 |---------|--------|
 | Some TEDxBeaconStreet pages were simply notes of ideas that they wanted conveyed. | I took those notes and wrote about them in the same style as the other Adventure guidebook pages. |
-| ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Install+Deploy+Admin+User_guides/TEDx_adventures-handbook-lifecycle_BEFORE.png) | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Install+Deploy+Admin+User_guides/TEDx_adventures-handbook-lifecycle_AFTER.png) |
+| ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/BEFORE-and-AFTER/TEDx_adventures-handbook-lifecycle_BEFORE.png) | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/BEFORE-and-AFTER/TEDx_adventures-handbook-lifecycle_AFTER.png) |

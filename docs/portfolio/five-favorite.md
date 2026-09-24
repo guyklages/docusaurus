@@ -39,21 +39,21 @@
 | Before  | After  |
 |---------|--------|
 | TEDxBeaconStreet wanted their Adventures guidebook to have a newer and refreshed look while improving their wording. | I summarized the text by year to show the progression. |
-| ![](../../static/img/TEDx_adventures-handbook-background_BEFORE.png) | ![](../../static/img/TEDx_adventures-handbook-background_AFTER.png) |
+| ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/BEFORE-and-AFTER/TEDx_adventures-handbook-background_BEFORE.png) | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/BEFORE-and-AFTER/TEDx_adventures-handbook-background_AFTER.png) |
 
 #### Rules
 
 | Before  | After  |
 |---------|--------|
 | TEDxBeaconStreet wanted their Adventures guidebook to have a newer and refreshed look while improving their wording. | I replaced the religious-sounding words with neutral "Rules", dropped the numbers, and reduced each rule to a two-word title with supporting text. |
-| ![](../../static/img/TEDx_adventures-handbook-rules_BEFORE.png) | ![](../../static/img/TEDx_adventures-handbook-rules_AFTER.png) |
+| ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/BEFORE-and-AFTER/TEDx_adventures-handbook-rules_BEFORE.png) | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/BEFORE-and-AFTER/TEDx_adventures-handbook-rules_AFTER.png) |
 
 #### Lifecycle
 
 | Before  | After  |
 |---------|--------|
 | Some TEDxBeaconStreet pages were simply notes of ideas that they wanted conveyed. | I took those notes and wrote about them in the same style as the other Adventure guidebook pages. |
-| ![](../../static/img/TEDx_adventures-handbook-lifecycle_BEFORE.png) | ![](../../static/img/TEDx_adventures-handbook-lifecycle_AFTER.png) |
+| ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/BEFORE-and-AFTER/TEDx_adventures-handbook-lifecycle_BEFORE.png) | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/BEFORE-and-AFTER/TEDx_adventures-handbook-lifecycle_AFTER.png) |
 
 ## Diagrams and illustrations
 

@@ -30,4 +30,4 @@ Flowchart of their textbook creation process.
 
 Diagram of NMT's shipping routes in Asia, Australia, and New Zealand.
 
-![NMT](../../static/img/NMT_Asia-Australia-NZ.png)
+![NMT](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Diagrams+Charts/NMT_Asia-Australia-NZ.png)

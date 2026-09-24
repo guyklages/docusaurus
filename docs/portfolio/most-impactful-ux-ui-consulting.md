@@ -46,7 +46,7 @@
 | Before  | After  |
 |---------|--------|
 | PROBLEM: <br/> Brilliant word games were largely unknown because of clumsy UX/UI: <br/> - [WordZap](https://wordzap.com/Zap8/wordzap.html) <br/> - [Cricklers](https://crickler.com/html5/) | MY SOLUTION: <br/> [31 ideas](https://docs.google.com/spreadsheets/d/1yl2lhoAfoSuBdQbbNGwThpeygqJj4Ppng0-V7-VOIRw/) to improve the UX/UI, gameplay, settings, and other aspects. |
-| ![Before](../../static/img/Mica_old-WZ+Crickler.png) | ![After](../../static/img/Mica_new-WZ+Crickler.png) |
+| ![Before](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/BEFORE-and-AFTER/Mica_old-WZ+Crickler.png) | ![After](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/BEFORE-and-AFTER/Mica_new-WZ+Crickler.png) |
 | | RESULTS: <br/> The owner of the game said the number of players had increased by 25% due to word-of-mouth. |
 
 

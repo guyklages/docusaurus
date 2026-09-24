@@ -25,7 +25,7 @@ const FeatureList = [
   },
   {
     title: <a href="portfolio">Technical Writer</a>,
-    img: require('https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Guy_working-two-monitors.png').default,
+    img: require('@site/static/img/Guy_working-two-monitors.png').default,
     description: (
       <>
         Developer guides and API reference <br/> <br/>

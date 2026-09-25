@@ -35,7 +35,7 @@ const FeatureList = [
   },
   {
     title: <a href="portfolio/developer-advocacy">Developer Advocate</a>,
-    img: 'https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/TalkGroup_Mini-Adventure-class.png'),
+    img: 'https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/TalkGroup_Mini-Adventure-class.png',
     description: (
       <>
         Bridging companies with external developers <br/> <br/>

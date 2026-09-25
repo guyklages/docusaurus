@@ -14,7 +14,7 @@ import cdnLinkPlugin from './src/remark/cdn-link-plugin.js';
 const config = {
   title: 'Hi, I\'m Guy Klages!',
   tagline: '',
-  favicon: 'img/Guy-suit-head-shot.png',  // favicon.ico',
+  favicon: 'https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Guy-suit-head-shot.png',  // favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -78,7 +78,7 @@ presets: [
         // Useful options to enforce blogging best practices
         onInlineTags: 'warn',
         onInlineAuthors: 'warn',
-        onUntruncatedBlogPosts: 'warn',
+        onUntruncatedBlogPosts: 'ignore',
       },
       theme: {
         customCss: './src/css/custom.css',
@@ -111,7 +111,7 @@ presets: [
 
   themeConfig:
     {
-      image: 'img/Guy-suit-head-shot.png',
+      image: 'https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Guy-suit-head-shot.png',
       zoom: {
         selector: '.markdown :not(em) > img', // Targets images inside markdown
         background: {
@@ -131,7 +131,7 @@ presets: [
         title: 'Hi, I\'m Guy Klages （柯進強、ガイ-クラゲス）',
         // logo: {
         //   alt: 'My Site Logo',
-        //  src: 'img/Guy-suit-head-shot.png',
+        //  src: 'https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Guy-suit-head-shot.png',
         // },
         items: [
           {

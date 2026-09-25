@@ -14,7 +14,7 @@ function captureFeatureClick(featureTitle) {
 const FeatureList = [
   {
     title: 'Guy Klages',
-    img: require('@site/static/img/Guy-suit-head-shot.png').default,
+    img: 'https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Guy-suit-head-shot.png'),
     description: (
       <>
         Bay Area, CA <br/> <br/>
@@ -25,7 +25,7 @@ const FeatureList = [
   },
   {
     title: <a href="portfolio">Technical Writer</a>,
-    img: require('@site/static/img/Guy_working-two-monitors.png').default,
+    img: 'https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Guy_working-two-monitors.png',
     description: (
       <>
         Developer guides and API reference <br/> <br/>
@@ -35,7 +35,7 @@ const FeatureList = [
   },
   {
     title: <a href="portfolio/developer-advocacy">Developer Advocate</a>,
-    img: require('@site/static/img/TalkGroup_Mini-Adventure-class.png').default,
+    img: 'https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/TalkGroup_Mini-Adventure-class.png'),
     description: (
       <>
         Bridging companies with external developers <br/> <br/>

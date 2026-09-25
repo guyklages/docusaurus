@@ -10,7 +10,7 @@ Once your customer has provided the information necessary to complete an onboard
 
 Using the [Customer](https://docs.atelio.com/embedded/docs/customer) object, you can perform a host of checks and screenings to ensure compliance programmatically. The full KYC process is shown below.
 
-![](../images/running_kyc.png)
+![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Atelio_running-kyc.png)
 
 As part of the KYC check, you might receive a webhook event (`kyc.verification.document_required`) asking for documents to be uploaded for validation. This might happen, for example, when a customer's name does not match with the name in an SSN lookup. Refer to the [Uploading KYC documents](https://docs.atelio.com/embedded/docs/kyc-documentation) guide for details regarding how to upload documents.
 

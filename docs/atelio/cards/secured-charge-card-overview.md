@@ -29,7 +29,7 @@ Display the KYB widget within your UI using Persona's Embedded Integration for w
 
 After the user submits all required information, Atelio's Compliance team will review and decision the business. An approved (`kyb.verification.approved`) or rejected (`kyb.verification.rejected`) webhook will be sent to your application. Accounts and cards can only be issued to businesses that have passed KYB. Once KYB is complete, use the [Cards API](https://docs.atelio.com/embedded/reference/post_cards) to issue the secured charge card and security deposit account.
 
-![](../images/credit_builder_card_accounts.png)
+![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Atelio_credit-builder-card-accounts.png)
 
 The graphic above illustrates the relationships and flow of funds between the:
 

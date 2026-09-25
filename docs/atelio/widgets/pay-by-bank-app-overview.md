@@ -69,10 +69,10 @@ The first time you use Pay by Bank, you'll see the following steps and screens:
   </thead>
   <tbody>
     <tr>
-      <td> ![](../images/pbb_ftu01_-_Office_visit_-_without_Example.png) </td>
-      <td> ![](../images/pbb_ftu02_-_Atelio_uses_Plaid.png) </td>
-      <td> ![](../images/pbb_ftu03_-_plaid_-_choose_bank.png) </td>
-      <td> ![](../images/pbb_tfu04_-_plaid_-_search_for_bank.png) </td>
+      <td> ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Atelio_pbb_ftu01_-_Office_visit_-_without_Example.png) </td>
+      <td> ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Atelio_pbb_ftu02_-_Atelio_uses_Plaid.png) </td>
+      <td> ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Atelio_pbb_ftu03_-_plaid_-_choose_bank.png) </td>
+      <td> ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Atelio_pbb_tfu04_-_plaid_-_search_for_bank.png) </td>
     </tr>
     <tr>
       <td>Consumer selects <b>Pay by Bank</b> as their preferred payment option, which invokes the Atelio Pay by Bank widget.</td>
@@ -97,9 +97,9 @@ _... continuing the first-time payment flow ..._
   </thead>
   <tbody>
     <tr>
-      <td> ![](../images/pbb_ftu07_-_chase_log_in.png) </td>
-      <td> ![](../images/pbb_ftu09_-_chase_select_bank_account.png) </td>
-      <td> ![](../images/pbb_ftu12_-_successful_link.png) </td>
+      <td> ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Atelio_pbb_ftu07_-_chase_log_in.png) </td>
+      <td> ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Atelio_pbb_ftu09_-_chase_select_bank_account.png) </td>
+      <td> ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Atelio_pbb_ftu12_-_successful_link.png) </td>
       <td>  </td>
     </tr>
     <tr>
@@ -124,10 +124,10 @@ _... continuing the first-time payment flow ..._
   </thead>
   <tbody>
     <tr>
-      <td> ![](../images/pbb_ftu13a_-_save_for_future_payments_or_not.png) </td>
-      <td> ![](../images/pbb_ftu14_-_confirm_payment.png) </td>
-      <td> ![](../images/pbb_ftu16_-_successful_submitted.png) </td>
-      <td> ![](../images/pbb_ftu17_-_payment_in_progress.png) </td>
+      <td> ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Atelio_pbb_ftu13a_-_save_for_future_payments_or_not.png) </td>
+      <td> ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Atelio_pbb_ftu14_-_confirm_payment.png) </td>
+      <td> ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Atelio_pbb_ftu16_-_successful_submitted.png) </td>
+      <td> ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Atelio_pbb_ftu17_-_payment_in_progress.png) </td>
     </tr>
     <tr>
       <td>Consumer is given the option to save their payment information for future purchases. <br/> <b>←</b> goes to the _Select a different &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;account?_ page. <br/> <b>x</b> &nbsp;&nbsp;goes to the _Cancel this &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;payment?_ page. </td>
@@ -153,9 +153,9 @@ If you've used Pay by Bank before and saved your account earlier, then you have 
   </thead>
   <tbody>
     <tr>
-      <td> ![](../images/pbb_ftv21_-_Service_provider.png) </td>
-      <td> ![](../images/pbb_ftv22_-_confirm_payment.png) </td>
-      <td> ![](../images/pbb_ftv23_-_successful_submitted.png) </td>
+      <td> ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Atelio_pbb_ftv21_-_Service_provider.png) </td>
+      <td> ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Atelio_pbb_ftv22_-_confirm_payment.png) </td>
+      <td> ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Atelio_pbb_ftv23_-_successful_submitted.png) </td>
       <td> </td>
     </tr>
     <tr>
@@ -184,8 +184,8 @@ You can link an account in your Pay by Bank wallet or setting page at any time, 
   </thead>
   <tbody>
     <tr>
-      <td> ![](../images/pbb_pref1_-_Your_account.png) </td>
-      <td> ![](../images/pbb_pref2_-_pbb_settings_-_single.png) </td>
+      <td> ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Atelio_pbb_pref1_-_Your_account.png) </td>
+      <td> ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Atelio_pbb_pref2_-_pbb_settings_-_single.png) </td>
       <td> </td>
       <td> </td>
     </tr>

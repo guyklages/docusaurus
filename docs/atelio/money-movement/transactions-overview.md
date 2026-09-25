@@ -10,7 +10,7 @@ See the `details` object in the following table:
 
 | Object    | Description |
 | --------- | ----------- |
-| `details` | Contains the attributes specific to a transaction type. For example:<br/>- The `details` object for an ACH transfer includes the `external_account_id`.<br/>- The `details` object for a card purchase includes the retailer's MCC.<br/>For information on the `details` object attributes for various transaction types, see [Payment types](doc:payment-types) |
+| `details` | Contains the attributes specific to a transaction type. For example: <br/> - The `details` object for an ACH transfer includes the `external_account_id`. <br/> - The `details` object for a card purchase includes the retailer's MCC. <br/> For information on the `details` object attributes for various transaction types, see [Payment types](doc:payment-types) |
 
 
 ## Transaction examples
@@ -204,16 +204,16 @@ The following table describes all possible `transactions` attributes. Many of th
 | ------------------- | ----------- |
 | `account_id`        | The UUID of the account. Each `customer_id` can have more than one `account_id` associated with it. |
 | `amount`            | The value of the transaction in USD. |
-| `balances`          | Note that the current names are misleading, and will be changed in a future version. <br/>`prior_balance`— the "current" balance which includes all completed transactions but not pending transactions.<br/>`new_balance`— the "available" balance which includes all transactions, pending and completed. |
+| `balances`          | Note that the current names are misleading, and will be changed in a future version. <br/> `prior_balance`— the "current" balance which includes all completed transactions but not pending transactions. <br/> `new_balance`— the "available" balance which includes all transactions, pending and completed. |
 | `bond_brand_id`     | The UUID of your brand. |
 | `created_time`      | The time the transaction is initiated. If the user swipes a card at a POS terminal, this timestamp displays the time at the POS. |
-| `currency`          | The currency used in the transaction.<br/>Currently only USD is supported. |
+| `currency`          | The currency used in the transaction. <br/> Currently only USD is supported. |
 | `customer_id`       | The UUID for your customer. |
 | `exchange_rate`     | The conversion rate used for the transaction. |
 | `merchant_amount`   | The original value of the transaction before an currency conversions. |
 | `merchant_currency` | ISO currency for the transaction, for example USD. |
-| `payment_type`      | Type of payment made. Valid values; `card`, `ach`, `rdc`, `account`.<br/>For details, see [Payment Types](doc:payment-types). |
-| `state`             | Varies, based on `payment_type`.<br/>For details, see [Transaction states](doc:transaction-states). |
+| `payment_type`      | Type of payment made. Valid values; `card`, `ach`, `rdc`, `account`. <br/> For details, see [Payment Types](doc:payment-types). |
+| `state`             | Varies, based on `payment_type`. <br/> For details, see [Transaction states](doc:transaction-states). |
 | `transaction_id`    | Unique ID for a Atelio transaction. |
 | `transaction_type`  | Varies, based on the `payment_type`. |
 | `updated_time`      | The time the transaction was updated. |
@@ -227,7 +227,7 @@ Understanding the lifecycle of a transaction is just as important as knowing tha
 
 Atelio transactions typically have the following states across all payment types, with the exception of card-to-card transactions that can only have a `complete` state.
 
-![](../images/2021-11-17_12-25-19.png)
+![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Atelio_transaction-state-lifecycle.png)
 
 ### Transaction states
 

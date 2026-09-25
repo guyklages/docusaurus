@@ -49,7 +49,7 @@ The following diagram is an example of the relationships between the entities wh
 - The Secondaries are employees of that business. 
 - The Secondaries are created as Customer objects in the Atelio platform.
 
-![](../images/Multi-Card_Experiences_-_Overall.jpeg)
+![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Atelio_multi-card-experiences-overall.jpeg)
 
 ### Primary-Secondary
 

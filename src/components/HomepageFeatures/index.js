@@ -14,7 +14,7 @@ function captureFeatureClick(featureTitle) {
 const FeatureList = [
   {
     title: 'Guy Klages',
-    img: 'https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Guy-suit-head-shot.png'),
+    img: 'https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Guy-suit-head-shot.png',
     description: (
       <>
         Bay Area, CA <br/> <br/>

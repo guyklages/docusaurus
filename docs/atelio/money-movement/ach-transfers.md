@@ -15,7 +15,7 @@ Every transfer or attempted transfer is defined by its [ACH return code](https:/
 
 The diagram below illustrates this flow.
 
-![](../images/ach_flow.png)
+![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Atelio_ach-flow.png)
 
 The Atelio platform handles the creation and transmission of the ACH file formatted with appropriate parameters to the ACH operator.
 

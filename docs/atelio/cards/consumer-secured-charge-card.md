@@ -511,7 +511,7 @@ To enable users to start spending immediately after initiating an ACH transfer, 
 
 Implementing Instant Funding for CBCs is a relatively simple technical process (described in the diagram below), and developers on Atelio typically can add Instant Funding to their application in under a week.
 
-![](../images/Instant_Funding_Mechanism.png)
+![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Atelio_instant-funding-mechanism.png)
 
 #### Performing Instant Funding
 

@@ -20,7 +20,7 @@ Webhooks, use a “push” model. An event triggers information to be automatica
 
 The following diagram shows a webhook flow.
 
-![](../images/webhook-flow.png)
+![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Atelio_webhook-flow.png)
 
 ## Are webhook transmissions secure?
 
@@ -39,7 +39,7 @@ In simple steps:
 In the following diagram you can see how Atelio implements a webhook to request and receive the results of a customer's KYC check.
 
 
-![](../images/webhook-kyc-results.png)
+![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Atelio_webhook-kyc-results.png)
 
 For more details, see [Webhook events and subscriptions](https://docs.atelio.com/embedded/docs/event-subscriptions) and [Accepting webhook requests](https://docs.atelio.com/embedded/docs/signatures).
 

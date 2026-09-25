@@ -1,12 +1,12 @@
 # Errors
 
-## Overview 
+## Overview
 
 It's frustrating when you receive an error. At Atelio, we provide standardized error messages that are informative and that help you to isolate and solve problems as quickly as possible.
 
 In general, we use [HTTP Status Codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes) to indicate the success or failure of request calls, but we also provide our own codes to aid in problem solving.
 
-![](../images/errorClassification.png)
+![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Atelio_error-classification.png)
 
 Every error has the same format consisting of four main parts:
 

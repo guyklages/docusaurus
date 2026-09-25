@@ -14,7 +14,7 @@ Extending outside of a single customer, Atelio is able to protect clients by und
 
 Identity from Atelio has the main goal to unify siloed data into a centralized system to provide consistency across channels.
 
-![](../images/Identity_Introduction_-_Customer_channels_-_Use_cases.png)
+![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Atelio_identity-introduction-customer-channels-use-cases.png)
 
 
 ## Key benefits

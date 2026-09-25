@@ -123,8 +123,8 @@ You can start a hosted verification by using the Identity Portal UI as follows:
 
 | Step| Screenshot |
 | --- | ---------- |
-| On the _Workflows_ page, click on the workflow whose verification process you want to view.<br/>That will open that workflow's _Funnel_ page. | ![](../images/Workflows_page_-_workflow_selected.png) |
-| On the _Funnel_ page, click the **Launch Workflow** button. | ![](../images/Funnel_-_Launch_workflow_button.png) |
+| On the _Workflows_ page, click on the workflow whose verification process you want to view.<br/>That will open that workflow's _Funnel_ page. | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Atelio_workflows-page-workflow-selected.png) |
+| On the _Funnel_ page, click the **Launch Workflow** button. | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Atelio_funnel-launch-workflow-button.png) |
 | The page that opens contains the Hosted URL.<br/>Use the Hosted URL to integrate into your workflow, such as a redirect, shareable link, pop up new window, etc. |  |
 
 ### Via API / Postman
@@ -133,6 +133,6 @@ You can use Postman by manually enter the shared Postman request with the postma
 
 | Step| Screenshot |
 | --- | ---------- |
-| Once the flow is created, it will have a unique flow ID, which is located on the Developer details page tab.<br/>Click the copy icon to the right of the Flow ID as it will be required to create a hosted verification via the API in the next step. | ![](../images/IdentityPortal_-_Developer_-_FlowID_cropped.png) |
-| You can start a hosted verification by calling the [hosted-flowcreate](https://docs.atelio.com/embedded/reference/hosted-flowcreate) API as using the flow ID from the previous step.<br/>If the hosted verification request is successful, the response body returns a `hostedFlowUri` field. | ![](../images/Create_Hosted_Verification_Instance.png) |
+| Once the flow is created, it will have a unique flow ID, which is located on the Developer details page tab.<br/>Click the copy icon to the right of the Flow ID as it will be required to create a hosted verification via the API in the next step. | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Atelio_identity-portal-developer-flowid-cropped.png) |
+| You can start a hosted verification by calling the [hosted-flowcreate](https://docs.atelio.com/embedded/reference/hosted-flowcreate) API as using the flow ID from the previous step.<br/>If the hosted verification request is successful, the response body returns a `hostedFlowUri` field. | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Atelio_create-hosted-verification-instance.png) |
 | This URI is the entry point for the customer undergoing verification<br/>Navigate to the `hostedFlowUri` as returned in the response body of the hosted verification creation and use it to integrate into your workflow, such as a redirect, shareable link, pop-up new window, etc. | The code on your _Body_ screen will differ. |

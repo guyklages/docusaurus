@@ -55,12 +55,12 @@ The hosted verification allows you to see the outcomes that an individual would 
 
 | Step | Screenshot |
 | ---- | ---------- |
-| Open the workflow just created, then on the _Overview_ page, click **Launch Workflow**. | ![](../images/Workflow_-_Funnel_-_Launch_Workflow.png) |
-| The sandbox environment allows you to simulate different verification outcomes using predefined signals, allowing you to test and explore the full range of possible scenarios.<br/>Select your desired outcome:<br/>- Application denied<br/>- Application approved<br/>- Application manual reviewed<br/>Then click **Continue**. | ![](../images/Customer_Flow_Outcome_dropdown.png) |
-| Mock Bank is the name of the bank simulating the verification.<br/>To start, enter your email address and North American phone number.<br/>Then click **Continue**. | ![](../images/Customer_Flow_Outcome.png) |
-| Enter any six-digit number.<br/>Note: Two-factor authentication (OTP SMS) is turned off in the sandbox environment.<br/>Click **Confirm** and then **Confirm** again. | ![](../images/Two-factor_authentication.png) |
-| On the _Provide your information_ page, enter sample data in the following fields:<br/>- Given name<br/>- Family name<br/>- Date of birth<br/>- Social Security Number<br/>Then click **Continue**. | ![](../images/Provide_your_info.png) |
-| On the _Identity Verification_ page, use your mobile phone's camera and point it at the QR code.<br/>That will open a _Capture or upload ID_ page on your mobile.<br/>On your mobile phone:<br/>- Click **Choose method** and then **Continue**.<br/>- Scroll down to agree.<br/>- Allow access to the camera.<br/>Then you are redirected to the website you entered when you created your workflow. | ![](../images/Ident_Ver__QR.png) |
+| Open the workflow just created, then on the _Overview_ page, click **Launch Workflow**. | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Atelio_workflow-funnel-launch-workflow.png) |
+| The sandbox environment allows you to simulate different verification outcomes using predefined signals, allowing you to test and explore the full range of possible scenarios.<br/>Select your desired outcome:<br/>- Application denied<br/>- Application approved<br/>- Application manual reviewed<br/>Then click **Continue**. | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Atelio_customer-flow-outcome-dropdown.png) |
+| Mock Bank is the name of the bank simulating the verification.<br/>To start, enter your email address and North American phone number.<br/>Then click **Continue**. | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Atelio_customer-flow-outcome.png) |
+| Enter any six-digit number.<br/>Note: Two-factor authentication (OTP SMS) is turned off in the sandbox environment.<br/>Click **Confirm** and then **Confirm** again. | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Atelio_two-factor-authentication.png) |
+| On the _Provide your information_ page, enter sample data in the following fields:<br/>- Given name<br/>- Family name<br/>- Date of birth<br/>- Social Security Number<br/>Then click **Continue**. | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Atelio_provide-your-info.png) |
+| On the _Identity Verification_ page, use your mobile phone's camera and point it at the QR code.<br/>That will open a _Capture or upload ID_ page on your mobile.<br/>On your mobile phone:<br/>- Click **Choose method** and then **Continue**.<br/>- Scroll down to agree.<br/>- Allow access to the camera.<br/>Then you are redirected to the website you entered when you created your workflow. | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Atelio_identity-ver-qr.png) |
 | Go back to your identity portal workflow to view the results. |  |
 
 ## Check the verification result
@@ -71,7 +71,7 @@ Once the hosted verification experience is completed, the transaction shows up i
 
 Go to **Workflows> Activity** to see verification requests by a customer of a brand.
 
-![](../images/Workflows_left-nav_-_Activity.png)
+![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Atelio_workflows-left-nav-activity.png)
 
 ### Verification request details
 
@@ -81,19 +81,19 @@ Click on a verification request to see its details:
 - Which signals were gathered
 - The status of each step (Approved, Pending, or Denied)
 
-![](../images/FlowStart_Fraud.png)
+![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Atelio_flow-start-fraud.png)
 
 ### Case alert
 
 If a Case Alert is created during a verification, the transaction details will include a link to the relevant Alert.
 
-![](../images/FlowStart_CasePending.png)
+![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Atelio_flow-start-case-pending.png)
 
 Clicking **View Case** opens the [Case Details page](https://docs.atelio.com/embedded/docs/identity-user-guide#case-details-page).
 
 ### Case Details page
 
-![](../images/Case_Mgmt_-_Case_details_-_status_Pending.png)
+![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Atelio_case-mgmt-case-details-status-pending.png)
 
 The upper-right dropdown displays the current case _status_:
 
@@ -116,11 +116,11 @@ The _Case Management_ page contains the following sub-pages:
 | Recent cases   | A history of cases you recently viewed. |
 | Closed cases   | A list of all cases that have been closed. |
 
-![](../images/Case_Mgmt_-_Active_Cases.png)
+![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Atelio_case-mgmt-active-cases.png)
 
 Clicking on a single case opens that case's details page:
 
-![](../images/Case_Details_page.png)
+![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Atelio_case-details-page.png)
 
 ## Forms of identity accepted
 

@@ -12,7 +12,7 @@ Diagram of the Comprehensive Outsourcing Services (COS) tax inquiry process
 
 Flowchart of their textbook creation process.
 
-![Talk Group](../../static/img/TalkGroup_textbook-flowchart.png)
+![Talk Group](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Diagrams+Charts/TalkGroup_textbook-flowchart.png)
 
 ## Railroad diagrams
 

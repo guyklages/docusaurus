@@ -5,7 +5,7 @@ authors: [guyklages]
 tags: [seattle, celebrity]
 ---
 
-<img src="/img/Guy-Wulai-bungee-jump.jpg" alt="Guy (Wulai) bungee jumping" width="177" height="246" />
+<img src="https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Guy-Wulai-bungee-jump.jpg" alt="Guy (Wulai) bungee jumping" width="177" height="246" />
 
 ## Introduction
 

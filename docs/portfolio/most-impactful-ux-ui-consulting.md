@@ -59,7 +59,7 @@
 | Before  | After  |
 |---------|--------|
 | I was given text for translation. | I reduced the translation cost by removing the repeated phrases while making it easier-to-read by converting the paragraphs into a table. |
-| ![Before](../../static/img/Pristine_2pg-to-1pg-table_BEFORE.png) | ![After](../../static/img/Pristine_2pg-to-1pg-table_AFTER.png) |
+| ![Before](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/BEFORE-and-AFTER/Pristine_2pg-to-1pg-table_BEFORE.png) | ![After](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/BEFORE-and-AFTER/Pristine_2pg-to-1pg-table_AFTER.png) |
 | | RESULTS: <br/> By reducing the number of words, translation costs reduced by 85%. |
 
 

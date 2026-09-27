@@ -130,7 +130,7 @@
 | Before (Apr 2017) | After (May 2017) |
 |-------------------|------------------|
 | PROBLEM: <br/> Two&nbsp;VPs&nbsp;had&nbsp;opposing&nbsp;priorities&nbsp;for&nbsp;me to document: <br/> - Engineering VP wants v4 features <br/> - Product VP wants improved v3 docs <br/> - Every _day_ they overrode the other <br/> | MY SOLUTION: <br/> Google Analytics <br/> <br/> It was clear: <br/> - About 85% of the documention pages viewed were v3 <br/> - Which pages customers viewed the most <br/> - Which pages customers looked at the longest <br/><br/> So, I knew exactly how to prioritize which page to improve next. |
-| | ![After](../../static/img/Couchbase_Google-Analytics-of-doc-pages.png) |
+| | ![After](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Image/Couchbase_Google-Analytics-of-doc-pages.png) |
 | | I paused the v4 work and applied the same improvements (explanations and examples) to the v3 pages first, then propagated those same edits forward to v4 once the version people were actually using was in good shape. <br/><br/> I learned that an IA built around "newest is most-used" is an assumption, not a fact, and the data should decide where effort goes. |
 
 ## 50% less time + fewer errors

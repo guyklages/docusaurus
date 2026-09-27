@@ -18,11 +18,11 @@ Flowchart of their textbook creation process.
 
 ### Couchbase
 
-![Range](../../static/img/Couchbase_railroad_range.png)
+![Range](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Diagrams+Charts/Couchbase_railroad_range.png)
 
-![Range condition](../../static/img/Couchbase_railroad_range-condition.png)
+![Range condition](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Diagrams+Charts/Couchbase_railroad_range-condition.png)
 
-![Field expression](../../static/img/Couchbase_railroad_field-expression.png)
+![Field expression](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Diagrams+Charts/Couchbase_railroad_field-expression.png)
 
 ## CorelDraw freehand
 

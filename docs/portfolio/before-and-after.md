@@ -11,35 +11,35 @@ For a list of items that had a measurable impact, see the **[most impactful UX/U
 | Before  | After  |
 |---------|--------|
 | Couchbase's reserved words were listed horizontally. | I moved the words to be listed vertically with space between initial letters. |
-| ![](../../static/img/Couchbase_Reserved-words_BEFORE.png) | ![](../../static/img/Couchbase_Reserved-words_AFTER.png) |
+| ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/BEFORE-and-AFTER/Couchbase_Reserved-words_BEFORE.png) | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/BEFORE-and-AFTER/Couchbase_Reserved-words_AFTER.png) |
 
 ### Color-coded system table
 
 | Before  | After  |
 |---------|--------|
 | PROBLEM: <br/> Couchbase's website contained a description of the system tables in a way that wasn't easy to read nor scan. | MY SOLUTION: <br/> I converted their original layout to a color-coded table while keeping the same text. |
-| ![](../../static/img/Couchbase_system-table_BEFORE.png) | ![](../../static/img/Couchbase_system-table_AFTER.png) |
+| ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/BEFORE-and-AFTER/Couchbase_system-table_BEFORE.png) | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/BEFORE-and-AFTER/Couchbase_system-table_AFTER.png) |
 
 ### MNQ settings
 
 | Before  | After  |
 |---------|--------|
 | PROBLEM: <br/> The original text on Couchbase's website was a hard-to-read wall of text. | MY SOLUTION: <br/> I moved the text into a table. |
-| ![](../../static/img/Couchbase_MNQ-settings_BEFORE.png) | ![](../../static/img/Couchbase_MNQ-settings_AFTER.png) |
+| ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/BEFORE-and-AFTER/Couchbase_MNQ-settings_BEFORE.png) | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/BEFORE-and-AFTER/Couchbase_MNQ-settings_AFTER.png) |
 
 ### A tale of two code blocks
 
 | Before  | After  |
 |---------|--------|
 | PROBLEM: <br/> The original text on Couchbase's site required a lot of scrolling up and down to compare the two code versions, and the changes weren't evident. | MY SOLUTION: <br/> I placed the code blocks side by side and bolded the changed lines. |
-| ![](../../static/img/Couchbase_2-codeblocks_BEFORE.png) | ![](../../static/img/Couchbase_2-codeblocks_AFTER.png) |
+| ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/BEFORE-and-AFTER/Couchbase_2-codeblocks_BEFORE.png) | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/BEFORE-and-AFTER/Couchbase_2-codeblocks_AFTER.png) |
 
 ### Interview challenge
 
 | Before  | After  |
 |---------|--------|
 | During my Couchbase interview, my interviewer gave me 30 minutes to improve a website's page to be more readable and easier to understand. | I replaced the original wall of text with a graph and tables that show the concepts more clearly. |
-| ![](../../static/img/Couchbase_submillisecond-latencies_BEFORE.png) | ![](../../static/img/Couchbase_submillisecond-latencies_AFTER.png) |
+| ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/BEFORE-and-AFTER/Couchbase_submillisecond-latencies_BEFORE.png) | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/BEFORE-and-AFTERCouchbase_submillisecond-latencies_AFTER.png) |
 
 
 ## Apple

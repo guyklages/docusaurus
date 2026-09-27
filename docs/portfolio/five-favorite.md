@@ -22,14 +22,14 @@
 | Before  | After  |
 |---------|--------|
 | Their website contained a description of the system tables in a way that wasn't easy to read nor scan. | I converted their original layout to a color-coded table while keeping the same text. |
-| ![](../../static/img/Couchbase_system-table_BEFORE.png) | ![](../../static/img/Couchbase_system-table_AFTER.png) |
+| ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/BEFORE-and-AFTER/Couchbase_system-table_BEFORE.png) | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/BEFORE-and-AFTER/Couchbase_system-table_AFTER.png) |
 
 #### Interview challenge
 
 | Before  | After  |
 |---------|--------|
 | During my Couchbase interview, the manager gave me 30 minutes to improve their website's page to be more readable and easier to understand. | I quickly made a graph and tables to show the concepts more clearly than the original wall of text. |
-| ![](../../static/img/Couchbase_submillisecond-latencies_BEFORE.png) | ![](../../static/img/Couchbase_submillisecond-latencies_AFTER.png) |
+| ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/BEFORE-and-AFTER/Couchbase_submillisecond-latencies_BEFORE.png) | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/BEFORE-and-AFTER/Couchbase_submillisecond-latencies_AFTER.png) |
 
 
 ### TEDx Adventures

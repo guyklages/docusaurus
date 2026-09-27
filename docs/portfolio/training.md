@@ -88,7 +88,7 @@ import { DefinitionProvider, DefTerm, DefinitionPanel } from '@site/src/componen
 
 | Description | Example |
 |-------------|---------|
-| **VA Medical Center (2011-2013) Boston <br/> <br/> Audience** <br/> Clinical trial PMs (non-technical) <br/> <br/> **Deliverables** <br/> Technical documents and class materials for their in-house clinical trial software <br/> <br/> **Method** <br/> Provided Instructor Led Training (ILT) and Virtual Classroom Training (VCT) on their eDC software. <br/> <br/> **Tools** <br/> MS Word, Excel, Visio, Powerpoint, Access, SQL Server, SharePoint, Captivate | ![VA](../../static/img/VA_eDC-software.png) |
+| **VA Medical Center (2011-2013) Boston <br/> <br/> Audience** <br/> Clinical trial PMs (non-technical) <br/> <br/> **Deliverables** <br/> Technical documents and class materials for their in-house clinical trial software <br/> <br/> **Method** <br/> Provided Instructor Led Training (ILT) and Virtual Classroom Training (VCT) on their eDC software. <br/> <br/> **Tools** <br/> MS Word, Excel, Visio, Powerpoint, Access, SQL Server, SharePoint, Captivate | ![VA](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/VA_eDC-software.png) |
 
 
 ### Payroll reporting

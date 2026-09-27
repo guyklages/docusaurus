@@ -23,7 +23,7 @@
 | Before  | After  |
 |---------|--------|
 | PROBLEM: <br/> New clients were unable to onboard themselves due to the unclear method to them--even to Nium. <br/> <br/> Each region (AU, EU, HK, SG, UK, US) contains five very complex spreadsheets describing various steps of onboarding for various client types and situations: | MY SOLUTION: <br/> I created **[a clear onboarding process with sections of customer types](https://docs.nium.com/docs/onboarding)** for common onboarding steps and for region-specific parameter and example pages. <br/> <br/> Immediately saw 70% more customers onboarded and 70% fewer Helpdesk requests for onboarding |
-| ![Before](../../static/img/Nium_onboarding-before.png) | ![After](../../static/img/Nium_onboarding-after.png) |
+| ![Before](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/BEFORE-and-AFTER/Nium_onboarding_BEFORE.png) | ![After](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/BEFORE-and-AFTER/Nium_onboarding_AFTER.png) |
 | For every 10 customers who tried to onboard: <br/> - 2 (20%) were successful <br/> - 8 (80%) filed helpdesk tickets. <br/><br/> After I created the onboarding process: <br/> - 9 (90%) were successful <br/> - 1 (10%) filed helpdesk tickets | Successful onboarding rose 70% <br/> while helpdesk tickets reduced by 70%. |
 
 
@@ -34,7 +34,7 @@
 | Before  | After  |
 |---------|--------|
 | PROBLEM: <br/> Pages were hastily written by engineers just to have "something" documented, for example: <br/> - &nbsp;1 pg [Payins](https://mpdocs.nium.com/payout-payin/pay-in---key-concepts) <br/> - 14 pg [Payouts](https://mpdocs.nium.com/payout-payin/Payout) <br/> ====== <br/> 15 pages total| MY SOLUTION: <br/> I revamped and authored pages with many more details and related concepts, for example: <br/> - 12 pg [Payins](https://docs.nium.com/docs/payins) <br/> - 19 pg [Payouts](https://docs.nium.com/docs/payouts) <br/> ====== <br/> 31 pages total |
-| ![Before](../../static/img/Nium_Payouts_BEFORE.png) | ![After](../../static/img/Nium_Payouts_AFTER.png) |
+| ![Before](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/BEFORE-and-AFTER/Nium_Payouts_BEFORE.png) | ![After](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/BEFORE-and-AFTER/Nium_Payouts_AFTER.png) |
 
 
 ## Mica Games

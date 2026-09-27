@@ -69,7 +69,7 @@ import { DefinitionProvider, DefTerm, DefinitionPanel } from '@site/src/componen
 
 | Description | Example |
 |-------------|---------|
-| **Nium (2022-2023) Bay Area <br/><br/> Audience** <br/> Fintech developers <br/><br/> **Deliverables** <br/> Curriculum and hands-on classes using a sandbox account to test Nium's API endpoints with customers' own app via API calls <br/><br/> **Method** In-person classes and live webinars <br/><br/> **Tools** <br/> PowerPoint and Zoom | ![Label](../../static/img/Nium_Payins_Customer-Virtual-Accts.png) |
+| **Nium (2022-2023) Bay Area <br/><br/> Audience** <br/> Fintech developers <br/><br/> **Deliverables** <br/> Curriculum and hands-on classes using a sandbox account to test Nium's API endpoints with customers' own app via API calls <br/><br/> **Method** In-person classes and live webinars <br/><br/> **Tools** <br/> PowerPoint and Zoom | ![Label](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Image/Nium_Payins_Customer-Virtual-Accts.png) |
 
 ### SQL++ queries and indexes
 

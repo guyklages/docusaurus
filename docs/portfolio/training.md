@@ -81,7 +81,7 @@ import { DefinitionProvider, DefTerm, DefinitionPanel } from '@site/src/componen
 
 | Description | Example |
 |-------------|---------|
-| **OpSec Security (2013) Boston <br/> <br/> Audience** <br/> OpSec Employees (non-technical) <br/> <br/> **Deliverables** <br/> Internal training videos with voiceover narration that explains the complex process of how OpSec makes their anti-counterfeiting labels <br/> <br/> **Method** <br/> Offline training videos <br/> <br/> **Tools** <br/> Adobe Captivate and Camtasia | ![Label](../../static/img/OpSec_Holographic-anti-counterfeiting-label.png) |
+| **OpSec Security (2013) Boston <br/> <br/> Audience** <br/> OpSec Employees (non-technical) <br/> <br/> **Deliverables** <br/> Internal training videos with voiceover narration that explains the complex process of how OpSec makes their anti-counterfeiting labels <br/> <br/> **Method** <br/> Offline training videos <br/> <br/> **Tools** <br/> Adobe Captivate and Camtasia | ![Label](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/OpSec_Holographic-anti-counterfeiting-label.png) |
 
 
 ### eDC for clinical trials

@@ -51,28 +51,28 @@ Apple's developer guides for the robots assembling iPads (left side) needed clar
 | Before  | After  |
 |---------|--------|
 | PROBLEM: <br/> The previous writer numbered the items, even though they weren't steps. | MY SOLUTION: <br/> I moved the text into five columns to be near the five sections they were describing. |
-| ![](../../static/img/Apple_user-guide-cam-header_BEFORE.png) | ![](../../static/img/Apple_user-guide-cam-header_AFTER.png) |
+| ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/BEFORE-and-AFTER/Apple_user-guide-cam-header_BEFORE.png) | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/BEFORE-and-AFTER/Apple_user-guide-cam-header_AFTER.png) |
 
 ### Quickstart CAM
 
 | Before  | After  |
 |---------|--------|
 | PROBLEM: <br/> It listed unnecessary steps while not having enough detail. | MY SOLUTION: <br/> I removed the unnecessary steps, added screenshots to clarify the descriptions, and elaborated some steps. |
-| ![](../../static/img/Apple_quick-start-cam_BEFORE.png) | ![](../../static/img/Apple_quick-start-cam_AFTER.png) |
+| ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/BEFORE-and-AFTER/Apple_quick-start-cam_BEFORE.png) | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/BEFORE-and-AFTER/Apple_quick-start-cam_AFTER.png) |
 
 ### Troubleshooting robot
 
 | Before  | After  |
 |---------|--------|
 | PROBLEM: <br/> The previous writer intermixed English and Chinese, which is hard to read. | MY SOLUTION: <br/> I moved the two languages into separate columns for easy scanning. |
-| ![](../../static/img/Apple_troubleshooting-robot-hardware_BEFORE.png) | ![](../../static/img/Apple_troubleshooting-robot-hardware_AFTER.png) |
+| ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/BEFORE-and-AFTER/Apple_troubleshooting-robot-hardware_BEFORE.png) | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/BEFORE-and-AFTER/Apple_troubleshooting-robot-hardware_AFTER.png) |
 
 ### System admin tool set
 
 | Before  | After  |
 |---------|--------|
 | PROBLEM: <br/> English and Chinese were intermixed and hard-to-read. | MY SOLUTION: <br/> I moved the two languages into separate columns for easy scanning. |
-| ![](../../static/img/Apple_sys-admin-Chinese-tool-set_BEFORE.png) | ![](../../static/img/Apple_sys-admin-Chinese-tool-set_AFTER.png) |
+| ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/BEFORE-and-AFTER/Apple_sys-admin-Chinese-tool-set_BEFORE.png) | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/BEFORE-and-AFTER/Apple_sys-admin-Chinese-tool-set_AFTER.png) |
 
 
 ## TEDx Adventures

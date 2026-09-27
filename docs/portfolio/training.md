@@ -95,7 +95,7 @@ import { DefinitionProvider, DefTerm, DefinitionPanel } from '@site/src/componen
 
 | Description | Example |
 |-------------|---------|
-| **ADP Payroll (2008-2011) Seattle <br/> <br/> Audience** <br/> Payroll Specialists (non-technical) <br/> <br/> **Deliverables** <br/> Training materials and curriculum for reporting of Garnishments, Payroll, AP/AR, GL, and Reimbursements <br/> <br/> **Method** <br/> Provided Instructor Led Training (ILT) and Virtual Classroom Training (VCT) <br/> <br/> **Tools** <br/> MS Word, Excel, Visio, Access, SQL Server, Captivate | ![ADP](../../static/img/ADP_COS-NSC-Tax-inquiry-process-diagram.png) |
+| **ADP Payroll (2008-2011) Seattle <br/> <br/> Audience** <br/> Payroll Specialists (non-technical) <br/> <br/> **Deliverables** <br/> Training materials and curriculum for reporting of Garnishments, Payroll, AP/AR, GL, and Reimbursements <br/> <br/> **Method** <br/> Provided Instructor Led Training (ILT) and Virtual Classroom Training (VCT) <br/> <br/> **Tools** <br/> MS Word, Excel, Visio, Access, SQL Server, Captivate | ![ADP](.https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Diagrams+Charts/ADP_COS-NSC-Tax-inquiry-process-diagram.png) |
 
 
 ### ESL, Excel

@@ -47,7 +47,7 @@
 
 | Before | After |
 |--------|-------|
-| PROBLEM: <br/> Web application ran very slow. <br/> <br/> Lead Engineer optimized the database table for _humans_: <br/> ![Before](../../static/img/HP_SqlServer_table_BEFORE.png) <br/> <br/> His code that queried the database: <br/> ![Before](../../static/img/HP_WarrantySQL_BEFORE.png) | MY SOLUTION: <br/> I re-designed the database table and code. <br/> <br/> I optimized the database table for _computers_: <br/> ![After](../../static/img/HP_SqlServer_table_AFTER.png) <br/> <br/> <br/> <br/> <br/> <br/> I re-wrote his code as: <br/> ![After](../../static/img/HP_WarrantySQL_AFTER.png) <br/><br/><br/> |
+| PROBLEM: <br/> Web application ran very slow. <br/> <br/> Lead Engineer optimized the database table for _humans_: <br/> ![Before](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/BEFORE-and-AFTER/HP_SqlServer_table_BEFORE.png) <br/> <br/> His code that queried the database: <br/> ![Before](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/BEFORE-and-AFTER/HP_WarrantySQL_BEFORE.png) | MY SOLUTION: <br/> I re-designed the database table and code. <br/> <br/> I optimized the database table for _computers_: <br/> ![After](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/BEFORE-and-AFTER/HP_SqlServer_table_AFTER.png) <br/> <br/> <br/> <br/> <br/> <br/> I re-wrote his code as: <br/> ![After](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/BEFORE-and-AFTER/HP_WarrantySQL_AFTER.png) <br/><br/><br/> |
 | `SELECT *` needs 2 network trips (1 for field list + 1 for field) <br/> `WHERE` clause requires scanning the whole table | RESULTS: <br/> My code ran about 12 times faster. |
 
 ## 75% increase in productivity

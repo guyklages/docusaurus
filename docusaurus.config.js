@@ -178,7 +178,7 @@ presets: [
           },
           {
             href: 'https://github.com/guyklages',
-            label: 'Guy Klages GitHub',
+            label: 'My GitHub',
             position: 'right',
           },
         ],

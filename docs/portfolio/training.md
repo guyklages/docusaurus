@@ -56,7 +56,7 @@ import { DefinitionProvider, DefTerm, DefinitionPanel } from '@site/src/componen
 
 | Description | Example |
 |-------------|---------|
-| **Edutainme (2015-2017) Bay Area <br/><br/> Audience** <br/> Technical writers <br/><br/> **Deliverables** <br/> Curriculum and hands-on classes using an address book example <br/><br/> **Tools** <br/> Swagger and PowerPoint <br/><br/> <a href="https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Edutainme_Swagger-addressbook-GetPostPut.png" target="_blank" rel="noopener noreferrer"><b>Screenshot in a new browser tab</b></a> | | <iframe src="https://docs.google.com/document/d/e/2PACX-1vSAFyqq2XqEuMWBQQDIl7dz2IlCzPeXTt-mDgf4ZekmjRsb_qXKvNpYons8GWn085jl6WMw4Yfvrw-X/pub?embedded=true" width="500" height="400"></iframe>|
+| **Edutainme (2015-2017) Bay Area <br/><br/> Audience** <br/> Technical writers <br/><br/> **Deliverables** <br/> Curriculum and hands-on classes using an address book example <br/><br/> **Tools** <br/> Swagger and PowerPoint <br/><br/> <a href="https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Edutainme_Swagger-addressbook-GetPostPut.png" target="_blank" rel="noopener noreferrer"><b>Screenshot in a new browser tab</b></a> | <iframe src="https://docs.google.com/document/d/e/2PACX-1vSAFyqq2XqEuMWBQQDIl7dz2IlCzPeXTt-mDgf4ZekmjRsb_qXKvNpYons8GWn085jl6WMw4Yfvrw-X/pub?embedded=true" width="500" height="400"></iframe>|
 
 
 ### Pay by Bank

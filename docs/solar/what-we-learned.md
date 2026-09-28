@@ -133,7 +133,7 @@ The routine I follow:
 | Time | Routine description |
 |------|---------------------|
 | 8pm  | After dinner and shower, I start charging our EV at 5 amps (1 kW) until our Powerwall2 SoC is ~50% (~10:00 PM), depending on how cloudy tomorrow will be. |
-| Noon | After our single Powerwall2 is charged 100%, I continue charging our EV 5 amps (1 kW) or higher when needed. |
+| Noon | After our single Powerwall2 is charged 100%, I continue charging our EV at 5 amps (1 kW) or higher when needed. |
 
 **Note:** After adding a second Powerwall2, we can charge our EV throughout the night and finish by 6am at 5 amps (1 kW).
 

@@ -20,7 +20,7 @@ Compared to fossil-fuel alternative, electric appliances have many benefits
 
 ### Performance and convenience
 
-- Induction stoves offer instant, _precise_ tempurature control matching gas performance
+- Induction stoves offer instant, _precise_ temperature control matching gas performance
 - Electric appliances feature advanced _scheduling_, remote _monitoring_, and automation
 - Electric mini-split systems allow customized temperatures for _individual rooms_
 - Electric systems have fewer moving parts, leading to _longer_ lifespans
@@ -28,7 +28,7 @@ Compared to fossil-fuel alternative, electric appliances have many benefits
 ## Heat Pump heater + A/C
 
 - The very quiet Heat Pump sits in the backyard, and the silent Air Handler sits in the attic.
-- This upgrade frees up the gas furnance closet.
+- This upgrade frees up the gas furnace closet.
 - We converted our gas furnace closet into a small pantry. 
 - Running our Heat Pump system Nov-Feb uses a lot of electricity but costs about half of our previous Nov-Feb gas bills + electric bills.
 
@@ -45,5 +45,5 @@ Compared to fossil-fuel alternative, electric appliances have many benefits
     - aluminum
     - ceramic
     - copper
-    - glass 
+    - glass
     - Pyrex

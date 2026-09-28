@@ -57,14 +57,14 @@ That is, install as many solar panels as you can afford.
 
 Solar generation fluctuates throughout the year, so summer months generate about 2.5x as much energy as winter months.
 
-![Seasonal kWh highs and lows](images/Seasonal-kWh-highs-and-lows.png)
+![Seasonal kWh highs and lows](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/Seasonal-kWh-highs-and-lows.png)
 
 This fluctuation creates:
 
 - a surplus of energy during summer months --> that is either stored in batteries or sold to the grid.
 - a deficit of energy during winter months --> that is drawn from the grid.
 
-<mark> So, if you size your solar array based on _annual_ kWh usage on your electric bills, then you won't have enough to power your home during a winter outtage --> you will be affected just like houses without solar panels. </mark> <br/>
+<mark> So, if you size your solar array based on _annual_ kWh usage on your electric bills, then you won't have enough to power your home during a winter outage --> you will be affected just like houses without solar panels. </mark> <br/>
 
 **The solution is to size your solar array on the single month that uses the most kWh and then multiply that number by 12 to calculate your "annual" usage**.
 
@@ -77,7 +77,7 @@ That will result in even more of a surplus during summer, which is good because:
 
 For example, in our case:
 
-![4 more panels for 2% more](images/4-more-panels-for-2-percent-more.png)
+![4 more panels for 2% more](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/4-more-panels-for-2-percent-more.png)
 
 If you have an EV made in 2024 or newer, your EV has bidirectional charging built-in. That means your home solar system needs only 1 battery because you can use your EV's huge battery to be your home's 2nd (and 3rd and 4th) solar battery.
 
@@ -89,12 +89,13 @@ If you have an EV made in 2024 or newer, your EV has bidirectional charging buil
 - 2024 EVs and newer have bi-directional charging and can be used as a 2nd battery.
 
 In the below graph:
+
 - X-axis denotes weeks.
 - Y-axis denotes the energy sources per our Tesla mobile app.
 
-![Energy sources with 1 Powerwall](./images/energy-sources_1-powerwall.png)
+![Energy sources with 1 Powerwall](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/energy-sources_1-powerwall.png)
 
-![Energy sources with 2 Powerwalls](./images/energy-sources_2-powerwalls.png)
+![Energy sources with 2 Powerwalls](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/energy-sources_2-powerwalls.png)
 
 Notes:
 
@@ -189,4 +190,4 @@ Plan ahead which electrical appliances you'll use, and schedule their use to avo
 
 The following is a graph of appliances' electrical use compared between 1, 2, and 3 Powerwall2 batteries:
 
-![Appliance kW usage versus 1, 2, and 3 Powerwalls](./images/appliance-kw-usage-1-2-3-powerwalls.png)
+![Appliance kW usage versus 1, 2, and 3 Powerwalls](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/appliance-kw-usage-1-2-3-powerwalls.png)

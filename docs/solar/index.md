@@ -52,4 +52,4 @@ So, we learned to use heavy appliances at different times--until we added a seco
 
 See the [Google Sheet](https://docs.google.com/spreadsheets/d/1CV9LrFKWhNUk9slJRivGu1AMsKdMoRpyalgDIWjQD4I/edit?gid=1108262833#gid=1108262833) that details the enormous savings that comes from converting to electric:
 
-![30-year comparison](./images/30-year-comparison.png)
+![30-year comparison](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/30-year-comparison.png)

@@ -67,7 +67,7 @@ When we finally got our first single-family house, we were thrilled to be free f
 
 Below is a graph of our utility bills before, during, and after solar panel installation--and a 2nd battery.
 
-![utility-bills](./images/electric-bills-2021-2026.png)
+![utility-bills](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/electric-bills-2021-2026.png)
 
 | 2021 | 2022 | 2023 | 2024 | 2025 |
 |------|------|------|------|------|

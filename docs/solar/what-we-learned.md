@@ -84,15 +84,15 @@ If you have an EV made in 2024 or newer, your EV has bidirectional charging buil
 
 ## 2nd battery avoids grid
 
-- During spring/summer/fall, one battery stays charged on sunny days but needs a second battery during non-sunny days.
-- Winter days absolutely need a 2nd battery or will draw from the grid.
+- During summer, one battery stays charged on sunny days but needs a second battery on non-sunny days.
+- Winter days will absolutely draw from the grid without a 2nd battery and a sufficient number of panels.
 - The [Powerwall3's 11 kW output](https://energylibrary.tesla.com/docs/Public/EnergyStorage/Powerwall/3/Datasheet/en-us/Powerwall-3-Datasheet.pdf) removes the need for a 2nd Powerwall2 during spring/summer/fall but not winter.
 - 2024 EVs and newer have bi-directional charging and can be used as a 2nd battery.
 
-In the below graph:
+The below graph shows data from our Tesla mobile app:
 
 - X-axis denotes weeks.
-- Y-axis denotes the energy sources per our Tesla mobile app.
+- Y-axis denotes the energy sources.
 
 ![Energy sources with 1 Powerwall](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/energy-sources_1-powerwall.png)
 
@@ -102,20 +102,20 @@ Notes:
 
 2022
 
-- Mar: a problem with the PW caused 3 weeks of grid usage that a 2nd PW would've helped.
-- Aug: a cheap 3rd-party Gateway breaker broke, causing 6 weeks of grid usage.
+- **Mar:** a problem with the PW caused 3 weeks of grid usage that a 2nd PW would've helped.
+- **Aug:** a cheap 3rd-party Gateway breaker broke, causing 6 weeks of grid usage.
 
 2023
 
-- Jan: we had two weeks of no grid usage because half of us weren't home.
-- Jul: we installed a second Powerwall2 which removed 99% of our grid usage in July and Aug.
-- Sep: we started charging our EV at home instead of the office.
-- Nov: we installed a Heat Pump.
+- **Jan:** we had two weeks of no grid usage because half of us weren't home.
+- **Jul:** we installed a second Powerwall2 which removed 99% of our grid usage in July and Aug.
+- **Sep:** we started charging our EV at home instead of the office.
+- **Nov:** we installed a Heat Pump.
 
 2024
 
-- Aug: we re-roofed (3 weeks) and moved 6 panels from our NW to SE roof.
-- Oct: a heat wave caused our Powerwalls to stop supplying power occasionally until they cooled down.
+- **Aug:** we re-roofed (3 weeks) and moved 6 panels from our NW to SE roof.
+- **Oct:** a heat wave caused our Powerwalls to stop supplying power occasionally until they cooled down.
 
 ## Charge EV slowly
 
@@ -192,3 +192,49 @@ Plan ahead which electrical appliances you'll use, and schedule their use to avo
 The following is a graph of appliances' electrical use compared between 1, 2, and 3 Powerwall2 batteries:
 
 ![Appliance kW usage versus 1, 2, and 3 Powerwalls](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/appliance-kw-usage-1-2-3-powerwalls.png)
+
+
+## No battery = lower bills, not $0
+
+Utility companies pay so little for your excess kWh, so accelerate your ROI by adding a battery.
+
+Below is a graph of our utility bills which shows the effects of our solar panels and heat pump.
+
+- **Dec 2021** &nbsp; &nbsp; &nbsp; We installed solar panels
+- **Dec 2023** &nbsp;&nbsp;&nbsp; We installed a heat pump
+
+![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/electric-bills-2021-2026.png)
+
+Noteworthy items in the graph:
+
+
+2021
+
+- Oct-Nov &nbsp; &nbsp; &nbsp;  washed and dried clothes at night; a lot more heating overnight.
+- Oct &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  installed solar panels (we didn't know they weren't approved yet) and charged EV at home overnight.
+- Dec &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  solar panels approved and started giving excess to the Grid.
+
+2022
+
+- Jan &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; added insulation to walls and attic.
+- Feb &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; upgraded to an electric water heater.
+- Mar &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; fixed the string issue, which increased production 40%.
+- Mar &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; charged EV overnight before learning afternoons are the best time to charge.
+- Feb-Apr &nbsp; &nbsp; &nbsp; electric water heater wasn't backed up (used the grid). It used 1 - 2 kWh/day.
+- Jul-Aug &nbsp; &nbsp; &nbsp; Powerwall was offline 3.5 weeks and used up all our electric bill credit.
+
+2023
+
+- July &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; installed 2nd Powerwall.
+- Aug &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; started charging EV at home instead of office.
+- Nov &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; upgraded gas furnace to electric heat pump.
+
+2024
+
+- Aug &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Two weeks to re-roof. Moved six panels from NW to SE side
+
+2025
+
+- Dec &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; lowered our thermostat from 68° to 66°.
+
+The following graph shows the kWh drawn from the grid and the ERG excess electricity given to the grid.

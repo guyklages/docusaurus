@@ -119,7 +119,7 @@ Notes:
 
 ## Charge EV slowly
 
-Although charging an EV at high kW speeds degrade the batteries only [1-2% over many years](https://www.google.com/search?q=how+much+does+supercharging+degrade+battery&oq=how+much+does+supercharging+de&gs_lcrp=EgZjaHJvbWUqCggAEAAYgAQYtAcyCggAEAAYgAQYtAcyBggBEEUYOTIICAIQABgWGB4yDQgDEAAYhgMYgAQYigUyDQgEEAAYhgMYgAQYigUyDQgFEAAYhgMYgAQYigUyCggGEAAYogQYiQXSAQkxMDE4NmowajeoAgCwAgA&sourceid=chrome&source=chrome.ob&ie=UTF-8), it's better to charge your EV at low kW (amperage) whenever possible for the benefits of charging at 1 kW:
+Although charging an EV at high kW speeds degrade the batteries only [1-2% over many years](https://www.google.com/search?q=how+much+does+supercharging+degrade+battery&oq=how+much+does+supercharging+de&gs_lcrp=EgZjaHJvbWUqCggAEAAYgAQYtAcyCggAEAAYgAQYtAcyBggBEEUYOTIICAIQABgWGB4yDQgDEAAYhgMYgAQYigUyDQgEEAAYhgMYgAQYigUyDQgFEAAYhgMYgAQYigUyCggGEAAYogQYiQXSAQkxMDE4NmowajeoAgCwAgA&sourceid=chrome&source=chrome.ob&ie=UTF-8), it's better to charge your EV at as few kW (amperage) as possible for the following benefits:
 
 - While using other appliances, it reduces your overall load and lowers the chance you'll draw from the grid.
 - Your Powerwall2 won't heat up as much and won't use a fan to cool down as much, and thus lasts longer.

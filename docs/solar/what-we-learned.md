@@ -200,8 +200,8 @@ Utility companies pay so little for your excess kWh, so accelerate your ROI by a
 
 Below is a graph of our utility bills which shows the effects of our solar panels and heat pump.
 
-- **Dec 2021** &nbsp; &nbsp; &nbsp; We installed solar panels
-- **Dec 2023** &nbsp;&nbsp;&nbsp; We installed a heat pump
+- Dec 2021 &nbsp; &nbsp; &nbsp; We installed solar panels
+- Dec 2023 &nbsp; &nbsp; &nbsp; We replaced our gas furnace with an electric heat pump
 
 ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/electric-bills-2021-2026.png)
 
@@ -210,22 +210,22 @@ Noteworthy items in the graph:
 
 2021
 
-- Oct-Nov &nbsp; &nbsp; &nbsp;  washed and dried clothes at night; a lot more heating overnight.
-- Oct &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  installed solar panels (we didn't know they weren't approved yet) and charged EV at home overnight.
-- Dec &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  solar panels approved and started giving excess to the Grid.
+- Oct-Nov &nbsp; &nbsp; &nbsp;  washed and dried clothes at night, draining the battery and drawing from the grid.
+- Oct &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; installed solar panels (didn't know they weren't approved yet) so charged EV overnight.
+- Dec &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; solar panels approved and started giving excess to the Grid.
 
 2022
 
-- Jan &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; added insulation to walls and attic.
-- Feb &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; upgraded to an electric water heater.
-- Mar &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; fixed the string issue, which increased production 40%.
-- Mar &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; charged EV overnight before learning afternoons are the best time to charge.
+- Jan &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; added insulation to walls and attic.
+- Feb &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; upgraded to an electric water heater.
+- Mar &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; fixed the string issue, which increased production 40%.
+- Mar &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; charged EV overnight before learning afternoons are the best time to charge.
 - Feb-Apr &nbsp; &nbsp; &nbsp; electric water heater wasn't backed up (used the grid). It used 1 - 2 kWh/day.
-- Jul-Aug &nbsp; &nbsp; &nbsp; Powerwall was offline 3.5 weeks and used up all our electric bill credit.
+- Jul-Aug &nbsp; &nbsp; &nbsp; Powerwall2 was offline 3.5 weeks and used up all our electric bill credit.
 
 2023
 
-- July &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; installed 2nd Powerwall.
+- July &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; installed 2nd Powerwall2.
 - Aug &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; started charging EV at home instead of office.
 - Nov &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; upgraded gas furnace to electric heat pump.
 
@@ -238,3 +238,26 @@ Noteworthy items in the graph:
 - Dec &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; lowered our thermostat from 68° to 66°.
 
 The following graph shows the kWh drawn from the grid and the ERG excess electricity given to the grid.
+
+
+## When to charge an EV
+
+- Charging overnight is convenient, but EV batteries are 5-7x larger than a Powerwall2--and will draw from the Grid.
+- If you must charge overnight, charge the minimum amount you'll need for the next day.
+- The best time to charge an EV is when your Powerwall is full and excess energy is going to the Grid.
+- Tesla's Charge On Sunshine automatically adjusts the amps charging your EV to match your excess kW.
+
+**Note:**  For longest EV battery life, keep EV batteries charged 50-80% and charge them slowly (1-5 kW).
+
+**Note:**  After charging (especially supercharging), return your setting to 1 kW (5 Amp) to avoid a jump in electric draw the next time you start charging your car; and increase slowly (1 Amp per 2-3 seconds) to avoid a "sudden jump" (Tesla calls it "Transition Period") that draws 0.1 - 1.5 kW from the Grid for 1-2 minutes.
+
+Charging also depends on your electric plan.
+
+For example, charging a Model Y from 30% to 80% would be adding 50% of its 75 kWh battery, which is **37.5 kWh** and would cost about:
+
+| Source plan | Bundle   | kWh cost  | Total cost | Time |
+|-------------|----------|-----------|------------|------|
+| Alameda Municipal Power flat-rate plan | Tier 1 (1-259 kWh) <br/> Tier 2 (260-337 kWh) <br/> Tier 3 (338-400 kWh) | $0.1165 <br/> $0.1886 <br/> $2857 | $43.9 <br/> $7.09 <br/> $10.73 | 8 hours @ 6 kW |
+| Alameda Municipal Power Time of Use plan | Peak (5-9pm Mon-Fri) <br/> Non-Peak (all other times) | $0.5000 <br/> $0.1386 | $18.75 <br/> $5.20 |  |
+| Tesla Supercharger                     |  | $0.50  | $18.75  | 25 minutes @ 65 kW |
+

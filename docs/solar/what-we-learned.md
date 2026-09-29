@@ -1,5 +1,7 @@
 # What we learned
 
+import { DefinitionProvider, DefTerm, DefinitionPanel } from '@site/src/components/DefTerm';
+
 ## If I could redo my setup
 
 Before installing panels:
@@ -243,16 +245,20 @@ The following graph shows the kWh drawn from the grid and the ERG excess electri
 
 Noteworthy items about this graph:
 
-2021
 
-- Oct &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; installed solar panels but had the highest electric use since we didn't know the panels weren't on.
-- Dec &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; solar panels activated and started giving to the grid, which drastically reduced our electric bill.
 
-2022
+<DefinitionProvider>
 
-- Feb &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; slight spike in kWh usage due to replacing gas water heater with an electric one.
-- Jul-Aug &nbsp; &nbsp; &nbsp; huge spike in kWh usage due to faulty gateway breaker and 3.5 weeks of no solar power.
-- Jan-Dec &nbsp; &nbsp; &nbsp; gradual reduction in drawing from the grid as we learned more about kW with 1 Powerwall.
+&nbsp; <DefTerm def="Installed solar panels, but had the highest electric use since we didn't know the panels weren't on.">Oct</DefTerm> 
+&nbsp; <DefTerm def="solar panels activated and started giving to the grid, which drastically reduced our electric bill.">Dec</DefTerm> 
+&nbsp; <DefTerm def="slight spike in kWh usage due to replacing gas water heater with an electric one.">Feb</DefTerm> 
+&nbsp; <DefTerm def="huge spike in kWh usage due to faulty gateway breaker and 3.5 weeks of no solar power.">Jul-Aug</DefTerm> 
+&nbsp; <DefTerm def="gradual reduction in drawing from the grid as we learned more about kW with 1 Powerwall.">Jan-Dec</DefTerm>
+
+<DefinitionPanel/>
+
+</DefinitionProvider>
+
 
 2023
 

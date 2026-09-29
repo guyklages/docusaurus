@@ -196,7 +196,7 @@ The following is a graph of appliances' electrical use compared between 1, 2, an
 ![Appliance kW usage versus 1, 2, and 3 Powerwalls](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/appliance-kw-usage-1-2-3-powerwalls.png)
 
 
-## No battery draws from the grid
+## No battery --> grid usage
 
 Utility companies pay so little for your excess kWh, so accelerate your ROI by adding a battery.
 

@@ -200,44 +200,13 @@ The following is a graph of appliances' electrical use compared between 1, 2, an
 
 Utility companies pay so little for your excess kWh, so accelerate your ROI by adding a battery.
 
-Below is a graph of our utility bills which shows the effects of our solar panels and heat pump.
+The below graphs show our utility bills and our journey to $0 utility bills:
 
-- Dec 2021 &nbsp; &nbsp; &nbsp; &nbsp; We installed solar panels
-- Dec 2023 &nbsp; &nbsp; &nbsp; We replaced our gas furnace with an electric heat pump
+Installed solar (Dec 2021) --> Home improvements gradually reduced bills --> Installed Heat pump (Dec 2023) --> Gradually reduced bills again.
 
-![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/electric-bills-2021-2026.png)
-
-Noteworthy items in the graph:
-
-
-2021
-
-- Oct-Nov &nbsp; &nbsp; &nbsp;  washed and dried clothes at night, draining the battery and drawing from the grid.
-- Oct &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; installed solar panels (didn't know they weren't approved yet) so charged EV overnight.
-- Dec &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; solar panels approved and started giving excess to the Grid.
-
-2022
-
-- Jan &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; added insulation to walls and attic.
-- Feb &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; upgraded to an electric water heater.
-- Mar &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; fixed the string issue, which increased production 40%.
-- Mar &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; charged EV overnight before learning afternoons are the best time to charge.
-- Feb-Apr &nbsp; &nbsp; &nbsp; electric water heater wasn't backed up (used the grid). It used 1 - 2 kWh/day.
-- Jul-Aug &nbsp; &nbsp; &nbsp; Powerwall2 was offline 3.5 weeks and used up all our electric bill credit.
-
-2023
-
-- July &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; installed 2nd Powerwall2.
-- Aug &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; started charging EV at home instead of office.
-- Nov &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; upgraded gas furnace to electric heat pump.
-
-2024
-
-- Aug &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Two weeks to re-roof. Moved six panels from NW to SE side
-
-2025
-
-- Dec &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; lowered our thermostat from 68° to 66°.
+| Graph of electric and gas bills                                                                | <div style={{ width: '350px' }}>Remarks</div> |
+|------------------------------------------------------------------------------------------------|-----------------------------------------------|
+| ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/electric-bills-2021-2026.png) | **2021** <br/> - Oct: laundry at night drained battery <br/> - Dec: solar panels approved <br/> **2022** <br/> - Jan: Insulated walls and attic <br/> - Feb: Installed electric water heater <br/> - Mar: Fixed string issue (40% increase) <br/> - Mar: charged EV [overnight incorrectly](#when-to-charge-evs) <br/> - Feb: electric water heater [wasn't backed up](./mistakes.md#get-whole-home-backup) <br/> - Jul: Powerwall2 was offline 3.5 weeks <br/> **2023** <br/> - Jul: Installed 2nd Powerwall2 <br/> - Aug: started charging EV at home <br/> - Nov: Installed electric heat pump <br/> **2024** <br/> - Aug: Re-roofed; moved six panels to SE <br/> **2025** <br/> - Dec: Lowered thermostat to 66° |
 
 | Graph of kWh drawn from the grid vs excess kWh given                                           | <div style={{ width: '350px' }}>Remarks</div> |
 |------------------------------------------------------------------------------------------------|-----------------------------------------------|
@@ -245,11 +214,16 @@ Noteworthy items in the graph:
 
 
 
-## When to charge an EV
+## When to charge EVs
+
+#### The way to charge overnight
 
 - Charging overnight is convenient, but EV batteries are 5-7x larger than a Powerwall2--and will draw from the Grid.
 - If you must charge overnight, charge the minimum amount you'll need for the next day.
-- The best time to charge an EV is when your Powerwall is full and excess energy is going to the Grid.
+
+#### The best time to charge
+
+- When your Powerwall is full and excess energy is going to the Grid.
 - Tesla's Charge On Sunshine automatically adjusts the amps charging your EV to match your excess kW.
 
 **Note:**  For longest EV battery life, keep EV batteries charged 50-80% and charge them slowly (1-5 kW).

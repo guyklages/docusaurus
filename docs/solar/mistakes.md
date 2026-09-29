@@ -45,7 +45,7 @@ When we finally got our first single-family house, we were thrilled to be free f
 
 ## During design
 
-### Get Whole home backup
+### Get Whole Home Backup
 
 | Mistake | Wasted <br/> money | Wasted <br/> days | Solution |
 |---------|:------------------:|:-----------------:|----------|

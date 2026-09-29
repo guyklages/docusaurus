@@ -202,7 +202,9 @@ Utility companies pay so little for your excess kWh, so accelerate your ROI by a
 
 The below graphs show our utility bills and our journey to $0 utility bills:
 
-Installed solar (Dec 2021) --> Home improvements gradually reduced bills --> Installed Heat pump (Dec 2023) --> Gradually reduced bills again.
+| 2021            | 2022                                      | 2023                | 2024-2025                     |
+|-----------------|-------------------------------------------|---------------------|-------------------------------|
+| Installed solar | Home improvements gradually reduced bills | Installed Heat pump | Gradually reduced bills again |
 
 | Graphs of bills and usage                                                                      | <div style={{ width: '350px' }}>Remarks</div> |
 |------------------------------------------------------------------------------------------------|-----------------------------------------------|

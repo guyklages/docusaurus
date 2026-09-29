@@ -194,13 +194,13 @@ The following is a graph of appliances' electrical use compared between 1, 2, an
 ![Appliance kW usage versus 1, 2, and 3 Powerwalls](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/appliance-kw-usage-1-2-3-powerwalls.png)
 
 
-## No battery = lower bills, not $0
+## No battery draws from the grid
 
 Utility companies pay so little for your excess kWh, so accelerate your ROI by adding a battery.
 
 Below is a graph of our utility bills which shows the effects of our solar panels and heat pump.
 
-- Dec 2021 &nbsp; &nbsp; &nbsp; We installed solar panels
+- Dec 2021 &nbsp; &nbsp; &nbsp; &nbsp; We installed solar panels
 - Dec 2023 &nbsp; &nbsp; &nbsp; We replaced our gas furnace with an electric heat pump
 
 ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/electric-bills-2021-2026.png)
@@ -211,7 +211,7 @@ Noteworthy items in the graph:
 2021
 
 - Oct-Nov &nbsp; &nbsp; &nbsp;  washed and dried clothes at night, draining the battery and drawing from the grid.
-- Oct &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; installed solar panels (didn't know they weren't approved yet) so charged EV overnight.
+- Oct &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; installed solar panels (didn't know they weren't approved yet) so charged EV overnight.
 - Dec &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; solar panels approved and started giving excess to the Grid.
 
 2022
@@ -219,7 +219,7 @@ Noteworthy items in the graph:
 - Jan &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; added insulation to walls and attic.
 - Feb &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; upgraded to an electric water heater.
 - Mar &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; fixed the string issue, which increased production 40%.
-- Mar &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; charged EV overnight before learning afternoons are the best time to charge.
+- Mar &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; charged EV overnight before learning afternoons are the best time to charge.
 - Feb-Apr &nbsp; &nbsp; &nbsp; electric water heater wasn't backed up (used the grid). It used 1 - 2 kWh/day.
 - Jul-Aug &nbsp; &nbsp; &nbsp; Powerwall2 was offline 3.5 weeks and used up all our electric bill credit.
 
@@ -238,6 +238,29 @@ Noteworthy items in the graph:
 - Dec &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; lowered our thermostat from 68° to 66°.
 
 The following graph shows the kWh drawn from the grid and the ERG excess electricity given to the grid.
+
+![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/kWh-used-given_2021-2026.png)
+
+Noteworthy items about this graph:
+
+2021
+
+- Oct &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; installed solar panels but had the highest electric use since we didn't know the panels weren't on.
+- Dec &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; solar panels activated and started giving to the grid, which drastically reduced our electric bill.
+
+2022
+
+- Feb &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; slight spike in kWh usage due to replacing gas water heater with an electric one.
+- Jul-Aug &nbsp; &nbsp; &nbsp; huge spike in kWh usage due to faulty gateway breaker and 3.5 weeks of no solar power.
+- Jan-Dec &nbsp; &nbsp; &nbsp; gradual reduction in drawing from the grid as we learned more about kW with 1 Powerwall.
+
+2023
+
+- July &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; added 2nd Powerwall, which lowered our draw from the grid to only 1%.
+
+2024
+
+- Aug &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2 weeks to re-roof. Moved 3 panels from NW to S, 3 panels from NW to SE side
 
 
 ## When to charge an EV

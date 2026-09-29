@@ -239,8 +239,8 @@ Noteworthy items in the graph:
 
 - Dec &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; lowered our thermostat from 68° to 66°.
 
-| Graph of kWh drawn from the grid vs excess kWh given | Remarks      |
-|------------------------------------------------------|--------------|
+| <div style={{ width: '450px' }}>Graph of kWh drawn from the grid vs excess kWh given</div>.    | Remarks      |
+|------------------------------------------------------------------------------------------------|--------------|
 | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/kWh-used-given_2021-2026.png) | 2021 <br/> - Oct: Installed but not activated <br/> - Dec: Activated (Don't increase usage until activated!) <br/> 2022 <br/> - Feb: Replaced water heater with electric one <br/> - Jul: Faulty gateway breaker; 3 weeks offline <br/> 2023 <br/> - Jul: Added 2nd Powerwall2 <br/> 2024 <br/> - Aug: 2 weeks to re-roof; moved 6 panels from NW to SE |
 
 

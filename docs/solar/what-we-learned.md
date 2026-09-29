@@ -229,7 +229,7 @@ For example, charging a Model Y from 30% to 80% would be adding 50% of its 75 kW
 
 | Source plan | Bundle   | kWh cost  | Total cost | Time |
 |-------------|----------|-----------|------------|------|
-| Alameda Municipal Power <br/> Flat-rate plan | Tier 1 (1-259 kWh) <br/> Tier 2 (260-337 kWh) <br/> Tier 3 (338-400 kWh) | $0.1165 <br/> $0.1886 <br/> $2857 | $43.9 <br/> $7.09 <br/> $10.73 | 8 hours @ 6 kW |
-| Alameda Municipal Power <br/> Time-of-Use plan | Peak (5-9pm Mon-Fri) <br/> Non-Peak (all other times) | $0.5000 <br/> $0.1386 | $18.75 <br/> $5.20 |  |
+| Alameda Municipal Power <br/> Flat-rate plan | Tier 1 (1-259 kWh) <br/> Tier 2 (260-337 kWh) <br/> Tier 3 (338-400 kWh) | $0.1165 <br/> $0.1886 <br/> $0.2857 | $ 4.39 <br/> $ 7.09 <br/> $10.73 | 8 hours @ 6 kW |
+| Alameda Municipal Power <br/> Time-of-Use plan | Peak (5-9pm Mon-Fri) <br/> Non-Peak (all other times) | $0.5000 <br/> $0.1386 | $18.75 <br/> $ 5.20 | 8 hours @ 6 kW |
 | Tesla Supercharger                     |  | $0.50  | $18.75  | 25 minutes @ 65 kW |
 

@@ -206,7 +206,7 @@ The below graphs show our utility bills and our journey to $0 utility bills:
 |-----------------|-------------------------------------------|---------------------|-------------------------------|
 | Installed solar | Home improvements gradually reduced bills | Installed Heat pump | Gradually reduced bills again |
 
-| Graphs of bills and usage                                                                      | <div style={{ width: '350px' }}>Remarks</div> |
+| Graphs of bills and usage                                                                      | <div style={{ width: '400px' }}>Remarks</div> |
 |------------------------------------------------------------------------------------------------|-----------------------------------------------|
 | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/electric-bills-2021-2026.png) <br/><br/> ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/kWh-used-given_2021-2026.png) | **2021** <br/> - Oct: Solar installed; didn't know not activated <br/> - Nov: Laundry at night drained battery <br/> - Dec: solar panels activated <br/> **2022** <br/> - Jan: Insulated walls and attic <br/> - Feb: Replaced water heater with electric one <br/> - Mar: Fixed string issue (40% increase) <br/> - Mar: charged EV [overnight incorrectly](#when-to-charge-evs) <br/> - Feb: electric water heater [wasn't backed up](./mistakes.md#get-whole-home-backup) <br/> - Jul: Faulty gateway breaker; 3.5 weeks offline <br/> **2023** <br/> - Jul: Installed 2nd Powerwall2 <br/> - Aug: started charging EV at home <br/> - Nov: Installed electric heat pump <br/> **2024** <br/> - Aug: Re-roofed; moved six panels to SE <br/> **2025** <br/> - Dec: Lowered thermostat to 66° |
 

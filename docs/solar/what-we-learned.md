@@ -249,24 +249,21 @@ Noteworthy items about this graph:
 
 <DefinitionProvider>
 
+**21**
 &nbsp; <DefTerm def="Installed solar panels, but had the highest electric use since we didn't know the panels weren't on.">Oct</DefTerm> 
 &nbsp; <DefTerm def="solar panels activated and started giving to the grid, which drastically reduced our electric bill.">Dec</DefTerm> 
+**22**
 &nbsp; <DefTerm def="slight spike in kWh usage due to replacing gas water heater with an electric one.">Feb</DefTerm> 
 &nbsp; <DefTerm def="huge spike in kWh usage due to faulty gateway breaker and 3.5 weeks of no solar power.">Jul-Aug</DefTerm> 
 &nbsp; <DefTerm def="gradual reduction in drawing from the grid as we learned more about kW with 1 Powerwall.">Jan-Dec</DefTerm>
+**23**
+&nbsp; <DefTerm def="added 2nd Powerwall, which lowered our draw from the grid to only 1%.">Jul</DefTerm> 
+**24**
+&nbsp; <DefTerm def="2 weeks to re-roof. Moved 3 panels from NW to S, 3 panels from NW to SE side.">Aug</DefTerm>
 
 <DefinitionPanel/>
 
 </DefinitionProvider>
-
-
-2023
-
-- July &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; added 2nd Powerwall, which lowered our draw from the grid to only 1%.
-
-2024
-
-- Aug &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2 weeks to re-roof. Moved 3 panels from NW to S, 3 panels from NW to SE side
 
 
 ## When to charge an EV

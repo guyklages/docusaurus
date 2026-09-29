@@ -204,14 +204,9 @@ The below graphs show our utility bills and our journey to $0 utility bills:
 
 Installed solar (Dec 2021) --> Home improvements gradually reduced bills --> Installed Heat pump (Dec 2023) --> Gradually reduced bills again.
 
-| Graph of electric and gas bills                                                                | <div style={{ width: '350px' }}>Remarks</div> |
+| Graphs of bills and usage                                                                      | <div style={{ width: '350px' }}>Remarks</div> |
 |------------------------------------------------------------------------------------------------|-----------------------------------------------|
-| ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/electric-bills-2021-2026.png) <br/><br/> ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/kWh-used-given_2021-2026.png) | **2021** <br/> - Oct: laundry at night drained battery <br/> - Dec: solar panels approved <br/> **2022** <br/> - Jan: Insulated walls and attic <br/> - Feb: Installed electric water heater <br/> - Mar: Fixed string issue (40% increase) <br/> - Mar: charged EV [overnight incorrectly](#when-to-charge-evs) <br/> - Feb: electric water heater [wasn't backed up](./mistakes.md#get-whole-home-backup) <br/> - Jul: Powerwall2 was offline 3.5 weeks <br/> **2023** <br/> - Jul: Installed 2nd Powerwall2 <br/> - Aug: started charging EV at home <br/> - Nov: Installed electric heat pump <br/> **2024** <br/> - Aug: Re-roofed; moved six panels to SE <br/> **2025** <br/> - Dec: Lowered thermostat to 66° |
-
-| Graph of kWh drawn from the grid vs excess kWh given                                           | <div style={{ width: '350px' }}>Remarks</div> |
-|------------------------------------------------------------------------------------------------|-----------------------------------------------|
-| ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/kWh-used-given_2021-2026.png) | **2021** <br/> - Oct: Installed; didn't know not activated <br/> - Dec: Activated <br/> **2022** <br/> - Feb: Replaced water heater with electric one <br/> - Jul: Faulty gateway breaker; 3 weeks offline <br/> **2023** <br/> - Jul: Added 2nd Powerwall2 <br/> **2024** <br/> - Aug: Re-roofed; moved 6 panels to SE |
-
+| ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/electric-bills-2021-2026.png) <br/><br/> ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/kWh-used-given_2021-2026.png) | **2021** <br/> - Oct: Solar installed; didn't know not activated <br/> - Nov: Laundry at night drained battery <br/> - Dec: solar panels activated <br/> **2022** <br/> - Jan: Insulated walls and attic <br/> - Feb: Replaced water heater with electric one <br/> - Mar: Fixed string issue (40% increase) <br/> - Mar: charged EV [overnight incorrectly](#when-to-charge-evs) <br/> - Feb: electric water heater [wasn't backed up](./mistakes.md#get-whole-home-backup) <br/> - Jul: Faulty gateway breaker; 3.5 weeks offline <br/> **2023** <br/> - Jul: Installed 2nd Powerwall2 <br/> - Aug: started charging EV at home <br/> - Nov: Installed electric heat pump <br/> **2024** <br/> - Aug: Re-roofed; moved six panels to SE <br/> **2025** <br/> - Dec: Lowered thermostat to 66° |
 
 
 ## When to charge EVs

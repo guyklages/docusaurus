@@ -239,31 +239,10 @@ Noteworthy items in the graph:
 
 - Dec &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; lowered our thermostat from 68° to 66°.
 
-The following graph shows the kWh drawn from the grid and the ERG excess electricity given to the grid.
+| Graph of kWh drawn from the grid vs excess kWh given | Remarks      |
+|------------------------------------------------------|--------------|
+| ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/kWh-used-given_2021-2026.png) | 2021 <br/> - Oct: Installed but not activated <br/> - Dec: Activated (Don't increase usage until activated!) <br/> 2022 <br/> - Feb: Replaced water heater with electric one <br/> - Jul: Faulty gateway breaker; 3 weeks offline <br/> 2023 <br/> - Jul: Added 2nd Powerwall2 <br/> 2024 <br/> - Aug: 2 weeks to re-roof; moved 6 panels from NW to SE |
 
-![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/kWh-used-given_2021-2026.png)
-
-Noteworthy items about this graph:
-
-
-
-<DefinitionProvider>
-
-**21**
-&nbsp; <DefTerm def="Installed solar panels, but had the highest electric use since we didn't know the panels weren't on.">Oct</DefTerm> 
-&nbsp; <DefTerm def="solar panels activated and started giving to the grid, which drastically reduced our electric bill.">Dec</DefTerm> 
-**22**
-&nbsp; <DefTerm def="slight spike in kWh usage due to replacing gas water heater with an electric one.">Feb</DefTerm> 
-&nbsp; <DefTerm def="huge spike in kWh usage due to faulty gateway breaker and 3.5 weeks of no solar power.">Jul-Aug</DefTerm> 
-&nbsp; <DefTerm def="gradual reduction in drawing from the grid as we learned more about kW with 1 Powerwall.">Jan-Dec</DefTerm>
-**23**
-&nbsp; <DefTerm def="added 2nd Powerwall, which lowered our draw from the grid to only 1%.">Jul</DefTerm> 
-**24**
-&nbsp; <DefTerm def="2 weeks to re-roof. Moved 3 panels from NW to S, 3 panels from NW to SE side.">Aug</DefTerm>
-
-<DefinitionPanel/>
-
-</DefinitionProvider>
 
 
 ## When to charge an EV

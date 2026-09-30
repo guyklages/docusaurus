@@ -134,18 +134,26 @@ And utility companies want to charge a tax on top of that _free_ electricity (mo
 
 ## Solar advantages
 
+{/* TODO: link for "2 batteries last 3-4 rainy days" */}
+
 | Advantage                        | What most people don't know |
 |----------------------------------|-----------------------------|
 | Lowers/removes electric bills    | Bills will be $0/mo if you buy 2 Powerwall batteries to store excess energy. |
 | Improves home value <sup>1</sup> | A [2024 SolarReviews study](https://www.solarreviews.com/blog/do-solar-panels-increase-home-value) found that homes with solar panels sold for 6.8% more than homes without solar panels. |
 | Sells home faster <sup>1</sup>   | Homes with solar panels sell 20% faster. |
-| Blackout protection              | 1 battery lasts 1 rainy day (lasts all sunny days); <mark>2 batteries last 3-4 rainy days</mark> |
+| Blackout protection              | 1 battery lasts 1 rainy day (lasts all sunny days); 2 batteries last 3-4 rainy days. |
 | Charge EV during the day         | Solar reduces or eliminates your electric bill, so afternoon charging is free. |
 
 <sup>1</sup> The impact varies by location, system condition, and other factors.
 
 ## Solar disadvantages
 
+| Disadvantage               | What most people don't know |
+|----------------------------|-----------------------------|
+| Doesn't work on every roof | Almost any roof can host panels, only wood and slate cannot host panels. |
+| Can be expensive           | Down payment is about $2,000 and then about $160/mo for 10 years.        |
+| If your bill is less than $100/mo, then no need | Low bills currently don't need panels, but repeated drought years have lowered dam reservoirs, which many studies state will get worse, which will severely increase power prices within 1-3 years. Better to get panels before then. |
+| Roof must be less than 10 years old | 50-year shingles cost nearly the same as 30-year shingles: $10-20k, which will pay for themselves in 7-10 years. Solar panels degrade only 25% after 50 years. |
 
 ## Note to solar vendors
 

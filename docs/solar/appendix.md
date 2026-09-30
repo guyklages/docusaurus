@@ -132,6 +132,21 @@ With our 8.5 kW, an $8-per-kW tax would equate to $68/mo, which is ridiculous wh
 
 And utility companies want to charge a tax on top of that _free_ electricity (money) they receive every month--what??
 
+## Solar advantages
+
+| Advantage                        | What most people don't know |
+|----------------------------------|-----------------------------|
+| Lowers/removes electric bills    | Bills will be $0/mo if you buy 2 Powerwall batteries to store excess energy. |
+| Improves home value <sup>1</sup> | A [2024 SolarReviews study](https://www.solarreviews.com/blog/do-solar-panels-increase-home-value) found that homes with solar panels sold for 6.8% more than homes without solar panels. |
+| Sells home faster <sup>1</sup>   | Homes with solar panels sell 20% faster. |
+| Blackout protection              | 1 battery lasts 1 rainy day (lasts all sunny days); <mark>2 batteries last 3-4 rainy days</mark> |
+| Charge EV during the day         | Solar reduces or eliminates your electric bill, so afternoon charging is free. |
+
+<sup>1</sup> The impact varies by location, system condition, and other factors.
+
+## Solar disadvantages
+
+
 ## Note to solar vendors
 
 The following gripes are what we and friends have experienced with various solar vendors, so we hope all solar vendors keep these in mind.

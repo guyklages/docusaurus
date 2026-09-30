@@ -32,3 +32,11 @@ After upgrading our main panel and roof shingles, it took **121 days** from our 
 | 121 | Dec 23 | <mark>AMP approved connection to the grid and "Activated" (or "Powered On") our system. A.k.a. PTO - Permission to Operate.</mark> |
 | 187 | Feb 27 | First monthly payment to Tesla. |
 
+**Note:**
+
+- After purchasing, we just waited 3 weeks for a response; but calling would have shorted that wait.
+- After the Site Visit and Installation dates were set, we called daily for earlier days and got them.
+- Request your Solar Plans. We wasted 1 week because we didn't know they were waiting for us.
+- Make sure you have an Emergency E-Stop button installed before inspection to avoid wasting time.
+- If an inspector is late, call your City Permit Dept. Our inspection was canceled by an unknown contractor who mistakenly gave our project number instead of their client’s. Inspectors are very organized and prompt.
+- Alameda Power will automatically put you in ERG rates. For details, see [Rider-ERG-Effective-2022-7-1](https://www.alamedamp.com/DocumentCenter/View/1069/Rider-ERG-Effective-2022-7-1).

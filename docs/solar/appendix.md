@@ -87,3 +87,20 @@ We bought two Powerwall2s, and it's amazing how the Powerwall3 saves money and g
 | 24 Panels (9.6 kW) | `$ 2,200`  | `$ 2,200`  |
 |                    |  =======   |  =======   |
 | Total              | `$23,700`  | `$14,700`  |
+
+## Why be 100% self-powered
+
+As more people buy solar panels, the huge profits utility companies have had for decades shrink; and they are fighting back by raising rates and lowering buy-back rates to solar owners. Some utilities don't even pay cash but instead give a 60% credit to reduce future electric bills!
+
+The only way to avoid the UPC's monthly $50-70 tax on having solar panels is to install more panels and batteries in order to be completely self-reliant and cancel your electric service.
+
+With our 8.5 kW, an $8-per-kW tax would equate to $68/mo, which is ridiculous when considering the facts:
+
+- Our panels give an excess of 6,000 kWh annually:  a monthly average of 500 kWh of excess energy.
+- Our Utility company pays us $0.07 / kWh while charging $0.11 / kWh -- a profit of $0.04 per kWh.
+    - Tier 1 is 11.2 cents/kWh 
+    - Tier 2 is 18.9 cents/kWh (69% more than Tier 1)
+    - Tier 3 is 28.6 cents/kWh (51% more than Tier 2)
+- That's an average of 500 kWh/mo * $0.04 for an average of $20/mo that we give them. 
+
+And utility companies want to charge a tax on top of that _free_ electricity (money) they receive every month--what??

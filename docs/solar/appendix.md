@@ -107,7 +107,7 @@ This 30-year cost comparison is based on:
 - [KBB's 5-Year Cost To Own](https://www.kbb.com/new-cars/total-cost-of-ownership/) (x2 for 10yrs, x3 for 15yrs); [Carmax](https://www.carmax.com/cars/tesla) prices; [Depreciation](https://caredge.com/honda/depreciation) values.
 - [2013 Tesla Model S has driven 1,000,000 miles](https://driveteslacanada.ca/model-s/tesla-owner-hits-1-million-miles-1-69-million-km-in-his-2013-model-s/) and recent EVs have _much_ better technology.
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRiScXRTho2kP4M1twFpxL2zzskLDFBhZMCpZO5Xevxc38USdkz2J9J_DlNmjbOqLQZE50q_ISSuvek/pubhtml" width="800" height="400"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRiScXRTho2kP4M1twFpxL2zzskLDFBhZMCpZO5Xevxc38USdkz2J9J_DlNmjbOqLQZE50q_ISSuvek/pubhtml" width="900" height="600"></iframe>
 
 ## Why be 100% self-powered
 

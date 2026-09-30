@@ -14,7 +14,7 @@ After upgrading our main panel and roof shingles, it took **121 days** from our 
 
 | Day | Date &nbsp; &nbsp; | Step |
 |:---:|:------------------:|------|
-| 1   | Sep  1 | Went to [TeslaGoSolar.com/contact](TeslaGoSolar.com/contact) for a free quote. Tesla added documents to sign, made a solar design from satellite photos, and started filing permits. I accepted payment terms. |
+| 1   | Sep  1 | Went to [TeslaGoSolar.com/contact](https://TeslaGoSolar.com/contact) for a free quote. Tesla added documents to sign, made a solar design from satellite photos, and started filing permits. I accepted payment terms. |
 | 27  | Sep 27 | Received email: Site Visit scheduled for Oct 9 _(we called daily until we got an earlier one)_ |
 | 39  | Oct  2 | Site Visit took photos of our roof and garage and offered suggestions. |
 | 48  | Oct 11 | Tesla emailed: they are working to obtain permits needed for installation. |

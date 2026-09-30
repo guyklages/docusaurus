@@ -88,6 +88,27 @@ We bought two Powerwall2s, and it's amazing how the Powerwall3 saves money and g
 |                    |  =======   |  =======   |
 | Total              | `$23,700`  | `$14,700`  |
 
+## Lifestyle comparison
+
+Over a 30-year period:
+
+| Lifestyle   | Vehicles | Furnace+AC | Water heater | Powerwalls    | 30-year cost <br/> ($1,000) |
+|-------------|:--------:|:----------:|:------------:|:-------------:|:---------------------------:|
+| Traditional | gas      | gas        | gas          | 0             | $392 - $473 |
+| Hybrid      | gas+elec | gas+elec   | electric     | 1 (~20% grid) | $348 - $422 |
+| Green       | electric | electric   | electric     | 2 (~2% grid)  | $254 - $279 |
+
+This 30-year cost comparison is based on:
+
+- 2,000 sq.ft. home
+- 2 cars per household
+- solar panels and batteries are retail costs; each state has different rebates to lower those costs.
+- 1 Powerwall2 is $10,500; 2 Powerwall2s are $17,000; 3 Powerwall2s are $23,500.
+- [KBB's 5-Year Cost To Own](https://www.kbb.com/new-cars/total-cost-of-ownership/) (x2 for 10yrs, x3 for 15yrs); [Carmax](https://www.carmax.com/cars/tesla) prices; [Depreciation](https://caredge.com/honda/depreciation) values.
+- [2013 Tesla Model S has driven 1,000,000 miles](https://driveteslacanada.ca/model-s/tesla-owner-hits-1-million-miles-1-69-million-km-in-his-2013-model-s/) and recent EVs have _much_ better technology.
+
+<iframe src="https://docs.google.com/spreadsheets/d/1CV9LrFKWhNUk9slJRivGu1AMsKdMoRpyalgDIWjQD4I/edit?gid=1108262833#gid=1108262833" width="800" height="400"></iframe>
+
 ## Why be 100% self-powered
 
 As more people buy solar panels, the huge profits utility companies have had for decades shrink; and they are fighting back by raising rates and lowering buy-back rates to solar owners. Some utilities don't even pay cash but instead give a 60% credit to reduce future electric bills!

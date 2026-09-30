@@ -71,10 +71,12 @@ After upgrading our main panel and roof shingles, it took **190 days** from our 
 | 113 | Dec 15 | Tesla installed E-Stop; AMP inspected & signed our panel system. (10 min) <br/> Contractor called City Hall Permit Dept; final inspection 12/20 9-12:00. |
 | 118 | Dec 20 | Alameda City inspected (10 min) & signed inspection that AMP signed. <br/> I emailed photos of that to AMP for them to process (3-5 business days). |
 | 119 | Dec 21 |Tesla requested **$2,000 Down Payment**; I paid; Tesla will notify when processed. |
-| 121 | Dec 23 | <mark>AMP approved connection to the grid and Activated our system (Powered On; Permission-to-Operate)</mark> |
+| 121 | Dec 23 | <mark> AMP approved connection to the grid and Activated our system (Powered On; Permission-to-Operate) </mark> |
 | 187 | Feb 27 | First monthly payment to Tesla. |
 
 ## Breakdown of solar costs
+
+We bought two Powerwall2s, and it's amazing how the Powerwall3 saves money and garage space.
 
 | Item (with labor)  | Powerwall2 | Powerwall3       |
 |--------------------|:----------:|------------------|
@@ -83,5 +85,5 @@ After upgrading our main panel and roof shingles, it took **190 days** from our 
 | Inverter           | `$ 2,000`  | for a total of `$11,000`     |
 | Wires + conduits   | `$ 1,500`  | `$ 1,500`  |
 | 24 Panels (9.6 kW) | `$ 2,200`  | `$ 2,200`  |
-|                    | =========  | =========  |
+|                    | =======    | =======    |
 | Total              | `$24,700`  | `$14,700`  |

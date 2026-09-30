@@ -74,3 +74,14 @@ After upgrading our main panel and roof shingles, it took **190 days** from our 
 | 121 | Dec 23 | <mark>AMP approved connection to the grid and Activated our system (Powered On; Permission-to-Operate)</mark> |
 | 187 | Feb 27 | First monthly payment to Tesla. |
 
+## Breakdown of solar costs
+
+| Item (with labor)  | Powerwall2 | Powerwall3       |
+|--------------------|:----------:|------------------|
+| Battery            | `$11,000`  | A Powerwall3 combines        |
+| Gateway            | `$ 7,000`  | battery + gateway + inverter |
+| Inverter           | `$ 2,000`  | for a total of `$11,000`     |
+| Wires + conduits   | `$ 1,500`  | `$ 1,500`  |
+| 24 Panels (9.6 kW) | `$ 2,200`  | `$ 2,200`  |
+|                    | =========  | =========  |
+| Total              | `$24,700`  | `$14,700`  |

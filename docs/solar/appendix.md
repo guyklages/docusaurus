@@ -16,11 +16,11 @@ After upgrading our main panel, it took **121 days** from our call to Tesla unti
 
 **Lessons learned:**
 
-- There was no communication after the installation. You won't know what they are doing in the background unless you call Tesla.
+- There was no communication after the installation. You won't know their progress unless you call.
 - No payment is due until inspection is complete and powered on.
 
-| Day | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Step |
-|:---:|:----------------------------------:|------|
+| Day | Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Step |
+|:---:|:----------------------------------------:|------|
 | 1   | May 23 | Went to [TeslaGoSolar.com/contact](https://TeslaGoSolar.com/contact) for a free quote. I reviewed and accepted payment terms. Paid $250 via Credit Card. <br/><br/> Had to redo the whole process with a different email ID as I _forgot_ to use my friend's referral code. This was an important step to avoid needing to redo succeeding steps. |
 | 5   | May 27 | Tesla added documents to sign, and made a solar design (from satellite photos) and was waiting for me to accept the design. I highly recommend you review your roof at [Project Sunroof](https://sunroof.withgoogle.com/) to get the best possible design alterations, if needed. <br/><br/> I had to change the design, as I did not like the one they prepared where the panels were visible from the street and did not give me any real advantage of sun ray angles. <br/><br/> Submitted for Design Change the same day. |
 | 27  | Jun 10 | Design change accepted. Site review and visit scheduled. Was setup for 22 days after design acceptance date. |
@@ -41,7 +41,7 @@ After upgrading our main panel, it took **121 days** from our call to Tesla unti
 | 190 | Dec 27 | <mark> AMP approved connection to the grid and Activated our system (Powered On) </mark> |
 
 
-### Guy: 4 months (2021)
+### Klages: 4 months (2021)
 
 After upgrading our main panel and roof shingles, it took **190 days** from our call to Tesla until Alameda Municipal Power (AMP) approved our solar panels.
 

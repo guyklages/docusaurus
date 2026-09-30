@@ -28,7 +28,7 @@ After upgrading our main panel and roof shingles, it took **121 days** from our 
 | 107 | Dec  9 | Tesla inspector came and said we need an E-Stop (Emergency Stop button) installed first. |
 | 113 | Dec 15 | Tesla installed E-Stop; AMP inspected & signed our panel system. (10 min) <br/> Contractor called City Hall Permit Dept; final inspection 12/20 9-12:00. |
 | 118 | Dec 20 | Alameda City inspected (10 min) & signed inspection that AMP signed. <br/> I emailed photos of that to AMP for them to process (3-5 business days). |
-| 119 | Dec 21 |Tesla requested **$2k Down Payment**; I paid; Tesla will notify when processed. |
+| 119 | Dec 21 |Tesla requested **$2,000 Down Payment**; I paid; Tesla will notify when processed. |
 | 121 | Dec 23 | <mark>AMP approved connection to the grid and Activated (Powered On; Permission-to-Operate)</mark> |
 | 187 | Feb 27 | First monthly payment to Tesla. |
 

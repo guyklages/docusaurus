@@ -593,6 +593,11 @@ const sidebars = {
         },
       ]
     },
+    {
+      type: 'doc',
+      id: 'solar/appendix',
+      label: 'Appendix',
+    },
   ]
 };
 export default sidebars;

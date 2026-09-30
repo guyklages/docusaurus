@@ -2,7 +2,7 @@
 
 ## $400 Tesla Referral Code
 
-If you buy Tesla panels, use our code [https://ts.la/guy75624](https://ts.la/guy75624) to get a $400 reward after activation.
+If you buy Tesla panels, use our code [ts.la/guy75624](https://ts.la/guy75624) to get a $400 reward after activation.
 
 ## Find an electrician
 

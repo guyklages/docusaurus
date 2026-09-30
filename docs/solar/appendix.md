@@ -109,6 +109,12 @@ This 30-year cost comparison is based on:
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRiScXRTho2kP4M1twFpxL2zzskLDFBhZMCpZO5Xevxc38USdkz2J9J_DlNmjbOqLQZE50q_ISSuvek/pubhtml" width="900" height="600"></iframe>
 
+What We Like:
+
+- Now charging our cars at home during the afternoon instead of public stations at night.
+- No longer concerned about the cost for our backyard lights, holiday lights, pond pumps, robot-vacuum, and living room lights turned on 24/7.
+- Always having days of electricity during power outages.
+
 ## Why be 100% self-powered
 
 As more people buy solar panels, the huge profits utility companies have had for decades shrink; and they are fighting back by raising rates and lowering buy-back rates to solar owners. Some utilities don't even pay cash but instead give a 60% credit to reduce future electric bills!

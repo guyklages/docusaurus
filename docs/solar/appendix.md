@@ -85,5 +85,5 @@ We bought two Powerwall2s, and it's amazing how the Powerwall3 saves money and g
 | Inverter           | `$ 2,000`  | for a total of `$11,000`     |
 | Wires + conduits   | `$ 1,500`  | `$ 1,500`  |
 | 24 Panels (9.6 kW) | `$ 2,200`  | `$ 2,200`  |
-|                    | =======    | =======    |
-| Total              | `$24,700`  | `$14,700`  |
+|                    |  =======   |  =======   |
+| Total              | `$23,700`  | `$14,700`  |

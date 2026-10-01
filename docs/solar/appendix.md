@@ -155,6 +155,141 @@ And utility companies want to charge a tax on top of that _free_ electricity (mo
 | If your bill is less than $100/mo, then no need | Low bills currently don't need panels, but repeated drought years have lowered dam reservoirs, which many studies state will get worse, which will severely increase power prices within 1-3 years. Better to get panels before then. |
 | Roof must be less than 10 years old | 50-year shingles cost nearly the same as 30-year shingles: $10-20k, which will pay for themselves in 7-10 years. Solar panels degrade only 25% after 50 years. |
 
+## East Bay Green@Home Tour
+
+[Download the 2-page PDF](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Solar/East_Bay_Green@Home_Tour_FAQs.pdf)
+
+### Solar panels
+
+| How does the weather affect solar panel efficiency? |                                                                                        |
+|-----------------------------------------------------|----------------------------------------------------------------------------------------|
+| - **Clouds** reduce production by 10-60% <br/> - **Rain** reduces production by 50-80% <br/> - **Fog** reduces production by 70-90% <br/><br/> **How many solar panels do I need? <br/> - (January electri bill kWh * 12 months) / (400w panels) <br/> - About 20 to 26 (400-watt) panels for a 1400 sq.ft. home  | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio/Solar/Seasonal-kWh-production.png) |
+
+#### My roof isn't flat or east-west facing, is that ok?
+
+- That's fine. South is ideal, East/West is good, North is so-so but still useful.
+- Flat is best in summers due to high sun; almost vertical is best in winters due to low sun.
+
+#### Should I fix/replace the roof while considering solar panels? Should it be more reflective?
+
+- Yes, roofs last 30-40 years; solar panels last 50+ years.
+- It costs about $8,000 to remove and reinstall panels when updating your roof.
+- A lighter color roof reflects heat which keeps the solar panels cooler and more efficient.
+
+#### Are moveable solar panels effective/worth it?
+
+- Yes, and ground-mount panels are usually more effective than rooftop.
+- If you have space in your backyard, ground-mounted solar panels are better because:
+  - No need to pay for removal/reinstallation when fixing/upgrading your roof
+  - Easier to wash/rinse/clean and maintain
+- Dual-Axis Tracking panels are even more effective as the panels follow the sun during the day and seasons.
+
+#### How many amps do I need? Or is it Volts?
+
+- Ideally, your main panel should be 200 amps, no smaller than 150 amps (AMP has $1,500 rebate)
+
+#### Do I need a 240 Volt system?
+
+- No, solar panels do not require a 240-volt system to function. They draw what your home demands
+- Your solar inverter automatically synchronizes with the grid to supply both 120V and 240V.
+
+#### How does the energy buyback system work?
+
+- AMP gives credit for the excess kWh your system gives to the grid, which you'll use in winter.
+- Other electric companies pay cash for excess but at a much lower rate than they sell electricity.
+
+#### What happens when the power goes out?
+
+- If you don't have a battery, you immediately lose all power to your house--for safety.
+- If you do have a battery, your power is continuous, and you won't know there's an outage.
+
+### HVAC system
+
+#### How does an HVAC System work? How does it do both heating and cooling?
+
+- _(setting)_ A thermostat is used to regulate temperature.
+- _(cooling)_ A chemical called refrigerant is circulated between an outdoor unit and an indoor coil. The indoor coil absorbs heat from the air inside your home. The refrigerant then carries that heat outside.
+- _(heating)_ Heat Pumps operate like a reverse air conditioner. In the winter, it pulls residual heat energy from the cold outdoor air and transfers it inside.
+- _(filtering)_ The system forces air through your home, passing through filters that capture dust, allergens, and pollutants.
+
+#### Will the room I put the HVAC system in get super hot/cold?
+
+No. The heat pump is outside (usually backyard), and the air handler is in the attic.
+
+### Battery
+
+#### Can you survive without a battery in an outage?
+
+- No, panels turn off during an outage for safety, so you need a battery to power your home when there's no sun.
+
+#### Do you need a second battery?
+
+- No. Tesla's Powerwall3 supplies 11 kW of power, which can run all electric appliances simultaneously.
+- A second battery is needed for extended outages; 2024 EVs and newer can be your 2nd battery.
+
+#### Why would one need a backup battery?
+
+- When there's little or no sun: evenings, nights, winters, cloudy/rainy/foggy days, outages, or blackouts.
+
+### Electric Vehicles (EVs)
+
+### Do car chargers come with inverters?
+
+- Not needed since the inverter responsible for charging the battery is built inside the EV itself.
+
+#### Do fast chargers have more wear and tear on EV batteries than home chargers?
+
+- Very slightly. About 1-2% more than home chargers.
+
+#### Do EVs put more pressure/wear and tear on tires?
+
+- Yes. Due to the batteries, EVs weigh 20-30% more than equivalent ICE vehicles. ($800-1600 vs $400-1200)
+- EVs cost 40-50% less to maintain and repair over their lifetime compared to ICE vehicles. ($2000-4600 vs $9200-15000)
+
+#### Do EVs have as many lifetime carbon emissions as ICE vehicles?
+
+- No, EVs produce 50-70% fewer lifetime greenhouse gas emissions than ICE vehicles.
+
+### General
+
+#### How do I know my home's total amperage?
+
+- Open your electrical panel and find the main breaker switch (usually at the very top or bottom).
+- The amperage rating (e.g., 100, 150, 200) is printed right on the switch or on a label next to it.
+
+#### What happens during a power surge?
+
+- Nothing should happen, but a surge protector on expensive computers and appliances is suggested.
+
+### Electrify order
+
+It's expensive to convert everything to electric, what's the cheapest order it can be done?
+
+1. **EV** -- which you can fully charge for $0 at your office or $10-15 overnight at home or $15-20 at public chargers.
+  - Chevy Bolt is $300/mo to lease for 3 years; can lease longer; can buy it very discounted at lease end.
+  - _Important:_ Sell your ICE vehicle while there is still demand; it will be tough to sell ICE vehicles in a few years.
+
+2. **Electric main panel** upgrade to 200 Amps is about $3,000 - $4,000 (AMP has $1,500 rebate)
+
+3. **Replace all gas-powered appliances** in the order that fits your budget. (Heat pump makes the biggest difference)
+
+| Item           | Cost          | Federal tax credit           | AMP rebate    | PG&E rebate  |
+|----------------|---------------|------------------------------|---------------|--------------|
+| Heat pump + AC | $18,000       | $2,000                       | $1,500        | 0% financing |
+| Water heater   | $400 - $560   | 30% up to $2,000             | Up to $1,500  | 0% financing |
+| Washer + dryer | $700 - $2,500 | --                           | $400          | 0% financing |
+| Stove + oven   | $600 - $2,000 | $4,000 **with panel upgrade** <br/> $840 via HOMES program | $300 for cooktop <br/> $500 for range | 0% financing |
+| 1 kW battery   | $400 - $600   | $150 - $200 via SGIP program | --            | $300         |
+
+4. **(for free) PG&E removes your gas meter** and pours new concrete, which is important for solar system placement
+
+5. **Solar panels**
+
+- 9.6 kW (24 Tesla panels) + one Powerwall3 costs about $28,000 after rebates.
+- You can finance with a very low APR and pay about $270/mo; no penalty for paying off early.
+- You will break even in 6 - 8 years and then have free electricity for 50+ years.
+- Get a solar panel quote after having your January (highest) electric bill to multiply by 12 for a proper size.
+
 ## Note to solar vendors
 
 The following gripes are what we and friends have experienced with various solar vendors, so we hope all solar vendors keep these in mind.

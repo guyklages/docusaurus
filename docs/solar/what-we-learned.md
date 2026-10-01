@@ -59,7 +59,7 @@ That is, install as many solar panels as you can afford.
 
 Solar generation fluctuates throughout the year, so summer months generate about 2.5x as much energy as winter months.
 
-![Seasonal kWh highs and lows](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/Seasonal-kWh-highs-and-lows.png)
+![Seasonal kWh highs and lows](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/Seasonal-kWh-Production.png)
 
 This fluctuation creates:
 

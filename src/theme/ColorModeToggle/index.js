@@ -8,8 +8,25 @@ import useIsBrowser from '@docusaurus/useIsBrowser';
 import {translate} from '@docusaurus/Translate';
 import IconLightMode from '@theme/Icon/LightMode';
 import IconDarkMode from '@theme/Icon/DarkMode';
-import IconSystemColorMode from '@theme/Icon/SystemColorMode';
 import styles from './styles.module.css';
+
+// Monitor icon for the "System" option (replaces the default half-filled
+// circle). Stroke-based so it inherits the button's text color.
+function IconSystemColorMode(props) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      {...props}>
+      <rect x="2" y="3" width="20" height="14" rx="2" />
+      <path d="M8 21h8M12 17v4" />
+    </svg>
+  );
+}
 
 const OPTIONS = [
   {

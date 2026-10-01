@@ -208,7 +208,7 @@ And utility companies want to charge a tax on top of that _free_ electricity (mo
 #### How does an HVAC System work? How does it do both heating and cooling?
 
 - _(setting)_ A thermostat is used to regulate temperature.
-- _(cooling)_ A chemical called refrigerant is circulated between an outdoor unit and an indoor coil. The indoor coil absorbs heat from the air inside your home. The refrigerant then carries that heat outside.
+- _(cooling)_ A refrigerant is circulated between an outdoor unit and an indoor coil. The indoor coil absorbs heat from the air inside your home which the refrigerant carries outside.
 - _(heating)_ Heat Pumps operate like a reverse air conditioner. In the winter, it pulls residual heat energy from the cold outdoor air and transfers it inside.
 - _(filtering)_ The system forces air through your home, passing through filters that capture dust, allergens, and pollutants.
 

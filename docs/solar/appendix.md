@@ -241,7 +241,7 @@ And utility companies want to charge a tax on top of that _free_ electricity (mo
 
 - Very slightly. About 1-2% more than home chargers.
 
-#### Do EVs put more pressure/wear and tear on tires?
+#### Do EVs put more pressure or wear-and-tear on tires?
 
 - Yes. Due to the batteries, EVs weigh 20-30% more than equivalent ICE vehicles. ($800-1600 vs $400-1200)
 - EVs cost 40-50% less to maintain/repair over their lifetime compared to ICE vehicles. ($2000-4600 vs $9200-15000)

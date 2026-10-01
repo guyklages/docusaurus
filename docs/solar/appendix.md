@@ -157,7 +157,7 @@ And utility companies want to charge a tax on top of that _free_ electricity (mo
 
 ## East Bay Green@Home Tour
 
-[Download the 2-page PDF](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Solar/East_Bay_Green@Home_Tour_FAQs.pdf)
+[Download the 2-page PDF](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/East_Bay_Green@Home_Tour_FAQs.pdf)
 
 ### Solar panels
 

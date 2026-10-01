@@ -275,13 +275,13 @@ And utility companies want to charge a tax on top of that _free_ electricity (mo
 
 3. **Replace all gas-powered appliances** in the order that fits your budget. (Heat pump makes the biggest difference)
 
-| Item           | Cost          | Federal tax credit           | AMP rebate    | PG&E rebate  |
-|----------------|---------------|------------------------------|---------------|--------------|
-| Heat pump + AC | $18,000       | $2,000                       | $1,500        | 0% financing |
-| Water heater   | $400 - $560   | 30% up to $2,000             | Up to $1,500  | 0% financing |
-| Washer + dryer | $700 - $2,500 | --                           | $400          | 0% financing |
-| Stove + oven   | $600 - $2,000 | $4,000 **with panel upgrade** <br/> $840 via HOMES program | $300 for cooktop <br/> $500 for range | 0% financing |
-| 1 kW battery   | $400 - $600   | $150 - $200 via SGIP program | --            | $300         |
+    | Item           | Cost          | Federal tax credit           | AMP rebate    | PG&E rebate  |
+    |----------------|---------------|------------------------------|---------------|--------------|
+    | Heat pump + AC | $18,000       | $2,000                       | $1,500        | 0% financing |
+    | Water heater   | $400 - $560   | 30% up to $2,000             | Up to $1,500  | 0% financing |
+    | Washer + dryer | $700 - $2,500 | --                           | $400          | 0% financing |
+    | Stove + oven   | $600 - $2,000 | $4,000 **with panel upgrade** <br/> $840 via HOMES program | $300 for cooktop <br/> $500 for range | 0% financing |
+    | 1 kW battery   | $400 - $600   | $150 - $200 via SGIP program | --            | $300         |
 
 4. **(for free) PG&E removes your gas meter** and pours new concrete, which is important for solar system placement
 

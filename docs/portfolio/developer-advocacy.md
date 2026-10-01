@@ -1,19 +1,31 @@
 # Developer advocacy
 
-## Talks
+## Event hosting
 
-#### Nium
+#### Atelio (2024-2025)
 
-| Venue | <div style={{ width: '150px' }}>Topic</div> | <div style={{ width: '150px' }}>Audience</div> | Crowd size | Remarks |
+| Venue | Topic | <div style={{ width: '130px' }}>Audience</div> | Crowd | Remarks |
+|-------|-------|----------|:----------:|---------|
+| Monthly [MeetUp](https://www.meetup.com/find/?keywords=Atelio&source=EVENTS) groups | Atelio products | - Developers <br/> - PMs | 20+ | Showcased the latest products and product features |
+
+#### Nium (2022-2023)
+
+| Venue | <div style={{ width: '150px' }}>Topic</div> | <div style={{ width: '150px' }}>Audience</div> | Crowd | Remarks |
 |-------|-------|----------|:----------:|---------|
 | Monthly [Nium events](https://www.nium.com/events) | - Fintech Meetup <br/> - Money20/20 <br/> - Money&nbsp;Street&nbsp;Fest | - Developers <br/> - PMs <br/> - payment leaders <br/> - treasury teams | 20+ | Panel discussions about trust, compliance, payments stack, other financial topics, and how Nium can help |
 
-#### Couchbase
+#### Couchbase (2017-2018)
 
-| Venue | Topic | <div style={{ width: '130px' }}>Audience</div> | Crowd size | Remarks |
+| Venue | Topic | <div style={{ width: '130px' }}>Audience</div> | Crowd | Remarks |
 |-------|-------|----------|:----------:|---------|
 | San Jose Convention Center | [Couchbase Connect](https://www.couchbase.com/resources/webcasts-and-events/) Hands-on query walkthrough | - Developers <br/> - techy PMs | 300+ | Projected a PowerPoint presentation while speaking and leading the crowd to build queries on their laptops while I did on mine |
 | Monthly [MeetUp](https://www.meetup.com/find/?keywords=Couchbase&source=EVENTS) groups | Couchbase NoSQL vs SQL | - Developers <br/> - DBAs | 20+ | Discussed index and query types and Big Data use cases |
+
+#### Talk Group (2002-2006)
+
+| Venue | Topic | <div style={{ width: '130px' }}>Audience</div> | Crowd | Remarks |
+|-------|-------|----------|:----------:|---------|
+| various restaurants | English and software | Recent graduates | 20 - 30 | |
 
 ## Published articles
 

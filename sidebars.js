@@ -564,6 +564,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Overview',
+      collapsed: 'false',
       items: [
         {
           type: 'doc',
@@ -585,6 +586,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Appliances',
+      collapsed: 'false',
       items: [
         {
           type: 'doc',

@@ -92,11 +92,11 @@ We bought two Powerwall2s, and it's amazing how the Powerwall3 saves money and g
 
 Over a 30-year period:
 
-| Lifestyle   | Vehicles | Furnace+AC | Water heater | Powerwalls    | 30-year cost <br/> ($1,000) |
-|-------------|:--------:|:----------:|:------------:|:-------------:|:---------------------------:|
-| Traditional | gas      | gas        | gas          | 0             | $392 - $473 |
-| Hybrid      | gas+elec | gas+elec   | electric     | 1 (~20% grid) | $348 - $422 |
-| Green       | electric | electric   | electric     | 2 (~2% grid)  | $254 - $279 |
+| Lifestyle   | Vehicles | Furnace+AC | Water heater | Powerwalls | 30-year cost <br/> ($1,000) | Remarks        |
+|-------------|:--------:|:----------:|:------------:|:----------:|:---------------------------:|----------------|
+| Traditional | gas      | gas        | gas          | 0          | $392 - $473                 |                |
+| Hybrid      | gas+elec | gas+elec   | electric     | 1          | $348 - $422                 | ~20% from grid |
+| Green       | electric | electric   | electric     | 2          | $254 - $279                 | ~2% from grid  |
 
 This 30-year cost comparison is based on:
 

@@ -148,11 +148,13 @@ And utility companies want to charge a tax on top of that _free_ electricity (mo
 
 ## Solar disadvantages
 
+{/* TODO: link for "~$160/mo for 10 years" */}
+
 | Disadvantage               | What most people don't know |
 |----------------------------|-----------------------------|
-| Doesn't work on every roof | Almost any roof can host panels, only wood and slate cannot host panels. |
-| Can be expensive           | Down payment is about $2,000 and then about $160/mo for 10 years.        |
-| If your bill is less than $100/mo, then no need | Low bills currently don't need panels, but repeated drought years have lowered dam reservoirs, which many studies state will get worse, which will severely increase power prices within 1-3 years. Better to get panels before then. |
+| Doesn't work on every roof | Almost any roof can host panels, only _wood_ and _slate_ cannot host panels. |
+| Can be expensive           | Down payment is ~$2,000 and then ~$160/mo for 10 years, and no penalty for paying off early. |
+| If your bill is less than $100/mo, then no need | Low bills currently don't need panels, but [repeated drought years have lowered dam reservoirs, which many studies state will get worse, which will severely increase power prices within 1-3 years](https://cnr.ncsu.edu/news/2021/06/ask-an-expert-how-is-the-western-u-s-drought-impacting-the-power-grid/). Better to get panels before then. |
 | Roof must be less than 10 years old | 50-year shingles cost nearly the same as 30-year shingles: $10-20k, which will pay for themselves in 7-10 years. Solar panels degrade only 25% after 50 years. |
 
 ## East Bay Green@Home Tour
@@ -296,12 +298,12 @@ The following gripes are what we and friends have experienced with various solar
 
 | Gripe                                 | Description |
 |---------------------------------------|-------------|
-| Improve communication                 | Don't make customers chase you down and don't ignore customers when trying to reach you. |
+| Improve communication                 | Don't make customers chase you down, and don't ignore customers trying to reach you. |
 | Explain the plans                     | After the site visit, show and explain the plans along with anything that needs to be done. Be clear if you're waiting for the customer to move shelves or send photos. |
-| Explain the restrictions              | When any aspect of your designed system doesn't follow a typical design (for example, putting the E-Stop on the front garage wall instead of the side yard), then explain _why_ you did that and allow the customer to fix or adjust whatever is needed to achieve the typical design. <br/><br/> Nobody told us anything about the law requiring 3 feet on both sides of our gas meter and that it necessitates putting the huge, ugly E-Stop switches on the front of our garage (inviting any passerby to shutdown our solar) instead of installing those on the side yard (as displayed in *all* marketing materials). Warning us about this would have allowed us to convert our furnace to electric and have the gas meter _removed_ which would allow proper installation on the side yard. |
+| Explain the restrictions              | When any aspect of your designed system doesn't follow a typical design (for example, putting the E-Stop on the front garage wall instead of the side yard), then explain _why_ you did that and allow the customer to fix or adjust whatever is needed to achieve the typical design. <br/><br/> Nobody told us anything about the law requiring 3 feet on both sides of our gas meter and that it necessitates putting the huge, ugly E-Stop switches on the front of our garage (inviting any passerby to shutdown our solar) instead of installing those on the side yard as you display in your marketing materials. Warning us about this would have allowed us to convert our furnace to electric and have the gas meter _removed_ which would allow proper installation on the side yard. |
 | Explain the financing option          | We were told only the total cost of our panels before installation; if we had been told the affordable _monthly_ amount, then we would have ordered more panels and a 2nd Powerwall and be happier. |
 | Explain _why_ a 2nd battery is better | We would've bought two Powerwalls had we been told: <br/> - The electric appliances we plan to use will draw way more than 1 Powerwall's max. <br/> - A single Powerwall is nowhere near enough to remove all electric bills. <br/> - A 2nd Powerwall is needed to store the daily excess between May and Aug. <br/> - A 2nd Powerwall is needed on all non-sunny days. |
 | Allow customers to report bugs        | Have a mechanism for solar panel customers to give feedback and suggestions from their own experience; and at the very least, allow current customers a quick and easy way to report bugs to reduce other customer complaints and improve customer satisfaction with caring service. |
 | Make it easy to reach a technician    | Whenever there's a problem with the solar app or somewhere in the system, make it quick and easy for a technician to come out and see with their own eyes. |
-| Be more clear about the panels        | At no point did our salesperson or the site surveyor say anything about: <br/> - Our 50-year-old main panel was made by a company that went bankrupt decades ago. <br/> - That panel is poor-quality and not the safest. <br/> - Our unsafe breakers were installed wrong. <br/> - How it'd be better if we upgrade both the Main Panel and Sub-panel before installation. |
+| Be more clear about the panels        | At no point did our salesperson or the site surveyor say anything about: <br/> - Our 50-year-old main panel was made by a company that went bankrupt decades ago. <br/> - That brand of panel is poor-quality and not the safest. <br/> - Our unsafe breakers were installed wrong. <br/> - How it'd be better if we upgrade both the Main Panel and Sub-panel before installation. |
 | Plan for the future                   | We explained the electric upgrades and additions we will do and to size our system based on that; but two months after installation, a technician explained what the salesman should've explained:  that solar companies are limited to install panels based on the home's annual kWh usage and that customers need to install those items for more than a month _before_ designing a solar panel system in order to get an electric bill that includes all electric items that will be used. |

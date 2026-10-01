@@ -163,9 +163,9 @@ And utility companies want to charge a tax on top of that _free_ electricity (mo
 
 ### Solar panels
 
-| <div style={{ width: '500px' }}>How does the weather affect solar panel efficiency?</div> |                        |
-|-------------------------------------------------------------------------------------------|------------------------|
-| - **Clouds** reduce production by 10-60% <br/> - **Rain** reduces production by 50-80% <br/> - **Fog** reduces production by 70-90% <br/><br/> **How many solar panels do I need?** <br/> - (January electric bill kWh * 12 months) / (400w panels) <br/> - About 20 to 26 (400-watt) panels for a 1400 sq.ft. home  | ![Seasonal kWh production](https://cdn.jsdelivr.net/gh/guyklages/portfolio/solar/Seasonal-kWh-production.png) |
+| <div style={{ width: '500px' }}> </div> |                        |
+|-----------------------------------------|------------------------|
+| **How does the weather affect solar panel efficiency?** <br/> - **Clouds** reduce production by 10-60% <br/> - **Rain** reduces production by 50-80% <br/> - **Fog** reduces production by 70-90% <br/><br/> **How many solar panels do I need?** <br/> - (January electric bill kWh * 12 months) / (400w panels) <br/> - About 20 to 26 (400-watt) panels for a 1400 sq.ft. home  | ![Seasonal kWh production](https://cdn.jsdelivr.net/gh/guyklages/portfolio/solar/Seasonal-kWh-production.png) |
 
 #### My roof isn't flat or east-west facing, is that ok?
 

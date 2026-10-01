@@ -2,7 +2,7 @@
 
 ## Event hosting
 
-| Company                                | Venue | Topic | <div style={{ width: '130px' }}>Audience</div> | Crowd | Details |
+| Company                                | Venue | Topic | Audience | Crowd | Details |
 |----------------------------------------|-------|-------|------------------------------------------------|-------|---------|
 | Atelio <br/> <sup>_2024-2025_</sup>    | Monthly [MeetUps](https://www.meetup.com/find/?keywords=Atelio&source=EVENTS) | Atelio products | - Devs <br/> - PMs | 20+ | Showcased the latest products and product features |
 | Nium <br/> <sup>_2022-2023_</sup>      | Monthly [Nium events](https://www.nium.com/events) | - Fintech Meetup <br/> - Money20/20 <br/> - Money&nbsp;Street&nbsp;Fest | - Devs <br/> - PMs | 20+ | Panel discussions about trust, compliance, payments stack, other financial topics, and how Nium can help |

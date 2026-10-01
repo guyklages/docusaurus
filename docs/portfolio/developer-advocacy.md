@@ -6,8 +6,8 @@
 |----------------------------------------|-------|-------|------------------------------------------------|-------|---------|
 | Atelio <br/> <sup>_2024-2025_</sup>    | Monthly [MeetUps](https://www.meetup.com/find/?keywords=Atelio&source=EVENTS) | Atelio products | - Devs <br/> - PMs | 20+ | Showcased the latest products and product features |
 | Nium <br/> <sup>_2022-2023_</sup>      | Monthly [Nium events](https://www.nium.com/events) | - Fintech Meetup <br/> - Money20/20 <br/> - Money&nbsp;Street&nbsp;Fest | - Devs <br/> - PMs | 20+ | Panel discussions about trust, compliance, payments stack, other financial topics, and how Nium can help |
-| Couchbase <br/> <sup>_2017-2018_</sup> | - [SJ CC](https://www.sanjose.org/meet/conventioncenter) <br/> - Monthly [MeetUps](https://www.meetup.com/find/?keywords=Couchbase&source=EVENTS) | - [Couchbase Connect](https://www.couchbase.com/resources/webcasts-and-events/) Query walkthrough <br/> - CB's SQL++ vs SQL | - Devs <br/> - PMs | -&nbsp;300+ <br/> - 20+ | - PowerPoint presentation while speaking and leading the crowd to build queries on their laptops while I did on mine <br/> - Discussed index and query types and Big Data use cases |
-| Talk Group <sup>_2002-2006_</sup>      | various restaurants | English and software | Recent graduates | 30 | PowerPoint presentation while speaking and leading the crowd in conversations |
+| Couchbase <br/> <sup>_2017-2018_</sup> | - [SJ CC](https://www.sanjose.org/meet/conventioncenter) <br/> - Monthly [MeetUps](https://www.meetup.com/find/?keywords=Couchbase&source=EVENTS) | - [Couchbase Connect](https://www.couchbase.com/resources/webcasts-and-events/) Query walkthrough <br/> - CB's SQL++ vs SQL | - Devs <br/> - PMs | -&nbsp;300+ <br/> - 20+ | - PowerPoint presentation while leading the crowd to build queries on their laptops <br/> - Discussed index and query types and Big Data use cases |
+| Talk Group <sup>_2002-2006_</sup>      | various restaurants | English and software | Recent graduates | 30 | PowerPoint presentation while leading the crowd in conversations |
 
 ## Published articles
 

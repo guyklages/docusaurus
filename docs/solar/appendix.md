@@ -214,7 +214,7 @@ And utility companies want to charge a tax on top of that _free_ electricity (mo
 
 #### Will the room I put the HVAC system in get super hot/cold?
 
-No. The heat pump is outside (usually backyard), and the air handler is in the attic.
+- No. The heat pump is outside (usually backyard), and the air handler is in the attic.
 
 ### Battery
 
@@ -233,7 +233,7 @@ No. The heat pump is outside (usually backyard), and the air handler is in the a
 
 ### Electric Vehicles (EVs)
 
-### Do car chargers come with inverters?
+#### Do car chargers come with inverters?
 
 - Not needed since the inverter responsible for charging the battery is built inside the EV itself.
 
@@ -244,7 +244,7 @@ No. The heat pump is outside (usually backyard), and the air handler is in the a
 #### Do EVs put more pressure/wear and tear on tires?
 
 - Yes. Due to the batteries, EVs weigh 20-30% more than equivalent ICE vehicles. ($800-1600 vs $400-1200)
-- EVs cost 40-50% less to maintain and repair over their lifetime compared to ICE vehicles. ($2000-4600 vs $9200-15000)
+- EVs cost 40-50% less to maintain/repair over their lifetime compared to ICE vehicles. ($2000-4600 vs $9200-15000)
 
 #### Do EVs have as many lifetime carbon emissions as ICE vehicles?
 
@@ -266,8 +266,8 @@ No. The heat pump is outside (usually backyard), and the air handler is in the a
 It's expensive to convert everything to electric, what's the cheapest order it can be done?
 
 1. **EV** -- which you can fully charge for $0 at your office or $10-15 overnight at home or $15-20 at public chargers.
-  - Chevy Bolt is $300/mo to lease for 3 years; can lease longer; can buy it very discounted at lease end.
-  - _Important:_ Sell your ICE vehicle while there is still demand; it will be tough to sell ICE vehicles in a few years.
+    - Chevy Bolt is $300/mo to lease for 3 years; can lease longer; can buy it very discounted at lease end.
+    - _Important:_ Sell your ICE vehicle while there is still demand; it will be tough to sell ICE vehicles in a few years.
 
 2. **Electric main panel** upgrade to 200 Amps is about $3,000 - $4,000 (AMP has $1,500 rebate)
 
@@ -285,10 +285,10 @@ It's expensive to convert everything to electric, what's the cheapest order it c
 
 5. **Solar panels**
 
-- 9.6 kW (24 Tesla panels) + one Powerwall3 costs about $28,000 after rebates.
-- You can finance with a very low APR and pay about $270/mo; no penalty for paying off early.
-- You will break even in 6 - 8 years and then have free electricity for 50+ years.
-- Get a solar panel quote after having your January (highest) electric bill to multiply by 12 for a proper size.
+    - 9.6 kW (24 Tesla panels) + one Powerwall3 costs about $28,000 after rebates.
+    - You can finance with a very low APR and pay about $270/mo; no penalty for paying off early.
+    - You will break even in 6 - 8 years and then have free electricity for 50+ years.
+    - Get a solar panel quote after having your January (highest) electric bill to multiply by 12 for a proper size.
 
 ## Note to solar vendors
 

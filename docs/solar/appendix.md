@@ -265,7 +265,7 @@ And utility companies want to charge a tax on top of that _free_ electricity (mo
 
 ### Electrify order
 
-It's expensive to convert everything to electric, what's the cheapest order it can be done?
+#### It's expensive to convert everything to electric, what's the cheapest order it can be done?
 
 1. **EV** -- which you can fully charge for $0 at your office or $10-15 overnight at home or $15-20 at public chargers.
     - Chevy Bolt is $300/mo to lease for 3 years; can lease longer; can buy it very discounted at lease end.

@@ -73,7 +73,7 @@ See the **[table of Knowledge Base articles](./kb-articles.md)** I've written fo
 
 ## Automations I've built
 
-**[Most impactful automations I've built](./most-impactful-automating.md)**
+See the **[Most impactful automations I've built](./most-impactful-automating.md)** I've build for developers and end-users.
 
 ## Community contributions
 

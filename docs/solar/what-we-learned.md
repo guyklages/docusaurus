@@ -59,7 +59,7 @@ That is, install as many solar panels as you can afford.
 
 Solar generation fluctuates throughout the year, so summer months generate about 2.5x as much energy as winter months.
 
-![Seasonal kWh highs and lows](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/Seasonal-kWh-Production.png)
+![Seasonal kWh highs and lows](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/Seasonal-kWh-production.png)
 
 This fluctuation creates:
 
@@ -96,28 +96,10 @@ The below graph shows data from our Tesla mobile app:
 - X-axis denotes weeks.
 - Y-axis denotes the energy sources.
 
-![Energy sources with 1 Powerwall](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/energy-sources_1-powerwall.png)
-
-![Energy sources with 2 Powerwalls](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/energy-sources_2-powerwalls.png)
-
-Notes:
-
-2022
-
-- **Mar:** a problem with the PW caused 3 weeks of grid usage that a 2nd PW would've helped.
-- **Aug:** a cheap 3rd-party Gateway breaker broke, causing 6 weeks of grid usage.
-
-2023
-
-- **Jan:** we had two weeks of no grid usage because half of us weren't home.
-- **Jul:** we installed a second Powerwall2 which removed 99% of our grid usage in July and Aug.
-- **Sep:** we started charging our EV at home instead of the office.
-- **Nov:** we installed a Heat Pump.
-
-2024
-
-- **Aug:** we re-roofed (3 weeks) and moved 6 panels from our NW to SE roof.
-- **Oct:** a heat wave caused our Powerwalls to stop supplying power occasionally until they cooled down.
+| Graphs of solar vs battery vs grid                                                             | <div style={{ width: '400px' }}>Remarks</div> |
+|------------------------------------------------------------------------------------------------|-----------------------------------------------|
+| ![Energy sources with 1 Powerwall](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/energy-sources_1-powerwall.png) <br/><br/> 
+![Energy sources with 2 Powerwalls](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/energy-sources_2-powerwalls.png) | **2022** <br/> - **Mar:** a problem with the PW caused 3 weeks of grid usage that a 2nd PW would've helped. <br/> - **Aug:** a cheap 3rd-party Gateway breaker broke, causing 6 weeks of grid usage. <br/><br/> **2023** <br/> - **Jan:** we had two weeks of no grid usage because half of us weren't home. <br/> - **Jul:** we installed a second Powerwall2 which removed 99% of our grid usage in July and Aug. <br/> - **Sep:** we started charging our EV at home instead of the office. <br/> - **Nov:** we installed a Heat Pump. <br/><br/> **2024** <br/> - **Aug:** we re-roofed (3 weeks) and moved 6 panels from our NW to SE roof. <br/> - **Oct:** a heat wave caused our Powerwalls to stop supplying power occasionally until they cooled down. |
 
 ## Charge EV slowly
 

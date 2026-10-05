@@ -77,7 +77,12 @@ So, after making [all those mistakes](./mistakes.md), we now see the ideal order
 
 Below are items that are needed before your solar company designs your solar panel system to avoid upgrade issues in the future.
 
-<mark> IMPORTANT:  Since solar companies don't want to touch existing systems installed by another company, it's critical you install all your electrical appliances first to know your true annual energy usage—and install your solar right the first time. </mark>
+<mark> IMPORTANT:  Since solar companies won't touch existing systems installed by another company, it's critical you install all your electrical appliances first to know your true annual energy usage—and install your solar correctly the first time. </mark>
+
+| Days needed | Cost      | Item  |
+|:-----------:|-----------|-------|
+|             | Priceless | Decide your solar goal: [A) reduce bills, B) outage backup, or C) fully off-grid](./what-we-learned.md#know-your-solar-goals). <br/> **Note:** Nobody has ever wished they installed _fewer_ panels or batteries. <br/> **Note:** Unless you feel strongly about keeping something gas-powered, it's best to upgrade _all_ appliances to electric since they are all _way_ better than a few years ago. |
+|             | Priceless | Before talking with solar companies, understand [how many panels you need](./what-we-learned.md#install-as-much-as-you-can). |
 
 
 ## Rebates

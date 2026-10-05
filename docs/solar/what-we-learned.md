@@ -187,7 +187,6 @@ The below graphs show our utility bills and our journey to $0 utility bills:
 |------------------------------------------------------------------------------------------------|-----------------------------------------------|
 | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/electric-bills-2021-2026.png) <br/><br/> ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/kWh-used-given_2021-2026.png) | **2021** <br/> - Oct: Solar installed; didn't know not activated <br/> - Nov: Laundry at night drained battery <br/> - Dec: solar panels activated <br/><br/> **2022** <br/> - **Jan:** Insulated walls and attic <br/> - **Feb:** Replaced water heater with electric one <br/> - **Feb:** electric water heater [wasn't backed up](./mistakes.md#get-whole-home-backup) <br/> - **Mar:** Fixed string issue (40% increase) <br/> - **Mar:** charged EV [overnight incorrectly](#when-to-charge-evs) <br/> - **Jul:** Faulty gateway breaker; 3.5 weeks offline <br/><br/> **2023** <br/> - **Jul:** Installed 2nd Powerwall2 <br/> - **Aug:** started charging EV at home <br/> - **Nov:** Installed electric heat pump <br/><br/> **2024** <br/> - **Aug:** Re-roofed; moved six NW panels to SE <br/><br/> **2025** <br/> - **Dec:** Lowered thermostat to 67° |
 
-
 ## When to charge EVs
 
 ### The way to charge overnight

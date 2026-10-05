@@ -83,6 +83,15 @@ Below are items that are needed before your solar company designs your solar pan
 |:-----------:|-----------|-------|
 |             | Priceless | Decide your solar goal: [A) reduce bills, B) outage backup, or C) fully off-grid](./what-we-learned.md#know-your-solar-goals). <br/> **Note:** Nobody has ever wished they installed _fewer_ panels or batteries. <br/> **Note:** Unless you feel strongly about keeping something gas-powered, it's best to upgrade _all_ appliances to electric since they are all _way_ better than a few years ago. |
 |             | Priceless | Before talking with solar companies, understand [how many panels you need](./what-we-learned.md#install-as-much-as-you-can). |
+| 2           | [$800 - $4000](https://www.google.com/search?q=upgrade+electrical+panel+to+200+amps) | Upgrade your main panel to 200 amp if yours is less than 150 amp. |
+| 3 - 4       | [$4k - $18k](https://www.google.com/search?q=heat+pump+system+cost) | Upgrade your gas furnace to a heat pump system. <br/> - Upgrade ductwork, if more than 50 years old. <br/> - Install heat pump + AC with an Air Handler. |
+| 1           | [400 - $1700](https://www.google.com/search?q=electric+water+heater+cost) | Upgrade your gas water heater to electric. |
+| 1           | [$1000 - 1600](https://www.google.com/search?q=electric+washer+dryer+cost) | Upgrade your gas washer/dryer heater to electric. |
+| 1           | [$500 - $700](https://www.google.com/search?q=electric+stove+oven+cost) | Upgrade your stove/oven to electric. |
+| 1           | $1000 - $3000, less if you're replacing roof | Make [the sunny side of your roof](https://sunroof.withgoogle.com/) flat. Remove unused vents and move vents to your roof's shaded side so solar companies install only on your sunny side. <br/> **Note:** Solar companies use Google Earth to see your roof for planning your solar design, so try to do this step as early as possible. |
+| 1 - 2       | [$12k - $20k](https://www.google.com/search?q=upgrade+roof+shingles+cost) | Upgrade your roof shingles if more than 10 years old. <br/> **Note:** Solar panels are guaranteed for 20+ years, so companies won't install on an old roof. |
+| 30 - 60     | Free | If no appliance uses gas, call PG&E to remove your gas meter. The gas meter cannot be removed until **4 weeks** after your gas has been shut-off and capped. |
+| 120 - 365  | Priceless | After appliances are electric, wait at least one winter (Dec - Feb) or 12 months to see which month you use the highest amount of kWh (and submit your highest bill) since solar companies can't install more panels than the electric bill's kWh you submit to them for your solar permits. (They will multiply your bill by 12) <br/> This is why you make your single highest bill even higher before installing solar panels. |
 
 
 ## Rebates

@@ -73,6 +73,13 @@ Your own research:
 
 ## Prerequisites
 
+So, after making [all those mistakes](./mistakes.md), we now see the ideal order of doing things to maximize appliance and solar efficiency while minimizing frustrations and wasted time/energy/money.
+
+Below are items that are needed before your solar company designs your solar panel system to avoid upgrade issues in the future.
+
+<mark> IMPORTANT:  Since solar companies don't want to touch existing systems installed by another company, it's critical you install all your electrical appliances first to know your true annual energy usage—and install your solar right the first time. </mark>
+
+
 ## Rebates
 
 ## How many panels

@@ -586,7 +586,7 @@ const sidebars = {
     {
       type: 'doc',
       id: 'solar/before-you-install',
-      label: 'Before you install',
+      label: 'Before you install solar panels',
     },
     {
       type: 'category',

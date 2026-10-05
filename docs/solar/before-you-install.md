@@ -5,23 +5,23 @@
 Before buying anything, the following checklist will help you decide what is best for you.
 
 1. If you have space in your backyard, consider a [Dual Axis Tracking (DAT) Ground Mount (GM) solar panel system] instead of rooftop panels. They are worth the more expensive install because:
-  - Optimal tilt angle helps significantly, about 15-20% more during winter months.
-  - Easier snow removal and cleaning.
-  - Better airflow keeps them cooler and more efficient.
-  - The age of your roof doesn’t matter with DAT.
-  - No need to pay $7,000 - 9,000 to remove and reinstall panels when re-roofing.
-  - In winter, rooftop panels generate very little and draw from the grid 10-30% daily.
-  - DAT panels are infinitely safer than climbing up and walking around your roof.
+    - Optimal tilt angle helps significantly, about 15-20% more during winter months.
+    - Easier snow removal and cleaning.
+    - Better airflow keeps them cooler and more efficient.
+    - The age of your roof doesn’t matter with DAT.
+    - No need to pay $7,000 - 9,000 to remove and reinstall panels when re-roofing.
+    - In winter, rooftop panels generate very little and draw from the grid 10-30% daily.
+    - DAT panels are infinitely safer than climbing up and walking around your roof.
 
 2. Learn from [our mistakes](./mistakes.md).
 
 3. Ask the solar panel providers [lots of questions](#questions-to-ask).
 
 4. Get price quotes from at least three different solar panel providers.
-  - ask what makes them better than others in terms of equipment, warranties, lifetime costs, financing, etc.
-  - Really take time with the decision. 
-  - If a company is just trying to talk you into quickly signing vs competing on quality, then they're probably not the company you want to go with.
-  - Every time I received a proposal I learned a little more.
+    - ask what makes them better than others in terms of equipment, warranties, lifetime costs, financing, etc.
+    - Really take time with the decision. 
+    - If a company is just trying to talk you into quickly signing vs competing on quality, then they're probably not the company you want to go with.
+    - Every time I received a proposal I learned a little more.
 
 5. Check the [Prerequisites](#prerequisites)
 
@@ -56,19 +56,20 @@ Before buying anything, the following checklist will help you decide what is bes
     - You could file a claim, they come out to replace the equipment but then charge a trip charge and labor on top of that. The warranty could end up costing hundreds.
 - What’s covered under the workmanship warranty?
 - Do they have a certificate of insurance?
-On the warranty, is it degradation of the system or per panel?
-How long is your workmanship warranty? This covers anything the contractor touches while on the job. Longer the better, but that said, a company with a 40 year workmanship warranty with only 5 years in the business means nothing. You want the company to have outlived their warranties if possible.
-Can you get me a monitoring system that will continue to work when the manufacturer shuts down (see SunPower) and doesn’t depend on someone’s cloud service existing for the next 30 years?
-What happens if the system underperforms?
-Is my solar warranty transferable?
-What does my warranty cover? How much as a homeowner am I responsible for?
-Does the solar have a promise guarantee to produce what was promised? And will I be entitled to a refund if it doesn’t perform what was sold?
-If your solar company goes bankrupt, what and how am I protected for warranty issues?
-Are the installers roof-certified to not void my roof warranty? 
-Or do I need an independent roofing contractor to inspect the work before panels are laid down?
+- On the warranty, is it degradation of the system or per panel?
+- How long is your workmanship warranty? This covers anything the contractor touches while on the job. Longer the better, but that said, a company with a 40 year workmanship warranty with only 5 years in the business means nothing. You want the company to have outlived their warranties if possible.
+- Can you get me a monitoring system that will continue to work when the manufacturer shuts down (see SunPower) and doesn’t depend on someone’s cloud service existing for the next 30 years?
+- What happens if the system underperforms?
+- Is my solar warranty transferable?
+- What does my warranty cover? How much as a homeowner am I responsible for?
+- Does the solar have a promise guarantee to produce what was promised? And will I be entitled to a refund if it doesn’t perform what was sold?
+- If your solar company goes bankrupt, what and how am I protected for warranty issues?
+- Are the installers roof-certified to not void my roof warranty? 
+    - Or do I need an independent roofing contractor to inspect the work before panels are laid down?
 
 Your own research:
-Look at the Business Bureau to check for any complaints against the installer.
+
+- Look at the [Better Business Bureau](https://www.bbb.org/) to check for any complaints against the installer.
 
 ## Prerequisites
 

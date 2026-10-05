@@ -96,9 +96,9 @@ The below graph shows data from our Tesla mobile app:
 - X-axis denotes weeks.
 - Y-axis denotes the energy sources.
 
-| Graphs of solar vs battery vs grid                                                             | <div style={{ width: '400px' }}>Remarks</div> |
+| Graphs of solar vs battery vs grid                                                             | <div style={{ width: '380px' }}>Remarks</div> |
 |------------------------------------------------------------------------------------------------|-----------------------------------------------|
-| ![Energy sources with 1 Powerwall](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/energy-sources_1-powerwall.png) <br/><br/> ![Energy sources with 2 Powerwalls](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/energy-sources_2-powerwalls.png) | **2022** <br/> - **Mar:** PW issue that a 2nd PW would've lessened. <br/> - **Aug:** a cheap, used 3rd-party Gateway breaker broke. <br/><br/> **2023** <br/> - **Jan:** two weeks we weren't home. <br/> - **Jul:** we installed a second Powerwall2. <br/> - **Sep:** started charging our EV at home instead of the office. <br/> - **Nov:** we installed a Heat Pump. <br/><br/> **2024** <br/> - **Aug:** we re-roofed and moved 6 panels to SE. <br/> - **Oct:** a heat wave caused our Powerwalls to stop supplying power occasionally until they cooled down. |
+| ![Energy sources with 1 Powerwall](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/energy-sources_1-powerwall.png) <br/><br/> ![Energy sources with 2 Powerwalls](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/energy-sources_2-powerwalls.png) | **2022** <br/> - **Mar:** PW issue that a 2nd PW would've lessened. <br/> - **Aug:** a cheap, used 3rd-party Gateway breaker broke. <br/><br/> **2023** <br/> - **Jan:** two weeks we weren't home. <br/> - **Jul:** we installed a second Powerwall2. <br/> - **Sep:** started charging our EV at home, not office. <br/> - **Nov:** we installed a Heat Pump. <br/><br/> **2024** <br/> - **Aug:** we re-roofed and moved 6 panels to SE. <br/> - **Oct:** a heat wave caused our Powerwalls to stop supplying power occasionally until they cooled down. |
 
 ## Charge EV slowly
 

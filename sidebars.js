@@ -584,6 +584,11 @@ const sidebars = {
       ]
     },
     {
+      type: 'doc',
+      id: 'solar/before-you-install',
+      label: 'Before you install',
+    },
+    {
       type: 'category',
       label: 'Appliances',
       collapsed: false,

@@ -244,4 +244,4 @@ Reddit communities I subscribe to:
 | [AngelHack Fall12](https://hackathon.io) | Chinese/Hindi/English game | Database and schema; testing; pitching to VCs; demoing app | 4 | Boston <br/> <sup>_Nov 17-18, 2012_</sup> |
 | [AngelHack Sum12](https://hackathon.io) | Chinese/English games | Database and schema; testing; pitching to VCs; demoing app | 4 | Boston <br/> <sup>_June 23-24, 2012_</sup> |
 | [AngelHack Spr12](https://hackathon.io) | Chinese-input method | Testing, feedback, ideas; pitching to VCs; demoing app | 3 | Boston <br/> <sup>_Mar 3-4, 2012_</sup> |
-| Northwest Hackathon 2010 | Run Crickler on a startup's new iPad platform | testing, feedback, ideas; pitching to VCs; demoing app | 3 | Redmond <br/> <sup>_Dec 10-12, 2010_</sup> |
+| Northwest Hackathon 2010 | Run Crickler on a startup's new iPad platform | testing, feedback, ideas; pitching to judges; demoing app | 3 | Redmond <br/> <sup>_Dec 10-12, 2010_</sup> |

@@ -232,3 +232,16 @@ Reddit communities I subscribe to:
 | [ChatGPTCoding](https://www.reddit.com/r/ChatGPTCoding/)     | For building and learning with AI-assisted coding  |
 | [ClaudeCode](https://www.reddit.com/r/ClaudeCode/)           | For building and learning with AI-assisted coding  |
 | [StableDiffusion](https://www.reddit.com/r/StableDiffusion)  | Open-source, local AI photorealistic art from text |
+
+## Hackathons
+
+| Hackathon      | Topic / product built | My contributions | Group | City |
+|----------------|-----------------------|------------------|:-----:|------|
+| [MassHack](https://www.masshack.com) | Exercise-tracking mobile app | Coding database and schema; testing, feedback, ideas; pitching to VCs; demoing our creation | 5 | Boston Nov 22-24, 2013 |
+| [NECINA Hackathon](https://www.necina.com) | Chinese-learning mobile app | Coding database and schema; testing, feedback, ideas; pitching to VCs; demoing our creation | 5 | Boston Nov 7-9, 2013 |
+| [MobileMonday Hackathon](https://www.mobilemonday.net/category/boston) | Chinese-learning mobile app | Coding database and schema; testing, feedback, ideas; pitching to VCs; demoing our creation | 5 | Boston June 17-19, 2013 |
+| [AngelHack Spring 2013](https://hackathon.io) | Money for correct answers | Coding database and schema; testing, feedback, ideas; pitching to VCs; demoing our creation | 5 | Boston Mar 3-4, 2013 |
+| [AngelHack Fall 2012](https://hackathon.io) | Chinese/Hindi/English game | Coding database and schema; testing, feedback, ideas; pitching to VCs; demoing our creation | 5 | Boston Nov 17-18, 2012 Microsoft NERD |
+| [AngelHack Summer 2012](https://hackathon.io) | Chinese/English games | Coding database and schema; testing, feedback, ideas; pitching to VCs; demoing our creation | 5 | Boston June 23-24, 2012 Microsoft NERD |
+| [AngelHack Spring 2012](https://hackathon.io) | Chinese-input method | Coding database and schema; testing, feedback, ideas; pitching to VCs; demoing our creation | 5 | Boston Mar 3-4, 2012 Microsoft NERD |
+| Northwest Hackathon 2010 | Run Crickler on a startup's new iPad platform | testing, feedback, ideas; pitching to VCs; demoing our creation | 3 | Redmond 2010 Microsoft HQ |

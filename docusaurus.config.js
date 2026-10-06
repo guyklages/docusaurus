@@ -144,20 +144,20 @@ presets: [
             type: 'docSidebar',
             sidebarId: 'sidebarAtelioGuides',
             position: 'left',
-            label: 'Atelio guides',
+            label: 'Atelio',
             title: 'My local copy of the now-defunct Atelio website',
           },
           {
             type: 'docSidebar',
             sidebarId: 'sidebarNium',
             position: 'left',
-            label: 'Nium guides',
+            label: 'Nium',
           },
           {
             type: 'docSidebar',
             sidebarId: 'sidebarCouchbase',
             position: 'left',
-            label: 'Couchbase guides',
+            label: 'Couchbase',
           },
           {
             to: '/blog',

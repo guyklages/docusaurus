@@ -237,11 +237,11 @@ Reddit communities I subscribe to:
 
 | Hackathon      | Topic / product built | My contributions | Group | City |
 |----------------|-----------------------|------------------|:-----:|------|
-| [MassHack](https://www.masshack.com) | Exercise-tracking mobile app | Coding database and schema; testing, feedback, ideas; pitching to VCs; demoing our creation | 5 | Boston Nov 22-24, 2013 |
-| [NECINA Hackathon](https://www.necina.com) | Chinese-learning mobile app | Coding database and schema; testing, feedback, ideas; pitching to VCs; demoing our creation | 5 | Boston Nov 7-9, 2013 |
-| [MobileMonday Hackathon](https://www.mobilemonday.net/category/boston) | Chinese-learning mobile app | Coding database and schema; testing, feedback, ideas; pitching to VCs; demoing our creation | 5 | Boston June 17-19, 2013 |
-| [AngelHack Spring 2013](https://hackathon.io) | Money for correct answers | Coding database and schema; testing, feedback, ideas; pitching to VCs; demoing our creation | 5 | Boston Mar 3-4, 2013 |
-| [AngelHack Fall 2012](https://hackathon.io) | Chinese/Hindi/English game | Coding database and schema; testing, feedback, ideas; pitching to VCs; demoing our creation | 5 | Boston Nov 17-18, 2012 Microsoft NERD |
-| [AngelHack Summer 2012](https://hackathon.io) | Chinese/English games | Coding database and schema; testing, feedback, ideas; pitching to VCs; demoing our creation | 5 | Boston June 23-24, 2012 Microsoft NERD |
-| [AngelHack Spring 2012](https://hackathon.io) | Chinese-input method | Coding database and schema; testing, feedback, ideas; pitching to VCs; demoing our creation | 5 | Boston Mar 3-4, 2012 Microsoft NERD |
-| Northwest Hackathon 2010 | Run Crickler on a startup's new iPad platform | testing, feedback, ideas; pitching to VCs; demoing our creation | 3 | Redmond 2010 Microsoft HQ |
+| [MassHack](https://www.masshack.com) | Exercise-tracking mobile app | Database and schema; testing; pitching to VCs; demoing app | 5 | Boston <br/> <sup>_Nov 22-24, 2013_</sup> |
+| [NECINA Hackathon](https://www.necina.com) | Chinese-learning mobile app | Database and schema; testing; pitching to VCs; demoing app | 5 | Boston <br/> <sup>_Nov 7-9, 2013_</sup> |
+| [MoMo Hackathon](https://www.mobilemonday.net/category/boston) | Chinese-learning mobile app | Database and schema; testing; pitching to VCs; demoing app | 5 | Boston <br/> <sup>_June 17-19, 2013_</sup> |
+| [AngelHack Spr13](https://hackathon.io) | Money for correct answers | Database and schema; testing; pitching to VCs; demoing app | 5 | Boston <br/> <sup>_Mar 3-4, 2013_</sup> |
+| [AngelHack Fall12](https://hackathon.io) | Chinese/Hindi/English game | Database and schema; testing; pitching to VCs; demoing app | 4 | Boston <br/> <sup>_Nov 17-18, 2012_</sup> Microsoft NERD |
+| [AngelHack Sum12](https://hackathon.io) | Chinese/English games | Database and schema; testing; pitching to VCs; demoing app | 4 | Boston <br/> <sup>_June 23-24, 2012_</sup> |
+| [AngelHack Spr12](https://hackathon.io) | Chinese-input method | Testing, feedback, ideas; pitching to VCs; demoing app | 3 | Boston <br/> <sup>_Mar 3-4, 2012_</sup> |
+| Northwest Hackathon 2010 | Run Crickler on a startup's new iPad platform | testing, feedback, ideas; pitching to VCs; demoing app | 3 | Redmond <br/> <sup>_Dec 10-12, 2010_</sup> |

@@ -235,8 +235,8 @@ Reddit communities I subscribe to:
 
 ## Hackathons
 
-| Hackathon      | Topic / product built | My contributions | Group | City |
-|----------------|-----------------------|------------------|:-----:|------|
+| Hackathon      | Topic / product built | My contributions | Group | <div style={{ width: '170px' }}>City</div> |
+|----------------|-----------------------|------------------|:-----:|--------------------------------------------|
 | [MassHack](https://www.masshack.com) | Exercise-tracking mobile app | Database and schema; testing; pitching to VCs; demoing app | 5 | Boston <br/> <sup>_Nov 22-24, 2013_</sup> |
 | [NECINA Hackathon](https://www.necina.com) | Chinese-learning mobile app | Database and schema; testing; pitching to VCs; demoing app | 5 | Boston <br/> <sup>_Nov 7-9, 2013_</sup> |
 | [MoMo Hackathon](https://www.mobilemonday.net/category/boston) | Chinese-learning mobile app | Database and schema; testing; pitching to VCs; demoing app | 5 | Boston <br/> <sup>_June 17-19, 2013_</sup> |

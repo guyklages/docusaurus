@@ -34,11 +34,11 @@ But after installing solar panels and learning more, our desires and goals _chan
 
 And then some truths became apparent:
 
-- Winter sun is so low and cloudy and generates [about one-third of summer sun](#install-as-much-as-you-can-afford)...
-- We need a 2nd battery to run the clothes dryer (or multiple appliances) without drawing from the grid...
+- Winter sun is so low and cloudy and generates [about one-third of summer sun](#install-as-much-as-you-can).
+- We need a 2nd battery to run the clothes dryer (or multiple appliances) without drawing from the grid.
     - **Note:** This is no longer a problem with a single [Powerwall3 battery](https://energylibrary.tesla.com/docs/Public/EnergyStorage/Powerwall/3/Datasheet/en-us/Powerwall-3-Datasheet.pdf).
-- We need four more solar panels (costs only $600) to generate more power to avoid drawing from the grid during winter...
-- No installer will do $600 worth of work since they focus on installing $18,000+ solar panel systems...
+- We need four more solar panels (costs only $600) to generate more power to avoid drawing from the grid during winter.
+- No installer will do $600 worth of work since they focus on installing $18,000+ solar panel systems.
 
 So, now we're stuck with what we have. We still love our solar panels, but it would've been nice to have a slightly bigger system from the start.
 
@@ -48,7 +48,7 @@ Other things to consider:
 
 - Panels last many decades--latest studies state solar panels last at least 40 or 50 years.
 - Panels degrade 0.5% per year, so by year 40, your system will generate 20% less than their first year.
-- Electricity rates keep increasing, so it's best to [oversize your solar panel system as much as you can](#install-as-much-as-you-can-afford).
+- Electricity rates keep increasing, so it's best to [oversize your solar panel system as much as you can](#install-as-much-as-you-can).
 - Batteries seem expensive but are totaaly worth it--and are necessary for evenings, cloudy days, and outtages.
 - 10-year financing is probably the most affordable method (we paid $260/mo) since there's no penalty on extra payments.
 

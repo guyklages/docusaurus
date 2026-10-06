@@ -6,7 +6,7 @@
 | Automated items                                                                                               | Company      |
 |---------------------------------------------------------------------------------------------------------------|--------------|
 | [Syncing of auth statuses for dozens of cloud services](#syncing-authorization-statuses)                      | Atelio       |
-| [Reduced obsolete pages by 40% and added automation to prevent obsolete pages](#prevention-on-obsolete-pages) | Yahoo        |
+| [Reduced obsolete pages by 40% and added automation to prevent obsolete pages](#prevention-of-obsolete-pages) | Yahoo        |
 | [Made a database to automate reports; saved >50% of the employees' time and effort](#db-saved-50-time-effort) | ADP Payroll  |
 | [Automated their label printing system; freed up 75% of staff's time](#75-increase-in-productivity)           | Bridgestone  |
 

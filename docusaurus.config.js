@@ -103,7 +103,7 @@ presets: [
 
   themes: ['docusaurus-theme-redoc', '@docusaurus/theme-mermaid'],
 
-  plugins: ['docusaurus-plugin-image-zoom'],
+  plugins: ['docusaurus-plugin-image-zoom', './plugins/search-index'],
 
   markdown: {
     mermaid: true,
@@ -169,6 +169,10 @@ presets: [
             sidebarId: 'sidebarSolar',
             position: 'left',
             label: 'Solar',
+          },
+          {
+            type: 'custom-pageSearch',
+            position: 'left',
           },
           {
             href: 'https://camelmind-docs.vercel.app/home',

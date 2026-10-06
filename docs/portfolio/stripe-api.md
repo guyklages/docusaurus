@@ -11,13 +11,13 @@ The Stripe APIs are organized around [REST](https://en.wikipedia.org/wiki/REST).
 
 To make the API as explorable as possible, accounts have test mode and live mode API keys. Since nothing switches between modes, use the appropriate key to perform a live or test transaction. Requests made with test mode credentials never hit the banking networks and incur no cost.
 
-##  &nbsp; 
+##  &nbsp;
 
 ## Customers API
 
 Customer objects allow you to perform recurring charges and track multiple charges from the same customer. The API allows you to create, delete, and update your customers. You can retrieve individual customers as well as list of all your customers.
 
-### The `customer` object 
+### The `customer` object
 
 The following are the attributes in this feature.
 
@@ -194,8 +194,8 @@ The following are the _optional_ arguments in this feature.
 | `metadata` | A set of key/value pairs that you can attach to a customer object. It can be useful for storing additional information about the customer in a structured format. This will be unset if you POST an empty value. This can be unset by updating the value to `Null` and then saving. 
 | `plan` | The identifier of the plan to subscribe the customer to. If provided, the returned customer object will have a list of subscriptions that the customer is currently subscribed to. If you subscribe a customer to a plan without a free trial, the customer must have a valid card as well. |
 | `quantity` | The quantity you’d like to apply to the subscription you’re creating (if you pass in a `plan`). For example, if your plan is 10 cents/user/month, and your customer has 5 users, you could pass 5 as the quantity to have the customer charged 50 cents (5 x 10 cents) monthly. Defaults to `1` if not set. Only applies when the `plan` parameter is also provided. |
-| [`shipping`](#shipping) | The shipping address | 
-| [`source`](#source) | The source can either be a token, like the ones returned by our Stripe.js, or a dictionary containing a user’s credit card details. |
+| [`shipping`](#create-shipping) | The shipping address | 
+| [`source`](#create-source) | The source can either be a token, like the ones returned by our Stripe.js, or a dictionary containing a user’s credit card details. |
 | `tax_percent` | A positive decimal (with at most two decimal places) between 1 and 100. This represents the percentage of the subscription invoice subtotal that will be calculated and added as tax to the final amount each billing period. For example, a plan which charges $10/month with a `tax_percent` of 20.0 will charge $12 per invoice. You can use this only if you provide a plan. |
 | `trial_end` | Unix timestamp representing the end of the trial period before the customer is charged. If set, `trial_end` will override the default trial period of the customer's subscribed plan. This field applies only when the `plan` parameter is also provided. |
 

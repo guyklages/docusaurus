@@ -8,10 +8,10 @@ The SDK repo is `https://github.com/bond-tech/bond-sdk-web`.
 
 ### Typedefs
 
-- [`FieldType`](#fieldtype--codestringcode)—String
-- [`FieldParams`](#fieldparams--codeobjectcode)—Object
-- [`successCallback`](#successcallback--codefunctioncode)—Function
-- [`errorCallback`](#errorcallback--codefunctioncode)—Function
+- [`FieldType`](#fieldtype--string)—String
+- [`FieldParams`](#fieldparams--object)—Object
+- [`successCallback`](#successcallback--function)—Function
+- [`errorCallback`](#errorcallback--function)—Function
 
 ### BondCards
 

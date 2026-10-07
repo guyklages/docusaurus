@@ -117,10 +117,10 @@ How many solar panels you need depends on your energy usage and where you'll mou
 
 Solar installers calculate your needed number of rooftop panels based on the kWh used on your last 12 months of electric bills; but I think using the highest bill multiplied by 12 is a safer calculation to cover your heaviest usage month and for future-proofing your solar panel system.
 
-| Method                       | Calculation                                        | Example                        |
-|------------------------------|----------------------------------------------------|-------------------------------:|
-| **12 month's of kWh used**   | (__ kWh) / (400-watt panels) = Panels              | 8000 / 400 = **20** panels     |
-| **Highest month's kWh x 12** | (__ kwH) / (400-watt panels) * 12 months = Panels  | 800 / 400 * 12 = **24** panels |
+| Method                                   | Calculation                                                  | Example                        |
+|------------------------------------------|--------------------------------------------------------------|-------------------------------:|
+| **12 month's of kWh used**               | (__ kWh) / (400-watt panels) = Panels                        | 8000 / 400 = **20** panels     |
+| **Highest month's kWh x 12**&nbsp;&nbsp; | (__ kwH) / (400-watt panels) * 12 = Panels&nbsp;&nbsp;&nbsp; | 800 / 400 * 12 = **24** panels |
 
 | <div style={{ width: '630px' }}>Keep in mind:</div>   |    |
 |-------------------------------------------------------|----|

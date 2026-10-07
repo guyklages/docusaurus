@@ -103,7 +103,11 @@ Alameda Municipal Power has rebates on [everything related to electric appliance
 
 {/* TODO: link for "your energy usage" */}
 
-How many solar panels you need depends on your energy usage and where you'll mount your solar panels:
+How many solar panels you need depends on:
+
+- The size of your panels (200-425 kw)
+- Your energy (kWh) usage
+- Where you'll mount your solar panels
 
 | Method                                   | Advantages         | Disadvantages    |
 |------------------------------------------|--------------------|------------------|

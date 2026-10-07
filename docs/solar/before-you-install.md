@@ -113,14 +113,24 @@ How many solar panels you need depends on your energy usage and where you'll mou
 
 ### Ground-mounted
 
+Rooftop panels are the most common, but non-rooftop panels are cheaper in the long-run because:
+
+- You won't need to pay $6,000 - 8,000 to remove and reinstall when fixing or updating your roof.
+- You won't need to climb onto your roof for cleaning or maintaining any issue with your panels.
+
+| Dual-Axis Tracking (DAT) panels |  |
+|---------------------------------|--|
+|
+
+
 ### Rooftop-mounted
 
 Solar installers calculate your needed number of rooftop panels based on the kWh used on your last 12 months of electric bills; but I think using the highest bill multiplied by 12 is a safer calculation to cover your heaviest usage month and for future-proofing your solar panel system.
 
-| Method                                   | Calculation                                                  | Example                        |
-|------------------------------------------|--------------------------------------------------------------|-------------------------------:|
-| **12 month's of kWh used**               | (__ kWh) / (400-watt panels) = Panels                        | 8000 / 400 = **20** panels     |
-| **Highest month's kWh x 12**&nbsp;&nbsp; | (__ kwH) / (400-watt panels) * 12 = Panels&nbsp;&nbsp;&nbsp; | 800 / 400 * 12 = **24** panels |
+| Method                                   | Calculation                                            | Example                                 |
+|------------------------------------------|--------------------------------------------------------|----------------------------------------:|
+| **12 month's of kWh used**               | (__ kWh) / (400-watt panels) = Panels                  | 8000 / 400 = **20 panels** (8.0 kW)     |
+| **Highest month's kWh x 12**&nbsp;&nbsp; | (__ kwH) / (400-watt panels) * 12 = Panels&nbsp;&nbsp; | 800 / 400 * 12 = **24 panels** (9.6 kW) |
 
 **Note:** This example uses our numbers, and we wish we had installed 24 panels instead of only 20. We're stuck with 20 since no installer wants to bother with a tiny $600 job ($200 profit) of installing 4 panels compared to installing $18,000 systems.
 

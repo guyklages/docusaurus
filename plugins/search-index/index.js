@@ -13,15 +13,19 @@ const FENCE = /^\s*(```|~~~)/;
 const HEADING = /^(#{1,6})\s+(.*?)\s*#*\s*$/;
 const CUSTOM_ID = /\s*\{#([^}]+)\}\s*$/;
 
-function stripInline(text, collapse = true) {
+// `raw` mode mimics the text Docusaurus slugs for heading ids: markup is
+// removed outright (not replaced by a space) and whitespace is kept as-is,
+// so "a <mark> b </mark>" slugs as "a--b-".
+function stripInline(text, raw = false) {
+  const gap = raw ? '' : ' ';
   const out = text
-    .replace(/<!--[\s\S]*?-->/g, ' ')
-    .replace(/!\[[^\]]*\]\([^)]*\)/g, ' ')
+    .replace(/<!--[\s\S]*?-->/g, gap)
+    .replace(/!\[[^\]]*\]\([^)]*\)/g, gap)
     .replace(/\[([^\]]*)\]\([^)]*\)/g, '$1')
-    .replace(/<[^>]+>/g, ' ')
+    .replace(/<[^>]+>/g, gap)
     .replace(/&nbsp;/g, ' ')
     .replace(/[*`]|~~/g, '');
-  return collapse ? out.replace(/\s+/g, ' ').trim() : out.trim();
+  return raw ? out : out.replace(/\s+/g, ' ').trim();
 }
 
 function parseSections(raw, pageTitle) {
@@ -52,8 +56,8 @@ function parseSections(raw, pageTitle) {
         const idMatch = CUSTOM_ID.exec(text);
         if (idMatch) text = text.replace(CUSTOM_ID, '');
         const heading = stripInline(text);
-        // Docusaurus slugs the raw text, so don't collapse whitespace first.
-        const anchor = idMatch ? idMatch[1] : slugger.slug(stripInline(text, false));
+        // Docusaurus slugs the raw text, so use the raw (untrimmed, uncollapsed) text.
+        const anchor = idMatch ? idMatch[1] : slugger.slug(stripInline(text, true));
         current = {h: heading, a: anchor, lines: []};
         continue;
       }

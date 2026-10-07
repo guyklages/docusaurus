@@ -44,6 +44,7 @@ const hrefFor = (url, anchor) => (anchor ? `${url}#${anchor}` : url);
 
 export default function PageSearch({mobile}) {
   const [index, setIndex] = useState(null);
+  const [loadFailed, setLoadFailed] = useState(false);
   const [query, setQuery] = useState('');
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState(-1);
@@ -52,7 +53,10 @@ export default function PageSearch({mobile}) {
 
   const loadIndex = () => {
     if (index === null) {
-      import('@search-index').then((mod) => setIndex(mod.default));
+      setLoadFailed(false);
+      import('@search-index')
+        .then((mod) => setIndex(mod.default))
+        .catch(() => setLoadFailed(true));
     }
   };
 
@@ -115,7 +119,17 @@ export default function PageSearch({mobile}) {
       />
       {showPanel && (
         <div className={styles.panel} role="listbox">
-          {index === null && <div className={styles.empty}>Loading…</div>}
+          {index === null && !loadFailed && (
+            <div className={styles.empty}>Loading…</div>
+          )}
+          {index === null && loadFailed && (
+            <div className={styles.empty}>
+              Couldn't load the search index.{' '}
+              <button type="button" className={styles.retry} onClick={loadIndex}>
+                Retry
+              </button>
+            </div>
+          )}
           {index !== null && results.length === 0 && (
             <div className={styles.empty}>No results</div>
           )}

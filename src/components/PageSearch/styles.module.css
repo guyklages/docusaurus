@@ -120,3 +120,13 @@
   color: var(--ifm-color-emphasis-600);
   font-size: 0.75rem;
 }
+
+.retry {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--ifm-color-primary);
+  font: inherit;
+  text-decoration: underline;
+  cursor: pointer;
+}

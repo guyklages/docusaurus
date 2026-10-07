@@ -120,7 +120,7 @@ Rooftop panels are the most common, but non-rooftop panels are cheaper in the lo
 
 | Dual-Axis Tracking (DAT) panels |  |
 |---------------------------------|--|
-|
+| If you have a backyard that would allow Dual-Axis Tracking (DAT) panels, then each panel will produce ~50% more than being on a rooftop since these move with the sun: <br/> - East-to-west during the day <br/> - Flat-to-steep with the seasons <br/><br/> For example, twenty-four 200-watt (4.8 kW) DAT panels produce about the same as eighteen 400-watt (7.2 kW) rooftop panels. | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/DAT-solar-panels.png) |
 
 
 ### Rooftop-mounted

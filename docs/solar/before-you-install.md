@@ -122,13 +122,13 @@ Solar installers calculate your needed number of rooftop panels based on the kWh
 | 12 month's of kWh used   | (__ kWh) / (400-watt panels) = Panels needed             | 8000 / 400 = 20 panels     |
 | Highest month's kWh x 12 | (__ kwH) / (400-watt panels) * 12 months = Panels needed | 800 / 400 * 12 = 24 panels |
 
-#### Keep in mind:
-
-- Winter bills (kWh usage) are about twice as much as summer bills (kWh usage).
-- Winter months produce about one-third as much electricity as summer months.
-- It's better to calculate based on the month that uses the most kWh of electricity and multiply that by 12.
-    - This creates a surplus in summer, which is better than not enough in the winter.
-    - Panels degrade 0.5% per year; so after 40 years, panels produce 20% less.
+| <div style={{ width: '700px' }}>Keep in mind:</div>   |    |
+|-------------------------------------------------------|----|
+| - Winter bills (kWh usage) are about twice as much as summer bills (kWh usage).        | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/Seasonal-kWh-production.png)
+| - Winter months produce about one-third as much electricity as summer months.          |
+| - Why it's better to calculate based on the highest month's bill * 12:                 |
+|     - This creates a surplus in summer, which is better than not enough in the winter. |
+|     - Panels degrade 0.5% per year; so after 40 years, panels produce 20% less.        |
 
 **Note:** The above example uses our numbers, and we wish we had installed 24 panels instead of only 20 panels. We're stuck with our current system since no installer wants to bother with the tiny $600 job ($200 profit) of installing 4 panels when they can focus on installing $18,000 systems.
 

@@ -117,14 +117,14 @@ How many solar panels you need depends on your energy usage and where you'll mou
 
 Solar installers calculate your needed number of rooftop panels based on the kWh used on your last 12 months of electric bills; but I think using the highest bill multiplied by 12 is a safer calculation to cover your heaviest usage month and for future-proofing your solar panel system.
 
-| Method                   | Calculation                                              | Example                    |
-|--------------------------|----------------------------------------------------------|---------------------------:|
-| 12 month's of kWh used   | (__ kWh) / (400-watt panels) = Panels needed             | 8000 / 400 = 20 panels     |
-| Highest month's kWh x 12 | (__ kwH) / (400-watt panels) * 12 months = Panels needed | 800 / 400 * 12 = 24 panels |
+| Method                       | Calculation                                              | Example                        |
+|------------------------------|----------------------------------------------------------|-------------------------------:|
+| **12 month's of kWh used**   | (__ kWh) / (400-watt panels) = Panels needed             | 8000 / 400 = **20** panels     |
+| **Highest month's kWh x 12** | (__ kwH) / (400-watt panels) * 12 months = Panels needed | 800 / 400 * 12 = **24** panels |
 
 | <div style={{ width: '630px' }}>Keep in mind:</div>   |    |
 |-------------------------------------------------------|----|
-| - Winter kWh usage is about twice as much as summer kWh usage. <br/> - Winter months produce about one-third as much electricity as summer months. <br/> - Panels degrade 0.5% per year; so after 40 years, panels produce 20% less.        | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/Seasonal-kWh-production.png) |
+| - Winter kWh usage is about twice as much as summer kWh usage. <br/><br/> - Winter months produce about one-third as much electricity as summer months. <br/><br/> - Panels degrade 0.5% per year; so after 40 years, panels produce 20% less.        | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/Seasonal-kWh-production.png) |
 
 **Note:** The above example uses our numbers, and we wish we had installed 24 panels instead of only 20 panels. We're stuck with our current system since no installer wants to bother with the tiny $600 job ($200 profit) of installing 4 panels when they can focus on installing $18,000 systems.
 

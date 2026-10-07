@@ -93,8 +93,11 @@ Below are items that are needed before your solar company designs your solar pan
 | 30 - 60     | Free | If no appliance uses gas, call PG&E to remove your gas meter. The gas meter cannot be removed until **4 weeks** after your gas has been shut-off and capped. |
 | 120 - 365  | Priceless | After appliances are electric, wait at least one winter (Dec - Feb) or 12 months to see which month you use the highest amount of kWh (and submit your highest bill) since solar companies can't install more panels than the electric bill's kWh you submit to them for your solar permits. (They will multiply your bill by 12) <br/> This is why you make your single highest bill even higher before installing solar panels. |
 
-
 ## Rebates
+
+Ask your electricity provider if they have any rebates for upgrading to electric--you'll be surprised!
+
+Alameda Municipal Power has rebates on [everything related to electric appliances](https://docs.google.com/spreadsheets/d/1fYt3F4BMfmxB7FPKlHm0LRemiAv7NMfOwsK0RDLblwk/edit?gid=1750172230#gid=1750172230).
 
 ## How many panels
 

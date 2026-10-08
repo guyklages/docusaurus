@@ -39,7 +39,7 @@ How many solar panels you need depends on:
 
 Rooftop panels are the most common, but non-rooftop panels are cheaper in the long-run because:
 
-- You won't need to pay $6,000 - 8,000 to remove and reinstall when fixing or updating your roof.
+- You won't need to pay $7,000 - 9,000 to remove and reinstall when fixing or updating your roof.
 - You won't need to climb onto your roof for cleaning or maintaining any issue with your panels.
 
 | Dual-Axis Tracking (DAT) panels |  |

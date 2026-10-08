@@ -8,7 +8,7 @@ Before buying anything, the following checklist will help you decide what is bes
 
 2. Learn from [our mistakes](./mistakes.md).
 
-3. Ask the solar panel providers [lots of questions](#questions-to-ask).
+3. [Ask many questions](#ask-many-questions) to as many solar panel providers you can.
 
 4. Get price quotes from at least three different solar panel providers.
     - ask what makes them better than others in terms of equipment, warranties, lifetime costs, financing, etc.
@@ -18,7 +18,7 @@ Before buying anything, the following checklist will help you decide what is bes
 
 5. Check the [Prerequisites](#prerequisites)
 
-## Questions to ask
+## Ask many questions
 
 - Where are you putting the conduit? Draw me a diagram.
     - Tell them directly you want the conduit routed through the attic - no visible conduit on the roof.

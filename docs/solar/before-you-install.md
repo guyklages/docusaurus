@@ -111,7 +111,7 @@ How many solar panels you need depends on:
 
 | Method                                   | Advantages         | Disadvantages    |
 |------------------------------------------|--------------------|------------------|
-| [Ground-mounted <br/> or DAT](#ground-mounted) | - Easier to clean and maintain <br/> - Isn't affected by roof repairs or replacement <br/> - DAT produces more power throughout the year | - Needs space in your backyard <br/> - 10-20% more expensive to install |
+| [Ground-mounted <br/> or DAT](#ground-mounted) | - Easier to clean and maintain <br/> - Isn't affected by roof repairs or replacement <br/> - DAT produces more power throughout the year | - Needs space in your backyard <br/> - 10-20% more expensive to install <br/> - Hard to find an installer |
 | [Rooftop-mounted](#Rooftop-mounted)      | Has the most installers | - Difficult to clean or maintain <br/> - Costs $6-8k to remove/reinstall |
 | [Carport-mounted](#carport-mounted)      | - Easier to clean and maintain <br/> - Isn't affected by roof repairs or replacement <br/> - Protects driveway vehicles | Need to build a structure over your driveway |
 | [Balcony-mounted](#balcony-mounted)      | - Free and easy to install <br/> - Costs only $385 - $500 | - Smaller than rooftop installs <br/> - Produces 10% of rooftop installs |
@@ -177,7 +177,7 @@ Since the free-install plug-in solar panels have become legal in most states, ma
 
 ## Your highest electric bill
 
-Determine which month your highest electric bill occurs and try to use more that month:
+Determine which month your highest electric bill occurs and try to use more electricity that month:
 
 - By law, solar companies are limited in the number of kW panels they can install, based on the electric bills you submit to them. It can be any electric bill, so give your most expensive one or two (most kWh used).
 - Best if you have 12 months of bills to know your true usage, then submit your single highest bill.
@@ -187,6 +187,19 @@ Determine which month your highest electric bill occurs and try to use more that
     - Luxuries:  Hot tub, sauna, EV charging stations/outlets, etc.
 
 ## Upgrade your main panel
+
+If your main panel is old or crowded or smaller than 150 amps, upgrade it to at least 200 amps. 
+
+- It's easier and more accurate to monitor and backup a single, spacious panel than a crowded one.
+- Unless you've recently upgraded yours, expand your Main Panel or Subpanel for more breakers.
+
+Below are some common appliances and their electrical needs:
+
+- An electric water heater needs a 30-Amp breaker (10-gauge wire) to replace a 20-Amp (12-gauge) gas one.
+- An electric heat pump needs a 30-Amp breaker (10-gauge wire) to replace a 20-Amp (12-gauge) gas one.
+- An EV charger needs a 30-Amp breaker. A 50-amp breaker will support faster charging.
+
+**Noted:** Most utility companies have rebates for this, so check out their website!
 
 ## Gas meter placement
 

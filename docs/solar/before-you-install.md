@@ -143,11 +143,21 @@ Solar installers calculate your needed number of rooftop panels based on the kWh
 |-------------------------------------------------------|----|
 | - Winter kWh usage is about twice as much as summer kWh usage. <br/><br/> - Winter months produce about one-third as much electricity as summer months. <br/><br/> - Panels degrade 0.5% per year; so after 40 years, panels produce 20% less.        | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/Seasonal-kWh-production.png) |
 
+#### Roof must be less than 10 years old
 
+- Solar panels are guaranteed for 20+ years; so solar companies won't install on an old roof.
+- Replacing shingles can cost $4,000 - $24,000 depending on how many layers of shingles you have.
+- If you don't want panels on your home, build a shed or ADU; companies won't install on the ground.
 
-#### Roof age
+#### Roof "flatness" matters
 
-#### Roof flatness
+Solar panels can be installed on almost any roof type (anything except wood or slate), but any pipes or vents or other items on your roof will limit where panels can be installed. To maximize your solar generation:
+
+- Go to [Google Project Sunroof](https://sunroof.withgoogle.com/) to see which parts of your roof receive the most sunlight.
+- Hire a roofer to move/combine pipes/vents from your roof's sunny side to the shaded side.
+
+**Note:** Fire codes require a significant walkway for firemen which eats into the square footage that can be used for solar panels. Check with your local jurisdiction. They have some leeway. Some make an exception for indoor fire sprinklers, which allow you to use more of your roof.
+
 
 ### Carport-mounted
 

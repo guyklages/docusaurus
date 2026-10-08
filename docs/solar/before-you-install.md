@@ -188,7 +188,7 @@ Below are some common appliances and their electrical needs:
 - An electric heat pump needs a 30-Amp breaker (10-gauge wire) to replace a 20-Amp (12-gauge) gas one.
 - An EV charger needs a 30-Amp breaker. A 50-amp breaker will support faster charging.
 
-**Noted:** Most utility companies have rebates for this, so check out their website!
+**Note:** Most utility companies have rebates for this, so check out their website!
 
 ### Gas meter placement
 
@@ -196,7 +196,7 @@ By law, nothing can be within 3 feet to the left or 3 feet to the right (at any 
 
 Our gas meter required the big, ugly Emergency-Stop to be on the _front_ of our garage instead of the side.
 
-#### To avoid this:  
+**To avoid this:**
 
 {/* TODO: add links to the two vs bullets */}
 

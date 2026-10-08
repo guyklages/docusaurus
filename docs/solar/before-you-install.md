@@ -10,11 +10,7 @@ Before buying anything, the following checklist will help you decide what is bes
 
 3. [Ask many questions](#ask-many-questions) to as many solar panel providers you can.
 
-4. Get price quotes from at least three different solar panel providers.
-    - ask what makes them better than others in terms of equipment, warranties, lifetime costs, financing, etc.
-    - Really take time with the decision. 
-    - If a company is just trying to talk you into quickly signing vs competing on quality, then they're probably not the company you want to go with.
-    - Every time I received a proposal I learned a little more.
+4. [Get price quotes](#get-price-quotes) from at least three different solar panel providers.
 
 5. Check the [Prerequisites](#prerequisites)
 
@@ -63,6 +59,13 @@ Before buying anything, the following checklist will help you decide what is bes
 Your own research:
 
 - Look at the [Better Business Bureau](https://www.bbb.org/) to check for any complaints against the installer.
+
+## Get price quotes
+
+- ask what makes them better than others in terms of equipment, warranties, lifetime costs, financing, etc.
+- Really take time with the decision. 
+- If a company is just trying to talk you into quickly signing vs competing on quality, then they're probably not the company you want to go with.
+- Every time I received a proposal I learned a little more.
 
 ## Prerequisites
 

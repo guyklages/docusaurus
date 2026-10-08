@@ -12,9 +12,9 @@ Before buying anything, the following checklist will help you decide what is bes
 
 4. [Get price quotes](#get-price-quotes) from at least three different solar panel providers.
 
-5. Check the [Prerequisites](#prerequisites) to prepare your house for solar panel installation.
+5. [Check for Rebates](#check-for-rebates) to see what you qualify for.
 
-6. [Check for Rebates](#check-for-rebates) to see what you qualify for.
+6. Check the [Prerequisites](#prerequisites) to prepare your house for solar panel installation.
 
 7. [Raise your highest bill](#raise-your-highest-bill) to allow for more panels installed.
 
@@ -145,6 +145,12 @@ Your own research:
 - If a company is just trying to talk you into quickly signing vs competing on quality, then they're probably not the company you want to go with.
 - Every time I received a proposal I learned a little more.
 
+## Check for rebates
+
+Ask your electricity provider if they have any rebates for upgrading to electric--you'll be surprised!
+
+Alameda Municipal Power has rebates on [everything related to electric appliances](https://docs.google.com/spreadsheets/d/1fYt3F4BMfmxB7FPKlHm0LRemiAv7NMfOwsK0RDLblwk/edit?gid=1750172230#gid=1750172230).
+
 ## Prerequisites
 
 So, after making [all those mistakes](./mistakes.md), we now see the ideal order of doing things to maximize appliance and solar efficiency while minimizing frustrations and wasted time/energy/money.
@@ -167,25 +173,7 @@ Below are items that are needed before your solar company designs your solar pan
 | 30 - 60     | Free | If no appliance uses gas, call PG&E to remove your gas meter. The gas meter cannot be removed until **4 weeks** after your gas has been shut-off and capped. |
 | 120 - 365  | Priceless | After appliances are electric, wait at least one winter (Dec - Feb) or 12 months to see which month you use the highest amount of kWh (and submit your highest bill) since solar companies can't install more panels than the electric bill's kWh you submit to them for your solar permits. (They will multiply your bill by 12) <br/> This is why you make your single highest bill even higher before installing solar panels. |
 
-## Check for rebates
-
-Ask your electricity provider if they have any rebates for upgrading to electric--you'll be surprised!
-
-Alameda Municipal Power has rebates on [everything related to electric appliances](https://docs.google.com/spreadsheets/d/1fYt3F4BMfmxB7FPKlHm0LRemiAv7NMfOwsK0RDLblwk/edit?gid=1750172230#gid=1750172230).
-
-## Raise your highest bill
-
-Determine which month creates your highest electric bill and then try to raise your electric use during that month:
-
-- By law, solar companies are limited in the number of kW panels they can install, based on the electric bill you submit to them. It can be any electric bill, so give your most expensive one with the most kWh used.
-- Best if you have 12 months of bills to know your true usage, then submit your single highest bill.
-- In winter, you'll want more panels for the small amount of sunlight.
-- Your system will be _much_ more efficient if you have every electrical item installed before the solar panels.
-    - Appliances:  Water heater, heat pump+AC, washer/dryer, stove/oven, 2nd refrigerator/freezer, etc.
-    - Luxuries:  Hot tub, sauna, EV charging stations/outlets, etc.
-- To raise your bill, charge your EV more or use a space heater more.
-
-## Upgrade your main panel
+### Upgrade your main panel
 
 If your main panel is old or crowded or smaller than 150 amps, upgrade it to at least 200 amps. 
 
@@ -200,6 +188,20 @@ Below are some common appliances and their electrical needs:
 
 **Noted:** Most utility companies have rebates for this, so check out their website!
 
-## Gas meter placement
+### Gas meter placement
 
-## HOA options
+### HOA options
+
+## Raise your highest bill
+
+Determine which month creates your highest electric bill and then try to raise your electric use during that month:
+
+- By law, solar companies are limited in the number of kW panels they can install, based on the electric bill you submit to them. It can be any electric bill, so give your most expensive one with the most kWh used.
+- Best if you have 12 months of bills to know your true usage, then submit your single highest bill.
+- In winter, you'll want more panels for the small amount of sunlight.
+- Your system will be _much_ more efficient if you have every electrical item installed before the solar panels.
+    - Appliances:  Water heater, heat pump+AC, washer/dryer, stove/oven, 2nd refrigerator/freezer, etc.
+    - Luxuries:  Hot tub, sauna, EV charging stations/outlets, etc.
+- To raise your bill, charge your EV more or use a space heater more.
+
+

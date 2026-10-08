@@ -12,7 +12,85 @@ Before buying anything, the following checklist will help you decide what is bes
 
 4. [Get price quotes](#get-price-quotes) from at least three different solar panel providers.
 
-5. Check the [Prerequisites](#prerequisites)
+5. Check the [Prerequisites](#prerequisites) to prepare your house for solar panel installation.
+
+6. [Check for Rebates](#check-for-rebates) to see what you qualify for.
+
+7. [Raise your highest bill](#raise-your-highest-bill) to allow for more panels installed.
+
+## Decide where to mount
+
+{/* TODO: link for "your energy usage" */}
+
+How many solar panels you need depends on:
+
+- The size of your panels (200 - 425 kW)
+- Your home's energy usage (kWh)
+- Where you'll mount your solar panels
+
+| Mounted on                       | Advantages         | Disadvantages    |
+|----------------------------------|--------------------|------------------|
+| [Ground <br/><br/> (or DAT)](#ground-mounted) | - Easier to remove snow, clean, and maintain <br/> - Isn't affected by roof age or repairs  <br/> - Better airflow keeps them cooler and more efficient <br/> - No need to pay $7k - $9k when re-roofing <br/> - Infinitely safer than climbing/walking on a roof <br/> - DAT produces 50% more power throughout the year | - Needs space in your backyard <br/> - 10-20% more expensive to install <br/> - Hard to find an installer |
+| [Rooftop](#Rooftop-mounted)      | Has the most installers | - Difficult to clean or maintain <br/> - Costs $7k - 9k to remove/reinstall |
+| [Carport](#carport-mounted)      | - Easier to clean and maintain <br/> - Isn't affected by roof repairs or replacement <br/> - Protects driveway vehicles | Need to build a structure over your driveway |
+| [Balcony](#balcony-mounted)      | - Easy to install yourself <br/> - Costs only $385 - $500 | - Smaller than rooftop installs <br/> - Produces 10% of rooftop installs |
+
+### Ground-mounted
+
+Rooftop panels are the most common, but non-rooftop panels are cheaper in the long-run because:
+
+- You won't need to pay $6,000 - 8,000 to remove and reinstall when fixing or updating your roof.
+- You won't need to climb onto your roof for cleaning or maintaining any issue with your panels.
+
+| Dual-Axis Tracking (DAT) panels |  |
+|---------------------------------|--|
+| If you have a backyard that would allow Dual-Axis Tracking (DAT) panels, then each panel will produce ~50% more than being on a rooftop since these move with the sun: <br/> - East-to-west during the day <br/> - Flat-to-steep with the seasons <br/><br/> For example, twenty-four 200-watt (4.8 kW) DAT panels produce about the same as eighteen 400-watt (7.2 kW) rooftop panels. | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/DAT-solar-panels.png) |
+
+### Rooftop-mounted
+
+Solar installers calculate your needed number of rooftop panels based on the kWh used on your last 12 months of electric bills; but I think using the highest bill multiplied by 12 is a safer calculation to cover your heaviest usage month and for future-proofing your solar panel system.
+
+| Method                                   | Calculation                                            | Example                                 |
+|------------------------------------------|--------------------------------------------------------|----------------------------------------:|
+| **12 month's of kWh used**               | (__ kWh) / (400-watt panels) = Panels                  | 8000 / 400 = **20 panels** (8.0 kW)     |
+| **Highest month's kWh x 12**&nbsp;&nbsp; | (__ kwH) / (400-watt panels) * 12 = Panels&nbsp;&nbsp; | 800 / 400 * 12 = **24 panels** (9.6 kW) |
+
+**Note:** This example uses our numbers, and we wish we had installed 24 panels instead of only 20. We're stuck with 20 since no installer wants to bother with a tiny $600 job ($200 profit) of installing 4 panels compared to installing $18,000 systems.
+
+| <div style={{ width: '630px' }}>Keep in mind:</div>   |    |
+|-------------------------------------------------------|----|
+| - Winter kWh usage is about twice as much as summer kWh usage. <br/><br/> - Winter months produce about one-third as much electricity as summer months. <br/><br/> - Panels degrade 0.5% per year; so after 40 years, panels produce 20% less.        | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/Seasonal-kWh-production.png) |
+
+#### Roof must be less than 10 years old
+
+- Solar panels are guaranteed for 20+ years; so solar companies won't install on an old roof.
+- Replacing shingles can cost $4,000 - $24,000 depending on how many layers of shingles you have.
+- If you don't want panels on your home, build a shed or ADU; companies won't install on the ground.
+
+#### Roof "flatness" matters
+
+Solar panels can be installed on almost any roof type (anything except wood or slate), but any pipes or vents or other items on your roof will limit where panels can be installed. To maximize your solar generation:
+
+- Go to [Google Project Sunroof](https://sunroof.withgoogle.com/) to see which parts of your roof receive the most sunlight.
+- Hire a roofer to move/combine pipes/vents from your roof's sunny side to the shaded side.
+
+**Note:** Fire codes require a significant walkway for firemen which eats into the square footage that can be used for solar panels. Check with your local jurisdiction. They have some leeway. Some make an exception for indoor fire sprinklers, which allow you to use more of your roof.
+
+### Carport-mounted
+
+Building a carport over one's driveway is gaining popularity, but the $10k - $16k price to build a sturdy carport isn't for everyone.
+
+| Carport solar panels |  |
+|----------------------|--|
+| If you have a driveway and would like to protect your vehicles from the elements, then building a sturdy carport for solar panels on top could be a good solution for you. | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/solar-panel-carport.jpg) |
+
+### Balcony-mounted
+
+Since the free-install plug-in solar panels have become legal in most states, many renters and homeowners are adding solar panels to their balconies.
+
+| Balcony solar panels |  |
+|----------------------|--|
+| Whether you rent an apartment or own a home, balcony solar panels are cheap and takes less than one hour to install--just plug them into a microinverter after notifying your landlord or HOA. | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/balcony-solar-panels.png)
 
 ## Ask many questions
 
@@ -94,82 +172,6 @@ Below are items that are needed before your solar company designs your solar pan
 Ask your electricity provider if they have any rebates for upgrading to electric--you'll be surprised!
 
 Alameda Municipal Power has rebates on [everything related to electric appliances](https://docs.google.com/spreadsheets/d/1fYt3F4BMfmxB7FPKlHm0LRemiAv7NMfOwsK0RDLblwk/edit?gid=1750172230#gid=1750172230).
-
-## Decide where to mount
-
-{/* TODO: link for "your energy usage" */}
-
-How many solar panels you need depends on:
-
-- The size of your panels (200 - 425 kW)
-- Your home's energy usage (kWh)
-- Where you'll mount your solar panels
-
-| Mounted on                       | Advantages         | Disadvantages    |
-|----------------------------------|--------------------|------------------|
-| [Ground <br/><br/> (or DAT)](#ground-mounted) | - Easier to remove snow, clean, and maintain <br/> - Isn't affected by roof age or repairs  <br/> - Better airflow keeps them cooler and more efficient <br/> - No need to pay $7k - $9k when re-roofing <br/> - Infinitely safer than climbing/walking on a roof <br/> - DAT produces 50% more power throughout the year | - Needs space in your backyard <br/> - 10-20% more expensive to install <br/> - Hard to find an installer |
-| [Rooftop](#Rooftop-mounted)      | Has the most installers | - Difficult to clean or maintain <br/> - Costs $7k - 9k to remove/reinstall |
-| [Carport](#carport-mounted)      | - Easier to clean and maintain <br/> - Isn't affected by roof repairs or replacement <br/> - Protects driveway vehicles | Need to build a structure over your driveway |
-| [Balcony](#balcony-mounted)      | - Easy to install yourself <br/> - Costs only $385 - $500 | - Smaller than rooftop installs <br/> - Produces 10% of rooftop installs |
-
-### Ground-mounted
-
-Rooftop panels are the most common, but non-rooftop panels are cheaper in the long-run because:
-
-- You won't need to pay $6,000 - 8,000 to remove and reinstall when fixing or updating your roof.
-- You won't need to climb onto your roof for cleaning or maintaining any issue with your panels.
-
-| Dual-Axis Tracking (DAT) panels |  |
-|---------------------------------|--|
-| If you have a backyard that would allow Dual-Axis Tracking (DAT) panels, then each panel will produce ~50% more than being on a rooftop since these move with the sun: <br/> - East-to-west during the day <br/> - Flat-to-steep with the seasons <br/><br/> For example, twenty-four 200-watt (4.8 kW) DAT panels produce about the same as eighteen 400-watt (7.2 kW) rooftop panels. | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/DAT-solar-panels.png) |
-
-
-### Rooftop-mounted
-
-Solar installers calculate your needed number of rooftop panels based on the kWh used on your last 12 months of electric bills; but I think using the highest bill multiplied by 12 is a safer calculation to cover your heaviest usage month and for future-proofing your solar panel system.
-
-| Method                                   | Calculation                                            | Example                                 |
-|------------------------------------------|--------------------------------------------------------|----------------------------------------:|
-| **12 month's of kWh used**               | (__ kWh) / (400-watt panels) = Panels                  | 8000 / 400 = **20 panels** (8.0 kW)     |
-| **Highest month's kWh x 12**&nbsp;&nbsp; | (__ kwH) / (400-watt panels) * 12 = Panels&nbsp;&nbsp; | 800 / 400 * 12 = **24 panels** (9.6 kW) |
-
-**Note:** This example uses our numbers, and we wish we had installed 24 panels instead of only 20. We're stuck with 20 since no installer wants to bother with a tiny $600 job ($200 profit) of installing 4 panels compared to installing $18,000 systems.
-
-| <div style={{ width: '630px' }}>Keep in mind:</div>   |    |
-|-------------------------------------------------------|----|
-| - Winter kWh usage is about twice as much as summer kWh usage. <br/><br/> - Winter months produce about one-third as much electricity as summer months. <br/><br/> - Panels degrade 0.5% per year; so after 40 years, panels produce 20% less.        | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/Seasonal-kWh-production.png) |
-
-#### Roof must be less than 10 years old
-
-- Solar panels are guaranteed for 20+ years; so solar companies won't install on an old roof.
-- Replacing shingles can cost $4,000 - $24,000 depending on how many layers of shingles you have.
-- If you don't want panels on your home, build a shed or ADU; companies won't install on the ground.
-
-#### Roof "flatness" matters
-
-Solar panels can be installed on almost any roof type (anything except wood or slate), but any pipes or vents or other items on your roof will limit where panels can be installed. To maximize your solar generation:
-
-- Go to [Google Project Sunroof](https://sunroof.withgoogle.com/) to see which parts of your roof receive the most sunlight.
-- Hire a roofer to move/combine pipes/vents from your roof's sunny side to the shaded side.
-
-**Note:** Fire codes require a significant walkway for firemen which eats into the square footage that can be used for solar panels. Check with your local jurisdiction. They have some leeway. Some make an exception for indoor fire sprinklers, which allow you to use more of your roof.
-
-
-### Carport-mounted
-
-Building a carport over one's driveway is gaining popularity, but the $10k - $16k price to build a sturdy carport isn't for everyone.
-
-| Carport solar panels |  |
-|----------------------|--|
-| If you have a driveway and would like to protect your vehicles from the elements, then building a sturdy carport for solar panels on top could be a good solution for you. | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/solar-panel-carport.jpg) |
-
-### Balcony-mounted
-
-Since the free-install plug-in solar panels have become legal in most states, many renters and homeowners are adding solar panels to their balconies.
-
-| Balcony solar panels |  |
-|----------------------|--|
-| Whether you rent an apartment or own a home, balcony solar panels are cheap and takes less than one hour to install--just plug them into a microinverter after notifying your landlord or HOA. | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/balcony-solar-panels.png)
 
 ## Raise your highest bill
 

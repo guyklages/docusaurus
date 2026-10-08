@@ -177,6 +177,15 @@ Since the free-install plug-in solar panels have become legal in most states, ma
 
 ## Your highest electric bill
 
+Determine which month your highest electric bill occurs and try to use more that month:
+
+- By law, solar companies are limited in the number of kW panels they can install, based on the electric bills you submit to them. It can be any electric bill, so give your most expensive one or two (most kWh used).
+- Best if you have 12 months of bills to know your true usage, then submit your single highest bill.
+- In winter, you'll want more panels for the small amount of sunlight.
+- Your system will be _much_ more efficient if you have every electrical item installed before the solar panels.
+    - Appliances:  Water heater, heat pump+AC, washer/dryer, stove/oven, 2nd refrigerator/freezer, etc.
+    - Luxuries:  Hot tub, sauna, EV charging stations/outlets, etc.
+
 ## Upgrade your main panel
 
 ## Gas meter placement

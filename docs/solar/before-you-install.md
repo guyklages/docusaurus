@@ -104,7 +104,7 @@ How many solar panels you need depends on:
 
 | Method                                   | Advantages         | Disadvantages    |
 |------------------------------------------|--------------------|------------------|
-| [Ground-mounted <br/> or DAT](#ground-mounted) | - Easier to remove snow, clean, and maintain <br/> - Isn't affected by roof age or repairs  <br/> - Better airflow keeps them cooler and more efficient <br/> - No need to pay $7k - $9k when re-roofing <br/> - Infinitely safer than climbing/walking on a roof <br/> - DAT produces more power throughout the year | - Needs space in your backyard <br/> - 10-20% more expensive to install <br/> - Hard to find an installer |
+| [Ground-mounted <br/><br/> or DAT](#ground-mounted) | - Easier to remove snow, clean, and maintain <br/> - Isn't affected by roof age or repairs  <br/> - Better airflow keeps them cooler and more efficient <br/> - No need to pay $7k - $9k when re-roofing <br/> - Infinitely safer than climbing/walking on a roof <br/> - DAT produces more power throughout the year | - Needs space in your backyard <br/> - 10-20% more expensive to install <br/> - Hard to find an installer |
 | [Rooftop-mounted](#Rooftop-mounted)      | Has the most installers | - Difficult to clean or maintain <br/> - Costs $7k - 9k to remove/reinstall |
 | [Carport-mounted](#carport-mounted)      | - Easier to clean and maintain <br/> - Isn't affected by roof repairs or replacement <br/> - Protects driveway vehicles | Need to build a structure over your driveway |
 | [Balcony-mounted](#balcony-mounted)      | - Free and easy to install <br/> - Costs only $385 - $500 | - Smaller than rooftop installs <br/> - Produces 10% of rooftop installs |

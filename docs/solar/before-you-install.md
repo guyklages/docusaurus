@@ -140,7 +140,9 @@ Your own research:
 
 ## Get price quotes
 
-- ask what makes them better than others in terms of equipment, warranties, lifetime costs, financing, etc.
+Get price quotes from at least three solar installers:
+
+- Ask what makes them better than others in terms of equipment, warranties, lifetime costs, financing, etc.
 - Really take time with the decision. 
 - If a company is just trying to talk you into quickly signing vs competing on quality, then they're probably not the company you want to go with.
 - Every time I received a proposal I learned a little more.

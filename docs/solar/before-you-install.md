@@ -114,6 +114,7 @@ How many solar panels you need depends on:
 | [Ground-mounted <br/> or DAT](#ground-mounted) | - Easier to clean and maintain <br/> - Isn't affected by roof repairs or replacement <br/> - DAT produces more power throughout the year | - Needs space in your backyard <br/> - 10-20% more expensive to install |
 | [Rooftop-mounted](#Rooftop-mounted)      | Has the most installers | - Difficult to clean or maintain <br/> - Costs $6-8k to remove/reinstall |
 | [Carport-mounted](#carport-mounted)      | - Easier to clean and maintain <br/> - Isn't affected by roof repairs or replacement <br/> - Protects driveway vehicles | Need to build a structure over your driveway |
+| [Balcony-mounted](#balcony-mounted)      | - Free to install <br/> - Easy to install | - Smaller than rooftop installs <br/> - Produces 10% of rooftop installs |
 
 ### Ground-mounted
 
@@ -150,10 +151,19 @@ Solar installers calculate your needed number of rooftop panels based on the kWh
 
 ### Carport-mounted
 
+Building a carport over one's driveway is gaining popularity, but the $10k - $16k price to build a sturdy carport isn't for everyone.
 
+| Carport solar panels |  |
+|----------------------|--|
+| If you have a driveway and would like to protect your vehicles from the elements, then building a sturdy carport for solar panels on top could be a good solution for you. | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/solar-panel-carport.jpg) |
 
+### Balcony-mounted
 
+Since the free-install plug-in solar panels have become legal in most states, many renters and homeowners are adding solar panels to their balconies.
 
+| Balcony solar panels |  |
+|----------------------|--|
+| Whether you rent an apartment or own a home, balcony solar panels are cheap and takes less than one hour to install--just plug them into a microinverter after notifying your landlord or HOA. | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/balcony-solar-panels.png)
 
 ## Your highest electric bill
 

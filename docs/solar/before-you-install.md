@@ -4,14 +4,7 @@
 
 Before buying anything, the following checklist will help you decide what is best for you.
 
-1. If you have space in your backyard, consider a [Dual Axis Tracking (DAT) Ground Mount (GM) solar panel system] instead of rooftop panels. They are worth the more expensive install because:
-    - Optimal tilt angle helps significantly, about 15-20% more during winter months.
-    - Easier snow removal and cleaning.
-    - Better airflow keeps them cooler and more efficient.
-    - The age of your roof doesn’t matter with DAT.
-    - No need to pay $7,000 - 9,000 to remove and reinstall panels when re-roofing.
-    - In winter, rooftop panels generate very little and draw from the grid 10-30% daily.
-    - DAT panels are infinitely safer than climbing up and walking around your roof.
+1. Decide where to mount panels.
 
 2. Learn from [our mistakes](./mistakes.md).
 
@@ -93,13 +86,13 @@ Below are items that are needed before your solar company designs your solar pan
 | 30 - 60     | Free | If no appliance uses gas, call PG&E to remove your gas meter. The gas meter cannot be removed until **4 weeks** after your gas has been shut-off and capped. |
 | 120 - 365  | Priceless | After appliances are electric, wait at least one winter (Dec - Feb) or 12 months to see which month you use the highest amount of kWh (and submit your highest bill) since solar companies can't install more panels than the electric bill's kWh you submit to them for your solar permits. (They will multiply your bill by 12) <br/> This is why you make your single highest bill even higher before installing solar panels. |
 
-## Rebates
+## Check for rebates
 
 Ask your electricity provider if they have any rebates for upgrading to electric--you'll be surprised!
 
 Alameda Municipal Power has rebates on [everything related to electric appliances](https://docs.google.com/spreadsheets/d/1fYt3F4BMfmxB7FPKlHm0LRemiAv7NMfOwsK0RDLblwk/edit?gid=1750172230#gid=1750172230).
 
-## How many panels
+## Decide where to mount
 
 {/* TODO: link for "your energy usage" */}
 
@@ -111,7 +104,7 @@ How many solar panels you need depends on:
 
 | Method                                   | Advantages         | Disadvantages    |
 |------------------------------------------|--------------------|------------------|
-| [Ground-mounted <br/> or DAT](#ground-mounted) | - Easier to clean and maintain <br/> - Isn't affected by roof repairs or replacement <br/> - DAT produces more power throughout the year | - Needs space in your backyard <br/> - 10-20% more expensive to install <br/> - Hard to find an installer |
+| [Ground-mounted <br/> or DAT](#ground-mounted) | - Easier to remove snow, clean, and maintain <br/> - Isn't affected by roof age or repairs  <br/> - Better airflow keeps them cooler and more efficient <br/> - No need to pay $7k - $9k to remove and reinstall panels when re-roofing <br/> - Infinitely safer than climbing/walking on a roof <br/> - DAT produces more power throughout the year | - Needs space in your backyard <br/> - 10-20% more expensive to install <br/> - Hard to find an installer |
 | [Rooftop-mounted](#Rooftop-mounted)      | Has the most installers | - Difficult to clean or maintain <br/> - Costs $6-8k to remove/reinstall |
 | [Carport-mounted](#carport-mounted)      | - Easier to clean and maintain <br/> - Isn't affected by roof repairs or replacement <br/> - Protects driveway vehicles | Need to build a structure over your driveway |
 | [Balcony-mounted](#balcony-mounted)      | - Free and easy to install <br/> - Costs only $385 - $500 | - Smaller than rooftop installs <br/> - Produces 10% of rooftop installs |

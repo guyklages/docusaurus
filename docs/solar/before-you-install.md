@@ -170,7 +170,7 @@ Since the free-install plug-in solar panels have become legal in most states, ma
 
 ## Raise your highest bill
 
-Determine which month creates your highest electric bill and then try to raise your electric use that month:
+Determine which month creates your highest electric bill and then try to raise your electric use during that month:
 
 - By law, solar companies are limited in the number of kW panels they can install, based on the electric bill you submit to them. It can be any electric bill, so give your most expensive one with the most kWh used.
 - Best if you have 12 months of bills to know your true usage, then submit your single highest bill.

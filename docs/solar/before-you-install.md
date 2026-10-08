@@ -4,7 +4,7 @@
 
 Before buying anything, the following checklist will help you decide what is best for you.
 
-1. Decide where to mount panels.
+1. Think about [where you might want to mount solar panels](#decide-where-to-mount).
 
 2. Learn from [our mistakes](./mistakes.md).
 

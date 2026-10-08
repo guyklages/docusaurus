@@ -114,7 +114,7 @@ How many solar panels you need depends on:
 | [Ground-mounted <br/> or DAT](#ground-mounted) | - Easier to clean and maintain <br/> - Isn't affected by roof repairs or replacement <br/> - DAT produces more power throughout the year | - Needs space in your backyard <br/> - 10-20% more expensive to install |
 | [Rooftop-mounted](#Rooftop-mounted)      | Has the most installers | - Difficult to clean or maintain <br/> - Costs $6-8k to remove/reinstall |
 | [Carport-mounted](#carport-mounted)      | - Easier to clean and maintain <br/> - Isn't affected by roof repairs or replacement <br/> - Protects driveway vehicles | Need to build a structure over your driveway |
-| [Balcony-mounted](#balcony-mounted)      | - Free to install <br/> - Easy to install | - Smaller than rooftop installs <br/> - Produces 10% of rooftop installs |
+| [Balcony-mounted](#balcony-mounted)      | - Free and easy to install <br/> - Costs only $385 - $500 | - Smaller than rooftop installs <br/> - Produces 10% of rooftop installs |
 
 ### Ground-mounted
 

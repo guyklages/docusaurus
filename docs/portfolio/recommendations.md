@@ -7,7 +7,7 @@
 
 | Recommendation | Person |
 |----------------|--------|
-| _"Guy joined our team at Microsoft for a short engagement to help build out our content system. He brought deep technical writing expertise and a strong command of source control practices. Throughout the project, Guy showed remarkable patience and flexibility while navigating complex requirements, delivering results despite a tight timeline."_ | [Louie Mayor](https://www.linkedin.com/in/louie-mayor/) <br/> <br/> Manager |
+| _"Guy joined our team at Microsoft for a short engagement to help build out our content system. He brought deep technical writing expertise and a strong command of source control practices. Throughout the project, Guy showed remarkable patience and flexibility while navigating complex requirements, delivering results despite a tight timeline."_ | [Louie Mayor](https://www.linkedin.com/in/louiemayor/) <br/> <br/> Manager |
 
 ### FIS Global
 

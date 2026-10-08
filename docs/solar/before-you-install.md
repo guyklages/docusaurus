@@ -192,7 +192,24 @@ Below are some common appliances and their electrical needs:
 
 ### Gas meter placement
 
+By law, nothing can be within 3 feet to the left or 3 feet to the right (at any height) of a gas meter's _exhaust valve_.
+
+Our gas meter required the big, ugly Emergency-Stop to be on the _front_ of our garage instead of the side.
+
+#### To avoid this:  
+
+{/* TODO: add links to the two vs bullets */}
+
+- Convert all appliances to electric, and then PG&E will remove the gas meter for free.
+    - `[electric heat pump vs. gas furnace]()`
+    - `[electric vs. gas water heater]()`
+- My friend moved his front fence back 5 feet to allow his E-Stop and Powerwalls be installed on his side wall.
+
 ### HOA options
+
+[Subtitle A of the A.C.E.S. Act](https://www.congress.gov/bill/111th-congress/house-bill/2454) makes it illegal for an HOA to restrict installation of solar panels, but be ready for a long battle against their HOA rules and loopholes. Soon, [the new laws on the horizon](https://solargaines.com/solar-panels-hoa-rules/#:~:text=The%20American%20Clean%20Energy%20and%20Security%20Act%20%28H.R.,private%20contracts%20that%20prohibit%20solar%20panels%2C%20with%20exceptions.) will help.
+
+A good option might be a group solar project.
 
 ## Raise your highest bill
 

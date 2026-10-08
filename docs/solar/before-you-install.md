@@ -191,7 +191,7 @@ Determine which month your highest electric bill occurs and try to use more elec
 If your main panel is old or crowded or smaller than 150 amps, upgrade it to at least 200 amps. 
 
 - It's easier and more accurate to monitor and backup a single, spacious panel than a crowded one.
-- Unless you've recently upgraded yours, expand your Main Panel or Subpanel for more breakers.
+- Unless you've recently upgraded yours, expand your Main Panel or Sub-panel for more breakers.
 
 Below are some common appliances and their electrical needs:
 

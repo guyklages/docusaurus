@@ -168,16 +168,17 @@ Since the free-install plug-in solar panels have become legal in most states, ma
 |----------------------|--|
 | Whether you rent an apartment or own a home, balcony solar panels are cheap and takes less than one hour to install--just plug them into a microinverter after notifying your landlord or HOA. | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/balcony-solar-panels.png)
 
-## Your highest electric bill
+## Raise your highest bill
 
-Determine which month your highest electric bill occurs and try to use more electricity that month:
+Determine which month creates your highest electric bill and then try to raise your electric use that month:
 
-- By law, solar companies are limited in the number of kW panels they can install, based on the electric bills you submit to them. It can be any electric bill, so give your most expensive one or two (most kWh used).
+- By law, solar companies are limited in the number of kW panels they can install, based on the electric bill you submit to them. It can be any electric bill, so give your most expensive one with the most kWh used.
 - Best if you have 12 months of bills to know your true usage, then submit your single highest bill.
 - In winter, you'll want more panels for the small amount of sunlight.
 - Your system will be _much_ more efficient if you have every electrical item installed before the solar panels.
     - Appliances:  Water heater, heat pump+AC, washer/dryer, stove/oven, 2nd refrigerator/freezer, etc.
     - Luxuries:  Hot tub, sauna, EV charging stations/outlets, etc.
+- To raise your bill, charge your EV more or use a space heater more.
 
 ## Upgrade your main panel
 

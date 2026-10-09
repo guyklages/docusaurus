@@ -8,9 +8,9 @@ For each of the courses below, I designed the training using the ADDIE framework
 
 <DefinitionProvider>
 
-| Company               | Topic | In-person <br/> training | Remote <br/> training | <div style={{ width: '100px' }}>Curriculum designer</div> | <div style={{ width: '100px' }}>City</div> | <div style={{ width: '100px' }}>Year</div> |
+| Company               | Topic | <div style={{ width: '110px' }}>In-person <br/> training</div> | Remote <br/> training | <div style={{ width: '100px' }}>Curriculum designer</div> | <div style={{ width: '100px' }}>City</div> | <div style={{ width: '100px' }}>Year</div> |
 |-----------------------|-------|:------:|:-----:|:---:|-------------|:-----------:|
-| <DefTerm def="Edutainme is my own (part-time) startup company that has been teaching/training college students and adults throughout the Bay Area on weekends.">Edutainme</DefTerm>             | [Swagger](#swagger), DITA, MS Office, etc.  | Yes | Yes | Yes | Bay Area   | 2014 - now |
+| <DefTerm def="Edutainme is my own (part-time) startup company that has been teaching/training college students and adults throughout the Bay Area on weekends.">Edutainme</DefTerm>             | [Swagger](#swagger), DITA, MS Office  | Yes | Yes | Yes | Bay Area   | 2014 - now |
 | <DefTerm def="Atelio was the fintech startup within FIS Global.">Atelio</DefTerm> | [Pay by Bank](#pay-by-bank)  | Yes | Yes | Yes | Bay Area | 2024 - 2025 |
 | <DefTerm def="Nium is a fintech company driving the future of payments.">Nium</DefTerm>  | [Payins, Payouts](#payins-payouts) | Yes | | Yes | Bay Area | 2022 - 2023 |
 | <DefTerm def="Couchbase is the leader of NoSQL databases.">Couchbase</DefTerm>  | [SQL++ queries and indexes](#sql-queries-and-indexes) | Yes | Yes | Yes | Bay Area | 2017 - 2018 |

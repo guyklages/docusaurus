@@ -217,12 +217,14 @@ A good option might be a group solar project or [balcony-mounted panels](#balcon
 
 Determine which month creates your highest electric bill and then try to raise your electric use during that month:
 
+**Why:**
+
 - By law, solar companies are limited in the number of kW panels they can install, based on the electric bill you submit to them. It can be any electric bill, so give your most expensive one with the most kWh used.
-- Best if you have 12 months of bills to know your true usage, then submit your single highest bill.
 - In winter, you'll want more panels for the small amount of sunlight.
 - Your system will be _much_ more efficient if you have every electrical item installed before the solar panels.
-    - Appliances:  Water heater, heat pump+AC, washer/dryer, stove/oven, 2nd refrigerator/freezer, etc.
-    - Luxuries:  Hot tub, sauna, EV charging stations/outlets, etc.
-- To raise your bill, charge your EV more or use a space heater more.
 
+**How:**
 
+- Charge your EV more (or your neighbor's EV)
+- Use a space heaters in more rooms
+- Buy a 2nd refrigerator or freezer

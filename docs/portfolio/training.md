@@ -8,7 +8,7 @@ For each of the courses below, I designed the training using the ADDIE framework
 
 <DefinitionProvider>
 
-| Company               | Topic | <div style={{ width: '90px' }}>In-person <br/> training</div> | Remote <br/> training | <div style={{ width: '100px' }}>Curriculum designer</div> | <div style={{ width: '100px' }}>City</div> | <div style={{ width: '100px' }}>Year</div> |
+| Company               | Topic | <div style={{ width: '80px' }}>In-person <br/> training</div> | <div style={{ width: '80px' }}>Remote <br/> training</div> | <div style={{ width: '100px' }}>Curriculum designer</div> | <div style={{ width: '100px' }}>City</div> | <div style={{ width: '100px' }}>Year</div> |
 |-----------------------|-------|:------:|:-----:|:---:|-------------|:-----------:|
 | <DefTerm def="Edutainme is my own (part-time) startup company that has been teaching/training college students and adults throughout the Bay Area on weekends.">Edutainme</DefTerm>             | [Swagger](#swagger), DITA, MS Office  | Yes | Yes | Yes | Bay Area   | 2014 - now |
 | <DefTerm def="Atelio was the fintech startup within FIS Global.">Atelio</DefTerm> | [Pay by Bank](#pay-by-bank)  | Yes | Yes | Yes | Bay Area | 2024 - 2025 |

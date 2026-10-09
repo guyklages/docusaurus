@@ -4,7 +4,7 @@ To see questions and answers from other solar panel owners or to post your own q
 
 ## Electricity
 
-The flow of sunlight is measured in Watts and can be thought of as raindrops, measured in the following way:
+The flow of sunlight is measured in Watts and can be thought of as raindrops:
 
 | Unit                  | Example of usage         | | Analogy                                               | Analogy example of usage |
 |-----------------------|--------------------------|-|-------------------------------------------------------|--------------------------|
@@ -13,7 +13,7 @@ The flow of sunlight is measured in Watts and can be thought of as raindrops, me
 | 1 Kilowatt-Hour (kWh) | electric oven for 24 min | | the total amount of raindrops collected in one hour   | the amount of water in a jacuzzi hot tub |
 | 5 Kilowatt-Hour (kWh) | electric oven for 2 hrs  | | the total amount of raindrops collected in five hours | the amount of water in a swimming pool |
 
-### Common electric usage
+### Typical electric usage
 
 The amount of electricity you use will vary throughout the day, depending on which items you use and for how long.
 
@@ -40,14 +40,13 @@ So, we learned to use heavy appliances at different times--until we added a seco
 
 ### Luxury electrical usage
 
-{/* TODO: add info */}
 
-| Electric item          | Size            | Remarks                 | kW usage  | Annual kWh  |
-|------------------------|-----------------|-------------------------|:---------:|:-----------:|
-| Space heater           | | | | |
-| Heat pump water heater | | | | |
-| Jacuzzi                | | | | |
-| Steam room             | | | | |
+| Electric item          | Size            | Remarks                      | kW usage   | Annual kWh  |
+|------------------------|-----------------|------------------------------|:----------:|:-----------:|
+| Space heater           | 5118 BTU        | 170 sqft, 11 hrs/day 5 mo/yr | 0.75 - 1.5 | 1250 - 2500 |
+| Heat pump water heater | 50 gallon       |                              | 5.0        |  850 - 900  |
+| Jacuzzi                | 400 gallon      | 6-person (3.5 - 6 kWh/day)   | 1.5 - 2.0  | 1250 - 2200 |
+| Sauna / steam room     |                 | 4-person                     | 4 - 9      |  150 - 500  |
 
 
 ## 30-year comparison

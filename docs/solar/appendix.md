@@ -132,7 +132,7 @@ With our 8.5 kW, an $8-per-kW tax would equate to $68/mo, which is ridiculous wh
 
 And utility companies want to charge a tax on top of that _free_ electricity (money) they receive every month--what??
 
-## Solar advantages
+## Advantages of solar
 
 {/* TODO: link for "2 batteries last 3-4 rainy days" */}
 
@@ -146,7 +146,7 @@ And utility companies want to charge a tax on top of that _free_ electricity (mo
 
 <sup>1</sup> The impact varies by location, system condition, and other factors.
 
-## Solar disadvantages
+## Disadvantages of solar
 
 {/* TODO: link for "~$160/mo for 10 years" */}
 

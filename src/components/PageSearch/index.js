@@ -44,7 +44,7 @@ const hrefFor = (url, anchor) => (anchor ? `${url}#${anchor}` : url);
 
 export default function PageSearch({mobile}) {
   const [index, setIndex] = useState(null);
-  const [loadFailed, setLoadFailed] = useState(false);
+  const [loadFailed, setLoadFailed] = useState(null);
   const [query, setQuery] = useState('');
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState(-1);
@@ -53,10 +53,13 @@ export default function PageSearch({mobile}) {
 
   const loadIndex = () => {
     if (index === null) {
-      setLoadFailed(false);
+      setLoadFailed(null);
       import('@search-index')
         .then((mod) => setIndex(mod.default))
-        .catch(() => setLoadFailed(true));
+        .catch((err) => {
+          console.error('Page search: failed to load the index', err);
+          setLoadFailed(err?.message || String(err));
+        });
     }
   };
 
@@ -119,12 +122,12 @@ export default function PageSearch({mobile}) {
       />
       {showPanel && (
         <div className={styles.panel} role="listbox">
-          {index === null && !loadFailed && (
+          {index === null && loadFailed === null && (
             <div className={styles.empty}>Loading…</div>
           )}
-          {index === null && loadFailed && (
+          {index === null && loadFailed !== null && (
             <div className={styles.empty}>
-              Couldn't load the search index.{' '}
+              Couldn't load the search index ({loadFailed}).{' '}
               <button type="button" className={styles.retry} onClick={loadIndex}>
                 Retry
               </button>

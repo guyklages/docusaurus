@@ -45,9 +45,9 @@ For each of the courses below, I designed the training using the ADDIE framework
 ### By function
 
 | Function                      | Tool                            | Years |
-|-------------------------------|---------------------------------|-------|
+|-------------------------------|---------------------------------|:-----:|
 | Platforms (LMS, CMS)          | Academy (WordPress plugin), Articulate, Author-It, Blackboard, Dozuki, Moodle | 8+ |
-| Survey                        | SurveyMonkey                    | 3+ |
+| Quizzes and surveys           | Kahoot!, Google Forms, Microsoft Forms, Quizzizz, Quizmaker, SurveyMonkey     | 3+ |
 | Webinars and virtual training | Zoom                            | 3+ |
 | Video recording and editing   | Camtasia, Captivate, Zoomerang  | 3+ |
 

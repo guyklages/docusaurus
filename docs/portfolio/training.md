@@ -77,7 +77,7 @@ For each of the courses below, I designed the training using the ADDIE framework
 
 | Description | Example |
 |-------------|---------|
-| **Couchbase (2017-2018) Bay Area <br/><br/> Audience** <br/> Big Data analysts, PMs, developers <br/><br/> **Deliverables** <br/> Curriculum and hands-on classes using their Couchbase account to make advanced queries against Couchbase's sample database <br/><br/> **Method** In-person classes and live Meetups <br/><br/> **Tools** <br/> PowerPoint | ![Label](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Image/Couchbase_SQL++_for_Query_Reference.png) |
+| **Couchbase (2017-2018) Bay Area <br/><br/> Audience** <br/> Big Data analysts, PMs, developers <br/><br/> **Deliverables** <br/> Curriculum and hands-on classes using their Couchbase account to make advanced queries against Couchbase's sample database <br/><br/> **Method** In-person classes and live Meetups <br/><br/> **Tools** <br/> PowerPoint | ![Label](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Couchbase_SQL++_for_Query_Reference.png) |
 
 ### Anti-counterfeiting labeling
 

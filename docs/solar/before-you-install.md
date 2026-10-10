@@ -4,19 +4,21 @@
 
 Before buying anything, the following checklist will help you decide what is best for you.
 
+1. To see questions and answers from other solar panel owners or to post your own questions, join [r/solar](https://www.reddit.com/r/solar/) on Reddit.
+
 1. Think about [where you might want to mount solar panels](#decide-where-to-mount).
 
-2. Learn from [our mistakes](./mistakes.md).
+1. Learn from [our mistakes](./mistakes.md).
 
-3. [Ask many questions](#ask-many-questions) to as many solar panel providers you can.
+1. [Ask many questions](#ask-many-questions) to as many solar panel providers you can.
 
-4. [Get price quotes](#get-price-quotes) from at least three different solar panel providers.
+1. [Get price quotes](#get-price-quotes) from at least three different solar panel providers.
 
-5. [Check for Rebates](#check-for-rebates) to see what you qualify for.
+1. [Check for Rebates](#check-for-rebates) to see what you qualify for.
 
-6. Check the [Prerequisites](#prerequisites) to prepare your house for solar panel installation.
+1. Check the [Prerequisites](#prerequisites) to prepare your house for solar panel installation.
 
-7. [Raise your highest bill](#raise-your-highest-bill) to allow for more panels installed.
+1. [Raise your highest bill](#raise-your-highest-bill) to allow for more panels installed.
 
 ## Decide where to mount
 

@@ -1,6 +1,10 @@
+---
+title: My Draft Page
+draft: true
+---
+
 # Introduction
 
-To see questions and answers from other solar panel owners or to post your own questions, join [r/solar](https://www.reddit.com/r/solar/) on Reddit.
 
 ## Electricity
 

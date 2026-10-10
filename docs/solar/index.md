@@ -1,21 +1,17 @@
----
-title: My Draft Page
-draft: true
----
-
 # Introduction
 
+We wrote this guide because we made [every mistake](./mistakes.md) when installing our solar panel system, and we don't want others to make those since we want everyone to have panels themselves. We didn't know the difference between a kW and a kWh before we started our solar panel journey, so we want to help others understand this exciting technology. Since we didn't know what we didn't know, we ended up with a slightly smaller system than we needed; the cost to add those last few panels is too small for any installer to consider, so let's get your system right the first time!
 
-## Electricity
+## kW vs kWh
 
 The flow of sunlight is measured in Watts and can be thought of as raindrops:
 
-| Unit                  | Example of usage         | | Analogy                                               | Analogy example of usage |
-|-----------------------|--------------------------|-|-------------------------------------------------------|--------------------------|
-| 1 Watt (W)            | 1 LED night light        | | one raindrop per second                               | a light drizzle of rain         |
-| 1 Kilowatt (kW)       | a microwave              | | 1,000 raindrops per second                            | a downpour of torrential rain            |
-| 1 Kilowatt-Hour (kWh) | electric oven for 24 min | | the total amount of raindrops collected in one hour   | the amount of water in a jacuzzi hot tub |
-| 5 Kilowatt-Hour (kWh) | electric oven for 2 hrs  | | the total amount of raindrops collected in five hours | the amount of water in a swimming pool |
+| Unit                  | Example of usage         | | Analogy                                         | Analogy example of usage         |
+|-----------------------|--------------------------|-|-------------------------------------------------|----------------------------------|
+| 1 Watt (W)            | 1 LED night light        | | one raindrop per second                         | a light drizzle of rain          |
+| 1 Kilowatt (kW)       | a microwave oven's rays  | | 1,000 raindrops per second                      | a downpour of torrential rain    |
+| 1 Kilowatt-Hour (kWh) | electric oven for 24 min | | the amount of raindrops collected in one hour   | the amount of water in a jacuzzi |
+| 5 Kilowatt-Hour (kWh) | electric oven for 2 hrs  | | the amount of raindrops collected in five hours | the amount of water in a pool    |
 
 ### Typical electric usage
 

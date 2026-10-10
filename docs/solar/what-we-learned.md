@@ -215,12 +215,12 @@ Storm Watch uses the Grid to fully charge your Powerwall; but if your Powerwall2
 
 ### How many appliances at a time?
 
-To avoid drawing from the Grid, keep in mind:
+It depends on your battery. Most batteries can output only 5.7 kW. To avoid drawing from the Grid, keep in mind:
 
 | How much                          | kW        | Remarks                       |
 |-----------------------------------|:---------:|-------------------------------|
-| A) Your battery can supply        | 0.1 - 5.7 | Depends on your battery's SoC |
-| B) Your panels are generating     | 0.0 - 4.0 | Depends on your sunlight      |
+| A) Your battery can supply        | 0.1 - 5.7 | Can be lower if your battery's SoC is below 30%                      |
+| B) Your panels are generating     | 0.0 - 4.0 | Depends on your sunlight, which is lower on overcast and winter days |
 |                                   | ========= |                               |
 | The sum of (A) plus (B)           | 0.1 - 9.7 |                               |
 

@@ -164,12 +164,12 @@ presets: [
             label: 'Blog',
             position: 'left'
           },
-          {
-            type: 'docSidebar',
-            sidebarId: 'sidebarSolar',
-            position: 'left',
-            label: 'Solar',
-          },
+//          {
+//            type: 'docSidebar',
+//            sidebarId: 'sidebarSolar',
+//            position: 'left',
+//            label: 'Solar',
+//          },
           {
             type: 'custom-pageSearch',
             position: 'left',

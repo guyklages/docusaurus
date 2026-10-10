@@ -2,7 +2,9 @@
 
 ## Financial
 
-<details> <summary> How much do solar panels cost? </summary>
+<details>
+    <summary> How much do solar panels cost? </summary>
+
 For a typical system:
 
 - 7 - 9 kW
@@ -17,5 +19,12 @@ Costs range:
 
 ## Logistics
 
-## Batteries
+## Panels
 
+<details>
+    <summary> How many panels do I need? </summary>
+
+About 16 - 24 panels (7 - 12 kW), depending on your usage and goals.
+</details>
+
+## Batteries

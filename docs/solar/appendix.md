@@ -292,6 +292,12 @@ And utility companies want to charge a tax on top of that _free_ electricity (mo
     - You will break even in 6 - 8 years and then have free electricity for 50+ years.
     - Get a solar panel quote after having your January (highest) electric bill to multiply by 12 for a proper size.
 
+## Our solar panel system
+
+- Our home is 1370 sq.ft. at an elevation of 10 feet, about 2 miles from the bay.
+- We have 20 Tesla 420w panels (8.5 kW, 200 Amp)
+- Utility bills before install ranged from $140/mo to $280/mo.
+
 ## Note to solar vendors
 
 The following gripes are what we and friends have experienced with various solar vendors, so we hope all solar vendors keep these in mind.

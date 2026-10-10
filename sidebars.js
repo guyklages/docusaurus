@@ -589,6 +589,11 @@ const sidebars = {
       label: 'Before you install solar panels',
     },
     {
+      type: 'doc',
+      id: 'solar/faq',
+      label: 'FAQ',
+    },
+    {
       type: 'category',
       label: 'Appliances',
       collapsed: false,

@@ -12,6 +12,7 @@ Costs range:
 
 - $19,000 - $28,000
 - Finance is $1,000 - $2,000 down and $180-240/mo for 10 years
+
 </details>
 
 ## Logistics

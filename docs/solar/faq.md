@@ -13,9 +13,23 @@ For a typical system:
 Costs range:
 
 - $19,000 - $28,000
-- Finance is $1,000 - $2,000 down and $180-240/mo for 10 years
+- Financing is about $2,000 down and $180/mo - $240/mo for 10 years
 
 </details>
+
+<details>
+    <summary> Is it better to buy or lease solar panels? </summary>
+
+Leasing:
+
+- You _don't_ own them.
+- They _won't_ add property value.
+_ They _don't_ qualify for any rebates.
+
+Buying:
+
+- Is a better long-term investment.
+- And buying a battery is better `[for many reasons]().`
 
 ## Logistics
 
@@ -24,7 +38,7 @@ Costs range:
 <details>
     <summary> How many panels do I need? </summary>
 
-About 16 - 24 panels (7 - 12 kW), depending on your usage and goals.
+About 16 - 24 panels (7 - 12 kW), [depending on your usage and goals](./what-we-learned.md#know-your-solar-goals).
 </details>
 
 ## Batteries

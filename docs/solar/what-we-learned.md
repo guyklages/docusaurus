@@ -84,6 +84,71 @@ For example, in our case:
 If you have an EV made in 2024 or newer, your EV has bidirectional charging built-in. That means your home solar system needs only 1 battery because you can use your EV's huge battery to be your home's 2nd (and 3rd and 4th) solar battery.
 
 
+## Why 2+ batteries are needed
+
+**Note:** This section assumes you want to avoid using the grid and [avoid 1-battery system inconveniences](#tips-for-1-battery-systems).
+
+I've never heard of anyone wishing they had fewer batteries.
+
+We started with one Powerwall because we thought Tesla just wanted to up-sell two batteries; but Tesla is right about needing a 2nd Powerwall--and we're so much happier after we added a 2nd Powerwall.
+
+You need at least two Powerwalls because:
+
+- Money or credits earned from giving your excess electricity above $400/year is taxable income.
+- Most summer days have a surplus that can fill three or four Powerwalls each day, and that surplus will be used during the darker winter months. Whether that surplus is paid in cash or credit, it's paid at a rate lower than what your utility company charges -- and those companies have been fighting to pay even less -- so the more you store, the less you take from the grid or give to the grid.
+- Using more than one major electrical appliance at the same time might draw from the grid.
+    - One battery supplies 5.7 kW of power 
+    - Two batteries (or a Powerwall3) supply 11.4 kW of power
+    - [Graph of kW usage based on different appliances running simultaneously](#graph-of-appliances-electrical-use-compared-to-1-2-and-3-powerwall2-batteries)
+- One battery can't support a 20 amp, 240 volt outlet used for EV charging, but two batteries (or Powerwall3) can.
+- EV batteries are 5 to 7 times bigger than a Powerwall.
+    - One battery can charge only 40 - 45% of an EV.
+    - Two batteries can charge only 80 - 90% of an EV.
+    - Three batteries can fully charge an EV -- with a lot still available.
+- From a fully charged state, during an overcast power outage,
+    - One battery lasts 14 - 19 hours.
+    - Two batteries last 3 - 4 days.
+    - [Graph of Powerwall SoC](#soc-of-1-vs-2-powerwalls)
+- Batteries restrict power supply when SoC is below 30%.
+    - One battery does this almost daily during fall and winter.
+    - Two batteries almost never fall below 15%.
+- One battery can receive only 5.8 kW from the sun, so charging your battery is limited.
+    - Solar companies install a minimum of 7.2 kW panels
+    - Most solar installs are 8 - 12 kW, which generate 7 - 11 kW in summer
+    - Power from the sun exceeding 5.8 kW goes to the grid instead of your single battery.
+    - Two batteries (or Powerwall3) raise your receiving limit to 11.6 kW.
+- You can use more of your battery if you rarely have power outages.
+    - With one battery, 20% is set for reserve to protect the battery.
+    - With two batteries, only 10% is needed for the same reserve amount.
+    - This is helpful when charging an EV overnight since it lowers your draw from the grid.
+    - **Note:** If you often have power outages, you should keep your reserve above 25%.
+
+## SoC of 1 vs 2 Powerwalls
+
+The State of Charge (SoC) fluctuates throughout the day based on season and weather.
+
+**Note:** Tesla recommends setting 20% as the lowest SoC (to protect the Powerwall), so 20% is essentially 0%.
+
+Having only one Powerwall, we had the following SoC values:
+
+|                        | Highest SoC | Highest SoC time | Lowest SoC     | Lowest SoC time |
+|------------------------|:-----------:|:----------------:|:--------------:|:---------------:|
+| Sunny summer days      | 100%        | 10 - 11 am       | 30 - 60%       | Sunrise         |
+| Sunny spring/fall days | 50 - 90%    | 1 - 3 pm         | 20 - 30%       | Sunrise         |
+| Sunny winter days      | 20 - 50%    | 3 - 5 pm         | Setting on app | 9 - 11 pm       |
+| Overcast / rainy days  | 20 - 40%    | 4 - 6 pm         | Setting on app | 9 - 11 pm       |
+
+The following graph shows the how the SoC fluctuates throughout the day in different conditions:
+
+- SoC reaches its peak of 100% charged near midday.
+- SoC reaches its bottom before the sun rises.
+- SoC's bottom stays the same when it's _always_ sunny.
+- SoC's bottom gradually lowers in spring/fall and more in winter.
+- 1 battery won't last 1 full day of overcast and will require 8 - 10 hours of grid energy at night.
+- 2 batteries can last 3 - 4 days of overcast, while 3 batteries can last 6+ days.
+
+![](https://cdn.delivr.net/gh/guyklages/portfolio@master/solar/graph-of-multiple-Powerwall-SoC.png)
+
 ## 2nd battery avoids grid
 
 - During summer, one battery stays charged on sunny days but needs a second battery on non-sunny days.
@@ -172,7 +237,7 @@ Plan ahead which electrical appliances you'll use, and schedule their use to avo
 
 <sup>*</sup>  Electric water heaters use an immense 4.5 kW, so be aware of anything that might use hot water.
 
-The following is a graph of appliances' electrical use compared between 1, 2, and 3 Powerwall2 batteries:
+#### Graph of appliances' electrical use compared to 1, 2, and 3 Powerwall2 batteries
 
 ![Appliance kW usage versus 1, 2, and 3 Powerwalls](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/appliance-kw-usage-1-2-3-powerwalls.png)
 

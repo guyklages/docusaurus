@@ -147,6 +147,12 @@ Yes, absolutely, **[as many as you can afford](./what-we-learned.md#2nd-battery-
 </details>
 
 <details>
+    <summary> Which types of roofs can support solar panels? </summary>
+
+Solar panels can be installed on almost any roof type, except _wood_ or _slate_.
+</details>
+
+<details>
     <summary> Which roof direction should solar panels face? </summary>
 
 - South is best for morning and afternoon sun.

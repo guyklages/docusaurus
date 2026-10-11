@@ -134,6 +134,10 @@ You need at least two Powerwalls because:
     - This is helpful when charging an EV overnight since it lowers your draw from the grid.
     - **Note:** If you often have power outages, you should keep your reserve above 25%.
 
+| Real-life example: Aakash Mehta, 2024 |
+|---------------------------------------|
+| _Thank goodness owning two Powerwalls has built-in redundancy for backup! I recently experienced Powerwall #2 failing to charge or deliver power. My 1st Powerwall was ON and working, and even though it wasn't communicating with the Tesla Gateway, it was still working fine and continued to charge and discharge, which saved me from using the grid mostly. <br/><br/> Only you can monitor to see if your Powerwall is functioning properly. If your Powerwall doesn't behave properly, immediately call 877-961-7652 Option #2 for 24x7 support from knowledgeable engineers who are really good in helping you reset the system and read the telemetry available from the Gateway. <br/><br/> Tip: they are located in Las Vegas and calling after 6pm PT generally results in getting engineers on the new shift who are more patient and have the empathy to look and talk to you much better than those in the morning shift._ |
+
 ## SoC of 1 vs 2 Powerwalls
 
 The State of Charge (SoC) fluctuates throughout the day based on season and weather.

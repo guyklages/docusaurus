@@ -170,7 +170,7 @@ The following table is for a 2,000 sq.ft. home.
 | Total cost         | $15,000 - $18,000       | $4,500 - $6,000  |
 |                    |                         |                  |
 | Fuel costs         | - More than gas <br/> - Free with 10 kW solar panels | Less than electric |
-| Lifespan           | - 20 - 30 years <br/> - Don't have issues that gas has | - 10 - 20 years <br> - Small particles build up; can cause failure and corrosion |
+| Lifespan           | - 20 - 30 years <br/> - Don't have issues that gas has | - 10 - 20 years <br/> - Small particles build up; can cause failure and corrosion |
 | Climate suited for | Mild                    | Very cold        |
 | Installation       | Easier and safer than gas but heavy-duty wiring should be done by a pro | Complex and dangerous due to combustive element, CO<sub>2</sub>, and tools. Takes several days. Need to vent. |
 | Maintenance        | Easier than gas. No burner to clean or inspect; doesn't require a pro | Needs regular pro maintenance and inspection yearly to keep it safe |

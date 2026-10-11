@@ -44,7 +44,7 @@ Yes, each state offers different incentives.
 <details>
     <summary> How much do solar panels increase home value? </summary>
 
-With panels, [homes sell 20% faster for 17% more](https://www.solarmelon.com/articles/will-solar-panels-impact-property-value/).
+With panels, **[homes sell 20% faster for 17% more](https://www.solarmelon.com/articles/will-solar-panels-impact-property-value/)**.
 </details>
 
 <details>
@@ -58,7 +58,7 @@ With panels, [homes sell 20% faster for 17% more](https://www.solarmelon.com/art
 
 - Tesla / SolarCity is the most efficient.
 - SunRun / Costco has many great reviews as well.
-- [SolarReviews publishes an annual Best Solar Companies list for every state](https://www.solarreviews.com/solar-companies)
+- **[SolarReviews publishes an annual Best Solar Companies list for every state](https://www.solarreviews.com/solar-companies)**
 
 </details>
 
@@ -81,7 +81,7 @@ Yes, it's permanent and considered part of the home.
 <details>
     <summary> How many panels do I need? </summary>
 
-About 16 - 24 panels (7 - 12 kW), [depending on your usage and goals](./what-we-learned.md#know-your-solar-goals).
+About 16 - 24 panels (7 - 12 kW), **[depending on your usage and goals](./what-we-learned.md#know-your-solar-goals)**.
 </details>
 
 <details>
@@ -124,7 +124,7 @@ USA.
 <details>
     <summary> Should I get a battery for my solar panels? </summary>
 
-Yes, absolutely, [as many as you can afford](./what-we-learned.md#2nd-battery-avoids-grid)
+Yes, absolutely, **[as many as you can afford](./what-we-learned.md#2nd-battery-avoids-grid)**.
 
 **Note:** Without a battery, solar panels don't operate during a power outage for safety reasons.
 </details>
@@ -145,6 +145,6 @@ Yes, absolutely, [as many as you can afford](./what-we-learned.md#2nd-battery-av
 
 - South is best for morning and afternoon sun.
 - West is better than East if you have morning fog.
-- For details, enter your address in [Google Project Sunroof](https://sunroof.withgoogle.com/).
+- For details, enter your address in **[Google Project Sunroof](https://sunroof.withgoogle.com/)**.
 
 </details>

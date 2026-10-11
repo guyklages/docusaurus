@@ -176,6 +176,21 @@ The below graph shows data from our Tesla mobile app:
 |------------------------------------------------------------------------------------------------|-----------------------------------------------|
 | ![Energy sources with 1 Powerwall](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/energy-sources_1-powerwall.png) <br/><br/> ![Energy sources with 2 Powerwalls](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/energy-sources_2-powerwalls.png) | **2022** <br/> - **Mar:** PW issue that a 2nd PW would've lessened. <br/> - **Aug:** a cheap, used 3rd-party Gateway breaker broke. <br/><br/> **2023** <br/> - **Jan:** two weeks we weren't home. <br/> - **Jul:** we installed a second Powerwall2. <br/> - **Sep:** started charging our EV at home, not office. <br/> - **Nov:** we installed a Heat Pump. <br/><br/> **2024** <br/> - **Aug:** we re-roofed and moved 6 NW panels to SE. <br/> - **Oct:** a heat wave caused our Powerwalls to stop supplying power occasionally until they cooled down. |
 
+## Where to place batteries
+
+Batteries are mostly weather-proof nowadays, so it's up to you whether you prefer indoors or outdoors, but either way keep in mind:
+
+**If inside your garage:**
+
+- Make sure you have enough ventilation to let the heat out.
+- An insulated garage door massively regulates the temperature during hot summers and cold winters.
+- When our garage hit 90 oF, our 92% full battery stopped supplying energy to our home and instead drew from the grid for 30 minutes to let the batteries cool down. (then we got a new garage door to solve the issue)
+
+**If outside:**
+
+- Make sure they're in the shade or put a lattice of greenery a few inches in front of them to keep them cool.
+- Batteries are generally installed half an inch above the ground, but you might want them to be 1 foot above the ground if you have pets or if water often pools in that area.
+
 ## Charge EV slowly
 
 Although charging an EV at high kW speeds degrade the batteries only [1-2% over many years](https://www.google.com/search?q=how+much+does+supercharging+degrade+battery&oq=how+much+does+supercharging+de&gs_lcrp=EgZjaHJvbWUqCggAEAAYgAQYtAcyCggAEAAYgAQYtAcyBggBEEUYOTIICAIQABgWGB4yDQgDEAAYhgMYgAQYigUyDQgEEAAYhgMYgAQYigUyDQgFEAAYhgMYgAQYigUyCggGEAAYogQYiQXSAQkxMDE4NmowajeoAgCwAgA&sourceid=chrome&source=chrome.ob&ie=UTF-8), it's better to charge your EV at as few kW (amperage) as possible for the following benefits:

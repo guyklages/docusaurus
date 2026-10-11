@@ -178,7 +178,7 @@ The following table is for a 2,000 sq.ft. home.
 | Safety             | Safer than gas          | Has combustible items |
 | How they work <br/> _In both, heated air is forced by a blower fan through the ductwork into the rooms._ | Electric ignition receives a thermostat signal to activate electric heating elements inside the furnace. | Signal causes pilot light to ignite the main burner of the heat exchanger. Pilot light is a small flame always burning. Heat exchanger draws heat from the main burner to heat the air. |
 
-## Water heaters: electric vs. gas
+## Water heaters: elec. vs. gas
 
 In recent years, electric water heater technology has skyrocketed to be many times more efficient and cost much less than five years ago. There's even a [heat pump for both air and water](https://www.canarymedia.com/articles/heat-pumps/these-new-double-duty-heat-pumps-can-warm-both-air-and-water).
 

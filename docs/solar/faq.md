@@ -54,6 +54,12 @@ With panels, **[homes sell 20% faster for 17% more](https://www.solarmelon.com/a
 </details>
 
 <details>
+    <summary> Will solar panels increase your property taxes? </summary>
+
+As of June 2026, **[32 U.S. states have some sort of solar-panel-related property tax exemption](https://www.paradisesolarenergy.com/blog/does-solar-increase-your-property-taxes/)**.
+</details>
+
+<details>
     <summary> Who are the best solar vendors? </summary>
 
 - Tesla / SolarCity is the most efficient.

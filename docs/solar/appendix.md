@@ -157,6 +157,27 @@ And utility companies want to charge a tax on top of that _free_ electricity (mo
 | If your bill is less than $100/mo, then no need | Low bills currently don't need panels, but [repeated drought years have lowered dam reservoirs, which many studies state will get worse, which will severely increase power prices within 1-3 years](https://cnr.ncsu.edu/news/2021/06/ask-an-expert-how-is-the-western-u-s-drought-impacting-the-power-grid/). Better to get panels before then. |
 | Roof must be less than 10 years old | 50-year shingles cost nearly the same as 30-year shingles: $10-20k, which will pay for themselves in 7-10 years. Solar panels degrade only 25% after 50 years. |
 
+## Heat pump vs. gas furnace
+
+In recent years, heat pump technology has skyrocketed to be many times more efficient and cost less than five years ago. There's even a [heat pump for both air and water]().
+
+The following table is for a 2,000 sq.ft. home.
+
+|                    | Electric heat pump + AC | Gas furnace + AC |
+|--------------------|-------------------------|------------------|
+| Unit cost          | $14,000 - $16,500       | $3,000 - $4,000  |
+| Installation cost  |  $1,000 -  $1,500       | $1,500 - $2,000  |
+| Total cost         | $15,000 - $18,000       | $4,500 - $6,000  |
+|                    |                         |                  |
+| Fuel costs         | - More than gas <br/> - Free with 10 kW solar panels | Less than electric |
+| Lifespan           | - 20 - 30 years <br/> - Don't have issues that gas has | - 10 - 20 years <br> - Small particles build up; can cause failure and corrosion |
+| Climate suited for | Mild                    | Very cold        |
+| Installation       | Easier and safer than gas but heavy-duty wiring should be done by a pro | Complex and dangerous due to combustive element, CO<sub>2</sub>, and tools. Takes several days. Need to vent. |
+| Maintenance        | Easier than gas. No burner to clean or inspect; doesn't require a pro | Needs regular pro maintenance and inspection yearly to keep it safe |
+| Noise level        | Almost silent. Simple design; no moving parts, vents, or burners. | Much noisier than electric. Loud rushing sound during startup and burner ignites. |
+| Safety             | Safer than gas          | Has combustible items |
+| How they work <br/> _In both, heated air is forced by a blower fan through the ductwork into the various rooms. | Electric ignition receives a thermostat signal to activate electric heating elements inside the furnace. | Signal causes pilot light to ignite the main burner of the heat exchanger. Pilot light is a small flame always burning. Heat exchanger draws heat from the main burner to heat the air. |
+
 ## East Bay Green@Home Tour
 
 [Download the 2-page PDF](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/East_Bay_Green@Home_Tour_FAQs.pdf)

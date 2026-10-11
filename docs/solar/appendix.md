@@ -178,6 +178,35 @@ The following table is for a 2,000 sq.ft. home.
 | Safety             | Safer than gas          | Has combustible items |
 | How they work <br/> _In both, heated air is forced by a blower fan through the ductwork into the rooms._ | Electric ignition receives a thermostat signal to activate electric heating elements inside the furnace. | Signal causes pilot light to ignite the main burner of the heat exchanger. Pilot light is a small flame always burning. Heat exchanger draws heat from the main burner to heat the air. |
 
+## Water heaters: electric vs. gas
+
+In recent years, electric water heater technology has skyrocketed to be many times more efficient and cost much less than five years ago. There's even a [heat pump for both air and water](https://www.canarymedia.com/articles/heat-pumps/these-new-double-duty-heat-pumps-can-warm-both-air-and-water).
+
+The following table summarizes [Bob Vila's article](https://www.bobvila.com/articles/gas-vs-electric-water-heaters/)
+
+|                    | Electric tankless | Electric tank   | Gas tank         |
+|--------------------|-------------------|-----------------|------------------|
+| Unit cost          |                   | [$489 for 40-gal 4.5 kW](https://www.homedepot.com/p/Rheem-Performance-40-Gal-Medium-6-Year-4500-4500-Watt-Elements-Electric-Tank-Water-Heater-XE40M06ST45U1/205810725) | [$1500 for 50-gal 50k BTU](https://www.supplyhouse.com/AO-Smith-GPVT-50-50-Gallon-50000-BTU-ProLine-XE-Power-Vent-Residential-Gas-Water-Heater-NG) |
+| Installation cost  | Needs rewiring    | $1400           | $800             |
+| Total cost         | $3000             | $1900           | $2300            |
+|                    |                   |                 |                  |
+| Fuel costs         | More than gas <br/> Free with 10 kW solar panels | More than gas <br/> Free with 10 kW solar panels | Less than electric |
+| Lifespan           | 15 - 20 years     | 10 - 15 years   | 8 - 10 years     |
+| Input power        | 4.5 kW            | 4.5 kW          | 30 - 180 kBTU    |
+| Panel breaker      | 30 Amps           | 30 Amps         | 20 Amps          |
+| Wire (minimum)     | 10-gauge          | 10-gauge        | 12-gauge         |
+| Heating element <br/> - Top (warm) <br/> - Bottom (cold) | Warms instantly | Warms faster than gas <br/> - set to 100 ºF <br/> - set to 90 ºF | Warms slower than electric <br/> - set to 150 ºF <br/> - set to 150 ºF |
+
+**Notes:**
+
+- For the electric water heater, use a licensed electrician who has installed dozens before with new parts. Our contractor added a used 20-amp breaker that failed after 2 months. After 7 days of no hot water, we found someone who fixed it within an hour.
+- To prevent the electric water heater turning on every 2-3 hours, lower the settings of the Heating Elements.
+    - Warm water rises to the top of the tank while colder water falls to the bottom of the tank.
+    - Electric heaters heat quickly, so setting the top element to 110 ℉ is warm enough.
+    - No need to heat the bottom of the tank, so setting the bottom element to 90 ℉ is warm enough.
+- Regardless of climate, a silver/reflective water heater blanket is a very cheap way to save 10-16%.
+
+
 ## East Bay Green@Home Tour
 
 [Download the 2-page PDF](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/East_Bay_Green@Home_Tour_FAQs.pdf)

@@ -83,6 +83,17 @@ For example, in our case:
 
 If you have an EV made in 2024 or newer, your EV has bidirectional charging built-in. That means your home solar system needs only 1 battery because you can use your EV's huge battery to be your home's 2nd (and 3rd and 4th) solar battery.
 
+## Why more panels
+
+**Note:** This section assumes you want to avoid using the grid and want to reduce the ever-growing fees utility companies keep adding and increasing.
+
+- On cloudy/rainy days, you'll wish you had more panels to charge your batteries more.
+- It's easier to install more panels the 1st time than to add panels later, which requires new permits.
+- More kW from the panels = less draw from the Grid.
+    - Even when generating 6 kW from the sun, it's possible to use 10-11 kW from running many appliances at the same time and seeing 1-2 kW coming from the Grid. That may make you wish you had a few more panels.
+- Panels are only 90-91% efficient, which means the most kW you'll ever generate is about 90% of your rating.
+    - For example, at noon during summer, the most our 8.5 kW panels ever generated was 7.8 kW briefly.
+    - For example, if your regular usage reaches 11 kW, then you'll want at least 12.3 kW panels. 
 
 ## Why 2+ batteries are needed
 

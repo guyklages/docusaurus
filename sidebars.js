@@ -594,16 +594,9 @@ const sidebars = {
       label: 'FAQ',
     },
     {
-      type: 'category',
-      label: 'Appliances',
-      collapsed: false,
-      items: [
-        {
-          type: 'doc',
-          id: 'solar/electric-appliances',
-          label: 'Electric appliances',
-        },
-      ]
+      type: 'doc',
+      id: 'solar/electric-appliances',
+      label: 'Electric appliances',
     },
     {
       type: 'doc',

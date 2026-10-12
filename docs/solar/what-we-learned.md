@@ -181,18 +181,19 @@ From a fully charged state, during an overcast power outage:
 </details>
 
 <details>
-    <summary> Batteries restrict power supply when SoC is below 30%. </summary>
+    <summary> A single battery restricts power supply when SoC is below 30%. </summary>
 
-- One battery does this almost daily during fall and winter.
-- Two batteries almost never fall below 15% SoC.
+- This is to protect the battery and to reduce the chances of it discharging below 5%, when it shuts off to protect itself from 0%.
+- One battery throttles its power supply almost daily during fall and winter when there is little sun to charge it.
+- Two batteries almost never fall below 15% SoC, the equivalent of 30% divided by 2 batteries.
 
 </details>
 
 <details>
-    <summary> One battery can receive only 5.8 kW from the sun, so charging your battery is limited. </summary>
+    <summary> One battery can receive only 5.8 kW from the sun, so sunny day kW above 5.8 will go to the grid. </summary>
 
-- Solar companies install a minimum of 7.2 kW panels
-- Most solar installs are 8 - 12 kW, which generate 7 - 11 kW in summer
+- Solar companies install a minimum of 7.2 kW panels.
+- Most solar installs are 8 - 12 kW, which generate 7 - 11 kW in summer.
 - Power from the sun exceeding 5.8 kW goes to the grid instead of your single battery.
 - Two batteries (or Powerwall3) raise your receiving limit to 11.6 kW.
 

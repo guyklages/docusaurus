@@ -188,3 +188,8 @@ nav[aria-label="Blog recent posts navigation"] a[class*="sidebarItemLinkActive"]
 html.blog-wrapper .container {
   max-width: 100%;
 }
+/* Search-result highlight (see src/components/PageSearch/highlight.js). */
+::highlight(page-search) {
+  background-color: #b8960c;
+  color: #000;
+}

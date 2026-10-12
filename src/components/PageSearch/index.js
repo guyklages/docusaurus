@@ -5,7 +5,8 @@
 import React, {useEffect, useMemo, useRef, useState} from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
-import {useHistory} from '@docusaurus/router';
+import {useHistory, useLocation} from '@docusaurus/router';
+import {clearHighlight, highlightRemembered, rememberQuery} from './highlight';
 import styles from './styles.module.css';
 
 const MIN_QUERY = 2;
@@ -50,6 +51,7 @@ export default function PageSearch({mobile}) {
   const [active, setActive] = useState(-1);
   const rootRef = useRef(null);
   const history = useHistory();
+  const location = useLocation();
 
   const loadIndex = () => {
     if (index === null) {
@@ -80,7 +82,20 @@ export default function PageSearch({mobile}) {
     return () => document.removeEventListener('mousedown', onDown);
   }, []);
 
+  // Runs after every navigation; only acts if a search result was just clicked.
+  // The short delay lets the destination page finish rendering.
+  useEffect(() => {
+    const timer = setTimeout(highlightRemembered, 50);
+    return () => clearTimeout(timer);
+  }, [location]);
+
+  useEffect(() => clearHighlight, []);
+
   const close = () => setOpen(false);
+  const choose = () => {
+    rememberQuery(query);
+    close();
+  };
 
   const onKeyDown = (e) => {
     if (e.key === 'Escape') {
@@ -93,7 +108,7 @@ export default function PageSearch({mobile}) {
       setActive((a) => Math.max(a - 1, 0));
     } else if (e.key === 'Enter' && flat.length > 0) {
       history.push(flat[active >= 0 ? active : 0]);
-      close();
+      choose();
     }
   };
 
@@ -138,7 +153,7 @@ export default function PageSearch({mobile}) {
           )}
           {results.map((r) => (
             <div key={r.url} className={styles.page}>
-              <Link to={r.url} className={styles.pageRow} onClick={close}>
+              <Link to={r.url} className={styles.pageRow} onClick={choose}>
                 <span className={styles.pageTitle}>{r.title}</span>
                 <span className={styles.badge}>{r.total}</span>
               </Link>
@@ -152,7 +167,7 @@ export default function PageSearch({mobile}) {
                       styles.heading,
                       flatIndex === active && styles.headingActive,
                     )}
-                    onClick={close}>
+                    onClick={choose}>
                     <span>{m.heading}</span>
                     <span className={styles.headingCount}>{m.count}</span>
                   </Link>

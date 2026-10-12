@@ -294,10 +294,11 @@ The routine I follow:
 
 Always try to keep your battery SoC above 30%.
 
-| SoC       | Supplies     | Powerwall2 behavior         |
-|-----------|:------------:|-----------------------------|
-| Above 30% | 5.7 kW       | Supplies its maximum output |
+| SoC       | Supplies     | Powerwall2 behavior                                                               |
+|-----------|:------------:|-----------------------------------------------------------------------------------|
+| Above 30% | 5.7 kW       | Supplies its maximum output                                                       |
 | 21 - 30%  | 2 - 3 kW     | Limits supply to protect itself from fully discharging, even in Self-Powered mode |
+| 11 - 20%  | 1 - 2 kW     | Further limits supply to prevent fully discharging                                |
 | Below 11% | 0 kW         | 100% of solar goes to the Powerwall2 while your Home is powered 100% by the Grid  |
 
 **Note:** Unless urgent, don't charge extra items overnight, especially if the next morning will be cloudy.

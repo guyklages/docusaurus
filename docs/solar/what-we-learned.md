@@ -13,7 +13,7 @@ Before installing panels:
 - Use our electric bill with the highest kWh, and then multiply it by 12 to size our system
 - Oversize my solar panel system as much as I can for the future 5+ decades
 
-Planning the installtion:
+Planning the installation:
 
 - Add a 2nd inverter to avoid clipping and to have a backup inverter
 - Install batteries outside in the shade instead of inside the garage (if your climate allows it)

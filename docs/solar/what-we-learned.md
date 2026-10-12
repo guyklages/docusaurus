@@ -111,7 +111,7 @@ On days that generate very little power, you'll wish you had more panels to char
 </details>
 
 <details>
-    <summary> Panels generate about 90% of your rating </summary>
+    <summary> Panels generate about 90% of your panel kW rating </summary>
 
 - For example, at noon during summer, the most our 8.5 kW panels ever generated (briefly) was 7.8 kW.
 - For example, during winter, if your usage reaches 9 kW, then you'll want at least 10 kW of panels.

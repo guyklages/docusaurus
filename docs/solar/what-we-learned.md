@@ -126,7 +126,7 @@ I've never heard of anyone wishing they had fewer batteries.
 
 We started with one Powerwall because we thought Tesla just wanted to up-sell two batteries; but Tesla is right about needing a 2nd Powerwall--and we're so much happier after we added a 2nd Powerwall.
 
-You need at least two Powerwalls because:
+You need at least two batteries because:
 
 <details>
     <summary> Excess electricity is taxable income </summary>
@@ -145,39 +145,68 @@ Money or credits earned from giving your excess electricity above **$400/year** 
 
 </details>
 
+<details>
+    <summary> Using more than one major electrical appliance at the same time needs more power than one battery can supply </summary>
 
-- Using more than one major electrical appliance at the same time might draw from the grid.
-    - One battery supplies 5.7 kW of power 
-    - Two batteries (or a Powerwall3) supply 11.4 kW of power
-    - [Graph of kW usage based on different appliances running simultaneously](#graph-of-appliances-electrical-use-compared-to-1-2-and-3-powerwall2-batteries)
+- One battery supplies about 5 - 7 kW of power.
+- Two batteries (or a Powerwall3) supply 11.4 kW of power.
+- [Graph of kW usage based on different appliances running simultaneously](#graph-of-appliances-electrical-use-compared-to-1-2-and-3-powerwall2-batteries)
 
-- One battery can't support a 20 amp, 240 volt outlet used for EV charging, but two batteries (or Powerwall3) can.
+</details>
 
-- EV batteries are 5 to 7 times bigger than a Powerwall.
-    - One battery can charge only 40 - 45% of an EV.
-    - Two batteries can charge only 80 - 90% of an EV.
-    - Three batteries can fully charge an EV -- with a lot still available.
+<details>
+    <summary> One battery can't support a 20 amp, 240 volt outlet used for EV charging </summary>
 
-- From a fully charged state, during an overcast power outage,
-    - One battery lasts 14 - 19 hours.
-    - Two batteries last 3 - 4 days.
-    - [Graph of Powerwall SoC](#soc-of-1-vs-2-powerwalls)
+But two batteries (or a Powerwall3) can.
+</details>
 
-- Batteries restrict power supply when SoC is below 30%.
-    - One battery does this almost daily during fall and winter.
-    - Two batteries almost never fall below 15%.
+<details>
+    <summary> EV batteries are 5 to 7 times bigger than a Powerwall battery. </summary>
 
-- One battery can receive only 5.8 kW from the sun, so charging your battery is limited.
-    - Solar companies install a minimum of 7.2 kW panels
-    - Most solar installs are 8 - 12 kW, which generate 7 - 11 kW in summer
-    - Power from the sun exceeding 5.8 kW goes to the grid instead of your single battery.
-    - Two batteries (or Powerwall3) raise your receiving limit to 11.6 kW.
+- One battery can charge only 40 - 45% of an EV.
+- Two batteries can charge only 80 - 90% of an EV.
+- Three batteries can fully charge an EV -- with a lot still available.
 
-- You can use more of your battery if you rarely have power outages.
-    - With one battery, 20% is set for reserve to protect the battery.
-    - With two batteries, only 10% is needed for the same reserve amount.
-    - This is helpful when charging an EV overnight since it lowers your draw from the grid.
-    - **Note:** If you often have power outages, you should keep your reserve above 25%.
+</details>
+
+<details>
+    <summary> In an outage, one battery lasts half a day, while two batteries last a few days. </summary>
+
+From a fully charged state, during an overcast power outage:
+
+- One battery lasts 14 - 19 hours.
+- Two batteries last 3 - 4 days.
+- [Graph of Powerwall SoC](#soc-of-1-vs-2-powerwalls)
+
+</details>
+
+<details>
+    <summary> Batteries restrict power supply when SoC is below 30%. </summary>
+
+- One battery does this almost daily during fall and winter.
+- Two batteries almost never fall below 15% SoC.
+
+</details>
+
+<details>
+    <summary> One battery can receive only 5.8 kW from the sun, so charging your battery is limited. </summary>
+
+- Solar companies install a minimum of 7.2 kW panels
+- Most solar installs are 8 - 12 kW, which generate 7 - 11 kW in summer
+- Power from the sun exceeding 5.8 kW goes to the grid instead of your single battery.
+- Two batteries (or Powerwall3) raise your receiving limit to 11.6 kW.
+
+</details>
+
+<details>
+    <summary> You can use more of your battery if you rarely have power outages. </summary>
+
+- With one battery, 20% is set for reserve to protect the battery.
+- With two batteries, only 10% is needed for the same reserve amount.
+- This is helpful when charging an EV overnight since it lowers your draw from the grid.
+
+**Note:** If you often have power outages, you should keep your reserve above 25%.
+</details>
 
 | Real-life example: Aakash Mehta, 2024 |
 |---------------------------------------|

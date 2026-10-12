@@ -562,26 +562,19 @@ const sidebars = {
   ],
       sidebarSolar: [
     {
-      type: 'category',
-      label: 'Overview',
-      collapsed: false,
-      items: [
-        {
-          type: 'doc',
-          id: 'solar/index',
-          label: 'Introduction',
-        },
-        {
-          type: 'doc',
-          id: 'solar/mistakes',
-          label: 'Our solar mistakes',
-        },
-        {
-          type: 'doc',
-          id: 'solar/what-we-learned',
-          label: 'What we learned',
-        },
-      ]
+      type: 'doc',
+      id: 'solar/index',
+      label: 'Introduction',
+    },
+    {
+      type: 'doc',
+      id: 'solar/mistakes',
+      label: 'Our solar mistakes',
+    },
+    {
+      type: 'doc',
+      id: 'solar/what-we-learned',
+      label: 'What we learned',
     },
     {
       type: 'doc',

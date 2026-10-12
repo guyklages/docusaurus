@@ -128,9 +128,23 @@ We started with one Powerwall because we thought Tesla just wanted to up-sell tw
 
 You need at least two Powerwalls because:
 
-- Money or credits earned from giving your excess electricity above $400/year is taxable income.
+<details>
+    <summary> Excess electricity is taxable income </summary>
 
-- Most summer days have a surplus that can fill three or four Powerwalls each day, and that surplus will be used during the darker winter months. Whether that surplus is paid in cash or credit, it's paid at a rate lower than what your utility company charges -- and those companies have been fighting to pay even less -- so the more you store, the less you take from the grid or give to the grid.
+Money or credits earned from giving your excess electricity above **$400/year** is taxable income.
+</details>
+
+<details>
+    <summary> Your grid pays a fraction of what they charge you </summary>
+
+- Most summer days generate a surplus that can fill three or four batteries each day.
+- And that surplus will be used during the darker winter months.
+- Whether that surplus is paid in cash or credit, it's paid at a rate lower than what your utility company charges
+- And utility companies have been fighting to pay even less.
+- Therefore, the more energy you store, the less you take from the grid or give to the grid.
+
+</details>
+
 
 - Using more than one major electrical appliance at the same time might draw from the grid.
     - One battery supplies 5.7 kW of power 

@@ -129,28 +129,36 @@ We started with one Powerwall because we thought Tesla just wanted to up-sell tw
 You need at least two Powerwalls because:
 
 - Money or credits earned from giving your excess electricity above $400/year is taxable income.
+
 - Most summer days have a surplus that can fill three or four Powerwalls each day, and that surplus will be used during the darker winter months. Whether that surplus is paid in cash or credit, it's paid at a rate lower than what your utility company charges -- and those companies have been fighting to pay even less -- so the more you store, the less you take from the grid or give to the grid.
+
 - Using more than one major electrical appliance at the same time might draw from the grid.
     - One battery supplies 5.7 kW of power 
     - Two batteries (or a Powerwall3) supply 11.4 kW of power
     - [Graph of kW usage based on different appliances running simultaneously](#graph-of-appliances-electrical-use-compared-to-1-2-and-3-powerwall2-batteries)
+
 - One battery can't support a 20 amp, 240 volt outlet used for EV charging, but two batteries (or Powerwall3) can.
+
 - EV batteries are 5 to 7 times bigger than a Powerwall.
     - One battery can charge only 40 - 45% of an EV.
     - Two batteries can charge only 80 - 90% of an EV.
     - Three batteries can fully charge an EV -- with a lot still available.
+
 - From a fully charged state, during an overcast power outage,
     - One battery lasts 14 - 19 hours.
     - Two batteries last 3 - 4 days.
     - [Graph of Powerwall SoC](#soc-of-1-vs-2-powerwalls)
+
 - Batteries restrict power supply when SoC is below 30%.
     - One battery does this almost daily during fall and winter.
     - Two batteries almost never fall below 15%.
+
 - One battery can receive only 5.8 kW from the sun, so charging your battery is limited.
     - Solar companies install a minimum of 7.2 kW panels
     - Most solar installs are 8 - 12 kW, which generate 7 - 11 kW in summer
     - Power from the sun exceeding 5.8 kW goes to the grid instead of your single battery.
     - Two batteries (or Powerwall3) raise your receiving limit to 11.6 kW.
+
 - You can use more of your battery if you rarely have power outages.
     - With one battery, 20% is set for reserve to protect the battery.
     - With two batteries, only 10% is needed for the same reserve amount.

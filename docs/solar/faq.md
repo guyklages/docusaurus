@@ -29,7 +29,7 @@ _ They _don't_ qualify for any rebates.
 Buying:
 
 - Is a better long-term investment.
-- And buying a battery is better `[for many reasons]().` {/* TODO:*/}
+- And buying a battery is better [for many reasons](./what-we-learned.md#why-2-batteries-are-needed).
 
 </details>
 

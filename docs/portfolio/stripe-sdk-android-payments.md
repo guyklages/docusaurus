@@ -257,7 +257,7 @@ public class PaymentActivity extends FragmentActivity {
         if (mEnvironment == WalletConstants.ENVIRONMENT_PRODUCTION) {
           com.stripe.model.Token token = com.stripe.model.Token.GSON.fromJson(
             tokenJSON, com.stripe.model.Token.class);
-          // TODO: send token to your server
+          // send token to your server
         }
       }
     } else {

@@ -237,11 +237,13 @@ To reduce your use of the Grid, go to your Tesla app _Settings_ and select **Sel
 - If your Powerwall2 falls below your minimum setting (Tesla recommends 20%).
 - Very brief (1 - 3 seconds) "transition periods" of 0.1 - 0.2 kW when energy usage spikes from a big appliance.
 
-### Don't use Storm Watch
+### Storm Watch needs a 2nd battery
 
-**Note:** If you live in an outage-prone area, then this tip won't apply to you since you may want to keep your Powerwall2 fully charged as often as possible.
+**Note:** If you live in an outage-prone area, then this tip may not apply to you since you may want to keep your battery fully charged as often as possible.
 
-Storm Watch uses the Grid to fully charge your Powerwall; but if your Powerwall2 is usually fully charged by the sun by the afternoon, then you don't need to use the Grid to charge it.
+Storm Watch uses the Grid to fully charge your battery; but if your battery is usually fully charged by the sun by the afternoon, then you don't need to use the Grid to charge it.
+
+If you need to use Storm Watch, it's highly recommended you get a 2nd or 3rd battery.
 
 ### How many appliances at a time?
 

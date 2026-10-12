@@ -22,8 +22,6 @@ Before buying anything, the following checklist will help you decide what is bes
 
 ## Decide where to mount
 
-{/* TODO: link for "your energy usage" */}
-
 How many solar panels you need depends on:
 
 - The size of your panels (200 - 425 kW)
@@ -200,11 +198,9 @@ Our gas meter was on the side of our house which required the Emergency-Stop to 
 
 **To avoid this:**
 
-{/* TODO: add links to the two vs bullets */}
-
 - Convert all appliances to electric, and then PG&E will remove the gas meter for free.
-    - `[electric heat pump vs. gas furnace]()`
-    - `[electric vs. gas water heater]()`
+    - [electric heat pump vs. gas furnace](./appendix.md#heat-pump-vs-gas-furnace)
+    - [Water heater: electric vs. gas](./appendix.md#water-heaters-elec-vs-gas)
 - My friend moved his front fence back 5 feet to allow his E-Stop and Powerwalls be installed on his side wall.
 
 ### HOA options

@@ -352,7 +352,7 @@ Plan ahead which electrical appliances you'll use, and schedule their use to avo
 
 ## No battery --> grid usage
 
-Utility companies pay so little for your excess kWh, so accelerate your ROI by adding a battery.
+Utility companies pay so little for your excess kWh, so accelerate your break-even point by adding a battery.
 
 The below graphs show our utility bills and our journey to $0 utility bills:
 

@@ -350,7 +350,7 @@ Plan ahead which electrical appliances you'll use, and schedule their use to avo
 ![Appliance kW usage versus 1, 2, and 3 Powerwalls](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/appliance-kw-usage-1-2-3-powerwalls.png)
 
 
-## No battery --> grid usage
+## Graph of bills and kWh
 
 Utility companies pay so little for your excess kWh, so accelerate your break-even point by adding a battery.
 

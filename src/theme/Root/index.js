@@ -20,6 +20,22 @@ export default function Root({children}) {
       return;
     }
 
+    // Owner opt-out: visit any page with ?internal=1 to stop PostHog from
+    // recording this browser (remembered in localStorage); ?internal=0 undoes it.
+    const INTERNAL_KEY = 'ph_internal_user';
+    let isInternal = false;
+    try {
+      const flag = new URLSearchParams(window.location.search).get('internal');
+      if (flag === '1') {
+        window.localStorage.setItem(INTERNAL_KEY, '1');
+      } else if (flag === '0') {
+        window.localStorage.removeItem(INTERNAL_KEY);
+      }
+      isInternal = window.localStorage.getItem(INTERNAL_KEY) === '1';
+    } catch (e) {
+      // localStorage can be blocked; treat as a normal visitor.
+    }
+
     // posthog-js is browser-only; this useEffect only runs client-side.
     import('posthog-js').then(({default: posthog}) => {
       if (posthog.__loaded) {
@@ -30,7 +46,15 @@ export default function Root({children}) {
         defaults: '2025-05-24',
         capture_pageview: true,
         capture_pageleave: true,
+        opt_out_capturing_by_default: isInternal,
       });
+      // Expose for console use, e.g. posthog.opt_out_capturing().
+      window.posthog = posthog;
+      if (isInternal) {
+        posthog.opt_out_capturing();
+      } else if (new URLSearchParams(window.location.search).get('internal') === '0') {
+        posthog.opt_in_capturing();
+      }
     });
   }, [posthogKey, posthogHost]);
 

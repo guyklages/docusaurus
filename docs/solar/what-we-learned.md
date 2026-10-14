@@ -387,7 +387,7 @@ For example, charging a Model Y from 30% to 80% would be adding 50% of its 75 kW
 | Tesla Supercharger                     |  | `$0.50`  | `$18.75`  | 25 minutes @ 65 kW |
 
 
-## Need 3 batteries to _Go Off-Grid_
+## 3 batteries to _Go Off-Grid_
 
 It's nice that Tesla's app gives the _Go Off-Grid_ option to simulate what it would be like during a power outage, but if you want to try this feature for an extended amount of time, it's best you have at least three batteries to continue powering your house.
 

@@ -114,3 +114,9 @@ That's 1 - 2 more months of high electric bills before your solar setup begins t
     - Our non-Tesla installer submitted incorrect BOM paperwork and didn't install a meter on our main breaker panel, so our car charging and water heater usage weren't measured in our app for 2 months.
     - This took us 3 hours of transferred calls to solve; and Tesla said it'll take at least a week to fix.
 - Start with your solar Customer Service to test if your system and inverter are configured properly.
+
+### Download Netzero app
+
+The Tesla app gives a good overview of your solar panel system, but people like me who geek-out on the many underlying settings and automations that can be built, will enjoy downloading the [Netzero.io](https://www.netzeroapp.io/) app that uses the Tesla app data displayed over time with many more features than the Tesla app and recently added AI connectors.
+
+![Netzero Dashboard](https://cdn.jsdelivr.net/gh/guyklages/portflio@master/solar/Netzero-dashboard.jpg)

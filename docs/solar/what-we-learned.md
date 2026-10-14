@@ -386,3 +386,19 @@ For example, charging a Model Y from 30% to 80% would be adding 50% of its 75 kW
 | Alameda Municipal Power <br/> Time-of-Use plan | Peak (5-9pm Mon-Fri) <br/> Non-Peak (all other times) | `$0.5000` <br/> `$0.1386` | `$18.75` <br/> `$ 5.20` | 8 hours @ 6 kW |
 | Tesla Supercharger                     |  | `$0.50`  | `$18.75`  | 25 minutes @ 65 kW |
 
+
+## Need 3 batteries to Go Off-Grid
+
+It's nice that Tesla's app gives the Go Off-Grid option to simulate what it would be like during a power outage, but if you want to try this feature for an extended amount of time, it's best you have at least three batteries to continue powering your house.
+
+**Note:** You can't give excess energy to the Grid during a power outage, so your panel production is throttled as your battery SoC approaches 80% full to avoid fully charging.
+
+When I tested this feature on a sunny day in May with my two Powerwalls at 80% full:
+
+- I turned on the Go Off-Grid option.
+- My production immediately plummeted from 5.9 kW to 0.7 kW.
+- 10 minutes later, I turned off the Go Off-Grid option, and my production quickly returned to 5.8 kW.
+- Soon after, production was 6.5 kW, as shown in the following screenshot of my [Netzero.io app](https://www.netzeroapp.io/) which displays the Tesla app data over time.
+
+
+![Go Off-Grid test via Netzero](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/Netzero_Solar_0.7-to-6.5_Off-Grid.jpg)

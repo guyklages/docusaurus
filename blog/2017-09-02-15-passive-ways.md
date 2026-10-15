@@ -5,7 +5,7 @@ authors: [guyklages]
 tags: [linkedin, job-hunting, portfolio]
 ---
 
-<img src="/img/Blog_15-passive-ways_man-selecting-candidate.png" alt="15" width="698" height="447" />
+<img src="https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Blog_15-passive-ways_man-selecting-candidate.png" alt="15" width="698" height="447" />
 
 ## Introduction
 

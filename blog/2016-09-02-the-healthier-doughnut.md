@@ -5,7 +5,7 @@ authors: [guyklages]
 tags: [seattle, doughnut, dessert, celebrity]
 ---
 
-<img src="/img/Blog_The-healthy-doughnut_Countryside-Donut.png" alt="Donut" width="699" height="450" />
+<img src="https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Blog_The-healthy-doughnut_Countryside-Donut.png" alt="Donut" width="699" height="450" />
 
 _Countryside Donut is on [220th and 66th Ave. in Edmonds, WA](https://www.google.com/maps/place/Countryside+Donut+LLC/@47.7998379,-122.3236109,17z/data=!3m1!4b1!4m6!3m5!1s0x54901aa58b606653:0xaa64a0cbd98873e4!8m2!3d47.7998343!4d-122.3210306!16s%2Fg%2F1tf9sjfm?entry=ttu&g_ep=EgoyMDI2MDYxMy4wIKXMDSoASAFQAw%3D%3D)_
 

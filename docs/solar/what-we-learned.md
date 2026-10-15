@@ -398,7 +398,7 @@ When I tested this feature on a sunny day in May with my two Powerwalls at 80% f
 - I turned on the _Go Off-Grid_ option.
 - My production immediately plummeted from 5.9 kW to 0.7 kW.
 - 10 minutes later, I turned off the _Go Off-Grid_ option, and my production quickly returned to 5.8 kW.
-- Soon after, production was 6.5 kW, as shown in the following screenshot of my [Netzero.io](https://www.netzeroapp.io/) app which displays the Tesla app data over time.
+- Soon after, production was 6.5 kW, as shown in the following screenshot of my [Netzero](https://www.netzero.energy/) app which displays the Tesla app data over time.
 
 
 ![Go Off-Grid test via Netzero](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/Netzero_Solar_0.7-to-6.5_Off-Grid.jpg)

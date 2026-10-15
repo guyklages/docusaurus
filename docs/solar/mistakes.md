@@ -117,6 +117,6 @@ That's 1 - 2 more months of high electric bills before your solar setup begins t
 
 ### Download Netzero app
 
-| [Netzero.io](https://www.netzeroapp.io/) | Netzero Dashboard |
-|------------------------------------------|-------------------|
-| The Tesla app gives a good overview of your solar panel system, but people like me who geek-out on the many underlying settings and automations that can be built, will enjoy downloading the [Netzero.io](https://www.netzeroapp.io/) app. <br/><br/> Netzero uses the Tesla app data displayed over time with many more features than the Tesla app, such as: <br/><br/> - Ability to view four (of five) aspects at a single time <br/> - Automating your Powerwall <br/> - Dynamic tariff integration <br/> - Monitor Powerwall health <br/> - AI connectors to Claude and ChapGPT | ![Netzero Dashboard](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/Netzero-dashboard.jpg) |
+| [Netzero](https://www.netzero.energy/) | Netzero Dashboard |
+|----------------------------------------|-------------------|
+| The Tesla app gives a good overview of your solar panel system, but people like me who geek-out on the many underlying settings and automations that can be built, will enjoy downloading the [Netzero](https://www.netzero.energy/) app. <br/><br/> Netzero uses the Tesla app data displayed over time with many more features than the Tesla app, such as: <br/><br/> - Ability to view four (of five) aspects at a single time <br/> - Automating your Powerwall <br/> - Dynamic tariff integration <br/> - Monitor Powerwall health <br/> - AI connectors to Claude and ChapGPT | ![Netzero Dashboard](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/Netzero-dashboard.jpg) |

@@ -100,26 +100,32 @@
 
 {/* Aug 1997 - Sep 1997 */}
 
-THE PROBLEM: Every few years, AMAT performed company-side re-orgs that improved some departments but hurt other departments.
+|             |      |
+|-------------|------|
+| The problem | Every few years, AMAT performed company-side re-orgs that improved some departments but hurt other departments. |
+| VP's vision | To simulate a proposed re-org before implementing it to predict how each re-org scenario would affect productivity, imbalances, skill gaps, and department budgets. |
+| My solution | VB code to dynamically display the proposed re-org from MySQL queries after an ETL workflow of multiple data sources. |
 
-VP's VISION: To simulate a proposed re-org before implementing it to predict how each re-org scenario would affect productivity, imbalances, skill gaps, and department budgets.
+&nbsp;
 
-MY SOLUTION: VB code to display the proposed re-org from MySQL queries after an ETL workflow of multiple data sources.
+| Extracted data           | Description |
+|--------------------------|-------------|
+| PeopleSoft&nbsp;database | containing employees' salary, bonus, and perks. |
+| Powerpoint slides        | containing performance reviews, strengths, weaknesses, skills, and skills needed. |
+| Word documents           | containing lists of the employees' personality traits, projects they've worked on, and the teams they've worked with. |
 
-| **Extracted** data from | Description |
-|-------------------------|-------------|
-| PeopleSoft database     | containing employees' salary, bonus, and perks. |
-| Powerpoint slides       | containing performance reviews, strengths, weaknesses, skills, and skills needed. |
-| Word documents          | containing lists of the employees' personality traits, projects they've worked on, and the teams they've worked with. |
+&nbsp;
 
-| **Transformed** the data | Description |
+| Transformed data         | Description |
 |--------------------------|-------------|
 | Data Type Conversion     | - Bonuses and perks that were text fields needing to be integers <br/> - Annual performance reviews (written by different managers who listed skills in different orders rated with different adjectives and point scales) needing to be normalized for comparison and calculations <br/> - Personality types and team names needing to be normalized (spelled/abbreviated the exact same way) for comparison and calculations. |
 | Dedupe & Cleaning        | - Many employees were reviewed twice or three times requiring me to merge their annual reviews into a single review <br/> - Many annual reviews were missing fields that needed to be filled in or contain a value <br/> - Many reviews were listed in a different order requiring me to make all fields present and in the same order for the relational database loading |
 | Enrichment & Calculation | - New fields needed to be added, such as TotalComp = salary+bonus+PerkValue <br/> - New values needed to be added for the Strength/Weakness types and TeamGroup types <br/> - We needed to quantify the Strengths, Weaknesses, PerkValue, and Skills. |
 | Standardization          | - I replaced string names (such as "strong", "very good") with standardized numerical IDs and mapped them to lookup tables. |
 
-| **Loaded** the data     | Description |
+&nbsp;
+
+| Loaded data             | Description |
 |-------------------------|-------------|
 | Into a MySQL database   | After making all the data match the relational database fields and schema, then I was able to transform the dataset. |
 | Queried by many queries | Once loaded, I used MySQL queries (and sub-queries) to rearrange the data per the new re-org scenario and used VB code to display the results in a huge matrix that spanned three screens wide and four screens long. |

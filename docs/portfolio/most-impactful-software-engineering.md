@@ -100,11 +100,11 @@
 
 {/* Aug 1997 - Sep 1997 */}
 
-|             |      |
-|-------------|------|
-| The problem | Every few years, AMAT performed company-side re-orgs that improved some departments but hurt other departments. |
-| VP's vision | To simulate a proposed re-org before implementing it to predict how each re-org scenario would affect productivity, imbalances, skill gaps, and department budgets. |
-| My solution | VB code to dynamically display the proposed re-org from MySQL queries after an ETL workflow of multiple data sources. |
+|                  |      |
+|------------------|------|
+| The&nbsp;problem | Every few years, AMAT performed company-side re-orgs that improved some departments but hurt other departments. |
+| VP's vision      | To simulate a proposed re-org before implementing it to predict how each re-org scenario would affect productivity, imbalances, skill gaps, and department budgets. |
+| My solution      | VB code to dynamically display the proposed re-org from MySQL queries after an ETL workflow of multiple data sources. |
 
 &nbsp;
 
@@ -121,7 +121,7 @@
 | Data Type Conversion     | - Bonuses and perks that were text fields needing to be integers <br/> - Annual performance reviews (written by different managers who listed skills in different orders rated with different adjectives and point scales) needing to be normalized for comparison and calculations <br/> - Personality types and team names needing to be normalized (spelled/abbreviated the exact same way) for comparison and calculations. |
 | Dedupe & Cleaning        | - Many employees were reviewed twice or three times requiring me to merge their annual reviews into a single review <br/> - Many annual reviews were missing fields that needed to be filled in or contain a value <br/> - Many reviews were listed in a different order requiring me to make all fields present and in the same order for the relational database loading |
 | Enrichment & Calculation | - New fields needed to be added, such as TotalComp = salary+bonus+PerkValue <br/> - New values needed to be added for the Strength/Weakness types and TeamGroup types <br/> - We needed to quantify the Strengths, Weaknesses, PerkValue, and Skills. |
-| Standardization          | - I replaced string names (such as "strong", "very good") with standardized numerical IDs and mapped them to lookup tables. |
+| Standardization          | I replaced string names (such as "strong", "very good") with standardized numerical IDs and mapped them to lookup tables. |
 
 &nbsp;
 

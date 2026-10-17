@@ -102,7 +102,7 @@
 
 |                  |      |
 |------------------|------|
-| The&nbsp;problem | Every few years, AMAT performed company-side re-orgs that improved some departments but hurt other departments. |
+| The&nbsp;problem | Every few years, AMAT performed company-wide re-orgs that improved some departments but hurt other departments. |
 | VP's vision      | To simulate a proposed re-org before implementing it to predict how each re-org scenario would affect productivity, imbalances, skill gaps, and department budgets. |
 | My solution      | VB code to dynamically display the proposed re-org from MySQL queries after an ETL workflow of multiple data sources. |
 
@@ -110,7 +110,7 @@
 
 | Extracted data           | Description |
 |--------------------------|-------------|
-| PeopleSoft&nbsp;database | Contains the 120,000+ employees' salary, bonus, and perks. |
+| PeopleSoft&nbsp;database | Contains the 14,000+ employees' salary, bonus, and perks. |
 | Powerpoint slides        | Per employee, contains 1 - 3 performance reviews, strengths, weaknesses, skills, and skills needed. |
 | Word documents           | Per employee, contains lists of the employees' personality traits, projects they've worked on, and the teams they've worked with. |
 
@@ -133,7 +133,8 @@
 #### The result
 
 - Unstructured-to-relational ETL with entity resolution.
-- A dynamically rendered webpage table able to re-run on any new set of parameters, which is created from a MySQL database and rendered with VB code.
+- A dynamically rendered VB desktop app that drew a matrix of departments vs. skills, color-coded.
+- An app that could be re-run with any new set of parameters, which is created from a MySQL database and rendered with VB code.
 
 To use it:
 
@@ -141,6 +142,9 @@ To use it:
 2. Repeat step 1 for every affected department.
 3. My application generated a table spanning three screens horizontally and four screens vertically with corresponding squares to summarize how each category of each department would be affected in the proposed reorg, color-coded for items gained/lost.
 
+#### The outcome
+
+Prototype demonstrated to the VP; shelved when PeopleSoft salary access was revoked.
 
 ## 1,000s of duplicates in prod
 

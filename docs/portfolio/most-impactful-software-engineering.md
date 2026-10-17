@@ -3,23 +3,23 @@
 
 ## Overview
 
-| Accomplishment  | Company |
-|-----------------|---------|
-| [Made a database to automate reports that saved > 50% of the employees' time](#db-saved-50-time-effort) | ADP Payroll |
-| [Redesigned their Helpdesk system that reduced their call queue by 92%](#92-drop-in-helpdesk-queue) | Microsoft |
-| [Redesigned their database tables; website ran about 12x faster](#12x-faster-warranty-website) | Hewlett-Packard |
-| [Automated their label printing system; freed up 75% of staff's time](#75-increase-in-productivity) | Bridgestone |
-| [Created a product ordering system that resulted in 0 wrong orders & 25% time saved](#0-wrong-orders--time-saved) | Pueblo Grocery |
-| [Ran SQL queries to uncover a $1 million discrepancy in monthly rent totals](#1-million-per-month-saved) | A mall landlord |
-| [Created DITA-like database to reuse paragraphs of text in multiple contracts](#law-contracts-that-reuse-text) | A law firm |
-| [Displayed dynamically how different company reorganization scenarios would affect the whole](#company-reorg-visualization) | AMAT |
-| [Removed 1,000s of duplicate records while database was in production](#1000s-of-duplicates-in-prod) | Komodo |
-| [Unified the Marketing, Testing, and Sales departments with a database](#3-dept-unified-with-a-db) | Lung Electronics |
+| Accomplishment                                                                                                              | Company         |
+|-----------------------------------------------------------------------------------------------------------------------------|-----------------|
+| [Made a database to automate reports that saved > 50% of the employees' time](#db-saved-50-time-effort)                     | ADP Payroll     |
+| [Redesigned their Helpdesk system that reduced their call queue by 92%](#92-drop-in-helpdesk-queue)                         | Microsoft       |
+| [Redesigned their database tables; website ran about 12x faster](#12x-faster-warranty-website)                              | Hewlett-Packard |
+| [Automated their label printing system; freed up 75% of staff's time](#75-increase-in-productivity)                         | Bridgestone     |
+| [Created a product ordering system that resulted in 0 wrong orders & 25% time saved](#0-wrong-orders--time-saved)           | Pueblo Grocery  |
+| [Ran SQL queries to uncover a $1 million discrepancy in monthly rent totals](#1-million-per-month-saved)                    | mall landlord   |
+| [Created DITA-like database to reuse paragraphs of text in multiple contracts](#law-contracts-that-reuse-text)              | law firm        |
+| [Displayed dynamically how different company reorganization scenarios would affect the whole](#company-reorg-visualization) | AMAT            |
+| [Removed 1,000s of duplicate records while database was in production](#1000s-of-duplicates-in-prod)                        | Komodo          |
+| [Unified the Marketing, Testing, and Sales departments with a database](#3-dept-unified-with-a-db)                         | Lung Electronics |
 
 
 ## DB saved 50% time, effort
 
-#### ADP Payroll (Seattle, WA) –– <mark> Made a database to automate reports; saved >50% of the employees' time and effort </mark>
+#### ADP Payroll (Seattle, WA) – <mark> Made a database to automate reports; saved >50% of the employees' time and effort </mark>
 
 {/*  Mar 2009 - Aug 2009 */}
 
@@ -30,7 +30,7 @@
 
 ## 92% drop in helpdesk queue
 
-#### Microsoft (Shanghai, CHINA) –– <mark> Redesigned their Helpdesk system that reduced their call queue by 92% </mark>
+#### Microsoft (Shanghai, CHINA) – <mark> Redesigned their Helpdesk system that reduced their call queue by 92% </mark>
 
 {/* Feb 2003 - Mar 2003 */}
 
@@ -41,7 +41,7 @@
 
 ## 12x faster warranty website
 
-#### HP (Mt. View, CA) –– <mark> Redesigned their database tables; website ran about 12x faster </mark>
+#### HP (Mt. View, CA) – <mark> Redesigned their database tables; website ran about 12x faster </mark>
 
 {/* May 2001 - Aug 2001 */}
 
@@ -52,7 +52,7 @@
 
 ## 75% increase in productivity
 
-#### Bridgestone (Bloomington, IL) –– <mark> Automated their label printing system; freed up 75% of staff's time </mark>
+#### Bridgestone (Bloomington, IL) – <mark> Automated their label printing system; freed up 75% of staff's time </mark>
 
 {/* May 1999 - May 1999 */}
 
@@ -63,7 +63,7 @@
 
 ## 0 wrong orders + time saved
 
-#### Pueblo Grocery (Miami, FL) –– <mark> Created a product ordering system that resulted in 0 wrong orders and 25% time saved </mark>
+#### Pueblo Grocery (Miami, FL) – <mark> Created a product ordering system that resulted in 0 wrong orders and 25% time saved </mark>
 
 {/* Mar 1999 - Apr 1999 */}
 
@@ -74,7 +74,7 @@
 
 ## $1 million per month saved
 
-#### A mall landlord (Miami, FL) –– <mark> Ran SQL queries to uncover a $1 million discrepancy in monthly rent totals </mark>
+#### A mall landlord (Miami, FL) – <mark> Ran SQL queries to uncover a $1 million discrepancy in monthly rent totals </mark>
 
 {/* Aug 1998 - Sep 1998 */}
 
@@ -85,7 +85,7 @@
 
 ## Law contracts that reuse text
 
-#### A law firm (Santa Clara, CA) –– <mark> Created DITA-like database to reuse paragraphs of text in multiple contracts </mark>
+#### A law firm (Santa Clara, CA) – <mark> Created DITA-like database to reuse paragraphs of text in multiple contracts </mark>
 
 {/* Mar 1998 - Apr 1998 */}
 
@@ -148,7 +148,7 @@ Prototype demonstrated to the VP; shelved when PeopleSoft salary access was revo
 
 ## 1,000s of duplicates in prod
 
-#### Komodo Toys (Hong Kong) –– <mark> Removed 1,000s of duplicate records while database was in production </mark>
+#### Komodo Toys (Hong Kong) – <mark> Removed 1,000s of duplicate records while database was in production </mark>
 
 {/* Mar 1997 - Apr 1997 */}
 
@@ -159,7 +159,7 @@ Prototype demonstrated to the VP; shelved when PeopleSoft salary access was revo
 
 ## 3 dept unified with a DB
 
-#### Lung Electronics (Hong Kong) –– <mark> Unified the Marketing, Testing, and Sales departments with a database </mark>
+#### Lung Electronics (Hong Kong) – <mark> Unified the Marketing, Testing, and Sales departments with a database </mark>
 
 {/* Mar 1996 - Apr 1997 */}
 
@@ -172,7 +172,7 @@ Prototype demonstrated to the VP; shelved when PeopleSoft salary access was revo
 
 ## 1st to identify virus
 
-#### Interbase Solutions (Santa Clara, CA) –– <mark> Removed a virus before the concept of a computer virus was common knowledge </mark>
+#### Interbase Solutions (Santa Clara, CA) – <mark> Removed a virus before the concept of a computer virus was common knowledge </mark>
 
 May 1998 - May 1998 
 

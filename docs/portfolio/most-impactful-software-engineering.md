@@ -110,30 +110,36 @@
 
 | Extracted data           | Description |
 |--------------------------|-------------|
-| PeopleSoft&nbsp;database | containing employees' salary, bonus, and perks. |
-| Powerpoint slides        | containing performance reviews, strengths, weaknesses, skills, and skills needed. |
-| Word documents           | containing lists of the employees' personality traits, projects they've worked on, and the teams they've worked with. |
+| PeopleSoft&nbsp;database | Contains the 120,000+ employees' salary, bonus, and perks. |
+| Powerpoint slides        | Per employee, contains 1 - 3 performance reviews, strengths, weaknesses, skills, and skills needed. |
+| Word documents           | Per employee, contains lists of the employees' personality traits, projects they've worked on, and the teams they've worked with. |
 
 &nbsp;
 
 | Transformed data         | Description |
 |--------------------------|-------------|
-| Data Type Conversion     | - Bonuses and perks that were text fields needing to be integers <br/> - Annual performance reviews (written by different managers who listed skills in different orders rated with different adjectives and point scales) needing to be normalized for comparison and calculations <br/> - Personality types and team names needing to be normalized (spelled/abbreviated the exact same way) for comparison and calculations. |
-| Dedupe & Cleaning        | - Many employees were reviewed twice or three times requiring me to merge their annual reviews into a single review <br/> - Many annual reviews were missing fields that needed to be filled in or contain a value <br/> - Many reviews were listed in a different order requiring me to make all fields present and in the same order for the relational database loading |
-| Enrichment & Calculation | - New fields needed to be added, such as TotalComp = salary+bonus+PerkValue <br/> - New values needed to be added for the Strength/Weakness types and TeamGroup types <br/> - We needed to quantify the Strengths, Weaknesses, PerkValue, and Skills. |
-| Standardization          | I replaced string names (such as "strong", "very good") with standardized numerical IDs and mapped them to lookup tables. |
+| Data Type Conversion     | - Bonuses and perks were text fields that I had to convert to integers via a VB script and some manually. <br/> - Annual performance reviews (written by different managers who listed skills in different orders rated with different adjectives and point scales) were items that I had to normalize for comparison and calculations via a VB script and some manually. <br/> - Personality types and team names were items that I had to normalize (spelled/abbreviated the exact same way) for comparison and calculations via a VB script and some manually. |
+| Dedupe & Cleaning        | - Many employees were reviewed twice or three times requiring me to manually merge their annual reviews into a single review <br/> - Many annual reviews were missing fields that needed to be filled in or contain a value with a VB script. <br/> - Many reviews were listed in a different order requiring me to ensure all fields present and in the same order for the relational database loading via queries. |
+| Enrichment & Calculation | - I needed to add new fields, such as TotalComp = salary+bonus+PerkValue <br/> - I needed to add new values for the Strength/Weakness types and TeamGroup types. <br/> - I needed to quantify the Strengths, Weaknesses, PerkValue, and Skills. |
+| Standardization          | I used a VB script to replace string names (such as "strong", "very good") with standardized numerical IDs and mapped them to lookup tables. |
 
 &nbsp;
 
 | Loaded data             | Description |
 |-------------------------|-------------|
-| Into a MySQL database   | After making all the data match the relational database fields and schema, then I was able to transform the dataset. |
+| Into a MySQL database   | After making all the data match the relational database fields and schema, then I was able to load the dataset. |
 | Queried by many queries | Once loaded, I used MySQL queries (and sub-queries) to rearrange the data per the new re-org scenario and used VB code to display the results in a huge matrix that spanned three screens wide and four screens long. |
 
-The final product: a dynamically rendered webpage table created from a MySQL database with VB code and PeopleSoft.
+#### The result
 
-1. The user would list which departments would report to new managers/departments in a proposed reorg.
-2. My application generated a table spanning three screens horizontally and four screens vertically displaying squares to summarize how each category of each department would be affected in the proposed reorg, color-coded for items gained/lost.
+- Unstructured-to-relational ETL with entity resolution.
+- A dynamically rendered webpage table able to re-run on any new set of parameters, which is created from a MySQL database and rendered with VB code.
+
+To use it:
+
+1. From dropdown lists, the user would select a department and then select which new manager or department it would report to.
+2. Repeat step 1 for every affected department.
+3. My application generated a table spanning three screens horizontally and four screens vertically with corresponding squares to summarize how each category of each department would be affected in the proposed reorg, color-coded for items gained/lost.
 
 
 ## 1,000s of duplicates in prod

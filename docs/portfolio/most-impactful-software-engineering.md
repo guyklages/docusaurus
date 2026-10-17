@@ -134,7 +134,7 @@
 
 - Unstructured-to-relational ETL with entity resolution.
 - A dynamically rendered VB desktop app that drew a matrix of departments vs. skills, color-coded.
-- An app that could be re-run with any new set of parameters, which is created from a MySQL database and rendered with VB code.
+- A VB app that could be re-run with any new set of parameters, which is created from a MySQL database.
 
 To use it:
 

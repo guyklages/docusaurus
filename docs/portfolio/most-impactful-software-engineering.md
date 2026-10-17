@@ -138,9 +138,10 @@
 
 To use it:
 
-1. From dropdown lists, the user would select a department and then select which new manager or department it would report to.
+1. From dropdown lists, select a department and then select which new manager or department it would report to.
 2. Repeat step 1 for every affected department.
-3. My application generated a table spanning three screens horizontally and four screens vertically with corresponding squares to summarize how each category of each department would be affected in the proposed reorg, color-coded for items gained/lost.
+
+Then my application generated a table spanning three screens horizontally and four screens vertically with corresponding squares to summarize how each category of each department would be affected in the proposed reorg, color-coded for items gained/lost.
 
 #### The outcome
 

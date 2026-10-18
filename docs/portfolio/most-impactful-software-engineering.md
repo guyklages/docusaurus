@@ -111,8 +111,8 @@
 | Extracted data           | Description |
 |--------------------------|-------------|
 | PeopleSoft&nbsp;database | ~20,000 rows of employees' salary, bonus, and perks. |
-| PowerPoint slides        | ~40,000 slides (1 - 3 per employee), containing performance reviews, strengths, weaknesses, skills, and skills needed. |
-| Word documents           | ~20,000 .DOC files (1 per employee), containing lists of the employees' personality traits, projects they've worked on, and the teams they've worked with. |
+| PowerPoint slides        | ~40,000 slides (1 - 4 per employee), containing performance reviews, strengths, weaknesses, skills, and skills needed. |
+| Word documents           | ~20,000 DOCX files (1 per employee), containing lists of the employees' personality traits, projects they've worked on, and the teams they've worked with. |
 
 &nbsp;
 

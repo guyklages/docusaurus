@@ -369,6 +369,10 @@ Call your installer rather than just watching it. Don't treat it as urgent, but 
 
 The inverter fault and the string B problem could be costing you production, even though the system stays up through them.
 
+|  |  |  |  |  |  |  |  |
+|--|--|--|--|--|--|--|--|
+| ![Oct 10](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/Netzero-error-1010.jpg) |  |  |  |  |  |  |  |
+
 ## Note to solar vendors
 
 The following gripes are what we and friends have experienced with various solar vendors, so we hope all solar vendors keep these in mind.

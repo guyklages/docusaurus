@@ -83,7 +83,7 @@ For each of the courses below, I designed the training using the ADDIE framework
 
 |             |         |
 |-------------|---------|
-| **OpSec Security _(Boston)_ <br/> <br/> Audience** <br/> OpSec Employees (non-technical) <br/> <br/> **Deliverables** <br/> Internal training walkthrough videos with voiceover narration that explains the complex process of how OpSec makes their anti-counterfeiting labels <br/> <br/> **Method** <br/> Offline training videos <br/> <br/> **Tools** <br/> Adobe Captivate and Camtasia | ![Label](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/OpSec_Holographic-anti-counterfeiting-label.png) |
+| **OpSec Security _(Boston)_ <br/> <br/> Audience** <br/> OpSec Employees (non-technical) <br/> <br/> **Deliverables** <br/> Internal training walkthrough videos with voiceover narration that explains the complex process of how OpSec makes their anti-counterfeiting labels which are inside products, such as Prada bags or Red Sox jerseys, for customers to be able to confirm whether an item is authentic or a knock-off. <br/> <br/> **Method** <br/> Offline training videos <br/> <br/> **Tools** <br/> Adobe Captivate and Camtasia | ![Label](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/OpSec_Holographic-anti-counterfeiting-label.png) |
 
 
 ### eDC for clinical trials

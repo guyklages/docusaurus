@@ -373,6 +373,8 @@ The inverter fault and the string B problem could be costing you production, eve
 |--|--|--|--|--|--|--|--|
 | ![Oct 10](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/Netzero-error-1010.jpg) | ![Oct 11](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/Netzero-error-1011.jpg) | ![Oct 12](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/Netzero-error-1012.jpg) | ![Oct 13](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/Netzero-error-1013.jpg) | ![Oct 14](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/Netzero-error-1014.jpg) | ![Oct 15](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/Netzero-error-1015.jpg) | ![Oct 16](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/Netzero-error-1016.jpg) | ![Oct 17](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/Netzero-error-1017.jpg) |
 
+In the above screenshots of our [Netzero app](https://netzero.energy), you can see the intermittent string B problem by the up-and-down lines in the Production graph on Oct 12, 13, 14, and 17 while producing fine on Oct 10, 11, 15, and 16.
+
 ## Note to solar vendors
 
 The following gripes are what we and friends have experienced with various solar vendors, so we hope all solar vendors keep these in mind.

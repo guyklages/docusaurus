@@ -344,6 +344,31 @@ The following table summarizes [Bob Vila's article](https://www.bobvila.com/arti
 - We have 20 Tesla 420w panels (8.5 kW, 200 Amp)
 - Utility bills before install ranged from $140/mo to $280/mo.
 
+## Netzero error report
+
+The diagnostics show some real issues behind the warning, but the system is producing power.
+
+#### What the diagnostics showed at 12:14 PM today, when the alert fired
+
+- **The solar inverter faulted.** It was in a "Faulted" state with a heatsink over-temperature alert (`PVAC_a021`), and solar output read 0 W at that moment. The overheating could be a thermal trip around midday, or the inverter's cooling may be struggling.
+- **Solar string B is disconnected.** It reads about 14 V, while strings A, C and D read about 445 V. The PVS also logged MciStringB and MciClose alerts. Your January alert showed the same string (string 2) at about 0 V, so this has been intermittent for months. A whole string of panels may be offline, or a connector or wire is bad.
+- **The inverter reports a neutral-to-chassis overvoltage alert** (`PINV_a067`) on both Powerwalls. This is a wiring or grounding-related alert, and Tesla can check it too.
+
+#### What looks healthy
+
+- It recovered. As of 5 PM, solar is back at 970 W and the battery is about 91% charged.
+- Today's solar total is 20.1 kWh, which is reasonable for mid-October, though it may be slightly low if string B is down.
+- The grid connection, both Powerwalls and the gateway report no faults. Powerwall capacity is slowly declining (~14.2 kWh and ~13.5 kWh now), which is normal aging.
+
+#### Revised recommendation
+
+Call your installer rather than just watching it. Don't treat it as urgent, but book a service visit.
+
+1. Open a service request on your Tesla app.
+2. Tell them: **"PVS_a050 relay coil warning on Oct 17 at 12:14 PM. The PVAC faulted with a heatsink over-temperature alert. String B has been disconnected, with a related alert in January. There's also an overvoltage-neutral-chassis alert on the Powerwalls."**
+
+The inverter fault and the string B problem could be costing you production, even though the system stays up through them.
+
 ## Note to solar vendors
 
 The following gripes are what we and friends have experienced with various solar vendors, so we hope all solar vendors keep these in mind.

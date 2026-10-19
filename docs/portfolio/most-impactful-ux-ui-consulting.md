@@ -65,11 +65,11 @@
 
 ## HP
 
-### 20% drop in i18n mistakes
+### 10% drop in l10n mistakes
 
-#### Hewlett-Packard (Singapore) –– <mark> 20% drop in internationalization (i18n) and translation mistakes by PMs </mark>
+#### Hewlett-Packard (Singapore) –– <mark> 10% drop in localization (l10n) and translation mistakes by PMs </mark>
 
 | Before  | After  |
 |---------|--------|
-| Hewlett-Packard's translation division used an Excel table to track which languages a project have been translated into and then reviewed for accuracy. I thought it was odd they used the standard ISO 2-letter language code on the X-axis while using their internal 3-letter language code on the Y-axis. | After changing the 3-letter code to the 2-letter code, I noticed that a language wasn't reviewed yet--a mistake that the responsible project manager didn't notice either! |
+| Hewlett-Packard's translation division used an Excel table to track which languages each project had been translated into and then reviewed it for accuracy. <br/><br/> I thought it was odd they used the standard ISO 2-letter language code on the X-axis while using their internal 3-letter language code on the Y-axis. | After changing the 3-letter code to the 2-letter code, I noticed that a language wasn't reviewed yet--a mistake that any project manager could miss. |
 | ![Before](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/BEFORE-and-AFTER/HP_internal-tool-for-tracking-translations_BEFORE.png) | ![After](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/BEFORE-and-AFTER/HP_internal-tool-for-tracking-translations_AFTER.png) |

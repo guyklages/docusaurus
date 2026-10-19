@@ -58,50 +58,50 @@ For each of the courses below, I designed the training using the ADDIE framework
 
 | Description | Example |
 |-------------|---------|
-| **Edutainme (2015-2017) Bay Area <br/><br/> Audience** <br/> Technical writers <br/><br/> **Deliverables** <br/> Curriculum and hands-on classes using an address book example <br/><br/> **Tools** <br/> Swagger and PowerPoint <br/><br/> <a href="https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Edutainme_Swagger-addressbook-GetPostPut.png" target="_blank" rel="noopener noreferrer"><b>Screenshot in a new browser tab</b></a> | <iframe src="https://docs.google.com/document/d/e/2PACX-1vSAFyqq2XqEuMWBQQDIl7dz2IlCzPeXTt-mDgf4ZekmjRsb_qXKvNpYons8GWn085jl6WMw4Yfvrw-X/pub?embedded=true" width="500" height="400"></iframe> |
+| **Edutainme _(Bay Area)_ <br/><br/> Audience** <br/> Technical writers <br/><br/> **Deliverables** <br/> Curriculum and hands-on classes using an address book example <br/><br/> **Tools** <br/> Swagger and PowerPoint <br/><br/> <a href="https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Edutainme_Swagger-addressbook-GetPostPut.png" target="_blank" rel="noopener noreferrer"><b>Screenshot in a new browser tab</b></a> | <iframe src="https://docs.google.com/document/d/e/2PACX-1vSAFyqq2XqEuMWBQQDIl7dz2IlCzPeXTt-mDgf4ZekmjRsb_qXKvNpYons8GWn085jl6WMw4Yfvrw-X/pub?embedded=true" width="500" height="400"></iframe> |
 
 
 ### Pay by Bank
 
 | Description | Example |
 |-------------|---------|
-| **Atelio (2024-2025) Bay Area <br/><br/> Audience** <br/> Fintech developers <br/><br/> **Deliverables** <br/> Curriculum for hands-on classes using a sandbox account to test Atelio's Pay by Bank app with customers' own app via API calls <br/><br/> **Method** In-person classes and live webinars <br/><br/> **Tools** <br/> PowerPoint and Zoom | ![Label](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Atelio_Pay-By-Bank_light.png) |
+| **Atelio _(Bay Area)_ <br/><br/> Audience** <br/> Fintech developers <br/><br/> **Deliverables** <br/> Curriculum for hands-on classes using a sandbox account to test Atelio's Pay by Bank app with customers' own app via API calls <br/><br/> **Method** In-person classes and live webinars <br/><br/> **Tools** <br/> PowerPoint and Zoom | ![Label](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Atelio_Pay-By-Bank_light.png) |
 
 ### Payins, Payouts
 
 | Description | Example |
 |-------------|---------|
-| **Nium (2022-2023) Bay Area <br/><br/> Audience** <br/> Fintech developers <br/><br/> **Deliverables** <br/> Curriculum and hands-on classes using a sandbox account to test Nium's API endpoints with customers' own app via API calls <br/><br/> **Method** In-person classes and live webinars <br/><br/> **Tools** <br/> PowerPoint and Zoom | ![Label](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Nium_Payins_Customer-Virtual-Accts.png) |
+| **Nium _(Bay Area)_ <br/><br/> Audience** <br/> Fintech developers <br/><br/> **Deliverables** <br/> Curriculum and hands-on classes using a sandbox account to test Nium's API endpoints with customers' own app via API calls <br/><br/> **Method** In-person classes and live webinars <br/><br/> **Tools** <br/> PowerPoint and Zoom | ![Label](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Nium_Payins_Customer-Virtual-Accts.png) |
 
 ### SQL++ queries and indexes
 
 | Description | Example |
 |-------------|---------|
-| **Couchbase (2017-2018) Bay Area <br/><br/> Audience** <br/> Big Data analysts, PMs, developers <br/><br/> **Deliverables** <br/> Curriculum and hands-on classes using their Couchbase account to make advanced queries against Couchbase's sample database <br/><br/> **Method** In-person classes and live Meetups <br/><br/> **Tools** <br/> PowerPoint and Zoom | ![Label](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Couchbase_SQL++_for_Query_Reference.png) |
+| **Couchbase _(Bay Area)_ <br/><br/> Audience** <br/> Big Data analysts, PMs, developers <br/><br/> **Deliverables** <br/> Curriculum and hands-on classes using their Couchbase account to make advanced queries against Couchbase's sample database <br/><br/> **Method** In-person classes and live Meetups <br/><br/> **Tools** <br/> PowerPoint and Zoom | ![Label](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Couchbase_SQL++_for_Query_Reference.png) |
 
 ### Anti-counterfeiting labeling
 
 | Description | Example |
 |-------------|---------|
-| **OpSec Security (2013) Boston <br/> <br/> Audience** <br/> OpSec Employees (non-technical) <br/> <br/> **Deliverables** <br/> Internal training videos with voiceover narration that explains the complex process of how OpSec makes their anti-counterfeiting labels <br/> <br/> **Method** <br/> Offline training videos <br/> <br/> **Tools** <br/> Adobe Captivate and Camtasia | ![Label](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/OpSec_Holographic-anti-counterfeiting-label.png) |
+| **OpSec Security _(Boston)_ <br/> <br/> Audience** <br/> OpSec Employees (non-technical) <br/> <br/> **Deliverables** <br/> Internal training walkthrough videos with voiceover narration that explains the complex process of how OpSec makes their anti-counterfeiting labels <br/> <br/> **Method** <br/> Offline training videos <br/> <br/> **Tools** <br/> Adobe Captivate and Camtasia | ![Label](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/OpSec_Holographic-anti-counterfeiting-label.png) |
 
 
 ### eDC for clinical trials
 
 | Description | Example |
 |-------------|---------|
-| **VA Medical Center (2011-2013) Boston <br/> <br/> Audience** <br/> Clinical trial PMs (non-technical) <br/> <br/> **Deliverables** <br/> Technical documents and class materials for their in-house clinical trial software <br/> <br/> **Method** <br/> Provided Instructor Led Training (ILT) and Virtual Classroom Training (VCT) on their eDC software. <br/> <br/> **Tools** <br/> MS Word, Excel, Visio, Powerpoint, Access, SQL Server, SharePoint, Captivate | ![VA](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/VA_eDC-software.png) |
+| **VA Medical Center _(Boston)_ <br/> <br/> Audience** <br/> Clinical trial PMs (non-technical) <br/> <br/> **Deliverables** <br/> Technical documents and class materials for their in-house clinical trial software <br/> <br/> **Method** <br/> Provided Instructor Led Training (ILT) and Virtual Classroom Training (VCT) on their eDC software. <br/> <br/> **Tools** <br/> MS Word, Excel, Visio, Powerpoint, Access, SQL Server, SharePoint, Captivate | ![VA](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/VA_eDC-software.png) |
 
 
 ### Payroll reporting
 
 | Description | Example |
 |-------------|---------|
-| **ADP Payroll (2008-2011) Seattle <br/> <br/> Audience** <br/> Payroll Specialists (non-technical) <br/> <br/> **Deliverables** <br/> Training materials and curriculum for reporting of Garnishments, Payroll, AP/AR, GL, and Reimbursements <br/> <br/> **Method** <br/> Provided Instructor Led Training (ILT) and Virtual Classroom Training (VCT) <br/> <br/> **Tools** <br/> MS Word, Excel, Visio, Access, SQL Server, Captivate | ![ADP](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Diagrams+Charts/ADP_COS-NSC-Tax-inquiry-process-diagram.png) |
+| **ADP Payroll _(Seattle)_ <br/> <br/> Audience** <br/> Payroll Specialists (non-technical) <br/> <br/> **Deliverables** <br/> Training materials and curriculum for reporting of Garnishments, Payroll, AP/AR, GL, and Reimbursements <br/> <br/> **Method** <br/> Provided Instructor Led Training (ILT) and Virtual Classroom Training (VCT) <br/> <br/> **Tools** <br/> MS Word, Excel, Visio, Access, SQL Server, Captivate | ![ADP](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Diagrams+Charts/ADP_COS-NSC-Tax-inquiry-process-diagram.png) |
 
 
 ### ESL, Excel
 
 | Description | Example |
 |-------------|---------|
-| **Talk Group (2002-2006) Shanghai <br/> <br/> Audience** <br/> Recent college graduates <br/> <br/> **Deliverables** <br/> A 5GB database and website of all activities, schedules, teachers and 200+ on-line asynchronous and synchronous learning materials for each activity <br/> <br/> **Method** <br/> Provided Instructor Led Training (ILT) and Virtual Classroom Training (VCT) while training 60+ teachers in our experiential style of training (led many of the activities myself) <br/> <br/> **Tools** <br/> MS Word, Excel, Visio, Access, SQL Server | <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSqxy6YfWJ9ZZLGpLFgxmM638_yory6NPVpGCdMlyAS2kVKSRfYpPR9DAK3FwJcI69FEAUGj79Dl10c/pubhtml?widget=true&amp;headers=false" width="600" height="400"></iframe> <br/><br/> <a href="/google-sheet-viewer.html" target="_blank" rel="noopener noreferrer"><b>Open this curriculum in a new browser tab</b></a> |
+| **Talk Group _(Shanghai)_ <br/> <br/> Audience** <br/> Recent college graduates <br/> <br/> **Deliverables** <br/> A 5GB database and website of all activities, schedules, teachers and 200+ on-line asynchronous and synchronous learning materials for each activity <br/> <br/> **Method** <br/> Provided Instructor Led Training (ILT) and Virtual Classroom Training (VCT) while training 60+ teachers in our experiential style of training (led many of the activities myself) <br/> <br/> **Tools** <br/> MS Word, Excel, Visio, Access, SQL Server | <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSqxy6YfWJ9ZZLGpLFgxmM638_yory6NPVpGCdMlyAS2kVKSRfYpPR9DAK3FwJcI69FEAUGj79Dl10c/pubhtml?widget=true&amp;headers=false" width="600" height="400"></iframe> <br/><br/> <a href="/google-sheet-viewer.html" target="_blank" rel="noopener noreferrer"><b>Open this curriculum in a new browser tab</b></a> |

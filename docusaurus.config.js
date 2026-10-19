@@ -120,7 +120,7 @@ presets: [
         },
         config: {
           // medium-zoom configuration options
-          margin: 24,
+          margin: 80, // clears the 60px navbar so tall images don't slide under it
           scrollOffset: 0,
         },
       },

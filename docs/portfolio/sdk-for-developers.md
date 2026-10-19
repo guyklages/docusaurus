@@ -7,7 +7,7 @@ I wrote the following SDKs for fintech developers:
 | Title | <div style={{ width: '120px' }}>Code samples</div> | Company |
 |-------|----------------------------------------------------|---------|
 | - **[External accounts SDK](../atelio/accounts/external-accounts-sdk.md)** <br/> - **[SDK classes](../atelio/accounts/sdk-documentation.md)** <br/> - **[Atelio cards SDK](../atelio/cards/ateliocards-sdk.md)** <br/> - **[SDK for web documentation](https://guyklages.com/atelio/developers/web-sdk-documentation)** | cURL, HTML, JavaScript <br/> <br/> cURL, C#, Java, JavaScript, Python, Ruby <br/> <br/>| Atelio / FIS <br/> <sup> _San Francisco, CA_ </sup> |
-| - **[Apple Pay - Push provisioning](https://docs.nium.com/docs/cards/digital-wallet-tokenization/apple-pay#step-1-install-the-sdk)** | Objective C | Nium <br/> <sup> _San Francisco, CA_ </sup> |
+| - **[Apple Pay - Push provisioning](https://docs.nium.com/docs/cards/digital-wallet-tokenization/apple-pay#step-1-install-the-sdk)** | Objective-C | Nium <br/> <sup> _San Francisco, CA_ </sup> |
 | - **[Android SDK for payments](#android-sdk-for-payments)** <br/> - **[iOS SDK for Apple Pay payments](#ios-sdk-for-apple-pay)**   | Java <br/> Swift, Objective-C | ROAM Data <br/> <sup> _Boston, MA_ </sup> |
 
 

@@ -97,8 +97,7 @@ On days that generate very little power, you'll wish you had more panels to char
     <summary> Very difficult to add more panels later </summary>
 
 - It's easier to install more panels during the original install.
-- Adding panels later requires new permits.
-- Installers don't want to take small jobs, so you'll need to add other items to make it worth their time.
+- Adding panels later requires new permits for a new project, and installers require you to add a minimum of 8 new panels.
 
 </details>
 

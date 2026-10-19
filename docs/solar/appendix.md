@@ -369,8 +369,8 @@ Call your installer rather than just watching it. Don't treat it as urgent, but 
 
 The inverter fault and the string B problem could be costing you production, even though the system stays up through them.
 
-|  |  |  |  |  |  |  |  |
-|--|--|--|--|--|--|--|--|
+| Oct 10 | Oct 11 | Oct 12 | Oct 13 | Oct 14 | Oct 15 | Oct 16 | Oct 17 |
+|--------|--------|--------|--------|--------|--------|--------|--------|
 | ![Oct 10](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/Netzero-error-1010.jpg) | ![Oct 11](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/Netzero-error-1011.jpg) | ![Oct 12](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/Netzero-error-1012.jpg) | ![Oct 13](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/Netzero-error-1013.jpg) | ![Oct 14](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/Netzero-error-1014.jpg) | ![Oct 15](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/Netzero-error-1015.jpg) | ![Oct 16](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/Netzero-error-1016.jpg) | ![Oct 17](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/Netzero-error-1017.jpg) |
 
 In the above screenshots of our [Netzero app](https://netzero.energy), you can see the intermittent string B problem by the up-and-down lines in the Production graph on Oct 12, 13, 14, and 17 while producing fine on Oct 10, 11, 15, and 16.

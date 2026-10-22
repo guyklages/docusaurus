@@ -1,0 +1,39 @@
+.iconButton {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  margin-right: 0.5rem;
+  color: var(--ifm-navbar-link-color);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.panel {
+  display: none;
+  position: fixed;
+  top: var(--ifm-navbar-height);
+  left: 0;
+  right: 0;
+  z-index: 200;
+  padding: 0 var(--ifm-navbar-padding-horizontal);
+  background: var(--ifm-navbar-background-color);
+  box-shadow: var(--ifm-navbar-shadow);
+}
+
+/* Mobile layout only (Docusaurus hamburger breakpoint). */
+@media (max-width: 996px) {
+  .iconButton {
+    display: inline-flex;
+  }
+
+  .panel {
+    display: block;
+  }
+}
+
+/* Not needed inside the opened hamburger sidebar. */
+:global(.navbar-sidebar) .iconButton,
+:global(.navbar-sidebar) .panel {
+  display: none;
+}

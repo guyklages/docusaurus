@@ -205,7 +205,7 @@ The following are the `shipping` object's child arguments.
 
 | Argument  | Condition | Description |
 |-----------|-----------|-------------|
-| [`address`](#shipping-address) | Required  | The full shipping address |
+| [`address`](#create-shipping-address) | Required  | The full shipping address |
 | `name`    | Required  | The name of the shipping contact |
 | `phone`   | Optional  | The phone number of the shipping contact |
 

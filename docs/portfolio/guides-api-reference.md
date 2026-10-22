@@ -189,8 +189,8 @@ To troubleshoot this, try `kubectl delete pod <name> --grace-period=0 --force` o
 
 <DefinitionProvider>
 
-| Company                                    | From     | Until    | Years | DITA | AEM  | Oxygen <br/> XML | XMetaL | Pages |
-|--------------------------------------------|:--------:|:--------:|:-----:|:----:|:----:|:----------------:|:------:|:-----:|
+| Company                                    | From     | Until    | Years | DITA | AEM  | Oxygen | XMetaL | Pages |
+|--------------------------------------------|:--------:|:--------:|:-----:|:----:|:----:|:------:|:------:|:-----:|
 | <DefTerm def="ChargePoint makes chargers for electric vehicles, and I wrote internal manuals for the manager of those chargers (such as a store manager at Target) to adjust the charging settings for cars parked in their parking lot. PDF guides for online dashboards.">ChargePoint</DefTerm>    | Nov 2018 | May 2019 |  0.5  |  ✅  |      |        ✅        |        |       |
 | <DefTerm def="Couchbase makes Big Data NoSQL databases, and I owned all of the SQL++ reference pages. I documented new features and revamped the pre-existing pages by elaborating their explanations, by adding index and query examples, and by adding diagrams.">Couchbase</DefTerm>                                     | Apr 2017 | May 2018 |  1.2  |  ✅  |      |        ✅        |        |       |
 | <DefTerm def="The Wells Fargo department I worked in was responsible for their developer portal and banking APIs. I documented how to register, subscribe, generate, and test API keys.">Wells Fargo</DefTerm>   | Jan 2017 | Apr 2017 |  0.3  |  ✅  |  ✅  |                  |        |       |

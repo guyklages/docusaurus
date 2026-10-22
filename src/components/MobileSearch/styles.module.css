@@ -31,3 +31,9 @@
     display: block;
   }
 }
+
+/* Infima hides ".navbar__item" below 997px (it expects them inside the hamburger
+   menu); PageSearch carries that class, so force it visible inside this panel. */
+.panel > :global(.navbar__item) {
+  display: block;
+}

@@ -13,6 +13,22 @@ export default function MobileSearch() {
   const panelRef = useRef(null);
   const location = useLocation();
   const sidebar = useNavbarMobileSidebar();
+  // Wide content (e.g. tables) can stretch the layout viewport past the screen,
+  // so size the panel to what is actually visible instead of left/right: 0.
+  const [box, setBox] = useState(null);
+  useEffect(() => {
+    if (!open) return undefined;
+    const vv = window.visualViewport;
+    const update = () =>
+      setBox(vv ? {left: vv.offsetLeft, width: vv.width} : null);
+    update();
+    vv?.addEventListener('resize', update);
+    vv?.addEventListener('scroll', update);
+    return () => {
+      vv?.removeEventListener('resize', update);
+      vv?.removeEventListener('scroll', update);
+    };
+  }, [open]);
 
   // Close after navigating (e.g. tapping a search result).
   useEffect(() => setOpen(false), [location.pathname]);
@@ -50,7 +66,10 @@ export default function MobileSearch() {
       </button>
       {open &&
         createPortal(
-          <div ref={panelRef} className={styles.panel}>
+          <div
+            ref={panelRef}
+            className={styles.panel}
+            style={box ? {left: box.left, right: 'auto', width: box.width} : undefined}>
             <PageSearch mobile />
           </div>,
           document.body,

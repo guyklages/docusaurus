@@ -15,7 +15,7 @@
   top: var(--ifm-navbar-height);
   left: 0;
   right: 0;
-  z-index: 200;
+  z-index: 500;
   padding: 0 var(--ifm-navbar-padding-horizontal);
   background: var(--ifm-navbar-background-color);
   box-shadow: var(--ifm-navbar-shadow);
@@ -30,10 +30,4 @@
   .panel {
     display: block;
   }
-}
-
-/* Not needed inside the opened hamburger sidebar. */
-:global(.navbar-sidebar) .iconButton,
-:global(.navbar-sidebar) .panel {
-  display: none;
 }

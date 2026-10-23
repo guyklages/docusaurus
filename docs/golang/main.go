@@ -4,6 +4,8 @@ import "fmt"
 
 func main() {
 
-	fmt.Println("Hello, ninjas!")
+	var nameOne string = "mario"
+
+	fmt.Println(nameOne)
 
 }

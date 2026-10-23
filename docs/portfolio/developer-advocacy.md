@@ -212,7 +212,9 @@ While at Couchbase, there was a potential customer who wanted to buy if he could
 
 For a complete list of database developer guides I wrote, see [Couchbase SQL++ developer guides](./guides-api-reference.md#couchbase)
 
-## Meetup events I attend
+## Meetup & Luma events
+
+To meet other developers and build relationships, I attend the following:
 
 | Event                                                                             | City    | Frequency | Remarks    |
 |-----------------------------------------------------------------------------------|---------|-----------|------------|

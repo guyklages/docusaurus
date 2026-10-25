@@ -119,7 +119,7 @@
 |---------------------------------|--------------------------------------------------------------|
 | Type Conversion & Normalization | - Bonuses and perks were text fields that I had to convert to integers. <br/> - Annual performance reviews (written by different managers who listed skills in different orders rated with different adjectives and point scales) were items that I had to normalize for comparison and calculations. <br/> - Personality types and team names were items that I had to normalize (spelled/abbreviated the exact same way) for comparison and calculations. |
 | Dedupe & Cleaning               | - Many employees were reviewed twice or three times requiring me to manually merge their annual reviews into a single review <br/> - Many annual reviews were missing fields that needed to be filled in or contain a value. <br/> - Many reviews were listed in a different order requiring me to ensure all fields present and in the same order for the relational database loading via queries. |
-| Enrichment & Calculation        | - I needed to add new fields, such as `TotalComp = salary + bonus + PerkValue` <br/> - I needed to add new values for the Strength/Weakness types and TeamGroup types. <br/> - I needed to quantify the Strengths, Weaknesses, PerkValue, and Skills. |
+| Enrichment & Calculation        | - I needed to add new fields, such as `TotalComp = salary + bonus + PerkValue` <br/> - I needed to add new values for the `Strength`/`Weakness` types and `TeamGroup` types. <br/> - I needed to quantify the `Strength`s, `Weakness`es, `PerkValue`, and `Skills`. |
 | Standardization                 | I replaced string names (such as "strong", "very good") with standardized numerical IDs and mapped them to lookup tables. |
 
 &nbsp;

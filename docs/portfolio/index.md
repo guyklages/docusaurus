@@ -22,7 +22,7 @@ import { DefinitionProvider, DefTerm, DefinitionPanel } from '@site/src/componen
 <tr>
 <td style={{backgroundColor: 'var(--portfolio-box-blue)', borderRadius: '16px'}}><span style={{fontSize: '2rem', fontWeight: 700}}>Writing</span></td>
 <td></td>
-<td style={{backgroundColor: 'var(--portfolio-box-blue)', borderRadius: '16px'}}><span style={{fontSize: '1.4rem'}}>• [Developer guides and API reference](./guides-api-reference.md) &nbsp;&nbsp;&nbsp; • [KB articles](./kb-articles.md) <br/> • [Most impactful technical writing](./most-impactful-tech-writing.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • [5 favorite](./five-favorite.md) <br/> • [Before and After](./before-and-after.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • [Diagrams](./diagrams.md)</span></td>
+<td style={{backgroundColor: 'var(--portfolio-box-blue)', borderRadius: '16px'}}><span style={{fontSize: '1.4rem'}}>• [Developer guides and API reference](./guides-api-reference.md) &nbsp;&nbsp;&nbsp; • [KB articles](./kb-articles.md) <br/> • [Most impactful technical writing](./most-impactful-tech-writing.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • [5 favorite](./five-favorite.md) <br/> • [Before and After](./before-and-after.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • [Diagrams](./diagrams.md)</span></td>
 </tr>
 <tr><td></td><td></td><td></td></tr>
 <tr>

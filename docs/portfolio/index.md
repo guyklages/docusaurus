@@ -11,7 +11,7 @@ import { DefinitionProvider, DefTerm, DefinitionPanel } from '@site/src/componen
 <tr>
 <td style={{backgroundColor: 'var(--portfolio-box-red)', borderRadius: '16px'}}><span style={{fontSize: '2rem', fontWeight: 700}}>Coding</span></td>
 <td></td>
-<td style={{backgroundColor: 'var(--portfolio-box-red)', borderRadius: '16px'}}><span style={{fontSize: '1.4rem'}}>• [Most impactful s/w engineering](./most-impactful-software-engineering.md) <br/> • [Most impactful automating](./most-impactful-automating.md)</span></td>
+<td style={{backgroundColor: 'var(--portfolio-box-red)', borderRadius: '16px'}}><span style={{fontSize: '1.4rem'}}>• [Most impactful development](./most-impactful-software-engineering.md) <br/> • [Most impactful automating](./most-impactful-automating.md)</span></td>
 </tr>
 <tr><td></td><td></td><td></td></tr><tr>
 <td style={{backgroundColor: 'var(--portfolio-box-purple)', borderRadius: '16px'}}><span style={{fontSize: '2rem', fontWeight: 700}}>DevRel</span></td>

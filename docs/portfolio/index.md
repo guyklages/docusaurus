@@ -22,7 +22,14 @@ import { DefinitionProvider, DefTerm, DefinitionPanel } from '@site/src/componen
 <tr>
 <td style={{backgroundColor: 'var(--portfolio-box-blue)', borderRadius: '16px'}}><span style={{fontSize: '2rem', fontWeight: 700}}>Writing</span></td>
 <td></td>
-<td style={{backgroundColor: 'var(--portfolio-box-blue)', borderRadius: '16px'}}><span style={{fontSize: '1.4rem'}}>• [Developer guides, API reference](./guides-api-reference.md) &nbsp;&nbsp;&nbsp;   • [KB articles](./kb-articles.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • [5 favorite](./five-favorite.md) <br/> • [Most impactful technical writing](./most-impactful-tech-writing.md) &nbsp;&nbsp;&nbsp;&nbsp; • [Before & After](./before-and-after.md) &nbsp;&nbsp;&nbsp; • [Diagrams](./diagrams.md)</span></td>
+<td style={{backgroundColor: 'var(--portfolio-box-blue)', borderRadius: '16px'}}><div style={{fontSize: '1.4rem', display: 'grid', gridTemplateColumns: 'auto auto auto', columnGap: '2rem', justifyContent: 'start'}}>
+<span>• [Developer guides, API reference](./guides-api-reference.md)</span>
+<span>• [KB articles](./kb-articles.md)</span>
+<span>• [5 favorite](./five-favorite.md)</span>
+<span>• [Most impactful technical writing](./most-impactful-tech-writing.md)</span>
+<span>• [Before & After](./before-and-after.md)</span>
+<span>• [Diagrams](./diagrams.md)</span>
+</div></td>
 </tr>
 <tr><td></td><td></td><td></td></tr>
 <tr>

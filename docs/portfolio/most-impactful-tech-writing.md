@@ -29,9 +29,18 @@
 
 | Before (May 2024) | After (July 2025) |
 |-------------------|-------------------|
-| PROBLEM: <br/> - Pages were hastily written by engineers <br/> - Pages were one-fourth to one-half of a screen each <br/> - 104 pages (three levels deep) in the left-nav <br/> - Google Analytics showed customers clicking through many pages before the one they needed <br/> <br/> Total of 104 pages| MY SOLUTION: <br/> - I combined pages that had been artifically split <br/> - I revamped and streamlined the IA to improve the flow <br/> - The number of customer clicks dropped dramatically <br/> <br/> [Total of 32 pages](https://guyklages.com/docs/atelio/getting-started/client-config) |
+| PROBLEM: <br/> - Pages were hastily written by engineers <br/> - Pages were one-fourth to one-half of a screen each <br/> - 104 pages (three levels deep) in the left-nav <br/> - Google Analytics showed customers clicking through many pages before the one they needed <br/> <br/> Total of 104 pages| MY SOLUTION: <br/> - I combined pages that had been artificially split <br/> - I revamped and streamlined the IA to improve the flow <br/> - The number of customer clicks dropped dramatically <br/> <br/> [Total of 32 pages](https://guyklages.com/docs/atelio/getting-started/client-config) |
 | ![Before](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Atelio_IA_50pgs.png) | ![After](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Atelio_IA_32pgs.png) |
 | (my 32 pg) / (inherited 104 pg) = 31% of the original | RESULTS: <br/> 69% fewer pages than there were originally |
+
+## Agentic workflow freed up 83% of my time
+
+#### Atelio of FIS Global (Seattle, WA) –– <mark> Used agentic workflows to automate first drafts of Jira ticket code changes for Changelog </mark>
+
+| Before (May 2024) | After (July 2025) |
+|-------------------|-------------------|
+| PROBLEM: <br/> - Engineers made software edits often <br/> - Attending daily meetings wasn't always possible <br/> - Changes needed to be documented quickly <br/> - There were many other doc issue needing my attention | MY SOLUTION: <br/> I made an AI agent that: <br/> - Monitors for merged PRs. <br/> - Reads the messages of that ticket. <br/> - Decides how major/minor the change was. <br/> - Drafts a summary of the change. <br/> - Alerts me to review the Changelog entry. |
+| Tracking down code changes to summarize a Changelog entry took over an hour during various parts of each day. Now I spend 10 minutes reviewing the summaries at a single time each day. <br/><br/> 10 min / 60 min = 17% of the time needed | RESULTS: <br/> This freed up 83% of my Changelog writing time to work on other urgent matters. |
 
 ## 2x clarity + 101 new pages
 

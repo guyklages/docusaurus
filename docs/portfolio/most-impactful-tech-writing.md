@@ -33,7 +33,7 @@
 | ![Before](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Atelio_IA_50pgs.png) | ![After](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Atelio_IA_32pgs.png) |
 | (my 32 pg) / (inherited 104 pg) = 31% of the original | RESULTS: <br/> 69% fewer pages than there were originally |
 
-## Agentic workflow freed up 83% of my time
+## Agentic workflow freed 83% of my time
 
 #### Atelio of FIS Global (Seattle, WA) –– <mark> Used agentic workflows to automate first drafts of Jira ticket code changes for Changelog </mark>
 

@@ -15,8 +15,8 @@ After helping many companies build their documentation from nothing (some withou
 
 The ordering principle is to sequence by a developer’s path to value and by what reduces support load.
 
-| Step          | Description     | Example:&nbsp;Nium |
-|---------------|-----------------|--------------------|
+| Step          | Description     | Example:&nbsp;&nbsp;Nium |
+|---------------|-----------------|--------------------------|
 | 1. Get the first successful API call working | Write a quickstart that takes a developer from signup to a sandbox call that works, with auth, base URLs, and a copy-paste request. <br/><br/> Time-to-first-call is the metric that matters most for an API product. | [Quickstart](https://docs.nium.com/docs/getting-started) |
 | 2. Write the reference for the highest-revenue flows | Payments products have a few core flows, such as onboarding customers, creating accounts or wallets, and sending a payout. <br/><br/> Document those, with request and response examples and error codes. | [Onboarding](https://docs.nium.com/docs/onboarding) |
 | 3. Add the concepts that prevent support tickets | Developers in financial services get stuck on domain concepts more than syntax. Cover things like KYC/KYB states, webhooks and event lifecycles, idempotency, sandbox versus production, and regional or currency constraints. <br/><br/> Choose what to write by asking support and solutions engineers for their top repeat questions. | [KYC](https://docs.nium.com/docs/onboarding/customer-onboarding/submit-kyc-api) • [KYB](https://docs.nium.com/docs/onboarding/customer-onboarding/au-onboarding/required-documents) <br/> [Webhooks](https://docs.nium.com/docs/developers/notifications-and-webhooks) <br/> [Sandbox vs Prod](https://docs.nium.com/docs/getting-started/testing-nium#sandbox-and-production) |

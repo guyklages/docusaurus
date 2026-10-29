@@ -18,8 +18,8 @@
 
 #### Atelio of FIS Global (Seattle) –– <mark> I used AI to create a 1st draft of a dev guide from Slack messages in 1% of the time </mark>
 
-| Before (Sep 2025) | After (Sep 2025)  |
-|-------------------|-------------------|
+| Before (Sep 2025) | After (Sep 2025) |
+|-------------------|------------------|
 | PROBLEM: <br/> Over two weeks of multiple daily group Slack messages, ten fintech PMs and SMEs were discussing and gradually deciding the specs, functionalities, details, and limitations of a new mobile app financial tool. <br/><br/> After they gradually solved or finalized different aspects of the new product, they then asked me to write a developer guide based on their dozens of decisions. | MY SOLUTION: <br/> The [Promptless AI](https://promptless.ai/) tool reviewed all those conversations and listed only the decided functionality that was agreed upon during those weeks--within 10 minutes. |
 | That task would've taken me 3 days <br/><br/> _(3 days of 8 hours = 1,440 minutes)_ <br/><br/> (Promptless' 10 min) / (my 1440 min) = 1% | RESULTS: <br/> Promptless AI created the first draft in 1% of the time it would've taken me. <br/><br/> Then, I just needed to re-order some paragraphs in a logical way (not the order items were decided), clean up the formatting, convert some text to tables or diagrams, and match our company voice. |
 
@@ -37,8 +37,8 @@
 
 #### Atelio of FIS Global (Seattle) –– <mark> Used agentic workflows to automate first drafts of Jira ticket code changes for Changelog </mark>
 
-| Before (May 2024) | After (July 2025) |
-|-------------------|-------------------|
+| Before (May 2024) | <div style={{ width: '230px' }}>After (July 2025)</div> |
+|-------------------|---------------------------------------------------------|
 | PROBLEM: <br/> - Engineers made software edits often <br/> - Attending daily meetings wasn't always possible <br/> - Changes needed to be documented quickly <br/> - There were many other doc issue needing my attention | MY SOLUTION: <br/> I made an AI agent that: <br/> - Monitors for merged PRs. <br/> - Reads the messages of that ticket. <br/> - Decides how major/minor the change was. <br/> - Drafts a summary of the change. <br/> - Alerts me to review the Changelog entry. |
 | Tracking down code changes to summarize a Changelog entry took over an hour during various parts of each day. Now I spend 10 minutes reviewing the summaries at a single time each day. <br/><br/> 10 min / 60 min = 17% of the time needed | RESULTS: <br/> This freed up 83% of my Changelog writing time to work on other urgent matters. |
 

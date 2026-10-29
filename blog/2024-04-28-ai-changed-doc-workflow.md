@@ -9,9 +9,9 @@ Ever since I started using ChatGPT, Copilot, Promptless, and Claude, these AI to
 
 ## Key changes in the documentation workflow
 
-| Key change                | Description |
-|---------------------------|-------------|
-| Commoditized First Drafts | AI handles the initial writing rapidly, cutting drafting time down significantly across technical, legal, and operational domains.
+| Key change                    | Description |
+|-------------------------------|-------------|
+| Commoditized First Drafts.    | AI handles the initial writing rapidly, cutting drafting time down significantly across technical, legal, and operational domains. |
 | Shift from Writers to Editors | Human technical writers and managers now spend less time typing from scratch and more time reviewing AI output for hallucinations, tone drift, and accuracy. |
 | Automated Capture and Process Recording | Tools like Scribe watch users perform on-screen tasks and automatically generate step-by-step visual guides and documentation in minutes. |
 | Intelligent Metadata and Classification | Machine learning models automatically tag, classify, and structure content repositories, replacing manual filing and basic keyword searches. |
@@ -27,6 +27,6 @@ Ever since I started using ChatGPT, Copilot, Promptless, and Claude, these AI to
 
 ## Favorite use cases
 
-| Use case | AI tool | Scenario |
-|----------|---------|----------|
-| Create a guide from Slack conversations | Promptless | [Saved 99% of the time it would've taken me](../docs/portfolio/most-impactful-tech-writing.md#used-ai-to-save-99-of-time) |
+| Use case                                | AI tool    | Scenario |
+|-----------------------------------------|------------|----------|
+| Create a guide from Slack conversations | Promptless | [Saved 99% of the time it would've taken me](/portfolio/most-impactful-tech-writing#used-ai-to-save-99-of-time) |

@@ -9,8 +9,8 @@ Ever since I started using ChatGPT, Copilot, Promptless, and Claude, these AI to
 
 | Use case                                        | AI tool    | Scenario |
 |-------------------------------------------------|------------|----------|
-| Created a guide from Slack conversations        | Promptless | [Saved 99% of the time it would've taken me](/portfolio/most-impactful-tech-writing#used-ai-to-save-99-of-time) |
-| Automated a workflow to draft Changelog entries | Claude     | [Saved 83% of my Changelog writing time to do other things](/portfolio/most-impactful-tech-writing#agentic-workflow-freed-83-of-my-time)
+| Created a guide from Slack conversations        | Promptless | [AI draft saved 99% of the time it would've taken me](/portfolio/most-impactful-tech-writing#ai-draft-saved-99-of-time) |
+| Automated a workflow to draft Changelog entries | Claude     | [AI agent saved 83% of my Changelog writing time](/portfolio/most-impactful-tech-writing#ai-agent-saved-83-of-time) |
 
 ## Key changes in the documentation workflow
 

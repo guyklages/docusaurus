@@ -5,7 +5,7 @@
 
 | Accomplishment  | Year | Company |
 |-----------------|------|---------|
-| - [Used AI to save 99% of the time it would've taken me](#used-ai-to-save-99-of-time) <br/> - [69% fewer pages from changing the Information Architecture](#69-fewer-pages-via-new-ia)  | 2025 | Atelio of FIS Global <br/> <sup> _Seattle, WA_ </sup> |
+| - [Used AI draft to save 99% of my time to write guides from Slack conversations](#ai-draft-saved-99-of-time) <br/> - [69% fewer pages from changing the Information Architecture](#69-fewer-pages-via-new-ia) <br/> - [Used AI agent to save 83% of my time summarizing Jira tickets for Changelog](#ai-agent-saved-83-of-time) | 2025 | Atelio of FIS Global <br/> <sup> _Seattle, WA_ </sup> |
 | - [2x the clarity from elaboration + 101 new pages added](#2x-clarity--101-new-pages) <br/> - [70% more customers onboarded + 70% fewer helpdesk tickets filed](#70-more--70-fewer)  | 2023 | Nium <br/> <sup> _San Francisco, CA_ </sup> |
 | - [#1 cybersecurity coder in Secure Code Warrior Challenge in Python](#1-cybersecurity-coder) <br/> - [40% fewer pages from IA changes and removal of obsolete pages](#40-fewer-pages)  | 2020 | Yahoo <br/> <sup> _Sunnyvale, CA_ </sup> |
 | - [#1 dept (company-wide) in documentation "freshness"](#1-dept-in-documentation) <br/> - [Defragmented 5 year-old documentation set](#defragmented-5yo-doc-set)  | 2018 | Google <br/> <sup> _Mt. View, CA_ </sup> |
@@ -14,13 +14,13 @@
 | - [#1 in a Green Environment Campaign for my ideas that save 20-30% of paper](#1-in-a-green-campaign) | 2008 | Hewlett-Packard <br/> <sup> _Singapore_ </sup> |
 
 
-## Used AI to save 99% of time
+## AI draft saved 99% of time
 
 #### Atelio of FIS Global (Seattle, WA) –– <mark> I used AI to create a 1st draft of a dev guide from Slack messages in 1% of the time </mark>
 
 | Before (Sep 2025) | After (Sep 2025)  |
 |-------------------|-------------------|
-| PROBLEM: <br/> Over two weeks of multiple daily group Slack messages, ten fintech PMs and SMEs were discussing and gradually deciding the specs, functionalities, details, and limitations of a new mobile app financial tool. <br/><br/> After they gradually solved or finalized different aspects of the new product, they then asked me to write a developer guide based on their dozens of decisions. | MY SOLUTION: <br/> The [Promptless AI](https://promptless.ai/) tool reviewed all those conversations and listed only the decided functionality that was agreed upon during those weeks--within 10 minutes. 
+| PROBLEM: <br/> Over two weeks of multiple daily group Slack messages, ten fintech PMs and SMEs were discussing and gradually deciding the specs, functionalities, details, and limitations of a new mobile app financial tool. <br/><br/> After they gradually solved or finalized different aspects of the new product, they then asked me to write a developer guide based on their dozens of decisions. | MY SOLUTION: <br/> The [Promptless AI](https://promptless.ai/) tool reviewed all those conversations and listed only the decided functionality that was agreed upon during those weeks--within 10 minutes. |
 | That task would've taken me 3 days <br/><br/> _(3 days of 8 hours = 1,440 minutes)_ <br/><br/> (Promptless' 10 min) / (my 1440 min) = 1% | RESULTS: <br/> Promptless AI created the first draft in 1% of the time it would've taken me. <br/><br/> Then, I just needed to re-order some paragraphs in a logical way (not the order items were decided), clean up the formatting, convert some text to tables or diagrams, and match our company voice. |
 
 ## 69% fewer pages via new IA
@@ -33,7 +33,7 @@
 | ![Before](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Atelio_IA_50pgs.png) | ![After](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/Images/Atelio_IA_32pgs.png) |
 | (my 32 pg) / (inherited 104 pg) = 31% of the original | RESULTS: <br/> 69% fewer pages than there were originally |
 
-## Agentic workflow freed 83% of my time
+## AI agent saved 83% of time
 
 #### Atelio of FIS Global (Seattle, WA) –– <mark> Used agentic workflows to automate first drafts of Jira ticket code changes for Changelog </mark>
 
@@ -120,7 +120,7 @@
 
 | Before (Mar 2017) | After (Aug 2017) |
 |-------------------|------------------|
-| PROBLEM: <br/> Turnaround&nbsp;time&nbsp;to&nbsp;add&nbsp;features&nbsp;took&nbsp;way&nbsp;too&nbsp;long. <br/> 1.  Writers authored a feature in Oxygen. (2-3d) <br/> 2.  Webpage staged for engineer review. (2-3h) <br/> 3.  Engineers eventually gave feedback. (3-5d) <br/> 4.  Webpage updated. (1-2d) <br/> <br/> Time for iteration: 6-13d <br/> x 2-4 iterations (going to Step 2) <br/> ======================== <br/> Total of 4 - 6 _weeks_ per feature | MY SOLUTION: <br/> Google Docs for synchronous writing/editing. <br/> 1. I authored a single feature in Google Docs and shared it with all engineers involved. (2-3d) <br/> 2. While engineers discussed how the feature will be finalized, I started on the next feature. <br/> 3. After the engineers finalized a feature's text, I imported it in Oxygen and staged it only _once_. (2-3h) <br/> ====================== <br/> Total of 4 - 5 _days_ per feature | 
+| PROBLEM: <br/> Turnaround&nbsp;time&nbsp;to&nbsp;add&nbsp;features&nbsp;took&nbsp;way&nbsp;too&nbsp;long. <br/> 1.  Writers authored a feature in Oxygen. (2-3d) <br/> 2.  Webpage staged for engineer review. (2-3h) <br/> 3.  Engineers eventually gave feedback. (3-5d) <br/> 4.  Webpage updated. (1-2d) <br/> <br/> Time for iteration: 6-13d <br/> x 2-4 iterations (going to Step 2) <br/> ======================== <br/> Total of 4 - 6 _weeks_ per feature | MY SOLUTION: <br/> Google Docs for synchronous writing/editing. <br/> 1. I authored a single feature in Google Docs and shared it with all engineers involved. (2-3d) <br/> 2. While engineers discussed how the feature will be finalized, I started on the next feature. <br/> 3. After the engineers finalized a feature's text, I imported it in Oxygen and staged it only _once_. (2-3h) <br/> ====================== <br/> Total of 4 - 5 _days_ per feature |
 | | RESULTS: <br/> Average time saved:  5 weeks → 1 week (80%) |
 
 ## 30% fewer helpdesk tickets

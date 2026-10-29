@@ -6,9 +6,9 @@ tags: [fintech]
 ---
 
 
-A few months into overhauling Couchbase's documentation, a helpdesk technician pulled me aside. He'd noticed something in the ticket queue: support requests were down, not by a little, but by a sustained 30%. He traced it back to what we'd been shipping — more explanations, more worked examples, more diagrams for the exact flows people kept getting stuck on. Nobody asked him to track that. He just saw it happen.
+A few months into overhauling Couchbase's documentation, a helpdesk technician pulled me aside. He'd noticed something in the ticket queue: support requests were down, not by a little, but by a sustained 30%. He traced it back to what we'd been shipping — more detailed explanations, more worked examples, more diagrams for the exact flows people kept getting stuck on. Nobody asked him to track that. He just saw it happen.
 
-That's the core problem with how most companies think about documentation: it's the thing engineers get pulled off "real work" to do, or the line item that gets cut first when budgets tighten. The data says the opposite. Documentation is one of the highest-leverage investments a company can make, on both sides of the P&L.
+That's the core problem with how most companies think about documentation: it's the thing engineers get pulled off "real work" to do, or the line item that gets cut first when budgets tighten. The data says the opposite. Documentation is one of the highest-leverage investments a company can make, on both sides of the Profit and Loss statement (P&L).
 
 
 ## What that helpdesk technician noticed

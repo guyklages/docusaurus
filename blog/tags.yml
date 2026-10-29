@@ -3,6 +3,11 @@ celebrity:
   permalink: /celebrity
   description: Celebrity tag description
 
+database:
+  label: Database
+  permalink: /database
+  description: Database tag description
+
 dessert:
   label: Dessert
   permalink: /dessert

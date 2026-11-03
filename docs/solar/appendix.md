@@ -379,9 +379,9 @@ In the above screenshots of our [Netzero app](https://netzero.energy), you can s
 
 So then I asked Claude the following question, which it answered below:
 
-|       |       |
-|-------|-------|
-|       | Would adding coolant to the Powerwall help solve my issues? |
+| <div style={{ width: '500px' }}> </div> |                                                             |
+|-----------------------------------------|-------------------------------------------------------------|
+|                                         | Would adding coolant to the Powerwall help solve my issues? |
 
 No. Coolant isn’t the normal fix for this alert, and nothing in your Netzero data points to a coolant problem. I can’t see Tesla’s work order, so they may have a reason I can’t see.
 

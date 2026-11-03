@@ -379,6 +379,7 @@ In the above screenshots of our [Netzero app](https://netzero.energy), you can s
 
 So then I asked Claude the following question, which it answered below:
 
+|       |       |
 |-------|-------|
 |       | Would adding coolant to the Powerwall help solve my issues? |
 

@@ -273,7 +273,7 @@ The following table summarizes [Bob Vila's article](https://www.bobvila.com/arti
 #### Do you need a second battery?
 
 - No. Tesla's Powerwall3 supplies 11 kW of power, which can run all electric appliances simultaneously.
-- A second battery is needed for extended outages; 2024 EVs and newer can be your 2nd battery.
+- A second battery is needed for extended outages; 2024 EVs and newer can be your second battery.
 
 #### Why would one need a backup battery?
 
@@ -420,7 +420,7 @@ The following gripes are what we and friends have experienced with various solar
 | Improve communication                 | Don't make customers chase you down, and don't ignore customers trying to reach you. |
 | Explain the plans                     | After the site visit, show and explain the plans along with anything that needs to be done. Be clear if you're waiting for the customer to move shelves or send photos or anything else. |
 | Explain the restrictions              | When any aspect of your designed system doesn't follow a typical design (for example, putting the E-Stop on the front garage wall instead of the side yard), then explain _why_ you did that and allow the customer to fix or adjust whatever is needed to achieve the typical design. <br/><br/> Nobody told us anything about the law requiring 3 feet on both sides of our gas meter and that it necessitates putting the huge, ugly E-Stop switches on the front of our garage (inviting any passerby to shutdown our solar) instead of installing those on the side yard as you display in your marketing materials. Warning us about this would have allowed us to convert our furnace to electric and have the gas meter _removed_ which would allow proper installation on the side yard. |
-| Explain the financing option          | We were told only the total cost of our panels before installation; if we had been told the affordable _monthly_ amount, then we would have ordered more panels and a 2nd Powerwall and be happier. |
+| Explain the financing option          | We were told only the total cost of our panels before installation; if we had been told the affordable _monthly_ amount, then we would have ordered more panels and a second Powerwall and be happier. |
 | Explain _why_ a second battery is better | We would've bought two Powerwalls had we been told: <br/><br/> - The electric appliances we plan to use will draw way more than 1 Powerwall's max. <br/> - A single Powerwall is nowhere near enough to remove all electric bills. <br/> - A second Powerwall is needed to store the daily excess between May and Aug. <br/> - A second Powerwall is needed on all non-sunny days. |
 | Allow customers to report bugs        | - Have a mechanism for customers to give feedback and suggestions from their own experience. <br/> - Allow customers a quick and easy way to report bugs. <br/> - These will reduce other customer complaints and improve customer satisfaction. |
 | Make it easy to reach a technician    | Whenever there's a problem with the solar app or somewhere in the system, make it quick and easy for a technician to come out and see with their own eyes. |

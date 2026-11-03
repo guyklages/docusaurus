@@ -65,13 +65,13 @@ When we finally got our first single-family house, we were thrilled to be free f
 
 **Note:** Utility companies pay so little for your excess kWh, so increase your ROI by adding a battery.
 
-Below is a graph of our utility bills before, during, and after solar panel installation--and a 2nd battery.
+Below is a graph of our utility bills before, during, and after solar panel installation--and a second battery.
 
 ![utility-bills](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/electric-bills-2021-2026.png)
 
 | 2021 | 2022 | 2023 | 2024 | 2025 |
 |------|------|------|------|------|
-| Sep: solar installed <br/><br/> Dec: solar approved | Jan: insulated walls <br/><br/> July-Aug: 4 weeks Powerwall offline | July: installed 2nd Powerwall <br/><br/> Nov: installed heat pump |  Aug: 2 weeks to reroof <br/><br/> moved 6 panels from NW to SE side | Dec: adjusted thermostat from 68º to 66º <br/><br/> |
+| Sep: solar installed <br/><br/> Dec: solar approved | Jan: insulated walls <br/><br/> July-Aug: 4 weeks Powerwall offline | July: installed second Powerwall <br/><br/> Nov: installed heat pump |  Aug: 2 weeks to reroof <br/><br/> moved 6 panels from NW to SE side | Dec: adjusted thermostat from 68º to 66º <br/><br/> |
 
 
 ## Before installer leaves

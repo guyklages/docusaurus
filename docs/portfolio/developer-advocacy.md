@@ -100,7 +100,7 @@ Developer advocate
 - Escalated technical questions to the right engineering teams
 - Replied to posts with technical answers
 - Replied to dozens of forum posts via email due to privacy issues
-- After replying to sensitive matters in email, I learned to post a 2nd reply without sensitive info in the forum so everyone can benefit
+- After replying to sensitive matters in email, I learned to post a second reply without sensitive info in the forum so everyone can benefit
 
 Driver of growth
 

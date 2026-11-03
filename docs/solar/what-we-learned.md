@@ -15,7 +15,7 @@ Before installing panels:
 
 Planning the installation:
 
-- Add a 2nd inverter to avoid clipping and to have a backup inverter
+- Add a second inverter to avoid clipping and to have a backup inverter
 - Install batteries outside in the shade instead of inside the garage (if your climate allows it)
 
 
@@ -35,7 +35,7 @@ But after installing solar panels and learning more, our desires and goals _chan
 And then some truths became apparent:
 
 - Winter sun is so low and cloudy and generates [about one-third of summer sun](#install-as-much-as-you-can).
-- We need a 2nd battery to run the clothes dryer (or multiple appliances) without drawing from the grid.
+- We need a second battery to run the clothes dryer (or multiple appliances) without drawing from the grid.
     - **Note:** This is no longer a problem with a single [Powerwall3 battery](https://energylibrary.tesla.com/docs/Public/EnergyStorage/Powerwall/3/Datasheet/en-us/Powerwall-3-Datasheet.pdf).
 - We need four more solar panels (costs only $600) to generate more power to avoid drawing from the grid during winter.
 - No installer will do $600 worth of work since they focus on installing $18,000+ solar panel systems.
@@ -81,7 +81,7 @@ For example, in our case:
 
 ![4 more panels for 2% more](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/4-more-panels-for-2-percent-more.png)
 
-If you have an EV made in 2024 or newer, your EV has bidirectional charging built-in. That means your home solar system needs only 1 battery because you can use your EV's huge battery to be your home's 2nd (and 3rd and 4th) solar battery.
+If you have an EV made in 2024 or newer, your EV has bidirectional charging built-in. That means your home solar system needs only 1 battery because you can use your EV's huge battery to be your home's second (and third and forth) solar battery.
 
 ## Why more panels
 
@@ -123,7 +123,7 @@ On days that generate very little power, you'll wish you had more panels to char
 
 I've never heard of anyone wishing they had fewer batteries.
 
-We started with one Powerwall because we thought Tesla just wanted to up-sell two batteries; but Tesla is right about needing a 2nd Powerwall--and we're so much happier after we added a 2nd Powerwall.
+We started with one Powerwall because we thought Tesla just wanted to up-sell two batteries; but Tesla is right about needing a second Powerwall--and we're so much happier after we added a second Powerwall.
 
 You need at least two batteries because:
 
@@ -241,9 +241,9 @@ The following graph shows the how the SoC fluctuates throughout the day in diffe
 ## 2nd battery avoids grid
 
 - During summer, one battery stays charged on sunny days but needs a second battery on non-sunny days.
-- Winter days will absolutely draw from the grid without a 2nd battery and a sufficient number of panels.
-- The [Powerwall3's 11 kW output](https://energylibrary.tesla.com/docs/Public/EnergyStorage/Powerwall/3/Datasheet/en-us/Powerwall-3-Datasheet.pdf) removes the need for a 2nd Powerwall2 during spring/summer/fall but not winter.
-- 2024 EVs and newer have bi-directional charging and can be used as a 2nd battery.
+- Winter days will absolutely draw from the grid without a second battery and a sufficient number of panels.
+- The [Powerwall3's 11 kW output](https://energylibrary.tesla.com/docs/Public/EnergyStorage/Powerwall/3/Datasheet/en-us/Powerwall-3-Datasheet.pdf) removes the need for a second Powerwall2 during spring/summer/fall but not winter.
+- 2024 EVs and newer have bi-directional charging and can be used as a second battery.
 
 The below graph shows data from our Tesla mobile app:
 
@@ -252,7 +252,7 @@ The below graph shows data from our Tesla mobile app:
 
 | Graphs of solar vs battery vs grid                                                             | <div style={{ width: '360px' }}>Remarks</div> |
 |------------------------------------------------------------------------------------------------|-----------------------------------------------|
-| ![Energy sources with 1 Powerwall](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/energy-sources_1-powerwall.png) <br/><br/> ![Energy sources with 2 Powerwalls](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/energy-sources_2-powerwalls.png) | **2022** <br/> - **Mar:** PW issue that a 2nd PW would've lessened. <br/> - **Aug:** a cheap, used 3rd-party Gateway breaker broke. <br/><br/> **2023** <br/> - **Jan:** two weeks we weren't home. <br/> - **Jul:** we installed a second Powerwall2. <br/> - **Sep:** started charging our EV at home, not office. <br/> - **Nov:** we installed a Heat Pump. <br/><br/> **2024** <br/> - **Aug:** we re-roofed and moved 6 NW panels to SE. <br/> - **Oct:** a heat wave caused our Powerwalls to stop supplying power occasionally until they cooled down. |
+| ![Energy sources with 1 Powerwall](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/energy-sources_1-powerwall.png) <br/><br/> ![Energy sources with 2 Powerwalls](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/energy-sources_2-powerwalls.png) | **2022** <br/> - **Mar:** PW issue that a second PW would've lessened. <br/> - **Aug:** a cheap, used 3rd-party Gateway breaker broke. <br/><br/> **2023** <br/> - **Jan:** two weeks we weren't home. <br/> - **Jul:** we installed a second Powerwall2. <br/> - **Sep:** started charging our EV at home, not office. <br/> - **Nov:** we installed a Heat Pump. <br/><br/> **2024** <br/> - **Aug:** we re-roofed and moved 6 NW panels to SE. <br/> - **Oct:** a heat wave caused our Powerwalls to stop supplying power occasionally until they cooled down. |
 
 ## Where to place batteries
 
@@ -318,7 +318,7 @@ To reduce your use of the Grid, go to your Tesla app _Settings_ and select **Sel
 
 Storm Watch uses the Grid to fully charge your battery; but if your battery is usually fully charged by the sun by the afternoon, then you don't need to use the Grid to charge it.
 
-If you need to use Storm Watch, it's highly recommended you get a 2nd or 3rd battery.
+If you need to use Storm Watch, it's highly recommended you get a second or third battery.
 
 ### How many appliances at a time?
 
@@ -357,7 +357,7 @@ The below graphs show our utility bills and our journey to $0 utility bills:
 
 | Graphs of bills and usage                                                                      | <div style={{ width: '380px' }}>Remarks</div> |
 |------------------------------------------------------------------------------------------------|-----------------------------------------------|
-| ![Electric bills 2021-2026](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/electric-bills-2021-2026.png) <br/><br/><br/> ![kwH used and given 2021-2026](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/kWh-used-given_2021-2026.png) | **2021** <br/> - **Oct:** Solar installed; didn't know not activated <br/> - **Nov:** Laundry at night drained battery <br/> - **Dec:** solar panels activated <br/><br/> **2022** <br/> - **Jan:** Insulated walls and attic <br/> - **Feb:** Replaced water heater with electric one <br/> - **Feb:** electric water heater [wasn't backed up](./mistakes.md#get-whole-home-backup) <br/> - **Mar:** Fixed string issue (40% increase) <br/> - **Mar:** charged EV [overnight incorrectly](#when-to-charge-evs) <br/> - **Jul:** Faulty gateway breaker; 3.5 weeks offline <br/><br/> **2023** <br/> - **Jul:** Installed 2nd Powerwall2 <br/> - **Aug:** started charging EV at home <br/> - **Nov:** Installed electric heat pump <br/><br/> **2024** <br/> - **Aug:** Re-roofed; moved six NW panels to SE <br/><br/> **2025** <br/> - **Dec:** Lowered thermostat to 67° |
+| ![Electric bills 2021-2026](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/electric-bills-2021-2026.png) <br/><br/><br/> ![kwH used and given 2021-2026](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/kWh-used-given_2021-2026.png) | **2021** <br/> - **Oct:** Solar installed; didn't know not activated <br/> - **Nov:** Laundry at night drained battery <br/> - **Dec:** solar panels activated <br/><br/> **2022** <br/> - **Jan:** Insulated walls and attic <br/> - **Feb:** Replaced water heater with electric one <br/> - **Feb:** electric water heater [wasn't backed up](./mistakes.md#get-whole-home-backup) <br/> - **Mar:** Fixed string issue (40% increase) <br/> - **Mar:** charged EV [overnight incorrectly](#when-to-charge-evs) <br/> - **Jul:** Faulty gateway breaker; 3.5 weeks offline <br/><br/> **2023** <br/> - **Jul:** Installed second Powerwall2 <br/> - **Aug:** started charging EV at home <br/> - **Nov:** Installed electric heat pump <br/><br/> **2024** <br/> - **Aug:** Re-roofed; moved six NW panels to SE <br/><br/> **2025** <br/> - **Dec:** Lowered thermostat to 67° |
 
 ## When to charge EVs
 

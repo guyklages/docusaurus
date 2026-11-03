@@ -225,4 +225,4 @@ Determine which month creates your highest electric bill and then try to raise y
 
 - Charge your EV more (or your neighbor's EV)
 - Use a space heater in more rooms
-- Buy a 2nd refrigerator or freezer
+- Buy a second refrigerator or freezer

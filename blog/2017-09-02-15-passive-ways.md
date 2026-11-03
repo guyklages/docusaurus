@@ -151,7 +151,7 @@ In the "Skills" section, add every skill you have so your connections can simply
 By default, LinkedIn lists your Skills in descending order (most to least endorsed), but you can change that order to emphasize certain skills:
 
 1. Hover over _Profile_ and select **Edit Profile**.
-2. Hover over the 2nd group of **also knows about** Skills and select anywhere on it.
+2. Hover over the second group of **also knows about** Skills and select anywhere on it.
 3. Select a Skill and drag it to the position you want it displayed.
 
 

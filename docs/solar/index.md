@@ -1,6 +1,8 @@
 # Introduction
 
-We wrote this guide because we made [every mistake](./mistakes.md) when installing our solar panel system, and we don't want others to make those since we want everyone to have panels themselves. We didn't know the difference between a kW and a kWh before we started our solar panel journey, so we want to help others understand this exciting technology. Since we didn't know what we didn't know, we ended up with a slightly smaller system than we needed; the cost to add those last few panels is too small for any installer to consider, so let's get your system right the first time!
+We wrote this guide because we made [every mistake](./mistakes.md) when installing our solar panel system, and we don't want others to make those since we want everyone to have panels themselves. We didn't know the difference between a kW and a kWh before we started our solar panel journey, so we want to help others understand this exciting technology.
+
+Since we didn't know what we didn't know, we ended up with a slightly smaller system than we needed; the cost to add those last few panels is too small for any installer to consider, so let's get your system right the first time!
 
 ## kW vs kWh
 

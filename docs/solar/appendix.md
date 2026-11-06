@@ -375,41 +375,6 @@ The inverter fault and the string B problem could be costing you production, eve
 
 In the above screenshots of our [Netzero app](https://netzero.energy), you can see the intermittent string B problem by the up-and-down lines in the Production graph on Oct 12, 13, 14, and 17 while producing fine on Oct 10, 11, 15, and 16.
 
-----
-
-So then I asked Claude the following question, which it answered below:
-
-| <div style={{ width: '430px' }}> </div> |                                                             |
-|-----------------------------------------|------------------------------------------------------------:|
-|                                         | Would adding coolant to the Powerwall help solve my issues? |
-
-No. Coolant isn’t the normal fix for this alert, and nothing in your Netzero data points to a coolant problem. I can’t see Tesla’s work order, so they may have a reason I can’t see.
-
-What the alert is
-
-- The alert is `PVS_RelayCoilIrrationalWarning` on “The Klages’ Home”. Netzero describes it as “A relay coil reading does not match the state it was commanded into.”
-- The source is `pvs`, which is the solar side of the system (the PV string and relay electronics inside the Powerwall+ unit). It is not the battery or its thermal system.
-- It has fired four times: Oct 17, Oct 23, Oct 25 and Nov 1. That repeating pattern suggests a failing relay or its sensing circuit.
-
-What your data says about cooling:
-
-- Both Powerwalls are healthy. Cell temperatures are 22–25 °C, with no thermal or battery faults and no disabled blocks.
-- Capacity is normal, about 13.5 and 14.2 kWh per unit. That’s good for 2021-era Powerwall 2s.
-- Both packs are charging and discharging normally.
-
-A likely related problem:
-
-- Solar string B is not connected. Its voltage reads about -2.5 V while strings A, C and D read about 396 V.
-- The inverter reports `PVS_a018_MciStringB`, which is a fault on that string’s relay.
-- Netzero flagged a string 2 (B) outage on Jan 1, 2026, so it has been down for months. You’ve been losing production from that string.
-
-The relay warning and the string B fault both point to the same part, the string relay/MCI hardware in the solar inverter. The usual fix is replacing or repairing that board or relay, or fixing the string B wiring. A 1.5-hour coolant top-up doesn’t match that.
-
-Questions to ask Tesla
-
-1. Which alert are you fixing? Is it `PVS_a050_RelayCoilIrrationalWarning`, and is it separate from the string B fault (`PVS_a018_MciStringB`)?
-2. Is the coolant work for a different problem you found, such as a leak or a thermal fault in the Powerwall?
-3. Will you also fix string B, and will you check or replace the PVS/MCI relay board?
 
 ## Note to solar vendors
 

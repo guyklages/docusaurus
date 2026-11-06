@@ -344,7 +344,7 @@ The following table summarizes [Bob Vila's article](https://www.bobvila.com/arti
 - We have 20 Tesla 420w panels (8.5 kW, 200 Amp)
 - Utility bills before install ranged from $140/mo to $280/mo.
 
-## Netzero error report
+## Netzero+Claude error report
 
 The diagnostics show some real issues behind the warning, but the system is producing power.
 

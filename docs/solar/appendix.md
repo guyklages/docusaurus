@@ -191,7 +191,7 @@ The following table summarizes [Bob Vila's article](https://www.bobvila.com/arti
 | Input power        | 4.5 kW            | 4.5 kW          | 30 - 180 kBTU    |
 | Panel breaker      | 30 Amps           | 30 Amps         | 20 Amps          |
 | Wire (minimum)     | 10-gauge          | 10-gauge        | 12-gauge         |
-| Heating element <br/> - Top (warm) <br/> - Bottom (cold) | Warms instantly | Warms faster than gas <br/> - set to 100 ºF <br/> - set to 90 ºF | Warms slower than electric <br/> - set to 150 ºF <br/> - set to 150 ºF |
+| Heating element <br/> - Top (warm) <br/> - Bottom (cold) | Warms instantly | Warms faster than gas <br/> - set to 110 ºF <br/> - set to 90 ºF | Warms slower than electric <br/> - set to 150 ºF <br/> - set to 150 ºF |
 
 **Notes:**
 

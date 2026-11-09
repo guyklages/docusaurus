@@ -365,15 +365,15 @@ The diagnostics show some real issues behind the warning, but the system is prod
 Call your installer rather than just watching it. Don't treat it as urgent, but book a service visit.
 
 1. Open a service request on your Tesla app.
-2. Tell them: **"PVS_a050 relay coil warning on Oct 17 at 12:14 PM. The PVAC faulted with a heatsink over-temperature alert. String B has been disconnected, with a related alert in January. There's also an overvoltage-neutral-chassis alert on the Powerwalls."**
+2. Tell them: **"The PVAC faulted with a heatsink over-temperature alert in the inverter."**
 
-The inverter fault and the string B problem could be costing you production, even though the system stays up through them.
+The inverter fault could be costing you production, even though the system stays up through them.
 
 | Oct 10 | Oct 11 | Oct 12 | Oct 13 | Oct 14 | Oct 15 | Oct 16 | Oct 17 |
 |--------|--------|--------|--------|--------|--------|--------|--------|
 | ![Oct 10](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/Netzero-error-1010.jpg) | ![Oct 11](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/Netzero-error-1011.jpg) | <mark>![Oct 12](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/Netzero-error-1012.jpg)</mark> | <mark>![Oct 13](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/Netzero-error-1013.jpg)</mark> | <mark>![Oct 14](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/Netzero-error-1014.jpg)</mark> | ![Oct 15](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/Netzero-error-1015.jpg) | ![Oct 16](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/Netzero-error-1016.jpg) | <mark>![Oct 17](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/Netzero-error-1017.jpg)</mark> |
 
-In the above screenshots of our [Netzero app](https://netzero.energy), you can see the intermittent string B problem by the up-and-down lines in the Production graph on Oct 12, 13, 14, and 17 while producing fine on Oct 10, 11, 15, and 16.
+In the above screenshots of our [Netzero app](https://netzero.energy), you can see the intermittent production problem by the up-and-down lines in the Production graph on Oct 12, 13, 14, and 17 while producing fine on Oct 10, 11, 15, and 16.
 
 
 ## Note to solar vendors

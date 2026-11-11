@@ -12,7 +12,7 @@ import { DefinitionProvider, DefTerm, DefinitionPanel } from '@site/src/componen
 
 <DefinitionProvider>
 
-| Company      | Developer guides | API reference | Collaboration&nbsp;&nbs;&nbsp; | Highlight |
+| Company      | Developer guides | API reference | Collaboration&nbsp;&nbsp;&nbsp; | Highlight |
 |--------------|------------------|---------------|:------------------------------:|-----------|
 | <DefTerm def="FIS (Fidelity) bought fintech startup Atelio and later dissolved it to return to traditional banking.">Atelio&nbsp;of&nbsp;FIS</DefTerm> | _Product discontinued_ <br/> **[My copy](https://guyklages.com/atelio/getting-started/quickstart)** | _Product discontinued_ <br/> **[Similar&nbsp;to&nbsp;Nium's](https://docs.nium.com/api#description/introduction)** | 1 editor, 5 SMEs | [Revamped and reduced the developer pages by 40%](./most-impactful-tech-writing.md#69-fewer-pages-via-new-ia) |
 | <DefTerm def="Nium is a fintech company that was a struggling startup while I worked there.">Nium</DefTerm>         | **[Getting Started](https://docs.nium.com/docs/getting-started)** | **[Introduction](https://docs.nium.com/api#description/introduction)** | 1 editor, 6 SMEs | [70% more onboarding of clients with 70% fewer issues](./most-impactful-tech-writing.md#70-more--70-fewer) |

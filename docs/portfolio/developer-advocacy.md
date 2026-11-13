@@ -109,11 +109,13 @@ Driver of growth
 - Generated dozens of "leads" and "pipeline influence"
 - Noticed stalled or immature forum categories and designed plans to grow them
 
-{/* 
+{/*
+
 - Discord comments posted
 - GitHub issues reported
 - StackOverflow answers posted
 - Actual snippets and GitHub repos
+
 */}
 
 ## Open-source community
@@ -205,9 +207,9 @@ Nium has added more API endpoints and supported languages for fintech developers
 
 While at Couchbase, there was a potential customer who wanted to buy if he could see examples of a new ANSI Index that was shipping in the latest version.
 
-- The problem was that the default database that comes with Couchbase Server didn't contain enough specialized indexed fields to demonstrate the power of the new ANSI Index, and Couchbase executives didn't want to change any part of their example database. 
-- So, I created the indexes needed to make a query that could use the new ANSI Index and then made sample queries that used the new ANSI Indexes with my newly made indexed fields; and then I made a script so anyone could replicate those creation steps. 
-- I did this ad hoc "patch" again a few weeks later for a different customer who had a different use case. 
+- The problem was that the default database that comes with Couchbase Server didn't contain enough specialized indexed fields to demonstrate the power of the new ANSI Index, and Couchbase executives didn't want to change any part of their example database.
+- So, I created the indexes needed to make a query that could use the new ANSI Index and then made sample queries that used the new ANSI Indexes with my newly made indexed fields; and then I made a script so anyone could replicate those creation steps.
+- I did this ad hoc "patch" again a few weeks later for a different customer who had a different use case.
 - A few months later, Couchbase modified their example database to include these and other index types for all customers.
 
 For a complete list of database developer guides I wrote, see [Couchbase SQL++ developer guides](./guides-api-reference.md#couchbase)
@@ -229,6 +231,7 @@ To meet other developers and build relationships, I attend the following:
 ## Reddit communities
 
 Reddit communities I subscribe to:
+
 | r/                                                           | Description                                        |
 |--------------------------------------------------------------|----------------------------------------------------|
 | [LocalLLaMA](https://www.reddit.com/r/LocalLLaMA/)           | Locally hostable AI                                |

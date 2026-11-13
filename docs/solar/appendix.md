@@ -125,10 +125,10 @@ With our 8.5 kW, an $8-per-kW tax would equate to $68/mo, which is ridiculous wh
 
 - Our panels give an excess of 6,000 kWh annually:  a monthly average of 500 kWh of excess energy.
 - Our Utility company pays us $0.07 / kWh while charging $0.11 / kWh -- a profit of $0.04 per kWh.
-    - Tier 1 is 11.2 cents/kWh 
-    - Tier 2 is 18.9 cents/kWh (69% more than Tier 1)
-    - Tier 3 is 28.6 cents/kWh (51% more than Tier 2)
-- That's an average of 500 kWh/mo * $0.04 for an average of $20/mo that we give them. 
+  - Tier 1 is 11.2 cents/kWh
+  - Tier 2 is 18.9 cents/kWh (69% more than Tier 1)
+  - Tier 3 is 28.6 cents/kWh (51% more than Tier 2)
+- That's an average of 500 kWh/mo * $0.04 for an average of $20/mo that we give them.
 
 And utility companies want to charge a tax on top of that _free_ electricity (money) they receive every month--what??
 
@@ -197,9 +197,9 @@ The following table summarizes [Bob Vila's article](https://www.bobvila.com/arti
 
 - For the electric water heater, use a licensed electrician who has installed dozens before with new parts. Our contractor added a used 20-amp breaker that failed after 2 months. After 7 days of no hot water, we found someone who fixed it within an hour.
 - To prevent the electric water heater turning on every 2-3 hours, lower the settings of the Heating Elements.
-    - Warm water rises to the top of the tank while colder water falls to the bottom of the tank.
-    - Electric heaters heat quickly, so setting the top element to 110 ℉ is warm enough.
-    - No need to heat the bottom of the tank, so setting the bottom element to 90 ℉ is warm enough.
+  - Warm water rises to the top of the tank while colder water falls to the bottom of the tank.
+  - Electric heaters heat quickly, so setting the top element to 110 ℉ is warm enough.
+  - No need to heat the bottom of the tank, so setting the bottom element to 90 ℉ is warm enough.
 - Regardless of climate, a silver/reflective water heater blanket is a very cheap way to save 10-16%.
 
 

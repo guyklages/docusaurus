@@ -90,7 +90,7 @@ TEDxBeaconStreet wanted their Adventures guidebook (left side) to have a newer a
 
 | Before  | After  |
 |---------|--------|
-| TEDxBeaconStreet wanted their Adventures guidebook to have a newer and refreshed look while improving their wording. | Instead of numbered rules, I wanted short, easy-to-remember two-word phrases with a brief description. Adding photos felt warmer than a gray box. | 
+| TEDxBeaconStreet wanted their Adventures guidebook to have a newer and refreshed look while improving their wording. | Instead of numbered rules, I wanted short, easy-to-remember two-word phrases with a brief description. Adding photos felt warmer than a gray box. |
 | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/BEFORE-and-AFTER/TEDx_adventures-handbook-rules_BEFORE.png) | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/BEFORE-and-AFTER/TEDx_adventures-handbook-rules_AFTER.png) |
 
 ### Lifecycle

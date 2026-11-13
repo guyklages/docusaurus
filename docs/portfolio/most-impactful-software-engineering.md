@@ -21,7 +21,7 @@
 
 #### ADP Payroll (Seattle, WA) – <mark> Made a database to automate reports; saved >50% of the employees' time and effort </mark>
 
-{/*  Mar 2009 - Aug 2009 */}
+{/* Mar 2009 - Aug 2009 */}
 
 | Before | After |
 |--------|-------|
@@ -174,7 +174,7 @@ Prototype demonstrated to the VP; shelved when PeopleSoft salary access was revo
 
 #### Interbase Solutions (Santa Clara, CA) – <mark> Removed a virus before the concept of a computer virus was common knowledge </mark>
 
-May 1998 - May 1998 
+May 1998 - May 1998
 
 | Before | After |
 |--------|-------|

@@ -1,7 +1,6 @@
-import { DefinitionProvider, DefTerm, DefinitionPanel } from '@site/src/components/DefTerm';
-
 # Guides and API reference
 
+import { DefinitionProvider, DefTerm, DefinitionPanel } from '@site/src/components/DefTerm';
 
 ## Live company websites
 
@@ -36,7 +35,7 @@ import { DefinitionProvider, DefTerm, DefinitionPanel } from '@site/src/componen
 
 ## Developer guides
 
-### Atelio
+### Atelio guides
 
 To interact with the guides, see [my copy of the defunct Atelio website](/atelio/getting-started/client-config).
 
@@ -54,7 +53,7 @@ Comprehensive list of the fintech developer guides I wrote and owned:
 | Money movement    | [Pay by Bank payments](/atelio/money-movement/pay-by-bank-payments) • [Money movement](/atelio/money-movement) • [Transactions](/atelio/money-movement/transactions-overview) • [Account transfers](/atelio/money-movement/account-transfers) |
 | Developers        | [Error handling](/atelio/developers/error-handling) • [HMAC signature](/atelio/developers/hmac-signature) • [API headers](/atelio/developers/api-headers) • [Web SDK documentation](/atelio/developers/web-sdk-documentation) |
 
-### Nium
+### Nium guides
 
 To interact with the guides, see [Nium's live website](https://docs.nium.com).
 
@@ -74,13 +73,14 @@ Comprehensive list of the fintech developer guides I wrote and owned:
 | Developers        | [Hosted Components](https://docs.nium.com/docs/developers/pre-built-forms) • [Notifications and Webhooks](https://docs.nium.com/docs/developers/notifications-and-webhooks) • [FAQs](https://docs.nium.com/docs/developers/faqs) |
 
 
-### Couchbase
+### Couchbase guides
 
 I wrote or vastly improved nearly all pages under [Couchbase's SQL++ for Query Reference](https://docs.couchbase.com/cloud/n1ql/n1ql-language-reference/index.html) by adding:
-  - More detailed explanations
-  - Example indexes
-  - Example SQL++ queries
-  - Diagrams
+
+- More detailed explanations
+- Example indexes
+- Example SQL++ queries
+- Diagrams
 
 | Operators  | Functions | <div style={{ width: '200px' }}>Statements (A-D)</div> | Statements (E-U) | SELECT |
 |------------|-----------|------------------|------------------|--------|
@@ -90,13 +90,15 @@ I wrote or vastly improved nearly all pages under [Couchbase's SQL++ for Query R
 
 ## API
 
-### Atelio
+### Atelio API
 
-_(Discontinued product)_
+:::note
+This product has been discontinued.
+:::
 
-Nearly identical to [Nium's APIs](#nium).
+Nearly identical to [Nium's APIs](#nium-api).
 
-### Nium
+### Nium API
 
 Nium has added more API endpoints and supported languages for fintech developers after I left.
 
@@ -118,14 +120,16 @@ The following are the Nium API endpoints I documented with code samples in:
 | Payouts   | [Beneficiary](https://docs.nium.com/api#tag/beneficiary) • [Payout](https://docs.nium.com/api#tag/payout) |
 | Cards     | [Simulators](https://docs.nium.com/api#tag/simulators) • [Lifecycle](https://docs.nium.com/api#tag/lifecycle) • [Security](https://docs.nium.com/api#tag/security) • [Controls](https://docs.nium.com/api#tag/controls) |
 | RFIs      | [Request for Information](https://docs.nium.com/api#tag/request-for-information) |
-| Reports   | [Reports](https://docs.nium.com/api#tag/reports)
+| Reports   | [Reports](https://docs.nium.com/api#tag/reports) |
 | Testing   | [Payouts](https://docs.nium.com/api#tag/payouts) • [Payins](https://docs.nium.com/api#tag/payin) • [Customer](https://docs.nium.com/api#tag/customer) |
 
 ---
 
 ## Kubernetes `kubectl`
 
-_(I wrote this for an interview's assignment with that company's style guide)_
+:::note
+I wrote this for an interview's assignment with that company's style guide.
+:::
 
 Major and alternative cloud providers support Kubernetes, offering fully managed services that handle the control plane. Use `kubectl`, a command-line utility, to communicate with a cluster's control plane via the Kubernetes API. Every `kubectl` command has the following syntax:
 
@@ -216,8 +220,8 @@ To troubleshoot this, try `kubectl delete pod <name> --grace-period=0 --force` o
 |---------------------------|:--------:|:--------:|:-----:|:------------------------:|:----------------------:|:--------------------------:|:--------:|:-----------------------:|
 | <DefTerm def="Atelio was the fintech startup of FIS where I chose who to hire, mentored, and managed two technical writers.">Atelio</DefTerm> | Aug 2024 | Oct 2025 | 1.3 | | | | | ✅ |
 | <DefTerm def="Nium was a fintech startup where I chose who to hire, mentored, and managed one technical writer.">Nium</DefTerm> | Jan 2024 | Oct 2024 | 0.8 |  |  |  |  |  ✅  |
-| <DefTerm def="Talk Group was an experiential English school in Shanghai and five other cities. I managed five software engineers who built on the database I designed as well as two graphic artists and three translators who helped me make the textbooks, activities, and other learning materials, as well as 20+ teachers who taught those English-learning materials to our students.">Talk Group</DefTerm>    | Feb 2002 | May 2006 |  4.3  |  ✅  |  ✅  |  ✅  |  ✅ |
-| <DefTerm def="Pyramid Software was a startup company in Vietnam making an auction website to rival eBay. I managed: 12 developers who built the auction website, two graphic artists who made the site look good, and two translators who make our site support seven languages.">Pyramid Software</DefTerm> | Feb 1998 | Aug 1999 | 1.5 | ✅ | ✅ | ✅ | |
+| <DefTerm def="Talk Group was an experiential English school in Shanghai and five other cities. I managed five software engineers who built on the database I designed as well as two graphic artists and three translators who helped me make the textbooks, activities, and other learning materials, as well as 20+ teachers who taught those English-learning materials to our students.">Talk Group</DefTerm>    | Feb 2002 | May 2006 |  4.3  |  ✅  |  ✅  |  ✅  |  ✅ |   |
+| <DefTerm def="Pyramid Software was a startup company in Vietnam making an auction website to rival eBay. I managed: 12 developers who built the auction website, two graphic artists who made the site look good, and two translators who make our site support seven languages.">Pyramid Software</DefTerm> | Feb 1998 | Aug 1999 | 1.5 | ✅ | ✅ | ✅ |  |  |
 |                           |          |          | ===== | =====                    |   =====                | =====                      | =====    | ===== |
 |                           |          |          | 7.9   | 5.8                      |    5.8                 |  5.8                       | 4.3      | 2.1   |
 

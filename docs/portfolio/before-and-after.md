@@ -39,7 +39,7 @@ For a list of items that had a measurable impact, see the **[most impactful UX/U
 | Before  | After  |
 |---------|--------|
 | During my Couchbase interview, my interviewer gave me 30 minutes to improve a website's page to be more readable and easier to understand. | I replaced the original wall of text with a graph and tables that show the concepts more clearly. |
-| ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/BEFORE-and-AFTER/Couchbase_submillisecond-latencies_BEFORE.png) | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/BEFORE-and-AFTERCouchbase_submillisecond-latencies_AFTER.png) |
+| ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/BEFORE-and-AFTER/Couchbase_submillisecond-latencies_BEFORE.png) | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/BEFORE-and-AFTER/Couchbase_submillisecond-latencies_AFTER.png) |
 
 
 ## Apple

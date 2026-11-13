@@ -80,7 +80,7 @@ If you want to work around this limitation, there is an option available to allo
 
 Add the following registry key to be able to profile applications that are blocked by default:
 
-``` 
+```text
 [HKEY_CURRENT_USER\Software\Immidio\Application Profiler\2.0\Profiling\Options\WhiteListedApps]
 ```
 
@@ -112,7 +112,7 @@ Default behavior of ThinPrint is to redirect the default local printer to the us
 
 This can be solved by changing the behavior of ThinPrint.
 
-You have three options: 
+You have three options:
 
 | Option | Description |
 |:------:|-------------|
@@ -136,7 +136,7 @@ To start collecting logs, every Agent and Manager will call a `.bat` file depend
 - 64-bit: `C:\Program Files\CloudVolumes\DctLogCollector\support.bat`
 
 The Agent and Manager are configured to periodically push the log files to a fileshare; but if you need to manually collect logs, running the `.bat` file alone would also push log files to the fileshare.
- 
+
 ### Configuration of the Log Fileshare
 
 To make the Agent and Manager aware of the fileshare, configure the Log Fileshare in the following way.
@@ -163,7 +163,8 @@ Other Fileshare actions
 ### Agent log collection
 
 The Agent will request for the Log Fileshare credentials by sending a GET request to:
-```
+
+```text
 <manager’s ip address>/log_fileshares/active
 ```
 
@@ -178,23 +179,23 @@ After the Agent gets these details, the Agent will run the log collector periodi
 The Manager has a ruby job running called `collect_logs` which will periodically call the `support.bat` file with the required parameters.
 
 To configure the time for the manager to collect logs, change the duration in the `clock.yml` file. The Manager logs are collected every 12 hours.
- 
+
 ### Switching off log collection
 
-You can deactivate log collection by unchecking the **Is active** checkbox in the _Log Fileshare configuration_ page. 
- 
+You can deactivate log collection by unchecking the **Is active** checkbox in the _Log Fileshare configuration_ page.
+
 ### Running batch scripts
 
-To run batch scripts on Agents and Managers in Windows, no setup is required. The `.bat` script is shipped with the Agent and Manager images. In order to collect Agent logs, make sure https is enabled; otherwise, this feature will be turned off in the Agent. 
+To run batch scripts on Agents and Managers in Windows, no setup is required. The `.bat` script is shipped with the Agent and Manager images. In order to collect Agent logs, make sure https is enabled; otherwise, this feature will be turned off in the Agent.
 
 **Note**: The `.bat` script needs administration privileges to run.
 
 The `.bat` script can be run from:
 
-```
+```text
 C:\Program Files (x86)\CloudVolumes\DctLogCollector\support.bat
 ```
- 
+
 The following are the parameters for `support.bat`:
 
 | Parameter      | Description |
@@ -207,7 +208,7 @@ The following are the parameters for `support.bat`:
 
 Example of running the script:
 
-```
+```text
 support.bat -destination C:\Logs -fhhost \\10.33.99.231\uem\logs -fhdomain <domain> -fhuname <username> -fhpwd <password>
 ```
 
@@ -229,7 +230,7 @@ When logging in to a VM on another vCenter, a writable is NOT created for the us
 
 The following log can be found in the Manager log corresponding to the login attempt:
 
-```
+```text
 DEBUG Cvo: Culling "DOMAIN\GROUP" because it does not have files accessible to the machine manager running "Computer <DOMAIN\MACHINE$>"
 ```
 
@@ -305,7 +306,7 @@ Since AppStack exclusions will not apply to a writable, those exclusions need to
 
 To exclude a location, edit the `snapvol.cfg` file to add the full path that is to be excluded. Paths can be listed in any order, for example:
 
-```
+```text
 # File system exclusions
 
 exclude_path=\ProgramData\ntuser.pol
@@ -314,6 +315,6 @@ exclude_path=\ProgramData\VMware
 ```
 
 For more information about the `snapvol.cfg` file, see
-http://blogs.vmware.com/euc/2016/03/app-volumes-snapvol-cfg-writable-volume-customize-configure.html.
+[http://blogs.vmware.com/euc/2016/03/app-volumes-snapvol-cfg-writable-volume-customize-configure.html](http://blogs.vmware.com/euc/2016/03/app-volumes-snapvol-cfg-writable-volume-customize-configure.html).
 
 **Note**: Introducing a writable volume without the explicit exclusions added, re-breaks the same core apps and services. Re-adding the exclusions to the writable via the zip file method fixes this.

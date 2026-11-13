@@ -1,6 +1,8 @@
 # ROAM Data iOS SDK for Apple Pay
 
-_(This page describes the Stripe-based integration we built at ROAM Data)_
+:::note
+This page describes the Stripe-based integration we built at ROAM Data.
+:::
 
 ## Introduction
 
@@ -50,7 +52,7 @@ First, configure Stripe with your published API key. We recommend doing this in 
 
 application:didFinishLaunchingWithOptions method so that it will be set for the entire lifecycle of your app.
 
-**Example in Swift**
+#### Example in Swift
 
 ```swift
 // AppDelegate.swift
@@ -67,7 +69,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 }
 ```
 
-**Example in Objective-C**
+#### Example in Objective-C
 
 ```objectivec
 // AppDelegate.m
@@ -103,17 +105,15 @@ Since Apple Pay supports only certain credit cards on the latest iOS devices, we
 
 With Apple Pay, you are able to access payment information stored on your customer' iOS devices.
 
-### important note before starting
+### Important note before starting
 
 To use Apple Pay, you need to add the Apple Pay capability to your app in Xcode. This requires creating a merchant ID with Apple first, as explained in the "Getting Started with Apple Pay" documentation.
 
-After setting up the merchant ID, you need to generate a PKPaymentRequest to submit to Apple. We have provided a convenient method to generate one with reasonable defaults. All you need to do is set the paymentSummaryItems property to an array of PKPaymentSummaryItems . These are analogous to line items on a receipt and are used to explain your charge to the user. For more details, see the [PKPaymentRequest documentation](https://developer.apple.com/documentation/passkit/pkpaymentrequest).
+After setting up the merchant ID, you need to generate a `PKPaymentRequest` to submit to Apple. We have provided a convenient method to generate one with reasonable defaults. All you need to do is set the `paymentSummaryItems` property to an array of `PKPaymentSummaryItems` . These are analogous to line items on a receipt and are used to explain your charge to the user. For more details, see the [PKPaymentRequest documentation](https://developer.apple.com/documentation/passkit/pkpaymentrequest).
 
-Now that you have created the request, the next step is to query the device to see if Apple Pay is available; that is, if your app is running on the latest hardware and the user has added a valid credit card. YOUR_APPLE_MERCHANT_ID is an identifier that you obtain directly from Apple. If Apple Pay is available, you should create and display the
+Now that you have created the request, the next step is to query the device to see if Apple Pay is available; that is, if your app is running on the latest hardware and the user has added a valid credit card. `YOUR_APPLE_MERCHANT_ID` is an identifier that you obtain directly from Apple. If Apple Pay is available, you should create and display the payment request view controller. To do so, follow the below code:
 
-payment request view controller. To do so, follow the below code:
-
-**Example in Swift**
+#### Example in Swift to create and display the payment request
 
 ```swift
 // ViewController.swift
@@ -135,7 +135,7 @@ if (Stripe.canSubmitPaymentRequest(request)) {
 }
 ```
 
-**Example in Objective-C**
+#### Example in Objective-C create and display the payment request
 
 ```objectivec
 // ViewController.m
@@ -160,11 +160,9 @@ if (\[Stripe canSubmitPaymentRequest:request\]) {
 }
 ```
 
-Note that ViewController is a PKPaymentAuthorizationViewControllerDelegate. By implementing
+Note that `ViewController` is a `PKPaymentAuthorizationViewControllerDelegate`. By implementing this protocol, the `PKPayment` is handled to return the authorization controller.
 
-this protocol, the PKPayment is handled to return the authorization controller.
-
-**Example in Swift**
+#### Example in Swift to return the authorization controller
 
 ```swift
 // ViewController.swift
@@ -187,7 +185,7 @@ func paymentAuthorizationViewControllerDidFinish(controller: PKPaymentAuthorizat
 }
 ```
 
-**Example in Objective-C**
+#### Example in Objective-C to return the authorization controller
 
 ```objectivec
 // ViewController.m
@@ -219,9 +217,9 @@ To implement optional PKPaymentAuthorizationViewControllerDelegate methods for c
 
 ### Using STPPPaymentCardTextField
 
-To use our pre-built form component, you need to create a view controller called PaymentViewController and add an STPPaymentCardTextField property to it.
+To use our pre-built form component, you need to create a view controller called `PaymentViewController` and add an `STPPaymentCardTextField` property to it.
 
-**Example in Swift**
+#### Example in Swift to create a view controller
 
 ```swift
 // PaymentViewController.swift
@@ -231,7 +229,7 @@ class PaymentViewController: UIViewController, STPPaymentCardTextFieldDelegate {
 }
 ```
 
-**Example in Objective-C**
+#### Example in Objective-C to create a view controller
 
 ```objectivec
 // PaymentViewController.m
@@ -243,9 +241,9 @@ class PaymentViewController: UIViewController, STPPaymentCardTextFieldDelegate {
 @end
 ```
 
-To instantiate the STPPaymentCardTextField, set the PaymentViewController as its STPPaymentCardTextFieldDelegate and add it to your view.
+To instantiate the `STPPaymentCardTextField`, set the `PaymentViewController` as its `STPPaymentCardTextFieldDelegate` and add it to your view.
 
-**Example in Swift**
+#### Example in Swift to add it to your view
 
 ```swift
 // PaymentViewController.swift
@@ -258,7 +256,7 @@ override func viewDidLoad() {
 }
 ```
 
-**Example in Objective-C**
+#### Example in Objective-C add it to your view
 
 ```objectivec
 // PaymentViewController.m
@@ -271,13 +269,11 @@ override func viewDidLoad() {
 }
 ```
 
-By adding an STPPaymentCardTextField to the controller, your app is enabled to accept card numbers, expiration dates, and CVCs. It will also format the input and validate that input on-the-fly.
+By adding an `STPPaymentCardTextField` to the controller, your app is enabled to accept card numbers, expiration dates, and CVCs. It will also format the input and validate that input on-the-fly.
 
-When a user enters text into this field, the paymentCardTextFieldDidChange method will be called on our view
+When a user enters text into this field, the `paymentCardTextFieldDidChange` method will be called on our view controller. In this callback, we can enable a save button to allow users to submit their valid cards if the form is valid.
 
-controller. In this callback, we can enable a save button to allow users to submit their valid cards if the form is valid.
-
-**Example in Swift**
+#### Example in Swift to submit their valid cards
 
 ```swift
 func paymentCardTextFieldDidChange(textField: STPPaymentCardTextField) {
@@ -286,7 +282,7 @@ func paymentCardTextFieldDidChange(textField: STPPaymentCardTextField) {
 }
 ```
 
-**Example in Objective-C**
+#### Example in Objective-C to submit their valid cards
 
 ```objectivec
 - (void)paymentCardTextFieldDidChange:(STPPaymentCardTextField *)textField {
@@ -305,9 +301,9 @@ Our libraries shoulder the burden of PCI compliance by helping you avoid the nee
 
 ### Using PKPayment (Apple Pay)
 
-After your PKPayment has arrived, you can turn it into a single-use Stripe token with a simple method call by using the following code.
+After your `PKPayment` has arrived, you can turn it into a single-use Stripe token with a simple method call by using the following code.
 
-**Example in Swift**
+#### Example in Swift to turn it into a single-use Stripe token
 
 ```swift
 // ViewController.swift
@@ -328,7 +324,7 @@ func handlePaymentAuthorizationWithPayment(payment: PKPayment, completion: PKPay
 }
 ```
 
-**Example in Objective-C**
+#### Example in Objective-C to turn it into a single-use Stripe token
 
 ```objectivec
 // ViewController.m
@@ -351,13 +347,13 @@ func handlePaymentAuthorizationWithPayment(payment: PKPayment, completion: PKPay
 }
 ```
 
-### Using STPCardParams
+### Using `STPCardParams`
 
-If you choose to use STPPaymentCardTextField or your own form, you can assemble the data into an STPCardParams object. After you have collected the card number, expiration dates, and CVC, package them up in an STPCardParams object and invoke the createTokenWithCard method on the STPAIClient class, instructing the library to send off the credit card data to Stripe and return a token.
+If you choose to use `STPPaymentCardTextField` or your own form, you can assemble the data into an `STPCardParams` object. After you have collected the card number, expiration dates, and CVC, package them up in an `STPCardParams` object and invoke the `createTokenWithCard` method on the `STPAIClient` class, instructing the library to send off the credit card data to Stripe and return a token.
 
 To do so, add the below code to your program.
 
-**Example in Swift**
+#### Example in Swift to send off the credit card data
 
 ```swift
 @IBAction func save(sender: UIButton) {
@@ -376,7 +372,7 @@ To do so, add the below code to your program.
 }
 ```
 
-**Example in Objective-C**
+#### Example in Objective-C to send off the credit card data
 
 ```objectivec
 - (IBAction)save:(UIButton *)sender {
@@ -393,7 +389,9 @@ To do so, add the below code to your program.
 }
 ```
 
-**Note**: In the example above, the createTokenWithCard is called when a save button is tapped. It is important that the createToken is not called before user has finished entering their card details.
+:::important
+In the example above, the `createTokenWithCard` is called when a save button is tapped. It is important that the `createToken` is not called before user has finished entering their card details.
+:::
 
 It is up to you to handle error messages and show activity indicators while creating the token.
 
@@ -403,7 +401,7 @@ The block you gave to createToken in the previous steps is called whenever Strip
 
 Here is how it looks for a token created with Apple Pay.
 
-**Example in Swift**
+#### Example in Swift for a token created with Apple Pay
 
 ```swift
 // ViewController.swift
@@ -428,7 +426,7 @@ func createBackendChargeWithToken(token: STPToken, completion: PKPaymentAuthoriz
 }
 ```
 
-**Example in Objective-C**
+#### Example in Objective-C for a token created with Apple Pay
 
 ```objectivec
 // ViewController.m
@@ -460,10 +458,8 @@ func createBackendChargeWithToken(token: STPToken, completion: PKPaymentAuthoriz
 
 **Note**: The completion callback above is Apple Pay-specific. If you are not using Apple Pay, the code is still mostly the same, but you would want to implement custom error and success handling.
 
-On the server, implement an endpoint that will accept the stripeToken parameter. Make sure any communication with your server is SSL-secured to prevent eavesdropping.
+On the server, implement an endpoint that will accept the `stripeToken` parameter. Make sure any communication with your server is SSL-secured to prevent eavesdropping.
 
-After you have a Stripe token representing a card on your server, charge it, save it for charging later, or sign up for a
-
-subscription.
+After you have a Stripe token representing a card on your server, charge it, save it for charging later, or sign up for a subscription.
 
 For more details, see the [full example application](https://github.com/stripe/stripe-ios/tree/master/Example).

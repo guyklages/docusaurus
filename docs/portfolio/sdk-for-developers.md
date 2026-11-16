@@ -57,7 +57,9 @@ We recommend you to write your app to offer support for both.
 
 Through Android Pay, you can access payment information stored in your customer's Google accounts. Following are the instructions to integrate your app with Android Pay.
 
-> **Note:** When this documentation was released, Android Pay was still in Beta Version.
+:::note
+When this documentation was released, Android Pay was still in Beta Version.
+:::
 
 ##### Setting Up Your App
 
@@ -174,7 +176,9 @@ public void showAndroidPay() {
 }
 ```
 
-> **Note:** The price set within the Android app is written as a decimal and is for the Android app only. The token received back will be sent to your server, and the charge request will be made of the Stripe API from there. The actual amount to be charged is requested at that point, and is set as an integer.
+:::note
+The price set within the Android app is written as a decimal and is for the Android app only. The token received back will be sent to your server, and the charge request will be made of the Stripe API from there. The actual amount to be charged is requested at that point, and is set as an integer.
+:::
 
 The last step of the Android Pay setup process for the app is to connect to the Google Wallet API. This connection handles the case when a user presses the Android Pay purchase button and the payment is processed. To do so, add the following code:
 
@@ -241,7 +245,9 @@ public class PaymentActivity extends FragmentActivity {
 }
 ```
 
-> **Note:** The above example has only one item, but if your customer is purchasing multiple items, you can add multiple items by calling addLineItem additional times.
+:::note
+The above example has only one item, but if your customer is purchasing multiple items, you can add multiple items by calling `addLineItem` additional times.
+:::
 
 ##### Creating Tokens from Android Pay
 
@@ -395,7 +401,9 @@ We recommend using CocoaPods to install the [Stripe iOS library](https://github.
 
 If you have not set up CocoaPods before, we recommend following the installation instructions on the [CocoaPods site](https://cocoapods.org/), then add pod 'Stripe' to your Podfile, and run pod install.
 
-**Note**: Use the .xcworkspace file to open your project in Xcode instead of the .xcodeproj file.
+:::note
+Use the `.xcworkspace` file to open your project in Xcode instead of the `.xcodeproj` file.
+:::
 
 ##### Using Carthage
 
@@ -454,24 +462,26 @@ didFinishLaunchingWithOptions:(NSDictionary \*)launchOptions
 @end
 ```
 
-**Note**: We have placed your test publishable API key as the StripePublishableKey constant in the above snippet. You will need to swap it out with your live publishable key in production. You can see all your API keys in your dashboard.
+:::note
+Your test publishable API key is the `StripePublishableKey` constant in the above snippet. You will need to swap it out with your live publishable key in production. You can see all your API keys in your dashboard.
+:::
 
 ### Collecting credit card info
 
 There are three ways to obtain payment details from the user:
 
-A. Use the Apple Pay framework to access your users' stored payment information.
-B. Use our pre-built form component, STPPaymentCardTextField to collect new credit card details.
-C. Build your own credit card form from scratch.
+- A. Use the Apple Pay framework to access your users' stored payment information.
+- B. Use our pre-built form component, STPPaymentCardTextField to collect new credit card details.
+- C. Build your own credit card form from scratch.
 
-Since Apple Pay supports only certain credit cards on the latest iOS devices, we recommend using Apple Pay in combination with option 2 or option 3 as a fallback on devices where Apple Pay is not available.
+Since Apple Pay supports only certain credit cards on the latest iOS devices, we recommend using Apple Pay in combination with option B or option C as a fallback on devices where Apple Pay is not available.
 
 #### Using Apple Pay
 
 With Apple Pay, you are able to access payment information stored on your customer' iOS devices.
 
-:::important Important note before starting
-To use Apple Pay, you need to add the Apple Pay capability to your app in Xcode. This requires creating a merchant ID with Apple first, as explained in the "Getting Started with Apple Pay" documentation.
+:::important
+Before starting, to use Apple Pay, you need to add the Apple Pay capability to your app in Xcode. This requires creating a merchant ID with Apple first, as explained in the "Getting Started with Apple Pay" documentation.
 :::
 
 After setting up the merchant ID, you need to generate a `PKPaymentRequest` to submit to Apple. We have provided a convenient method to generate one with reasonable defaults. All you need to do is set the `paymentSummaryItems` property to an array of `PKPaymentSummaryItems`. These are analogous to line items on a receipt and are used to explain your charge to the user. For more details, see the [PKPaymentRequest documentation](https://developer.apple.com/documentation/passkit/pkpaymentrequest).
@@ -525,7 +535,9 @@ if (\[Stripe canSubmitPaymentRequest:request\]) {
 }
 ```
 
-Note that `ViewController` is a `PKPaymentAuthorizationViewControllerDelegate`. By implementing this protocol, the `PKPayment` is handled to return the authorization controller.
+:::note
+`ViewController` is a `PKPaymentAuthorizationViewControllerDelegate`. By implementing this protocol, the `PKPayment` is handled to return the authorization controller.
+:::
 
 ##### Example in Swift to implement this protocol
 

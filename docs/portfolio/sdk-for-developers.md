@@ -470,9 +470,9 @@ Your test publishable API key is the `StripePublishableKey` constant in the abov
 
 There are three ways to obtain payment details from the user:
 
-- A. Use the Apple Pay framework to access your users' stored payment information.
-- B. Use our pre-built form component, STPPaymentCardTextField to collect new credit card details.
-- C. Build your own credit card form from scratch.
+- (A) Use the Apple Pay framework to access your users' stored payment information.
+- (B) Use our pre-built form component, STPPaymentCardTextField to collect new credit card details.
+- (C) Build your own credit card form from scratch.
 
 Since Apple Pay supports only certain credit cards on the latest iOS devices, we recommend using Apple Pay in combination with option B or option C as a fallback on devices where Apple Pay is not available.
 

@@ -1,6 +1,6 @@
-import { DefinitionProvider, DefTerm, DefinitionPanel } from '@site/src/components/DefTerm';
-
 # Training and instructional design
+
+import { DefinitionProvider, DefTerm, DefinitionPanel } from '@site/src/components/DefTerm';
 
 ## Overview
 

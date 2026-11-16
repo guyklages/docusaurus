@@ -52,7 +52,7 @@ First, configure Stripe with your published API key. We recommend doing this in 
 
 application:didFinishLaunchingWithOptions method so that it will be set for the entire lifecycle of your app.
 
-#### Example in Swift
+#### Example in Swift to configure Stripe
 
 ```swift
 // AppDelegate.swift
@@ -69,7 +69,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 }
 ```
 
-#### Example in Objective-C
+#### Example in Objective-C to configure Stripe
 
 ```objectivec
 // AppDelegate.m

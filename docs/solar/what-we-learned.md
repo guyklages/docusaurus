@@ -269,6 +269,14 @@ Batteries are mostly weather-proof nowadays, so it's up to you whether you prefe
 - Make sure they're in the shade or put a lattice of greenery a few inches in front of them to keep them cool.
 - Batteries are generally installed half an inch above the ground, but you might want them to be 1 foot above the ground if you have pets or if water often pools in that area.
 
+## When production is low
+
+It's important to look at your solar panel app at least once per month to distinguish between normal and abnormal system behavior as well as notice when there might be an issue with your system.
+
+For example, at the beginning of a new month, I like to compare how the previous month did compared to that month of the previous year (and sometimes two years prior). I noticed that we generated fewer kWh than both that month of the previous year and the average of that month of the past five years. That surprised me since two months earlier produced nearly the same as that month of the previous year, but I didn't think much of it. I waited and watched the next two months also have unusually low generation--lower than the 5-year averages for those months--until I finally sent a message to our solar installer. They responded that they see the exact same unusual behavior and know the solution and that it should be fixed urgently. (If they knew, why didn't they speak up earlier??) Sadly, their first available day to fix it was three weeks later. And it took them only 1.5 hours to fix it.
+
+The other telltale sign was that our [production graph was fluctuating between normal and no kW](./appendix.md#netzeroclaude-error-report). The first time you notice something strange, don't wait--contact your installer immediately.
+
 ## Charge EV slowly
 
 Although charging an EV at high kW speeds degrade the batteries only [1-2% over many years](https://www.google.com/search?q=how+much+does+supercharging+degrade+battery&oq=how+much+does+supercharging+de&gs_lcrp=EgZjaHJvbWUqCggAEAAYgAQYtAcyCggAEAAYgAQYtAcyBggBEEUYOTIICAIQABgWGB4yDQgDEAAYhgMYgAQYigUyDQgEEAAYhgMYgAQYigUyDQgFEAAYhgMYgAQYigUyCggGEAAYogQYiQXSAQkxMDE4NmowajeoAgCwAgA&sourceid=chrome&source=chrome.ob&ie=UTF-8), it's better to charge your EV at as few kW (amperage) as possible for the following benefits:

@@ -109,10 +109,11 @@ That's 1 - 2 more months of high electric bills before your solar setup begins t
 |---------|:------------------:|:-----------------:|----------|
 | When our app's kWh imported/exported numbers didn't match our utility bill, we called our utility company. | $300 | 100 | Call the installer or the solar company. |
 
-**Note:** Utility companies are almost always correct, so don't wait another month to call your solar provider.
-    - You can't get back past data that wasn't measured--or was measured incorrectly.
-    - Our non-Tesla installer submitted incorrect BOM paperwork and didn't install a meter on our main breaker panel, so our car charging and water heater usage weren't measured in our app for 2 months.
-    - This took us 3 hours of transferred calls to solve; and Tesla said it'll take at least a week to fix.
+Utility companies are almost always correct, so don't wait another month to call your solar provider.
+
+- You can't get back past data that wasn't measured--or was measured incorrectly.
+- Our non-Tesla installer submitted incorrect BOM paperwork and didn't install a meter on our main breaker panel, so our car charging and water heater usage weren't measured in our app for 2 months.
+- This took us 3 hours of transferred calls to solve; and Tesla said it'll take at least a week to fix.
 - Start with your solar Customer Service to test if your system and inverter are configured properly.
 
 ### Download Netzero app

@@ -90,14 +90,14 @@ Since the free-install plug-in solar panels have become legal in most states, ma
 
 | Balcony solar panels |  |
 |----------------------|--|
-| Whether you rent an apartment or own a home, balcony solar panels are cheap and takes less than one hour to install--just plug them into a microinverter after notifying your landlord or HOA. | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/balcony-solar-panels.png)
+| Whether you rent an apartment or own a home, balcony solar panels are cheap and takes less than one hour to install--just plug them into a microinverter after notifying your landlord or HOA. | ![](https://cdn.jsdelivr.net/gh/guyklages/portfolio@master/solar/balcony-solar-panels.png) |
 
 ## Ask many questions
 
 - Where are you putting the conduit? Draw me a diagram.
-    - Tell them directly you want the conduit routed through the attic - no visible conduit on the roof.
+  - Tell them directly you want the conduit routed through the attic - no visible conduit on the roof.
 - How much for critter guard and solar skirt on the leading edge?  
-    - It looks much nicer from the road.
+  - It looks much nicer from the road.
 - Do they have solid customer references?
 - How many years have they been in business?
 - Do they have local experience?
@@ -108,19 +108,19 @@ Since the free-install plug-in solar panels have become legal in most states, ma
 - How many installations have you done?
 - Do you perform your own maintenance if equipment fails? How long from failure to fixed normally?
 - Get a battery installed too, and ask them how many have they done?
-    - If you plan to use the battery for backup power and not just load shifting, ask if they have experience setting that up too.
-    - Ask if consumption monitoring is included and make sure they include that in the contract.
+  - If you plan to use the battery for backup power and not just load shifting, ask if they have experience setting that up too.
+  - Ask if consumption monitoring is included and make sure they include that in the contract.
 - Consumption monitors (CTs) are nice and usually come with your gateway, are they part of the install?
 - Tell me everything in my home that can’t be powered by solar easily -- air conditioner and hot tub for us. No mention of this by the salesman. He was inexperienced. Installers knew this, but we were shocked. Those are our heavy hitters and we couldn’t put in a system big enough to handle them. Also didn’t know how much space the inverter and battery would take up. Our salesman sucked.
 - Ask to see a full, detailed set of plans. BEFORE they submit for permitting.
-    - Demand that they walk through the diagrammed plans and installation while looking at the plans.
-    - TAKE NOTE of anything that isn't on the plans.
-    - Have them update the plans to reflect what was discussed.
+  - Demand that they walk through the diagrammed plans and installation while looking at the plans.
+  - TAKE NOTE of anything that isn't on the plans.
+  - Have them update the plans to reflect what was discussed.
 
 #### Warranty
 
 - Does it cover everything or just hardware?
-    - You could file a claim, they come out to replace the equipment but then charge a trip charge and labor on top of that. The warranty could end up costing hundreds.
+  - You could file a claim, they come out to replace the equipment but then charge a trip charge and labor on top of that. The warranty could end up costing hundreds.
 - What’s covered under the workmanship warranty?
 - Do they have a certificate of insurance?
 - On the warranty, is it degradation of the system or per panel?
@@ -131,8 +131,8 @@ Since the free-install plug-in solar panels have become legal in most states, ma
 - What does my warranty cover? How much as a homeowner am I responsible for?
 - Does the solar have a promise guarantee to produce what was promised? And will I be entitled to a refund if it doesn’t perform what was sold?
 - If your solar company goes bankrupt, what and how am I protected for warranty issues?
-- Are the installers roof-certified to not void my roof warranty? 
-    - Or do I need an independent roofing contractor to inspect the work before panels are laid down?
+- Are the installers roof-certified to not void my roof warranty?
+  - Or do I need an independent roofing contractor to inspect the work before panels are laid down?
 
 Your own research:
 
@@ -143,7 +143,7 @@ Your own research:
 Get price quotes from at least three solar installers:
 
 - Ask what makes them better than others in terms of equipment, warranties, lifetime costs, financing, etc.
-- Really take time with the decision. 
+- Really take time with the decision.
 - If a company is just trying to talk you into quickly signing vs competing on quality, then they're probably not the company you want to go with.
 - Every time I received a proposal I learned a little more.
 
@@ -177,7 +177,7 @@ Below are items that are needed before your solar company designs your solar pan
 
 ### Upgrade your main panel
 
-If your main panel is old or crowded or smaller than 150 amps, upgrade it to at least 200 amps. 
+If your main panel is old or crowded or smaller than 150 amps, upgrade it to at least 200 amps.
 
 - It's easier and more accurate to monitor and backup a single, spacious panel than a crowded one.
 - Unless you've recently upgraded yours, expand your Main Panel or Sub-panel for more breakers.
@@ -199,13 +199,13 @@ Our gas meter was on the side of our house which required the Emergency-Stop to 
 **To avoid this:**
 
 - Convert all appliances to electric, and then PG&E will remove the gas meter for free.
-    - [electric heat pump vs. gas furnace](./appendix.md#heat-pump-vs-gas-furnace)
-    - [Water heater: electric vs. gas](./appendix.md#water-heaters-elec-vs-gas)
+  - [electric heat pump vs. gas furnace](./appendix.md#heat-pump-vs-gas-furnace)
+  - [Water heater: electric vs. gas](./appendix.md#water-heaters-elec-vs-gas)
 - My friend moved his front fence back 5 feet to allow his E-Stop and Powerwalls be installed on his side wall.
 
 ### HOA options
 
-[Subtitle A of the A.C.E.S. Act](https://www.congress.gov/bill/111th-congress/house-bill/2454) makes it illegal for an HOA to restrict installation of solar panels, but be ready for a long battle against their HOA rules and loopholes. 
+[Subtitle A of the A.C.E.S. Act](https://www.congress.gov/bill/111th-congress/house-bill/2454) makes it illegal for an HOA to restrict installation of solar panels, but be ready for a long battle against their HOA rules and loopholes.
 
 Soon, [the new laws on the horizon](https://solargaines.com/solar-panels-hoa-rules/#:~:text=The%20American%20Clean%20Energy%20and%20Security%20Act%20%28H.R.,private%20contracts%20that%20prohibit%20solar%20panels%2C%20with%20exceptions.) will help.
 

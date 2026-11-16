@@ -29,7 +29,7 @@ Compared to fossil-fuel alternative, electric appliances have many benefits
 
 - The very quiet Heat Pump sits in the backyard, and the silent Air Handler sits in the attic.
 - This upgrade frees up the gas furnace closet.
-- We converted our gas furnace closet into a small pantry. 
+- We converted our gas furnace closet into a small pantry.
 - Running our Heat Pump system Nov-Feb uses a lot of electricity but costs about half of our previous Nov-Feb gas bills + electric bills.
 
 ## Electric water heater
@@ -39,11 +39,11 @@ Compared to fossil-fuel alternative, electric appliances have many benefits
 
 ## Inductive stove
 
-- Ours heats up instantly and cools down very fast when we’re done. 
+- Ours heats up instantly and cools down very fast when we’re done.
 - Low heat dissipates in a few seconds while high heat dissipates in 1-2 minutes.
 - Can use any material pan, but _non-magnetic_ ones cook slower, such as:
-    - aluminum
-    - ceramic
-    - copper
-    - glass
-    - Pyrex
+  - aluminum
+  - ceramic
+  - copper
+  - glass
+  - Pyrex

@@ -36,7 +36,7 @@ And then some truths became apparent:
 
 - Winter sun is so low and cloudy and generates [about one-third of summer sun](#install-as-much-as-you-can).
 - We need a second battery to run the clothes dryer (or multiple appliances) without drawing from the grid.
-    - **Note:** This is no longer a problem with a single [Powerwall3 battery](https://energylibrary.tesla.com/docs/Public/EnergyStorage/Powerwall/3/Datasheet/en-us/Powerwall-3-Datasheet.pdf).
+  - **Note:** This is no longer a problem with a single [Powerwall3 battery](https://energylibrary.tesla.com/docs/Public/EnergyStorage/Powerwall/3/Datasheet/en-us/Powerwall-3-Datasheet.pdf).
 - We need four more solar panels (costs only $600) to generate more power to avoid drawing from the grid during winter.
 - No installer will do $600 worth of work since they focus on installing $18,000+ solar panel systems.
 

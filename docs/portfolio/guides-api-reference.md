@@ -223,6 +223,10 @@ To troubleshoot this, try `kubectl delete pod <name> --grace-period=0 --force` o
 |              |          |          |       | ===== | ===== |   ======         | ===== | ===== |
 |              |          |          |       |  3.5  |  1.2  |    2.1           |  2.7  |  0.5  |
 
+<DefinitionPanel/>
+
+</DefinitionProvider>
+
 ### Years of managing
 
 <DefinitionProvider>

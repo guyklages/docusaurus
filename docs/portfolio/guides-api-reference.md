@@ -214,6 +214,8 @@ To troubleshoot this, try `kubectl delete pod <name> --grace-period=0 --force` o
 
 ### Years of hardware
 
+<DefinitionProvider>
+
 | Company                                    | From     | Until    | Years | DITA | AEM  | Oxygen | XMetaL | Pages |
 |--------------------------------------------|:--------:|:--------:|:-----:|:----:|:----:|:------:|:------:|:-----:|
 | <DefTerm def="Auris Health is a medical robotics company, and I documented their FDA-cleared Monarch Platform, a robotic-assisted technology used primarily for diagnostic and therapeutic bronchoscopic procedures (such as lung cancer detection).">Auris Health</DefTerm> | Dec 2020 | May 2021 | 0.5 | ✅ |  | ✅ |  |  |

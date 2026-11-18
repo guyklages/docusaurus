@@ -276,7 +276,7 @@ It's important to look at your solar panel app at least once per month to distin
 | Normal solar production | <div style={{ width: '500px'}}> Abnormal solar production </div> |
 |-------------------------|---------------------------|
 | ![](https://cdn.delivr.net/gh/guyklages/portfolio@master/solar/solar-production-normal.png) | ![](https://cdn.delivr.net/gh/guyklages/portfolio@master/solar/solar-production-up-and-down.png) |
-| Normal solar production creates a smooth and constant flow of energy throughout the day. | When clouds pass by, production fluctuates 1-2 kW for 5-20 minutes. <br/><br/> When production fluctuates more than 2 kW, contact your installer. <br/><br/> (In this case, our inverter was overheating and needed coolant) |
+| Normal solar production creates a smooth and constant flow of energy throughout the day. | When clouds pass by, production fluctuates 1-2 kW briefly. <br/><br/> When production fluctuates more than 2 kW, contact your installer. <br/><br/> (In this case, our inverter was overheating and needed coolant) |
 
 It's important to be aware of your monthly kWh generated and notice how each month compares to that month of the previous year.
 

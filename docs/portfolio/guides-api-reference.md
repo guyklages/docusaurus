@@ -216,14 +216,14 @@ To troubleshoot this, try `kubectl delete pod <name> --grace-period=0 --force` o
 
 <DefinitionProvider>
 
-| Company                                    | From     | Until    | Years | DITA | AEM  | Oxygen | XMetaL | Pages |
-|--------------------------------------------|:--------:|:--------:|:-----:|:----:|:----:|:------:|:------:|:-----:|
-| <DefTerm def="Auris Health is a medical robotics company, and I documented their FDA-cleared Monarch Platform, a robotic-assisted technology used primarily for diagnostic and therapeutic bronchoscopic procedures (such as lung cancer detection).">Auris Health</DefTerm> | Dec 2020 | May 2021 | 0.5 | ✅ |  | ✅ |  |  |
-| <DefTerm def="ChargePoint makes chargers for electric vehicles, and I wrote internal manuals for the manager of those chargers (such as a store manager at Target) to adjust the charging settings for cars parked in their parking lot. PDF guides for online dashboards.">ChargePoint</DefTerm>    | Nov 2018 | May 2019 |  0.5  |  ✅  |      |        ✅        |        |       |
-| <DefTerm def="The Apple department I worked in was responsible for the robots that assembled iPads. I documented how to activate, configure, operate, and troubleshoot these robots for their corresponding team in China.">Apple</DefTerm>        | Jan 2015 | Jul 2015 |  0.5  |  ✅  |  |  |  |  ✅  |
-| <DefTerm def="Siemens Medical provides diagnostic imaging, laboratory diagnostics, and cancer care systems, and I documented their CAT and CT scanners.">Siemens Medical</DefTerm>  | Jan 2006 | Dec 2008 |  2.0  |  ✅  |     |     |   ✅   |       |
-|              |          |          |       | ===== | ===== |   ======         | ===== | ===== |
-|              |          |          |       |  3.5  |  1.2  |    2.1           |  2.7  |  0.5  |
+| Company                                    | From     | Until    | Years | DITA | Oxygen | XMetaL | Pages |
+|--------------------------------------------|:--------:|:--------:|:-----:|:----:|:------:|:------:|:-----:|
+| <DefTerm def="Auris Health is a medical robotics company, and I documented their FDA-cleared Monarch Platform, a robotic-assisted technology used primarily for diagnostic and therapeutic bronchoscopic procedures (such as lung cancer detection).">Auris Health</DefTerm> | Dec 2020 | May 2021 | 0.5 | ✅ | ✅ |  |  |
+| <DefTerm def="ChargePoint makes chargers for electric vehicles, and I wrote internal manuals for the manager of those chargers (such as a store manager at Target) to adjust the charging settings for cars parked in their parking lot. PDF guides for online dashboards.">ChargePoint</DefTerm>    | Nov 2018 | May 2019 |  0.5  |  ✅  |  ✅  |     |    |
+| <DefTerm def="The Apple department I worked in was responsible for the robots that assembled iPads. I documented how to activate, configure, operate, and troubleshoot these robots for their corresponding team in China.">Apple</DefTerm>        | Jan 2015 | Jul 2015 |  0.5  |  ✅  |  |  |  ✅  |
+| <DefTerm def="Siemens Medical provides diagnostic imaging, laboratory diagnostics, and cancer care systems, and I documented their CAT and CT scanners.">Siemens Medical</DefTerm>  | Jan 2006 | Dec 2008 |  2.0  |  ✅  |     |   ✅   |       |
+|              |          |          |       | ===== | ======  | ===== | ===== |
+|              |          |          |       |  3.5  |  1.0    |  2.0  |  0.5  |
 
 <DefinitionPanel/>
 

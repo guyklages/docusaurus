@@ -273,10 +273,10 @@ Batteries are mostly weather-proof nowadays, so it's up to you whether you prefe
 
 It's important to look at your solar panel app at least once per month to distinguish between normal and abnormal system behavior as well as notice when there might be an issue with your system.
 
-| Normal solar production | <div style = {{ width: '500'}}> Abnormal solar production </div> |
+| Normal solar production | <div style = {{ width: '600'}}> Abnormal solar production </div> |
 |-------------------------|---------------------------|
 | ![](https://cdn.delivr.net/gh/guyklages/portfolio@master/solar/solar-production-normal.png) | ![](https://cdn.delivr.net/gh/guyklages/portfolio@master/solar/solar-production-up-and-down.png) |
-| Normal solar production creates a smooth and constant flow of energy throughout the day. | When clouds pass by, production fluctuates 1-2 kW for 5-20 minutes. <br/><br/> When production fluctuates more than 2 kW for 1+ hours, then contact your installer. <br/><br/> (In this case, our inverter was overheating and needed coolant) |
+| Normal solar production creates a smooth and constant flow of energy throughout the day. | When clouds pass by, production fluctuates 1-2 kW for 5-20 minutes. <br/><br/> When production fluctuates more than 2 kW, contact your installer. <br/><br/> (In this case, our inverter was overheating and needed coolant) |
 
 It's important to be aware of your monthly kWh generated and notice how each month compares to that month of the previous year.
 

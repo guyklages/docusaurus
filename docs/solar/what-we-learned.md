@@ -278,9 +278,21 @@ It's important to look at your solar panel app at least once per month to distin
 | ![](https://cdn.delivr.net/gh/guyklages/portfolio@master/solar/solar-production-normal.png) | ![](https://cdn.delivr.net/gh/guyklages/portfolio@master/solar/solar-production-up-and-down.png) |
 | Normal solar production creates a smooth and constant flow of energy throughout the day. | When clouds pass by, there will be a little fluctuation of 1 or 2 kW for a short time. <br/><br/> But when there are drastic fluctuations of more than 2 kW that lasts more than 1 hour, then contact your installer. <br/><br/> (In this case, our inverter was overheating, which our installer fixed by adding coolant) |
 
-For example, at the beginning of a new month, I like to compare how the previous month did compared to that month of the previous year (and sometimes two years prior). I noticed that we generated fewer kWh than both that month of the previous year and the average of that month of the past five years. That surprised me since two months earlier produced nearly the same as that month of the previous year, but I didn't think much of it. I waited and watched the next two months also have unusually low generation--lower than the 5-year averages for those months--until I finally sent a message to our solar installer. They responded that they see the exact same unusual behavior and know the solution and that it should be fixed urgently. (If they knew, why didn't they speak up earlier??) Sadly, their first available day to fix it was three weeks later. And it took them only 1.5 hours to fix it.
+It's important to be aware of your monthly kWh generated and notice how each month compares to that month of the previous year.
 
-The other telltale sign was that our [production graph was fluctuating between normal and no kW](./appendix.md#netzeroclaude-error-report). The first time you notice something strange, don't wait--contact your installer immediately.
+| Monthly kWh over the years | Remarks |
+|----------------------------|---------|
+| ![](https://cdn.delivr.net/gh/guyklages/portfolio@master/solar/Monthly-generated-kWh.png) | **Aug 2021** <br/> Expected drop since the Gateway breaker broke <br/><br/> **Aug 2024** <br/> Expected drop since we re-roofed <br/><br/> **Sep-Oct 2026** <br/> Abnormal drop due to the inverter overheating |
+
+In Sep 2026, I noticed that we generated slightly fewer kWh than Sep 2025 and that it was less than the average of the past five Augusts' kWh, but I thought it might just be an anomoly.
+
+Then, we waited and watched as the next month (Oct) also have unusually low generation--and surprizingly much lower than the 5-year October averages.
+
+So, I finally sent a message to our solar installer about our reduced production and was surprised they responded that they see the exact same unusual behavior and have known about it. They went on to say that they know the solution and that it should be fixed urgently. Sadly, their first available day to fix it was three weeks later. And it took them only 1.5 hours to fix it.
+
+(The other telltale sign was that our [production graph was fluctuating between normal and no kW](./appendix.md#netzeroclaude-error-report))
+
+**Lesson:** The first time you notice something strange, don't wait--contact your installer immediately.
 
 ## Charge EV slowly
 

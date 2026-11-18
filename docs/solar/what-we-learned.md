@@ -282,7 +282,7 @@ It's important to be aware of your monthly kWh generated and notice how each mon
 
 | Monthly kWh over the years | Remarks |
 |----------------------------|---------|
-| ![](https://cdn.delivr.net/gh/guyklages/portfolio@master/solar/Monthly-generated-kWh.png) | **Aug 2021** <br/> Expected drop since the Gateway breaker broke <br/><br/> **Aug 2024** <br/> Expected drop since we re-roofed <br/><br/> **Sep-Oct 2026** <br/> Abnormal drop due to the inverter overheating |
+| ![](https://cdn.delivr.net/gh/guyklages/portfolio@master/solar/Monthly-generated-kWh.png) | **Aug 2022** <br/> Expected drop since the Gateway breaker broke <br/><br/> **Aug 2024** <br/> Expected drop since we re-roofed <br/><br/> **Sep-Oct 2026** <br/> Abnormal drop due to the inverter overheating |
 
 In Sep 2026, I noticed that we generated slightly fewer kWh than Sep 2025 and that it was less than the average of the past five Augusts' kWh, but I thought it might just be an anomoly.
 

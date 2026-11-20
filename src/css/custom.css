@@ -107,6 +107,12 @@ div[class*="codeBlockTitle"] {
   font-size: 0.75rem;
 }
 
+/* Row spacing for all docs sidebars, closer to the right TOC's */
+.theme-doc-sidebar-menu .menu__link {
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+}
+
 /* Wider line spacing for the Portfolio sidebar only */
 .portfolio-sidebar-item .menu__link {
   padding-top: 0.5rem;
@@ -157,6 +163,12 @@ html[class*="docs-doc-id-couchbase/"] .table-of-contents > li > .table-of-conten
   color: #6b7280;
   font-weight: 400;
 }
+/* Dark mode: slightly lighter gray for better contrast (placed before the yellow
+   rule below so selected items stay yellow) */
+[data-theme='dark'] .menu__link,
+[data-theme='dark'] .menu__link:hover {
+  color: #8b929f;
+}
 /* Only color the leaf doc item yellow, not parent category headers */
 .menu__link--active:not(.menu__link--sublist),
 .menu__link--active:not(.menu__link--sublist):hover {
@@ -168,6 +180,10 @@ html[class*="docs-doc-id-couchbase/"] .table-of-contents > li > .table-of-conten
 .table-of-contents__link:hover {
   color: #6b7280;
   font-weight: 400;
+}
+[data-theme='dark'] .table-of-contents__link:not(.table-of-contents__link--active),
+[data-theme='dark'] .table-of-contents__link:not(.table-of-contents__link--active):hover {
+  color: #8b929f;
 }
 .table-of-contents__link--active,
 .table-of-contents__link--active:hover {

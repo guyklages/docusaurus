@@ -101,8 +101,8 @@ const sidebars = {
     {
         type: 'doc',
         id: 'portfolio/training',
-        label: 'Instructional design and training',
-        className: 'portfolio-sidebar-item',
+        label: 'Instructional design\nand training',
+        className: 'portfolio-sidebar-item sidebar-label-newlines',
     },
     {
       type: 'doc',

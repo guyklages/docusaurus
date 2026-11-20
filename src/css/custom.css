@@ -113,6 +113,18 @@ div[class*="codeBlockTitle"] {
   padding-bottom: 0.4rem;
 }
 
+/* Honor "\n" in a sidebar label (see sidebars.js) as a line break */
+.sidebar-label-newlines .menu__link {
+  white-space: pre-line;
+}
+
+/* Hide the Previous/Next buttons at the bottom of doc pages and blog posts.
+   (The blog list page's Newer/Older paginator is left alone so it stays navigable.) */
+.docs-doc-page .pagination-nav,
+.blog-post-page .pagination-nav {
+  display: none;
+}
+
 /* Wider line spacing for the Portfolio sidebar only */
 .portfolio-sidebar-item .menu__link {
   padding-top: 0.5rem;

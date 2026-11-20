@@ -45,7 +45,7 @@ const sidebars = {
     },
     {
         type: 'category',
-        label: 'Most impactful items I solved',
+        label: 'Most impactful items',
         collapsed: false,
         items: [
           {
@@ -89,7 +89,7 @@ const sidebars = {
     {
         type: 'doc',
         id: 'portfolio/tools-and-stack',
-        label: 'Tools & Stack',
+        label: 'Tools and Stack',
         className: 'portfolio-sidebar-item',
     },
     {
@@ -101,13 +101,13 @@ const sidebars = {
     {
         type: 'doc',
         id: 'portfolio/training',
-        label: 'Training and instructional design',
+        label: 'Instructional design and training',
         className: 'portfolio-sidebar-item',
     },
     {
       type: 'doc',
       id: 'portfolio/recommendations',
-      label: 'Recommendations on LinkedIn',
+      label: 'LinkedIn Recommendations',
       className: 'portfolio-sidebar-item',
     },
     {

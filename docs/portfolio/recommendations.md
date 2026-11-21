@@ -74,7 +74,7 @@
 
 
 
-## Training / Teaching
+## Trainer / Teacher
 
 ### Northeastern University
 

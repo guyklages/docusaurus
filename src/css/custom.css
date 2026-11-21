@@ -179,7 +179,7 @@ html[class*="docs-doc-id-couchbase/"] .table-of-contents > li > .table-of-conten
    rule below so selected items stay yellow) */
 [data-theme='dark'] .menu__link,
 [data-theme='dark'] .menu__link:hover {
-  color: #8b929f;
+  color: #8f96a3;
 }
 /* Only color the leaf doc item yellow, not parent category headers */
 .menu__link--active:not(.menu__link--sublist),

@@ -4,7 +4,13 @@ import { DefinitionProvider, DefTerm, DefinitionPanel } from '@site/src/componen
 
 ## Overview
 
-For each of the courses below, I designed the training using the ADDIE framework (Analyze, Design, Develop, Implement, Evaluate), wrote the quizzes and assessments, and revised the content based on learner results.
+### Training PMs and Devs
+
+For each of the courses below that I delivered to Product Managers and Developers:
+
+- I designed the training using the ADDIE framework (Analyze, Design, Develop, Implement, Evaluate).
+- I wrote the quizzes and assessments.
+- I revised and improved the content based on learner results and feedback.
 
 <DefinitionProvider>
 
@@ -18,6 +24,29 @@ For each of the courses below, I designed the training using the ADDIE framework
 | <DefTerm def="The VA Medical Center in Jamaica Plain offers ambulatory care and primary care services, and serves as a hub for outpatient care, including ambulatory surgery, pharmacy, whole health, audiology and diagnostic imaging for military veterans.">VA Medical Center</DefTerm>     | [eDC clinical trials](#edc-for-clinical-trials)               | Yes | Yes | Yes | Boston      | 2011 - 2013 |
 | <DefTerm def="ADP offers industry-leading online payroll and HR solutions, plus tax, compliance, benefit administration and more.">ADP Payroll</DefTerm>      | [Payroll reporting](#payroll-reporting)                       | Yes | Yes | Yes | Seattle     | 2008 - 2011 |
 | <DefTerm def="Talk Group is an experiential language center that teaches through 2-hour activities called Mini Adventures at various topic-related venues throughout the city instead of a traditional (single) classroom.">Talk Group</DefTerm>   | [ESL, Excel](#esl-excel), resumes | Yes | Yes | Yes | Shanghai    | 2002 - 2006 |
+
+<DefinitionPanel/>
+
+</DefinitionProvider>
+
+### Training Trainers, TAs, and Writers
+
+For each of the in-person trainings below that I delivered to Trainers, Teaching Assistants (TAs), Facilitators, and Writers:
+
+- I designed the training using the ADDIE framework (Analyze, Design, Develop, Implement, Evaluate).
+- I wrote the quizzes and assessments.
+- I revised and improved the content based on learner results and feedback.
+
+<DefinitionProvider>
+
+| Company               | Topic | Learners | <div style={{ width: '90px' }}>City</div> | <div style={{ width: '100px' }}>Year</div> |
+|-----------------------|-------|:--------:|-----------------------|:-----------------------:|
+| <DefTerm def="Edutainme is my own (part-time) startup company that has been teaching/training college students and adults throughout the Bay Area on weekends.">Edutainme</DefTerm>             | [Swagger](#swagger), DITA, MS Office macros  | 50+ | Bay Area   | 2014 - now |
+| <DefTerm def="Atelio was the fintech startup within FIS Global.">Atelio</DefTerm> | Markdown, headers, anchors, links  | 2 | Bay Area | 2024 - 2025 |
+| <DefTerm def="Nium is a fintech company driving the future of payments.">Nium</DefTerm>  | Style guide, markdown, technical concepts | 2 | Bay Area | 2022 - 2023 |
+| <DefTerm def="English Home is an experiential language center that teaches through 2-hour activities called Mini Adventures at various topic-related venues throughout the city instead of a traditional (single) classroom.">English Home</DefTerm>   | [ESL, Excel](#esl-excel), resumes | 2 | Saigon    | 2006 - 2007 |
+| <DefTerm def="Talk Group is an experiential language center that teaches through 2-hour activities called Mini Adventures at various topic-related venues throughout the city instead of a traditional (single) classroom.">Talk Group</DefTerm>   | [ESL, Excel](#esl-excel), resumes | 50+ | Shanghai    | 2002 - 2006 |
+| <DefTerm def="Learning Technologies and Testing Center is an experiential language center that teaches through 2-hour activities called Mini Adventures at various topic-related venues throughout the city instead of a traditional (single) classroom.">LTTC</DefTerm>   | [ESL, Excel](#esl-excel), resumes | 40+ | Taipei    | 1998 - 2001 |
 
 
 <DefinitionPanel/>
